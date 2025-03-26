@@ -64,6 +64,7 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
             crossorigin="anonymous"></script>
     <script src="./testname/js/google_adv.js"></script>
+    <script src="./testname/js/PageJs/index.js"></script>
 
     <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
@@ -212,9 +213,8 @@
                 <div class="elementor-widget-wrap elementor-element-populated" style="height: auto !important;">
                     <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html" data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
                         <div class="elementor-widget-container">
-                            <div id="top_adv_public">
-                                <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-3481735481590354" data-ad-slot="7945649647" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_1_host" style="border: medium; height: 280px; width: 1120px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:1120px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1120" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3481735481590354&amp;output=html&amp;h=280&amp;slotname=7945649647&amp;adk=195578525&amp;adf=632186861&amp;pi=t.ma~as.7945649647&amp;w=1120&amp;abgtt=6&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1742953268&amp;rafmt=1&amp;format=1120x280&amp;url=http%3A%2F%2Flocalhost%3A63342%2Fdemo%2Fmqqht.html%3F_ijt%3Dh36ec03p0r4vto1dcr5lonh9j3%26_ij_reload%3DRELOAD_ON_SAVE&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;dt=1742954521292&amp;bpp=1&amp;bdt=127&amp;idt=64&amp;shv=r20250324&amp;mjsv=m202503200101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=2922933622913&amp;frm=20&amp;pv=1&amp;u_tz=480&amp;u_his=1&amp;u_h=1440&amp;u_w=2560&amp;u_ah=1400&amp;u_aw=2560&amp;u_cd=24&amp;u_sd=1&amp;adx=316&amp;ady=80&amp;biw=1751&amp;bih=961&amp;scr_x=0&amp;scr_y=0&amp;eid=31091180%2C42532242%2C95353387%2C95355310%2C95356500%2C95356504%2C95355301&amp;oid=2&amp;pvsid=492827720020193&amp;tmod=840828102&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=92%2C158%2C92%2C158%2C2560%2C0%2C1784%2C1082%2C1768%2C961&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=66" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins></div>
-                        </div>
+                            <div id="top_adv_public"></div>
+                         </div>
                     </div>
                 </div>
             </div>
@@ -345,173 +345,7 @@
     </section>
 </div>
 
-<script id="footer_js">
-    function getQueryParam(name) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
 
-    $(document).ready(function () {
-        let langPage = getQueryParam("lang")
-
-        let utm_campaign =getQueryParam("utm_campaign") ;
-
-        document.getElementById("top_adv_public").innerHTML=returnADV_Block();
-
-        let aboutus_href = "./about_us.html"
-        let privacy_href = "./privacy.html"
-        let data_href = "./data.html"
-
-        if(langPage == "fr"){
-            aboutus_href = aboutus_href + "?lang=fr"
-            privacy_href = privacy_href + "?lang=fr"
-            data_href = data_href + "?lang=fr"
-        }else if(langPage == "es"){
-            aboutus_href = aboutus_href + "?lang=es"
-            privacy_href = privacy_href + "?lang=es"
-            data_href = data_href + "?lang=es"
-        }else if(langPage == "en"){
-            aboutus_href = aboutus_href + "?lang=en"
-            privacy_href = privacy_href + "?lang=en"
-            data_href = data_href + "?lang=en"
-        }else if(langPage == "pt"){
-            aboutus_href = aboutus_href + "?lang=pt"
-            privacy_href = privacy_href + "?lang=pt"
-            data_href = data_href + "?lang=pt"
-        }else{
-            aboutus_href = aboutus_href + "?lang=fr"
-            privacy_href = privacy_href + "?lang=fr"
-            data_href = data_href + "?lang=fr"
-        }
-
-        if(!isNull(utm_campaign)){
-            aboutus_href = aboutus_href + "&utm_campaign=" +utm_campaign;
-            privacy_href = privacy_href + "&utm_campaign=" +utm_campaign;
-            data_href = data_href + "&utm_campaign=" +utm_campaign;
-        }
-
-        document.getElementById("abount_us_link").href = aboutus_href
-        document.getElementById("privacy_link").href=privacy_href
-        document.getElementById("data_link").href=data_href
-
-
-        window.addEventListener('load', () => {
-            const content = document.getElementById('content_for_page');
-            const footer = document.getElementById('content_for_footer');
-            const header =  document.getElementById('content_for_header')
-
-            const totalHeight = content.offsetHeight + footer.offsetHeight;
-            const viewportHeight = window.innerHeight;
-
-            if (totalHeight < viewportHeight) {
-                content.style.minHeight = (viewportHeight - footer.offsetHeight - header.offsetHeight) + 'px';
-            }
-        });
-
-        window.addEventListener('resize', () => {
-            const content = document.getElementById('content_for_page');
-            const footer = document.getElementById('content_for_footer');
-            const header =  document.getElementById('content_for_header')
-
-            const totalHeight = content.offsetHeight + footer.offsetHeight;
-            const viewportHeight = window.innerHeight;
-
-            if (totalHeight < viewportHeight) {
-                content.style.minHeight = (viewportHeight - footer.offsetHeight - header.offsetHeight) + 'px';
-            }
-        });
-
-    });
-</script>
-
-<script id="index_main">
-    const adContainers = document.querySelectorAll('.adsbygoogle');
-    adContainers.forEach((adContainer, index) => {
-        (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-        // 定时检查广告容器是否已加载广告
-        const checkAdStatus = setInterval(() => {
-            if (adContainer.innerHTML.trim()) {
-                console.log(`广告容器 ${index + 1} 已加载广告`);
-                clearInterval(checkAdStatus);  // 停止检查
-            } else {
-                console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-            }
-        }, 1000);  // 每1秒检查一次
-    });
-
-    $(document).ready(function () {
-
-        let utm_campaign =getQueryParam("utm_campaign") ;
-
-        if(!isNull(utm_campaign)){
-            document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign
-            document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign
-            document.getElementById("fr_href").href= "./list.html?lang=fr" + "&utm_campaign=" +utm_campaign
-            document.getElementById("pt_href").href= "./list.html?lang=pt" + "&utm_campaign=" +utm_campaign
-        }else{
-            document.getElementById("en_href").href= "./list.html?lang=en"
-            document.getElementById("es_href").href= "./list.html?lang=es"
-            document.getElementById("fr_href").href= "./list.html?lang=fr"
-            document.getElementById("pt_href").href= "./list.html?lang=pt"
-        }
-    });
-
-
-</script>
-
-<script id="header_pic_js">
-    function getLangFromPath() {
-        const pathSegments = window.location.pathname.split("/");
-        return pathSegments[1] || "default"; // 语言通常是路径的第一部分
-    }
-
-    function getQueryParam(name) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
-
-    function isNull(value) {
-        return value === null;
-    }
-
-    $(document).ready(function () {
-
-        let langPage = getQueryParam("lang")
-
-        let utm_campaign =getQueryParam("utm_campaign") ;
-
-        let indexHref = ""
-        let home_str = ""
-
-        if(langPage == "fr"){
-            home_str = "Acceuil"
-            indexHref = "./list.html?lang=fr"
-        }else if(langPage == "es"){
-            home_str = "Inicio"
-            indexHref = "./list.html?lang=es"
-        }else if(langPage == "en"){
-            home_str = "Home"
-            indexHref = "./list.html?lang=en"
-        }else if(langPage == "pt"){
-            home_str = "Início"
-            indexHref = "./list.html?lang=pt"
-        }else{
-            home_str = "FGU"
-            indexHref = "./list.html?lang=fr"
-        }
-
-        if(!isNull(utm_campaign)){
-            indexHref = indexHref + "&utm_campaign=" +utm_campaign;
-        }
-
-        document.getElementById("menu_index_select").innerText = home_str
-        document.getElementById("menu_index_select").href=indexHref
-        document.getElementById("picForUrlJump").href=indexHref
-
-    });
-</script>
 
 </body>
 </html>

@@ -124,6 +124,7 @@
   <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <link rel="stylesheet" href="./testname/css/one.css">
   <script src="./testname/js/jquery.min.js?V=20200214"></script>
+  <script src="./testname/js/PageJs/about_us.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
           crossorigin="anonymous"></script>
 
@@ -148,7 +149,7 @@
 
 </head>
 <body>
-<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header"
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
      data-elementor-post-type="elementor_library">
   <section
           class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -240,7 +241,7 @@
   </section>
 </div>
 
-<div data-elementor-type="wp-page" data-elementor-id="213" class="elementor elementor-213" data-elementor-post-type="page">
+<div data-elementor-type="wp-page" data-elementor-id="213" class="elementor elementor-213" data-elementor-post-type="page" id = "content_for_page">
   <section class="elementor-section elementor-top-section elementor-element elementor-element-5da67fd elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="5da67fd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">
@@ -385,7 +386,7 @@
   </section>
 </div>
 
-<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer"
+<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer" id = "content_for_footer"
      data-elementor-post-type="elementor_library">
   <section
           class="elementor-section elementor-top-section elementor-element elementor-element-9e00932 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -507,108 +508,7 @@
   </section>
 </div>
 
-<script id="footer_js">
-  function getQueryParam(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-  }
 
-  $(document).ready(function () {
-    let langPage = getQueryParam("lang")
-
-    let utm_campaign =getQueryParam("utm_campaign") ;
-
-    let aboutus_href = "./about_us.html"
-    let privacy_href = "./privacy.html"
-    let data_href = "./data.html"
-
-    if(langPage == "fr"){
-      aboutus_href = aboutus_href + "?lang=fr"
-      privacy_href = privacy_href + "?lang=fr"
-      data_href = data_href + "?lang=fr"
-    }else if(langPage == "es"){
-      aboutus_href = aboutus_href + "?lang=es"
-      privacy_href = privacy_href + "?lang=es"
-      data_href = data_href + "?lang=es"
-    }else if(langPage == "en"){
-      aboutus_href = aboutus_href + "?lang=en"
-      privacy_href = privacy_href + "?lang=en"
-      data_href = data_href + "?lang=en"
-    }else if(langPage == "pt"){
-      aboutus_href = aboutus_href + "?lang=pt"
-      privacy_href = privacy_href + "?lang=pt"
-      data_href = data_href + "?lang=pt"
-    }else{
-      aboutus_href = aboutus_href + "?lang=fr"
-      privacy_href = privacy_href + "?lang=fr"
-      data_href = data_href + "?lang=fr"
-    }
-
-    if(!isNull(utm_campaign)){
-      aboutus_href = aboutus_href + "&utm_campaign=" +utm_campaign;
-      privacy_href = privacy_href + "&utm_campaign=" +utm_campaign;
-      data_href = data_href + "&utm_campaign=" +utm_campaign;
-    }
-
-    document.getElementById("abount_us_link").href = aboutus_href
-    document.getElementById("privacy_link").href=privacy_href
-    document.getElementById("data_link").href=data_href
-
-
-  });
-</script>
-
-<script id="header_pic_js">
-  function getLangFromPath() {
-    const pathSegments = window.location.pathname.split("/");
-    return pathSegments[1] || "default"; // 语言通常是路径的第一部分
-  }
-
-  function getQueryParam(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-  }
-
-  function isNull(value) {
-    return value === null;
-  }
-
-  $(document).ready(function () {
-
-    let langPage = getQueryParam("lang")
-
-    let utm_campaign =getQueryParam("utm_campaign") ;
-
-    let indexHref = ""
-    let home_str = ""
-
-    if(langPage == "fr"){
-      home_str = "Acceuil"
-      indexHref = "./list.html?lang=fr"
-    }else if(langPage == "es"){
-      home_str = "Inicio"
-      indexHref = "./list.html?lang=es"
-    }else if(langPage == "en"){
-      home_str = "Home"
-      indexHref = "./list.html?lang=en"
-    }else if(langPage == "pt"){
-      home_str = "Início"
-      indexHref = "./list.html?lang=pt"
-    }else{
-      home_str = "FGU"
-      indexHref = "./list.html?lang=fr"
-    }
-
-    if(!isNull(utm_campaign)){
-      indexHref = indexHref + "&utm_campaign=" +utm_campaign;
-    }
-
-    document.getElementById("menu_index_select").innerText = home_str
-    document.getElementById("menu_index_select").href=indexHref
-    document.getElementById("picForUrlJump").href=indexHref
-
-  });
-</script>
 
 </body>
 </html>
