@@ -908,7 +908,7 @@
 
                 if (index % 2 != 0 && index != 0) {
                     questionHTML = '<div class="advtest">' +
-                        returnMqqnlHTMLADV()
+                        returnADV_Block()
                         + '</div>' + questionHTML
                 }
                 return questionHTML;
@@ -944,18 +944,6 @@
         function getLangFromPath() {
             const pathSegments = window.location.pathname.split("/");
             return pathSegments[1] || "default"; // 语言通常是路径的第一部分
-        }
-
-        function returnMqqnlHTMLADV() {
-            let advMqqnlHtml = `<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="7945649647"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-`;
-
-            return advMqqnlHtml;
         }
 
         function encryptBase64(text) {
