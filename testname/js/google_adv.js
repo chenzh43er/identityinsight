@@ -5,7 +5,8 @@ function returnADV_Block(){
                              data-ad-client="ca-pub-3481735481590354"
                              data-ad-slot="7945649647"
                              data-ad-format="auto"
-                             data-full-width-responsive="true"></ins>`
+                             data-full-width-responsive="true"
+                             data-adtest="on"></ins>`
 }
 
 function returnZhongxiangGuding(){
@@ -13,7 +14,8 @@ function returnZhongxiangGuding(){
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3165596689"></ins>
+     data-ad-slot="3165596689"
+     data-adtest="on"></ins>
             `;
     return advHtml;
 }
