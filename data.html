@@ -135,7 +135,7 @@
 
 </head>
 <body>
-<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header"
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
      data-elementor-post-type="elementor_library">
   <section
           class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -227,7 +227,7 @@
   </section>
 </div>
 
-<div data-elementor-type="wp-page" data-elementor-id="217" class="elementor elementor-217" data-elementor-post-type="page">
+<div data-elementor-type="wp-page" data-elementor-id="217" class="elementor elementor-217" id = "content_for_page" data-elementor-post-type="page" style="background-color: #f6f6f6">
   <section class="elementor-section elementor-top-section elementor-element elementor-element-26017c2 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="26017c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
     <div class="elementor-container elementor-column-gap-default">
       <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49b08b0" data-id="49b08b0" data-element_type="column">
@@ -255,8 +255,8 @@
   </section>
 </div>
 
-<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer"
-     data-elementor-post-type="elementor_library">
+<div data-elementor-type="footer" data-elementor-id="197" id = "content_for_footer" class="elementor elementor-197 elementor-location-footer"
+     data-elementor-post-type="elementor_library" style="background-color: #f6f6f6">
   <section
           class="elementor-section elementor-top-section elementor-element elementor-element-9e00932 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
           data-id="9e00932" data-element_type="section"
@@ -424,6 +424,32 @@
     document.getElementById("privacy_link").href=privacy_href
     document.getElementById("data_link").href=data_href
 
+
+    window.addEventListener('load', () => {
+      const content = document.getElementById('content_for_page');
+      const footer = document.getElementById('content_for_footer');
+      const header =  document.getElementById('content_for_header')
+
+      const totalHeight = content.offsetHeight + footer.offsetHeight;
+      const viewportHeight = window.innerHeight;
+
+      if (totalHeight < viewportHeight) {
+        content.style.minHeight = (viewportHeight - footer.offsetHeight - header.offsetHeight) + 'px';
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      const content = document.getElementById('content_for_page');
+      const footer = document.getElementById('content_for_footer');
+      const header =  document.getElementById('content_for_header')
+
+      const totalHeight = content.offsetHeight + footer.offsetHeight;
+      const viewportHeight = window.innerHeight;
+
+      if (totalHeight < viewportHeight) {
+        content.style.minHeight = (viewportHeight - footer.offsetHeight - header.offsetHeight) + 'px';
+      }
+    });
 
   });
 </script>

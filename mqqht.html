@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
     <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
+    <script src="./testname/js/google_adv.js"></script>
 
     <style>
         /* 响应式样式 */
@@ -795,13 +796,7 @@
 
         function return_adv(){
 
-            let advMqqnlHtml = `<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="7945649647"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
-
+            let advMqqnlHtml = returnADV_Block();
             return advMqqnlHtml;
         }
     </script>
@@ -1347,29 +1342,11 @@
         });
 
         function returnMTADV(){
-            let advHtml = `
-                <!-- 1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3310392339"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-            `;
+            let advHtml = returnADV_Block();
             return advHtml;
         }
 
-        function returnZhongxiangGuding(){
-            let advHtml = `
-                     <!-- 1 -->
-<!-- zhongxiang -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3165596689"></ins>
-            `;
-            return advHtml;
-        }
+
 
 
     </script>
@@ -1527,15 +1504,7 @@
         });
 
         function returnRQADV(){
-            let advHtml = `
-                <!-- 1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3310392339"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-            `;
+            let advHtml = returnADV_Block();
             return advHtml;
         }
 

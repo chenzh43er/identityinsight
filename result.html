@@ -133,6 +133,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
     <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
 
+    <script src="./testname/js/google_adv.js"></script>
+
 </head>
 
 <body>
@@ -477,11 +479,6 @@
                                             <div class="recommend-quizzes-item-warp recommend">
                                                 <div class="container-list-item-warp"
                                                     style="transition-duration: 0.3s; transform: scale(1);">
-                                                    <!-- 1 -->
-                                                    <ins class="adsbygoogle" style="display:block"
-                                                        data-ad-client="ca-pub-3481735481590354"
-                                                        data-ad-slot="3310392339" data-ad-format="auto"
-                                                        data-full-width-responsive="true"></ins>
                                                 </div>
                                                 <a href="https://identityinsight.org/fr/test-page_fr/?utm_content=10000"
                                                     class="container-list-item common_list_a">
@@ -922,12 +919,7 @@
         });
 
         function return_adv(){
-            let advMqqnlHtml = `<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="7945649647"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+            let advMqqnlHtml = returnADV_Block()
 
             return advMqqnlHtml;
         }
@@ -1081,17 +1073,6 @@
             });
         }
 
-        function returnResultADV(){
-            return `<div class="result_div">
-  <!-- result_page -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-3481735481590354"
-       data-ad-slot="7943448511"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-</div>`;
-        }
 
 
     </script>
@@ -1301,27 +1282,7 @@
         });
 
         function returnMTADV(){
-            let advHtml = `
-                <!-- 1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3310392339"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-            `;
-            return advHtml;
-        }
-
-        function returnZhongxiangGuding(){
-            let advHtml = `
-                     <!-- 1 -->
-<!-- zhongxiang -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3165596689"></ins>
-            `;
+            let advHtml = returnADV_Block();
             return advHtml;
         }
 
@@ -1481,15 +1442,7 @@
         });
 
         function returnRQADV(){
-            let advHtml = `
-                <!-- 1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3310392339"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-            `;
+            let advHtml = returnADV_Block();
             return advHtml;
         }
 
