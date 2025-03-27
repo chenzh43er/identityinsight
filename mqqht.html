@@ -748,20 +748,17 @@
     </script>
 
     <script id="top_html">
-
         function getQueryParam(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
-
         function bindEvents2() {
             $(".test_start").off('click').on('click', function () {
                 const element = document.getElementById('mainPic');
-// 滚动到该元素
                 element.scrollIntoView({
-                    behavior: 'smooth', // 平滑滚动
-                    block: 'start',     // 将元素定位到视口的顶部
-                    inline: 'nearest'   // 尽量将元素对齐到视口内
+                    behavior: 'smooth',
+                    block: 'start',
+                    inline: 'nearest'
                 });
                 console.log("start")
             });
@@ -770,7 +767,6 @@
         $(document).ready(function () {
             let lang = getQueryParam("lang")
             let letgoText = "";
-
             if(lang == "fr"){
                 letgoText = "C’est parti"
             }else if(lang == "es"){
@@ -782,16 +778,13 @@
             }else{
                 letgoText = "Let's Start OP"
             }
-
             document.getElementById("start_button_text").innerText = letgoText;
             bindEvents2();
-            //console.log("start");
             (adsbygoogle = window.adsbygoogle || []).push({});
         });
-
         function getLangFromPath() {
             const pathSegments = window.location.pathname.split("/");
-            return pathSegments[1] || "default"; // 语言通常是路径的第一部分
+            return pathSegments[1] || "default";
         }
 
     </script>
@@ -903,26 +896,20 @@
         $(document).ready(function () {
             document.getElementById("top_adv_public").innerHTML = return_adv();
             document.getElementById("bot_adv_public").innerHTML = return_adv();
-
             const adContainers = document.querySelectorAll('.adsbygoogle');
             adContainers.forEach((adContainer, index) => {
-                (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                // 定时检查广告容器是否已加载广告
+                (adsbygoogle = window.adsbygoogle || []).push({});
                 const checkAdStatus = setInterval(() => {
                     if (adContainer.innerHTML.trim()) {
-                        //console.log(`广告容器 ${index + 1} 已加载广告`);
                         clearInterval(checkAdStatus);  // 停止检查
                     } else {
-                        //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                        (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                     }
-                }, 10000);  // 每1秒检查一次
+                }, 10000);
             });
         });
 
         function return_adv(){
-
             let advMqqnlHtml = returnADV_Block();
             return advMqqnlHtml;
         }
