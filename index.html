@@ -196,10 +196,10 @@
                         <div class="elementor-widget-container">
                             <div class = "index_container">
                                 <div class="container">
-                                    <a href="https://identityinsight.org/en/" class="index_ahref" id="en_href">English</a>
-                                    <a href="https://identityinsight.org/es/" class="index_ahref" id="es_href">Español</a>
-                                    <a href="https://identityinsight.org/fr/" class="index_ahref" id="fr_href">Français</a>
-                                    <a href="https://identityinsight.org/pt/" class="index_ahref" id="pt_href">Português</a>
+                                    <a href="https://identityinsight.org/en/" class="index_ahref" id="en_href"></a>
+                                    <a href="https://identityinsight.org/es/" class="index_ahref" id="es_href"></a>
+                                    <a href="https://identityinsight.org/fr/" class="index_ahref" id="fr_href"></a>
+                                    <a href="https://identityinsight.org/pt/" class="index_ahref" id="pt_href"></a>
                                 </div>
                             </div>
                         </div>
@@ -427,24 +427,20 @@
 <script id="index_main">
     const adContainers = document.querySelectorAll('.adsbygoogle');
     adContainers.forEach((adContainer, index) => {
-        (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-        // 定时检查广告容器是否已加载广告
+        (adsbygoogle = window.adsbygoogle || []).push({});
         const checkAdStatus = setInterval(() => {
             if (adContainer.innerHTML.trim()) {
                 console.log(`广告容器 ${index + 1} 已加载广告`);
                 clearInterval(checkAdStatus);  // 停止检查
             } else {
                 console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
+                (adsbygoogle = window.adsbygoogle || []).push({});
             }
-        }, 1000);  // 每1秒检查一次
+        }, 1000);
     });
 
     $(document).ready(function () {
-
         let utm_campaign =getQueryParam("utm_campaign") ;
-
         if(!isNull(utm_campaign)){
             document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign
             document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign
@@ -456,6 +452,12 @@
             document.getElementById("fr_href").href= "./list.html?lang=fr"
             document.getElementById("pt_href").href= "./list.html?lang=pt"
         }
+
+        document.getElementById("en_href").innerText= "English"
+        document.getElementById("es_href").innerText= "Español"
+        document.getElementById("fr_href").innerText= "Français"
+        document.getElementById("pt_href").innerText= "Português"
+
     });
 
 
