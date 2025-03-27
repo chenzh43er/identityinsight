@@ -145,32 +145,32 @@
         // 定时检查广告容器是否已加载广告
         const checkAdStatus = setInterval(() => {
         if (adContainer.innerHTML.trim()) {
-        console.log(`广告容器 ${index + 1} 已加载广告`);
-        clearInterval(checkAdStatus);  // 停止检查
-    } else {
-        console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-        (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-    }
-    }, 1000);  // 每1秒检查一次
-    });
+            console.log(`广告容器 ${index + 1} 已加载广告`);
+            clearInterval(checkAdStatus);  // 停止检查
+        } else {
+            console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
+            (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
+        }
+        }, 1000);  // 每1秒检查一次
+        });
 
         $(document).ready(function () {
 
-        document.getElementById("top_adv_public").innerHTML=returnADV_Block();
+            document.getElementById("top_adv_public").innerHTML=returnADV_Block();
 
-        let utm_campaign =getQueryParam("utm_campaign") ;
+            let utm_campaign =getQueryParam("utm_campaign") ;
 
-        if(!isNull(utm_campaign)){
-        document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign
-        document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign
-        document.getElementById("fr_href").href= "./list.html?lang=fr" + "&utm_campaign=" +utm_campaign
-        document.getElementById("pt_href").href= "./list.html?lang=pt" + "&utm_campaign=" +utm_campaign
-    }else{
-        document.getElementById("en_href").href= "./list.html?lang=en"
-        document.getElementById("es_href").href= "./list.html?lang=es"
-        document.getElementById("fr_href").href= "./list.html?lang=fr"
-        document.getElementById("pt_href").href= "./list.html?lang=pt"
-    }
-    });
+            if(!isNull(utm_campaign)){
+            document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign
+            document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign
+            document.getElementById("fr_href").href= "./list.html?lang=fr" + "&utm_campaign=" +utm_campaign
+            document.getElementById("pt_href").href= "./list.html?lang=pt" + "&utm_campaign=" +utm_campaign
+            }else{
+                document.getElementById("en_href").href= "./list.html?lang=en"
+                document.getElementById("es_href").href= "./list.html?lang=es"
+                document.getElementById("fr_href").href= "./list.html?lang=fr"
+                document.getElementById("pt_href").href= "./list.html?lang=pt"
+            }
+        });
 
     }
