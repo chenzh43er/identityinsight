@@ -424,20 +424,6 @@
 </script>
 
 <script id="index_main_js">
-    const adContainers = document.querySelectorAll('.adsbygoogle');
-    adContainers.forEach((adContainer, index) => {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        const checkAdStatus = setInterval(() => {
-            if (adContainer.innerHTML.trim()) {
-                console.log(`广告容器 ${index + 1} 已加载广告`);
-                clearInterval(checkAdStatus);  // 停止检查
-            } else {
-                console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            }
-        }, 1000);
-    });
-
     $(document).ready(function () {
         let utm_campaign =getQueryParam("utm_campaign") ;
         if(!isNull(utm_campaign)){
@@ -457,6 +443,19 @@
         document.getElementById("fr_href").innerText= "Français"
         document.getElementById("pt_href").innerText= "Português"
 
+        const adContainers = document.querySelectorAll('.adsbygoogle');
+        adContainers.forEach((adContainer, index) => {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            const checkAdStatus = setInterval(() => {
+                if (adContainer.innerHTML.trim()) {
+                    console.log(`广告容器 ${index + 1} 已加载广告`);
+                    clearInterval(checkAdStatus);  // 停止检查
+                } else {
+                    console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }
+            }, 1000);
+        });
     });
 
 
