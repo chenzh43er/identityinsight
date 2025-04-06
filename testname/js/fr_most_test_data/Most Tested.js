@@ -16,12 +16,12 @@ const dataM = {
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/1b7add88c83502b9c047b0b046d46872.gif",
 		"title":"Quel personnage de Nezha 2 êtes-vous ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/0e462733e0e9543e4fd1f22a26128475.jpeg",
-		"title":"Calculateur de Compatibilité Zodiaque|Entrez Pour Vérifier le Résultat😍 "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
+		"pic":"./testname/img/fr_img/590b599488fbd216084fed55fd4a66f3.gif",
+		"title":"Quelle est l'initiale du nom de votre coup de cœur ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/7676aca310f6d832638476ebc4d7dca4.gif",
-		"title":"Quelle est votre initiale de Saint-Valentin ? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
+		"pic":"./testname/img/fr_img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
+		"title":"Quel héros Marvel reflète vos bons et mauvais traits de caractère ? "
 	}]
 }

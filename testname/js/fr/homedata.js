@@ -16,18 +16,18 @@ const dataPage = {
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/1b7add88c83502b9c047b0b046d46872.gif",
 		"title":"Quel personnage de Nezha 2 êtes-vous ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
-		"title":"Quelle Princesse Disney Êtes-vous dans le Jeu d'Habillage?"
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
+		"pic":"./testname/img/fr_img/590b599488fbd216084fed55fd4a66f3.gif",
+		"title":"Quelle est l'initiale du nom de votre coup de cœur ? "
 	}],
 	"theLatest":[{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/7aefae88d6c1d5772d8b81aa87331837.gif",
-		"title":"Générez Votre Avatar Roblox Gratuitement! "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
+		"pic":"./testname/img/fr_img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
+		"title":"Quel héros Marvel reflète vos bons et mauvais traits de caractère ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/1371dba33e2f6ade24d03197271a4ab4.gif",
-		"title":"Quel serait votre plat spécial pour rompre le jeûne ce Ramadan ? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
+		"pic":"./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
+		"title":"Quel est votre coup de cœur masculin de Marvel ? "
 	},{
 		"url":"#",
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/b79de5e218af66bbb8b7a0d7c386517b.jpeg",

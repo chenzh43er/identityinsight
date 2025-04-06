@@ -16,17 +16,17 @@ const dataR = {
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/1b7add88c83502b9c047b0b046d46872.gif",
 		"title":"Quel personnage de Nezha 2 êtes-vous ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/6d34cb110d9fa1b429fb6cc5817ccde0.gif",
-		"title":"Êtes-vous pour le Mariage ou Célibataire? ❤️🔍 "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
+		"pic":"./testname/img/fr_img/590b599488fbd216084fed55fd4a66f3.gif",
+		"title":"Quelle est l'initiale du nom de votre coup de cœur ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/3fc78f067785324b25e7a640bec66530.gif",
-		"title":"Quelle héroïne Netflix correspond à votre esthétique ? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
+		"pic":"./testname/img/fr_img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
+		"title":"Quel héros Marvel reflète vos bons et mauvais traits de caractère ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
-		"title":"Quel Avatar Roblox Correspond à Votre Vibe? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
+		"pic":"./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
+		"title":"Quel est votre coup de cœur masculin de Marvel ? "
 	},{
 		"url":"#",
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
