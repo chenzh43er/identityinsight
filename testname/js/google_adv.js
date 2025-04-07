@@ -20,5 +20,4 @@ function returnZhongxiangGuding(){
     return advHtml;
 }
 
-
 //data-adtest="on" 复制该语句到为止为测试模式开启，删掉该语句则为正式广告
