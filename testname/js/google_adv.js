@@ -19,3 +19,6 @@ function returnZhongxiangGuding(){
             `;
     return advHtml;
 }
+
+
+//data-adtest="on" 复制该语句
