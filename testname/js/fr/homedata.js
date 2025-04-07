@@ -50,21 +50,21 @@ const dataPage = {
 		"pic":"./testname/img/fr_img/f1ee60c7c37a3fbaac6b9ea6cb17380f.gif",
 		"title":"Quel personnage de dessin animé reflète votre enfant intérieur ?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/56cfbae04399d0b19e2c8155c7071300.gif",
-		"title":"Quelle Œuvre d'Art de Transformation de Elsa ou Anna de La Reine des Neiges Correspond à Votre Véritable Beauté Intérieure? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10012",
+		"pic":"./testname/img/fr_img/45529fb4cae6928bb45836d7f8ed8cfb.gif",
+		"title":"L'Astrologie Prévoit Combien de Fois Vous Devriez Réincarner "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/66a5879abbf10d20d7451007ffc7ec2c.gif",
-		"title":"Découvrez quelle maison Toca Life reflète votre style de vie unique! "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10013",
+		"pic":"./testname/img/fr_img/6febc0f3e64d392a9e59182bff58fc75.gif",
+		"title":"Découvrez à quoi ressemble votre petit ami AI"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/ee45595b48733b467407b0590f42dff4.jpeg",
-		"title":"À Quoi Ressemblerez-Vous À 60 Ans? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10014",
+		"pic":"./testname/img/fr_img/87192201602c6a8362354e0e3c499c10.gif",
+		"title":"Prédisez votre prochaine vie grâce à l'astrologie !"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
-		"title":"Quel est votre niveau de football à VRFS? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10015",
+		"pic":"./testname/img/fr_img/ab4ac4fa80513401b1856f0757925ba4.gif",
+		"title":"Découvrez le message de Dieu à travers l'IA : Que vous dit-il ?"
 	},{
 		"url":"#",
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/eca89f78d280ebc9c88b16c713354207.gif",
