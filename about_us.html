@@ -147,6 +147,59 @@
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <!-- Step 1: 提前设置默认同意状态（最关键） -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+
+    gtag('consent', 'default', {
+      ad_storage: 'granted',
+      analytics_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      functionality_storage: 'granted',
+      personalization_storage: 'granted',
+      security_storage: 'granted'
+    });
+
+    gtag('set', {
+      ads_data_redaction: false,
+      url_passthrough: true,
+      'developer_id.dMWZhNz': true
+    });
+  </script>
+
+  <!-- Step 2: 加载 Cookiebot 脚本（非自动拦截模式） -->
+  <script id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="67393139-bb7b-4210-b00e-4f5925af575c"
+          data-blockingmode="none"
+          type="text/javascript">
+  </script>
+
+  <!-- Step 3: 劫持 Cookiebot 的后续状态更新（不允许用户拒绝） -->
+  <script>
+    window.addEventListener('CookiebotOnConsentReady', function () {
+      if (window.Cookiebot && window.Cookiebot.consent) {
+        Cookiebot.consent.preferences = true;
+        Cookiebot.consent.statistics = true;
+        Cookiebot.consent.marketing = true;
+        Cookiebot.consent.given = true;
+        Cookiebot.hasConsented = true;
+
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          analytics_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted',
+          functionality_storage: 'granted',
+          personalization_storage: 'granted',
+          security_storage: 'granted'
+        });
+      }
+    });
+  </script>
+
 </head>
 <body>
 <div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
