@@ -29,26 +29,26 @@ const dataPage = {
 		"pic":"./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
 		"title":"Quel est votre coup de cœur masculin de Marvel ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/b79de5e218af66bbb8b7a0d7c386517b.jpeg",
-		"title":"Créez votre photo avec un filtre d'anime des années 90 "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10007",
+		"pic":"./testname/img/fr_img/23c5ae8244c5f838ac6df53605f25c35.gif",
+		"title":"Quel animatronique de Five Nights At Freddy's seriez-vous dans Toca Life?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/64f504390cfe9654ebd3956c5199f58f.jpeg",
-		"title":"Créez votre propre avatar One Piece "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10008",
+		"pic":"./testname/img/fr_img/2ae7524f7b028c8635a4f71decffc8cd.gif",
+		"title":"Quel dieu mythique vous a béni ?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/44479425137802895af69efe9480828f.gif",
-		"title":"Transformez-vous en personnage d'Avatar : Le dernier maître de l'air "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10009",
+		"pic":"./testname/img/fr_img/6af843c64931a033ad3bde07e8be0e58.gif",
+		"title":"Qui aura une relation secrète avec vous?"
 	}],
 	"youMaylike":[{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
-		"title":"Votre Cartographie de Vie | Découvrez votre avenir lors de cette séance de lecture des lignes de la main 🔮✋ "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10010",
+		"pic":"./testname/img/fr_img/922749b64cef31e7d1f8a4789e423e19.gif",
+		"title":"Dans quelle époque êtes-vous"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/3ba919cbfae54254d6c5cc3e67d2d1ca.jpeg",
-		"title":"Je Suis Chat"
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10011",
+		"pic":"./testname/img/fr_img/f1ee60c7c37a3fbaac6b9ea6cb17380f.gif",
+		"title":"Quel personnage de dessin animé reflète votre enfant intérieur ?"
 	},{
 		"url":"#",
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/56cfbae04399d0b19e2c8155c7071300.gif",

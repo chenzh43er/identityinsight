@@ -28,8 +28,12 @@ const dataR = {
 		"pic":"./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
 		"title":"Quel est votre coup de cœur masculin de Marvel ? "
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
-		"title":"Votre Cartographie de Vie | Découvrez votre avenir lors de cette séance de lecture des lignes de la main 🔮✋ "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10007",
+		"pic":"./testname/img/fr_img/23c5ae8244c5f838ac6df53605f25c35.gif",
+		"title":"Quel animatronique de Five Nights At Freddy's seriez-vous dans Toca Life?"
+	},{
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10009",
+		"pic":"./testname/img/fr_img/6af843c64931a033ad3bde07e8be0e58.gif",
+		"title":"Qui aura une relation secrète avec vous?"
 	}]
 }
