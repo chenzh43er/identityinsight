@@ -1,78 +1,67 @@
+// Step 0: 初始化 dataLayer
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
 
-    (function () {
-    var page_link = window.location.href;
-
-    function sendAdViewEvent(iframe) {
-    if (iframe.getAttribute('data-ad-viewed')) return;
-    iframe.setAttribute('data-ad-viewed', 'true');
-
-    var adSrc = iframe.getAttribute('src') || '';
-    var queryId = iframe.getAttribute('data-google-query-id') || 'unknown';
-
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-    event: 'adsense_ad_view',
-    ad_link: adSrc,
-    ad_location: page_link,
-    google_query_id: queryId
-});
-}
-
-    function trackIframe(iframe, observer) {
-    if (iframe.getAttribute('data-ad-tracked')) return;
-    iframe.setAttribute('data-ad-tracked', 'true');
-    observer.observe(iframe);
-}
-
-    function initObservers() {
-    var intersectionObserver = new IntersectionObserver(function (entries) {
-    for (var i = 0; i < entries.length; i++) {
-    if (entries[i].isIntersecting) {
-    sendAdViewEvent(entries[i].target);
-}
-}
-}, {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.5
+// Step 1: 提前默认 grant（防止 Tag 阻塞）
+gtag('consent', 'default', {
+    ad_storage: 'granted',
+    analytics_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    functionality_storage: 'granted',
+    personalization_storage: 'granted',
+    security_storage: 'granted'
 });
 
-    var iframes = document.querySelectorAll('iframe[src*="googleads.g.doubleclick.net"], iframe[src$="/html/container.html"]');
-    for (var i = 0; i < iframes.length; i++) {
-    trackIframe(iframes[i], intersectionObserver);
-}
-
-    var mutationObserver = new MutationObserver(function (mutations) {
-    for (var i = 0; i < mutations.length; i++) {
-    var addedNodes = mutations[i].addedNodes;
-    for (var j = 0; j < addedNodes.length; j++) {
-    var node = addedNodes[j];
-
-    if (node.tagName === 'IFRAME') {
-    var src = node.getAttribute('src') || '';
-    if (src.indexOf('googleads.g.doubleclick.net') !== -1 || src.endsWith('/html/container.html')) {
-    trackIframe(node, intersectionObserver);
-}
-}
-
-    if (node.querySelectorAll) {
-    var newIframes = node.querySelectorAll('iframe[src*="googleads.g.doubleclick.net"], iframe[src$="/html/container.html"]');
-    for (var k = 0; k < newIframes.length; k++) {
-    trackIframe(newIframes[k], intersectionObserver);
-}
-}
-}
-}
+gtag('set', {
+    ads_data_redaction: false,
+    url_passthrough: true,
+    'developer_id.dMWZhNz': true
 });
 
-    // ✅ 这时候 document.body 是可用的
-    mutationObserver.observe(document.body, { childList: true, subtree: true });
-}
+// Step 2: 注入 Cookiebot，使用 defer，阻止其抢先执行
+var script = document.createElement('script');
+script.id = "Cookiebot";
+script.src = "https://consent.cookiebot.com/uc.js";
+script.setAttribute('data-cbid', '67393139-bb7b-4210-b00e-4f5925af575c');
+script.setAttribute('data-blockingmode', 'none');
+script.type = "text/javascript";
+script.defer = true;
+document.head.appendChild(script);
 
-    // ✅ 等待 DOM 完全加载再初始化
-    if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initObservers);
-} else {
-    initObservers();
-}
-})();
+// Step 3: 强制覆盖 Cookiebot 的状态，并劫持所有路径
+window.addEventListener('CookiebotOnConsentReady', function () {
+    if (window.Cookiebot && window.Cookiebot.consent) {
+        Cookiebot.consent.preferences = true;
+        Cookiebot.consent.statistics = true;
+        Cookiebot.consent.marketing = true;
+        Cookiebot.consent.given = true;
+        Cookiebot.hasConsented = true;
+
+        gtag('consent', 'update', {
+            ad_storage: 'granted',
+            analytics_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            functionality_storage: 'granted',
+            personalization_storage: 'granted',
+            security_storage: 'granted'
+        });
+
+        console.log('[Consent] 强制 granted 成功 ✅');
+    } else {
+        console.warn('[Consent] Cookiebot 还未准备好 ❌');
+    }
+});
+
+// 补丁：防止 Cookiebot 后续重置为 false
+Object.defineProperty(document, 'cookie', {
+    set: function(cookieString) {
+        if (cookieString.indexOf("CookieConsent=") === -1) {
+            document.__cookie__ = (document.__cookie__ || '') + "; " + cookieString;
+        }
+    },
+    get: function() {
+        return document.__cookie__ || "";
+    }
+});

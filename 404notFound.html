@@ -124,6 +124,7 @@
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link rel="stylesheet" href="./testname/css/one.css">
     <script src="./testname/js/jquery.min.js?V=20200214"></script>
+    <script src="./testname/js/google_js.js"></script>
 <!--    <script src="./testname/js/PageJsEn/404notFound.js"></script>-->
 
     <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
@@ -146,65 +147,6 @@
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Step 0: 定义 GTM 所需的 dataLayer 和 gtag 函数 -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-    </script>
-
-    <!-- Step 1: 提前默认 grant 所有权限（最关键） -->
-    <script>
-        gtag('consent', 'default', {
-            ad_storage: 'granted',
-            analytics_storage: 'granted',
-            ad_user_data: 'granted',
-            ad_personalization: 'granted',
-            functionality_storage: 'granted',
-            personalization_storage: 'granted',
-            security_storage: 'granted'
-        });
-
-        gtag('set', {
-            ads_data_redaction: false,
-            url_passthrough: true,
-            'developer_id.dMWZhNz': true // 保留你已有的 GA4 参数
-        });
-    </script>
-
-    <!-- Step 2: 加载 Cookiebot（设置为非阻断模式） -->
-    <script id="Cookiebot"
-            src="https://consent.cookiebot.com/uc.js"
-            data-cbid="67393139-bb7b-4210-b00e-4f5925af575c"
-            data-blockingmode="none"
-            type="text/javascript">
-    </script>
-
-    <!-- Step 3: 强制覆盖 Cookiebot 同意状态，模拟“用户已同意” -->
-    <script>
-        window.addEventListener('CookiebotOnConsentReady', function () {
-            if (window.Cookiebot && window.Cookiebot.consent) {
-                // 模拟用户已同意全部分类
-                Cookiebot.consent.preferences = true;
-                Cookiebot.consent.statistics = true;
-                Cookiebot.consent.marketing = true;
-                Cookiebot.consent.given = true;
-                Cookiebot.hasConsented = true;
-
-                // 通知 gtag 再次确认授权状态，确保 GA4 不会暂停事件上报
-                gtag('consent', 'update', {
-                    ad_storage: 'granted',
-                    analytics_storage: 'granted',
-                    ad_user_data: 'granted',
-                    ad_personalization: 'granted',
-                    functionality_storage: 'granted',
-                    personalization_storage: 'granted',
-                    security_storage: 'granted'
-                });
-
-                console.log('[Consent] 强制 granted 状态已设定 ✅');
-            }
-        });
-    </script>
 
 </head>
 <body>
