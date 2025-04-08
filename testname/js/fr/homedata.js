@@ -66,24 +66,36 @@ const dataPage = {
 		"pic":"./testname/img/fr_img/ab4ac4fa80513401b1856f0757925ba4.gif",
 		"title":"Découvrez le message de Dieu à travers l'IA : Que vous dit-il ?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/eca89f78d280ebc9c88b16c713354207.gif",
-		"title":"Quel Personnage De Turning Red Est-Il Votre Jumeau Pixar Iconique ? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10016",
+		"pic":"./testname/img/fr_img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
+		"title":"Quelles sont mes surprises d'avril ?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/cc61100b6142456ed68cb2222fcfb8c2.gif",
-		"title":"Suis-je Fidèle Ou Un Joueur? 💔🔒 "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10017",
+		"pic":"./testname/img/fr_img/3587ec0926c5d2c63bf37e582e73a32d.gif",
+		"title":"Quelle a été la première impression de votre amoureux sur vous par rapport à l'impression actuelle?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/20badb2a9ea222de03c180662c822620.webp",
-		"title":"Quelle Princesse Disney Êtes-vous Quand Vous Êtes Fâchée ? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10018",
+		"pic":"./testname/img/fr_img/b7ab8b14dcc4bf523dbbb70505c2f9de.jpeg",
+		"title":"Diagnostic du pouls en médecine chinoise : testez combien de partenaires vous aurez"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/07fc6eb956681ea75f76aae2205cf14f.gif",
-		"title":"Amoureux ou Combattant ? Découvrez votre véritable nature en amour ❤️⚔️ "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10019",
+		"pic":"./testname/img/fr_img/ae65488ddb169cb68cf3b5ea59205b06.jpeg",
+		"title":"Look A Like Cam : À quel célébrité ressemblez-vous ?"
 	},{
-		"url":"#",
-		"pic":"https://identityinsight.org/testCommon4/img/fr_img/34161a9a22436702885f3f857baf53fc.gif",
-		"title":"Seriez-vous un gardien ou un invité dans Je suis la Sécurité? "
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10020",
+		"pic":"./testname/img/fr_img/b893322ce802ef9b322e0c5a47fec5e7.gif",
+		"title":"Qui est votre partenaire de vie destiné? "
+	},{
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10021",
+		"pic":"./testname/img/fr_img/b6a20644ba06f504cfb1856dd5ab0519.jpeg",
+		"title":"Où renaîtrai-je dans ma prochaine vie ?"
+	},{
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10022",
+		"pic":"./testname/img/fr_img/215198833c7b15a0ff47eb7303138b4b.gif",
+		"title":"L'astrologie Peut Révéler Où Vous Irez Quand Vous Mourrez"
+	},{
+		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10023",
+		"pic":"./testname/img/fr_img/b576911a28e8afca90e64c61da568ffa.gif",
+		"title":"Votre anniversaire détermine votre personnalité cachée !"
 	}]
 }
