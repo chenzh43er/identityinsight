@@ -1,4 +1,5 @@
- (function () {
+
+    (function () {
     var page_link = window.location.href;
 
     function sendAdViewEvent(iframe) {
@@ -64,8 +65,14 @@
 }
 });
 
+    // ✅ 这时候 document.body 是可用的
     mutationObserver.observe(document.body, { childList: true, subtree: true });
 }
 
+    // ✅ 等待 DOM 完全加载再初始化
+    if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initObservers);
+} else {
     initObservers();
+}
 })();
