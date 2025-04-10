@@ -16,24 +16,28 @@ const dataR = {
         "pic":"./testname/img/en_img/d3c23c5294724c45ee6bf5fcb0b69d0d.gif",
         "title":"Your Happy Ending? | Discover Which Disney Prince Is Your Soulmate？ 🏰❤️ "
     },{
-        "url":"#",
-        "pic":"./testname/img/en_img/9c4b71325ec28b80f518d2602bde84e9.webp",
-        "title":"Which Disney Baby Are You Most Like? "
-    },{
-        "url":"#",
-        "pic":"./testname/img/en_img/121da6523f9bb2e641e448f45f9f4d3b.jpeg",
-        "title":"Which Disney Character Is Your Soulmate? "
-    },{
-        "url":"#",
-        "pic":"./testname/img/en_img/e06eaa51fbe9b0861f39848257d6e2c3.gif",
-        "title":"Which Encanto Glow Up Matches Your True Inner Beauty? "
-    },{
-        "url":"#",
-        "pic":"./testname/img/en_img/c61f13411032997ab5bec6556ffca94a.gif",
-        "title":"Which Character From Moana 2 Would You Be? "
-    },{
-        "url":"#",
-        "pic":"./testname/img/en_img/4fc006584006947dd8f1d254b713bd41.jpeg",
-        "title":"Sweet Or Hot Girl? | Discover Your True Self "
-    }]
+        "url": "https://identityinsight.org/en/test-page_en/?utm_content=10018",
+        "pic": "https://identityinsight.org/testCommon4/img/en_img/e0d1db9d3708f648d36306b668df9d86.gif",
+        "title": "Which Beat Saber Song Show Your Vibe?"
+    },
+        {
+            "url": "https://identityinsight.org/en/test-page_en/?utm_content=10019",
+            "pic": "https://identityinsight.org/testCommon4/img/en_img/07e41d20159406ff2364a92b9125b1e9.jpeg",
+            "title": "What Protection Symbols Do You Relate To Most?"
+        },
+        {
+            "url": "https://identityinsight.org/en/test-page_en/?utm_content=10020",
+            "pic": "https://identityinsight.org/testCommon4/img/en_img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
+            "title": "What Vegetable Are You Based On Your Fingerprint?"
+        },
+        {
+            "url": "https://identityinsight.org/en/test-page_en/?utm_content=10021",
+            "pic": "https://identityinsight.org/testCommon4/img/en_img/6febc0f3e64d392a9e59182bff58fc75.gif",
+            "title": "Find Out What Your AI Boyfriend Looks Like"
+        },
+        {
+            "url": "https://identityinsight.org/en/test-page_en/?utm_content=10022",
+            "pic": "https://identityinsight.org/testCommon4/img/en_img/ab4ac4fa80513401b1856f0757925ba4.gif",
+            "title": "Discover God's Message Through AI: What Does It Say To You?"
+        }]
 }
