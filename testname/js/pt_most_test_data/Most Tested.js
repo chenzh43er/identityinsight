@@ -16,12 +16,13 @@ const dataM = {
         "pic":"./testname/img/pt_img/594af3246ee1a672d5973d3744b6af0f.gif",
         "title":"Qual Herói Combina com Suas Habilidades em Marvel Rivals? "
     },{
-        "url":"#",
-        "pic":"./testname/img/pt_img/b9247ba01d1c92fda431b088ebd30853.jpeg",
-        "title":"Quem é você e seu garoto em Round 6? "
-    },{
-        "url":"#",
-        "pic":"./testname/img/pt_img/68b7bc816ee17e7ebe5f95bb5bd24fb3.gif",
-        "title":"Você é mais uma pessoa de amor à primeira vista ou um buscador de almas gêmeas? "
-    }]
+        "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10028",
+        "pic": "https://identityinsight.org/testCommon4/img/pt_img/218fda43b8516700d8e65f4d4424f708.gif",
+        "title": "Quem é seu Alma Gêmea? Descubra a Inicial do Nome, Signo do Zodíaco, Cor do Cabelo e dos Olhos!"
+    },
+        {
+            "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10029",
+            "pic": "https://identityinsight.org/testCommon4/img/pt_img/07e41d20159406ff2364a92b9125b1e9.jpeg",
+            "title": "Com quais símbolos de proteção você mais se identifica?"
+        }]
 }

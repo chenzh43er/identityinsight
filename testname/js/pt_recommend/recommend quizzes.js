@@ -16,24 +16,28 @@ const dataR = {
         "pic":"./testname/img/pt_img/594af3246ee1a672d5973d3744b6af0f.gif",
         "title":"Qual Herói Combina com Suas Habilidades em Marvel Rivals? "
     },{
-        "url":"#",
-        "pic":"https://identityinsight.org/testCommon4/img/fr_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
-        "title":"Quel est votre niveau de football à VRFS? "
-    },{
-        "url":"#",
-        "pic":"https://identityinsight.org/testCommon4/img/fr_img/eca89f78d280ebc9c88b16c713354207.gif",
-        "title":"Quel Personnage De Turning Red Est-Il Votre Jumeau Pixar Iconique ? "
-    },{
-        "url":"#",
-        "pic":"https://identityinsight.org/testCommon4/img/fr_img/cc61100b6142456ed68cb2222fcfb8c2.gif",
-        "title":"Suis-je Fidèle Ou Un Joueur? 💔🔒 "
-    },{
-        "url":"#",
-        "pic":"https://identityinsight.org/testCommon4/img/fr_img/20badb2a9ea222de03c180662c822620.webp",
-        "title":"Quelle Princesse Disney Êtes-vous Quand Vous Êtes Fâchée ? "
-    },{
-        "url":"#",
-        "pic":"https://identityinsight.org/testCommon4/img/fr_img/07fc6eb956681ea75f76aae2205cf14f.gif",
-        "title":"Amoureux ou Combattant ? Découvrez votre véritable nature en amour ❤️⚔️ "
-    }]
+        "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10023",
+        "pic": "https://identityinsight.org/testCommon4/img/pt_img/dd1da2d2e2fa64494019288642c7d472.gif",
+        "title": "Descubra a Causa da Sua Morte em Sua Vida Passada Através de Impressões Digitais"
+    },
+        {
+            "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10024",
+            "pic": "https://identityinsight.org/testCommon4/img/pt_img/e0d1db9d3708f648d36306b668df9d86.gif",
+            "title": "Qual música do Beat Saber mostra sua vibração?"
+        },
+        {
+            "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10025",
+            "pic": "https://identityinsight.org/testCommon4/img/pt_img/68539001e80fd90661f6649e204a9469.gif",
+            "title": "Qual Personagem de NANA Você É?"
+        },
+        {
+            "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10026",
+            "pic": "https://identityinsight.org/testCommon4/img/pt_img/af609e6c39e7382a63fe7001b30d5f5f.gif",
+            "title": "O Que a Sua Impressão Digital Revela Sobre o Nome do Seu Alma Gêmea?"
+        },
+        {
+            "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10027",
+            "pic": "https://identityinsight.org/testCommon4/img/pt_img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
+            "title": "Qual Legume Você É Baseado na Sua Impressão Digital?"
+        }]
 }
