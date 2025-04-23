@@ -1245,6 +1245,36 @@
                         if(!isNull(content)){
                             item.url = item.url + "&content=" +content;
                         }
+                    }else{
+                        let utm_keyword = getQueryParam("keyword") ;
+
+                        let utm_medium = getQueryParam("medium") ;
+
+                        let utm_source = getQueryParam("source") ;
+
+                        let campaign =getQueryParam("campaign") ;
+
+                        let content =getQueryParam("content") ;
+
+                        if(!isNull(utm_source)){
+                            item.url = item.url + "&source=" +utm_source;
+                        }
+
+                        if(!isNull(utm_keyword)){
+                            item.url = item.url + "&keyword=" +utm_keyword;
+                        }
+
+                        if(!isNull(utm_medium)){
+                            item.url = item.url + "&medium=" +utm_medium;
+                        }
+
+                        if(!isNull(campaign)){
+                            item.url = item.url + "&campaign=" +campaign;
+                        }
+
+                        if(!isNull(content)){
+                            item.url = item.url + "&content=" +content;
+                        }
                     }
 
                     item.url = item.url.replace("titleid","utm_content")
@@ -1486,6 +1516,36 @@
                     }else if (!isNull(utm_campaign)){
                         item.url = item.url + "&utm_campaign=" + utm_campaign
 
+                        let utm_keyword = getQueryParam("keyword") ;
+
+                        let utm_medium = getQueryParam("medium") ;
+
+                        let utm_source = getQueryParam("source") ;
+
+                        let campaign =getQueryParam("campaign") ;
+
+                        let content =getQueryParam("content") ;
+
+                        if(!isNull(utm_source)){
+                            item.url = item.url + "&source=" +utm_source;
+                        }
+
+                        if(!isNull(utm_keyword)){
+                            item.url = item.url + "&keyword=" +utm_keyword;
+                        }
+
+                        if(!isNull(utm_medium)){
+                            item.url = item.url + "&medium=" +utm_medium;
+                        }
+
+                        if(!isNull(campaign)){
+                            item.url = item.url + "&campaign=" +campaign;
+                        }
+
+                        if(!isNull(content)){
+                            item.url = item.url + "&content=" +content;
+                        }
+                    }else{
                         let utm_keyword = getQueryParam("keyword") ;
 
                         let utm_medium = getQueryParam("medium") ;

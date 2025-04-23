@@ -475,6 +475,37 @@
                   .replace("https://identityinsight.org/testCommon8","./testname")
                   .replace("https://identityinsight.org/testCommon9","./testname")
 
+          let utm_keyword = getQueryParam("keyword") ;
+
+          let utm_medium = getQueryParam("medium") ;
+
+          let utm_source = getQueryParam("source") ;
+
+          let campaign =getQueryParam("campaign") ;
+
+          let content =getQueryParam("content") ;
+
+          if(!isNull(utm_source)){
+            testData.url = testData.url + "&source=" +utm_source;
+          }
+
+          if(!isNull(utm_keyword)){
+            testData.url = testData.url + "&keyword=" +utm_keyword;
+          }
+
+          if(!isNull(utm_medium)){
+            testData.url = testData.url + "&medium=" +utm_medium;
+          }
+
+          if(!isNull(campaign)){
+            testData.url = testData.url + "&campaign=" +campaign;
+          }
+
+          if(!isNull(content)){
+            testData.url = testData.url + "&content=" +content;
+          }
+
+
           let contentIndex0Html = `
                 <a href="${testData.url}" class="container-list-item common_list_a">
                     <div class="container-list-item-warp">
@@ -580,6 +611,36 @@
               item.url = item.url + "&content=" +content;
             }
 
+          }else{
+            let utm_keyword = getQueryParam("keyword") ;
+
+            let utm_medium = getQueryParam("medium") ;
+
+            let utm_source = getQueryParam("source") ;
+
+            let campaign =getQueryParam("campaign") ;
+
+            let content =getQueryParam("content") ;
+
+            if(!isNull(utm_source)){
+              item.url = item.url + "&source=" +utm_source;
+            }
+
+            if(!isNull(utm_keyword)){
+              item.url = item.url + "&keyword=" +utm_keyword;
+            }
+
+            if(!isNull(utm_medium)){
+              item.url = item.url + "&medium=" +utm_medium;
+            }
+
+            if(!isNull(campaign)){
+              item.url = item.url + "&campaign=" +campaign;
+            }
+
+            if(!isNull(content)){
+              item.url = item.url + "&content=" +content;
+            }
           }
 
           item.pic = item.pic.replace("gif","png")
