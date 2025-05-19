@@ -370,7 +370,7 @@
 
         let testData = null;
 
-        if(index == 0 && !isNull(utm_campaign)) {
+        if(index == 0 && !isNull(utm_campaign) && isM == 0) {
           testData = utm_campaignData[utm_campaign]
 
           testData.url = testData.url.replace("https://identityinsight.org/es/test-page_es/?","./mqqht.html?lang=es&")
@@ -415,6 +415,35 @@
           if(!isNull(country)){
             testData.url = testData.url + "&country=" +country;
           }
+
+          testData.pic = testData.pic
+                  .replace("gif","png").replace("https://identityinsight.org/testCommon4","./testname")
+                  .replace("https://identityinsight.org/testCommon4","./testname")
+                  .replace("https://identityinsight.org/testCommon5","./testname")
+                  .replace("https://identityinsight.org/testCommon6","./testname")
+                  .replace("https://identityinsight.org/testCommon7","./testname")
+                  .replace("https://identityinsight.org/testCommon8","./testname")
+                  .replace("https://identityinsight.org/testCommon9","./testname")
+
+          let contentIndex0Html = `
+                <a href="${testData.url}" class="container-list-item common_list_a">
+                    <div class="container-list-item-warp">
+                        <div class="container-list-item-img">
+                            <img class="lazyimg common_three_li_img"
+                                data-language="en"
+                                data-src="${testData.pic}"
+                                src="${testData.pic}"
+                                alt="${testData.title}" loading="lazy">
+                        </div>
+                        <div class="container-list-item-p" style="height: 80px">
+                            <p>${testData.title}</p>
+                        </div>
+                    </div>
+                </a>
+                `
+
+          return contentIndex0Html;
+
         }
 
         if(index == 0 && !isNull(testData) && isM == 0 && isNull(utm_campaign)){
@@ -483,7 +512,8 @@
                 `
 
           return contentIndex0Html;
-        }else{
+        }
+        else{
 
           item.url = item.url.replace("https://identityinsight.org/es/test-page_es/?","./mqqht.html?lang=es&")
                   .replace("https://identityinsight.org/en/test-page_en/?","./mqqht.html?lang=en&")
