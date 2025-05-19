@@ -390,6 +390,8 @@
 
           let content =getQueryParam("content") ;
 
+          let country = getQueryParam("country");
+
           if(!isNull(utm_source)){
             testData.url = testData.url + "&source=" +utm_source;
           }
@@ -409,9 +411,13 @@
           if(!isNull(content)){
             testData.url = testData.url + "&content=" +content;
           }
+
+          if(!isNull(country)){
+            testData.url = testData.url + "&country=" +country;
+          }
         }
 
-        if(index == 0 && !isNull(testData) && isM == 0){
+        if(index == 0 && !isNull(testData) && isM == 0 && isNull(utm_campaign)){
 
           testData.pic = testData.pic
                   .replace("gif","png").replace("https://identityinsight.org/testCommon4","./testname")
@@ -431,6 +437,12 @@
           let campaign =getQueryParam("campaign") ;
 
           let content =getQueryParam("content") ;
+
+          let country = getQueryParam("country");
+
+          if(!isNull(country)){
+            testData.url = testData.url + "&country=" +country;
+          }
 
           if(!isNull(utm_source)){
             testData.url = testData.url + "&source=" +utm_source;
@@ -505,6 +517,8 @@
 
             let content =getQueryParam("content") ;
 
+            let country = getQueryParam("country");
+
             if(!isNull(utm_source)){
               testData.url = testData.url + "&source=" +utm_source;
             }
@@ -525,8 +539,14 @@
               testData.url = testData.url + "&content=" +content;
             }
 
+            if(!isNull(country)){
+              testData.url = testData.url + "&country=" +country;
+            }
+
           }else if (!isNull(utm_campaign)){
             item.url = item.url + "&utm_campaign=" + utm_campaign
+
+            let country = getQueryParam("country");
 
             let utm_keyword = getQueryParam("keyword") ;
 
@@ -537,6 +557,10 @@
             let campaign =getQueryParam("campaign") ;
 
             let content =getQueryParam("content") ;
+
+            if(!isNull(country)){
+              item.url = item.url + "&country=" +country;
+            }
 
             if(!isNull(utm_source)){
               item.url = item.url + "&source=" +utm_source;
@@ -569,6 +593,8 @@
 
             let content =getQueryParam("content") ;
 
+            let country = getQueryParam("country");
+
             if(!isNull(utm_source)){
               item.url = item.url + "&source=" +utm_source;
             }
@@ -587,6 +613,10 @@
 
             if(!isNull(content)){
               item.url = item.url + "&content=" +content;
+            }
+
+            if(!isNull(country)){
+              item.url = item.url + "&country=" +country;
             }
           }
 

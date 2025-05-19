@@ -22,6 +22,8 @@ $(document).ready(function () {
 
     let utm_source = getQueryParam("source") ;
 
+    let country = getQueryParam("country");
+
     let aboutus_href = "./about_us.html"
     let privacy_href = "./privacy.html"
     let data_href = "./data.html"
@@ -82,6 +84,12 @@ $(document).ready(function () {
         aboutus_href = aboutus_href + "&medium=" +utm_medium;
         privacy_href = privacy_href + "&medium=" +utm_medium;
         data_href = data_href + "&medium=" +utm_medium;
+    }
+
+    if(!isNull(country)){
+        aboutus_href = aboutus_href + "&country=" +country;
+        privacy_href = privacy_href + "&country=" +country;
+        data_href = data_href + "&country=" +country;
     }
 
     document.getElementById("abount_us_link").href = aboutus_href

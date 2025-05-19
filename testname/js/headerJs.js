@@ -28,6 +28,8 @@ $(document).ready(function () {
 
     let utm_source = getQueryParam("source") ;
 
+    let country = getQueryParam("country")
+
 
     let indexHref = ""
     let home_str = ""
@@ -71,6 +73,10 @@ $(document).ready(function () {
 
     if(!isNull(utm_medium)){
         indexHref = indexHref + "&medium=" +utm_medium;
+    }
+
+    if(!isNull(country)){
+        indexHref = indexHref + "&country=" +country;
     }
 
     document.getElementById("menu_index_select").innerText = home_str

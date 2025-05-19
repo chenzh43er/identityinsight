@@ -345,13 +345,19 @@
 
 <script id="index_main_js">
     $(document).ready(function () {
-        let utm_campaign =getQueryParam("campaign") ;
+        let utm_campaign =getQueryParam("utm_campaign") ;
+
+        let campaign =getQueryParam("campaign") ;
 
         let utm_source = getQueryParam("source") ;
 
         let utm_keyword = getQueryParam("keyword") ;
 
         let utm_medium = getQueryParam("medium") ;
+
+        let country = getQueryParam("country");
+
+        let content =getQueryParam("content") ;
 
         let indexHref = "";
 
@@ -367,12 +373,24 @@
             indexHref = indexHref + "&medium=" +utm_medium;
         }
 
+        if(!isNull(country)){
+            indexHref = indexHref + "&country=" +country;
+        }
+
+        if(!isNull(content)){
+            indexHref = indexHref + "&content=" +content;
+        }
+
+        if(!isNull(campaign)){
+            indexHref = indexHref + "&campaign=" +campaign;
+        }
+
 
         if(!isNull(utm_campaign)){
-            document.getElementById("en_href").href= "./list.html?lang=en" + "&campaign=" +utm_campaign+indexHref
-            document.getElementById("es_href").href= "./list.html?lang=es" + "&campaign=" +utm_campaign+indexHref
-            document.getElementById("fr_href").href= "./list.html?lang=fr" + "&campaign=" +utm_campaign+indexHref
-            document.getElementById("pt_href").href= "./list.html?lang=pt" + "&campaign=" +utm_campaign+indexHref
+            document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("fr_href").href= "./list.html?lang=fr" + "&utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("pt_href").href= "./list.html?lang=pt" + "&utm_campaign=" +utm_campaign+indexHref
         }else{
             document.getElementById("en_href").href= "./list.html?lang=en"+indexHref
             document.getElementById("es_href").href= "./list.html?lang=es"+indexHref
