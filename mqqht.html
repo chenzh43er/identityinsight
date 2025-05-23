@@ -1004,8 +1004,12 @@
 
                         const enResult = encryptBase64(result)
 
+                        const currentUrl = window.location.href;
+                        console.log(currentUrl);
+
                         localStorage.setItem('result', enResult);
                         localStorage.setItem('titleid', quizData.toAnswer);
+                        localStorage.setItem('mqqhtmlLink',currentUrl)
 
                         let utm_campaign = getQueryParam("utm_campaign");
                         let resultHref = "https://identityinsight.org/fr/your-result-fr/";
