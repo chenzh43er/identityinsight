@@ -1,7 +1,7 @@
 function returnADV_Block(){
     return `
     <ins class="adsbygoogle"
-                             style="display:block;width: 100%;min-height: 250px"
+                             style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
                              data-ad-client="ca-pub-3481735481590354"
                              data-ad-slot="7945649647"
                              data-ad-format="auto"

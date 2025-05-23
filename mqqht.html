@@ -1248,8 +1248,8 @@
                         .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
 
                     let moHtml = `
-                <a href="${item.url}" class="container-list-item common_list_a">
-                    <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">
+                <a href="${item.url}" class="container-list-item common_list_a" style="width: 100%">
+                    <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);overflow: hidden;">
                         <div class="container-list-item-img">
                             <img class="lazyimg common_three_li_img"
                                 data-language="en"
@@ -1265,7 +1265,7 @@
                 `
 
                     if(index == 0){
-                        moHtml = '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
+                        moHtml = '<div class = "advtest" style="width: 100%!important;box-sizing: border-box;">' +
                             returnMTADV() +
                             '</div>' + moHtml
                     }
@@ -1584,7 +1584,7 @@
                 `
 
                     if(index == 0){
-                        recHtml = ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
+                        recHtml = ' <div class = "advtest" style="width: 100%;box-sizing: border-box">' +
                             returnRQADV()+
                             '</div>' + recHtml
                     }
