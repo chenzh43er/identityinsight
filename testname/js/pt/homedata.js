@@ -4,9 +4,25 @@ const dataPage = {
 		"pic":"./testname/img/pt_img/904b585caba8ef47d1ea92b039bb8575.gif",
 		"title":"Quantas pessoas estão apaixonadas por você na escola?"
 	},{
+		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10045",
+		"pic": "https://identityinsight.org/testCommon4/img/pt_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+		"title": "Qual é o seu nível de futebol no VRFS?"
+	},{
+		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10046",
+		"pic": "https://identityinsight.org/testCommon4/img/pt_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+		"title": "Qual Avatar do Roblox Combina com Seu Estilo?"
+	},{
+		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10047",
+		"pic": "https://identityinsight.org/testCommon4/img/pt_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+		"title": "Quais Volumes de Música Sprunki Incredibox Refletem Seu Lado Interior?"
+	},{
 		"url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10005",
 		"pic":"./testname/img/pt_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
 		"title":"O Que a Sua Posição de Dormir Revela Sobre a Sua Vida Amorosa? 💞🌙 "
+	},{
+		"url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10004",
+		"pic":"./testname/img/pt_img/904b585caba8ef47d1ea92b039bb8575.gif",
+		"title":"Quantas pessoas estão apaixonadas por você na escola?"
 	},{
 		"url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10006",
 		"pic":"./testname/img/pt_img/735a575acde713df117f43d8defde53b.gif",
@@ -19,6 +35,10 @@ const dataPage = {
 		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10023",
 		"pic": "https://identityinsight.org/testCommon4/img/pt_img/dd1da2d2e2fa64494019288642c7d472.gif",
 		"title": "Descubra a Causa da Sua Morte em Sua Vida Passada Através de Impressões Digitais"
+	},{
+		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10045",
+		"pic": "https://identityinsight.org/testCommon4/img/pt_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+		"title": "Qual é o seu nível de futebol no VRFS?"
 	}],
 	"theLatest":[{
 		"url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10024",

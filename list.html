@@ -360,8 +360,15 @@
 <script id="list_html">
   {
     let page=0
+
+    let indexUpTo = 4
+
+
     // 渲染首页数据
-    function renderHomeData(data,isM,obj_index) {
+    function renderHomeData(data,isM,obj_index,is_index) {
+
+      let countAddIndexAdv = 0
+
       return data.map((item,index) => {
 
         let utm_campaign =getQueryParam("utm_campaign") ;
@@ -442,6 +449,8 @@
                 </a>
                 `
 
+          countAddIndexAdv ++;
+
           return contentIndex0Html;
 
         }
@@ -511,9 +520,24 @@
                 </a>
                 `
 
+          countAddIndexAdv ++;
+
           return contentIndex0Html;
         }
         else{
+
+          if(is_index == 1 && index > indexUpTo){
+            return ;
+          }
+
+          if(!isNull(utm_campaign)){
+            testData = utm_campaignData[utm_campaign]
+            if(testData.title == item.title){
+              indexUpTo++;
+              return ;
+            }
+          }
+
 
           item.url = item.url.replace("https://identityinsight.org/es/test-page_es/?","./mqqht.html?lang=es&")
                   .replace("https://identityinsight.org/en/test-page_en/?","./mqqht.html?lang=en&")
@@ -696,12 +720,14 @@
                 `;
           }
 
+          countAddIndexAdv ++;
+
 
           let advHtml = '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);width: 30%">' +
                   returnADhtml()+
                   '</div>';
 
-          if(index == 1){
+          if(countAddIndexAdv == 2){
             contentOtherHtml = contentOtherHtml + advHtml
           }
 
@@ -728,13 +754,15 @@
         document.getElementById('indexadv_2').innerHTML= returnADhtml();
         document.getElementById('indexadv_3').innerHTML= returnADhtml();
 
-        document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1);
+        document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1);
         setTimeout(function(){return},200);
         (adsbygoogle = window.adsbygoogle || []).push({});
-        document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0);
+
+        document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1);
         setTimeout(function(){return},200);
         (adsbygoogle = window.adsbygoogle || []).push({});
-        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0);
+
+        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0);
         setTimeout(function(){return},200);
         (adsbygoogle = window.adsbygoogle || []).push({});
       }else{
