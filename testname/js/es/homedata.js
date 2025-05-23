@@ -16,6 +16,10 @@ const dataPage = {
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/d2c033f7aefc629af9c027adb29f4535.gif",
 		"title":"Soy Gato VR: Descubre la Verdadera Personalidad de tu Gato con Este Quiz. "
 	},{
+		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10045",
+		"pic":"./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+		"title":"¿Cuál es tu nivel de fútbol en VRFS?"
+	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10005",
 		"pic":"./testname/img/es_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
 		"title":"¿Qué Revela Tu Posición Al Dormir Sobre Tu Vida Amorosa? 💞🌙 "
