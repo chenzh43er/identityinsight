@@ -833,11 +833,11 @@
               `).join('')}
             </div>
           </div>`
-
-                    if (index % 2 != 0 && index != 0) {
-                        questionHTML = '<div class="advtest">' +
-                            returnZhongxiangGuding2()
-                            + '</div>' + questionHTML
+                    const realIndex = index + 1
+                    if (realIndex % 2 == 1 ) {
+                        questionHTML = questionHTML + `<div class="advtest">
+                                ${returnZhongxiangGuding2()}
+                            </div>`
                     }
                     return questionHTML;
                 }).join('');
@@ -1583,8 +1583,8 @@
                 </a>
                 `
 
-                    if(index == 0){
-                        recHtml = ' <div class = "advtest" style="width: 100%;box-sizing: border-box">' +
+                    if(index == 1){
+                        recHtml = ' <div class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
                             returnRQADV()+
                             '</div>' + recHtml
                     }

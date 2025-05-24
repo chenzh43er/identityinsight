@@ -39,4 +39,14 @@ function returnZhongxiangGuding2(){
     return advHtml;
 }
 
+function returnZhongxiangGuding3(){
+    let advHtml = `
+<ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:200px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3165596689"></ins>
+            `;
+    return advHtml;
+}
+
 //data-adtest="on" 复制该语句到为止为测试模式开启，删掉该语句则为正式广告
