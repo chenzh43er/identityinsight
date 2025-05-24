@@ -860,7 +860,9 @@
             <div class="longSelectSubmit" style="width:225px;height:60px;font-size:24px;box-sizing:border-box;line-height:60px">`
                     + submitText + `</div>
           </div>
-        `;
+        `+ `<div class="advtest" style="margin-top: 10px">
+                                ${returnZhongxiangGuding2()}
+                            </div>`;
 
                 document.getElementById('longQuizSelect').innerHTML = questionsHtml + submitButton;
 
