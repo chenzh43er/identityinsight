@@ -796,6 +796,9 @@
 
         // 渲染首页数据
         function renderHomeData(data) {
+
+            let returnAdvAction = 0;
+
             return data.map((item,index) => {
 
                 let utm_campaign =getQueryParam("utm_campaign") ;
@@ -857,7 +860,8 @@
                     if(!isNull(content)){
                         item.url = item.url + "&content=" +content;
                     }
-                }else if (!isNull(utm_campaign)){
+                }
+                else if (!isNull(utm_campaign)){
                     item.url = item.url + "&utm_campaign=" + utm_campaign
 
                     let utm_keyword = getQueryParam("keyword") ;
@@ -895,7 +899,8 @@
                     if(!isNull(content)){
                         item.url = item.url + "&content=" +content;
                     }
-                }else{
+                }
+                else{
                     let utm_keyword = getQueryParam("keyword") ;
 
                     let utm_medium = getQueryParam("medium") ;
@@ -954,10 +959,31 @@
                 </a>
                 `
 
-                if(index == 0){
-                    moHtml = '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
+                const mqqhtmlLink = localStorage.getItem('mqqhtmlLink');
+                const url = new URL(mqqhtmlLink);
+                const params = new URLSearchParams(url.search);
+                const utm_content = params.get('utm_content')
+
+
+                const relativeUrl = item.url
+                const baseUrl = window.location.origin;
+                const urlObj = new URL(relativeUrl, baseUrl);
+                const paramsItem = new URLSearchParams(urlObj.search);
+                const itemUtm_content = paramsItem.get('utm_content')
+
+                if(utm_content == itemUtm_content){
+                    return ;
+                }
+
+                if(index > 5 ){
+                    return;
+                }
+
+                if(returnAdvAction == 0){
+                    moHtml = moHtml + '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
                         returnMTADV() +
-                        '</div>' + moHtml
+                        '</div>'
+                    returnAdvAction = 1
                 }
 
                 return moHtml;
@@ -1114,6 +1140,9 @@
     {
         // 渲染首页数据
         function renderHomeDataForRQ(data) {
+
+            let returnAdvAction = 0;
+
             return data.map((item,index) => {
 
                 let utm_campaign =getQueryParam("utm_campaign") ;
@@ -1175,7 +1204,8 @@
                     if(!isNull(content)){
                         item.url = item.url + "&content=" +content;
                     }
-                }else if (!isNull(utm_campaign)){
+                }
+                else if (!isNull(utm_campaign)){
                     item.url = item.url + "&utm_campaign=" + utm_campaign
 
                     let utm_keyword = getQueryParam("keyword") ;
@@ -1213,7 +1243,8 @@
                     if(!isNull(content)){
                         item.url = item.url + "&content=" +content;
                     }
-                }else{
+                }
+                else{
                     let utm_keyword = getQueryParam("keyword") ;
 
                     let utm_medium = getQueryParam("medium") ;
@@ -1273,10 +1304,32 @@
                 </a>
                 `
 
-                if(index == 0){
+                const mqqhtmlLink = localStorage.getItem('mqqhtmlLink');
+                const url = new URL(mqqhtmlLink);
+                const params = new URLSearchParams(url.search);
+                const utm_content = params.get('utm_content')
+
+
+                const relativeUrl = item.url
+                const baseUrl = window.location.origin;
+                const urlObj = new URL(relativeUrl, baseUrl);
+                const paramsItem = new URLSearchParams(urlObj.search);
+                const itemUtm_content = paramsItem.get('utm_content')
+
+                if(utm_content == itemUtm_content){
+                    return ;
+                }
+
+                if(index > 9 ){
+                    return;
+                }
+
+                if(returnAdvAction == 0){
                     recHtml = ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
                         returnRQADV()+
                         '</div>' + recHtml
+
+                    returnAdvAction = 1
                 }
 
                 return recHtml;
