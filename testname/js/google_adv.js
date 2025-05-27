@@ -70,6 +70,16 @@ function returnListAdv_4(){
      data-full-width-responsive="true"></ins>`
 }
 
+function returnListAdv_5(){
+    return `<!-- list-5 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3849231155"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
 function returnTestAdv_1(){
     return `<!-- test-1 -->
 <ins class="adsbygoogle"
@@ -145,3 +155,5 @@ function returnResultAdv_4(){
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>`
 }
+
+
