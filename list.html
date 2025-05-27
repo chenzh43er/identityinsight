@@ -233,6 +233,10 @@
   <div data-page="home" class="container-next-btn" style="display: none">
     <a href="javascript:;" class="nextbtn btn" id="nextPageButton">Next</a>
   </div>
+
+  <div id="indexadv_4" class = "mid_adv">
+  </div>
+
 </div></div>
 
 <div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer" id = "content_for_footer"
@@ -365,9 +369,11 @@
 
 
     // 渲染首页数据
-    function renderHomeData(data,isM,obj_index,is_index) {
+    function renderHomeData(data,isM,obj_index,is_index,version) {
 
       let countAddIndexAdv = 0
+
+      let advHtml = ``
 
       return data.map((item,index) => {
 
@@ -454,7 +460,6 @@
           return contentIndex0Html;
 
         }
-
         if(index == 0 && !isNull(testData) && isM == 0 && isNull(utm_campaign)){
 
           testData.pic = testData.pic
@@ -597,7 +602,8 @@
               testData.url = testData.url + "&country=" +country;
             }
 
-          }else if (!isNull(utm_campaign)){
+          }
+          else if (!isNull(utm_campaign)){
             item.url = item.url + "&utm_campaign=" + utm_campaign
 
             let country = getQueryParam("country");
@@ -636,7 +642,8 @@
               item.url = item.url + "&content=" +content;
             }
 
-          }else{
+          }
+          else{
             let utm_keyword = getQueryParam("keyword") ;
 
             let utm_medium = getQueryParam("medium") ;
@@ -701,7 +708,8 @@
                     </div>
                 </a>
                 `;
-          }else{
+          }
+          else{
             contentOtherHtml = `
                 <a href="${item.url}" class="container-list-item common_list_a">
                     <div class="container-list-item-warp">
@@ -722,12 +730,17 @@
 
           countAddIndexAdv ++;
 
+          if(version == 1){
+            advHtml = '<div class="container-list-item-warp container-list-item common_list_a">' +
+                    returnListAdv_2()+
+                    '</div>';
+          }else if(version == 2){
+            advHtml = '<div class="container-list-item-warp container-list-item common_list_a">' +
+                    returnListAdv_4()+
+                    '</div>';
+          }
 
-          let advHtml = '<div class="container-list-item-warp container-list-item common_list_a">' +
-                  returnADhtml()+
-                  '</div>';
-
-          if(countAddIndexAdv == 2){
+          if(countAddIndexAdv == 2 && version != 3){
             contentOtherHtml = contentOtherHtml + advHtml
           }
 
@@ -740,33 +753,39 @@
       return value === null;
     }
 
-    function returnADhtml(){
-      let advHtml = returnADV_Block();
-      return advHtml;
+    function isMobileByWidth() {
+      return window.innerWidth <= 768; // 你也可以设为 600、480 等更严格的值
     }
+
+    // function returnADhtml(){
+    //   let advHtml = returnADV_Block();
+    //   return advHtml;
+    // }
 
     function initHomeData() {
       // 渲染首页数据
       page = Number(getQueryParam("page")) ;
       if(page==0){
 
-        document.getElementById('indexadv_1').innerHTML= returnADhtml();
-        document.getElementById('indexadv_2').innerHTML= returnADhtml();
-        document.getElementById('indexadv_3').innerHTML= returnADhtml();
+        document.getElementById('indexadv_1').innerHTML= returnListAdv_1();
+        document.getElementById('indexadv_3').innerHTML= returnListAdv_3();
 
-        document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1);
-        setTimeout(function(){return},200);
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        if(!isMobileByWidth()){
+          document.getElementById('indexadv_2').innerHTML= returnListAdv_3();
+        }else{
+          document.getElementById('indexadv_4').innerHTML= returnListAdv_3();
+        }
 
-        document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1);
-        setTimeout(function(){return},200);
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1,1);
 
-        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0);
+        document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1,2);
+
+        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0,3);
+
         setTimeout(function(){return},200);
         (adsbygoogle = window.adsbygoogle || []).push({});
       }else{
-        document.getElementById('indexadv_3').innerHTML= returnADhtml();
+        document.getElementById('indexadv_3').innerHTML= returnListAdv_3();
         document.querySelector('.mostPopular').style.display = 'none';
         document.querySelector('.theLatest').style.display = 'none';
         document.querySelector('.tempTitle1').style.display = 'none';
@@ -775,7 +794,7 @@
         document.getElementById('indexadv_1').style.display='none';
         document.getElementById('indexadv_2').style.display='none';
 
-        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1);
+        document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0,3);
         setTimeout(function(){return},200);
         (adsbygoogle = window.adsbygoogle || []).push({});
       }

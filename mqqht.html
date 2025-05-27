@@ -836,7 +836,7 @@
                     const realIndex = index + 1
                     if (realIndex % 2 == 1 ) {
                         questionHTML = questionHTML + `<div class="advtest">
-                                ${returnZhongxiangGuding2()}
+                                ${returnTestAdv_2()}
                             </div>`
                     }
                     return questionHTML;
@@ -855,13 +855,14 @@
                     submitText = "Submit"
                 }
 
+                //submit下面的广告
                 const submitButton = `
           <div id = "thisSubmitButton" class="long_submit_all" style="display: flex; width: 100%;margin:0 auto 0; justify-content: center;line-height: 60px;">
             <div class="longSelectSubmit" style="width:225px;height:60px;font-size:24px;box-sizing:border-box;line-height:60px">`
                     + submitText + `</div>
           </div>
         `+ `<div class="advtest" style="margin-top: 10px">
-                                ${returnZhongxiangGuding2()}
+                                ${returnTestAdv_3()}
                             </div>`;
 
                 document.getElementById('longQuizSelect').innerHTML = questionsHtml + submitButton;
@@ -1290,9 +1291,9 @@
                     }
 
                     if(returnAdvAction == 0){
-                        moHtml =  moHtml + '<div class = "advtest" style="width: 100%!important;box-sizing: border-box;">' +
-                            returnMTADV() +
-                            '</div>'
+                        // moHtml =  moHtml + '<div class = "advtest" style="width: 100%!important;box-sizing: border-box;">' +
+                        //     returnMTADV() +
+                        //     '</div>'
 
                         returnAdvAction = 1
                     }
@@ -1384,7 +1385,7 @@
                     document.getElementById('adv_sticky').innerHTML = ''
                     document.getElementById('adv_sticky').style.height = '0px'
                 }else{
-                    document.getElementById('RightBottom_adbox').innerHTML = returnZhongxiangGuding();
+                    document.getElementById('RightBottom_adbox').innerHTML = returnTestAdv_4();
                 }
 
 
@@ -1437,10 +1438,10 @@
                 });
             });
 
-            function returnMTADV(){
-                let advHtml = returnADV_Block();
-                return advHtml;
-            }
+            // function returnMTADV(){
+            //     let advHtml = returnADV_Block();
+            //     return advHtml;
+            // }
         }
     </script>
 
@@ -1632,13 +1633,13 @@
                         return;
                     }
 
-                    if(returnAdvAction_RC == 0){
-                        recHtml =  recHtml + ' <div class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
-                            returnRQADV()+
-                            '</div>'
-
-                        returnAdvAction_RC = 1
-                    }
+                    // if(returnAdvAction_RC == 0){
+                    //     recHtml =  recHtml + ' <div class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
+                    //         returnRQADV()+
+                    //         '</div>'
+                    //
+                    //     returnAdvAction_RC = 1
+                    // }
 
                     return recHtml;
                 }).join('');
@@ -1731,10 +1732,10 @@
                 });
             });
 
-            function returnRQADV(){
-                let advHtml = returnADV_Block();
-                return advHtml;
-            }
+            // function returnRQADV(){
+            //     let advHtml = returnADV_Block();
+            //     return advHtml;
+            // }
 
             function isNull(value) {
                 return value === null;
@@ -1786,8 +1787,8 @@
 
     <script id = "bt_adv_js">
         $(document).ready(function () {
-            document.getElementById("top_adv_public").innerHTML = return_adv();
-            document.getElementById("bot_adv_public").innerHTML = return_adv();
+            document.getElementById("top_adv_public").innerHTML = returnTestAdv_1();
+            document.getElementById("bot_adv_public").innerHTML = returnTestAdv_1();
             const adContainers = document.querySelectorAll('.adsbygoogle');
             adContainers.forEach((adContainer, index) => {
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -1801,10 +1802,10 @@
             });
         });
 
-        function return_adv(){
-            let advMqqnlHtml = returnADV_Block();
-            return advMqqnlHtml;
-        }
+        // function return_adv(){
+        //     let advMqqnlHtml = returnADV_Block();
+        //     return advMqqnlHtml;
+        // }
     </script>
 
     <script src="./testname/js/footJs.js"></script>

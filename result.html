@@ -981,7 +981,7 @@
 
                 if(returnAdvAction == 0){
                     moHtml = moHtml + '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
-                        returnMTADV() +
+                        returnResultAdv_2() +
                         '</div>'
                     returnAdvAction = 1
                 }
@@ -1126,10 +1126,10 @@
             });
         });
 
-        function returnMTADV(){
-            let advHtml = returnADV_Block();
-            return advHtml;
-        }
+        // function returnMTADV(){
+        //     let advHtml = returnADV_Block();
+        //     return advHtml;
+        // }
     }
 </script>
 
@@ -1326,7 +1326,7 @@
 
                 if(returnAdvAction == 0){
                     recHtml = recHtml + ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
-                        returnRQADV()+
+                        returnResultAdv_4()+
                         '</div>'
 
                     returnAdvAction = 1
@@ -1423,10 +1423,10 @@
             });
         });
 
-        function returnRQADV(){
-            let advHtml = returnADV_Block();
-            return advHtml;
-        }
+        // function returnRQADV(){
+        //     let advHtml = returnADV_Block();
+        //     return advHtml;
+        // }
 
         function isNull(value) {
             return value === null;
@@ -1436,15 +1436,15 @@
 
 <script id="bt_adv">
     $(document).ready(function () {
-        document.getElementById("top_adv_public").innerHTML = return_adv();
-        document.getElementById("bot_adv_public").innerHTML = return_adv();
+        document.getElementById("top_adv_public").innerHTML = returnResultAdv_1();
+        document.getElementById("bot_adv_public").innerHTML = returnResultAdv_1();
     });
 
-    function return_adv(){
-        let advMqqnlHtml = returnADV_Block()
-
-        return advMqqnlHtml;
-    }
+    // function return_adv(){
+    //     let advMqqnlHtml = returnADV_Block()
+    //
+    //     return advMqqnlHtml;
+    // }
 </script>
 
 <script id="res_html_js">
@@ -1669,7 +1669,7 @@
               </div>
 
               <div class="ad-container">
-                 ${returnZhongxiangGuding3()}
+                 ${returnResultAdv_3()}
               </div>
 
                <div class="long_submit_all" style="display: flex; width: 100%;margin:0 auto 0; justify-content: center;line-height: 60px; margin-bottom: 20px;">
