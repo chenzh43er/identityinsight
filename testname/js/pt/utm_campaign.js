@@ -9,7 +9,7 @@ const utm_campaignData = {
         "pic": "https://identityinsight.org/testCommon4/img/pt_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
         "title": "Qual é o seu nível de futebol no VRFS?"
     },
-    "robot": {
+    "roblox": {
         "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10046",
         "pic": "https://identityinsight.org/testCommon4/img/pt_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
         "title": "Qual Avatar do Roblox Combina com Seu Estilo?"

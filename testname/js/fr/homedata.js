@@ -8,6 +8,10 @@ const dataPage = {
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
 		"title":"Quel Avatar Roblox Correspond à Votre Vibe? "
 	},{
+		"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10024",
+		"pic": "./testname/img/fr_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+		"title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?"
+	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10001",
 		"pic":"https://identityinsight.org/testCommon4/img/fr_img/56cfbae04399d0b19e2c8155c7071300.gif",
 		"title":"Quelle Œuvre d'Art de Transformation de Elsa ou Anna de La Reine des Neiges Correspond à Votre Véritable Beauté Intérieure? "
