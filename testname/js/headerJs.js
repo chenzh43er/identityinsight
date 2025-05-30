@@ -30,6 +30,10 @@ $(document).ready(function () {
 
     let country = getQueryParam("country")
 
+    let source = getQueryParam("utm_source")
+
+    let medium = getQueryParam("utm_medium")
+
 
     let indexHref = ""
     let home_str = ""
@@ -49,6 +53,14 @@ $(document).ready(function () {
     }else{
         home_str = "FGU"
         indexHref = "./list.html?lang=fr"
+    }
+
+    if(!isNull(medium)){
+        indexHref = indexHref + "&utm_medium=" +medium;
+    }
+
+    if(!isNull(source)){
+        indexHref = indexHref + "&utm_source=" +source;
     }
 
     if(!isNull(content)){

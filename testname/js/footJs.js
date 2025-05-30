@@ -24,6 +24,10 @@ $(document).ready(function () {
 
     let country = getQueryParam("country");
 
+    let source = getQueryParam("utm_source")
+
+    let medium = getQueryParam("utm_medium")
+
     let aboutus_href = "./about_us.html"
     let privacy_href = "./privacy.html"
     let data_href = "./data.html"
@@ -48,6 +52,18 @@ $(document).ready(function () {
         aboutus_href = aboutus_href + "?lang=fr"
         privacy_href = privacy_href + "?lang=fr"
         data_href = data_href + "?lang=fr"
+    }
+
+    if(!isNull(medium)){
+        aboutus_href = aboutus_href + "&utm_medium=" +medium;
+        privacy_href = privacy_href + "&utm_medium=" +medium;
+        data_href = data_href + "&utm_medium=" +medium;
+    }
+
+    if(!isNull(source)){
+        aboutus_href = aboutus_href + "&utm_source=" +source;
+        privacy_href = privacy_href + "&utm_source=" +source;
+        data_href = data_href + "&utm_source=" +source;
     }
 
     if(!isNull(utm_campaign)){

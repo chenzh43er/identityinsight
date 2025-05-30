@@ -405,6 +405,18 @@
 
           let country = getQueryParam("country");
 
+          let source = getQueryParam("utm_source")
+
+          let medium = getQueryParam("utm_medium")
+
+          if(!isNull(medium)){
+            testData.url = testData.url + "&utm_medium=" +medium;
+          }
+
+          if(!isNull(source)){
+            testData.url = testData.url + "&utm_source=" +source;
+          }
+
           if(!isNull(utm_source)){
             testData.url = testData.url + "&source=" +utm_source;
           }
@@ -482,6 +494,18 @@
           let content =getQueryParam("content") ;
 
           let country = getQueryParam("country");
+
+          let source = getQueryParam("utm_source")
+
+          let medium = getQueryParam("utm_medium")
+
+          if(!isNull(medium)){
+            testData.url = testData.url + "&utm_medium=" +medium;
+          }
+
+          if(!isNull(source)){
+            testData.url = testData.url + "&utm_source=" +source;
+          }
 
           if(!isNull(country)){
             testData.url = testData.url + "&country=" +country;
@@ -578,6 +602,19 @@
 
             let country = getQueryParam("country");
 
+            let source = getQueryParam("utm_source")
+
+            let medium = getQueryParam("utm_medium")
+
+            if(!isNull(medium)){
+              testData.url = testData.url + "&utm_medium=" +medium;
+            }
+
+            if(!isNull(source)){
+              testData.url = testData.url + "&utm_source=" +source;
+            }
+
+
             if(!isNull(utm_source)){
               testData.url = testData.url + "&source=" +utm_source;
             }
@@ -618,6 +655,18 @@
 
             let content =getQueryParam("content") ;
 
+            let source = getQueryParam("utm_source")
+
+            let medium = getQueryParam("utm_medium")
+
+            if(!isNull(medium)){
+              item.url = item.url + "&utm_medium=" +medium;
+            }
+
+            if(!isNull(source)){
+              item.url = item.url + "&utm_source=" +source;
+            }
+
             if(!isNull(country)){
               item.url = item.url + "&country=" +country;
             }
@@ -655,6 +704,18 @@
             let content =getQueryParam("content") ;
 
             let country = getQueryParam("country");
+
+            let source = getQueryParam("utm_source")
+
+            let medium = getQueryParam("utm_medium")
+
+            if(!isNull(medium)){
+              item.url = item.url + "&utm_medium=" +medium;
+            }
+
+            if(!isNull(source)){
+              item.url = item.url + "&utm_source=" +source;
+            }
 
             if(!isNull(utm_source)){
               item.url = item.url + "&source=" +utm_source;

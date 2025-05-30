@@ -359,7 +359,19 @@
 
         let content =getQueryParam("content") ;
 
+        let source = getQueryParam("utm_source")
+
+        let medium = getQueryParam("utm_medium")
+
         let indexHref = "";
+
+        if(!isNull(medium)){
+            indexHref = indexHref + "&utm_medium=" +medium;
+        }
+
+        if(!isNull(source)){
+            indexHref = indexHref + "&utm_source=" +source;
+        }
 
         if(!isNull(utm_source)){
             indexHref = indexHref + "&source=" +utm_source;
