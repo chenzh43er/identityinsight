@@ -1636,6 +1636,11 @@
 
             let country = getQueryParam("country")
 
+            let source = getQueryParam("utm_source")
+
+            let medium = getQueryParam("utm_medium")
+
+
 
             let indexHref = ""
             let home_str = ""
@@ -1690,6 +1695,15 @@
             if(!isNull(country)){
                 indexHref = indexHref + "&country=" +country;
             }
+
+            if(!isNull(medium)){
+                indexHref = indexHref + "&utm_medium=" +medium;
+            }
+
+            if(!isNull(source)){
+                indexHref = indexHref + "&utm_source=" +source;
+            }
+
 
             deleteCurrentPathCookies();
 
