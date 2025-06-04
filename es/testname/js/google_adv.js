@@ -5,7 +5,8 @@ function returnADV_Block(){
                              data-ad-client="ca-pub-3481735481590354"
                              data-ad-slot="7945649647"
                              data-ad-format="auto"
-                             data-full-width-responsive="true"></ins>`
+                             data-full-width-responsive="true"
+                             data-adtest="on"></ins>`
 }
 
 function returnADV_Block_test(){
@@ -24,7 +25,8 @@ function returnZhongxiangGuding(){
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="3165596689"></ins>
+     data-ad-slot="3165596689"
+     data-adtest="on"></ins>
             `;
     return advHtml;
 }
@@ -37,7 +39,7 @@ function returnListAdv_1(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="7760254681"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnListAdv_2(){
@@ -47,7 +49,7 @@ function returnListAdv_2(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="6447173015"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnListAdv_3(){
@@ -57,7 +59,7 @@ function returnListAdv_3(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="9263465087"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnListAdv_4(){
@@ -67,7 +69,7 @@ function returnListAdv_4(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="6538913607"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnListAdv_5(){
@@ -77,7 +79,7 @@ function returnListAdv_5(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="3849231155"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnTestAdv_1(){
@@ -87,7 +89,7 @@ function returnTestAdv_1(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="7543798111"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnTestAdv_2(){
@@ -97,7 +99,7 @@ function returnTestAdv_2(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="3912750264"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnTestAdv_3(){
@@ -107,7 +109,7 @@ function returnTestAdv_3(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="5628915364"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnTestAdv_4(){
@@ -115,7 +117,7 @@ function returnTestAdv_4(){
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="2599668591"></ins>`
+     data-ad-slot="2599668591" data-adtest="on"></ins>`
 }
 
 function returnResultAdv_1(){
@@ -125,7 +127,7 @@ function returnResultAdv_1(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="1286586926"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnResultAdv_2(){
@@ -135,7 +137,7 @@ function returnResultAdv_2(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="5134091346"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 function returnResultAdv_3(){
@@ -143,7 +145,7 @@ function returnResultAdv_3(){
 <ins class="adsbygoogle"
      style="display:inline-block;width:100%;height:200px"
      data-ad-client="ca-pub-3481735481590354"
-     data-ad-slot="2627347502"></ins>`
+     data-ad-slot="2627347502" data-adtest="on"></ins>`
 }
 
 function returnResultAdv_4(){
@@ -153,7 +155,7 @@ function returnResultAdv_4(){
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="8973505259"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>`
+     data-full-width-responsive="true" data-adtest="on"></ins>`
 }
 
 
