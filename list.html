@@ -377,7 +377,7 @@
 
       return data.map((item,index) => {
 
-        let utm_campaign =getQueryParam("utm_campaign") ;
+        let utm_campaign =getQueryParam("campaign") ;
 
         let lang =getQueryParam("lang") ;
 
@@ -391,7 +391,7 @@
                   .replace("https://identityinsight.org/fr/test-page_fr/?","./mqqht.html?lang=fr&")
                   .replace("https://identityinsight.org/pt/test-page_pt/?","./mqqht.html?lang=pt&")
 
-          testData.url = testData.url + "&utm_campaign=" + utm_campaign
+          //testData.url = testData.url + "&campaign=" + utm_campaign
 
           let utm_keyword = getQueryParam("keyword") ;
 
@@ -587,7 +587,7 @@
               item.url = "./404notFound.html?lang=fr&utm_content=other"
             }
             if (!isNull(utm_campaign)){
-              item.url = item.url + "&utm_campaign=" + utm_campaign
+              //item.url = item.url + "&campaign=" + utm_campaign
             }
 
             let utm_keyword = getQueryParam("keyword") ;
@@ -641,7 +641,7 @@
 
           }
           else if (!isNull(utm_campaign)){
-            item.url = item.url + "&utm_campaign=" + utm_campaign
+            //item.url = item.url + "&campaign=" + utm_campaign
 
             let country = getQueryParam("country");
 
@@ -792,12 +792,12 @@
           countAddIndexAdv ++;
 
           if(version == 1){
-            advHtml = '<div class="container-list-item-warp container-list-item common_list_a">' +
-                    returnListAdv_2()+
+            advHtml = '<div class="container-list-item-warp container-list-item common_list_a" id = "listAdv_2">' +
+                    returnAdvWord()+
                     '</div>';
           }else if(version == 2){
-            advHtml = '<div class="container-list-item-warp container-list-item common_list_a">' +
-                    returnListAdv_4()+
+            advHtml = '<div class="container-list-item-warp container-list-item common_list_a" id = "listAdv_4">' +
+                    returnAdvWord()+
                     '</div>';
           }
 
@@ -814,27 +814,91 @@
       return value === null;
     }
 
+    function getLangFromPath() {
+      const pathSegments = window.location.pathname.split('/');
+      return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    }
+
     function isMobileByWidth() {
       return window.innerWidth <= 768; // 你也可以设为 600、480 等更严格的值
     }
 
-    // function returnADhtml(){
-    //   let advHtml = returnADV_Block();
-    //   return advHtml;
-    // }
+    function returnAdvWord(){
+      return `<p style="text-align: center">Advertisment</p>`
+    }
 
     function initHomeData() {
       // 渲染首页数据
       page = Number(getQueryParam("page")) ;
       if(page==0){
 
-        document.getElementById('indexadv_1').innerHTML= returnListAdv_1();
-        document.getElementById('indexadv_3').innerHTML= returnListAdv_5();
+        document.getElementById('indexadv_1').innerHTML= returnAdvWord();
+        // 获取唯一元素
+        const indexadv_1 = document.getElementById('indexadv_1')
+        if (indexadv_1) {
+          const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                loadListAdv_1(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          }, {
+            rootMargin: '200px',
+          });
+          observer.observe(indexadv_1);
+        }
+
+
+        document.getElementById('indexadv_3').innerHTML= returnAdvWord();
+        const indexadv_3 = document.getElementById('indexadv_3')
+        if (indexadv_3) {
+          const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                loadListAdv_5(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          }, {
+            rootMargin: '200px',
+          });
+          observer.observe(indexadv_3);
+        }
+
 
         if(!isMobileByWidth()){
-          document.getElementById('indexadv_2').innerHTML= returnListAdv_3();
+          document.getElementById('indexadv_2').innerHTML= returnAdvWord();
+          const indexadv_2 = document.getElementById('indexadv_2')
+          if (indexadv_2) {
+            const observer = new IntersectionObserver((entries, obs) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  loadListAdv_3(entry.target);
+                  obs.unobserve(entry.target);
+                }
+              });
+            }, {
+              rootMargin: '200px',
+            });
+            observer.observe(indexadv_2);
+          }
         }else{
-          document.getElementById('indexadv_4').innerHTML= returnListAdv_3();
+          document.getElementById('indexadv_4').innerHTML= returnAdvWord();
+          const indexadv_2 = document.getElementById('indexadv_4')
+          if (indexadv_2) {
+            const observer = new IntersectionObserver((entries, obs) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  loadListAdv_3(entry.target);
+                  obs.unobserve(entry.target);
+                }
+              });
+            }, {
+              rootMargin: '200px',
+            });
+            observer.observe(indexadv_2);
+          }
         }
 
         document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1,1);
@@ -844,9 +908,9 @@
         document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0,3);
 
         setTimeout(function(){return},200);
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        //(adsbygoogle = window.adsbygoogle || []).push({});
       }else{
-        document.getElementById('indexadv_3').innerHTML= returnListAdv_5();
+        document.getElementById('indexadv_3').innerHTML= returnAdvWord();
         document.querySelector('.mostPopular').style.display = 'none';
         document.querySelector('.theLatest').style.display = 'none';
         document.querySelector('.tempTitle1').style.display = 'none';
@@ -857,9 +921,97 @@
 
         document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0,3);
         setTimeout(function(){return},200);
+        //(adsbygoogle = window.adsbygoogle || []).push({});
+      }
+
+      const listAdv_2 = document.getElementById('listAdv_2')
+      if (listAdv_2) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              loadListAdv_2(entry.target);
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {
+          rootMargin: '200px',
+        });
+        observer.observe(listAdv_2);
+      }
+
+      const listAdv_4 = document.getElementById('listAdv_4')
+      if (listAdv_4) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              loadListAdv_4(entry.target);
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {
+          rootMargin: '200px',
+        });
+        observer.observe(listAdv_4);
+      }
+
+    }
+
+    function loadListAdv_1(el) {
+      // 插入 <ins> HTML
+      el.innerHTML = returnListAdv_1();
+      // 触发广告加载
+      try {
         (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("AdSense push error", e);
       }
     }
+
+    function loadListAdv_2(el) {
+      // 插入 <ins> HTML
+      el.innerHTML = returnListAdv_2();
+      // 触发广告加载
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("AdSense push error", e);
+      }
+    }
+
+    function loadListAdv_3(el) {
+      // 插入 <ins> HTML
+      el.innerHTML = returnListAdv_3();
+      // 触发广告加载
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("AdSense push error", e);
+      }
+    }
+
+    function loadListAdv_4(el) {
+      // 插入 <ins> HTML
+      el.innerHTML = returnListAdv_4();
+      // 触发广告加载
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("AdSense push error", e);
+      }
+    }
+
+    function loadListAdv_5(el) {
+      // 插入 <ins> HTML
+      el.innerHTML = returnListAdv_5();
+      // 触发广告加载
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("AdSense push error", e);
+      }
+    }
+
+
 
     function getQueryParam(name) {
       const urlParams = new URLSearchParams(window.location.search);
@@ -993,12 +1145,12 @@
         loadScript(utm_campaign_js_url, function () {
           deleteCurrentPathCookies();
 
-          let utm_campaign = getQueryParam("utm_campaign");
+          let utm_campaign = getQueryParam("campaign");
 
           const paramLast = getReferrerParams();
           if (!isNull(paramLast) & isNull(utm_campaign)) {
-            if (!isNull(paramLast["utm_campaign"]) & paramLast["utm_campaign"] != "undefined") {
-              if (paramLast["utm_campaign"] != "undefined" & typeof paramLast["utm_campaign"] != "undefined") {
+            if (!isNull(paramLast["campaign"]) & paramLast["campaign"] != "undefined") {
+              if (paramLast["campaign"] != "undefined" & typeof paramLast["campaign"] != "undefined") {
                 let indexHref = ""
                 if (langPage == "fr") {
                   indexHref = "./list.html?lang=fr"
@@ -1031,9 +1183,9 @@
                   indexHref = indexHref + "&medium=" +utm_medium;
                 }
 
-                window.location.href = indexHref + "&utm_campaign=" + paramLast["utm_campaign"];
+                window.location.href = indexHref //+ "&campaign=" + paramLast["campaign"];
               }
-            } else if (paramLast["utm_campaign"] == "undefined" || typeof paramLast["utm_campaign"] == "undefined") {
+            } else if (paramLast["campaign"] == "undefined" || typeof paramLast["campaign"] == "undefined") {
               let indexHref = ""
               if (langPage == "fr") {
                 indexHref = "./list.html?lang=fr"
@@ -1052,21 +1204,21 @@
 
           // 初始化数据
           initFunctionForPage();
-          const adContainers = document.querySelectorAll('.adsbygoogle');
-          adContainers.forEach((adContainer, index) => {
-            (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-            // 定时检查广告容器是否已加载广告
-            const checkAdStatus = setInterval(() => {
-              if (adContainer.innerHTML.trim()) {
-                //console.log(`广告容器 ${index + 1} 已加载广告`);
-                clearInterval(checkAdStatus);  // 停止检查
-              } else {
-                //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-              }
-            }, 1000);  // 每1秒检查一次
-          });
+          // const adContainers = document.querySelectorAll('.adsbygoogle');
+          // adContainers.forEach((adContainer, index) => {
+          //   (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
+          //
+          //   // 定时检查广告容器是否已加载广告
+          //   const checkAdStatus = setInterval(() => {
+          //     if (adContainer.innerHTML.trim()) {
+          //       //console.log(`广告容器 ${index + 1} 已加载广告`);
+          //       clearInterval(checkAdStatus);  // 停止检查
+          //     } else {
+          //       //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
+          //       (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
+          //     }
+          //   }, 1000);  // 每1秒检查一次
+          // });
         });
       });
     });

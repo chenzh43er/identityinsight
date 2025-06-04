@@ -1016,8 +1016,8 @@
                 }
 
                 if(returnAdvAction == 0){
-                    moHtml = moHtml + '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
-                        returnResultAdv_2() +
+                    moHtml = moHtml + '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);" id = "ResultAdv_2" >' +
+                        returnAdvWord() +
                         '</div>'
                     returnAdvAction = 1
                 }
@@ -1029,6 +1029,10 @@
         function getQueryParam(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
+        }
+
+        function returnAdvWord(){
+            return `<p style="text-align: center">Advertisment</p>`
         }
 
         function initTitleMT(){
@@ -1101,6 +1105,23 @@
         function initHomeDataForMo() {
             // 渲染首页数据
             document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
+
+            const ResultAdv_2 = document.getElementById('ResultAdv_2')
+            if (ResultAdv_2) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            loadResultAdv_2(entry.target);
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '200px',
+                });
+                observer.observe(ResultAdv_2);
+            }
+
+
         }
         // 页面加载完成后初始化
         $(document).ready(function () {
@@ -1397,8 +1418,8 @@
                 }
 
                 if(returnAdvAction == 0){
-                    recHtml = recHtml + ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">' +
-                        returnResultAdv_4()+
+                    recHtml = recHtml + ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);" id = "ResultAdv_4">' +
+                        returnAdvWord()+
                         '</div>'
 
                     returnAdvAction = 1
@@ -1453,6 +1474,21 @@
             // 渲染首页数据
             initTitle();
             document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend);
+
+            const ResultAdv_4 = document.getElementById('ResultAdv_4')
+            if (ResultAdv_4) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            loadResultAdv_4(entry.target);
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '200px',
+                });
+                observer.observe(ResultAdv_4);
+            }
         }
         // 页面加载完成后初始化
 
@@ -1508,15 +1544,42 @@
 
 <script id="bt_adv">
     $(document).ready(function () {
-        document.getElementById("top_adv_public").innerHTML = returnResultAdv_1();
-        document.getElementById("bot_adv_public").innerHTML = returnResultAdv_1();
-    });
+        document.getElementById("top_adv_public").innerHTML = returnAdvWord();
+        document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
 
-    // function return_adv(){
-    //     let advMqqnlHtml = returnADV_Block()
-    //
-    //     return advMqqnlHtml;
-    // }
+        const TestAdv_1Top = document.getElementById('top_adv_public')
+        if (TestAdv_1Top) {
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        loadResultAdv_1(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px',
+            });
+            observer.observe(TestAdv_1Top);
+        }
+
+        const TestAdv_1Bot = document.getElementById('bot_adv_public')
+        if (TestAdv_1Bot) {
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        loadResultAdv_1(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px',
+            });
+            observer.observe(TestAdv_1Bot);
+        }
+
+
+
+    });
 </script>
 
 <script id="res_html_js">
@@ -1581,22 +1644,6 @@
                 document.getElementById('resultDescription').textContent = result.description;
                 document.getElementById('resultMainPic').src=result.mainPic.replace("https://identityinsight.org/testCommon4","./testname");
             });
-
-            const adContainers = document.querySelectorAll('.adsbygoogle');
-            adContainers.forEach((adContainer, index) => {
-                (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                // 定时检查广告容器是否已加载广告
-                const checkAdStatus = setInterval(() => {
-                    if (adContainer.innerHTML.trim()) {
-                        //console.log(`广告容器 ${index + 1} 已加载广告`);
-                        //clearInterval(checkAdStatus);  // 停止检查
-                    } else {
-                        //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                        (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                    }
-                }, 1000);  // 每1秒检查一次
-            });
         }
 
         function loadScript(src, callback) {
@@ -1615,6 +1662,11 @@
             };
 
             document.head.appendChild(script); // 插入到 `head` 中
+        }
+
+        function getLangFromPath() {
+            const pathSegments = window.location.pathname.split('/');
+            return pathSegments[1]; // 假设语言代码总是在第一个路径段
         }
 
         $(document).ready(function () {
@@ -1754,8 +1806,8 @@
                  ${shareLink}
               </div>
 
-              <div class="ad-container">
-                 ${returnResultAdv_3()}
+              <div class="ad-container" id = "ResultAdv_3">
+                 ${returnAdvWord()}
               </div>
 
                <div class="long_submit_all" style="display: flex; width: 100%;margin:0 auto 0; justify-content: center;line-height: 60px; margin-bottom: 20px;">
@@ -1768,6 +1820,22 @@
                     `
                 getResultFromUrl();
                 //console.log(2);
+
+                const ResultAdv_3 = document.getElementById('ResultAdv_3')
+                if (ResultAdv_3) {
+                    const observer = new IntersectionObserver((entries, obs) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                loadResultAdv_3(entry.target);
+                                obs.unobserve(entry.target);
+                            }
+                        });
+                    }, {
+                        rootMargin: '200px',
+                    });
+                    observer.observe(ResultAdv_3);
+                }
+
             }, 1000)
         });
 
@@ -1779,6 +1847,50 @@
                 // 删除当前路径下的 cookie
                 document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + window.location.pathname;
             });
+        }
+
+        function loadResultAdv_1(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnResultAdv_1();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadResultAdv_2(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnResultAdv_2();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadResultAdv_3(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnResultAdv_3();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadResultAdv_4(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnResultAdv_4();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
         }
 
 

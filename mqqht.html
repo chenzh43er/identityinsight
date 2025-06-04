@@ -777,21 +777,6 @@
 
                     // 生成问题
                     renderQuestions();
-                    const adContainers = document.querySelectorAll('.adsbygoogle');
-                    adContainers.forEach((adContainer, index) => {
-                        (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                        // 定时检查广告容器是否已加载广告
-                        const checkAdStatus = setInterval(() => {
-                            if (adContainer.innerHTML.trim()) {
-                                //console.log(`广告容器 ${index + 1} 已加载广告`);
-                                clearInterval(checkAdStatus);  // 停止检查
-                            } else {
-                                //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                            }
-                        }, 10000);  // 每1秒检查一次
-                    });
                 });
             }
 
@@ -835,8 +820,8 @@
           </div>`
                     const realIndex = index + 1
                     if (realIndex % 2 == 1 ) {
-                        questionHTML = questionHTML + `<div class="advtest">
-                                ${returnTestAdv_2()}
+                        questionHTML = questionHTML + `<div class="advtestAdv_2">
+                                ${returnAdvWord()}
                             </div>`
                     }
                     return questionHTML;
@@ -861,11 +846,40 @@
             <div class="longSelectSubmit" style="width:225px;height:60px;font-size:24px;box-sizing:border-box;line-height:60px">`
                     + submitText + `</div>
           </div>
-        `+ `<div class="advtest" style="margin-top: 10px">
-                                ${returnTestAdv_3()}
+        `+ `<div class="advtest" style="margin-top: 10px" id = "submitDownAdv">
+                                ${returnAdvWord()}
                             </div>`;
 
                 document.getElementById('longQuizSelect').innerHTML = questionsHtml + submitButton;
+
+                //submitDownAdv
+
+                const submitDownAdv = document.getElementById('submitDownAdv')
+                if (submitDownAdv) {
+                    const observer = new IntersectionObserver((entries, obs) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                loadTestAdv_3(entry.target);
+                                obs.unobserve(entry.target);
+                            }
+                        });
+                    }, {
+                        rootMargin: '200px',
+                    });
+                    observer.observe(submitDownAdv);
+                }
+
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            loadTestAdv_2(entry.target);
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, { rootMargin: '200px' });
+                document.querySelectorAll('.advtestAdv_2').forEach(el => observer.observe(el));
+
+
 
                 // 绑定事件
                 bindEvents();
@@ -873,8 +887,8 @@
             }
 
             function getLangFromPath() {
-                const pathSegments = window.location.pathname.split("/");
-                return pathSegments[1] || "default"; // 语言通常是路径的第一部分
+                const pathSegments = window.location.pathname.split('/');
+                return pathSegments[1]; // 假设语言代码总是在第一个路径段
             }
 
             function encryptBase64(text) {
@@ -1339,10 +1353,6 @@
                     }
 
                     if(returnAdvAction == 0){
-                        // moHtml =  moHtml + '<div class = "advtest" style="width: 100%!important;box-sizing: border-box;">' +
-                        //     returnMTADV() +
-                        //     '</div>'
-
                         returnAdvAction = 1
                     }
 
@@ -1422,6 +1432,50 @@
 
             }
 
+            function loadTestAdv_1(el) {
+                // 插入 <ins> HTML
+                el.innerHTML = returnTestAdv_1();
+                // 触发广告加载
+                try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.error("AdSense push error", e);
+                }
+            }
+
+            function loadTestAdv_2(el) {
+                // 插入 <ins> HTML
+                el.innerHTML = returnTestAdv_2();
+                // 触发广告加载
+                try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.error("AdSense push error", e);
+                }
+            }
+
+            function loadTestAdv_3(el) {
+                // 插入 <ins> HTML
+                el.innerHTML = returnTestAdv_3();
+                // 触发广告加载
+                try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.error("AdSense push error", e);
+                }
+            }
+
+            function loadTestAdv_4(el) {
+                // 插入 <ins> HTML
+                el.innerHTML = returnTestAdv_4();
+                // 触发广告加载
+                try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.error("AdSense push error", e);
+                }
+            }
+
             function initHomeDataForMo() {
                 // 渲染首页数据
                 document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
@@ -1433,7 +1487,23 @@
                     document.getElementById('adv_sticky').innerHTML = ''
                     document.getElementById('adv_sticky').style.height = '0px'
                 }else{
-                    document.getElementById('RightBottom_adbox').innerHTML = returnTestAdv_4();
+                    document.getElementById('RightBottom_adbox').innerHTML = returnAdvWord();
+
+                    const RightBottom_adbox = document.getElementById('RightBottom_adbox')
+                    if (RightBottom_adbox) {
+                        const observer = new IntersectionObserver((entries, obs) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    loadTestAdv_4(entry.target);
+                                    obs.unobserve(entry.target);
+                                }
+                            });
+                        }, {
+                            rootMargin: '200px',
+                        });
+                        observer.observe(RightBottom_adbox);
+                    }
+
                 }
 
 
@@ -1468,21 +1538,6 @@
                 loadScript(mt_data_url, function () {
                     // 初始化数据
                     initHomeDataForMo();
-                    const adContainers = document.querySelectorAll('.adsbygoogle');
-                    adContainers.forEach((adContainer, index) => {
-                        (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                        // 定时检查广告容器是否已加载广告
-                        const checkAdStatus = setInterval(() => {
-                            if (adContainer.innerHTML.trim()) {
-                                //console.log(`广告容器 ${index + 1} 已加载广告`);
-                                clearInterval(checkAdStatus);  // 停止检查
-                            } else {
-                                //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                            }
-                        }, 10000);  // 每1秒检查一次
-                    });
                 });
             });
 
@@ -1798,21 +1853,6 @@
                 loadScript(rq_data_url, function () {
                     // 初始化数据
                     initHomeDataForRQ();
-                    const adContainers = document.querySelectorAll('.adsbygoogle');
-                    adContainers.forEach((adContainer, index) => {
-                        (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                        // 定时检查广告容器是否已加载广告
-                        const checkAdStatus = setInterval(() => {
-                            if (adContainer.innerHTML.trim()) {
-                                //console.log(`广告容器 ${index + 1} 已加载广告`);
-                                clearInterval(checkAdStatus);  // 停止检查
-                            } else {
-                                //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                                (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                            }
-                        }, 10000);  // 每1秒检查一次
-                    });
                 });
             });
 
@@ -1860,36 +1900,53 @@
             }
             document.getElementById("start_button_text").innerText = letgoText;
             bindEvents2();
-            (adsbygoogle = window.adsbygoogle || []).push({});
         });
         function getLangFromPath() {
             const pathSegments = window.location.pathname.split("/");
             return pathSegments[1] || "default";
         }
 
+        function returnAdvWord(){
+            return `<p style="text-align: center">Advertisment</p>`
+        }
+
     </script>
 
     <script id = "bt_adv_js">
         $(document).ready(function () {
-            document.getElementById("top_adv_public").innerHTML = returnTestAdv_1();
-            document.getElementById("bot_adv_public").innerHTML = returnTestAdv_1();
-            const adContainers = document.querySelectorAll('.adsbygoogle');
-            adContainers.forEach((adContainer, index) => {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                const checkAdStatus = setInterval(() => {
-                    if (adContainer.innerHTML.trim()) {
-                        clearInterval(checkAdStatus);  // 停止检查
-                    } else {
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    }
-                }, 10000);
-            });
-        });
+            document.getElementById("top_adv_public").innerHTML = returnAdvWord();
+            document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
 
-        // function return_adv(){
-        //     let advMqqnlHtml = returnADV_Block();
-        //     return advMqqnlHtml;
-        // }
+            const TestAdv_1Top = document.getElementById('top_adv_public')
+            if (TestAdv_1Top) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            loadTestAdv_1(entry.target);
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '200px',
+                });
+                observer.observe(TestAdv_1Top);
+            }
+
+            const TestAdv_1Bot = document.getElementById('bot_adv_public')
+            if (TestAdv_1Bot) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            loadTestAdv_1(entry.target);
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '200px',
+                });
+                observer.observe(TestAdv_1Bot);
+            }
+        });
     </script>
 
     <script src="./testname/js/footJs.js"></script>

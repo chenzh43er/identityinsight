@@ -344,6 +344,11 @@
 </div>
 
 <script id="index_main_js">
+    function getLangFromPath() {
+        const pathSegments = window.location.pathname.split('/');
+        return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    }
+
     $(document).ready(function () {
         let utm_campaign =getQueryParam("utm_campaign") ;
 
@@ -399,15 +404,15 @@
 
 
         if(!isNull(utm_campaign)){
-            document.getElementById("en_href").href= "./list.html?lang=en" + "&utm_campaign=" +utm_campaign+indexHref
-            document.getElementById("es_href").href= "./list.html?lang=es" + "&utm_campaign=" +utm_campaign+indexHref
-            document.getElementById("fr_href").href= "./list.html?lang=fr" + "&utm_campaign=" +utm_campaign+indexHref
-            document.getElementById("pt_href").href= "./list.html?lang=pt" + "&utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("en_href").href= "./en/list.html?utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("es_href").href= "./es/list.html?utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("fr_href").href= "./fr/list.html?utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("pt_href").href= "./pt/list.html?utm_campaign=" +utm_campaign+indexHref
         }else{
-            document.getElementById("en_href").href= "./list.html?lang=en"+indexHref
-            document.getElementById("es_href").href= "./list.html?lang=es"+indexHref
-            document.getElementById("fr_href").href= "./list.html?lang=fr"+indexHref
-            document.getElementById("pt_href").href= "./list.html?lang=pt"+indexHref
+            document.getElementById("en_href").href= "./en/list.html?"+indexHref
+            document.getElementById("es_href").href= "./es/list.html?"+indexHref
+            document.getElementById("fr_href").href= "./fr/list.html?"+indexHref
+            document.getElementById("pt_href").href= "./pt/list.html?"+indexHref
         }
 
         document.getElementById("en_href").innerText= "English"
