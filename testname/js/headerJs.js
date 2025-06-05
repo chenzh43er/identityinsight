@@ -45,19 +45,19 @@ $(document).ready(function () {
 
     if(langPage == "fr"){
         home_str = "Acceuil"
-        indexHref = "./list.html?lang=fr"
+        indexHref = "./fr/list.html?"
     }else if(langPage == "es"){
         home_str = "Inicio"
-        indexHref = "./list.html?lang=es"
+        indexHref = "./es/list.html?"
     }else if(langPage == "en"){
         home_str = "Home"
-        indexHref = "./list.html?lang=en"
+        indexHref = "./en/list.html?"
     }else if(langPage == "pt"){
         home_str = "Início"
-        indexHref = "./list.html?lang=pt"
+        indexHref = "./pt/list.html?"
     }else{
         home_str = "FGU"
-        indexHref = "./list.html?lang=fr"
+        indexHref = "./fr/list.html?"
     }
 
     if(!isNull(medium)){
