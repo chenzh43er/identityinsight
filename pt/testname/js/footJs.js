@@ -7,17 +7,12 @@ function isNull(value) {
     return value === null;
 }
 
-function getLangFromPath() {
-    const pathSegments = window.location.pathname.split('/');
-    return pathSegments[1]; // 假设语言代码总是在第一个路径段
-}
-
 $(document).ready(function () {
     let langPage = getLangFromPath()
 
     let campaign =getQueryParam("campaign") ;
 
-    let content =getQueryParam("content") ;
+    //let content =getQueryParam("content") ;
 
     let utm_campaign =getQueryParam("utm_campaign") ;
 
@@ -83,11 +78,11 @@ $(document).ready(function () {
         data_href = data_href + "&campaign=" +campaign;
     }
 
-    if(!isNull(content)){
-        aboutus_href = aboutus_href + "&content=" +content;
-        privacy_href = privacy_href + "&content=" +content;
-        data_href = data_href + "&content=" +content;
-    }
+    // if(!isNull(content)){
+    //     aboutus_href = aboutus_href + "&content=" +content;
+    //     privacy_href = privacy_href + "&content=" +content;
+    //     data_href = data_href + "&content=" +content;
+    // }
 
     if(!isNull(utm_source)){
         aboutus_href = aboutus_href + "&source=" +utm_source;

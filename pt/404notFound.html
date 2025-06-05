@@ -124,6 +124,7 @@
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link rel="stylesheet" href="./testname/css/one.css">
     <script src="./testname/js/jquery.min.js?V=20200214"></script>
+    <script src="./testname/js/common.js"></script>
 <!--    <script src="./testname/js/PageJsEn/404notFound.js"></script>-->
 
 
@@ -388,11 +389,6 @@
 </div>
 
 <script id="404_html">
-
-    function getLangFromPath() {
-        const pathSegments = window.location.pathname.split('/');
-        return pathSegments[1]; // 假设语言代码总是在第一个路径段
-    }
 
     $(document).ready(function () {
         let lang = getQueryParam("lang")

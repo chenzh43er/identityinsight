@@ -1,8 +1,3 @@
-function getLangFromPath() {
-    const pathSegments = window.location.pathname.split("/");
-    return pathSegments[1] || "default"; // 语言通常是路径的第一部分
-}
-
 function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(name);
@@ -18,7 +13,7 @@ $(document).ready(function () {
 
     let campaign =getQueryParam("campaign") ;
 
-    let content =getQueryParam("content") ;
+    //let content =getQueryParam("content") ;
 
     let utm_campaign =getQueryParam("utm_campaign") ;
 
@@ -63,9 +58,9 @@ $(document).ready(function () {
         indexHref = indexHref + "&utm_source=" +source;
     }
 
-    if(!isNull(content)){
-        indexHref = indexHref + "&content=" +content;
-    }
+    // if(!isNull(content)){
+    //     indexHref = indexHref + "&content=" +content;
+    // }
 
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;
