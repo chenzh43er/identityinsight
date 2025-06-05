@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>identityinsight</title>
+  <style id='global-styles-inline-css'>
+    :root {
+      --wp--preset--aspect-ratio--square: 1;
+      --wp--preset--aspect-ratio--4-3: 4/3;
+      --wp--preset--aspect-ratio--3-4: 3/4;
+      --wp--preset--aspect-ratio--3-2: 3/2;
+      --wp--preset--aspect-ratio--2-3: 2/3;
+      --wp--preset--aspect-ratio--16-9: 16/9;
+      --wp--preset--aspect-ratio--9-16: 9/16;
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;
+      --wp--preset--font-family--alegreya: Alegreya, serif;
+      --wp--preset--font-family--arvo: Arvo, serif;
+      --wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;
+      --wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;
+      --wp--preset--font-family--cabin: Cabin, sans-serif;
+      --wp--preset--font-family--chivo: Chivo, sans-serif;
+      --wp--preset--font-family--commissioner: Commissioner, sans-serif;
+      --wp--preset--font-family--cormorant: Cormorant, serif;
+      --wp--preset--font-family--courier-prime: 'Courier Prime', monospace;
+      --wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;
+      --wp--preset--font-family--dm-mono: 'DM Mono', monospace;
+      --wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;
+      --wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;
+      --wp--preset--font-family--domine: Domine, serif;
+      --wp--preset--font-family--eb-garamond: 'EB Garamond', serif;
+      --wp--preset--font-family--epilogue: Epilogue, sans-serif;
+      --wp--preset--font-family--fahkwang: Fahkwang, sans-serif;
+      --wp--preset--font-family--figtree: Figtree, sans-serif;
+      --wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;
+      --wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;
+      --wp--preset--font-family--fraunces: Fraunces, serif;
+      --wp--preset--font-family--gabarito: Gabarito, system-ui;
+      --wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;
+      --wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+      --wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;
+      --wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;
+      --wp--preset--font-family--inter: Inter, sans-serif;
+      --wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;
+      --wp--preset--font-family--jost: Jost, sans-serif;
+      --wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;
+      --wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;
+      --wp--preset--font-family--literata: Literata, serif;
+      --wp--preset--font-family--lora: Lora, serif;
+      --wp--preset--font-family--merriweather: Merriweather, serif;
+      --wp--preset--font-family--montserrat: Montserrat, sans-serif;
+      --wp--preset--font-family--newsreader: Newsreader, serif;
+      --wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;
+      --wp--preset--font-family--nunito: Nunito, sans-serif;
+      --wp--preset--font-family--open-sans: 'Open Sans', sans-serif;
+      --wp--preset--font-family--overpass: Overpass, sans-serif;
+      --wp--preset--font-family--pt-serif: 'PT Serif', serif;
+      --wp--preset--font-family--petrona: Petrona, serif;
+      --wp--preset--font-family--piazzolla: Piazzolla, serif;
+      --wp--preset--font-family--playfair-display: 'Playfair Display', serif;
+      --wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+      --wp--preset--font-family--poppins: Poppins, sans-serif;
+      --wp--preset--font-family--raleway: Raleway, sans-serif;
+      --wp--preset--font-family--roboto: Roboto, sans-serif;
+      --wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;
+      --wp--preset--font-family--rubik: Rubik, sans-serif;
+      --wp--preset--font-family--rufina: Rufina, serif;
+      --wp--preset--font-family--sora: Sora, sans-serif;
+      --wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;
+      --wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;
+      --wp--preset--font-family--space-mono: 'Space Mono', monospace;
+      --wp--preset--font-family--syne: Syne, sans-serif;
+      --wp--preset--font-family--texturina: Texturina, serif;
+      --wp--preset--font-family--urbanist: Urbanist, sans-serif;
+      --wp--preset--font-family--work-sans: 'Work Sans', sans-serif;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
+
+    :root {
+      --wp--style--global--content-size: 800px;
+      --wp--style--global--wide-size: 1200px;
+    }
+  </style>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <link rel="stylesheet" href="./testname/css/one.css">
+  <script src="./testname/js/jquery.min.js?V=20200214"></script>
+<!--  <script src="./testname/js/PageJsEn/privacy.js"></script>-->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
+          crossorigin="anonymous"></script>
+  <script src="./testname/js/common.js"></script>
+
+  <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
+  <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
+  <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5G9MGKZV');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9MGKZV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+</head>
+<body>
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="50d24b9" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-501690e"
+           data-id="501690e" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-5daaf45 elementor-widget-mobile__width-initial elementor-widget elementor-widget-html"
+               data-id="5daaf45" data-element_type="widget" data-widget_type="html.default">
+            <div class="elementor-widget-container">
+              <meta charset="UTF-8">
+              <title>Title</title>
+              <a href="" id="picForUrlJump">
+                <img src="./testname//img/title.png">
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-16a4503"
+           data-id="16a4503" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-20d443e elementor-nav-menu--dropdown-none elementor-nav-menu__align-end elementor-widget elementor-widget-nav-menu"
+               data-id="20d443e" data-element_type="widget"
+               data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
+               data-widget_type="nav-menu.default">
+            <div class="elementor-widget-container">
+              <nav aria-label="Menu"
+                   class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+                <ul id="menu-1-20d443e" class="elementor-nav-menu"
+                    data-smartmenus-id="1742717233196091">
+                  <li
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                    <a href="https://identityinsight.org/en" class="elementor-item" id="menu_index_select">Home</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
+                   aria-hidden="true">
+                <ul id="menu-2-20d443e" class="elementor-nav-menu"
+                    data-smartmenus-id="17427172331972703">
+                  <li
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                    <a href="https://identityinsight.org/en" class="elementor-item"
+                       tabindex="-1">Home</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-09bb139"
+           data-id="09bb139" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-84f1249 elementor-widget__width-initial elementor-widget elementor-widget-elementskit-header-search"
+               data-id="84f1249" data-element_type="widget"
+               data-widget_type="elementskit-header-search.default">
+            <div class="elementor-widget-container">
+              <div class="ekit-wid-con"> <a href="#ekit_modal-popup-84f1249"
+                                            class="ekit_navsearch-button ekit-modal-popup" aria-label="navsearch-button">
+                <i aria-hidden="true" class="icon icon-search"></i> </a>
+                <!-- language switcher strart -->
+                <!-- xs modal -->
+                <div class="zoom-anim-dialog mfp-hide ekit_modal-searchPanel"
+                     id="ekit_modal-popup-84f1249">
+                  <div class="ekit-search-panel">
+                    <!-- Polylang search - thanks to Alain Melsens -->
+                    <form role="search" method="get" class="ekit-search-group"
+                          action="https://identityinsight.org/en_us">
+                      <input type="search" class="ekit_search-field" aria-label="search-form"
+                             placeholder="Search..." value="" name="s">
+                      <button type="submit" class="ekit_search-button"
+                              aria-label="search-button">
+                        <i aria-hidden="true" class="icon icon-search"></i> </button>
+                    </form>
+                  </div>
+                </div><!-- End xs modal -->
+                <!-- end language switcher strart -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<main id="content" class="site-main post-3 page type-page status-publish hentry">
+
+  <div class="page-header">
+    <h1 class="entry-title">Privacy Policy</h1>		</div>
+
+  <div class="page-content">
+
+    <h2 class="wp-block-heading">Our Guarantee to you</h2>
+
+
+
+    <ul class="wp-block-list">
+      <li>Your data belongs to you. We do not use it without permission.</li>
+
+
+
+      <li>We do NOT sell your data to third parties.</li>
+
+
+
+      <li>You have full control over your data and can request to access it or unsubscribe at any time.</li>
+
+
+
+      <li>We comply with all applicable legal data protection requirements and Facebook policies.</li>
+
+
+
+      <li>The user has the right to request for the deletion of all their user data at any given time.</li>
+
+
+
+      <li>We are available to you at any time: Please&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfAZipVIVkA3rAnXZ9_ZlF1u8E-GIJ4liwTQUdMXPR3YTzI-A/viewform">contact us</a>&nbsp;if you have any questions</li>
+    </ul>
+
+
+
+    <p>General information</p>
+
+
+
+    <p>Tesename.me, including any of its subdomains and related features (collectively: the “Company”, “we” “us”, “our”, or “IdentityInsight”) , is committed to protecting your privacy. That is why we made every effort to create a website that would live up to high level privacy standards. This Privacy Policy describes our policy on the collection, use and disclosure of information about our Tesename.me domain and any content and/or URL pages included under the said domain (collectively: the “Website”) .</p>
+
+
+
+    <p>Definitions</p>
+
+
+
+    <p>The terminology used in this Privacy Policy are as follows:</p>
+
+
+
+    <p>a) Users – Refers to all customers and visitors who make use of the services provided by us.</p>
+
+
+
+    <p>b) Personally Identifiable Data – Refers to any kind of data which may be used to identify, contact, or locate a single individual (e.g. names, pictures)</p>
+
+
+
+    <p>c) Pseudonymous Data – Refers to data that identifies the user of the service, which may be one or more human beings, without disclosing any of their personally identifiable data (e.g. “user 19231”, instead of user John Miller) .</p>
+
+
+
+    <p>d) Service – refers to quizzes, products, content, and services created, developed, and published by us</p>
+
+
+
+    <p>e) Cookies – Refer to small text files of information sent to your browser by the website operating server, which are then stored there for later retrieval. Should the user browse the same website in the future, the data stored in the cookie is accessed by the website to learn about the user’s activity during their previous visit to the site. IdentityInsight uses cookies to improve and enhance user experience with regard to the use of our services, as well as for analytical and customizing purposes. Users have the option to enable or disable cookies. The user may opt out from many ad-serving cookies by using the service provided by<a href="http://www.aboutads.info/choices">http://www.aboutads.info/choices</a>&nbsp;or&nbsp;<a href="http://www.youronlinechoices.com/uk/your-ad-choices">http://www.youronlinechoices.com/uk/your-ad-choices</a>&nbsp;for users from the European Union.</p>
+
+
+
+    <p>f) IP Address – An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g. computer, printer) participating in the Internet.</p>
+
+
+
+    <p>General Information for Data Processing and Security</p>
+
+
+
+    <p>a) We collects, processes, and uses Personally Identifiable Data provided by the user. However, IdentityInsight will not do so beyond the scope permitted by the law and without the consent of the user.</p>
+
+
+
+    <p>b) Your personal data are used for the following purposes:</p>
+
+
+
+    <ul class="wp-block-list">
+      <li>Providing you with our services</li>
+
+
+
+      <li>Ensuring an efficient user experience, maintenance, technical support, and security of the service</li>
+
+
+
+      <li>Responding to your requests and inquiries</li>
+    </ul>
+
+
+
+    <p>c) IdentityInsight takes technical and administrative security measures to ensure compliance with data privacy laws and prevention of data loss, manipulation, destruction, and access by unauthorized persons. These security measures are monitored on a regular basis and updated according to industry standard as necessary.</p>
+
+
+
+    <p>d) Should contents, tools, or other means and mediums used by third-party providers whose registered office is abroad, it is presupposed that data transfer to the countries in which the registered office resides will take place.</p>
+
+
+
+    <p>Registration through Authentication Services of Facebook</p>
+
+
+
+    <p>a) Users may register and log into the IdentityInsight website through the authentication service of the third-party provider, particularly Facebook.</p>
+
+
+
+    <p>b) As a prerequisite for registration on the IdentityInsight website, the user must have a Facebook account, and enter the necessary account details or already be logged into Facebook.</p>
+
+
+
+    <p>c) For optimization of the service, IdentityInsight collects and receives the following data from Facebook, the so-called “Public Profile Information”, upon registration through its authentication services:</p>
+
+
+
+    <p>1) The user’s name</p>
+
+
+
+    <p>2) The user’s Facebook identification number (also known as the Facebook ID)</p>
+
+
+
+    <p>3) The gender designation the user provided Facebook with</p>
+
+
+
+    <p>d) After authentication, IdentityInsight also receives access to, but does not store, the user’s public profile pictures.</p>
+
+
+
+    <p>e) IdentityInsight only receives information on the gender if these are available for viewing by the public, as permitted by the user’s Facebook privacy settings.</p>
+
+
+
+    <p>f) IdentityInsight will not receive further data without consent from the user.</p>
+
+
+
+    <p>g) The user’s Facebook password cannot be seen nor saved by IdentityInsight.</p>
+
+
+
+    <p>h) The user’s data can be compared and synchronized with their user account on Facebook automatically. However, IdentityInsight is in no way obligated to update the data.</p>
+
+
+
+    <p>i) Users are encouraged to refer to Facebook’s privacy policy (<a href="https://www.facebook.com/about/privacy/your-info-on-other" rel="nofollow">https://www.facebook.com/about/privacy/your-info-on-other</a>) for more information regarding the consent process, and how to revoke such consent.</p>
+
+
+
+    <p>j) In case the user wishes to terminate the connection between IdentityInsight and their Facebook account, they may do so through their account on Facebook</p>
+
+
+
+    <p>(<a href="https://www.facebook.com/settings?tab=applications" rel="nofollow">https://www.facebook.com/settings?tab=applications</a>) or through the “Unregister” function on the IdentityInsight website.</p>
+
+
+
+    <p>Server Log-Files</p>
+
+
+
+    <p>During every visit of our Service, information about IP address, access-provider, referring URL, date/time, browser type and version and operating system, amount and state of transferred data is stored in the web server log files.</p>
+
+
+
+    <p>We use the log data without any other personal or pseudonymous profiling as required by law only for the purpose of the operation, security and optimization of our servers.</p>
+
+
+
+    <p>General Information on Usage of Facebook</p>
+
+
+
+    <p>a) If the Service is carried out as a Facebook application, which is operated by Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, and/or if authentication through Facebook is used, the permission of users is required for IdentityInsight to access their stored data on Facebook.</p>
+
+
+
+    <p>b) Users are expressly referred in the context of the Facebook consent dialog to this data collection and the data shared by Facebook with IdentityInsight (e.g. public profile, friends list, and “Like” information, only if these data elements are viewable by the public according to your Facebook privacy settings) through the Service.</p>
+
+
+
+    <p>c) IdentityInsightmay use the requested data anonymously for statistical purposes. IdentityInsight may evaluate how often a posting was shared in order to help us improve our Services and its contents like our quizzes and personality tests. IdentityInsight perform the evaluation anonymously, meaning independently of users’ Personally Identifiable Data IdentityInsight received with the consent of the user (e.g. without the Facebook ID). These evaluations are just for us only, without any transfers of this data to third parties.</p>
+
+
+
+    <p>d) Our Service uses social plugins (“plugins”) provided by Facebook. The plugins are usually identifiable by a Facebook logo. For a full list of all social plugins, please see&nbsp;<a href="http://developers.facebook.com/doc/plugins.">http://developers.facebook.com/doc/plugins.</a></p>
+
+
+
+    <p>e) Users are referred to Facebook’s privacy policy&nbsp;<a href="https://www.facebook.com/about/privacy/your-info-on-other">https://www.facebook.com/about/privacy/your-info-on-other</a>&nbsp;for more information about the consent process, consent granted, and ways of revoking such consent within their Facebook profile.</p>
+
+
+
+    <p>f) Users have the option in the Facebook application settings to end their use of the Service at any time:&nbsp;<a href="https://www.facebook.com/settings?tab=applications">https://www.facebook.com/settings?tab=applications.</a></p>
+
+
+
+    <p>Use of Facebook Re/Marketing Services</p>
+
+
+
+    <p>a) IdentityInsight makes use of “Facebook Pixel” and the “App Analytics” (hereinafter collectively referred to as the “Facebook Re/Marketing Functions”) provided by Facebook, which is operated by Facebook Inc.</p>
+
+
+
+    <p>b) The Facebook Marketing Functions allow us and Facebook to determine the relevant target audiences, in order to display advertisements (hereinafter referred to as “Facebook-Ads’) in reference to potential interests of the users, as well as to users with similar attributes (so called “Lookalike Audiences”). We use the Facebook Marketing Functions, because we want to display Facebook-Ads only to users, who displayed an interest in our Service. The Facebook Marketing Functions allow us and Facebook to determine, whether our Ads were effective and satisfactory for users by being able to comprehend users’ actions, after they were forwarded to our Service by clicking a Facebook-Ad.</p>
+
+
+
+    <p>c) The data collected by Facebook is pseudonymous and, as such, is not Personally Identifiable. However, Facebook may link this data with the user’s profile within their network. For more information on how Facebook processes the user’s data, please refer to their privacy policy (<a href="https://www.facebook.com/policy.php">https://www.facebook.com/policy.php</a>).</p>
+
+
+
+    <p>d) In case you want to opt out of being subject to our and Facebook’s use of Facebook Marketing Functions for marketing purposes please use Facebook’s opt-out settings provided within your user profile:&nbsp;<a href="https://www.facebook.com/settings?tab=ads">https://www.facebook.com/settings?tab=ads</a>&nbsp;or for users from the EU&nbsp;<a href="http://www.youronlinechoices.com/">http://www.youronlinechoices.com.</a>&nbsp;Your choices are irrespective of platforms and devices and will be considered while using desktop or mobile device.</p>
+
+
+
+    <p>Use of Google Marketing and ReMarketing Services</p>
+
+
+
+    <p>a) We use the marketing and remarketing services (hereinafter referred to as the “Google Marketing Services”) provided by Google Inc., 1600 Amphitheatre Parkway, Mountian View, CA 94043, USA.</p>
+
+
+
+    <p>b) The Google Marketing Services enable us to display ads for and on our Websites and Service in a more targeted manner so that users are only shown ads which might actually be of interest to them. For this purpose, as soon as the user accesses our Websites, or other websites on which Google Marketing Services have been activated, Google immediately executes a Google code and so called re/marketing tags (invisible graphics or code) are integrated into the Website. With the help of these tags, an individual cookie, is stored on the users’ device (comparable technology can be used instead of cookies). The cookies can be set from various domains, including google.com and doubleclick.net. This file keeps a record of which websites the user visits, what content he/she is interested in and which offers he/she has clicked on, as well as technical information about the browser and operating system, referring websites, time of access and other details about the use of the website content. The users’ IP address is also recorded, whereby we, within the context of Google Analytics, would like to point out that, within member states of the European Union or in other countries that are party to the Agreement on the European Economic Area, the IP address is truncated and only transmitted in its entirety to a Google server in the US and truncated there in exceptional cases. The IP address will not be linked with any of the user’s data from other services offered by Google. The aforementioned information can also be combined with equivalent information from other sources. If the user visits other websites afterwards, he/she can only be shown the ads that directly reflect his/her interests.</p>
+
+
+
+    <p>c) Within the scope of Google Marketing Services, the users’ data is processed pseudonymously. This means that Google does not, for example, store and process the users’ name or e-mail address, instead processing the relevant data on the basis of the cookies within pseudonymous user profiles. In other words, from Google’s point of view, the ads are managed and displayed for the cookie owner, regardless of who the cookie owner is, rather than for a specifically identified person. This shall not apply where the user has expressly permitted Google to process the data without this pseudonymization. The information collected about the users via “DoubleClick” shall be transmitted to Google and stored on Google’s servers in the US.</p>
+
+
+
+    <p>d) On the basis of Google Marketing Services, we integrate third-party “DoubleClick“ ads. DoubleClick uses cookies that enable Google and its partner websites to run ads based on users visiting this or other websites.</p>
+
+
+
+    <p>e) On the basis of Google Marketing Services, we also integrate third-party “AdSense“ ads. AdSense uses cookies that enable Google and its partner websites to run ads based on users visiting this or other websites.</p>
+
+
+
+    <p>f) You can find further information on Google’s use of data for marketing purposes on the site map:&nbsp;<a href="https://www.google.com/policies/technologies/ads">https://www.google.com/policies/technologies/ads</a>, Google’s privacy policy can be viewed at&nbsp;<a href="https://www.google.com/policies/privacy">https://www.google.com/policies/privacy.</a></p>
+
+
+
+    <p>g) If you wish to object to the collection of data by Google Marketing Services, you can use the settings and opt-out functions provided by Google:&nbsp;<a href="http://www.google.com/ads/preferences">http://www.google.com/ads/preferences.</a></p>
+
+
+
+    <p>Use of Google Analytics</p>
+
+
+
+    <p>a) We uses Google Analytics, a web analytics service provided by Google, Inc.</p>
+
+
+
+    <p>b) Google Analytics uses cookies to gather information about the user’s interaction and engagement with the We website. This information, including the user’s IP address, are used to evaluate the user’s interactions with the We website, compile reports on website activity for website operators, and provide other services related to website activity and internet usage.</p>
+
+
+
+    <p>c) In such cases stipulated in b), Google Analytics will not associate the user’s IP address with any personally identifiable information.</p>
+
+
+
+    <p>d) As with other cookies, the user may opt out of granting access to cookies by modifying the appropriate settings in the user’s web browser. However, this might compromise the user’s access to the full functionality of the We website.</p>
+
+
+
+    <p>e) Continuous use of the We website will be considered the user’s express consent to the processing of their data by Google Analytics for the purposes stated above.</p>
+
+
+
+    <p>f) For additional information, please refer to Google Analytics privacy policy&nbsp;<a href="https://www.google.com/policies/privacy">https://www.google.com/policies/privacy.</a></p>
+
+
+
+    <p>Third Party Content</p>
+
+
+
+    <p>a) Third party content (e.g. tests, game, and graphics from other services) may be incorporated into the our Service.</p>
+
+
+
+    <p>b) This means that the third party service provider makes use of the user’s IP address in order to display such content.</p>
+
+
+
+    <p>c) We are not responsible for practices employed by any third party website or service linked to and/or from us. Should the user access a link to any external website, any information the user discloses to that website lies beyond our jurisdiction and the privacy policy of the aforementioned site will apply.</p>
+
+
+
+    <p>Cookie policy</p>
+
+
+
+    <p>Cookies are small data text files that are sent from a server during a browsing session. Cookies are typically stored on your computer’s hard drive and are used by web sites to simulate a continuous connection to that site. The use of cookies automatically identifies your browser whenever you interact with a site. A “web beacon,” also known as a tag, pixel tag, or clear GIF, is used to transmit information back to a web server. When we talk about “cookies” in this privacy notice, we mean not just cookies, but web beacons and similar technologies.</p>
+
+
+
+    <p>Browsers and devices have tools that allow you to disable cookies on sites and apps. If you disable cookies you may not be able to access all the features of our services. We suggest that you keep our essential cookies (described below) active for a better user experience and to help us keep improving and developing our products and services.</p>
+
+
+
+    <p>Essential cookies</p>
+
+
+
+    <p>We use cookies to recognize you and remember you as a unique user. Cookies allow us to: serve you with content and ads; monitor traffic on our sites and apps; count and keep track of users who have seen particular ads and content; analyze your actions, see what you’re interested in and where you go online when you leave our sites and apps. By using your personal data in this way we can improve our products and services and your user experience.</p>
+
+
+
+    <p>Session cookies remember you during your session on our sites and apps they are deleted when you log out of the site and when you close your web browser.</p>
+
+
+
+    <p>Analytics cookies are used by us and by third parties who process data for us for data analytics purposes (for example Google Analytics) so that we can manage and improve the performance and design of our sites and apps and for monitoring, auditing, research and reporting.</p>
+
+
+
+    <p>Consent cookies may be used by consent management tools we employ to allow us to record your preferences about third party cookies described in [section 14.2](#section-14.2) below, and to store and share your preference with us.</p>
+
+
+
+    <p>We may collect the following personal data through essential cookies: a unique ID assigned to your device; IP address; device and browser type; operating system; referring URLs; content viewed or other actions taken on our sites and apps; time and date of those actions; country and language selected.</p>
+
+
+
+    <p>Third party cookies: advertising and affiliate links</p>
+
+
+
+    <p>Our ad partners and our affiliate links partners may collect personal data from you for their own purposes.</p>
+
+
+
+    <ul class="wp-block-list">
+      <li>Ad partners include ad networks such as third party ad servers, ad agencies, ad technology vendors and research firms.</li>
+
+
+
+      <li>Affiliate links partners pay us when you buy things from them or another third party after clicking on an affiliate link in our content.</li>
+    </ul>
+
+
+
+    <p>Our ad partners use third party cookies to serve ads to you and to target you with tailored (or personalized) ads when you are on our sites and apps and when you visit third party sites. They also use cookies to measure traffic on our pages (for example to track ad views).</p>
+
+
+
+    <p>Ad partners and affiliate links partners may view, edit or set their own cookies on your mobile device or web browser when you interact with our sites and apps. They use cookies to track your use of our sites and apps and your activities elsewhere online. We are not responsible for the privacy practices of these third parties and we encourage you to read their privacy notices so that you understand how they process information about you.</p>
+
+
+
+    <p>Data Protection Officer</p>
+
+
+
+    <p>Contact Information:</p>
+
+
+
+    <p>Name: Ping Rankun</p>
+
+
+
+    <p>E-mail: support@identityinsight.org</p>
+
+
+  </div>
+
+
+</main>
+
+<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-9e00932 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="9e00932" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-36c843f"
+           data-id="36c843f" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-b97e7fa elementor-widget elementor-widget-heading"
+               data-id="b97e7fa" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">Subscribe For New Quizzes
+              </h2>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-19c50eb elementor-button-align-stretch elementor-widget elementor-widget-form"
+               data-id="19c50eb" data-element_type="widget"
+               data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+               data-widget_type="form.default">
+            <div class="elementor-widget-container">
+              <form class="elementor-form" method="post" name="New Form">
+                <input type="hidden" name="post_id" value="197">
+                <input type="hidden" name="form_id" value="19c50eb">
+                <input type="hidden" name="referer_title" value="">
+
+                <input type="hidden" name="queried_id" value="9">
+
+                <div class="elementor-form-fields-wrapper elementor-labels-">
+                  <div
+                          class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+                    <label for="form-field-email"
+                           class="elementor-field-label elementor-screen-only">
+                      Email </label>
+                    <input size="1" type="email" name="form_fields[email]" id="form-field-email"
+                           class="elementor-field elementor-size-sm  elementor-field-textual"
+                           placeholder="Email" required="required">
+                  </div>
+                  <div
+                          class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                    <button class="elementor-button elementor-size-sm" type="submit">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-text">Sign Up</span>
+                                                </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-71a9600"
+           data-id="71a9600" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-4580ce7 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+               data-id="4580ce7" data-element_type="widget" data-widget_type="icon-list.default">
+            <div class="elementor-widget-container">
+              <ul class="elementor-icon-list-items elementor-inline-items">
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="abount_us_link">
+                    <span class="elementor-icon-list-text">About Us</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="privacy_link">
+                    <span class="elementor-icon-list-text"> Privacy Policy</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="data_link">
+                    <span class="elementor-icon-list-text">Data Removal</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-ab0a714 elementor-widget elementor-widget-heading"
+               data-id="ab0a714" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <p class="elementor-heading-title elementor-size-default">Copyright © 2025 | All rights
+                reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bc2eed8"
+           data-id="bc2eed8" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-e8b89d1 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+               data-id="e8b89d1" data-element_type="widget" data-widget_type="social-icons.default">
+            <div class="elementor-widget-container">
+              <div class="elementor-social-icons-wrapper elementor-grid">
+                                    <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a8f7d9b"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Facebook</span>
+                                            <i class="fab fa-facebook"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-cf3ccf1"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Pinterest</span>
+                                            <i class="fab fa-pinterest"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-cd914b5"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Youtube</span>
+                                            <i class="fab fa-youtube"></i> </a>
+                                    </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="./testname/js/footJs.js"></script>
+<script src="./testname/js/headerJs.js"></script>
+</body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>identityinsight</title>
+  <style id='global-styles-inline-css'>
+    :root {
+      --wp--preset--aspect-ratio--square: 1;
+      --wp--preset--aspect-ratio--4-3: 4/3;
+      --wp--preset--aspect-ratio--3-4: 3/4;
+      --wp--preset--aspect-ratio--3-2: 3/2;
+      --wp--preset--aspect-ratio--2-3: 2/3;
+      --wp--preset--aspect-ratio--16-9: 16/9;
+      --wp--preset--aspect-ratio--9-16: 9/16;
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;
+      --wp--preset--font-family--alegreya: Alegreya, serif;
+      --wp--preset--font-family--arvo: Arvo, serif;
+      --wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;
+      --wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;
+      --wp--preset--font-family--cabin: Cabin, sans-serif;
+      --wp--preset--font-family--chivo: Chivo, sans-serif;
+      --wp--preset--font-family--commissioner: Commissioner, sans-serif;
+      --wp--preset--font-family--cormorant: Cormorant, serif;
+      --wp--preset--font-family--courier-prime: 'Courier Prime', monospace;
+      --wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;
+      --wp--preset--font-family--dm-mono: 'DM Mono', monospace;
+      --wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;
+      --wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;
+      --wp--preset--font-family--domine: Domine, serif;
+      --wp--preset--font-family--eb-garamond: 'EB Garamond', serif;
+      --wp--preset--font-family--epilogue: Epilogue, sans-serif;
+      --wp--preset--font-family--fahkwang: Fahkwang, sans-serif;
+      --wp--preset--font-family--figtree: Figtree, sans-serif;
+      --wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;
+      --wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;
+      --wp--preset--font-family--fraunces: Fraunces, serif;
+      --wp--preset--font-family--gabarito: Gabarito, system-ui;
+      --wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;
+      --wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+      --wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;
+      --wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;
+      --wp--preset--font-family--inter: Inter, sans-serif;
+      --wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;
+      --wp--preset--font-family--jost: Jost, sans-serif;
+      --wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;
+      --wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;
+      --wp--preset--font-family--literata: Literata, serif;
+      --wp--preset--font-family--lora: Lora, serif;
+      --wp--preset--font-family--merriweather: Merriweather, serif;
+      --wp--preset--font-family--montserrat: Montserrat, sans-serif;
+      --wp--preset--font-family--newsreader: Newsreader, serif;
+      --wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;
+      --wp--preset--font-family--nunito: Nunito, sans-serif;
+      --wp--preset--font-family--open-sans: 'Open Sans', sans-serif;
+      --wp--preset--font-family--overpass: Overpass, sans-serif;
+      --wp--preset--font-family--pt-serif: 'PT Serif', serif;
+      --wp--preset--font-family--petrona: Petrona, serif;
+      --wp--preset--font-family--piazzolla: Piazzolla, serif;
+      --wp--preset--font-family--playfair-display: 'Playfair Display', serif;
+      --wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+      --wp--preset--font-family--poppins: Poppins, sans-serif;
+      --wp--preset--font-family--raleway: Raleway, sans-serif;
+      --wp--preset--font-family--roboto: Roboto, sans-serif;
+      --wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;
+      --wp--preset--font-family--rubik: Rubik, sans-serif;
+      --wp--preset--font-family--rufina: Rufina, serif;
+      --wp--preset--font-family--sora: Sora, sans-serif;
+      --wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;
+      --wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;
+      --wp--preset--font-family--space-mono: 'Space Mono', monospace;
+      --wp--preset--font-family--syne: Syne, sans-serif;
+      --wp--preset--font-family--texturina: Texturina, serif;
+      --wp--preset--font-family--urbanist: Urbanist, sans-serif;
+      --wp--preset--font-family--work-sans: 'Work Sans', sans-serif;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
+
+    :root {
+      --wp--style--global--content-size: 800px;
+      --wp--style--global--wide-size: 1200px;
+    }
+  </style>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <link rel="stylesheet" href="./testname/css/one.css">
+  <script src="./testname/js/jquery.min.js?V=20200214"></script>
+  <script src="./testname/js/common.js"></script>
+<!--  <script src="./testname/js/PageJsEn/about_us.js"></script>-->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
+          crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
+  <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
+  <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5G9MGKZV');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9MGKZV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+</head>
+<body>
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="50d24b9" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-501690e"
+           data-id="501690e" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-5daaf45 elementor-widget-mobile__width-initial elementor-widget elementor-widget-html"
+               data-id="5daaf45" data-element_type="widget" data-widget_type="html.default">
+            <div class="elementor-widget-container">
+              <meta charset="UTF-8">
+              <title>Title</title>
+              <a href="" id="picForUrlJump">
+                <img src="./testname//img/title.png">
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-16a4503"
+           data-id="16a4503" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-20d443e elementor-nav-menu--dropdown-none elementor-nav-menu__align-end elementor-widget elementor-widget-nav-menu"
+               data-id="20d443e" data-element_type="widget"
+               data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
+               data-widget_type="nav-menu.default">
+            <div class="elementor-widget-container">
+              <nav aria-label="Menu"
+                   class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+                <ul id="menu-1-20d443e" class="elementor-nav-menu"
+                    data-smartmenus-id="1742717233196091">
+                  <li
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                    <a href="https://identityinsight.org/en" class="elementor-item" id="menu_index_select">Home</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
+                   aria-hidden="true">
+                <ul id="menu-2-20d443e" class="elementor-nav-menu"
+                    data-smartmenus-id="17427172331972703">
+                  <li
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                    <a href="https://identityinsight.org/en" class="elementor-item"
+                       tabindex="-1">Home</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-09bb139"
+           data-id="09bb139" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-84f1249 elementor-widget__width-initial elementor-widget elementor-widget-elementskit-header-search"
+               data-id="84f1249" data-element_type="widget"
+               data-widget_type="elementskit-header-search.default">
+            <div class="elementor-widget-container">
+              <div class="ekit-wid-con"> <a href="#ekit_modal-popup-84f1249"
+                                            class="ekit_navsearch-button ekit-modal-popup" aria-label="navsearch-button">
+                <i aria-hidden="true" class="icon icon-search"></i> </a>
+                <!-- language switcher strart -->
+                <!-- xs modal -->
+                <div class="zoom-anim-dialog mfp-hide ekit_modal-searchPanel"
+                     id="ekit_modal-popup-84f1249">
+                  <div class="ekit-search-panel">
+                    <!-- Polylang search - thanks to Alain Melsens -->
+                    <form role="search" method="get" class="ekit-search-group"
+                          action="https://identityinsight.org/en_us">
+                      <input type="search" class="ekit_search-field" aria-label="search-form"
+                             placeholder="Search..." value="" name="s">
+                      <button type="submit" class="ekit_search-button"
+                              aria-label="search-button">
+                        <i aria-hidden="true" class="icon icon-search"></i> </button>
+                    </form>
+                  </div>
+                </div><!-- End xs modal -->
+                <!-- end language switcher strart -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div data-elementor-type="wp-page" data-elementor-id="213" class="elementor elementor-213" data-elementor-post-type="page" id = "content_for_page">
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-5da67fd elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="5da67fd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-background-overlay"></div>
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8437a9" data-id="f8437a9" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-f4d62e7 elementor-widget elementor-widget-heading" data-id="f4d62e7" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">About IdentityInsight
+              </h2>				</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-feead4b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="feead4b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b1f4469" data-id="b1f4469" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-1f1aacc elementor-widget elementor-widget-text-editor" data-id="1f1aacc" data-element_type="widget" data-widget_type="text-editor.default">
+            <div class="elementor-widget-container">
+              <p class="zfr3Q CDt4Ke " dir="ltr"><span class="jgG6ef C9DxTc ">IdentityInsight is a website designed specifically for all users worldwide, offering the most trending and entertaining content information. It features entertainment tests, professional assessments, image synthesis, and various formats such as trivia, regular login tests, extended-choice questions, and extended-answer questions.</span></p><p class="zfr3Q CDt4Ke " dir="ltr"><span class="jgG6ef C9DxTc ">Our platform leverages technologies such as one-click Facebook login, image synthesis, facial recognition integration, and intelligent hot topic recommendations. We aim to provide users with comprehensive and diverse leisure content services in the realm of audio and video entertainment.</span></p>								</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-66b41b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66b41b5" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-427869e" data-id="427869e" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <section class="elementor-section elementor-inner-section elementor-element elementor-element-aca4459 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="aca4459" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+              <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a74fb37" data-id="a74fb37" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-85a1f3c elementor-widget elementor-widget-image" data-id="85a1f3c" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img fetchpriority="high" decoding="async" width="512" height="512" src="./testname/img/Untitled.png" class="attachment-large size-large wp-image-306" alt="" sizes="(max-width: 512px) 100vw, 512px">
+                    </div>
+                  </div>
+                  <div class="elementor-element elementor-element-6c5f65c elementor-widget elementor-widget-heading" data-id="6c5f65c" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                      <h2 class="elementor-heading-title elementor-size-default">All type quizzes
+                      </h2>				</div>
+                  </div>
+                  <div class="elementor-element elementor-element-4424436 elementor-widget elementor-widget-text-editor" data-id="4424436" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                      Offering over 12 different quiz formats, covering every imaginable aspect.&nbsp;								</div>
+                  </div>
+                </div>
+              </div>
+              <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f2a9058" data-id="f2a9058" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-833e5e6 elementor-widget elementor-widget-image" data-id="833e5e6" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img decoding="async" width="512" height="512" src="./testname/img/Untitled-1.png" class="attachment-large size-large wp-image-307" alt="" sizes="(max-width: 512px) 100vw, 512px">
+                    </div>
+                  </div>
+                  <div class="elementor-element elementor-element-e72c154 elementor-widget elementor-widget-heading" data-id="e72c154" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                      <h2 class="elementor-heading-title elementor-size-default">Stay abreast of trends
+                      </h2>				</div>
+                  </div>
+                  <div class="elementor-element elementor-element-66e801e elementor-widget elementor-widget-text-editor" data-id="66e801e" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                      Following the latest hot topics ensuring that even quizzes deliver a fresh and distinctive experience.
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-95def52" data-id="95def52" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-e2df016 elementor-widget elementor-widget-image" data-id="e2df016" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img decoding="async" width="512" height="512" src="./testname/img/increase.png" class="attachment-large size-large wp-image-308" alt="" sizes="(max-width: 512px) 100vw, 512px">
+                    </div>
+                  </div>
+                  <div class="elementor-element elementor-element-07e9c82 elementor-widget elementor-widget-heading" data-id="07e9c82" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                      <h2 class="elementor-heading-title elementor-size-default">Great partnership
+
+                      </h2>				</div>
+                  </div>
+                  <div class="elementor-element elementor-element-8ed0957 elementor-widget elementor-widget-text-editor" data-id="8ed0957" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                      A global overseas content creation incentive platform addressing localized content, with over 1,000 registered members worldwide.
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-58b732a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58b732a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e7874c5" data-id="e7874c5" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-2d12631 elementor-widget elementor-widget-heading" data-id="2d12631" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">Reasons to follow us:
+              </h2>				</div>
+          </div>
+          <div class="elementor-element elementor-element-b983240 elementor-widget elementor-widget-text-editor" data-id="b983240" data-element_type="widget" data-widget_type="text-editor.default">
+            <div class="elementor-widget-container">
+              <ul class="n8H08c UVNKR "><li class="zfr3Q TYR86d eD0Rn " dir="ltr"><p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Varied Quiz Types: Enjoy diverse quiz formats covering a wide range of topics.&nbsp;</span></p></li><li class="zfr3Q TYR86d eD0Rn " dir="ltr"><p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Global Community: Join over 300,000,000 users worldwide, contributing to and benefiting from an international content creation platform.&nbsp;</span></p></li><li class="zfr3Q TYR86d eD0Rn " dir="ltr"><p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Real-time Trend Updates: Stay connected with the latest online trends for consistently fresh quiz experiences.&nbsp;</span></p></li><li class="zfr3Q TYR86d eD0Rn " dir="ltr"><p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Ultimate Quiz Experience: Encounter a remarkably enjoyable testing process on our platform, delivering both surprisingly unexpected yet logically fitting quiz results.&nbsp;</span></p></li><li class="zfr3Q TYR86d eD0Rn " dir="ltr"><p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Massive Traffic: Benefit from abundant content recommendations and exposure on our platform, earning a share of publisher ad revenue.&nbsp;</span></p></li></ul>								</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-3d54e78 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d54e78" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-da66fb9" data-id="da66fb9" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-37adbba elementor-widget elementor-widget-heading" data-id="37adbba" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">IdentityInsight Quizzes Platform
+
+              </h2>				</div>
+          </div>
+          <div class="elementor-element elementor-element-6bf3490 elementor-widget elementor-widget-text-editor" data-id="6bf3490" data-element_type="widget" data-widget_type="text-editor.default">
+            <div class="elementor-widget-container">
+              Join our platform and create quizzes now
+
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-37f8943 elementor-align-center elementor-widget elementor-widget-button" data-id="37f8943" data-element_type="widget" data-widget_type="button.default">
+            <div class="elementor-widget-container">
+              <div class="elementor-button-wrapper">
+                <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Join Us</span>
+					</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer" id = "content_for_footer"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-9e00932 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="9e00932" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-36c843f"
+           data-id="36c843f" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-b97e7fa elementor-widget elementor-widget-heading"
+               data-id="b97e7fa" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">Subscribe For New Quizzes
+              </h2>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-19c50eb elementor-button-align-stretch elementor-widget elementor-widget-form"
+               data-id="19c50eb" data-element_type="widget"
+               data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+               data-widget_type="form.default">
+            <div class="elementor-widget-container">
+              <form class="elementor-form" method="post" name="New Form">
+                <input type="hidden" name="post_id" value="197">
+                <input type="hidden" name="form_id" value="19c50eb">
+                <input type="hidden" name="referer_title" value="">
+
+                <input type="hidden" name="queried_id" value="9">
+
+                <div class="elementor-form-fields-wrapper elementor-labels-">
+                  <div
+                          class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+                    <label for="form-field-email"
+                           class="elementor-field-label elementor-screen-only">
+                      Email </label>
+                    <input size="1" type="email" name="form_fields[email]" id="form-field-email"
+                           class="elementor-field elementor-size-sm  elementor-field-textual"
+                           placeholder="Email" required="required">
+                  </div>
+                  <div
+                          class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                    <button class="elementor-button elementor-size-sm" type="submit">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-text">Sign Up</span>
+                                                </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-71a9600"
+           data-id="71a9600" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-4580ce7 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+               data-id="4580ce7" data-element_type="widget" data-widget_type="icon-list.default">
+            <div class="elementor-widget-container">
+              <ul class="elementor-icon-list-items elementor-inline-items">
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="abount_us_link">
+                    <span class="elementor-icon-list-text">About Us</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="privacy_link">
+                    <span class="elementor-icon-list-text"> Privacy Policy</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="data_link">
+                    <span class="elementor-icon-list-text">Data Removal</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-ab0a714 elementor-widget elementor-widget-heading"
+               data-id="ab0a714" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <p class="elementor-heading-title elementor-size-default">Copyright © 2025 | All rights
+                reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bc2eed8"
+           data-id="bc2eed8" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-e8b89d1 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+               data-id="e8b89d1" data-element_type="widget" data-widget_type="social-icons.default">
+            <div class="elementor-widget-container">
+              <div class="elementor-social-icons-wrapper elementor-grid">
+                                    <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a8f7d9b"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Facebook</span>
+                                            <i class="fab fa-facebook"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-cf3ccf1"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Pinterest</span>
+                                            <i class="fab fa-pinterest"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-cd914b5"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Youtube</span>
+                                            <i class="fab fa-youtube"></i> </a>
+                                    </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="./testname/js/footJs.js"></script>
+<script src="./testname/js/headerJs.js"></script>
+</body>
+</html>
