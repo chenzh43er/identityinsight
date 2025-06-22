@@ -804,7 +804,11 @@
                     '</div>';
           }
 
-          if(countAddIndexAdv == 2 && version != 3){
+          if(countAddIndexAdv == 2 && version != 3 && !isMobileByWidth()){
+            contentOtherHtml = contentOtherHtml + advHtml
+          }else if(isMobileByWidth() && version == 1 && countAddIndexAdv == 1){
+            contentOtherHtml = contentOtherHtml + advHtml
+          }else if(isMobileByWidth() && version == 2 && countAddIndexAdv == 2){
             contentOtherHtml = contentOtherHtml + advHtml
           }
 
@@ -830,75 +834,6 @@
       page = Number(getQueryParam("page")) ;
       if(page==0){
 
-        document.getElementById('indexadv_1').innerHTML= returnAdvWord();
-        // 获取唯一元素
-        const indexadv_1 = document.getElementById('indexadv_1')
-        if (indexadv_1) {
-          const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                loadListAdv_1(entry.target);
-                obs.unobserve(entry.target);
-              }
-            });
-          }, {
-            rootMargin: '5px',
-          });
-          observer.observe(indexadv_1);
-        }
-
-
-        document.getElementById('indexadv_3').innerHTML= returnAdvWord();
-        const indexadv_3 = document.getElementById('indexadv_3')
-        if (indexadv_3) {
-          const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                loadListAdv_5(entry.target);
-                obs.unobserve(entry.target);
-              }
-            });
-          }, {
-            rootMargin: '5px',
-          });
-          observer.observe(indexadv_3);
-        }
-
-
-        if(!isMobileByWidth()){
-          document.getElementById('indexadv_2').innerHTML= returnAdvWord();
-          const indexadv_2 = document.getElementById('indexadv_2')
-          if (indexadv_2) {
-            const observer = new IntersectionObserver((entries, obs) => {
-              entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                  loadListAdv_3(entry.target);
-                  obs.unobserve(entry.target);
-                }
-              });
-            }, {
-              rootMargin: '5px',
-            });
-            observer.observe(indexadv_2);
-          }
-        }else{
-          document.getElementById('indexadv_4').innerHTML= returnAdvWord();
-          const indexadv_2 = document.getElementById('indexadv_4')
-          if (indexadv_2) {
-            const observer = new IntersectionObserver((entries, obs) => {
-              entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                  loadListAdv_3(entry.target);
-                  obs.unobserve(entry.target);
-                }
-              });
-            }, {
-              rootMargin: '5px',
-            });
-            observer.observe(indexadv_2);
-          }
-        }
-
         document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1,1);
 
         document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1,2);
@@ -922,20 +857,24 @@
         //(adsbygoogle = window.adsbygoogle || []).push({});
       }
 
-      const listAdv_2 = document.getElementById('listAdv_2')
-      if (listAdv_2) {
+      document.getElementById('indexadv_1').innerHTML= returnAdvWord();
+      // 获取唯一元素
+      const indexadv_1 = document.getElementById('indexadv_1')
+      if (indexadv_1) {
         const observer = new IntersectionObserver((entries, obs) => {
           entries.forEach(entry => {
             if (entry.isIntersecting) {
-              loadListAdv_2(entry.target);
+              loadListAdv_1(entry.target);
               obs.unobserve(entry.target);
             }
           });
         }, {
           rootMargin: '5px',
         });
-        observer.observe(listAdv_2);
+        observer.observe(indexadv_1);
       }
+
+      setTimeout(function () {
 
       const listAdv_4 = document.getElementById('listAdv_4')
       if (listAdv_4) {
@@ -951,6 +890,74 @@
         });
         observer.observe(listAdv_4);
       }
+
+      document.getElementById('indexadv_3').innerHTML= returnAdvWord();
+      const indexadv_3 = document.getElementById('indexadv_3')
+      if (indexadv_3) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              loadListAdv_5(entry.target);
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {
+          rootMargin: '5px',
+        });
+        observer.observe(indexadv_3);
+      }
+
+
+      if(!isMobileByWidth()){
+        document.getElementById('indexadv_2').innerHTML= returnAdvWord();
+        const indexadv_2 = document.getElementById('indexadv_2')
+        if (indexadv_2) {
+          const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                loadListAdv_3(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          }, {
+            rootMargin: '5px',
+          });
+          observer.observe(indexadv_2);
+        }
+      }else{
+        document.getElementById('indexadv_4').innerHTML= returnAdvWord();
+        const indexadv_2 = document.getElementById('indexadv_4')
+        if (indexadv_2) {
+          const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                loadListAdv_3(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          }, {
+            rootMargin: '5px',
+          });
+          observer.observe(indexadv_2);
+        }
+      }
+
+      const listAdv_2 = document.getElementById('listAdv_2')
+      if (listAdv_2) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              loadListAdv_2(entry.target);
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {
+          rootMargin: '0px',
+        });
+        observer.observe(listAdv_2);
+      }
+
+      }, 1000);
 
     }
 
