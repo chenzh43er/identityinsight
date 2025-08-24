@@ -45,9 +45,12 @@ $(document).ready(function () {
     }else if(langPage == "pt"){
         home_str = "Início"
         indexHref = "./list.html?"
+    }else if(langPage == "de"){
+        home_str = "Startseite";   // 最常见、简洁
+        indexHref = "./list.html?"; // 链接保持不变
     }else{
-        home_str = "FGU"
-        indexHref = "./list.html?"
+        home_str = "Startseite";   // 最常见、简洁
+        indexHref = "./list.html?"; // 链接保持不变
     }
 
     if(!isNull(medium)){

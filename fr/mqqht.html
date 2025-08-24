@@ -755,8 +755,10 @@
                     utm_content_url = "./testname/js/pt_title/"
                 } else if (lang == "en") {
                     utm_content_url = "./testname/js/en_title/"
-                } else {
+                } else if (lang == "de") {
                     utm_content_url = "./testname/js/en_title/"
+                }else {
+                    utm_content_url = "./testname/js/de_title/"
                 }
 
 
@@ -838,8 +840,12 @@
                     submitText = "Enviar"
                 } else if (langPage == "pt") {
                     submitText = "Enviar"
-                } else {
+                } else if (langPage == "en") {
                     submitText = "Submit"
+                }else if (langPage == "de") {
+                    submitText = "Senden";
+                }else {
+                    submitText = "Senden"
                 }
 
                 //submit下面的广告
@@ -1033,9 +1039,12 @@
                         } else if (lang == "en") {
                             resultHref = "./result.html?";
                             submitText = "Submit"
+                        }else if (lang == "de") {
+                            resultHref = "./result.html?";
+                            submitText = "Senden"
                         } else {
                             resultHref = "./result.html?";
-                            submitText = "Submit"
+                            submitText = "Senden"
                         }
 
                         if (!isNull(utm_campaign)) {
@@ -1153,6 +1162,8 @@
                         }else if(langPage == "en"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "pt"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "de"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1366,16 +1377,16 @@
                 let langPage = getLangFromPath()
                 if(langPage=="fr"){
                     document.getElementById("titleForRecMT").innerText="Les plus testés";
-                    //console.log("fr");
                 }else if(langPage == "es"){
                     document.getElementById("titleForRecMT").innerText="Más completado";
-                    //console.log("es");
                 }else if(langPage == "pt"){
                     document.getElementById("titleForRecMT").innerText="mais testado";
-                    //console.log("pt");
-                }else{
+                }else if(langPage == "en"){
                     document.getElementById("titleForRecMT").innerText="Most Tested";
-                    //console.log("en");
+                }else if(langPage == "de"){
+                    document.getElementById("titleForRecMT").innerText = "Meistgetestet"
+                }else{
+                    document.getElementById("titleForRecMT").innerText = "Meistgetestet"
                 }
             }
 
@@ -1521,8 +1532,10 @@
                     mt_data_url = "./testname/js/es_most_test_data/Most Tested.js";
                 }else if(langPage == "en"){
                     mt_data_url = "./testname/js/en_most_test_data/Most Tested.js";
+                }else if(langPage == "de"){
+                    mt_data_url = "./testname/js/de_most_test_data/Most Tested.js";
                 }else{
-                    mt_data_url = "./testname/js/en_most_test_data/Most Tested.js"
+                    mt_data_url = "./testname/js/de_most_test_data/Most Tested.js"
                 }
 
 
@@ -1568,6 +1581,8 @@
                         }else if(langPage == "en"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "pt"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "de"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1806,9 +1821,13 @@
                 }else if(langPage == "es"){
                     document.getElementById("titleForRec").innerText="RECOMIENDA TOMAR"
                 }else if(langPage == "pt"){
-                    document.getElementById("titleForRecMT").innerText="RECOMENDAR QUIZZES";
+                    document.getElementById("titleForRec").innerText="RECOMENDAR QUIZZES";
+                }else if(langPage == "en"){
+                    document.getElementById("titleForRec").innerText="RECOMENDAR QUIZZES";
+                }else if(langPage == "de"){
+                    document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
                 }else{
-                    document.getElementById("titleForRec").innerText="RECOMMEND QUIZZES "
+                    document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
                 }
             }
 
@@ -1848,8 +1867,10 @@
                     rq_data_url = "./testname/js/en_recommend/recommend quizzes.js"
                 }else if(langPage == "es"){
                     rq_data_url = "./testname/js/es_recommend/recommend quizzes.js"
+                }else if(langPage == "de"){
+                    rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
                 }else{
-                    rq_data_url = "./testname/js/en_recommend/recommend quizzes.js"
+                    rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
                 }
 
 
@@ -1899,8 +1920,10 @@
                 letgoText = "Vamos começar"
             }else if(lang == "en"){
                 letgoText = "Let's Start"
+            }else if(lang == "de"){
+                letgoText = "Los geht's";
             }else{
-                letgoText = "Let's Start OP"
+                letgoText = "Los geht's";
             }
             document.getElementById("start_button_text").innerText = letgoText;
             bindEvents2();

@@ -199,6 +199,7 @@
                                     <a href="https://identityinsight.org/es/" class="index_ahref" id="es_href"></a>
                                     <a href="https://identityinsight.org/fr/" class="index_ahref" id="fr_href"></a>
                                     <a href="https://identityinsight.org/pt/" class="index_ahref" id="pt_href"></a>
+                                    <a href="https://identityinsight.org/de/" class="index_ahref" id="de_href"></a>
                                 </div>
                             </div>
                         </div>
@@ -409,17 +410,20 @@
             document.getElementById("es_href").href= "./es/list.html?utm_campaign=" +utm_campaign+indexHref
             document.getElementById("fr_href").href= "./fr/list.html?utm_campaign=" +utm_campaign+indexHref
             document.getElementById("pt_href").href= "./pt/list.html?utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("de_href").href= "./de/list.html?utm_campaign=" +utm_campaign+indexHref
         }else{
             document.getElementById("en_href").href= "./en/list.html?"+indexHref
             document.getElementById("es_href").href= "./es/list.html?"+indexHref
             document.getElementById("fr_href").href= "./fr/list.html?"+indexHref
             document.getElementById("pt_href").href= "./pt/list.html?"+indexHref
+            document.getElementById("de_href").href= "./de/list.html?"+indexHref
         }
 
         document.getElementById("en_href").innerText= "English"
         document.getElementById("es_href").innerText= "Español"
         document.getElementById("fr_href").innerText= "Français"
         document.getElementById("pt_href").innerText= "Português"
+        document.getElementById("de_href").innerText= "Deutsch"
 
         const adContainers = document.querySelectorAll('.adsbygoogle');
         adContainers.forEach((adContainer, index) => {
