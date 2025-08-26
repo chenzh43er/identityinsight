@@ -25,6 +25,11 @@ const dataPage = {
 			"pic": "./testname/img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
 			"title": "Welcher Roblox-Avatar Passt zu Deinem Vibe?"
 		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10008",
+			"pic": "./testname/img/de_img/d2c033f7aefc629af9c027adb29f4535.gif",
+			"title": "Ich bin eine Katze VR: Finden Sie die wahre Persönlichkeit Ihrer Katze mit diesem Quiz."
+		},
 		],
 	"theLatest": [
 		{
@@ -38,11 +43,6 @@ const dataPage = {
 			"title": "Finden Sie heraus, welches Toca Life-Haus Ihren einzigartigen Lebensstil widerspiegelt!"
 		},
 		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10008",
-			"pic": "./testname/img/de_img/d2c033f7aefc629af9c027adb29f4535.gif",
-			"title": "Ich bin eine Katze VR: Finden Sie die wahre Persönlichkeit Ihrer Katze mit diesem Quiz."
-		},
-		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10009",
 			"pic": "./testname/img/de_img/e703e946ce7522fb8b63815770e9046e.gif",
 			"title": "Welches Disney-Prinzessinnen- und Piraten-Kombi bist du?"
@@ -52,13 +52,13 @@ const dataPage = {
 			"pic": "./testname/img/de_img/3e32f087376c2ec3080b814ae5d4d504.jpeg",
 			"title": "Welcher Marvel-Bösewicht bist du am ähnlichsten?"
 		},
-	],
-	"youMaylike": [
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10011",
 			"pic": "./testname/img/de_img/fc243f52fcce1ac164284de5dc44fdde.gif",
 			"title": "Kannst du dem Noclip-VR-Spiel entkommen?"
 		},
+	],
+	"youMaylike": [
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10012",
 			"pic": "./testname/img/de_img/c0e21539dc36e785018ef32f7516d24b.gif",
