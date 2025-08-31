@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>彩色社交分享按钮</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .share-title {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .social-share {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .social-btn {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .social-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Platform-specific colors */
+    .facebook   { background-color: #3b5998; }
+    .instagram  { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+    .twitter    { background-color: #1da1f2; }
+    .youtube    { background-color: #ff0000; }
+    .whatsapp   { background-color: #25d366; }
+    .pinterest  { background-color: #bd081c; }
+    .snapchat   { background-color: #fffc00; color: black; }
+    .messenger  { background-color: #0084ff; }
+
+    @media (max-width: 600px) {
+      .social-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="share-title">分享到社交平台</div>
+
+<div class="social-share">
+  <a class="social-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com" title="Facebook" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a class="social-btn instagram" href="https://www.instagram.com" title="Instagram" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a class="social-btn twitter" href="https://twitter.com/intent/tweet?url=https://example.com" title="Twitter" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a class="social-btn youtube" href="https://www.youtube.com" title="YouTube" target="_blank">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a class="social-btn whatsapp" href="https://api.whatsapp.com/send?text=https://example.com" title="WhatsApp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a class="social-btn pinterest" href="https://pinterest.com/pin/create/button/?url=https://example.com" title="Pinterest" target="_blank">
+    <i class="fab fa-pinterest-p"></i>
+  </a>
+  <a class="social-btn snapchat" href="https://www.snapchat.com" title="Snapchat" target="_blank">
+    <i class="fab fa-snapchat-ghost"></i>
+  </a>
+  <a class="social-btn messenger" href="https://www.messenger.com/t/?link=https://example.com" title="Messenger" target="_blank">
+    <i class="fab fa-facebook-messenger"></i>
+  </a>
+</div>
+
+</body>
+</html>

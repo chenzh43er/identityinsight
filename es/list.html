@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+<!--<html lang="ar" dir="rtl">-->
 
 <head>
   <meta charset="UTF-8">
@@ -101,6 +104,8 @@
         height: 15px;
       }
     }
+
+
 
   </style>
 
@@ -363,6 +368,23 @@
   </section>
 </div>
 
+<script>
+
+  $(document).ready(function () {
+    let langPage = getLangFromPath()
+      if(langPage == "ar") {
+        document.documentElement.setAttribute("lang", "ar");
+        document.documentElement.setAttribute("dir", "rtl");
+      }else{
+        document.documentElement.setAttribute("lang", "ar");
+        document.documentElement.setAttribute("dir", "rtl");
+      }
+  });
+
+
+</script>
+
+
 <script id="list_html">
   {
     let page=0
@@ -576,6 +598,7 @@
                   .replace("https://identityinsight.org/fr/test-page_fr/?","./mqqht.html?")
                   .replace("https://identityinsight.org/pt/test-page_pt/?","./mqqht.html?")
                   .replace("https://identityinsight.org/de/test-page_de/?","./mqqht.html?")
+                  .replace("https://identityinsight.org/ar/test-page_ar/?","./mqqht.html?")
                   .replace("utm_content","content")
 
           if(item.url == "#"){
@@ -589,6 +612,8 @@
             }else if(langPage == "pt"){
               item.url = "./404notFound.html?content=other"
             }else if(langPage == "de"){
+              item.url = "./404notFound.html?content=other"
+            }else if(langPage == "ar"){
               item.url = "./404notFound.html?content=other"
             }else{
               item.url = "./404notFound.html?content=other"
@@ -1080,14 +1105,18 @@
         document.getElementById("title_lt").innerText="The Latest";
         document.getElementById("title_yml").innerText=`You May Like`;
       }else if(langPage == "de"){
-        document.getElementById("title_mp").innerText="Most Popular";
-        document.getElementById("title_lt").innerText="The Latest";
-        document.getElementById("title_yml").innerText=`You May Like`;
-      }
-      else{
         document.getElementById("title_mp").innerText = "Am beliebtesten";
         document.getElementById("title_lt").innerText = "Das Neueste";
         document.getElementById("title_yml").innerText = "Das könnte Ihnen gefallen";
+      }else if(langPage == "ar"){
+        document.getElementById("title_mp").innerText="الأكثر شعبية";
+        document.getElementById("title_lt").innerText="الأحدث";
+        document.getElementById("title_yml").innerText=`قد يعجبك أيضاً`;
+      }
+      else{
+        document.getElementById("title_mp").innerText="الأكثر شعبية";
+        document.getElementById("title_lt").innerText="الأحدث";
+        document.getElementById("title_yml").innerText=`قد يعجبك أيضاً`;
       }
     }
 
@@ -1177,10 +1206,14 @@
         homedataJs = "./testname/js/de/homedata.js";
         document.getElementById('nextPageButton').innerText = "Nächste";
         utm_campaign_js_url="./testname/js/de/utm_campaign.js"
-      }else{
+      }else if(langPage == "ar"){
         homedataJs = "./testname/js/de/homedata.js";
-        document.getElementById('nextPageButton').innerText = "Nächste";
+        document.getElementById('nextPageButton').innerText = "التالى";
         utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+      }else{
+        homedataJs = "./testname/js/ar/homedata.js";
+        document.getElementById('nextPageButton').innerText = "التالى";
+        utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
       }
 
       loadScript(homedataJs, function () {
@@ -1203,6 +1236,8 @@
                 } else if (langPage == "pt") {
                   indexHref = "./list.html?"
                 } else if (langPage == "de") {
+                  indexHref = "./list.html?"
+                }else if (langPage == "ar") {
                   indexHref = "./list.html?"
                 }else {
                   indexHref = "./list.html?"
@@ -1241,7 +1276,9 @@
                 indexHref = "./list.html?"
               }else if (langPage == "de") {
                 indexHref = "./list.html?"
-              } else {
+              }else if (langPage == "ar") {
+                indexHref = "./list.html?"
+              }else {
                 indexHref = "./list.html?"
               }
               window.location.href = indexHref

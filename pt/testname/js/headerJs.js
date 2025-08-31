@@ -48,9 +48,12 @@ $(document).ready(function () {
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
         indexHref = "./list.html?"; // 链接保持不变
+    }else if(langPage == "ar"){
+        home_str = "الرئيسية";
+        indexHref = "./list.html?";
     }else{
-        home_str = "Startseite";   // 最常见、简洁
-        indexHref = "./list.html?"; // 链接保持不变
+        home_str = "الرئيسية";
+        indexHref = "./list.html?";
     }
 
     if(!isNull(medium)){

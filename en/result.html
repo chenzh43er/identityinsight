@@ -785,6 +785,22 @@
     </section>
 </div>
 
+<script>
+
+    $(document).ready(function () {
+        let langPage = getLangFromPath()
+        if(langPage == "ar") {
+            document.documentElement.setAttribute("lang", "ar");
+            document.documentElement.setAttribute("dir", "rtl");
+        }else{
+            document.documentElement.setAttribute("lang", "ar");
+            document.documentElement.setAttribute("dir", "rtl");
+        }
+    });
+
+
+</script>
+
 <script id="mt_html_js">
     /***
      * mt_html
@@ -820,6 +836,8 @@
                     }else if(langPage == "pt"){
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "de"){
+                        item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "ar"){
                         item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
@@ -1050,8 +1068,10 @@
                 document.getElementById("titleForRecMT").innerText="Most Tested";
             }else if(langPage == "de"){
                 document.getElementById("titleForRecMT").innerText="Meistgetestet";
+            }else if(langPage == "ar"){
+                document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
             }else{
-                document.getElementById("titleForRecMT").innerText="Meistgetestet";
+                document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
             }
         }
 
@@ -1156,8 +1176,10 @@
                 mt_data_url = "./testname/js/en_most_test_data/Most Tested.js";
             }else if(langPage == "de"){
                 mt_data_url = "./testname/js/de_most_test_data/Most Tested.js";
+            }else if(langPage == "ar"){
+                mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js";
             }else{
-                mt_data_url = "./testname/js/de_most_test_data/Most Tested.js"
+                mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js"
             }
 
 
@@ -1220,6 +1242,8 @@
                     }else if(langPage == "pt"){
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "de"){
+                        item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "ar"){
                         item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
@@ -1466,8 +1490,10 @@
                 document.getElementById("titleForRec").innerText="RECOMENDAR QUIZZES";
             }else if(langPage == "de"){
                 document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
+            }else if(langPage == "ar"){
+                document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
             }else{
-                document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
+                document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
             }
         }
 
@@ -1508,6 +1534,8 @@
                 rq_data_url = "./testname/js/es_recommend/recommend quizzes.js"
             }else if(langPage == "de"){
                 rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
+            }else if(langPage == "ar"){
+                rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
             }else{
                 rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
             }
@@ -1609,8 +1637,10 @@
                 result_url = "./testname/js/en_result/";
             }else if(lang == "de"){
                 result_url = "./testname/js/de_result/";
+            }else if(lang == "ar"){
+                result_url = "./testname/js/ar_result/";
             }else{
-                result_url = "./testname/js/de_result/"
+                result_url = "./testname/js/ar_result/"
             }
 
             loadScript(result_url + key2 + ".js", function () {
@@ -1692,10 +1722,14 @@
                 home_str = "Zurück zur Startseite";   // Return To Homepage
                 again_str = "Erneut testen";          // Retest
                 indexHref = "./list.html?";           // 不需要翻译，保持路径
+            }else if(langPage == "ar"){
+                home_str = "العودة إلى الصفحة الرئيسية";
+                again_str = "إعادة الاختبار";
+                indexHref = "./list.html?";
             }else{
-                home_str = "Zurück zur Startseite";   // Return To Homepage
-                again_str = "Erneut testen";          // Retest
-                indexHref = "./list.html?";           // 不需要翻译，保持路径
+                home_str = "العودة إلى الصفحة الرئيسية";
+                again_str = "إعادة الاختبار";
+                indexHref = "./list.html?";
             }
 
             // if(!isNull(content)){

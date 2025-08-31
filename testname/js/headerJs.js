@@ -1,8 +1,3 @@
-function getLangFromPath() {
-    const pathSegments = window.location.pathname.split("/");
-    return pathSegments[1] || "default"; // 语言通常是路径的第一部分
-}
-
 function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(name);
@@ -12,18 +7,13 @@ function isNull(value) {
     return value === null;
 }
 
-function getLangFromPath() {
-    const pathSegments = window.location.pathname.split('/');
-    return pathSegments[1]; // 假设语言代码总是在第一个路径段
-}
-
 $(document).ready(function () {
 
-    let langPage = getQueryParam("lang")
+    let langPage = getLangFromPath();
 
     let campaign =getQueryParam("campaign") ;
 
-    let content =getQueryParam("content") ;
+    //let content =getQueryParam("content") ;
 
     let utm_campaign =getQueryParam("utm_campaign") ;
 
@@ -45,19 +35,22 @@ $(document).ready(function () {
 
     if(langPage == "fr"){
         home_str = "Acceuil"
-        indexHref = "./fr/list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "es"){
         home_str = "Inicio"
-        indexHref = "./es/list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "en"){
         home_str = "Home"
-        indexHref = "./en/list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "pt"){
         home_str = "Início"
-        indexHref = "./pt/list.html?"
+        indexHref = "./list.html?"
+    }else if(langPage == "de"){
+        home_str = "Startseite";   // 最常见、简洁
+        indexHref = "./list.html?"; // 链接保持不变
     }else{
-        home_str = "FGU"
-        indexHref = "./fr/list.html?"
+        home_str = "Startseite";   // 最常见、简洁
+        indexHref = "./list.html?"; // 链接保持不变
     }
 
     if(!isNull(medium)){
@@ -68,9 +61,9 @@ $(document).ready(function () {
         indexHref = indexHref + "&utm_source=" +source;
     }
 
-    if(!isNull(content)){
-        indexHref = indexHref + "&content=" +content;
-    }
+    // if(!isNull(content)){
+    //     indexHref = indexHref + "&content=" +content;
+    // }
 
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;

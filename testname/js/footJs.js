@@ -7,17 +7,12 @@ function isNull(value) {
     return value === null;
 }
 
-function getLangFromPath() {
-    const pathSegments = window.location.pathname.split('/');
-    return pathSegments[1]; // 假设语言代码总是在第一个路径段
-}
-
 $(document).ready(function () {
-    let langPage = getQueryParam("lang")
+    let langPage = getLangFromPath()
 
     let campaign =getQueryParam("campaign") ;
 
-    let content =getQueryParam("content") ;
+    //let content =getQueryParam("content") ;
 
     let utm_campaign =getQueryParam("utm_campaign") ;
 
@@ -38,25 +33,29 @@ $(document).ready(function () {
     let data_href = "./data.html"
 
     if(langPage == "fr"){
-        aboutus_href = aboutus_href + "?lang=fr"
-        privacy_href = privacy_href + "?lang=fr"
-        data_href = data_href + "?lang=fr"
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }else if(langPage == "es"){
-        aboutus_href = aboutus_href + "?lang=es"
-        privacy_href = privacy_href + "?lang=es"
-        data_href = data_href + "?lang=es"
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }else if(langPage == "en"){
-        aboutus_href = aboutus_href + "?lang=en"
-        privacy_href = privacy_href + "?lang=en"
-        data_href = data_href + "?lang=en"
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }else if(langPage == "pt"){
-        aboutus_href = aboutus_href + "?lang=pt"
-        privacy_href = privacy_href + "?lang=pt"
-        data_href = data_href + "?lang=pt"
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
+    }else if(langPage == "de"){
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }else{
-        aboutus_href = aboutus_href + "?lang=fr"
-        privacy_href = privacy_href + "?lang=fr"
-        data_href = data_href + "?lang=fr"
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }
 
     if(!isNull(medium)){
@@ -83,11 +82,11 @@ $(document).ready(function () {
         data_href = data_href + "&campaign=" +campaign;
     }
 
-    if(!isNull(content)){
-        aboutus_href = aboutus_href + "&content=" +content;
-        privacy_href = privacy_href + "&content=" +content;
-        data_href = data_href + "&content=" +content;
-    }
+    // if(!isNull(content)){
+    //     aboutus_href = aboutus_href + "&content=" +content;
+    //     privacy_href = privacy_href + "&content=" +content;
+    //     data_href = data_href + "&content=" +content;
+    // }
 
     if(!isNull(utm_source)){
         aboutus_href = aboutus_href + "&source=" +utm_source;

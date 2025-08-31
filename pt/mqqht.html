@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--<html lang="ar" dir="rtl">-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -195,6 +195,15 @@
                 display: none;
             }
         }
+
+        /*html {*/
+        /*    transform: scaleX(-1);*/
+        /*}*/
+
+        /*html * {*/
+        /*    transform: scaleX(-1);  !* 让子元素再翻转回来，避免文字反过来 *!*/
+        /*}*/
+
     </style>
 
     <style>
@@ -728,6 +737,22 @@
         </section>
     </div>
 
+    <script>
+
+        $(document).ready(function () {
+            let langPage = getLangFromPath()
+            if(langPage == "ar") {
+                document.documentElement.setAttribute("lang", "ar");
+                document.documentElement.setAttribute("dir", "rtl");
+            }else{
+                document.documentElement.setAttribute("lang", "ar");
+                document.documentElement.setAttribute("dir", "rtl");
+            }
+        });
+
+
+    </script>
+
     <script id="mq_html_js">
         /***
          * mq_html
@@ -757,8 +782,10 @@
                     utm_content_url = "./testname/js/en_title/"
                 } else if (lang == "de") {
                     utm_content_url = "./testname/js/de_title/"
+                }else if (lang == "ar") {
+                    utm_content_url = "./testname/js/ar_title/"
                 }else {
-                    utm_content_url = "./testname/js/de_title/"
+                    utm_content_url = "./testname/js/ar_title/"
                 }
 
 
@@ -844,8 +871,10 @@
                     submitText = "Submit"
                 }else if (langPage == "de") {
                     submitText = "Senden";
+                }else if (langPage == "ar") {
+                    submitText = "إرسال";
                 }else {
-                    submitText = "Senden"
+                    submitText = "إرسال";
                 }
 
                 //submit下面的广告
@@ -1042,9 +1071,12 @@
                         }else if (lang == "de") {
                             resultHref = "./result.html?";
                             submitText = "Senden"
+                        }else if (lang == "ar") {
+                            resultHref = "./result.html?";
+                            submitText = "إرسال";
                         } else {
                             resultHref = "./result.html?";
-                            submitText = "Senden"
+                            submitText = "إرسال";
                         }
 
                         if (!isNull(utm_campaign)) {
@@ -1164,6 +1196,8 @@
                         }else if(langPage == "pt"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "de"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "ar"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1385,8 +1419,10 @@
                     document.getElementById("titleForRecMT").innerText="Most Tested";
                 }else if(langPage == "de"){
                     document.getElementById("titleForRecMT").innerText = "Meistgetestet"
+                }else if(langPage == "ar"){
+                    document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
                 }else{
-                    document.getElementById("titleForRecMT").innerText = "Meistgetestet"
+                    document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
                 }
             }
 
@@ -1534,8 +1570,10 @@
                     mt_data_url = "./testname/js/en_most_test_data/Most Tested.js";
                 }else if(langPage == "de"){
                     mt_data_url = "./testname/js/de_most_test_data/Most Tested.js";
+                }else if(langPage == "ar"){
+                    mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js";
                 }else{
-                    mt_data_url = "./testname/js/de_most_test_data/Most Tested.js"
+                    mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js"
                 }
 
 
@@ -1583,6 +1621,8 @@
                         }else if(langPage == "pt"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "de"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "ar"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1826,8 +1866,10 @@
                     document.getElementById("titleForRec").innerText="RECOMENDAR QUIZZES";
                 }else if(langPage == "de"){
                     document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
+                }else if(langPage == "ar"){
+                    document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
                 }else{
-                    document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
+                    document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
                 }
             }
 
@@ -1869,8 +1911,10 @@
                     rq_data_url = "./testname/js/es_recommend/recommend quizzes.js"
                 }else if(langPage == "de"){
                     rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
+                }else if(langPage == "ar"){
+                    rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
                 }else{
-                    rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
+                    rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
                 }
 
 
@@ -1922,8 +1966,10 @@
                 letgoText = "Let's Start"
             }else if(lang == "de"){
                 letgoText = "Los geht's";
+            }else if(lang == "ar"){
+                letgoText = "لنبدأ";
             }else{
-                letgoText = "Los geht's";
+                letgoText = "لنبدأ";
             }
             document.getElementById("start_button_text").innerText = letgoText;
             bindEvents2();
