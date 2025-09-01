@@ -101,9 +101,6 @@
     }
 
     @media screen and (max-width: 450px) {
-      .adsbygoogle {
-        width:350px !important;
-      }
 
       .tempTitle {
         text-align: center;
@@ -117,6 +114,10 @@
         width: 40px;
         margin: 0 20px;
         height: 15px;
+      }
+
+      .container-list-item{
+        width: 100%;
       }
     }
 
@@ -225,7 +226,7 @@
   </section>
 </div>
 
-<div class="quiz_home-container" id="pc_indexpage" style="margin-top: 10px;" id = "content_for_page">
+<div class="quiz_home-container" style="margin-top: 10px;" id = "quiz_home-container">
 
   <div class="tempTitle tempTitle1">
     <img src="./testname/img/title_ornament_left.png" alt="" fetchpriority="high">
@@ -393,6 +394,10 @@
     } else {
       // document.documentElement.setAttribute("lang", "ar");
       // document.documentElement.setAttribute("dir", "rtl");
+    }
+
+    if(isMobileByWidth()){
+      document.getElementById("quiz_home-container").className = "elementor-container elementor-column-gap-default"
     }
   })
 
@@ -838,11 +843,11 @@
           countAddIndexAdv ++;
 
           if(version == 1){
-            advHtml = '<div class="container-list-item-warp container-list-item common_list_a" id = "listAdv_2">' +
+            advHtml = '<div class="container-list-item common_list_a" id = "listAdv_2" >' +
                     returnAdvWord()+
                     '</div>';
           }else if(version == 2){
-            advHtml = '<div class="container-list-item-warp container-list-item common_list_a" id = "listAdv_4">' +
+            advHtml = '<div class="container-list-item common_list_a" id = "listAdv_4" >' +
                     returnAdvWord()+
                     '</div>';
           }

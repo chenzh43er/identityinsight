@@ -33,7 +33,7 @@ function returnZhongxiangGuding(){
 function returnListAdv_1(){
     return `<!-- list-1 -->
 <ins class="adsbygoogle"
-     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="7760254681"
      data-ad-format="auto"
@@ -43,7 +43,7 @@ function returnListAdv_1(){
 function returnListAdv_2(){
     return `<!-- list-2 -->
 <ins class="adsbygoogle"
-     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"
      data-ad-slot="6447173015"
      data-ad-format="auto"
