@@ -9,4 +9,9 @@ const utm_campaignData = {
         "pic": "./testname/img/ar_img/d2c033f7aefc629af9c027adb29f4535.gif",
         "title": "أنا قطة VR: اكتشف شخصية قطتك الحقيقية مع هذا الاختبار."
     },
+    "Disney":{
+        "url": "https://identityinsight.org/ar/test-page_ar/?utm_content=10032",
+        "pic": "./testname/img/ar_img/735a575acde713df117f43d8defde53b.gif",
+        "title": "أي أميرة ديزني أنتِ؟"
+    }
 };
