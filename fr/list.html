@@ -14,7 +14,10 @@
   <script src="./testname/js/jquery.min.js?V=20200214"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
           crossorigin="anonymous"></script>
-  <script src="./testname/js/googlePath.js"></script>
+<!--  <script src="./testname/js/googlePath.js"></script>-->
+
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript"></script>
+
   <script src="./testname/js/google_adv.js"></script>
   <script src="./testname/js/common.js"></script>
 <!--  <script src="./testname/js/PageJsEn/list.js"></script>-->
@@ -33,6 +36,12 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <style>
+
+    body {
+      direction: rtl;   /* 文本方向 */
+      unicode-bidi: plaintext; /* 只作用于文字，不影响布局 */
+    }
+
     .quiz_home-container {
       width: 100%;
       max-width: 1200px;
@@ -51,6 +60,12 @@
     .mid_adv{
       width: 100%;
       height: auto;
+    }
+
+    ins.adsbygoogle {
+      margin: 0 auto !important; /* 强制水平居中 */
+      float: none !important;
+      display: block !important;
     }
 
     .tempTitle {
@@ -372,15 +387,14 @@
 
   $(document).ready(function () {
     let langPage = getLangFromPath()
-      if(langPage == "ar") {
-        document.documentElement.setAttribute("lang", "ar");
-        document.documentElement.setAttribute("dir", "rtl");
-      }else{
-        // document.documentElement.setAttribute("lang", "ar");
-        // document.documentElement.setAttribute("dir", "rtl");
-      }
-  });
-
+    if (langPage == "ar") {
+      document.documentElement.setAttribute("lang", "ar");
+      document.documentElement.setAttribute("dir", "rtl");
+    } else {
+      // document.documentElement.setAttribute("lang", "ar");
+      // document.documentElement.setAttribute("dir", "rtl");
+    }
+  })
 
 </script>
 
