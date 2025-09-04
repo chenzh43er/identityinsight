@@ -206,7 +206,13 @@
             .longSelectSubmit{
                 width:100%;height:60px;font-size:24px;box-sizing:border-box;line-height:60px;
             }
+
+            .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+                padding: 0px;
+            }
         }
+
+
 
         /*@media (max-width: 600px) {*/
         /*    .social-btn {*/
@@ -816,8 +822,8 @@
                     .replace("https://identityinsight.org/en/test-page_en/?","./mqqht.html?")
                     .replace("https://identityinsight.org/fr/test-page_fr/?","./mqqht.html?")
                     .replace("https://identityinsight.org/pt/test-page_pt/?","./mqqht.html?")
-                    .replace("https://identityinsight.org/pt/test-page_de/?","./mqqht.html?")
-                    .replace("https://identityinsight.org/pt/test-page_ar/?","./mqqht.html?")
+                    .replace("https://identityinsight.org/de/test-page_de/?","./mqqht.html?")
+                    .replace("https://identityinsight.org/ar/test-page_ar/?","./mqqht.html?")
 
                 if(item.url == "#"){
                     let langPage = getLangFromPath()
@@ -1676,8 +1682,6 @@
 
             let campaign =getQueryParam("campaign") ;
 
-            //let content =getQueryParam("content") ;
-
             let utm_campaign =getQueryParam("utm_campaign") ;
 
             let utm_keyword = getQueryParam("keyword") ;
@@ -1728,9 +1732,6 @@
                 indexHref = "./list.html?";
             }
 
-            // if(!isNull(content)){
-            //     indexHref = indexHref + "&content=" +content;
-            // }
 
             if(!isNull(campaign)){
                 indexHref = indexHref + "&campaign=" +campaign;

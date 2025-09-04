@@ -13,5 +13,10 @@ const utm_campaignData = {
         "url": "https://identityinsight.org/ar/test-page_ar/?utm_content=10032",
         "pic": "./testname/img/ar_img/735a575acde713df117f43d8defde53b.gif",
         "title": "أي أميرة ديزني أنتِ؟"
+    },
+    "60year":{
+        "url": "./mqqhtImg.html?utm_content=100001",
+        "pic": "./testname/img/ar_img/6180e29740ebc.gif",
+        "title": "كيف ستبدو عندما تصل إلى 60 عامًا؟"
     }
 };
