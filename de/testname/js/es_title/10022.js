@@ -1,0 +1,142 @@
+let quizData = {
+    "title": "¡Tu cumpleaños determina tu personalidad oculta!",
+    "mainPic": "./testname/img/es_img/b576911a28e8afca90e64c61da568ffa.gif",
+    "thems": [
+        "Personalidad",
+        "Cumpleaños",
+        "Lado Oculto"
+    ],
+    "questions": [
+        {
+            "question": "¿Cuál es tu mes de nacimiento?",
+            "pic": "./testname/img/es_img/bc3d6286c0d9c94f1ef43324b0a289b0.png",
+            "answers": [
+                {
+                    "answer": "Enero, Febrero, Marzo",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Abril, Mayo, Junio",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Julio, Agosto, Septiembre",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Octubre, Noviembre, Diciembre",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "¿Qué día naciste?",
+            "pic": "./testname/img/es_img/75f1b4928020d216b6963d41de6cacbf.png",
+            "answers": [
+                {
+                    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "10, 11, 12, 13, 14, 15, 16",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "17, 18, 19, 20, 21, 22, 23, 24",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "25, 26, 27, 28, 28, 29, 30, 31",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "¿En qué década naciste?",
+            "pic": "./testname/img/es_img/0ae112c788f48307d7042f81983a9022.png",
+            "answers": [
+                {
+                    "answer": "60's o menos",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "70's u 80's",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "90's o 2000's",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "2010's o más",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el último dígito de tu año de nacimiento?",
+            "pic": "./testname/img/es_img/47eb6e57b3b29e6405e8f19e9a0d0e37.png",
+            "answers": [
+                {
+                    "answer": "0, 1",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "2, 3",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "4, 5, 6",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "7, 8, 9",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Calcula tu Número de Camino de Vida sumando tu fecha de nacimiento hasta obtener un solo dígito. ¿Qué número obtuviste?",
+            "pic": "./testname/img/es_img/c71d92fb7ac25da7b00d8932c5eef388.png",
+            "answers": [
+                {
+                    "answer": "1, 2",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "2, 3",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "4, 5, 6",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "7, 8, 9",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        }
+    ],
+    "toAnswer": 10022
+};
