@@ -18,5 +18,10 @@ const utm_campaignData = {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10024",
         "pic": "./testname/img/fr_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
         "title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?"
+    },
+    "Hogwarts":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10025",
+        "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+        "title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
     }
 };
