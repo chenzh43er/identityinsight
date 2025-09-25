@@ -23,5 +23,10 @@ const utm_campaignData = {
         "url": "https://identityinsight.org/fr/test-page_es/?utm_content=10048",
         "pic": "./testname/img/es_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
         "title": "¿Qué Casa de Hogwarts Te Conviene Más?"
+    },
+    "intelectual":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+        "pic": "./testname/img/es_img/7a3cd5b4f20e976e6c50e11563f1af9a.gif",
+        "title": "Si puedes responder estas 10 preguntas, ¡tienes un coeficiente intelectual superior a 160!"
     }
 };
