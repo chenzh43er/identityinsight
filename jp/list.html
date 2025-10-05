@@ -636,6 +636,8 @@
               item.url = "./404notFound.html?content=other"
             }else if(langPage == "ar"){
               item.url = "./404notFound.html?content=other"
+            }else if(langPage == "jp"){
+              item.url = "./404notFound.html?content=other"
             }else{
               item.url = "./404notFound.html?content=other"
             }
@@ -1133,11 +1135,15 @@
         document.getElementById("title_mp").innerText="الأكثر شعبية";
         document.getElementById("title_lt").innerText="الأحدث";
         document.getElementById("title_yml").innerText=`قد يعجبك أيضاً`;
+      }else if(langPage == "jp"){
+        document.getElementById("title_mp").innerText="人気順";
+        document.getElementById("title_lt").innerText="最新";
+        document.getElementById("title_yml").innerText=`おすすめ`;
       }
       else{
-        document.getElementById("title_mp").innerText="الأكثر شعبية";
-        document.getElementById("title_lt").innerText="الأحدث";
-        document.getElementById("title_yml").innerText=`قد يعجبك أيضاً`;
+        document.getElementById("title_mp").innerText="人気順";
+        document.getElementById("title_lt").innerText="最新";
+        document.getElementById("title_yml").innerText=`おすすめ`;
       }
     }
 
@@ -1231,9 +1237,13 @@
         homedataJs = "./testname/js/ar/homedata.js";
         document.getElementById('nextPageButton').innerText = "التالى";
         utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+      }else if(langPage == "jp"){
+        homedataJs = "./testname/js/jp/homedata.js";
+        document.getElementById('nextPageButton').innerText = "次へ";
+        utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
       }else{
         homedataJs = "./testname/js/ar/homedata.js";
-        document.getElementById('nextPageButton').innerText = "التالى";
+        document.getElementById('nextPageButton').innerText = "次へ";
         utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
       }
 
@@ -1259,6 +1269,8 @@
                 } else if (langPage == "de") {
                   indexHref = "./list.html?"
                 }else if (langPage == "ar") {
+                  indexHref = "./list.html?"
+                }else if (langPage == "jp") {
                   indexHref = "./list.html?"
                 }else {
                   indexHref = "./list.html?"
@@ -1298,6 +1310,8 @@
               }else if (langPage == "de") {
                 indexHref = "./list.html?"
               }else if (langPage == "ar") {
+                indexHref = "./list.html?"
+              }else if (langPage == "jp") {
                 indexHref = "./list.html?"
               }else {
                 indexHref = "./list.html?"

@@ -51,8 +51,11 @@ $(document).ready(function () {
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
         indexHref = "./list.html?";
+    }else if(langPage == "jp"){
+        home_str = "ホームページ";
+        indexHref = "./list.html?";
     }else{
-        home_str = "الرئيسية";
+        home_str = "ホームページ";
         indexHref = "./list.html?";
     }
 

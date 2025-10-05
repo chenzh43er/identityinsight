@@ -779,8 +779,10 @@
                     utm_content_url = "./testname/js/de_title/"
                 }else if (lang == "ar") {
                     utm_content_url = "./testname/js/ar_title/"
+                }else if (lang == "jp") {
+                    utm_content_url = "./testname/js/jp_title/"
                 }else {
-                    utm_content_url = "./testname/js/ar_title/"
+                    utm_content_url = "./testname/js/jp_title/"
                 }
 
 
@@ -868,8 +870,10 @@
                     submitText = "Senden";
                 }else if (langPage == "ar") {
                     submitText = "إرسال";
+                }else if (langPage == "jp) {
+                    submitText = "送信";
                 }else {
-                    submitText = "إرسال";
+                    submitText = "送信";
                 }
 
                 //submit下面的广告
@@ -1069,9 +1073,12 @@
                         }else if (lang == "ar") {
                             resultHref = "./result.html?";
                             submitText = "إرسال";
-                        } else {
+                        } else if (lang == "jp") {
                             resultHref = "./result.html?";
-                            submitText = "إرسال";
+                            submitText = "送信";
+                        }else {
+                            resultHref = "./result.html?";
+                            submitText = "送信";
                         }
 
                         if (!isNull(utm_campaign)) {
@@ -1195,6 +1202,8 @@
                         }else if(langPage == "de"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "ar"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "jp"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1418,8 +1427,10 @@
                     document.getElementById("titleForRecMT").innerText = "Meistgetestet"
                 }else if(langPage == "ar"){
                     document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
+                }else if(langPage == "jp"){
+                    document.getElementById("titleForRecMT").innerText = " 最も試される ";
                 }else{
-                    document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
+                    document.getElementById("titleForRecMT").innerText = " 最も試される ";
                 }
             }
 
@@ -1580,8 +1591,10 @@
                     mt_data_url = "./testname/js/de_most_test_data/Most Tested.js";
                 }else if(langPage == "ar"){
                     mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js";
+                }else if(langPage == "jp"){
+                    mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js";
                 }else{
-                    mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js"
+                    mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js"
                 }
 
 
@@ -1633,6 +1646,8 @@
                         }else if(langPage == "de"){
                             item.url = "./404notFound.html?content=other"
                         }else if(langPage == "ar"){
+                            item.url = "./404notFound.html?content=other"
+                        }else if(langPage == "jp"){
                             item.url = "./404notFound.html?content=other"
                         }else{
                             item.url = "./404notFound.html?content=other"
@@ -1876,8 +1891,10 @@
                     document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
                 }else if(langPage == "ar"){
                     document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
+                }else if(langPage == "jp"){
+                    document.getElementById("titleForRec").innerText = "おすすめクイズ";
                 }else{
-                    document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
+                    document.getElementById("titleForRec").innerText = "おすすめクイズ";
                 }
             }
 
@@ -1937,8 +1954,10 @@
                     rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
                 }else if(langPage == "ar"){
                     rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
+                }else if(langPage == "ar"){
+                    rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
                 }else{
-                    rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
+                    rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
                 }
 
 
@@ -1992,8 +2011,10 @@
                 letgoText = "Los geht's";
             }else if(lang == "ar"){
                 letgoText = "لنبدأ";
+            }else if(lang == "jp"){
+                letgoText = "始めましょう";
             }else{
-                letgoText = "لنبدأ";
+                letgoText = "始めましょう";
             }
             document.getElementById("start_button_text").innerText = letgoText;
             bindEvents2();

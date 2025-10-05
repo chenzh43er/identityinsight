@@ -56,6 +56,10 @@ $(document).ready(function () {
         aboutus_href = aboutus_href + "?"
         privacy_href = privacy_href + "?"
         data_href = data_href + "?"
+    }else if(langPage == "jp"){
+        aboutus_href = aboutus_href + "?"
+        privacy_href = privacy_href + "?"
+        data_href = data_href + "?"
     }else{
         aboutus_href = aboutus_href + "?"
         privacy_href = privacy_href + "?"
