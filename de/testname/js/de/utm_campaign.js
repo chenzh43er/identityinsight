@@ -23,5 +23,35 @@ const utm_campaignData = {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
         "pic": "./testname/img/de_img/735a575acde713df117f43d8defde53b.gif",
         "title": "Welche Disney-Prinzessin bist du?"
-    }
+    },
+    "harry":[{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
+        "pic": "./testname/img/de_img/b677afdd76e0057cd2df6f074beb2817.gif",
+        "title": "Bist du eher ein Hogwarts-Mädchen oder ein Oz-Mädchen?"
+    },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10037",
+            "pic": "./testname/img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+            "title": "Welchem Hogwarts-Professor ähneln Sie am meisten?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10038",
+            "pic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
+            "title": "Wie gut kennst du Harry Potter?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10039",
+            "pic": "./testname/img/de_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+            "title": "Zu welchem Hogwarts-Haus gehörst du wirklich?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10040",
+            "pic": "./testname/img/de_img/ace397c48efa2482f39e547105d095f1.jpeg",
+            "title": "Was ist dein Patronus? Finde es jetzt heraus!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10041",
+            "pic": "./testname/img/de_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
+            "title": "In Welchem Universum Sollten Sie Leben?"
+        }]
 };
