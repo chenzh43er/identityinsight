@@ -140,6 +140,11 @@ const dataPage = {
 			"title": "Wie selten ist Ihr Geburtstag? Es sagt etwas über Ihre Persönlichkeit aus!"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
+			"pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+			"title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10036",
 			"pic": "./testname/img/de_img/b677afdd76e0057cd2df6f074beb2817.gif",
 			"title": "Bist du eher ein Hogwarts-Mädchen oder ein Oz-Mädchen?"
 		},
@@ -150,8 +155,8 @@ const dataPage = {
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10038",
-			"pic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
-			"title": "Wie gut kennst du Harry Potter?"
+			"pic": "./testname/img/de_img/ace397c48efa2482f39e547105d095f1.jpeg",
+			"title": "Was ist dein Patronus? Finde es jetzt heraus!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10039",
@@ -160,8 +165,8 @@ const dataPage = {
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10040",
-			"pic": "./testname/img/de_img/ace397c48efa2482f39e547105d095f1.jpeg",
-			"title": "Was ist dein Patronus? Finde es jetzt heraus!"
+			"pic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
+			"title": "Wie gut kennst du Harry Potter?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10041",
