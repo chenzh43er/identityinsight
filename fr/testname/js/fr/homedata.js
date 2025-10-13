@@ -101,5 +101,49 @@ const dataPage = {
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10023",
 		"pic":"./testname/img/fr_img/b576911a28e8afca90e64c61da568ffa.gif",
 		"title":"Votre anniversaire détermine votre personnalité cachée !"
-	}]
+	},    {
+		"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10026",
+		"pic": "./testname/img/fr_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+		"title": "À quel professeur de Poudlard ressembles-tu le plus ?"
+	},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10027",
+			"pic": "./testname/img/fr_img/76b4eec1d8d585705ed958e2ce340d9e.jpg",
+			"title": "Seuls 10 % des fans de Harry Styles peuvent réussir ce quiz, es-tu prêt à relever le défi ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10028",
+			"pic": "./testname/img/fr_img/b677afdd76e0057cd2df6f074beb2817.gif",
+			"title": "Êtes-vous plus une fille de Poudlard ou une fille d'Oz ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10029",
+			"pic": "./testname/img/fr_img/6b8d7b30c12ec88bf4a563c898243625.jpg",
+			"title": "Testez Vos Connaissances en Anime et Découvrez Quel Personnage de Harry Potter Vous Êtes Vraiment"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10030",
+			"pic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
+			"title": "Quel est votre Patronus? Découvrez-le maintenant!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
+			"pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+			"title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10032",
+			"pic": "./testname/img/fr_img/334c6206304c2b879070f3e04145e218.gif",
+			"title": "À quel point connaissez-vous Harry Potter ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10033",
+			"pic": "./testname/img/fr_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+			"title": "À quelle maison de Poudlard appartenez-vous vraiment ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
+			"pic": "./testname/img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
+			"title": "Dans Quel Univers Devriez-Vous Vivre?"
+		}]
 }

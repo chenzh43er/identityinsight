@@ -118,6 +118,16 @@ function returnTestAdv_4(){
      data-ad-slot="2599668591"></ins>`
 }
 
+function returnTestAdv_5(){
+    return `<!-- test-5 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2167141832"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
 function returnResultAdv_1(){
     return `<!-- result-1 -->
 <ins class="adsbygoogle"
