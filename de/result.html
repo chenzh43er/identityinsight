@@ -839,6 +839,8 @@
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "ar"){
                         item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "jp"){
+                        item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
                     }
@@ -1070,8 +1072,10 @@
                 document.getElementById("titleForRecMT").innerText="Meistgetestet";
             }else if(langPage == "ar"){
                 document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
+            }else if(langPage == "jp"){
+                document.getElementById("titleForRecMT").innerText = "最も試される";
             }else{
-                document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
+                document.getElementById("titleForRecMT").innerText = "最も試される";
             }
         }
 
@@ -1178,8 +1182,10 @@
                 mt_data_url = "./testname/js/de_most_test_data/Most Tested.js";
             }else if(langPage == "ar"){
                 mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js";
+            }else if(langPage == "jp"){
+                mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js";
             }else{
-                mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js"
+                mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js"
             }
 
 
@@ -1246,6 +1252,8 @@
                     }else if(langPage == "de"){
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "ar"){
+                        item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "jp"){
                         item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
@@ -1494,8 +1502,10 @@
                 document.getElementById("titleForRec").innerText = "Empfohlene Quizze";
             }else if(langPage == "ar"){
                 document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
+            }else if(langPage == "jp"){
+                document.getElementById("titleForRec").innerText = "おすすめクイズ";
             }else{
-                document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
+                document.getElementById("titleForRec").innerText = "おすすめクイズ";
             }
         }
 
@@ -1538,8 +1548,10 @@
                 rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
             }else if(langPage == "ar"){
                 rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
+            }else if(langPage == "jp"){
+                rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
             }else{
-                rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
+                rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
             }
 
 
@@ -1641,8 +1653,10 @@
                 result_url = "./testname/js/de_result/";
             }else if(lang == "ar"){
                 result_url = "./testname/js/ar_result/";
+            }else if(lang == "jp"){
+                result_url = "./testname/js/jp_result/";
             }else{
-                result_url = "./testname/js/ar_result/"
+                result_url = "./testname/js/jp_result/"
             }
 
             loadScript(result_url + key2 + ".js", function () {
@@ -1726,10 +1740,14 @@
                 home_str = "العودة إلى الصفحة الرئيسية";
                 again_str = "إعادة الاختبار";
                 indexHref = "./list.html?";
+            }else if(langPage == "jp"){
+                home_str = "ホームページに戻る"
+                again_str = "再テスト"
+                indexHref = "./list.html?"
             }else{
-                home_str = "العودة إلى الصفحة الرئيسية";
-                again_str = "إعادة الاختبار";
-                indexHref = "./list.html?";
+                home_str = "ホームページに戻る"
+                again_str = "再テスト"
+                indexHref = "./list.html?"
             }
 
 

@@ -782,7 +782,7 @@
                 }else if (lang == "jp") {
                     utm_content_url = "./testname/js/jp_title/"
                 }else {
-                    utm_content_url = "./testname/js/jp_title/"
+                    utm_content_url = "./testname/js/fr_title/"
                 }
 
 
@@ -1019,10 +1019,13 @@
                             .find(".gren")
                             .remove();
 
+                        if(questionIndex == 0){
+                            $("html, body").animate({
+                                scrollTop: $nextQuestion.offset().top - 90
+                            }, 500);
+                        }
                         // 滚动到下一题
-                        $("html, body").animate({
-                            scrollTop: $nextQuestion.offset().top - 90
-                        }, 500);
+
                     } else if ($nextQuestion2.length) {
                         $nextQuestion2
                             .removeClass("nochooseItem")
@@ -1031,9 +1034,11 @@
                             .remove();
 
                         // 滚动到下一题
-                        $("html, body").animate({
-                            scrollTop: $nextQuestion2.offset().top - 90
-                        }, 500);
+                        if(questionIndex == 0) {
+                            $("html, body").animate({
+                                scrollTop: $nextQuestion2.offset().top - 90
+                            }, 500);
+                        }
                     }
 
                     if (questionIndex == quizData.questions.length - 1) {
@@ -1594,7 +1599,7 @@
                 }else if(langPage == "jp"){
                     mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js";
                 }else{
-                    mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js"
+                    mt_data_url = "./testname/js/fr_most_test_data/Most Tested.js"
                 }
 
 
@@ -1957,7 +1962,7 @@
                 }else if(langPage == "ar"){
                     rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
                 }else{
-                    rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
+                    rq_data_url = "./testname/js/fr_recommend/recommend quizzes.js"
                 }
 
 
