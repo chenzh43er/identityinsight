@@ -404,8 +404,8 @@
 </script>
 
 
-<script id="list_html">
-  {
+<script>
+
     let page=0
 
     let indexUpTo = 4
@@ -426,7 +426,7 @@
 
         let testData = null;
 
-        if(index == 0 && !isNull(utm_campaign) && isM == 0) {
+        if(index == 0 && !isNull(utm_campaign) && isM == 0 && !data.length>0) {
           testData = utm_campaignData[utm_campaign]
 
           testData.url = testData.url.replace("https://identityinsight.org/es/test-page_es/?","./mqqht.html?")
@@ -601,7 +601,7 @@
         }
         else{
 
-          if(is_index == 1 && index > indexUpTo){
+          if(is_index == 1 && index > indexUpTo && version != 4){
             return ;
           }
 
@@ -886,7 +886,19 @@
       page = Number(getQueryParam("page")) ;
       if(page==0){
 
-        document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1,1);
+        let utm_campaign =getQueryParam("campaign") ;
+        let testData = utm_campaignData[utm_campaign]||0
+
+
+        console.log(testData)
+
+        console.log(dataPage.mostPopular)
+
+        if(testData.length>0){
+          document.querySelector('.mostPopular').innerHTML = renderHomeData(testData,0,1,1,4);
+        }else{
+          document.querySelector('.mostPopular').innerHTML = renderHomeData(dataPage.mostPopular,0,1,1,1);
+        }
 
         document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1,2);
 
@@ -1242,16 +1254,23 @@
         document.getElementById('nextPageButton').innerText = "次へ";
         utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
       }else{
-        homedataJs = "./testname/js/jp/homedata.js";
+        homedataJs = "./testname/js/fr/homedata.js";
         document.getElementById('nextPageButton').innerText = "次へ";
-        utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+        utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
       }
 
       loadScript(homedataJs, function () {
         loadScript(utm_campaign_js_url, function () {
           deleteCurrentPathCookies();
+          // 初始化数据
+          initFunctionForPage();
 
           let utm_campaign = getQueryParam("campaign");
+
+          let testData = utm_campaignData[utm_campaign]||0
+          if(testData.length > 0){
+            document.getElementById("title_mp").innerText=utm_campaign;
+          }
 
           const paramLast = getReferrerParams();
           if (!isNull(paramLast) & isNull(utm_campaign)) {
@@ -1320,12 +1339,11 @@
             }
           }
 
-          // 初始化数据
-          initFunctionForPage();
+
         });
       });
     });
-  }
+
 </script>
 
 <script src="./testname/js/footJs.js"></script>
