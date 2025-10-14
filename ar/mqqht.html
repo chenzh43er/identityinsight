@@ -1592,7 +1592,45 @@
 
             function initHomeDataForMo() {
                 // 渲染首页数据
-                document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
+                let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+                let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                let langPage = getLangFromPath()
+                if(langPage == "fr"){
+                    homedataJs = "./testname/js/fr/homedata.js";
+                    utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                }else if(langPage == "es"){
+                    homedataJs = "./testname/js/es/homedata.js";
+                    utm_campaign_js_url="./testname/js/es/utm_campaign.js"
+                }else if(langPage == "pt"){
+                    homedataJs = "./testname/js/pt/homedata.js";
+                    utm_campaign_js_url="./testname/js/pt/utm_campaign.js"
+                }else if(langPage == "en"){
+                    homedataJs = "./testname/js/en/homedata.js";
+                    utm_campaign_js_url="./testname/js/en/utm_campaign.js"
+                }else if(langPage == "de"){
+                    homedataJs = "./testname/js/de/homedata.js";
+                    utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+                }else if(langPage == "ar"){
+                    homedataJs = "./testname/js/ar/homedata.js";
+                    utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+                }else if(langPage == "jp"){
+                    homedataJs = "./testname/js/jp/homedata.js";
+                    utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+                }else{
+                    homedataJs = "./testname/js/fr/homedata.js";
+                    utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                }
+
+                loadScript(utm_campaign_js_url, function () {
+                    let utm_campaign = getQueryParam("campaign");
+                    let testData = utm_campaignData[utm_campaign] || 0
+
+                    if (testData.length > 0) {
+                        document.querySelector('.tested').innerHTML = renderHomeData(testData);
+                    } else {
+                        document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
+                    }
+                });
             }
             // 页面加载完成后初始化
             $(document).ready(function () {
@@ -1674,9 +1712,11 @@
          */
         {
             // 渲染首页数据
-            function renderHomeDataForRQ(data) {
+            function renderHomeDataForRQ(data,version) {
 
                 let returnAdvAction_RC = 0;
+
+                let realIndex = 0
 
                 return data.map((item,index) => {
 
@@ -1900,11 +1940,21 @@
                         return;
                     }
 
-                    if(index == 0){
+                    console.log(realIndex)
+
+                    if(realIndex == 0){
                         recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
                             returnAdvWord()+
                             '</div>'
                     }
+
+                    realIndex += 1
+
+                    // if(index == 1 && version == 1){
+                    //     recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
+                    //         returnAdvWord()+
+                    //         '</div>'
+                    // }
 
                     return recHtml;
                 }).join('');
@@ -1955,9 +2005,73 @@
             }
 
             function initHomeDataForRQ() {
+
+
+
                 // 渲染首页数据
-                initTitle();
-                document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend);
+                let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+                let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                let langPage = getLangFromPath()
+                if(langPage == "fr"){
+                    homedataJs = "./testname/js/fr/homedata.js";
+                    utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                }else if(langPage == "es"){
+                    homedataJs = "./testname/js/es/homedata.js";
+                    utm_campaign_js_url="./testname/js/es/utm_campaign.js"
+                }else if(langPage == "pt"){
+                    homedataJs = "./testname/js/pt/homedata.js";
+                    utm_campaign_js_url="./testname/js/pt/utm_campaign.js"
+                }else if(langPage == "en"){
+                    homedataJs = "./testname/js/en/homedata.js";
+                    utm_campaign_js_url="./testname/js/en/utm_campaign.js"
+                }else if(langPage == "de"){
+                    homedataJs = "./testname/js/de/homedata.js";
+                    utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+                }else if(langPage == "ar"){
+                    homedataJs = "./testname/js/ar/homedata.js";
+                    utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+                }else if(langPage == "jp"){
+                    homedataJs = "./testname/js/jp/homedata.js";
+                    utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+                }else{
+                    homedataJs = "./testname/js/fr/homedata.js";
+                    utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                }
+                loadScript(utm_campaign_js_url, function () {
+
+                    // 渲染首页数据
+                    initTitle();
+
+                    let utm_campaign = getQueryParam("campaign");
+                    let testData = utm_campaignData[utm_campaign] || 0
+
+
+                    if (testData.length > 0) {
+                        document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(testData,0);
+                    } else {
+                        document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend,1);
+                    }
+
+                    console.log(document.querySelector('.recommend').innerHTML)
+
+                    document.getElementById("testADV_5").innerHTML = returnAdvWord();
+                    const TestAdv_5 = document.getElementById('testADV_5')
+                    if (TestAdv_5) {
+                        const observer = new IntersectionObserver((entries, obs) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    loadTestAdv_5(entry.target);
+                                    obs.unobserve(entry.target);
+                                }
+                            });
+                        }, {
+                            rootMargin: '5px',
+                        });
+                        observer.observe(TestAdv_5);
+                    }
+                });
+
+
 
                 document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
                 const TestAdv_1Bot = document.getElementById('bot_adv_public')
@@ -1973,22 +2087,6 @@
                         rootMargin: '5px',
                     });
                     observer.observe(TestAdv_1Bot);
-                }
-
-                document.getElementById("testADV_5").innerHTML = returnAdvWord();
-                const TestAdv_5 = document.getElementById('testADV_5')
-                if (TestAdv_5) {
-                    const observer = new IntersectionObserver((entries, obs) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                loadTestAdv_5(entry.target);
-                                obs.unobserve(entry.target);
-                            }
-                        });
-                    }, {
-                        rootMargin: '5px',
-                    });
-                    observer.observe(TestAdv_5);
                 }
             }
             // 页面加载完成后初始化

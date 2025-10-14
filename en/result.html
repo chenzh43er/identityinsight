@@ -1055,8 +1055,8 @@
                     .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
 
                 let moHtml = `
-                <a href="${item.url}" class="container-list-item common_list_a">
-                    <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);">
+                <a href="${item.url}" class="container-list-item common_list_a" style="width: 100%">
+                    <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);overflow: hidden;">
                         <div class="container-list-item-img">
                             <img class="lazyimg common_three_li_img"
                                 data-language="en"
@@ -1070,12 +1070,8 @@
                     </div>
                 </a>
                 `
-
-                const mqqhtmlLink = localStorage.getItem('mqqhtmlLink');
-                const url = new URL(mqqhtmlLink);
-                const params = new URLSearchParams(url.search);
+                const params = new URLSearchParams(window.location.search);
                 const utm_content = params.get('content')
-
 
                 const relativeUrl = item.url
                 const baseUrl = window.location.origin;
@@ -1087,14 +1083,13 @@
                     return ;
                 }
 
+
+
                 if(index > 5 ){
                     return;
                 }
 
                 if(returnAdvAction == 0){
-                    moHtml = moHtml + '<div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);" id = "ResultAdv_2" >' +
-                        returnAdvWord() +
-                        '</div>'
                     returnAdvAction = 1
                 }
 
@@ -1105,10 +1100,6 @@
         function getQueryParam(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
-        }
-
-        function returnAdvWord(){
-            return `<p style="text-align: center">Advertisment</p>`
         }
 
         function initTitleMT(){
@@ -1122,13 +1113,13 @@
             }else if(langPage == "en"){
                 document.getElementById("titleForRecMT").innerText="Most Tested";
             }else if(langPage == "de"){
-                document.getElementById("titleForRecMT").innerText="Meistgetestet";
+                document.getElementById("titleForRecMT").innerText = "Meistgetestet"
             }else if(langPage == "ar"){
                 document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
             }else if(langPage == "jp"){
-                document.getElementById("titleForRecMT").innerText = "最も試される";
+                document.getElementById("titleForRecMT").innerText = " 最も試される ";
             }else{
-                document.getElementById("titleForRecMT").innerText = "最も試される";
+                document.getElementById("titleForRecMT").innerText = " 最も試される ";
             }
         }
 
@@ -1177,26 +1168,103 @@
 
         }
 
+        function loadTestAdv_1(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnTestAdv_1();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadTestAdv_2(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnTestAdv_2();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadTestAdv_3(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnTestAdv_3();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadTestAdv_4(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnTestAdv_4();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
+        function loadTestAdv_5(el) {
+            // 插入 <ins> HTML
+            el.innerHTML = returnTestAdv_5();
+            // 触发广告加载
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error("AdSense push error", e);
+            }
+        }
+
         function initHomeDataForMo() {
             // 渲染首页数据
-            document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
-
-            const ResultAdv_2 = document.getElementById('ResultAdv_2')
-            if (ResultAdv_2) {
-                const observer = new IntersectionObserver((entries, obs) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            loadResultAdv_2(entry.target);
-                            obs.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    rootMargin: '5px',
-                });
-                observer.observe(ResultAdv_2);
+            let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+            let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+            let langPage = getLangFromPath()
+            if(langPage == "fr"){
+                homedataJs = "./testname/js/fr/homedata.js";
+                utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+            }else if(langPage == "es"){
+                homedataJs = "./testname/js/es/homedata.js";
+                utm_campaign_js_url="./testname/js/es/utm_campaign.js"
+            }else if(langPage == "pt"){
+                homedataJs = "./testname/js/pt/homedata.js";
+                utm_campaign_js_url="./testname/js/pt/utm_campaign.js"
+            }else if(langPage == "en"){
+                homedataJs = "./testname/js/en/homedata.js";
+                utm_campaign_js_url="./testname/js/en/utm_campaign.js"
+            }else if(langPage == "de"){
+                homedataJs = "./testname/js/de/homedata.js";
+                utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+            }else if(langPage == "ar"){
+                homedataJs = "./testname/js/ar/homedata.js";
+                utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+            }else if(langPage == "jp"){
+                homedataJs = "./testname/js/jp/homedata.js";
+                utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+            }else{
+                homedataJs = "./testname/js/fr/homedata.js";
+                utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
             }
 
+            loadScript(utm_campaign_js_url, function () {
+                let utm_campaign = getQueryParam("campaign");
+                let testData = utm_campaignData[utm_campaign] || 0
+                console.log(testData)
 
+                if (testData.length > 0) {
+                    document.querySelector('.tested').innerHTML = renderHomeData(testData);
+                } else {
+                    document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
+                }
+            });
         }
         // 页面加载完成后初始化
         $(document).ready(function () {
@@ -1205,7 +1273,23 @@
                 document.getElementById('adv_sticky').innerHTML = ''
                 document.getElementById('adv_sticky').style.height = '0px'
             }else{
-                document.getElementById('RightBottom_adbox').innerHTML = returnZhongxiangGuding();
+                document.getElementById('RightBottom_adbox').innerHTML = returnAdvWord();
+
+                const RightBottom_adbox = document.getElementById('RightBottom_adbox')
+                if (RightBottom_adbox) {
+                    const observer = new IntersectionObserver((entries, obs) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                loadTestAdv_4(entry.target);
+                                obs.unobserve(entry.target);
+                            }
+                        });
+                    }, {
+                        rootMargin: '5px',
+                    });
+                    observer.observe(RightBottom_adbox);
+                }
+
             }
 
 
@@ -1238,7 +1322,7 @@
             }else if(langPage == "jp"){
                 mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js";
             }else{
-                mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js"
+                mt_data_url = "./testname/js/fr_most_test_data/Most Tested.js"
             }
 
 
@@ -1246,21 +1330,6 @@
             loadScript(mt_data_url, function () {
                 // 初始化数据
                 initHomeDataForMo();
-                const adContainers = document.querySelectorAll('.adsbygoogle');
-                adContainers.forEach((adContainer, index) => {
-                    (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                    // 定时检查广告容器是否已加载广告
-                    const checkAdStatus = setInterval(() => {
-                        if (adContainer.innerHTML.trim()) {
-                            //console.log(`广告容器 ${index + 1} 已加载广告`);
-                            clearInterval(checkAdStatus);  // 停止检查
-                        } else {
-                            //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                            (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                        }
-                    }, 10000);  // 每1秒检查一次
-                });
             });
         });
 
@@ -1277,9 +1346,11 @@
      */
     {
         // 渲染首页数据
-        function renderHomeDataForRQ(data) {
+        function renderHomeDataForRQ(data,version) {
 
-            let returnAdvAction = 0;
+            let returnAdvAction_RC = 0;
+
+            let realIndex = 0
 
             return data.map((item,index) => {
 
@@ -1486,11 +1557,8 @@
                 </a>
                 `
 
-                const mqqhtmlLink = localStorage.getItem('mqqhtmlLink');
-                const url = new URL(mqqhtmlLink);
-                const params = new URLSearchParams(url.search);
+                const params = new URLSearchParams(window.location.search);
                 const utm_content = params.get('content')
-
 
                 const relativeUrl = item.url
                 const baseUrl = window.location.origin;
@@ -1506,13 +1574,21 @@
                     return;
                 }
 
-                if(returnAdvAction == 0){
-                    recHtml = recHtml + ' <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);" id = "ResultAdv_4">' +
+                //console.log(realIndex)
+
+                if(realIndex == 0){
+                    recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
                         returnAdvWord()+
                         '</div>'
-
-                    returnAdvAction = 1
                 }
+
+                realIndex += 1
+
+                // if(index == 1 && version == 1){
+                //     recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
+                //         returnAdvWord()+
+                //         '</div>'
+                // }
 
                 return recHtml;
             }).join('');
@@ -1563,23 +1639,87 @@
         }
 
         function initHomeDataForRQ() {
-            // 渲染首页数据
-            initTitle();
-            document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend);
 
-            const ResultAdv_4 = document.getElementById('ResultAdv_4')
-            if (ResultAdv_4) {
+            // 渲染首页数据
+            let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+            let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+            let langPage = getLangFromPath()
+            if(langPage == "fr"){
+                homedataJs = "./testname/js/fr/homedata.js";
+                utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+            }else if(langPage == "es"){
+                homedataJs = "./testname/js/es/homedata.js";
+                utm_campaign_js_url="./testname/js/es/utm_campaign.js"
+            }else if(langPage == "pt"){
+                homedataJs = "./testname/js/pt/homedata.js";
+                utm_campaign_js_url="./testname/js/pt/utm_campaign.js"
+            }else if(langPage == "en"){
+                homedataJs = "./testname/js/en/homedata.js";
+                utm_campaign_js_url="./testname/js/en/utm_campaign.js"
+            }else if(langPage == "de"){
+                homedataJs = "./testname/js/de/homedata.js";
+                utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+            }else if(langPage == "ar"){
+                homedataJs = "./testname/js/ar/homedata.js";
+                utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+            }else if(langPage == "jp"){
+                homedataJs = "./testname/js/jp/homedata.js";
+                utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+            }else{
+                homedataJs = "./testname/js/fr/homedata.js";
+                utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+            }
+            loadScript(utm_campaign_js_url, function () {
+
+                // 渲染首页数据
+                initTitle();
+
+                let utm_campaign = getQueryParam("campaign");
+                let testDataRC = utm_campaignData[utm_campaign] || 0
+                console.log(testDataRC)
+
+                if (testDataRC.length > 0) {
+                    document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(testDataRC,0);
+
+                } else {
+                    document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend,1);
+                }
+
+                // console.log(document.querySelector('.recommend').innerHTML)
+
+                document.getElementById("testADV_5").innerHTML = returnAdvWord();
+                const TestAdv_5 = document.getElementById('testADV_5')
+                if (TestAdv_5) {
+                    const observer = new IntersectionObserver((entries, obs) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                loadTestAdv_5(entry.target);
+                                obs.unobserve(entry.target);
+                            }
+                        });
+                    }, {
+                        rootMargin: '5px',
+                    });
+                    observer.observe(TestAdv_5);
+                }
+            });
+
+
+
+            document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
+            const TestAdv_1Bot = document.getElementById('bot_adv_public')
+            if (TestAdv_1Bot) {
                 const observer = new IntersectionObserver((entries, obs) => {
                     entries.forEach(entry => {
                         if (entry.isIntersecting) {
-                            loadResultAdv_4(entry.target);
+                            loadTestAdv_1(entry.target);
                             obs.unobserve(entry.target);
                         }
                     });
                 }, {
                     rootMargin: '5px',
                 });
-                observer.observe(ResultAdv_4);
+                observer.observe(TestAdv_1Bot);
             }
         }
         // 页面加载完成后初始化
@@ -1601,31 +1741,16 @@
                 rq_data_url = "./testname/js/de_recommend/recommend quizzes.js"
             }else if(langPage == "ar"){
                 rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
-            }else if(langPage == "jp"){
+            }else if(langPage == "ar"){
                 rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
             }else{
-                rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
+                rq_data_url = "./testname/js/fr_recommend/recommend quizzes.js"
             }
 
 
             loadScript(rq_data_url, function () {
                 // 初始化数据
                 initHomeDataForRQ();
-                const adContainers = document.querySelectorAll('.adsbygoogle');
-                adContainers.forEach((adContainer, index) => {
-                    (adsbygoogle = window.adsbygoogle || []).push({});  // 推送广告
-
-                    // 定时检查广告容器是否已加载广告
-                    const checkAdStatus = setInterval(() => {
-                        if (adContainer.innerHTML.trim()) {
-                            //console.log(`广告容器 ${index + 1} 已加载广告`);
-                            clearInterval(checkAdStatus);  // 停止检查
-                        } else {
-                            //console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
-                            (adsbygoogle = window.adsbygoogle || []).push({});  // 重新推送广告
-                        }
-                    }, 10000);  // 每1秒检查一次
-                });
             });
         });
 
@@ -1709,7 +1834,7 @@
             }else if(lang == "jp"){
                 result_url = "./testname/js/jp_result/";
             }else{
-                result_url = "./testname/js/jp_result/"
+                result_url = "./testname/js/fr_result/"
             }
 
             loadScript(result_url + key2 + ".js", function () {
@@ -1989,8 +2114,9 @@
             }
         }
 
-
-
+        function returnAdvWord(){
+            return `<p style="text-align: center">Advertisment</p>`
+        }
     }
 </script>
 
