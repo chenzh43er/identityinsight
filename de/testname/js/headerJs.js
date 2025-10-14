@@ -72,10 +72,8 @@ $(document).ready(function () {
     // }
 
     if(!isNull(campaign)){
-        if(campaign !== "harry"){
-            indexHref = indexHref + "&campaign=" +campaign;
-            // toListCat1 = toListCat1 + "&campaign=" +campaign;
-        }
+        indexHref = indexHref + "&campaign=" +campaign;
+        toListCat1 = toListCat1 + "&campaign=" +campaign;
     }
 
     if(!isNull(utm_campaign)){
