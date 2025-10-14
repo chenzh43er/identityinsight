@@ -24,7 +24,7 @@ const utm_campaignData = {
         "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
         "title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
     },
-    "harry":[
+    "hog":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10028",
             "pic": "./testname/img/fr_img/b677afdd76e0057cd2df6f074beb2817.gif",

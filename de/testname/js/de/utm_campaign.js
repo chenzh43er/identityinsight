@@ -24,7 +24,7 @@ const utm_campaignData = {
         "pic": "./testname/img/de_img/735a575acde713df117f43d8defde53b.gif",
         "title": "Welche Disney-Prinzessin bist du?"
     },
-    "harry":[{
+    "hog":[{
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
         "pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
         "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"

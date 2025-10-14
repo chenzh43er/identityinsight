@@ -106,7 +106,7 @@ $(document).ready(function () {
     document.getElementById("menu_index_select1").innerText = home_str
     document.getElementById("menu_index_select1").href=indexHref
 
-    document.getElementById("menu_index_select2").innerText = "Harry"
+    document.getElementById("menu_index_select2").innerText = "Harry Potter"
     document.getElementById("menu_index_select2").href=toListCat1
 
     document.getElementById("picForUrlJump").href=indexHref
