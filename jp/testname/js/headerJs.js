@@ -55,7 +55,7 @@ $(document).ready(function () {
         home_str = "الرئيسية";
         indexHref = "./list.html?";
     }
-    let toListCat1 = "./list.html?campaign=harry"
+    let toListCat1 = "./list/harrypotter.html?"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
