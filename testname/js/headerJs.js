@@ -55,13 +55,16 @@ $(document).ready(function () {
         home_str = "الرئيسية";
         indexHref = "./list.html?";
     }
+    let toListCat1 = "./list?campaign=harry"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
+        toListCat1 = toListCat1  + "&utm_medium=" +medium;
     }
 
     if(!isNull(source)){
         indexHref = indexHref + "&utm_source=" +source;
+        toListCat1 = toListCat1 + "&utm_source=" +source;
     }
 
     // if(!isNull(content)){
@@ -70,30 +73,40 @@ $(document).ready(function () {
 
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;
+        toListCat1 = toListCat1 + "&campaign=" +campaign;
     }
 
     if(!isNull(utm_campaign)){
         indexHref = indexHref + "&utm_campaign=" +utm_campaign;
+        toListCat1 = toListCat1 + "&utm_campaign=" +utm_campaign;
     }
 
     if(!isNull(utm_source)){
         indexHref = indexHref + "&source=" +utm_source;
+        toListCat1 = toListCat1+ "&source=" +utm_source;
     }
 
     if(!isNull(utm_keyword)){
         indexHref = indexHref + "&keyword=" +utm_keyword;
+        toListCat1 = toListCat1 + "&keyword=" +utm_keyword;
     }
 
     if(!isNull(utm_medium)){
         indexHref = indexHref + "&medium=" +utm_medium;
+        toListCat1 = toListCat1 + "&medium=" +utm_medium;
     }
 
     if(!isNull(country)){
         indexHref = indexHref + "&country=" +country;
+        toListCat1 = toListCat1 + "&country=" +country;
     }
 
     document.getElementById("menu_index_select").innerText = home_str
     document.getElementById("menu_index_select").href=indexHref
+
+    document.getElementById("menu_index_select").innerText = "Harry"
+    document.getElementById("menu_index_select").href=toListCat1
+
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
         const content = document.getElementById('content_for_page');
