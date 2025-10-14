@@ -223,10 +223,108 @@
         /*}*/
     </style>
 
+    <style>
+        /* ========== 通用样式 ========== */
+        nav {
+            position: relative;
+            z-index: 1000;
+            padding: 10px 20px;
+        }
+
+        /* 桌面端：右对齐菜单 */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end; /* ← 关键：右对齐 */
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 8px 12px;
+            display: block;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #ff0059;
+        }
+
+        /* ========== 汉堡按钮样式 ========== */
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+            font-size: 26px;
+            color: #333;
+            background: none;
+            border: none;
+            line-height: 1;
+            padding: 8px;
+        }
+
+        .selectNav{
+            font-family: "Aldrich",Sans-serif;
+            font-weight: 600;
+        }
+
+        /* ========== 移动端样式 ========== */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+                top: 15px;
+                right: 20px;
+                z-index: 2000;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #fff;
+                position: absolute;
+                top: 55px;
+                right: 10px;
+                width: 100%;
+                max-width: 300px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+                border-radius: 12px;
+                overflow: hidden;
+                padding: 10px 0;
+                opacity: 0;
+                transform: translateY(-10px);
+                transition: all 0.3s ease;
+            }
+
+            nav ul.active {
+                display: flex;
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            nav li {
+                text-align: center;
+            }
+
+            nav a {
+                font-size: 18px;
+                padding: 14px;
+                color: #222;
+            }
+
+            nav a:hover {
+                background: #f5f5f5;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
-<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header"
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
      data-elementor-post-type="elementor_library">
     <section
             class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -249,7 +347,7 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-16a4503"
+            <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
                  data-id="16a4503" data-element_type="column">
                 <div class="elementor-widget-wrap elementor-element-populated">
                     <div class="elementor-element elementor-element-20d443e elementor-nav-menu--dropdown-none elementor-nav-menu__align-end elementor-widget elementor-widget-nav-menu"
@@ -257,59 +355,14 @@
                          data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
                          data-widget_type="nav-menu.default">
                         <div class="elementor-widget-container">
-                            <nav aria-label="Menu"
-                                 class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
-                                <ul id="menu-1-20d443e" class="elementor-nav-menu"
-                                    data-smartmenus-id="1742717233196091">
-                                    <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
-                                        <a href="https://identityinsight.org/en" class="elementor-item" id="menu_index_select">Home</a>
-                                    </li>
+                            <nav>
+                                <!-- 汉堡按钮 -->
+                                <button class="menu-toggle" id="menuToggle">☰</button>
+                                <ul id="menu-1-20d443e">
+                                    <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
+                                    <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
                                 </ul>
                             </nav>
-                            <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
-                                 aria-hidden="true">
-                                <ul id="menu-2-20d443e" class="elementor-nav-menu"
-                                    data-smartmenus-id="17427172331972703">
-                                    <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
-                                        <a href="https://identityinsight.org/en" class="elementor-item"
-                                           tabindex="-1">Home</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-09bb139"
-                 data-id="09bb139" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-84f1249 elementor-widget__width-initial elementor-widget elementor-widget-elementskit-header-search"
-                         data-id="84f1249" data-element_type="widget"
-                         data-widget_type="elementskit-header-search.default">
-                        <div class="elementor-widget-container">
-                            <div class="ekit-wid-con"> <a href="#ekit_modal-popup-84f1249"
-                                                          class="ekit_navsearch-button ekit-modal-popup" aria-label="navsearch-button">
-                                <i aria-hidden="true" class="icon icon-search"></i> </a>
-                                <!-- language switcher strart -->
-                                <!-- xs modal -->
-                                <div class="zoom-anim-dialog mfp-hide ekit_modal-searchPanel"
-                                     id="ekit_modal-popup-84f1249">
-                                    <div class="ekit-search-panel">
-                                        <!-- Polylang search - thanks to Alain Melsens -->
-                                        <form role="search" method="get" class="ekit-search-group"
-                                              action="https://identityinsight.org/en_us">
-                                            <input type="search" class="ekit_search-field" aria-label="search-form"
-                                                   placeholder="Search..." value="" name="s">
-                                            <button type="submit" class="ekit_search-button"
-                                                    aria-label="search-button">
-                                                <i aria-hidden="true" class="icon icon-search"></i> </button>
-                                        </form>
-                                    </div>
-                                </div><!-- End xs modal -->
-                                <!-- end language switcher strart -->
-                            </div>
                         </div>
                     </div>
                 </div>
