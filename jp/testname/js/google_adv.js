@@ -166,4 +166,22 @@ function returnResultAdv_4(){
      data-full-width-responsive="true"></ins>`
 }
 
+function returnHarry_1(){
+    return `<!-- Harry_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="9839571462"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
 
+function returnHarry_2(){
+    return `<!-- Harry_2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="8462926521"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
