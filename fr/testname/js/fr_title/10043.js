@@ -1,173 +1,171 @@
 let quizData = {
-    "title": "À quel point connaissez-vous Harry Potter ?",
-    "mainPic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
+    "title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?",
+    "mainPic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
     "thems": [
         "Harry Potter",
-        "Quiz Harry Potter",
         "Poudlard",
-        "Magie",
+        "Film",
         "Films",
-        "Fans de Harry Potter",
-        "Monde magique",
-        "Potterheads"
+        "Télévision",
+        "Trivia"
     ],
     "questions": [
         {
-            "question": "Quel est le nom de l'animal de compagnie de Ron Weasley ?",
-            "pic": "./testname/img/de_img/bb776131d39d84220c9a2b999bfc251f.jpeg",
+            "question": "En combien de maisons Poudlard est-il divisé ?",
+            "pic": "./testname/img/fr_img/5d335f21574eb95f56a1a6dc639d7ac7.png",
             "answers": [
                 {
-                    "answer": "Croûtard",
+                    "answer": "2 maisons",
                     "aPic": "",
                     "aId": 1
                 },
                 {
-                    "answer": "Pattenrond",
+                    "answer": "4 maisons",
                     "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": "Fumseck",
+                    "answer": "6 maisons",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": "Hedwige",
+                    "answer": "8 maisons",
                     "aPic": "",
                     "aId": 4
                 }
             ]
         },
         {
-            "question": "Quel est le sort qu'Harry utilise pour désarmer quelqu'un ?",
-            "pic": "./testname/img/de_img/aa9fddea95128a6f74da195b7bfa074f.jpeg",
+            "question": "Quel est la devise de Poudlard ?",
+            "pic": "./testname/img/fr_img/d552940a0bbf9b039104d691016c7914.png",
             "answers": [
                 {
-                    "answer": "Wingardium Leviosa",
+                    "answer": "La connaissance est la plus grande magie de toutes.",
                     "aPic": "",
                     "aId": 1
                 },
                 {
-                    "answer": "Expelliarmus",
+                    "answer": "La magie, c'est la puissance.",
                     "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": "Lumos",
+                    "answer": "“Ne cesse jamais de poursuivre l'excellence.”",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": "Petrificus Totalus",
+                    "answer": "“Ne chatouillez jamais un dragon qui dort.”",
                     "aPic": "",
                     "aId": 4
                 }
             ]
         },
         {
-            "question": "Quel goût a la bièraubeurre ?",
-            "pic": "./testname/img/de_img/41279df4f24ad6430b1c6b7f47140d28.jpeg",
+            "question": "Lequel de ceux-ci n'est PAS un enseignant ou professeur à Poudlard ?",
+            "pic": "./testname/img/fr_img/0a07564af0a5ec054cfe9aaebd68b550.png",
             "answers": [
-                {
-                    "answer": "Menthe",
-                    "aPic": "",
-                    "aId": 1
-                },
-                {
-                    "answer": "Gingembre",
-                    "aPic": "",
-                    "aId": 2
-                },
-                {
-                    "answer": "Beurre",
-                    "aPic": "",
-                    "aId": 3
-                },
-                {
-                    "answer": "Chocolat",
-                    "aPic": "",
-                    "aId": 4
-                }
-            ]
-        },
-        {
-            "question": "Qui devient le professeur de Défense contre les forces du mal dans Le Prisonnier d'Azkaban ?",
-            "pic": "./testname/img/de_img/79673ccea9f77d87c6b24f005cbabc9a.jpeg",
-            "answers": [
-                {
-                    "answer": "Gilderoy Lockhart",
-                    "aPic": "",
-                    "aId": 1
-                },
-                {
-                    "answer": "Alastor \"Fol Œil\" Maugrey",
-                    "aPic": "",
-                    "aId": 2
-                },
-                {
-                    "answer": "Remus Lupin",
-                    "aPic": "",
-                    "aId": 3
-                },
-                {
-                    "answer": "Severus Rogue",
-                    "aPic": "",
-                    "aId": 4
-                }
-            ]
-        },
-        {
-            "question": "Que fait le \"Patronus\" de Harry Potter ?",
-            "pic": "./testname/img/de_img/e63db850f45c711261ec211846ec11b2.jpeg",
-            "answers": [
-                {
-                    "answer": "Protège des malédictions",
-                    "aPic": "",
-                    "aId": 1
-                },
-                {
-                    "answer": "Guide les gens vers Poudlard",
-                    "aPic": "",
-                    "aId": 2
-                },
-                {
-                    "answer": "Protège des Détraqueurs",
-                    "aPic": "",
-                    "aId": 3
-                },
-                {
-                    "answer": "Fait voler les balais",
-                    "aPic": "",
-                    "aId": 4
-                }
-            ]
-        },
-        {
-            "question": "Qui est le directeur de la maison Gryffondor ?",
-            "pic": "./testname/img/de_img/da462d22ddd90068a087aed1eeee52cc.jpeg",
-            "answers": [
-                {
-                    "answer": "Minerva McGonagall",
-                    "aPic": "",
-                    "aId": 1
-                },
                 {
                     "answer": "Severus Snape",
                     "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Pomona Sprout",
+                    "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": "Filius Flitwick",
+                    "answer": "Elara Finch",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": "Pomona Sprout",
+                    "answer": "Wilhelmina Grubbly-Plank",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Quelle créature magique garde l'entrée du bureau de Dumbledore ?",
+            "pic": "./testname/img/fr_img/7e754dabee546aa20c78ac380f048bdb.png",
+            "answers": [
+                {
+                    "answer": "Griffon",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Gargouille",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Lion",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Phénix",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nom de la carte magique où vous pouvez voir la disposition complète du château de Poudlard ?",
+            "pic": "./testname/img/fr_img/ce41963f00a6135f174bf1312efad53a.png",
+            "answers": [
+                {
+                    "answer": "Carte du Maraudeur",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Carte de Poudlard",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Carte de Queudver",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Carte de la Chambre des Murmures",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Quel charme est utilisé pour invoquer des objets ?",
+            "pic": "./testname/img/fr_img/d1f1ee8a8f05c715d30bf3240b810c82.png",
+            "answers": [
+                {
+                    "answer": "Expelliarmus",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Reducto",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Stupefy",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Accio",
                     "aPic": "",
                     "aId": 4
                 }
             ]
         }
     ],
-    "toAnswer": 10032
+    "toAnswer": 10043
 };
