@@ -58,5 +58,14 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10041",
             "pic": "./testname/img/de_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
             "title": "In Welchem Universum Sollten Sie Leben?"
+        },{
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
+            "pic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
+            "title": "Welches magische Talent steckt wirklich in dir in Hogwarts?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
+            "pic": "./testname/img/de_img/dA4hK0aA4vA0.jpg",
+            "title": "Welcher Hogwarts-Schüler bist du in der Liebe?"
         }]
 };
