@@ -26,6 +26,11 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
+            "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+            "title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10028",
             "pic": "./testname/img/fr_img/b677afdd76e0057cd2df6f074beb2817.gif",
             "title": "Êtes-vous plus une fille de Poudlard ou une fille d'Oz ?"
@@ -39,11 +44,6 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10030",
             "pic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
             "title": "Quel est votre Patronus? Découvrez-le maintenant!"
-        },
-        {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
-            "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
-            "title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10032",

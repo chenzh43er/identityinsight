@@ -1319,7 +1319,13 @@
 
           let testData = utm_campaignData[utm_campaign]||0
           if(testData.length > 0){
-            document.getElementById("title_mp").innerText=utm_campaign;
+
+
+            if(utm_campaign === "hog"){
+              document.getElementById("title_mp").innerText="Harry Potter";
+            }else{
+              document.getElementById("title_mp").innerText=utm_campaign;
+            }
           }
 
           const paramLast = getReferrerParams();
