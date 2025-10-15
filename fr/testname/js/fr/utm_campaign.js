@@ -68,6 +68,16 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10043",
             "pic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
             "title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
+            "pic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+            "title": "Quel est ton vrai talent magique à Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
+            "pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
+            "title": "Quel Élève de Poudlard Es-tu en Amour ?"
         }
     ]
 };
