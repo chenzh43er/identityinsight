@@ -24,7 +24,7 @@ Deine emotionale Intelligenz und Intuition – du liest Herzen wie alte Zauberb�
 Magische Harmonie
 Deine Seelenverwandte: ein leidenschaftlicher Gryffindor, der deine stille Welt in Schwingung bringt.
 `,
-        "mainPic": "./testname/img/de_img/iA0cB0dM0iE3.png"
+        "mainPic": "./testname/img/de_img/iA0cB0dM0iE3.jpg"
     },
     3: {
         "title": "Welcher Hogwarts-Schüler bist du in der Liebe?",

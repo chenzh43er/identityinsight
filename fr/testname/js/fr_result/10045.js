@@ -25,7 +25,7 @@ const results = {
             "Harmonie magique\n" +
             "\n" +
             "Ton âme sœur magique : un Gryffondor passionné, prêt à faire vibrer ton monde intérieur.\n",
-        "mainPic": "./testname/img/fr_img/iA0cB0dM0iE3.png"
+        "mainPic": "./testname/img/fr_img/iA0cB0dM0iE3.jpg"
     },
     3: {
         "title": "Quel Élève de Poudlard Es-tu en Amour ?",
