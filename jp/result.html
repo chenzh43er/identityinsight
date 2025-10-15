@@ -1574,7 +1574,7 @@
                     return;
                 }
 
-                //console.log(realIndex)
+                console.log(realIndex)
 
                 if(realIndex == 0){
                     recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
@@ -1640,6 +1640,8 @@
 
         function initHomeDataForRQ() {
 
+
+
             // 渲染首页数据
             let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
             let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
@@ -1675,17 +1677,20 @@
                 initTitle();
 
                 let utm_campaign = getQueryParam("campaign");
-                let testDataRC = utm_campaignData[utm_campaign] || 0
-                console.log(testDataRC)
+                let testData = utm_campaignData[utm_campaign] || 0
 
-                if (testDataRC.length > 0) {
-                    document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(testDataRC,0);
 
+                if(utm_campaign === "hog"){
+                    testData = utm_campaignData["hog_rc"] || 0
+                }
+
+                if (testData.length > 0) {
+                    document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(testData,0);
                 } else {
                     document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(dataR.recommend,1);
                 }
 
-                // console.log(document.querySelector('.recommend').innerHTML)
+                console.log(document.querySelector('.recommend').innerHTML)
 
                 document.getElementById("testADV_5").innerHTML = returnAdvWord();
                 const TestAdv_5 = document.getElementById('testADV_5')

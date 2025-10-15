@@ -2046,6 +2046,10 @@
                     let testData = utm_campaignData[utm_campaign] || 0
 
 
+                    if(utm_campaign === "hog"){
+                        testData = utm_campaignData["hog_rc"] || 0
+                    }
+
                     if (testData.length > 0) {
                         document.querySelector('.recommend').innerHTML = renderHomeDataForRQ(testData,0);
                     } else {
