@@ -655,7 +655,7 @@
         }
         else{
 
-          if(is_index == 1 && index > indexUpTo && version != 4){
+          if(is_index == 1 && index > indexUpTo){
             return ;
           }
 
@@ -951,7 +951,12 @@
           console.log("go normal")
         }
 
-        document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1,2);
+        if(utm_campaign === "hog"){
+          document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.harryRecent,1,0,1,2);
+        }else{
+          document.querySelector('.theLatest').innerHTML = renderHomeData(dataPage.theLatest,1,0,1,2);
+        }
+
 
         document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike,1,0,0,3);
 

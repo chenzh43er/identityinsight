@@ -45,7 +45,8 @@ const dataPage = {
 		"pic":"./testname/img/fr_img/6af843c64931a033ad3bde07e8be0e58.gif",
 		"title":"Qui aura une relation secrète avec vous?"
 	}],
-	"youMaylike":[{
+	"youMaylike":[
+	{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10010",
 		"pic":"./testname/img/fr_img/922749b64cef31e7d1f8a4789e423e19.gif",
 		"title":"Dans quelle époque êtes-vous"
@@ -145,5 +146,31 @@ const dataPage = {
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
 			"pic": "./testname/img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
 			"title": "Dans Quel Univers Devriez-Vous Vivre?"
-		}]
+		}],
+	"harryRecent":[
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
+			"pic": "./testname/img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
+			"title": "Dans Quel Univers Devriez-Vous Vivre?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10042",
+			"pic": "./testname/img/fr_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+			"title": "À quel professeur de Poudlard ressembles-tu le plus ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10043",
+			"pic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
+			"title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
+			"pic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+			"title": "Quel est ton vrai talent magique à Poudlard ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
+			"pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
+			"title": "Quel Élève de Poudlard Es-tu en Amour ?"
+		}
+	]
 }
