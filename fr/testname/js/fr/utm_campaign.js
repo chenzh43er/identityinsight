@@ -78,7 +78,11 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
             "pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
             "title": "Quel Élève de Poudlard Es-tu en Amour ?"
-        },
+        },{
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
+            "pic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+            "title": "Quel personnage principal de Harry Potter êtes-vous ?"
+        }
         ],
         "hog_rc":[
                 {
@@ -119,6 +123,11 @@ const utm_campaignData = {
                     "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
                     "pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
                     "title": "Quel Élève de Poudlard Es-tu en Amour ?"
-                }
+                },
+            {
+                "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
+                "pic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+                "title": "Quel personnage principal de Harry Potter êtes-vous ?"
+            }
         ]
 };
