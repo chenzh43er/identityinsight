@@ -95,11 +95,6 @@ const utm_campaignData = {
             "title": "À quel professeur de Poudlard ressembles-tu le plus ?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10043",
-            "pic": "./testname/img/de_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
-            "title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?"
-        },
-        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
             "pic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
             "title": "Quel est ton vrai talent magique à Poudlard ?"
