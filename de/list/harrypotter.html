@@ -175,6 +175,10 @@
             font-weight: 600;
         }
 
+        .tempCatHref{
+            display: none;
+        }
+
         /* ========== 移动端样式 ========== */
         @media (max-width: 768px) {
             .menu-toggle {
@@ -220,6 +224,43 @@
 
             nav a:hover {
                 background: #f5f5f5;
+            }
+            .tempCatHref {
+                width: 100%;
+                padding: 10px 0;
+                display: block;
+            }
+
+            .tempCatHref ul {
+                display: flex;
+                justify-content: center; /* 居中 */
+                align-items: center;
+                gap: 20px; /* 链接间距 */
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                overflow-x: auto; /* 适应小屏横向滚动 */
+                white-space: nowrap;
+                scrollbar-width: none; /* 隐藏滚动条（Firefox） */
+            }
+
+            .tempCatHref ul::-webkit-scrollbar {
+                display: none; /* 隐藏滚动条（Chrome/Safari） */
+            }
+
+            .tempCatHref li {
+                flex-shrink: 0;
+            }
+
+            .tempCatHref a {
+                display: inline-block;
+                text-decoration: none; /* 去掉默认下划线 */
+                color: #000; /* 黑色文字 */
+                font-weight: 600;
+                padding: 1px 1px;
+                font-size: 16px;
+                border-bottom: 3px solid red; /* 永久红线 */
+                border-radius: 0; /* 去掉圆角 */
             }
         }
     </style>
@@ -281,7 +322,12 @@
 </div>
 
 <div class="quiz_home-container" style="margin-top: 10px;" id = "quiz_home-container">
-
+    <div class="tempCatHref">
+        <ul>
+            <li><a id="mobile_home" href="#">Home</a></li>
+            <li><a id="mobile_harry" href="#">Harry Potter</a></li>
+        </ul>
+    </div>
     <div class="tempTitle tempTitle1">
         <img src="../testname/img/title_ornament_left.png" alt="" fetchpriority="high">
         <span id="title_mp"></span><img src="../testname/img/title_ornament_right.png" alt="" fetchpriority="high">

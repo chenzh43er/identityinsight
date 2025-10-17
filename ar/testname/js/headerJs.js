@@ -102,6 +102,7 @@ $(document).ready(function () {
     }
 
     document.getElementById("menu_index_select1").innerText = home_str
+    document.getElementById("mobile_home").innerText = home_str
     document.getElementById("menu_index_select1").href=indexHref
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
