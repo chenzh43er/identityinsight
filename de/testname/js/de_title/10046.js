@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Welches wäre dein ideales Tier als Begleiter?",
-            "pic": "./testname/img/de_img/aM3rF6bE4m.png",
+            "pic": "./testname/img/de_img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Eine Eule",

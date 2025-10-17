@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Ton animal familiar idéal serait :",
-            "pic": "./testname/img/fr_img/aM3rF6bE4m.png",
+            "pic": "./testname/img/fr_img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Hibou",
