@@ -291,7 +291,67 @@
       font-size: 13px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+       /* 让浮动工具栏固定在底部 */
+     #ft-floating-toolbar {
+       position: fixed !important;
+       bottom: 0 !important;
+       left: 0 !important;
+       right: 0 !important;
+       width: 100% !important;
+       margin: 0 !important;
+       border-radius: 0 !important;
+       box-shadow: 0 -2px 6px rgba(0,0,0,0.1) !important;
+       background: #fff !important;
+     }
+
+    /* 主菜单横向展开 */
+    #ft-floating-toolbar .ft-menu {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    /* 去掉竖排按钮布局 */
+    #ft-floating-toolbar.ft-left-pos,
+    #ft-floating-toolbar.ft-right-pos {
+      transform: none !important;
+    }
+
+    /* 隐藏可折叠按钮，保持展开 */
+    #ft-floating-toolbar .ft-expand-toggle-container {
+      display: none !important;
+    }
+
+    /* 展开 bubble 信息栏 */
+    #ft-reg-bubble {
+      display: block !important;
+      position: static !important;
+      height: auto !important;
+      box-shadow: none !important;
+    }
   </style>
+  <script>
+    function hideToolbarIfConsented() {
+      // Google Funding Choices 会设置 consent cookies
+      const consentGiven =
+              document.cookie.includes('FCNEC=') || // Google Consent cookie
+              document.cookie.includes('SOCS=');    // 另一个 consent cookie
+
+      if (consentGiven) {
+        const toolbar = document.getElementById('ft-floating-toolbar');
+        if (toolbar) toolbar.style.display = 'none';
+      }
+    }
+
+    // 页面加载后检查
+    window.addEventListener('load', () => {
+      hideToolbarIfConsented();
+
+      // 防止 toolbar 异步加载，再检查几次
+      setTimeout(hideToolbarIfConsented, 2000);
+      setTimeout(hideToolbarIfConsented, 5000);
+    });
+  </script>
 
   <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
