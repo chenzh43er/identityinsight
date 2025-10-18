@@ -131,7 +131,7 @@
         nav {
             position: relative;
             z-index: 1000;
-            padding: 0px 70px
+            padding: 0px 30px
         }
 
         /* 桌面端：右对齐菜单 */
@@ -313,7 +313,7 @@
                             <meta charset="UTF-8">
                             <title>Title</title>
                             <a href="" id="picForUrlJump">
-                                <img src="../testname//img/title.png">
+                                <img src="./testname//img/title.png">
                             </a>
 
                         </div>
@@ -328,7 +328,9 @@
                          data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
                          data-widget_type="nav-menu.default">
                         <div class="elementor-widget-container">
-                            <nav>
+                            <nav style="  display: flex;
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
                                 <!-- 汉堡按钮 -->
                                 <button class="menu-toggle" id="menuToggle">☰</button>
                                 <ul id="menu-1-20d443e">
