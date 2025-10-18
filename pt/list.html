@@ -131,7 +131,7 @@
     nav {
       position: relative;
       z-index: 1000;
-      padding: 10px 20px;
+      padding: 0px 70px
     }
 
     /* 桌面端：右对齐菜单 */
@@ -188,13 +188,17 @@
         z-index: 2000;
       }
 
+      .elementor-13 .elementor-element.elementor-element-16a4503 {
+        width: 35% !important;
+      }
+
       nav ul {
         display: none;
         flex-direction: column;
         background: #fff;
         position: absolute;
         top: 55px;
-        right: -30px;
+        right: 45px;
         width: 300px;
         max-width: 300px;
         box-shadow: 0 4px 15px rgba(0,0,0,0.15);
@@ -264,6 +268,8 @@
         border-radius: 0; /* 去掉圆角 */
       }
 
+
+
     }
   </style>
 
@@ -307,7 +313,8 @@
                data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
                data-widget_type="nav-menu.default">
             <div class="elementor-widget-container">
-              <nav>
+              <nav style="display: flex;
+  justify-content: flex-start; /* 主轴左对齐 */">
                 <!-- 汉堡按钮 -->
                 <button class="menu-toggle" id="menuToggle">☰</button>
                 <ul id="menu-1-20d443e">
