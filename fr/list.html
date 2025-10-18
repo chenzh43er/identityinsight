@@ -273,6 +273,21 @@
     }
   </style>
 
+  <style>
+    div[id*="consent"] {
+      position: fixed !important;
+      bottom: 10px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      z-index: 9999 !important;
+      background: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+
   <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
   <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
@@ -313,8 +328,9 @@
                data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}"
                data-widget_type="nav-menu.default">
             <div class="elementor-widget-container">
-              <nav style="display: flex;
-  justify-content: flex-start; /* 主轴左对齐 */">
+              <nav style="  display: flex;
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
                 <!-- 汉堡按钮 -->
                 <button class="menu-toggle" id="menuToggle">☰</button>
                 <ul id="menu-1-20d443e">
