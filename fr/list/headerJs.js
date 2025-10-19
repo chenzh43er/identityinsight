@@ -30,25 +30,32 @@ $(document).ready(function () {
     let medium = getQueryParam("utm_medium")
 
 
-    let indexHref = "../list.html?"
+    let indexHref = ""
     let home_str = ""
 
     if(langPage == "fr"){
         home_str = "Acceuil"
+        indexHref = "../list.html?"
     }else if(langPage == "es"){
         home_str = "Inicio"
+        indexHref = "../list.html?"
     }else if(langPage == "en"){
         home_str = "Home"
+        indexHref = "../list.html?"
     }else if(langPage == "pt"){
         home_str = "Início"
+        indexHref = "../list.html?"
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
+        indexHref = "../list.html?"; // 链接保持不变
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
+        indexHref = "../list.html?";
     }else{
         home_str = "الرئيسية";
+        indexHref = "../list.html?";
     }
-    let toListCat1 = "harrypotter.html?"
+    let toListCat1 = "../list/harrypotter.html?"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
@@ -67,7 +74,6 @@ $(document).ready(function () {
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;
         toListCat1 = toListCat1 + "&campaign=" +campaign;
-
     }
 
     if(!isNull(utm_campaign)){
@@ -96,6 +102,12 @@ $(document).ready(function () {
     }
 
     document.getElementById("menu_index_select1").innerText = home_str
+    var mobileHomeEl = document.getElementById("mobile_home");
+    if (mobileHomeEl) {
+        mobileHomeEl.innerText = home_str;
+    } else {
+        console.warn('元素 #mobile_home 不存在');
+    }
     document.getElementById("menu_index_select1").href=indexHref
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
