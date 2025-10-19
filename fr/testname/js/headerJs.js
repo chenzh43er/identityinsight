@@ -102,7 +102,12 @@ $(document).ready(function () {
     }
 
     document.getElementById("menu_index_select1").innerText = home_str
-    document.getElementById("mobile_home") && (document.getElementById("mobile_home").innerText = home_str);
+    var mobileHomeEl = document.getElementById("mobile_home");
+    if (mobileHomeEl) {
+        mobileHomeEl.innerText = home_str;
+    } else {
+        console.warn('元素 #mobile_home 不存在');
+    }
     document.getElementById("menu_index_select1").href=indexHref
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
