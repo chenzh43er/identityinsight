@@ -20,7 +20,6 @@
             crossorigin="anonymous"></script>
     <!--  <script src="../testname/js/googlePath.js"></script>-->
 
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript"></script>
 
     <script src="../testname/js/google_adv.js"></script>
     <script src="../testname/js/common.js"></script>
@@ -284,7 +283,7 @@
 
 </head>
 
-<body>
+<body id="mainBody" style="display: none">
 <div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
      data-elementor-post-type="elementor_library">
     <section
@@ -1002,6 +1001,8 @@
             //(adsbygoogle = window.adsbygoogle || []).push({});
         }
 
+        document.getElementById("mainBody").style.display="block"
+
         document.getElementById('indexadv_1').innerHTML= returnAdvWord();
         // 获取唯一元素
         const indexadv_1 = document.getElementById('indexadv_1')
@@ -1339,8 +1340,9 @@
 
 </script>
 
-<script src="../testname/js/footJs.js"></script>
-<script src="headerJs.js"></script>
+<script src="../testname/js/footJs.js" async></script>
+<script src="headerJs.js" async></script>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript" async></script>
 
 <script>
     const toggle = document.getElementById('menuToggle');
