@@ -26,6 +26,16 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
+            "pic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "title": "🐍 Welcher dunkle Zauberer aus Harry Potter steckt in dir?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+            "pic": "./testname/img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "title": "Welches magische Artefakt würde dich wählen?"
+        },
+        {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
         "pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
         "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"
@@ -76,6 +86,16 @@ const utm_campaignData = {
         }
     ],
     "hog_rc":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
+            "pic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "title": "🐍 Welcher dunkle Zauberer aus Harry Potter steckt in dir?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+            "pic": "./testname/img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "title": "Welches magische Artefakt würde dich wählen?"
+        },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10037",
             "pic": "./testname/img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
