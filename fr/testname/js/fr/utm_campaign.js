@@ -26,6 +26,16 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
+            "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "title": "Quel méchant de Harry Potter sommeille en toi ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+            "pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "title": "Quel artefact magique te choisirait ?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
             "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
             "title": "Quelle Maison de Poudlard Vous Convient le Mieux?"
@@ -85,6 +95,16 @@ const utm_campaignData = {
         }
         ],
         "hog_rc":[
+            {
+                "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
+                "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+                "title": "Quel méchant de Harry Potter sommeille en toi ?"
+            },
+            {
+                "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+                "pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+                "title": "Quel artefact magique te choisirait ?"
+            },
                 {
                     "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10030",
                     "pic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
