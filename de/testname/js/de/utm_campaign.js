@@ -26,6 +26,11 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+            "pic": "./testname/img/de_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+            "title": "Würdest du die dunklen Künste meistern?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
             "pic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
             "title": "🐍 Welcher dunkle Zauberer aus Harry Potter steckt in dir?"
@@ -36,9 +41,9 @@ const utm_campaignData = {
             "title": "Welches magische Artefakt würde dich wählen?"
         },
         {
-        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
-        "pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
-        "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
+            "pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+            "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10036",
@@ -86,6 +91,11 @@ const utm_campaignData = {
         }
     ],
     "hog_rc":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+            "pic": "./testname/img/de_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+            "title": "Würdest du die dunklen Künste meistern?"
+        },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
             "pic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
