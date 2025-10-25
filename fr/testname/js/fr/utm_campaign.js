@@ -26,6 +26,11 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+            "pic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+            "title": "Maîtriserais-tu les Forces du Mal ?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
             "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
             "title": "Quel méchant de Harry Potter sommeille en toi ?"
@@ -94,7 +99,12 @@ const utm_campaignData = {
             "title": "Quel personnage principal de Harry Potter êtes-vous ?"
         }
         ],
-        "hog_rc":[
+    "hog_rc":[
+            {
+                "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+                "pic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+                "title": "Maîtriserais-tu les Forces du Mal ?"
+            },
             {
                 "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
                 "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
