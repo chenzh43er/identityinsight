@@ -26,6 +26,16 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./testname/img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
             "pic": "./testname/img/de_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
             "title": "Würdest du die dunklen Künste meistern?"
@@ -91,6 +101,16 @@ const utm_campaignData = {
         }
     ],
     "hog_rc":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./testname/img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
+        },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
             "pic": "./testname/img/de_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
