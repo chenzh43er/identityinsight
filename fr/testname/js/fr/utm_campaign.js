@@ -26,6 +26,16 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Quel animal magique de Harry Potter serait ton compagnon ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "⚡ Quel compétiteur magique serais-tu à Poudlard ?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
             "pic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
             "title": "Maîtriserais-tu les Forces du Mal ?"
@@ -100,6 +110,16 @@ const utm_campaignData = {
         }
         ],
     "hog_rc":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Quel animal magique de Harry Potter serait ton compagnon ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "⚡ Quel compétiteur magique serais-tu à Poudlard ?"
+        },
             {
                 "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
                 "pic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
