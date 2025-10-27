@@ -1680,6 +1680,10 @@
                     let utm_campaign = getQueryParam("campaign");
                     let testData = utm_campaignData[utm_campaign] || 0
 
+                    if(utm_campaign === "hog"){
+                        testData = utm_campaignData["hog_mt"] || 0
+                    }
+
                     if (testData.length > 0) {
                         document.querySelector('.tested').innerHTML = renderHomeData(testData);
                     } else {
