@@ -1,34 +1,34 @@
 const results = {
     1: {
-        "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?",
-        "resultTitle": "🔮 La Magie de la Lumière",
-        "description": `Ton âme brille d’un éclat pur — tu apportes l’espoir là où règne l’obscurité.
-Ton cœur est noble, ta force réside dans ta foi en la bonté.
+        "title": "Welche verborgene Seite deiner Magie würde Hogwarts enthüllen?",
+        "resultTitle": "Die Magie des Lichts",
+        "description": `TDeine Seele leuchtet hell – du bringst Hoffnung, wo Dunkelheit herrscht.  
+ Dein Herz ist rein, deine Stärke liegt in deinem Glauben an das Gute.
 `,
-        "mainPic": "./testname/img/de_img/23_0f4782db-48fb-422f-b99e-b6da8526c12d.png"
+        "mainPic": "./testname/img/fr_img/23_0f4782db-48fb-422f-b99e-b6da8526c12d.png"
     },
     2: {
-        "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?",
-        "resultTitle": "🌑 La Magie de l’Ombre",
-        "description": `Tu es profond(e) et mystérieux(se) — tu comprends les ténèbres sans t’y perdre.
-Tu sais que le véritable équilibre naît de la coexistence entre lumière et ombre.
+        "title": "Welche verborgene Seite deiner Magie würde Hogwarts enthüllen?",
+        "resultTitle": "Die Magie der Schatten ",
+        "description": `Du bist tiefgründig und geheimnisvoll – du verstehst die Dunkelheit, ohne ihr zu verfallen.    
+Du erkennst, dass wahre Balance aus Licht und Schatten besteht. 
 `,
-        "mainPic": "./testname/img/de_img/22_0654042d-fb5b-4e56-ac30-3ac7ad5da64c.jpeg"
+        "mainPic": "./testname/img/fr_img/22_0654042d-fb5b-4e56-ac30-3ac7ad5da64c.jpeg"
     },
     3: {
-        "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?",
-        "resultTitle": "⚖️ La Magie de l’Équilibre",
-        "description": `Tu n’es ni héros ni méchant — tu es le médiateur entre les deux.
-Ta plus grande force est d’accepter les deux faces de la magie.
+        "title": "Welche verborgene Seite deiner Magie würde Hogwarts enthüllen?",
+        "resultTitle": "Die Magie des Gleichgewichts",
+        "description": `Du bist weder Held noch Bösewicht – du bist der Vermittler.  
+Deine Stärke liegt in deiner Fähigkeit, beides zu akzeptieren.  
 `,
-        "mainPic": "./testname/img/de_img/21_51fa9006-50b7-4383-af30-2efd099a9b07.jpeg"
+        "mainPic": "./testname/img/fr_img/21_51fa9006-50b7-4383-af30-2efd099a9b07.jpeg"
     },
     4: {
-        "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?",
-        "resultTitle": "🔥 La Magie du Feu",
-        "description": `Tu es passion pure. Quand tu crois en quelque chose, tu te bats jusqu’au bout.
-Ton feu intérieur inspire les autres — tu es une force impossible à arrêter.
+        "title": "Welche verborgene Seite deiner Magie würde Hogwarts enthüllen?",
+        "resultTitle": "Die Magie des Feuers ",
+        "description": `Du bist Leidenschaft pur. Wenn du glaubst, kämpfst du – bis zum Ende.    
+ Dein Wille entzündet andere – du bist eine unaufhaltsame Kraft.  
 `,
-        "mainPic": "./testname/img/de_img/20_2eae0eef-bbb0-4c89-9900-07c71b72e001.jpeg"
+        "mainPic": "./testname/img/fr_img/20_2eae0eef-bbb0-4c89-9900-07c71b72e001.jpeg"
     },
 };
