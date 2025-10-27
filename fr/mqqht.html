@@ -2247,19 +2247,22 @@
         $(document).ready(function () {
             document.getElementById("top_adv_public").innerHTML = returnAdvWord();
             const TestAdv_1Top = document.getElementById('top_adv_public')
-            if (TestAdv_1Top) {
-                const observer = new IntersectionObserver((entries, obs) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            loadTestAdv_1(entry.target);
-                            obs.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    rootMargin: '5px',
-                });
-                observer.observe(TestAdv_1Top);
-            }
+            loadTestAdv_1(TestAdv_1Top);
+
+
+            // if (TestAdv_1Top) {
+            //     const observer = new IntersectionObserver((entries, obs) => {
+            //         entries.forEach(entry => {
+            //             if (entry.isIntersecting) {
+            //                 loadTestAdv_1(entry.target);
+            //                 obs.unobserve(entry.target);
+            //             }
+            //         });
+            //     }, {
+            //         rootMargin: '5px',
+            //     });
+            //     observer.observe(TestAdv_1Top);
+            // }
         });
     </script>
 
