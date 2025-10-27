@@ -149,48 +149,25 @@ const dataPage = {
 		}],
 	"harryRecent":[
 		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
-			"pic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
-			"title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
-			"pic": "./testname/img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
-			"title": "Que te montrerait le Miroir du Riséd ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-			"pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
-			"title": "Quel animal magique de Harry Potter serait ton compagnon ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-			"pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
-			"title": "⚡ Quel compétiteur magique serais-tu à Poudlard ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
-			"pic": "./testname/img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
-			"title": "Dans Quel Univers Devriez-Vous Vivre?"
-		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10042",
 			"pic": "./testname/img/fr_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
 			"title": "À quel professeur de Poudlard ressembles-tu le plus ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10043",
-			"pic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
-			"title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?"
-		},
-		{
+		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
 			"pic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
 			"title": "Quel est ton vrai talent magique à Poudlard ?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
-			"pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
-			"title": "Quel Élève de Poudlard Es-tu en Amour ?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+			"pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+			"title": "Quel animal magique de Harry Potter serait ton compagnon ?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+			"pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+			"title": "Quel artefact magique te choisirait ?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+			"pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+			"title": "⚡ Quel compétiteur magique serais-tu à Poudlard ?"
 		}
 	]
 }
