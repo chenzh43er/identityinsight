@@ -149,6 +149,16 @@ const dataPage = {
 		}],
 	"harryRecent":[
 		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
+			"pic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+			"title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
+			"pic": "./testname/img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
+			"title": "Que te montrerait le Miroir du Riséd ?"
+		},
+		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
 			"pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
 			"title": "Quel animal magique de Harry Potter serait ton compagnon ?"
