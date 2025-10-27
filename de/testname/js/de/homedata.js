@@ -177,23 +177,23 @@ const dataPage = {
 	"harryRecent":[
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-			"pic": "./img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+			"pic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
 			"title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10037",
-			"pic": "./img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+			"pic": "./testname/img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
 			"title": "Welchem Hogwarts-Professor ähneln Sie am meisten?"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
-			"pic": "./img/de_img/2025-10-15_204806_876.jpg",
+			"pic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
 			"title": "Welches magische Talent steckt wirklich in dir in Hogwarts?"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-			"pic": "./img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+			"pic": "./testname/img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
 			"title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
-			"pic": "./img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+			"pic": "./testname/img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
 			"title": "Welches magische Artefakt würde dich wählen?"
 		}
 	]

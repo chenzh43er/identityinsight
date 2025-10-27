@@ -136,66 +136,66 @@ const utm_campaignData = {
     "hog_rc":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-            "pic": "./img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "pic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
             "title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10037",
-            "pic": "./img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+            "pic": "./testname/img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
             "title": "Welchem Hogwarts-Professor ähneln Sie am meisten?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-            "pic": "./img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+            "pic": "./testname/img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
             "title": "Welcher Roblox-Avatar Passt zu Deinem Vibe?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
-            "pic": "./img/de_img/2025-10-15_204806_876.jpg",
+            "pic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
             "title": "Welches magische Talent steckt wirklich in dir in Hogwarts?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-            "pic": "./img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "pic": "./testname/img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
             "title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
-            "pic": "./img/de_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+            "pic": "./testname/img/de_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
             "title": "Wie ist Ihr Fußballniveau bei VRFS?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
-            "pic": "./img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "pic": "./testname/img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
             "title": "Welches magische Artefakt würde dich wählen?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10002",
-            "pic": "./img/de_img/116f2e28b5a03d216f9f3f60daa1ad1c.gif",
+            "pic": "./testname/img/de_img/116f2e28b5a03d216f9f3f60daa1ad1c.gif",
             "title": "Welcher Seite vom Squid Game gehörst du an?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10007",
-            "pic": "./img/de_img/66a5879abbf10d20d7451007ffc7ec2c.gif",
+            "pic": "./testname/img/de_img/66a5879abbf10d20d7451007ffc7ec2c.gif",
             "title": "Finden Sie heraus, welches Toca Life-Haus Ihren einzigartigen Lebensstil widerspiegelt!"
         }
     ],
     "hog_mt":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10035",
-            "pic": "./img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+            "pic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
             "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
-            "pic": "./img/de_img/dA4hK0aA4vA0.jpg",
+            "pic": "./testname/img/de_img/dA4hK0aA4vA0.jpg",
             "title": "Welcher Hogwarts-Schüler bist du in der Liebe?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
-            "pic": "./img/de_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+            "pic": "./testname/img/de_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
             "title": "Welcher Hauptcharakter aus Harry Potter bist du?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10040",
-            "pic": "./img/de_img/334c6206304c2b879070f3e04145e218.gif",
+            "pic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
             "title": "Wie gut kennst du Harry Potter?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
-            "pic": "./img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "pic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
             "title": "🐍 Welcher dunkle Zauberer aus Harry Potter steckt in dir?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-            "pic": "./img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+            "pic": "./testname/img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
             "title": "Welcher Roblox-Avatar Passt zu Deinem Vibe?"
         }
     ]
