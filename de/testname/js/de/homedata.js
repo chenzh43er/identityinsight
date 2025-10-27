@@ -176,47 +176,25 @@ const dataPage = {
 	],
 	"harryRecent":[
 		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
-			"pic": "./testname/img/de_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
-			"title": "Welche verborgene Seite deiner Magie würde Hogwarts enthüllen?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
-			"pic": "./testname/img/de_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
-			"title": "Was würde der Spiegel Nerhegeb dir zeigen?"
-		},
-		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-			"pic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+			"pic": "./img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
 			"title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-			"pic": "./testname/img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
-			"title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
-		},
-		{
-		"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10039",
-		"pic": "./testname/img/de_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
-		"title": "Zu welchem Hogwarts-Haus gehörst du wirklich?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10040",
-			"pic": "./testname/img/de_img/334c6206304c2b879070f3e04145e218.gif",
-			"title": "Wie gut kennst du Harry Potter?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10041",
-			"pic": "./testname/img/de_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
-			"title": "In Welchem Universum Sollten Sie Leben?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10037",
+			"pic": "./img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+			"title": "Welchem Hogwarts-Professor ähneln Sie am meisten?"
 		},{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
-			"pic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
+			"pic": "./img/de_img/2025-10-15_204806_876.jpg",
 			"title": "Welches magische Talent steckt wirklich in dir in Hogwarts?"
-		},
-		{
-			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
-			"pic": "./testname/img/de_img/dA4hK0aA4vA0.jpg",
-			"title": "Welcher Hogwarts-Schüler bist du in der Liebe?"
-		}]
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+			"pic": "./img/de_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+			"title": "Welcher magische Wettkämpfer wärst du in Hogwarts?"
+		},{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+			"pic": "./img/de_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+			"title": "Welches magische Artefakt würde dich wählen?"
+		}
+	]
 }
