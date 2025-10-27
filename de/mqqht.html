@@ -410,7 +410,7 @@
     <!-- End Google Tag Manager (noscript) -->
 </head>
 
-<body>
+<body id="mainBody" style="display: none">
 <div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
      data-elementor-post-type="elementor_library">
     <section
@@ -1275,6 +1275,8 @@
                 loadTestAdv_1(TestAdv_1Top);
 
                 initializePage();
+
+                document.getElementById("mainBody").style.display = "block"
             });
         }
     </script>
