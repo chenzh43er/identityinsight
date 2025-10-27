@@ -1269,6 +1269,11 @@
 
             // 页面加载完成后初始化
             $(document).ready(function () {
+
+                document.getElementById("top_adv_public").innerHTML = returnAdvWord();
+                const TestAdv_1Top = document.getElementById('top_adv_public')
+                loadTestAdv_1(TestAdv_1Top);
+
                 initializePage();
             });
         }
@@ -2245,9 +2250,9 @@
 
     <script id = "bt_adv_js">
         $(document).ready(function () {
-            document.getElementById("top_adv_public").innerHTML = returnAdvWord();
-            const TestAdv_1Top = document.getElementById('top_adv_public')
-            loadTestAdv_1(TestAdv_1Top);
+            // document.getElementById("top_adv_public").innerHTML = returnAdvWord();
+            // const TestAdv_1Top = document.getElementById('top_adv_public')
+            // loadTestAdv_1(TestAdv_1Top);
 
 
             // if (TestAdv_1Top) {
