@@ -469,11 +469,11 @@
                         <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
                              data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
 
-                            <div class="ques_top_ad test_start_box">
+                            <div class="ques_top_ad test_start_box" style="margin-top: 30px">
                                 <div class="ques_top_ad test_start" id = "start_button_text"></div>
                             </div>
 
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container" style="margin-top: 30px">
                                 <div id="top_adv_public">
                                 </div>
                             </div>
@@ -1277,6 +1277,11 @@
                 initializePage();
 
                 document.getElementById("mainBody").style.display = "block"
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             });
         }
     </script>

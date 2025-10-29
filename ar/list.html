@@ -101,6 +101,10 @@
       .youMayLike >a {
         width: 100%
       }
+
+      .mid_adv {
+        margin-top: 30px;
+      }
     }
 
     @media screen and (max-width: 450px) {
@@ -1215,6 +1219,10 @@
 
       }, 300);
 
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
 
     function loadListAdv_1(el) {
@@ -1372,6 +1380,11 @@
         }
         //window.location.href = `./index.html?page=` + page;
         window.location.href = "#"
+      });
+
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
     }
 
