@@ -1274,9 +1274,25 @@
                 }
             }
 
+            // 锁定滚动函数
+            function lockScroll() {
+                document.body.style.overflow = 'hidden';
+                window.scrollTo(0, 0);
+                // status.textContent = '当前状态：页面滚动已锁定';
+                // status.className = 'status locked';
+                // scrollIndicator.style.display = 'none';
+            }
 
-            // 页面加载完成后初始化
-            $(document).ready(function () {
+            // 解锁滚动函数
+            function unlockScroll() {
+                document.body.style.overflow = 'auto';
+                // status.textContent = '当前状态：页面滚动已解锁';
+                // status.className = 'status unlocked';
+                // scrollIndicator.style.display = 'flex';
+            }
+
+            async function initFunctionForPage(){
+                lockScroll()
 
                 document.getElementById("top_adv_public").innerHTML = returnAdvWord();
                 const TestAdv_1Top = document.getElementById('top_adv_public')
@@ -1290,6 +1306,19 @@
                     top: 0,
                     behavior: 'smooth'
                 });
+
+                await wait(1200);
+
+                unlockScroll()
+            }
+
+            function wait(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+
+            // 页面加载完成后初始化
+            $(document).ready(function () {
+                initFunctionForPage()
             });
         }
     </script>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面滚动锁定演示</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: #fff;
+      line-height: 1.6;
+      min-height: 200vh; /* 确保页面足够长可以滚动 */
+      transition: all 0.3s ease;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      color: #ffcc00;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 40px 0;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 600;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #lockBtn {
+      background: #ff4757;
+      color: white;
+    }
+
+    #unlockBtn {
+      background: #2ed573;
+      color: white;
+    }
+
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    .status {
+      text-align: center;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 15px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      background: rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .locked {
+      background: rgba(255, 71, 87, 0.3);
+      color: #ffcccc;
+    }
+
+    .unlocked {
+      background: rgba(46, 213, 115, 0.3);
+      color: #ccffd9;
+    }
+
+    .scroll-indicator {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .scroll-indicator i {
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-5px);
+      }
+      60% {
+        transform: translateY(-3px);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>页面滚动锁定演示</h1>
+    <p class="subtitle">本页面展示了如何使用JavaScript锁定用户行为，防止页面下拉或滚动。点击下方按钮体验效果。</p>
+  </header>
+
+  <div class="content">
+    <div class="card">
+      <h2>技术实现</h2>
+      <p>通过JavaScript动态控制CSS的<code>overflow</code>属性，设置为<code>hidden</code>来禁用页面滚动。</p>
+      <p>同时，我们使用<code>scrollTo(0, 0)</code>方法将页面重置到顶部，确保用户无法通过其他方式滚动页面。</p>
+    </div>
+
+    <div class="card">
+      <h2>应用场景</h2>
+      <ul>
+        <li>全屏模态框或弹窗</li>
+        <li>游戏界面</li>
+        <li>幻灯片演示</li>
+        <li>需要固定视口的特殊页面</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="lockBtn">锁定页面滚动</button>
+    <button id="unlockBtn">解锁页面滚动</button>
+  </div>
+
+  <div class="status unlocked" id="status">
+    当前状态：页面滚动已解锁
+  </div>
+
+  <div class="content">
+    <div class="card">
+      <h2>实现代码</h2>
+      <pre><code>// 锁定滚动
+function lockScroll() {
+    document.body.style.overflow = 'hidden';
+    window.scrollTo(0, 0);
+    document.getElementById('status').textContent = '当前状态：页面滚动已锁定';
+    document.getElementById('status').className = 'status locked';
+}
+
+// 解锁滚动
+function unlockScroll() {
+    document.body.style.overflow = 'auto';
+    document.getElementById('status').textContent = '当前状态：页面滚动已解锁';
+    document.getElementById('status').className = 'status unlocked';
+}</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>注意事项</h2>
+      <p>锁定页面滚动可能会影响用户体验，请谨慎使用。</p>
+      <p>在移动设备上，可能需要额外处理触摸事件以防止滚动。</p>
+      <p>确保提供明显的解锁方式，避免用户被困在锁定状态。</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>尝试向下滚动页面，然后点击"锁定页面滚动"按钮体验效果</p>
+  </footer>
+</div>
+
+<div class="scroll-indicator" id="scrollIndicator">
+  <i>⬇️</i> 尝试向下滚动
+</div>
+
+<script>
+  // 获取DOM元素
+  const lockBtn = document.getElementById('lockBtn');
+  const unlockBtn = document.getElementById('unlockBtn');
+  const status = document.getElementById('status');
+  const scrollIndicator = document.getElementById('scrollIndicator');
+
+  // 锁定滚动函数
+  function lockScroll() {
+    document.body.style.overflow = 'hidden';
+    window.scrollTo(0, 0);
+    status.textContent = '当前状态：页面滚动已锁定';
+    status.className = 'status locked';
+    scrollIndicator.style.display = 'none';
+  }
+
+  // 解锁滚动函数
+  function unlockScroll() {
+    document.body.style.overflow = 'auto';
+    status.textContent = '当前状态：页面滚动已解锁';
+    status.className = 'status unlocked';
+    scrollIndicator.style.display = 'flex';
+  }
+
+  // 添加事件监听器
+  lockBtn.addEventListener('click', lockScroll);
+  unlockBtn.addEventListener('click', unlockScroll);
+
+  // 初始状态
+  unlockScroll();
+</script>
+</body>
+</html>
