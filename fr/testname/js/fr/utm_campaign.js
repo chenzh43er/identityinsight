@@ -26,6 +26,36 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10054",
+            "pic": "./testname/img/fr_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
+            "title": "À quel point te débrouillerais-tu à Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
+            "pic": "./testname/img/fr_img/14_40347a53-a2ef-4732-a960-6cc5fe059d53.jpeg",
+            "title": "Quelle matière secrète serais-tu spécialisé(e) à Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
+            "pic": "./testname/img/fr_img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
+            "title": "Combien de Slytherin y a-t-il en toi ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10057",
+            "pic": "./testname/img/fr_img/40_285b2557-54ce-4e42-b680-59a15e290d72.png",
+            "title": "Comment navigues-tu à travers les défis de Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10058",
+            "pic": "./testname/img/fr_img/53_f131ad1e-1b01-4705-8c7b-4b71c35d3fc2.jpeg",
+            "title": "Quelle position de Quidditch te correspond le mieux ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
+            "pic": "./testname/img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
+            "title": "Quelle matière de Poudlard serait ta préférée ?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
             "pic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
             "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?"
