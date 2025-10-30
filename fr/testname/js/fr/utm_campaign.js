@@ -174,42 +174,38 @@ const utm_campaignData = {
     ],
     "hog_rc":[
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
-            "pic": "./testname/img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
-            "title": "Dans Quel Univers Devriez-Vous Vivre?"
-        },{
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10000",
-            "pic": "./testname/img/fr_img/d2c033f7aefc629af9c027adb29f4535.gif",
-            "title": "Je suis un chat VR : Trouvez la vraie personnalité de votre chat avec ce quiz. "
-        },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10044",
-            "pic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+            "pic": "./img/fr_img/2025-10-15_204806_876.jpg",
             "title": "Quel est ton vrai talent magique à Poudlard ?"
         },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-            "pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "pic": "./img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
             "title": "Quel animal magique de Harry Potter serait ton compagnon ?"
         },{
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10024",
-            "pic": "./testname/img/fr_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
-            "title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?"
-        },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
-            "pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "pic": "./img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
             "title": "Quel artefact magique te choisirait ?"
         },{
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10002",
-            "pic": "./testname/img/fr_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
-            "title": "Quel Avatar Roblox Correspond à Votre Vibe? "
-        },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-            "pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "pic": "./img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
             "title": "⚡ Quel compétiteur magique serais-tu à Poudlard ?"
         },{
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10034",
+            "pic": "./img/fr_img/abea28a8a67f17b886c24b8ab4f5c0c9.gif",
+            "title": "Dans Quel Univers Devriez-Vous Vivre?"
+        },{
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10000",
+            "pic": "https://identityinsight.org/testCommon4/img/fr_img/d2c033f7aefc629af9c027adb29f4535.gif",
+            "title": "Je suis un chat VR : Trouvez la vraie personnalité de votre chat avec ce quiz. "
+        },{
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10002",
+            "pic": "https://identityinsight.org/testCommon4/img/fr_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+            "title": "Quel Avatar Roblox Correspond à Votre Vibe? "
+        },{
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10001",
-            "pic": "./testname/img/fr_img/56cfbae04399d0b19e2c8155c7071300.gif",
+            "pic": "https://identityinsight.org/testCommon4/img/fr_img/56cfbae04399d0b19e2c8155c7071300.gif",
             "title": "Quelle Œuvre d'Art de Transformation de Elsa ou Anna de La Reine des Neiges Correspond à Votre Véritable Beauté Intérieure? "
-        }
+        },
         ],
     "hog_mt":[
         {
