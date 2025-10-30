@@ -1195,7 +1195,30 @@
         return paramObj;
     }
 
-    function initFunctionForPage(){
+    function wait(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    // 锁定滚动函数
+    function lockScroll() {
+        document.body.style.overflow = 'hidden';
+        window.scrollTo(0, 0);
+        //status.textContent = '当前状态：页面滚动已锁定';
+        //status.className = 'status locked';
+        //scrollIndicator.style.display = 'none';
+    }
+
+    // 解锁滚动函数
+    function unlockScroll() {
+        document.body.style.overflow = 'auto';
+        //status.textContent = '当前状态：页面滚动已解锁';
+        //status.className = 'status unlocked';
+        //scrollIndicator.style.display = 'flex';
+    }
+
+    async function initFunctionForPage(){
+        lockScroll()
+
         initTitleIndex();
         initHomeData();
 
@@ -1209,6 +1232,10 @@
             //window.location.href = `../index.html?page=` + page;
             window.location.href = "#"
         });
+
+        await wait(1500);
+
+        unlockScroll();
     }
 
 
