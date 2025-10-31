@@ -1,287 +1,209 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>页面滚动锁定演示</title>
+  <title>生成测验 JSON</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
     body {
-      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      color: #fff;
-      line-height: 1.6;
-      min-height: 200vh; /* 确保页面足够长可以滚动 */
-      transition: all 0.3s ease;
+      font-family: Arial, sans-serif;
+      margin: 20px;
     }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 0;
-      background: rgba(0, 0, 0, 0.2);
-      border-radius: 15px;
-      margin-bottom: 40px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    }
-
-    h1 {
-      font-size: 2.8rem;
+    .question, .answer {
       margin-bottom: 15px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-
-    .subtitle {
-      font-size: 1.2rem;
-      opacity: 0.9;
-      max-width: 700px;
-      margin: 0 auto;
+    .answer input {
+      margin-left: 10px;
     }
-
-    .content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      margin-bottom: 40px;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      padding: 25px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
-    }
-
-    .card h2 {
-      margin-bottom: 15px;
-      font-size: 1.5rem;
-      color: #ffcc00;
-    }
-
-    .controls {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin: 40px 0;
-    }
-
-    button {
-      padding: 14px 30px;
-      font-size: 1.1rem;
-      border: none;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      font-weight: 600;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #lockBtn {
-      background: #ff4757;
-      color: white;
-    }
-
-    #unlockBtn {
-      background: #2ed573;
-      color: white;
-    }
-
-    button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    button:active {
-      transform: translateY(1px);
-    }
-
-    .status {
-      text-align: center;
-      padding: 20px;
-      margin: 30px 0;
-      border-radius: 15px;
-      font-size: 1.3rem;
-      font-weight: 600;
-      background: rgba(0, 0, 0, 0.2);
-      transition: all 0.3s ease;
-    }
-
-    .locked {
-      background: rgba(255, 71, 87, 0.3);
-      color: #ffcccc;
-    }
-
-    .unlocked {
-      background: rgba(46, 213, 115, 0.3);
-      color: #ccffd9;
-    }
-
-    .scroll-indicator {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: rgba(0, 0, 0, 0.5);
-      color: white;
-      padding: 10px 15px;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .scroll-indicator i {
-      animation: bounce 2s infinite;
-    }
-
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-      }
-      40% {
-        transform: translateY(-5px);
-      }
-      60% {
-        transform: translateY(-3px);
-      }
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      margin-top: 50px;
-      background: rgba(0, 0, 0, 0.2);
-      border-radius: 15px;
-    }
-
-    @media (max-width: 768px) {
-      .content {
-        grid-template-columns: 1fr;
-      }
-
-      h1 {
-        font-size: 2.2rem;
-      }
+    .upload-preview {
+      margin-top: 10px;
+      max-width: 300px;
+      max-height: 300px;
     }
   </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>页面滚动锁定演示</h1>
-    <p class="subtitle">本页面展示了如何使用JavaScript锁定用户行为，防止页面下拉或滚动。点击下方按钮体验效果。</p>
-  </header>
+<h1>生成测验 JSON</h1>
+<form id="quizForm" enctype="multipart/form-data">
+  <label for="title">标题: </label>
+  <input type="text" id="title" name="title" placeholder="请输入测验标题"><br><br>
 
-  <div class="content">
-    <div class="card">
-      <h2>技术实现</h2>
-      <p>通过JavaScript动态控制CSS的<code>overflow</code>属性，设置为<code>hidden</code>来禁用页面滚动。</p>
-      <p>同时，我们使用<code>scrollTo(0, 0)</code>方法将页面重置到顶部，确保用户无法通过其他方式滚动页面。</p>
-    </div>
+  <label for="mainPic">封面图片 (上传图片): </label>
+  <input type="file" id="mainPic" name="mainPic" accept="image/*"><br><br>
+  <img id="mainPicPreview" class="upload-preview" src="" alt="封面图片预览"><br><br>
 
-    <div class="card">
-      <h2>应用场景</h2>
-      <ul>
-        <li>全屏模态框或弹窗</li>
-        <li>游戏界面</li>
-        <li>幻灯片演示</li>
-        <li>需要固定视口的特殊页面</li>
-      </ul>
-    </div>
-  </div>
+  <label for="thems">标签 (用逗号分隔): </label>
+  <input type="text" id="thems" name="thems" placeholder="请输入标签"><br><br>
 
-  <div class="controls">
-    <button id="lockBtn">锁定页面滚动</button>
-    <button id="unlockBtn">解锁页面滚动</button>
-  </div>
+  <div id="questionsContainer">
+    <div class="question" id="question_1">
+      <h3>问题 1</h3>
+      <label for="questionText_1">问题内容: </label>
+      <input type="text" id="questionText_1" placeholder="请输入问题内容"><br><br>
 
-  <div class="status unlocked" id="status">
-    当前状态：页面滚动已解锁
-  </div>
+      <label for="questionPic_1">问题图片 (上传图片): </label>
+      <input type="file" id="questionPic_1" name="questionPic_1" accept="image/*"><br><br>
+      <img id="questionPicPreview_1" class="upload-preview" src="" alt="问题图片预览"><br><br>
 
-  <div class="content">
-    <div class="card">
-      <h2>实现代码</h2>
-      <pre><code>// 锁定滚动
-function lockScroll() {
-    document.body.style.overflow = 'hidden';
-    window.scrollTo(0, 0);
-    document.getElementById('status').textContent = '当前状态：页面滚动已锁定';
-    document.getElementById('status').className = 'status locked';
-}
-
-// 解锁滚动
-function unlockScroll() {
-    document.body.style.overflow = 'auto';
-    document.getElementById('status').textContent = '当前状态：页面滚动已解锁';
-    document.getElementById('status').className = 'status unlocked';
-}</code></pre>
-    </div>
-
-    <div class="card">
-      <h2>注意事项</h2>
-      <p>锁定页面滚动可能会影响用户体验，请谨慎使用。</p>
-      <p>在移动设备上，可能需要额外处理触摸事件以防止滚动。</p>
-      <p>确保提供明显的解锁方式，避免用户被困在锁定状态。</p>
+      <div class="answer">
+        <label for="answer1_1">答案 1: </label>
+        <input type="text" id="answer1_1" placeholder="请输入答案 1"><br><br>
+        <label for="answer2_1">答案 2: </label>
+        <input type="text" id="answer2_1" placeholder="请输入答案 2"><br><br>
+        <label for="answer3_1">答案 3: </label>
+        <input type="text" id="answer3_1" placeholder="请输入答案 3"><br><br>
+        <label for="answer4_1">答案 4: </label>
+        <input type="text" id="answer4_1" placeholder="请输入答案 4"><br><br>
+      </div>
     </div>
   </div>
+  <button type="button" onclick="addQuestion()">添加问题</button><br><br>
+  <button type="submit">生成 JSON</button>
+</form>
 
-  <footer>
-    <p>尝试向下滚动页面，然后点击"锁定页面滚动"按钮体验效果</p>
-  </footer>
-</div>
-
-<div class="scroll-indicator" id="scrollIndicator">
-  <i>⬇️</i> 尝试向下滚动
-</div>
+<h2>生成的 JSON:</h2>
+<pre id="jsonOutput"></pre>
 
 <script>
-  // 获取DOM元素
-  const lockBtn = document.getElementById('lockBtn');
-  const unlockBtn = document.getElementById('unlockBtn');
-  const status = document.getElementById('status');
-  const scrollIndicator = document.getElementById('scrollIndicator');
+  let questionCount = 1;
+  let quizData = {
+    title: '',
+    mainPic: '',
+    thems: [],
+    questions: [],
+    toAnswer: 10059
+  };
 
-  // 锁定滚动函数
-  function lockScroll() {
-    document.body.style.overflow = 'hidden';
-    window.scrollTo(0, 0);
-    status.textContent = '当前状态：页面滚动已锁定';
-    status.className = 'status locked';
-    scrollIndicator.style.display = 'none';
+  // 处理封面图片上传预览
+  document.getElementById('mainPic').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('mainPicPreview').src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+
+  // 处理问题图片上传预览
+  function handleQuestionPicUpload(event, questionId) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById(`questionPicPreview_${questionId}`).src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
   }
 
-  // 解锁滚动函数
-  function unlockScroll() {
-    document.body.style.overflow = 'auto';
-    status.textContent = '当前状态：页面滚动已解锁';
-    status.className = 'status unlocked';
-    scrollIndicator.style.display = 'flex';
+  function addQuestion() {
+    questionCount++;
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('question');
+    questionDiv.id = `question_${questionCount}`;
+    questionDiv.innerHTML = `
+                <h3>问题 ${questionCount}</h3>
+                <label for="questionText_${questionCount}">问题内容: </label>
+                <input type="text" id="questionText_${questionCount}" placeholder="请输入问题内容"><br><br>
+
+                <label for="questionPic_${questionCount}">问题图片 (上传图片): </label>
+                <input type="file" id="questionPic_${questionCount}" name="questionPic_${questionCount}" accept="image/*"><br><br>
+                <img id="questionPicPreview_${questionCount}" class="upload-preview" src="" alt="问题图片预览"><br><br>
+
+                <div class="answer">
+                    <label for="answer1_${questionCount}">答案 1: </label>
+                    <input type="text" id="answer1_${questionCount}" placeholder="请输入答案 1"><br><br>
+                    <label for="answer2_${questionCount}">答案 2: </label>
+                    <input type="text" id="answer2_${questionCount}" placeholder="请输入答案 2"><br><br>
+                    <label for="answer3_${questionCount}">答案 3: </label>
+                    <input type="text" id="answer3_${questionCount}" placeholder="请输入答案 3"><br><br>
+                    <label for="answer4_${questionCount}">答案 4: </label>
+                    <input type="text" id="answer4_${questionCount}" placeholder="请输入答案 4"><br><br>
+                </div>
+            `;
+    document.getElementById('questionsContainer').appendChild(questionDiv);
+
+    // 为新增问题的图片上传添加事件监听
+    document.getElementById(`questionPic_${questionCount}`).addEventListener('change', function(event) {
+      handleQuestionPicUpload(event, questionCount);
+    });
   }
 
-  // 添加事件监听器
-  lockBtn.addEventListener('click', lockScroll);
-  unlockBtn.addEventListener('click', unlockScroll);
+  document.getElementById('quizForm').addEventListener('submit', function(event) {
+    event.preventDefault();
 
-  // 初始状态
-  unlockScroll();
+    quizData.title = document.getElementById('title').value;
+
+    // 处理封面图片路径
+    const mainPicFile = document.getElementById('mainPic').files[0];
+    if (mainPicFile) {
+      const formData = new FormData();
+      formData.append("file", mainPicFile);
+      // 将文件上传到服务器（假设上传路径为"/upload"）
+      fetch("/upload", {
+        method: "POST",
+        body: formData
+      })
+              .then(response => response.json())
+              .then(data => {
+                quizData.mainPic = data.filePath;  // 假设返回JSON包含filePath字段
+                generateJSON();
+              })
+              .catch(error => {
+                console.error('文件上传失败:', error);
+              });
+    } else {
+      quizData.mainPic = "";
+      generateJSON();
+    }
+
+    quizData.thems = document.getElementById('thems').value.split(',');
+
+    quizData.questions = [];
+    for (let i = 1; i <= questionCount; i++) {
+      let questionObj = {
+        question: document.getElementById(`questionText_${i}`).value,
+        pic: "",
+        answers: []
+      };
+
+      // 处理问题图片路径
+      const questionPicFile = document.getElementById(`questionPic_${i}`).files[0];
+      if (questionPicFile) {
+        const formData = new FormData();
+        formData.append("file", questionPicFile);
+        // 将文件上传到服务器（假设上传路径为"/upload"）
+        fetch("/upload", {
+          method: "POST",
+          body: formData
+        })
+                .then(response => response.json())
+                .then(data => {
+                  questionObj.pic = data.filePath;  // 假设返回JSON包含filePath字段
+                  quizData.questions.push(questionObj);
+                })
+                .catch(error => {
+                  console.error('文件上传失败:', error);
+                });
+      }
+
+      for (let j = 1; j <= 4; j++) {
+        let answerObj = {
+          answer: document.getElementById(`answer${j}_${i}`).value,
+          aPic: "",
+          aId: j
+        };
+        questionObj.answers.push(answerObj);
+      }
+    }
+  });
+
+  function generateJSON() {
+    // 生成并显示JSON
+    document.getElementById('jsonOutput').textContent = JSON.stringify(quizData, null, 2);
+  }
 </script>
 </body>
 </html>
