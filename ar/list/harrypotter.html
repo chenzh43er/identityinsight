@@ -1217,8 +1217,6 @@
     }
 
     async function initFunctionForPage(){
-        lockScroll()
-
         initTitleIndex();
         initHomeData();
 
@@ -1232,10 +1230,6 @@
             //window.location.href = `../index.html?page=` + page;
             window.location.href = "#"
         });
-
-        await wait(1500);
-
-        unlockScroll();
     }
 
 

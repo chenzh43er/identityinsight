@@ -1294,8 +1294,6 @@
             }
 
             async function initFunctionForPage(){
-                lockScroll()
-
                 document.getElementById("top_adv_public").innerHTML = returnAdvWord();
                 const TestAdv_1Top = document.getElementById('top_adv_public')
                 loadTestAdv_1(TestAdv_1Top);
@@ -1308,10 +1306,6 @@
                     top: 0,
                     behavior: 'smooth'
                 });
-
-                await wait(2000);
-
-                unlockScroll()
             }
 
             function wait(ms) {

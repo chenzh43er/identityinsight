@@ -1394,9 +1394,6 @@
     }
 
     async function initFunctionForPage(){
-
-      lockScroll()
-
       initTitleIndex();
       initHomeData();
 
@@ -1415,10 +1412,6 @@
         top: 0,
         behavior: 'smooth'
       });
-
-      await wait(2000);
-
-      unlockScroll();
     }
 
     function wait(ms) {
