@@ -223,7 +223,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            display: none;
+            display: block;
         }
 
         .test_start {
@@ -963,7 +963,7 @@
             </div>
           </div>`
                     const realIndex = index + 1
-                    if (realIndex % 2 == 1  && index != quizData.questions.length - 1) {
+                    if (realIndex % 2 == 1  && index != quizData.questions.length - 1 && realIndex < 6) {
                         questionHTML = questionHTML + `<div class="advtestAdv_2">
                                 ${returnAdvWord()}
                             </div>`
@@ -993,14 +993,16 @@
                 }
 
                 //submit下面的广告
-                const submitButton = `
+                const submitButton =
+                    `<div class="advtest" style="margin-top: 10px" id = "submitDownAdv">
+                                ${returnAdvWord()}
+                            </div>`+
+                    `
           <div id = "thisSubmitButton" class="long_submit_all" style="display: flex; width: 100%;margin:0 auto 0; justify-content: center;line-height: 60px;">
             <div class="longSelectSubmit" style="width:225px;height:60px;font-size:24px;box-sizing:border-box;line-height:60px">`
                     + submitText + `</div>
           </div>
-        `+ `<div class="advtest" style="margin-top: 10px" id = "submitDownAdv">
-                                ${returnAdvWord()}
-                            </div>`;
+        `;
 
                 document.getElementById('longQuizSelect').innerHTML = questionsHtml + submitButton;
 
@@ -2181,21 +2183,21 @@
 
 
 
-                document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
-                const TestAdv_1Bot = document.getElementById('bot_adv_public')
-                if (TestAdv_1Bot) {
-                    const observer = new IntersectionObserver((entries, obs) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                loadTestAdv_1(entry.target);
-                                obs.unobserve(entry.target);
-                            }
-                        });
-                    }, {
-                        rootMargin: '5px',
-                    });
-                    observer.observe(TestAdv_1Bot);
-                }
+                // document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
+                // const TestAdv_1Bot = document.getElementById('bot_adv_public')
+                // if (TestAdv_1Bot) {
+                //     const observer = new IntersectionObserver((entries, obs) => {
+                //         entries.forEach(entry => {
+                //             if (entry.isIntersecting) {
+                //                 loadTestAdv_1(entry.target);
+                //                 obs.unobserve(entry.target);
+                //             }
+                //         });
+                //     }, {
+                //         rootMargin: '5px',
+                //     });
+                //     observer.observe(TestAdv_1Bot);
+                // }
             }
             // 页面加载完成后初始化
 
@@ -2320,8 +2322,6 @@
         toggle.textContent = isOpen ? '×' : '☰'; // ← 用字符切换：汉堡 ↔ X
     });
 </script>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript" async></script>
-
     <script src="./testname/js/footJs.js" async></script>
     <script src="./testname/js/headerJs.js" async></script>
 </body>
