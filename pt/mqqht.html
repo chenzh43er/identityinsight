@@ -487,38 +487,43 @@
                                 <div id="top_adv_public">
                                 </div>
                             </div>
+                            <div class="result-container" style="text-align: center; /* 让文字居中 */">
+                                <img decoding="async"
+                                     src=""
+                                     alt="Avatar World Home" class="result-image" id="resultMainPic">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+                <div id = "display_div1"  style="display: none" class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-c4eaa8a"
+                        data-id="c4eaa8a" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-cd79e6f elementor-widget elementor-widget-html"
+                                data-id="cd79e6f" data-element_type="widget" data-widget_type="html.default">
+                                <div class="elementor-widget-container">
 
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-c4eaa8a"
-                    data-id="c4eaa8a" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-cd79e6f elementor-widget elementor-widget-html"
-                            data-id="cd79e6f" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
 
+                                    <div class="quiz_home-root">
+                                        <div class="quiz_test-container">
+                                            <div class="quiz_test-container-main">
+                                                <div class="quiz_test-container-warp">
+                                                    <div class="quiz_test-question">
+                                                        <div class="question-main" style="box-shadow: none">
+                                                            <div class="question-main-title" id="quizTitle"></div>
 
-                                <div class="quiz_home-root">
-                                    <div class="quiz_test-container">
-                                        <div class="quiz_test-container-main">
-                                            <div class="quiz_test-container-warp">
-                                                <div class="quiz_test-question">
-                                                    <div class="question-main" style="box-shadow: none">
-                                                        <div class="question-main-title" id="quizTitle"></div>
+                                                            <div class="quiz_detial_tags_link" id="quizThemes"></div>
 
-                                                        <div class="quiz_detial_tags_link" id="quizThemes"></div>
+                                                            <div class="question-main-pic">
+                                                                <img id="mainPic"
+                                                                    alt=""
+                                                                    src="#">
+                                                            </div>
 
-                                                        <div class="question-main-pic">
-                                                            <img id="mainPic"
-                                                                alt=""
-                                                                src="#">
-                                                        </div>
-
-                                                        <div class="quiz_detial_content">
-                                                            <div id="longQuizSelect" class="test-container_login">
+                                                            <div class="quiz_detial_content">
+                                                                <div id="longQuizSelect" class="test-container_login">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -526,206 +531,204 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="elementor-element elementor-element-56df4da elementor-widget elementor-widget-html"
-                            data-id="56df4da" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-element elementor-element-56df4da elementor-widget elementor-widget-html"
+                                data-id="56df4da" data-element_type="widget" data-widget_type="html.default">
+                                <div class="elementor-widget-container">
 
-                                <meta charset="UTF-8">
-                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                <title>recommend quizzes</title>
-                                <link rel="stylesheet" href="./testname/css/common.css">
-                                <style>
-                                    .new-quizzes,
-                                    .recommend-quizzes {
-                                        background: #fff;
-                                        padding: 20px 10px;
-                                    }
-
-                                    .new-quizzes-title,
-                                    .recommend-quizzes-title {
-                                        color: #333;
-                                        font-size: 22px;
-                                    }
-
-                                    .recommend-quizzes-title {
-                                        padding-left: 10px;
-                                    }
-
-                                    .recommend-quizzes-item-warp {
-                                        display: -webkit-box;
-                                        display: -webkit-flex;
-                                        display: -ms-flexbox;
-                                        display: flex;
-                                        -webkit-flex-wrap: wrap;
-                                        -moz-flex-wrap: wrap;
-                                        -ms-flex-wrap: wrap;
-                                        -o-flex-wrap: wrap;
-                                        flex-wrap: wrap;
-                                    }
-
-                                    .container-list-item-warp {
-                                        padding: 5px !important;
-                                    }
-
-                                    .recommend-quizzes-item {
-                                        width: calc(50% - 20px);
-                                        padding: 10px;
-                                    }
-
-                                    .new-quizzes-item-img,
-                                    .recommend-quizzes-item-img {
-                                        height: 188px;
-                                        width: 100%;
-                                        border-radius: 5px 5px 0 0;
-                                        overflow: hidden;
-                                    }
-
-                                    .new-quizzes-item-img img,
-                                    .recommend-quizzes-item-img img {
-                                        width: 100%;
-                                        height: 100%;
-                                        border-radius: 5px 5px 0 0;
-                                    }
-
-                                    .new-quizzes-item-desc,
-                                    .recommend-quizzes-item-desc {
-                                        height: 42px;
-                                    }
-
-                                    .new-quizzes-item-desc p,
-                                    .recommend-quizzes-item-desc p {
-                                        overflow: hidden;
-                                        width: 100%;
-                                        height: 100%;
-                                        text-overflow: ellipsis;
-                                        display: -webkit-box;
-                                        -webkit-line-clamp: 2;
-                                        -webkit-box-orient: vertical;
-                                        font-weight: bold;
-                                        text-transform: capitalize;
-                                    }
-
-                                    .recommend .container-list-item {
-                                        width: 50%;
-                                    }
-
-                                    @media screen and (max-width: 768px) {
-                                        .recommend>a {
-                                            width: 100% !important;
+                                    <meta charset="UTF-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    <title>recommend quizzes</title>
+                                    <link rel="stylesheet" href="./testname/css/common.css">
+                                    <style>
+                                        .new-quizzes,
+                                        .recommend-quizzes {
+                                            background: #fff;
+                                            padding: 20px 10px;
                                         }
 
-                                    }
-                                </style>
-                                <div class="recommend-quizzes">
-                                    <h3 class="recommend-quizzes-title">
-                                        <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                                            src="./testname/img/title_ornament_left.png?w=800&amp;ssl=1"
-                                            alt="">
-                                        <span style="text-align: center; font-size: 18px; font-weight: bold;"
-                                            id="titleForRec">Quizs Recommandés</span>
-                                        <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                                            src="./testname/public/img/title_ornament_right.png?w=800&amp;ssl=1"
-                                            alt="">
-                                    </h3>
-                                    <div class="recommend-quizzes-item-warp recommend">
-                                        <div class="container-list-item-warp"
-                                            style="transition-duration: 0.3s; transform: scale(1);">
+                                        .new-quizzes-title,
+                                        .recommend-quizzes-title {
+                                            color: #333;
+                                            font-size: 22px;
+                                        }
+
+                                        .recommend-quizzes-title {
+                                            padding-left: 10px;
+                                        }
+
+                                        .recommend-quizzes-item-warp {
+                                            display: -webkit-box;
+                                            display: -webkit-flex;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-flex-wrap: wrap;
+                                            -moz-flex-wrap: wrap;
+                                            -ms-flex-wrap: wrap;
+                                            -o-flex-wrap: wrap;
+                                            flex-wrap: wrap;
+                                        }
+
+                                        .container-list-item-warp {
+                                            padding: 5px !important;
+                                        }
+
+                                        .recommend-quizzes-item {
+                                            width: calc(50% - 20px);
+                                            padding: 10px;
+                                        }
+
+                                        .new-quizzes-item-img,
+                                        .recommend-quizzes-item-img {
+                                            height: 188px;
+                                            width: 100%;
+                                            border-radius: 5px 5px 0 0;
+                                            overflow: hidden;
+                                        }
+
+                                        .new-quizzes-item-img img,
+                                        .recommend-quizzes-item-img img {
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 5px 5px 0 0;
+                                        }
+
+                                        .new-quizzes-item-desc,
+                                        .recommend-quizzes-item-desc {
+                                            height: 42px;
+                                        }
+
+                                        .new-quizzes-item-desc p,
+                                        .recommend-quizzes-item-desc p {
+                                            overflow: hidden;
+                                            width: 100%;
+                                            height: 100%;
+                                            text-overflow: ellipsis;
+                                            display: -webkit-box;
+                                            -webkit-line-clamp: 2;
+                                            -webkit-box-orient: vertical;
+                                            font-weight: bold;
+                                            text-transform: capitalize;
+                                        }
+
+                                        .recommend .container-list-item {
+                                            width: 50%;
+                                        }
+
+                                        @media screen and (max-width: 768px) {
+                                            .recommend>a {
+                                                width: 100% !important;
+                                            }
+
+                                        }
+                                    </style>
+                                    <div class="recommend-quizzes">
+                                        <h3 class="recommend-quizzes-title">
+                                            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                                                src="./testname/img/title_ornament_left.png?w=800&amp;ssl=1"
+                                                alt="">
+                                            <span style="text-align: center; font-size: 18px; font-weight: bold;"
+                                                id="titleForRec">Quizs Recommandés</span>
+                                            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                                                src="./testname/public/img/title_ornament_right.png?w=800&amp;ssl=1"
+                                                alt="">
+                                        </h3>
+                                        <div class="recommend-quizzes-item-warp recommend">
+                                            <div class="container-list-item-warp"
+                                                style="transition-duration: 0.3s; transform: scale(1);">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-69a0146"
+                        data-id="69a0146" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
+                                data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
+                                <div class="elementor-widget-container">
+                                    <meta charset="UTF-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    <title>Most Tested</title>
+                                    <style>
+                                        .tested {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                        }
+
+                                        @media screen and (max-width: 768000px) {
+                                            .tested>a {
+                                                width: 100%;
+                                            }
+
+                                        }
+
+                                        .sticky-div {
+                                            position: sticky;
+                                            top: 10px;
+                                            /* 距离页面顶部10px */
+                                            background-color: rgba(0, 0, 0, 0.7);
+                                            color: white;
+                                            text-align: center;
+                                            line-height: 100px;
+                                            height: 700px;
+                                        }
+
+                                        .RightBottom_adbox {
+                                            width: 100%;
+                                            position: absolute;
+                                            left: 0;
+                                            position: sticky;
+                                            top: 70px;
+                                            height: 600px !important;
+                                        }
+                                    </style>
+
+
+                                    <div class="new-quizzes" id="this_mt_right">
+                                        <h3 class="new-quizzes-title">
+                                            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                                                src="./testname/img/title_ornament_left.png?w=800&amp;ssl=1"
+                                                alt="">
+                                            <span style="text-align: center; font-size: 18px; font-weight: bold;"
+                                                id="titleForRecMT">Les plus testés</span>
+                                            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                                                src="./testname/img/title_ornament_right.png?w=800&amp;ssl=1"
+                                                alt="">
+                                        </h3>
+                                        <div class="new-quizzes--item-wrap tested">
                                         </div>
                                     </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-69a0146"
-                    data-id="69a0146" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
-                            data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
-                                <meta charset="UTF-8">
-                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                <title>Most Tested</title>
-                                <style>
-                                    .tested {
-                                        display: flex;
-                                        flex-wrap: wrap;
-                                    }
-
-                                    @media screen and (max-width: 768000px) {
-                                        .tested>a {
-                                            width: 100%;
-                                        }
-
-                                    }
-
-                                    .sticky-div {
-                                        position: sticky;
-                                        top: 10px;
-                                        /* 距离页面顶部10px */
-                                        background-color: rgba(0, 0, 0, 0.7);
-                                        color: white;
-                                        text-align: center;
-                                        line-height: 100px;
-                                        height: 700px;
-                                    }
-
-                                    .RightBottom_adbox {
-                                        width: 100%;
-                                        position: absolute;
-                                        left: 0;
-                                        position: sticky;
-                                        top: 70px;
-                                        height: 600px !important;
-                                    }
-                                </style>
-
-
-                                <div class="new-quizzes" id="this_mt_right">
-                                    <h3 class="new-quizzes-title">
-                                        <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                                            src="./testname/img/title_ornament_left.png?w=800&amp;ssl=1"
-                                            alt="">
-                                        <span style="text-align: center; font-size: 18px; font-weight: bold;"
-                                            id="titleForRecMT">Les plus testés</span>
-                                        <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                                            src="./testname/img/title_ornament_right.png?w=800&amp;ssl=1"
-                                            alt="">
-                                    </h3>
-                                    <div class="new-quizzes--item-wrap tested">
-                                    </div>
-                                </div>
-                                <div class="test_sticky" id = "adv_sticky">
-                                    <div class = "RightBottom_adbox" id = "RightBottom_adbox">
-                                        ADVERTISMENT
+                                    <div class="test_sticky" id = "adv_sticky">
+                                        <div class = "RightBottom_adbox" id = "RightBottom_adbox">
+                                            ADVERTISMENT
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69a0146"
-                     data-id="69a0146" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
-                             data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
-                                <div id="bot_adv_public">
+                <div id = "display_div2"  style="display: none" class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69a0146"
+                         data-id="69a0146" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
+                                 data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
+                                <div class="elementor-widget-container">
+                                    <div id="bot_adv_public">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
         </section>
     </div>
 
@@ -1300,14 +1303,25 @@
                 const TestAdv_1Top = document.getElementById('top_adv_public')
                 loadTestAdv_1(TestAdv_1Top);
 
-                initializePage();
 
+                document.querySelector('.result-container').innerHTML = `<img src="./testname/img/loading.gif">`
                 document.getElementById("mainBody").style.display = "block"
 
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
+                setTimeout(function () {
+                    document.getElementById("display_div1").style.display = "flex"
+                    document.getElementById("display_div2").style.display = "flex"
+
+                    initializePage();
+
+                    document.querySelector('.result-container').innerHTML = ``
+                    document.getElementById("mainBody").style.display = "block"
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                },2000)
+
             }
 
             function wait(ms) {
