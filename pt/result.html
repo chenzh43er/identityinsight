@@ -447,6 +447,14 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-29355a6 elementor-widget__width-initial elementor-widget elementor-widget-html"
                                  data-id="29355a6" data-element_type="widget" data-widget_type="html.default">
+
+                                <div class="result-containerTop" style="text-align: center; /* 让文字居中 */ justify-content: center; /* 水平居中 */
+  align-items: center;    margin-left: 60px;">
+                                    <img decoding="async"
+                                         src=""
+                                         alt="Avatar World Home" class="result-image" id="resultMainPicTop">
+                                </div>
+
                                 <div class="elementor-widget-container">
                                     <div id="top_adv_public">
                                     </div>
@@ -456,7 +464,7 @@
                     </div>
                 </div>
 
-                <div class="elementor-container elementor-column-gap-default">
+                <div id = "display_div1"  style="display: none" class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-2ff9f33"
                          data-id="2ff9f33" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -752,7 +760,7 @@
                     </div>
                 </div>
 
-                <div class="elementor-container elementor-column-gap-default">
+                <div id = "display_div2"  style="display: none" class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69a0146"
                          data-id="69a0146" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -1938,6 +1946,7 @@
 
         $(document).ready(function () {
 
+            document.querySelector('.result-containerTop').innerHTML = `<img src="./testname/img/loading.gif">`
 
             let langPage = getLangFromPath()
 
@@ -2066,6 +2075,10 @@
 </div>`;
 
             setTimeout(() => {
+                document.getElementById("display_div1").style.display = "flex"
+                document.getElementById("display_div2").style.display = "flex"
+                document.querySelector('.result-containerTop').innerHTML = ``
+
                 document.querySelector('.result-container').innerHTML =
 
                     `<h1 class="test-title" id="test-title"></h1>
