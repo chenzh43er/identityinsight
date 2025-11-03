@@ -418,8 +418,8 @@
     <a href="javascript:;" class="nextbtn btn" id="nextPageButton">Next</a>
   </div>
 
-  <div id="indexadv_4" class = "mid_adv">
-  </div>
+<!--  <div id="indexadv_4" class = "mid_adv">-->
+<!--  </div>-->
 
 </div></div>
 
@@ -1160,21 +1160,21 @@
           observer.observe(indexadv_2);
         }
       }else{
-        document.getElementById('indexadv_4').innerHTML= returnAdvWord();
-        const indexadv_2 = document.getElementById('indexadv_4')
-        if (indexadv_2) {
-          const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                loadListAdv_3(entry.target);
-                obs.unobserve(entry.target);
-              }
-            });
-          }, {
-            rootMargin: '5px',
-          });
-          observer.observe(indexadv_2);
-        }
+        // document.getElementById('indexadv_4').innerHTML= returnAdvWord();
+        // const indexadv_2 = document.getElementById('indexadv_4')
+        // if (indexadv_2) {
+        //   const observer = new IntersectionObserver((entries, obs) => {
+        //     entries.forEach(entry => {
+        //       if (entry.isIntersecting) {
+        //         loadListAdv_3(entry.target);
+        //         obs.unobserve(entry.target);
+        //       }
+        //     });
+        //   }, {
+        //     rootMargin: '5px',
+        //   });
+        //   observer.observe(indexadv_2);
+        // }
       }
 
 
