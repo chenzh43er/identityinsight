@@ -6,16 +6,35 @@ function getLangFromPath() {
 // window.onscroll = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-    const targetNode = document.body;
+    // 判断元素是否可见（宽高不为 0）
+    const isVisible = el => el && !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
 
     const observer = new MutationObserver(() => {
-        const consentDiv = document.querySelector('.fc-consent-root');
-        if (consentDiv) {
-            console.log('⚡ fc-consent-root 已打开');
-        } else {
-            console.log('❌ fc-consent-root 已关闭');
+        const el = document.querySelector('.fc-consent-root');
+
+        // 第一次检测到打开（可见）
+        if (el && !observer.hasOpened && isVisible(el)) {
+            observer.hasOpened = true;
+            console.log('⚡ 第一次打开 fc-consent-root');
+
+            // 启动关闭检测
+            const closeTimer = setInterval(() => {
+                // 若元素被移除或隐藏
+                if (!document.querySelector('.fc-consent-root') || !isVisible(el)) {
+                    console.log('❌ 已关闭 fc-consent-root');
+                    clearInterval(closeTimer);
+                    observer.disconnect();
+
+                    // 等待 0.5 秒后滚动到顶部
+                    setTimeout(() => {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        console.log('⬆️ 已滚动到页面顶部');
+                    }, 500);
+                }
+            }, 300);
         }
     });
 
-    observer.observe(targetNode, { childList: true, subtree: true });
+    // 开始监听整个页面 DOM 变化
+    observer.observe(document.body, { childList: true, subtree: true });
 });
