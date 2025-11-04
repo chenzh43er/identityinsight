@@ -1368,8 +1368,8 @@
 
       let medium = getQueryParam("utm_medium")
 
-      let toPop = document.getElementById("popular_btn").href
-      let toLat = document.getElementById("latest_btn").href
+      let toPop = document.getElementById("popular_btn").href+"?"
+      let toLat = document.getElementById("latest_btn").href+"?"
 
       if(!isNull(medium)){
         toPop = toPop + "&utm_medium=" +medium;

@@ -1351,6 +1351,68 @@
         document.getElementById("popular_btn_h2").innerText = "人気順"
         document.getElementById("latest_btn_h2").innerText = "最新"
       }
+
+      let campaign =getQueryParam("campaign") ;
+
+      let utm_campaign =getQueryParam("utm_campaign") ;
+
+      let utm_keyword = getQueryParam("keyword") ;
+
+      let utm_medium = getQueryParam("medium") ;
+
+      let utm_source = getQueryParam("source") ;
+
+      let country = getQueryParam("country")
+
+      let source = getQueryParam("utm_source")
+
+      let medium = getQueryParam("utm_medium")
+
+      let toPop = document.getElementById("popular_btn").href+"?"
+      let toLat = document.getElementById("latest_btn").href+"?"
+
+      if(!isNull(medium)){
+        toPop = toPop + "&utm_medium=" +medium;
+        toLat = toLat  + "&utm_medium=" +medium;
+      }
+
+      if(!isNull(source)){
+        toPop = toPop + "&utm_source=" +source;
+        toLat = toLat + "&utm_source=" +source;
+      }
+
+      if(!isNull(campaign)){
+        toPop = toPop + "&campaign=" +campaign;
+        toLat = toLat + "&campaign=" +campaign;
+      }
+
+      if(!isNull(utm_campaign)){
+        toPop = toPop + "&utm_campaign=" +utm_campaign;
+        toLat = toLat + "&utm_campaign=" +utm_campaign;
+      }
+
+      if(!isNull(utm_source)){
+        toPop = toPop + "&source=" +utm_source;
+        toLat = toLat+ "&source=" +utm_source;
+      }
+
+      if(!isNull(utm_keyword)){
+        toPop = toPop + "&keyword=" +utm_keyword;
+        toLat = toLat + "&keyword=" +utm_keyword;
+      }
+
+      if(!isNull(utm_medium)){
+        toPop = toPop + "&medium=" +utm_medium;
+        toLat = toLat + "&medium=" +utm_medium;
+      }
+
+      if(!isNull(country)){
+        toPop = toPop + "&country=" +country;
+        toLat = toLat + "&country=" +country;
+      }
+
+      document.getElementById("popular_btn").href = toPop
+      document.getElementById("latest_btn").href = toLat
     }
 
     function loadScript(src, callback) {

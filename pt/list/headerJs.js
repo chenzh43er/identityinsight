@@ -13,8 +13,6 @@ $(document).ready(function () {
 
     let campaign =getQueryParam("campaign") ;
 
-    //let content =getQueryParam("content") ;
-
     let utm_campaign =getQueryParam("utm_campaign") ;
 
     let utm_keyword = getQueryParam("keyword") ;
@@ -66,10 +64,6 @@ $(document).ready(function () {
         indexHref = indexHref + "&utm_source=" +source;
         toListCat1 = toListCat1 + "&utm_source=" +source;
     }
-
-    // if(!isNull(content)){
-    //     indexHref = indexHref + "&content=" +content;
-    // }
 
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;
