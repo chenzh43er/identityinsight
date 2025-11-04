@@ -7,9 +7,9 @@
 <head>
   <script>window.onscroll = null;</script>
   <!-- 预加载关键资源 -->
-  <link rel="preload" href="./testname/css/one.css" as="style">
-  <link rel="preload" href="./testname/css/common.css" as="style">
-  <link rel="preload" href="./testname/js/jquery.min.js?V=20200214" as="script">
+  <link rel="preload" href="../testname/css/one.css" as="style">
+  <link rel="preload" href="../testname/css/common.css" as="style">
+  <link rel="preload" href="../testname/js/jquery.min.js?V=20200214" as="script">
   <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" as="script">
 
   <!-- 预连接关键第三方域名 -->
@@ -22,17 +22,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>identityinsight</title>
   <meta http-equiv="Access-Control-Allow-Origin" content="*">
-  <link rel="stylesheet" href="./testname/css/one.css">
-  <link rel="stylesheet" href="./testname/css/common.css">
-  <script src="./testname/js/jquery.min.js?V=20200214"></script>
+  <link rel="stylesheet" href="../testname/css/one.css">
+  <link rel="stylesheet" href="../testname/css/common.css">
+  <script src="../testname/js/jquery.min.js?V=20200214"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
           crossorigin="anonymous"></script>
-<!--  <script src="./testname/js/googlePath.js"></script>-->
+<!--  <script src="../testname/js/googlePath.js"></script>-->
 
 
-  <script src="./testname/js/google_adv.js"></script>
-  <script src="./testname/js/common.js"></script>
-<!--  <script src="./testname/js/PageJsEn/list.js"></script>-->
+  <script src="../testname/js/google_adv.js"></script>
+  <script src="../testname/js/common.js"></script>
+<!--  <script src="../testname/js/PageJsEn/list.js"></script>-->
 
   <!-- Google Tag Manager -->
   <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -383,11 +383,11 @@
   </style>
 
 
-  <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
-  <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
-  <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
+  <link rel="icon" type="image/png" href="../testname/img/icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="../testname/img/icon/favicon.svg" />
+  <link rel="shortcut icon" href="../testname/img/icon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../testname/img/icon/apple-touch-icon.png" />
+  <link rel="manifest" href="../testname/img/icon/site.webmanifest" />
 
 </head>
 
@@ -408,7 +408,7 @@
               <meta charset="UTF-8">
               <title>Title</title>
               <a href="" id="picForUrlJump">
-                <img src="./testname//img/title.png">
+                <img src="../testname//img/title.png">
               </a>
 
             </div>
@@ -442,7 +442,7 @@
 
   <div class="home_tab">
     <div class="subBanner">
-      <a id="popular_btn" href="./list.html" class="">
+      <a id="popular_btn" href="../list.html" class="">
         <h2 id = "popular_btn_h2">Populaires</h2>
       </a>
       <a id="latest_btn" href="./lastest.html" class="currentBannerClass">
@@ -456,12 +456,12 @@
   <div class="tempCatHref">
     <ul>
       <li><a id="mobile_home" href="#">Home</a></li>
-      <li><a id="mobile_harry" href="./list/harrypotter.html">Harry Potter</a></li>
+      <li><a id="mobile_harry" href="harrypotter.html">Harry Potter</a></li>
     </ul>
   </div>
   <div class="tempTitle tempTitle1">
-    <img src="./testname/img/title_ornament_left.png" alt="" fetchpriority="high">
-    <span id="title_lt"></span><img src="./testname/img/title_ornament_right.png" alt="" fetchpriority="high">
+    <img src="../testname/img/title_ornament_left.png" alt="" fetchpriority="high">
+    <span id="title_lt"></span><img src="../testname/img/title_ornament_right.png" alt="" fetchpriority="high">
   </div>
 
   <div class="result-container" style="text-align: center; /* 让文字居中 */ justify-content: center; /* 水平居中 */
@@ -710,14 +710,14 @@
             testData.url = testData.url + "&country=" +country;
           }
 
-          testData.pic = testData.pic
-                  .replace("gif","png").replace("https://identityinsight.org/testCommon4","./testname")
-                  .replace("https://identityinsight.org/testCommon4","./testname")
-                  .replace("https://identityinsight.org/testCommon5","./testname")
-                  .replace("https://identityinsight.org/testCommon6","./testname")
-                  .replace("https://identityinsight.org/testCommon7","./testname")
-                  .replace("https://identityinsight.org/testCommon8","./testname")
-                  .replace("https://identityinsight.org/testCommon9","./testname")
+          testData.pic = testData.pic.replace("./","../")
+                  .replace("gif","png").replace("https://identityinsight.org/testCommon4","../testname")
+                  .replace("https://identityinsight.org/testCommon4","../testname")
+                  .replace("https://identityinsight.org/testCommon5","../testname")
+                  .replace("https://identityinsight.org/testCommon6","../testname")
+                  .replace("https://identityinsight.org/testCommon7","../testname")
+                  .replace("https://identityinsight.org/testCommon8","../testname")
+                  .replace("https://identityinsight.org/testCommon9","../testname")
 
           let contentIndex0Html = `
                 <a href="${testData.url}" class="container-list-item common_list_a">
@@ -743,14 +743,14 @@
         }
         if(index == 0 && !isNull(testData) && isM == 0 && isNull(utm_campaign)){
 
-          testData.pic = testData.pic
-                  .replace("gif","png").replace("https://identityinsight.org/testCommon4","./testname")
-                  .replace("https://identityinsight.org/testCommon4","./testname")
-                  .replace("https://identityinsight.org/testCommon5","./testname")
-                  .replace("https://identityinsight.org/testCommon6","./testname")
-                  .replace("https://identityinsight.org/testCommon7","./testname")
-                  .replace("https://identityinsight.org/testCommon8","./testname")
-                  .replace("https://identityinsight.org/testCommon9","./testname")
+          testData.pic = testData.pic.replace("./","../")
+                  .replace("gif","png").replace("https://identityinsight.org/testCommon4","../testname")
+                  .replace("https://identityinsight.org/testCommon4","../testname")
+                  .replace("https://identityinsight.org/testCommon5","../testname")
+                  .replace("https://identityinsight.org/testCommon6","../testname")
+                  .replace("https://identityinsight.org/testCommon7","../testname")
+                  .replace("https://identityinsight.org/testCommon8","../testname")
+                  .replace("https://identityinsight.org/testCommon9","../testname")
 
           let utm_keyword = getQueryParam("keyword") ;
 
@@ -1020,13 +1020,13 @@
             }
           }
 
-          item.pic = item.pic.replace("gif","png")
-                  .replace("https://identityinsight.org/testCommon4","./testname")
-                  .replace("https://identityinsight.org/testCommon5","./testname")
-                  .replace("https://identityinsight.org/testCommon6","./testname")
-                  .replace("https://identityinsight.org/testCommon7","./testname")
-                  .replace("https://identityinsight.org/testCommon8","./testname")
-                  .replace("https://identityinsight.org/testCommon9","./testname")
+          item.pic = item.pic.replace("gif","png").replace("./","../")
+                  .replace("https://identityinsight.org/testCommon4","../testname")
+                  .replace("https://identityinsight.org/testCommon5","../testname")
+                  .replace("https://identityinsight.org/testCommon6","../testname")
+                  .replace("https://identityinsight.org/testCommon7","../testname")
+                  .replace("https://identityinsight.org/testCommon8","../testname")
+                  .replace("https://identityinsight.org/testCommon9","../testname")
 
           let contentOtherHtml = ``;
 
@@ -1115,7 +1115,7 @@
 
 
 
-      document.querySelector('.result-container').innerHTML = `<img src="./testname/img/loading.gif">`
+      document.querySelector('.result-container').innerHTML = `<img src="../testname/img/loading.gif">`
 
       setTimeout(function (){
         document.querySelector('.result-container').innerHTML = ``
@@ -1436,41 +1436,41 @@
     $(document).ready(function () {
 
       let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
-      let utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+      let utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
       let langPage = getLangFromPath()
 
       if(langPage == "fr"){
-        homedataJs = "./testname/js/fr/homedata.js";
+        homedataJs = "../testname/js/fr/homedata.js";
         document.getElementById('nextPageButton').innerText = "Suivant";
-        utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
       }else if(langPage == "es"){
-        homedataJs = "./testname/js/es/homedata.js";
+        homedataJs = "../testname/js/es/homedata.js";
         document.getElementById('nextPageButton').innerText = "SIGUIENTE";
-        utm_campaign_js_url="./testname/js/es/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/es/utm_campaign.js"
       }else if(langPage == "pt"){
-        homedataJs = "./testname/js/pt/homedata.js";
+        homedataJs = "../testname/js/pt/homedata.js";
         document.getElementById('nextPageButton').innerText = "PRÓXIMO";
-        utm_campaign_js_url="./testname/js/pt/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/pt/utm_campaign.js"
       }else if(langPage == "en"){
-        homedataJs = "./testname/js/en/homedata.js";
+        homedataJs = "../testname/js/en/homedata.js";
         document.getElementById('nextPageButton').innerText = "next";
-        utm_campaign_js_url="./testname/js/en/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/en/utm_campaign.js"
       }else if(langPage == "de"){
-        homedataJs = "./testname/js/de/homedata.js";
+        homedataJs = "../testname/js/de/homedata.js";
         document.getElementById('nextPageButton').innerText = "Nächste";
-        utm_campaign_js_url="./testname/js/de/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/de/utm_campaign.js"
       }else if(langPage == "ar"){
-        homedataJs = "./testname/js/ar/homedata.js";
+        homedataJs = "../testname/js/ar/homedata.js";
         document.getElementById('nextPageButton').innerText = "التالى";
-        utm_campaign_js_url="./testname/js/ar/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/ar/utm_campaign.js"
       }else if(langPage == "jp"){
-        homedataJs = "./testname/js/jp/homedata.js";
+        homedataJs = "../testname/js/jp/homedata.js";
         document.getElementById('nextPageButton').innerText = "次へ";
-        utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/jp/utm_campaign.js"
       }else{
-        homedataJs = "./testname/js/fr/homedata.js";
+        homedataJs = "../testname/js/fr/homedata.js";
         document.getElementById('nextPageButton').innerText = "次へ";
-        utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+        utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
       }
 
       loadScript(homedataJs, function () {
@@ -1566,8 +1566,8 @@
 
 </script>
 
-<script src="./testname/js/footJs.js" async></script>
-<script src="./testname/js/headerJs.js" async></script>
+<script src="../testname/js/footJs.js" async></script>
+<script src="../testname/js/headerJs.js" async></script>
 
 <script>
   const toggle = document.getElementById('menuToggle');
