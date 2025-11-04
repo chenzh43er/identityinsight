@@ -1340,46 +1340,54 @@
       let langPage = getLangFromPath();
       if(langPage == "fr"){
         document.getElementById("title_lt").innerText="Récents";
-
-        document.getElementById("popular_btn_h2").innerText = "Populaires"
-        document.getElementById("latest_btn_h2").innerText = "Récents"
+        document.getElementById("popular_btn_h2").innerText = "Populaires";
+        document.getElementById("latest_btn_h2").innerText = "Récents";
+        document.getElementById("prevPage").innerText = "Page précédente";
+        document.getElementById("nextPage").innerText = "Page suivante";
       }else if(langPage == "es"){
         document.getElementById("title_lt").innerText="Nuevo";
-
-        document.getElementById("popular_btn_h2").innerText = "Más populares"
-        document.getElementById("latest_btn_h2").innerText = "Nuevo"
+        document.getElementById("popular_btn_h2").innerText = "Más populares";
+        document.getElementById("latest_btn_h2").innerText = "Nuevo";
+        document.getElementById("prevPage").innerText = "Página anterior";
+        document.getElementById("nextPage").innerText = "Página siguiente";
       }else if(langPage == "pt"){
         document.getElementById("title_lt").innerText="RECENTE";
-
-        document.getElementById("popular_btn_h2").innerText = "Mais Popular"
-        document.getElementById("latest_btn_h2").innerText = "RECENTE"
+        document.getElementById("popular_btn_h2").innerText = "Mais Popular";
+        document.getElementById("latest_btn_h2").innerText = "RECENTE";
+        document.getElementById("prevPage").innerText = "Página anterior";
+        document.getElementById("nextPage").innerText = "Próxima página";
       }else if(langPage == "en"){
         document.getElementById("title_lt").innerText="The Latest";
-
-        document.getElementById("popular_btn_h2").innerText = "Most Popular"
-        document.getElementById("latest_btn_h2").innerText = "The Latest"
+        document.getElementById("popular_btn_h2").innerText = "Most Popular";
+        document.getElementById("latest_btn_h2").innerText = "The Latest";
+        document.getElementById("prevPage").innerText = "Previous Page";
+        document.getElementById("nextPage").innerText = "Next Page";
       }else if(langPage == "de"){
         document.getElementById("title_lt").innerText = "Das Neueste";
-
-        document.getElementById("popular_btn_h2").innerText = "Am beliebtesten"
-        document.getElementById("latest_btn_h2").innerText = "Das Neueste"
+        document.getElementById("popular_btn_h2").innerText = "Am beliebtesten";
+        document.getElementById("latest_btn_h2").innerText = "Das Neueste";
+        document.getElementById("prevPage").innerText = "Vorherige Seite";
+        document.getElementById("nextPage").innerText = "Nächste Seite";
       }else if(langPage == "ar"){
         document.getElementById("title_lt").innerText="الأحدث";
-
-        document.getElementById("popular_btn_h2").innerText = "الأكثر شعبية"
-        document.getElementById("latest_btn_h2").innerText = "الأحدث"
+        document.getElementById("popular_btn_h2").innerText = "الأكثر شعبية";
+        document.getElementById("latest_btn_h2").innerText = "الأحدث";
+        document.getElementById("prevPage").innerText = "الصفحة السابقة";
+        document.getElementById("nextPage").innerText = "الصفحة التالية";
       }else if(langPage == "jp"){
         document.getElementById("title_lt").innerText="最新";
-
-        document.getElementById("popular_btn_h2").innerText = "人気順"
-        document.getElementById("latest_btn_h2").innerText = "最新"
-      }
-      else{
+        document.getElementById("popular_btn_h2").innerText = "人気順";
+        document.getElementById("latest_btn_h2").innerText = "最新";
+        document.getElementById("prevPage").innerText = "前のページ";
+        document.getElementById("nextPage").innerText = "次のページ";
+      }else{
         document.getElementById("title_lt").innerText="最新";
-
-        document.getElementById("popular_btn_h2").innerText = "人気順"
-        document.getElementById("latest_btn_h2").innerText = "最新"
+        document.getElementById("popular_btn_h2").innerText = "人気順";
+        document.getElementById("latest_btn_h2").innerText = "最新";
+        document.getElementById("prevPage").innerText = "前のページ";
+        document.getElementById("nextPage").innerText = "次のページ";
       }
+
 
       let campaign =getQueryParam("campaign") ;
 
