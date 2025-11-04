@@ -455,7 +455,7 @@
 
   <div class="tempCatHref">
     <ul>
-      <li><a id="mobile_home" href="#">Home</a></li>
+      <li><a id="mobile_home" href="../list.html">Home</a></li>
       <li><a id="mobile_harry" href="harrypotter.html">Harry Potter</a></li>
     </ul>
   </div>
@@ -1370,49 +1370,69 @@
 
       let toPop = document.getElementById("popular_btn").href+"?"
       let toLat = document.getElementById("latest_btn").href+"?"
+      let toHo = document.getElementById("mobile_home").href+"?"
+      let toHarry = document.getElementById("mobile_harry").href+"?"
 
       if(!isNull(medium)){
         toPop = toPop + "&utm_medium=" +medium;
         toLat = toLat  + "&utm_medium=" +medium;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(source)){
         toPop = toPop + "&utm_source=" +source;
         toLat = toLat + "&utm_source=" +source;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(campaign)){
         toPop = toPop + "&campaign=" +campaign;
         toLat = toLat + "&campaign=" +campaign;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(utm_campaign)){
         toPop = toPop + "&utm_campaign=" +utm_campaign;
         toLat = toLat + "&utm_campaign=" +utm_campaign;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(utm_source)){
         toPop = toPop + "&source=" +utm_source;
         toLat = toLat+ "&source=" +utm_source;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(utm_keyword)){
         toPop = toPop + "&keyword=" +utm_keyword;
         toLat = toLat + "&keyword=" +utm_keyword;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(utm_medium)){
         toPop = toPop + "&medium=" +utm_medium;
         toLat = toLat + "&medium=" +utm_medium;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       if(!isNull(country)){
         toPop = toPop + "&country=" +country;
         toLat = toLat + "&country=" +country;
+        toHo = toHo + "&utm_medium=" +medium;
+        toHarry = toHarry  + "&utm_medium=" +medium;
       }
 
       document.getElementById("popular_btn").href = toPop
       document.getElementById("latest_btn").href = toLat
+      document.getElementById("mobile_home").href = toHo
+      document.getElementById("mobile_harry").href = toHarry
     }
 
     function loadScript(src, callback) {
