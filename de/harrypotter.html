@@ -181,8 +181,17 @@
             display: none;
         }
 
+        .home_tab {
+            display: none;
+        }
+
         /* ========== 移动端样式 ========== */
         @media (max-width: 768px) {
+
+            .home_tab {
+                display: block;
+            }
+
             .menu-toggle {
                 display: block;
                 top: 15px;
@@ -275,6 +284,53 @@
         }
     </style>
 
+    <style>
+        #popular_btn {
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+
+        .subBanner a {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            padding: 0.4rem 0.5rem;
+            background: #fff;
+            font-size: 0.95rem;
+            font-weight: bold;
+            border: 1px solid #618CCC;
+        }
+
+        #popular_btn {
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+        .subBanner a.currentBannerClass {
+            color: #fff;
+            background: #618CCC;
+        }
+
+        .subBanner {
+            display: flex;
+            align-items: center;
+        }
+
+        .home_tab {
+            padding: 0.5rem;
+        }
+
+        #latest_btn {
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .subBanner a h2 {
+            font-size: 0.95rem;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+    </style>
+
     <link rel="icon" type="image/png" href="../testname/img/icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../testname/img/icon/favicon.svg" />
     <link rel="shortcut icon" href="../testname/img/icon/favicon.ico" />
@@ -331,6 +387,19 @@
 </div>
 
 <div class="quiz_home-container" style="margin-top: 10px;" id = "quiz_home-container">
+
+    <div class="home_tab">
+        <div class="subBanner">
+            <a id="popular_btn" href="../list.html" class="">
+                <h2 id = "popular_btn_h2">Populaires</h2>
+            </a>
+            <a id="latest_btn" href="lastest.html" class="currentBannerClass">
+                <h2 id = "latest_btn_h2" >
+                    Récents                    </h2>
+            </a>
+        </div>
+    </div>
+
     <div class="tempCatHref">
         <ul>
             <li><a id="mobile_home" href="../list.html">Home</a></li>
@@ -342,7 +411,7 @@
         <span id="title_mp"></span><img src="../testname/img/title_ornament_right.png" alt="" fetchpriority="high">
     </div>
     <div class="result-container" style="text-align: center; /* 让文字居中 */ justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */">
+  align-items: center;    margin-left: 60px; /* 垂直居中 */">
         <img decoding="async"
              src=""
              alt="Avatar World Home" class="result-image" id="resultMainPic">
@@ -992,7 +1061,7 @@
         document.querySelector('.result-container').innerHTML = `<img src="../testname/img/loading.gif">`
 
         setTimeout(function () {
-            
+
             document.querySelector('.result-container').innerHTML = ``
         // 渲染首页数据
         page = Number(getQueryParam("page")) ;
@@ -1152,6 +1221,97 @@
         else{
             document.getElementById("title_mp").innerText="Harry Potter";
         }
+
+
+        if(langPage == "fr"){
+            document.getElementById("popular_btn_h2").innerText = "Populaires"
+            document.getElementById("latest_btn_h2").innerText = "Récents"
+
+        }else if(langPage == "es"){
+            document.getElementById("popular_btn_h2").innerText = "Más populares"
+            document.getElementById("latest_btn_h2").innerText = "Nuevo"
+        }else if(langPage == "pt"){
+            document.getElementById("popular_btn_h2").innerText = "Mais Popular"
+            document.getElementById("latest_btn_h2").innerText = "RECENTE"
+        }else if(langPage == "en"){
+            document.getElementById("popular_btn_h2").innerText = "Most Popular"
+            document.getElementById("latest_btn_h2").innerText = "The Latest"
+        }else if(langPage == "de"){
+            document.getElementById("popular_btn_h2").innerText = "Am beliebtesten"
+            document.getElementById("latest_btn_h2").innerText = "Das Neueste"
+        }else if(langPage == "ar"){
+            document.getElementById("popular_btn_h2").innerText = "الأكثر شعبية"
+            document.getElementById("latest_btn_h2").innerText = "الأحدث"
+        }else if(langPage == "jp"){
+            document.getElementById("popular_btn_h2").innerText = "人気順"
+            document.getElementById("latest_btn_h2").innerText = "最新"
+        }
+        else{
+            document.getElementById("popular_btn_h2").innerText = "人気順"
+            document.getElementById("latest_btn_h2").innerText = "最新"
+        }
+
+        let campaign =getQueryParam("campaign") ;
+
+        let utm_campaign =getQueryParam("utm_campaign") ;
+
+        let utm_keyword = getQueryParam("keyword") ;
+
+        let utm_medium = getQueryParam("medium") ;
+
+        let utm_source = getQueryParam("source") ;
+
+        let country = getQueryParam("country")
+
+        let source = getQueryParam("utm_source")
+
+        let medium = getQueryParam("utm_medium")
+
+        let toPop = document.getElementById("popular_btn").href
+        let toLat = document.getElementById("latest_btn").href
+
+        if(!isNull(medium)){
+            toPop = toPop + "&utm_medium=" +medium;
+            toLat = toLat  + "&utm_medium=" +medium;
+        }
+
+        if(!isNull(source)){
+            toPop = toPop + "&utm_source=" +source;
+            toLat = toLat + "&utm_source=" +source;
+        }
+
+        if(!isNull(campaign)){
+            toPop = toPop + "&campaign=" +campaign;
+            toLat = toLat + "&campaign=" +campaign;
+        }
+
+        if(!isNull(utm_campaign)){
+            toPop = toPop + "&utm_campaign=" +utm_campaign;
+            toLat = toLat + "&utm_campaign=" +utm_campaign;
+        }
+
+        if(!isNull(utm_source)){
+            toPop = toPop + "&source=" +utm_source;
+            toLat = toLat+ "&source=" +utm_source;
+        }
+
+        if(!isNull(utm_keyword)){
+            toPop = toPop + "&keyword=" +utm_keyword;
+            toLat = toLat + "&keyword=" +utm_keyword;
+        }
+
+        if(!isNull(utm_medium)){
+            toPop = toPop + "&medium=" +utm_medium;
+            toLat = toLat + "&medium=" +utm_medium;
+        }
+
+        if(!isNull(country)){
+            toPop = toPop + "&country=" +country;
+            toLat = toLat + "&country=" +country;
+        }
+
+        document.getElementById("popular_btn").href = toPop
+        document.getElementById("latest_btn").href = toLat
     }
 
     function loadScript(src, callback) {
