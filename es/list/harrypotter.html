@@ -181,8 +181,17 @@
             display: none;
         }
 
+        .home_tab {
+            display: none;
+        }
+
         /* ========== 移动端样式 ========== */
         @media (max-width: 768px) {
+
+            .home_tab {
+                display: block;
+            }
+
             .menu-toggle {
                 display: block;
                 top: 15px;
@@ -275,6 +284,53 @@
         }
     </style>
 
+    <style>
+        #popular_btn {
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+
+        .subBanner a {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            padding: 0.4rem 0.5rem;
+            background: #fff;
+            font-size: 0.95rem;
+            font-weight: bold;
+            border: 1px solid #618CCC;
+        }
+
+        #popular_btn {
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+        .subBanner a.currentBannerClass {
+            color: #fff;
+            background: #618CCC;
+        }
+
+        .subBanner {
+            display: flex;
+            align-items: center;
+        }
+
+        .home_tab {
+            padding: 0.5rem;
+        }
+
+        #latest_btn {
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .subBanner a h2 {
+            font-size: 0.95rem;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+    </style>
+
     <link rel="icon" type="image/png" href="../testname/img/icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../testname/img/icon/favicon.svg" />
     <link rel="shortcut icon" href="../testname/img/icon/favicon.ico" />
@@ -331,6 +387,19 @@
 </div>
 
 <div class="quiz_home-container" style="margin-top: 10px;" id = "quiz_home-container">
+
+    <div class="home_tab">
+        <div class="subBanner">
+            <a id="popular_btn" href="../list.html" class="">
+                <h2 id = "popular_btn_h2">Populaires</h2>
+            </a>
+            <a id="latest_btn" href="../lastest.html" class="currentBannerClass">
+                <h2 id = "latest_btn_h2" >
+                    Récents                    </h2>
+            </a>
+        </div>
+    </div>
+
     <div class="tempCatHref">
         <ul>
             <li><a id="mobile_home" href="../list.html">Home</a></li>
@@ -1151,6 +1220,35 @@
         }
         else{
             document.getElementById("title_mp").innerText="Harry Potter";
+        }
+
+
+        if(langPage == "fr"){
+            document.getElementById("latest_btn_h2").innerText = "Populaires"
+            document.getElementById("popular_btn_h2").innerText = "Récents"
+
+        }else if(langPage == "es"){
+            document.getElementById("latest_btn_h2").innerText = "Más populares"
+            document.getElementById("popular_btn_h2").innerText = "Nuevo"
+        }else if(langPage == "pt"){
+            document.getElementById("latest_btn_h2").innerText = "Mais Popular"
+            document.getElementById("popular_btn_h2").innerText = "RECENTE"
+        }else if(langPage == "en"){
+            document.getElementById("latest_btn_h2").innerText = "Most Popular"
+            document.getElementById("popular_btn_h2").innerText = "The Latest"
+        }else if(langPage == "de"){
+            document.getElementById("latest_btn_h2").innerText = "Am beliebtesten"
+            document.getElementById("popular_btn_h2").innerText = "Das Neueste"
+        }else if(langPage == "ar"){
+            document.getElementById("latest_btn_h2").innerText = "الأكثر شعبية"
+            document.getElementById("popular_btn_h2").innerText = "الأحدث"
+        }else if(langPage == "jp"){
+            document.getElementById("latest_btn_h2").innerText = "人気順"
+            document.getElementById("popular_btn_h2").innerText = "最新"
+        }
+        else{
+            document.getElementById("latest_btn_h2").innerText = "人気順"
+            document.getElementById("popular_btn_h2").innerText = "最新"
         }
     }
 
