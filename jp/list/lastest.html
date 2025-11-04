@@ -380,6 +380,11 @@
       margin: 0px;
     }
 
+    .paginationNext {
+      margin: 20px;
+      text-align: center;
+    }
+
   </style>
 
 
@@ -479,6 +484,11 @@
 
   <div data-page="home" class="container-next-btn" style="display: none">
     <a href="javascript:;" class="nextbtn btn" id="nextPageButton">Next</a>
+  </div>
+
+  <div class="paginationNext">
+    <button id="prevPage">上一页</button>
+    <button id="nextPage">下一页</button>
   </div>
 
 <!--  <div id="indexadv_4" class = "mid_adv">-->
@@ -1152,7 +1162,7 @@
 
           } else {
 
-            document.querySelector('.youMayLike').innerHTML = renderHomeData(dataPage.youMaylike, 1, 0, 0, 3);
+          renderPage(page,totalPages,totalItems,itemsPerPage)
             document.getElementById("mainBody").style.display = "block"
 
           }
@@ -1217,6 +1227,25 @@
             img.onerror = () => {
               console.log(`第${index + 1}张图片加载失败`);
             };
+          }
+        });
+        const urlParams = new URLSearchParams(window.location.search);
+        currentPage = parseInt(urlParams.get('page')) || 0;
+
+        if (currentPage == 0){
+          currentPage++
+        }
+
+        // ======== 翻页按钮事件（跳转 URL） ========
+        document.getElementById('prevPage').addEventListener('click', () => {
+          if (currentPage > 0) {
+            window.location.href = `?page=${currentPage - 1}`;
+          }
+        });
+
+        document.getElementById('nextPage').addEventListener('click', () => {
+          if (currentPage < totalPages - 1) {
+            window.location.href = `?page=${currentPage + 1}`;
           }
         });
 
