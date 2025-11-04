@@ -15,20 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // 第一次检测到打开（可见）
         if (el && !observer.hasOpened && isVisible(el)) {
             observer.hasOpened = true;
-            console.log('⚡ 第一次打开 fc-consent-root');
+            console.log('⚡  fc-consent-root');
 
             // 启动关闭检测
             const closeTimer = setInterval(() => {
                 // 若元素被移除或隐藏
                 if (!document.querySelector('.fc-consent-root') || !isVisible(el)) {
-                    console.log('❌ 已关闭 fc-consent-root');
+                    console.log('❌  fc-consent-root');
                     clearInterval(closeTimer);
                     observer.disconnect();
 
                     // 等待 0.5 秒后滚动到顶部
                     setTimeout(() => {
                         window.scrollTo({ top: 0, behavior: 'smooth' });
-                        console.log('⬆️ 已滚动到页面顶部');
+                        console.log('⬆️ sc');
                     }, 500);
                 }
             }, 300);
