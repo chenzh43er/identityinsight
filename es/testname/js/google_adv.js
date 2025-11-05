@@ -185,3 +185,23 @@ function returnHarry_2(){
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>`
 }
+
+function returnLa_1(){
+    return `<!-- latest_adv1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="7836958147"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnLa_2(){
+    return `<!-- latest_adv2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2901816928"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
