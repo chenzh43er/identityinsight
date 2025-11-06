@@ -1235,60 +1235,60 @@
 
         }
 
-        function loadTestAdv_1(el) {
-            // 插入 <ins> HTML
-            el.innerHTML = returnTestAdv_1();
-            // 触发广告加载
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error("AdSense push error", e);
-            }
-        }
-
-        function loadTestAdv_2(el) {
-            // 插入 <ins> HTML
-            el.innerHTML = returnTestAdv_2();
-            // 触发广告加载
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error("AdSense push error", e);
-            }
-        }
-
-        function loadTestAdv_3(el) {
-            // 插入 <ins> HTML
-            el.innerHTML = returnTestAdv_3();
-            // 触发广告加载
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error("AdSense push error", e);
-            }
-        }
-
-        function loadTestAdv_4(el) {
-            // 插入 <ins> HTML
-            el.innerHTML = returnTestAdv_4();
-            // 触发广告加载
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error("AdSense push error", e);
-            }
-        }
-
-        function loadTestAdv_5(el) {
-            // 插入 <ins> HTML
-            el.innerHTML = returnTestAdv_5();
-            // 触发广告加载
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error("AdSense push error", e);
-            }
-        }
+        // function loadTestAdv_1(el) {
+        //     // 插入 <ins> HTML
+        //     el.innerHTML = returnTestAdv_1();
+        //     // 触发广告加载
+        //     try {
+        //         (adsbygoogle = window.adsbygoogle || []).push({});
+        //     } catch (e) {
+        //         console.error("AdSense push error", e);
+        //     }
+        // }
+        //
+        // function loadTestAdv_2(el) {
+        //     // 插入 <ins> HTML
+        //     el.innerHTML = returnTestAdv_2();
+        //     // 触发广告加载
+        //     try {
+        //         (adsbygoogle = window.adsbygoogle || []).push({});
+        //     } catch (e) {
+        //         console.error("AdSense push error", e);
+        //     }
+        // }
+        //
+        // function loadTestAdv_3(el) {
+        //     // 插入 <ins> HTML
+        //     el.innerHTML = returnTestAdv_3();
+        //     // 触发广告加载
+        //     try {
+        //         (adsbygoogle = window.adsbygoogle || []).push({});
+        //     } catch (e) {
+        //         console.error("AdSense push error", e);
+        //     }
+        // }
+        //
+        // function loadTestAdv_4(el) {
+        //     // 插入 <ins> HTML
+        //     el.innerHTML = returnTestAdv_4();
+        //     // 触发广告加载
+        //     try {
+        //         (adsbygoogle = window.adsbygoogle || []).push({});
+        //     } catch (e) {
+        //         console.error("AdSense push error", e);
+        //     }
+        // }
+        //
+        // function loadTestAdv_5(el) {
+        //     // 插入 <ins> HTML
+        //     el.innerHTML = returnTestAdv_5();
+        //     // 触发广告加载
+        //     try {
+        //         (adsbygoogle = window.adsbygoogle || []).push({});
+        //     } catch (e) {
+        //         console.error("AdSense push error", e);
+        //     }
+        // }
 
         function initHomeDataForMo() {
             // 渲染首页数据
@@ -1350,7 +1350,7 @@
                     const observer = new IntersectionObserver((entries, obs) => {
                         entries.forEach(entry => {
                             if (entry.isIntersecting) {
-                                loadTestAdv_4(entry.target);
+                                loadResultAdv_4(entry.target);
                                 obs.unobserve(entry.target);
                             }
                         });
@@ -1647,9 +1647,9 @@
                 //console.log(realIndex)
 
                 if(realIndex == 0){
-                    recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
-                        returnAdvWord()+
-                        '</div>'
+                    // recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
+                    //     returnAdvWord()+
+                    //     '</div>'
                 }
 
                 realIndex += 1
@@ -1762,40 +1762,40 @@
 
                 //console.log(document.querySelector('.recommend').innerHTML)
 
-                document.getElementById("testADV_5").innerHTML = returnAdvWord();
-                const TestAdv_5 = document.getElementById('testADV_5')
-                if (TestAdv_5) {
-                    const observer = new IntersectionObserver((entries, obs) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                loadTestAdv_5(entry.target);
-                                obs.unobserve(entry.target);
-                            }
-                        });
-                    }, {
-                        rootMargin: '5px',
-                    });
-                    observer.observe(TestAdv_5);
-                }
+                // document.getElementById("testADV_5").innerHTML = returnAdvWord();
+                // const TestAdv_5 = document.getElementById('testADV_5')
+                // if (TestAdv_5) {
+                //     const observer = new IntersectionObserver((entries, obs) => {
+                //         entries.forEach(entry => {
+                //             if (entry.isIntersecting) {
+                //                 loadTestAdv_5(entry.target);
+                //                 obs.unobserve(entry.target);
+                //             }
+                //         });
+                //     }, {
+                //         rootMargin: '5px',
+                //     });
+                //     observer.observe(TestAdv_5);
+                // }
             });
 
 
 
-            document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
-            const TestAdv_1Bot = document.getElementById('bot_adv_public')
-            if (TestAdv_1Bot) {
-                const observer = new IntersectionObserver((entries, obs) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            loadTestAdv_1(entry.target);
-                            obs.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    rootMargin: '5px',
-                });
-                observer.observe(TestAdv_1Bot);
-            }
+            // document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
+            // const TestAdv_1Bot = document.getElementById('bot_adv_public')
+            // if (TestAdv_1Bot) {
+            //     const observer = new IntersectionObserver((entries, obs) => {
+            //         entries.forEach(entry => {
+            //             if (entry.isIntersecting) {
+            //                 loadTestAdv_1(entry.target);
+            //                 obs.unobserve(entry.target);
+            //             }
+            //         });
+            //     }, {
+            //         rootMargin: '5px',
+            //     });
+            //     observer.observe(TestAdv_1Bot);
+            // }
         }
         // 页面加载完成后初始化
 
@@ -2123,21 +2123,21 @@
                     observer.observe(ResultAdv_3);
                 }
 
-                document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
-                const TestAdv_1Bot = document.getElementById('bot_adv_public')
-                if (TestAdv_1Bot) {
-                    const observer = new IntersectionObserver((entries, obs) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                loadResultAdv_1(entry.target);
-                                obs.unobserve(entry.target);
-                            }
-                        });
-                    }, {
-                        rootMargin: '5px',
-                    });
-                    observer.observe(TestAdv_1Bot);
-                }
+                // document.getElementById("bot_adv_public").innerHTML = returnAdvWord();
+                // const TestAdv_1Bot = document.getElementById('bot_adv_public')
+                // if (TestAdv_1Bot) {
+                //     const observer = new IntersectionObserver((entries, obs) => {
+                //         entries.forEach(entry => {
+                //             if (entry.isIntersecting) {
+                //                 loadResultAdv_1(entry.target);
+                //                 obs.unobserve(entry.target);
+                //             }
+                //         });
+                //     }, {
+                //         rootMargin: '5px',
+                //     });
+                //     observer.observe(TestAdv_1Bot);
+                // }
 
             }, 2500)
         });
