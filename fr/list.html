@@ -1088,7 +1088,7 @@
             advHtml = '<div class="container-list-item common_list_a" id = "listAdv_2" >' +
                     returnAdvWord()+
                     '</div>';
-          }else if(version == 2){
+          }else if(version == 2 && !isMobileByWidth()){
             advHtml = '<div class="container-list-item common_list_a" id = "listAdv_4" >' +
                     returnAdvWord()+
                     '</div>';
@@ -1183,37 +1183,38 @@
             //(adsbygoogle = window.adsbygoogle || []).push({});
           }
 
-
-        const listAdv_4 = document.getElementById('listAdv_4')
-        if (listAdv_4) {
-          const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                loadListAdv_4(entry.target);
-                obs.unobserve(entry.target);
-              }
+        if(!isMobileByWidth()){
+          const listAdv_4 = document.getElementById('listAdv_4')
+          if (listAdv_4) {
+            const observer = new IntersectionObserver((entries, obs) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  loadListAdv_4(entry.target);
+                  obs.unobserve(entry.target);
+                }
+              });
+            }, {
+              rootMargin: '5px',
             });
-          }, {
-            rootMargin: '5px',
-          });
-          observer.observe(listAdv_4);
+            observer.observe(listAdv_4);
+          }
         }
 
-        document.getElementById('indexadv_3').innerHTML= returnAdvWord();
-        const indexadv_3 = document.getElementById('indexadv_3')
-        if (indexadv_3) {
-          const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                loadListAdv_5(entry.target);
-                obs.unobserve(entry.target);
-              }
-            });
-          }, {
-            rootMargin: '5px',
-          });
-          observer.observe(indexadv_3);
-        }
+        // document.getElementById('indexadv_3').innerHTML= returnAdvWord();
+        // const indexadv_3 = document.getElementById('indexadv_3')
+        // if (indexadv_3) {
+        //   const observer = new IntersectionObserver((entries, obs) => {
+        //     entries.forEach(entry => {
+        //       if (entry.isIntersecting) {
+        //         loadListAdv_5(entry.target);
+        //         obs.unobserve(entry.target);
+        //       }
+        //     });
+        //   }, {
+        //     rootMargin: '5px',
+        //   });
+        //   observer.observe(indexadv_3);
+        // }
 
 
         if(!isMobileByWidth()){
@@ -1339,27 +1340,27 @@
       }
     }
 
-    function loadListAdv_4(el) {
-      // 插入 <ins> HTML
-      el.innerHTML = returnListAdv_4();
-      // 触发广告加载
-      try {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.error("AdSense push error", e);
-      }
-    }
+    // function loadListAdv_4(el) {
+    //   // 插入 <ins> HTML
+    //   el.innerHTML = returnListAdv_4();
+    //   // 触发广告加载
+    //   try {
+    //     (adsbygoogle = window.adsbygoogle || []).push({});
+    //   } catch (e) {
+    //     console.error("AdSense push error", e);
+    //   }
+    // }
 
-    function loadListAdv_5(el) {
-      // 插入 <ins> HTML
-      el.innerHTML = returnListAdv_5();
-      // 触发广告加载
-      try {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.error("AdSense push error", e);
-      }
-    }
+    // function loadListAdv_5(el) {
+    //   // 插入 <ins> HTML
+    //   el.innerHTML = returnListAdv_5();
+    //   // 触发广告加载
+    //   try {
+    //     (adsbygoogle = window.adsbygoogle || []).push({});
+    //   } catch (e) {
+    //     console.error("AdSense push error", e);
+    //   }
+    // }
 
     // 锁定滚动函数
     function lockScroll() {
