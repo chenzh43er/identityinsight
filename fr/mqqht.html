@@ -1695,16 +1695,16 @@
                 }
             }
 
-            function loadTestAdv_5(el) {
-                // 插入 <ins> HTML
-                el.innerHTML = returnTestAdv_5();
-                // 触发广告加载
-                try {
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                } catch (e) {
-                    console.error("AdSense push error", e);
-                }
-            }
+            // function loadTestAdv_5(el) {
+            //     // 插入 <ins> HTML
+            //     el.innerHTML = returnTestAdv_5();
+            //     // 触发广告加载
+            //     try {
+            //         (adsbygoogle = window.adsbygoogle || []).push({});
+            //     } catch (e) {
+            //         console.error("AdSense push error", e);
+            //     }
+            // }
 
             function initHomeDataForMo() {
                 // 渲染首页数据
@@ -2063,9 +2063,9 @@
                     //console.log(realIndex)
 
                     if(realIndex == 0){
-                        recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
-                            returnAdvWord()+
-                            '</div>'
+                        // recHtml =  recHtml + ' <div id = "testADV_5" class = "container-list-item-warp" style="width: 100%;box-sizing: border-box">' +
+                        //     returnAdvWord()+
+                        //     '</div>'
                     }
 
                     realIndex += 1
@@ -2178,21 +2178,21 @@
 
                     //console.log(document.querySelector('.recommend').innerHTML)
 
-                    document.getElementById("testADV_5").innerHTML = returnAdvWord();
-                    const TestAdv_5 = document.getElementById('testADV_5')
-                    if (TestAdv_5) {
-                        const observer = new IntersectionObserver((entries, obs) => {
-                            entries.forEach(entry => {
-                                if (entry.isIntersecting) {
-                                    loadTestAdv_5(entry.target);
-                                    obs.unobserve(entry.target);
-                                }
-                            });
-                        }, {
-                            rootMargin: '5px',
-                        });
-                        observer.observe(TestAdv_5);
-                    }
+                    // document.getElementById("testADV_5").innerHTML = returnAdvWord();
+                    // const TestAdv_5 = document.getElementById('testADV_5')
+                    // if (TestAdv_5) {
+                    //     const observer = new IntersectionObserver((entries, obs) => {
+                    //         entries.forEach(entry => {
+                    //             if (entry.isIntersecting) {
+                    //                 loadTestAdv_5(entry.target);
+                    //                 obs.unobserve(entry.target);
+                    //             }
+                    //         });
+                    //     }, {
+                    //         rootMargin: '5px',
+                    //     });
+                    //     observer.observe(TestAdv_5);
+                    // }
                 });
 
 
