@@ -87,7 +87,9 @@ function returnListAdv_5(){
 }
 
 function returnTestAdv_1(){
-    return `<!-- test-1 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-1 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -97,7 +99,9 @@ function returnTestAdv_1(){
 }
 
 function returnTestAdv_2(){
-    return `<!-- test-2 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-2 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:100%;height:250px"
      data-ad-client="ca-pub-3481735481590354"
@@ -107,7 +111,9 @@ function returnTestAdv_2(){
 }
 
 function returnTestAdv_3(){
-    return `<!-- test-3 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-3 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:100%;height:250px"
      data-ad-client="ca-pub-3481735481590354"
