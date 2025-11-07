@@ -31,7 +31,9 @@ function returnZhongxiangGuding(){
 //data-adtest="on" 复制该语句到为止为测试模式开启，删掉该语句则为正式广告
 
 function returnListAdv_1(){
-    return `<!-- list-1 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- list-1 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"
@@ -41,7 +43,8 @@ function returnListAdv_1(){
 }
 
 function returnListAdv_2(){
-    return `<!-- list-2 -->
+    return `<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- list-2 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"
@@ -52,6 +55,7 @@ function returnListAdv_2(){
 
 function returnListAdv_3(){
     return `<!-- list-3 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -62,6 +66,7 @@ function returnListAdv_3(){
 
 function returnListAdv_4(){
     return `<!-- list-4 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
      data-ad-client="ca-pub-3481735481590354"
@@ -72,6 +77,7 @@ function returnListAdv_4(){
 
 function returnListAdv_5(){
     return `<!-- list-5 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
