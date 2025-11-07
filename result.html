@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Results 生成器</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h1 { font-size: 22px; }
+    input, textarea {
+      width: 100%;
+      padding: 6px;
+      margin: 4px 0 10px;
+      box-sizing: border-box;
+    }
+    .result {
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 6px 10px;
+      margin: 4px;
+      border-radius: 6px;
+      border: 1px solid #2b7cff;
+      background-color: #2b7cff;
+      color: white;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #f2f2f2;
+      color: #333;
+      border-color: #ccc;
+    }
+    textarea#output {
+      height: 250px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Results 生成器</h1>
+
+<div id="resultsContainer"></div>
+<button id="addResultBtn">＋ 添加结果项</button>
+
+<h2>生成的 JS</h2>
+<textarea id="output" readonly></textarea><br>
+<button id="generateBtn">生成 results</button>
+<button id="copyBtn" class="secondary">复制到剪贴板</button>
+<button id="downloadBtn" class="secondary">下载 JS 文件</button>
+
+<script>
+  const container = document.getElementById("resultsContainer");
+  const output = document.getElementById("output");
+
+  // 添加结果项
+  function addResult(data = null) {
+    const idx = container.children.length + 1;
+    const div = document.createElement("div");
+    div.className = "result";
+    div.innerHTML = `
+      <h3>结果 ${idx}</h3>
+      <label>标题 (title)</label>
+      <input class="rTitle" placeholder="例如：Je suis un chat VR..." value="${data?.title || ''}">
+      <label>结果标题 (resultTitle)</label>
+      <input class="rResultTitle" placeholder="例如：Chat Peureux" value="${data?.resultTitle || ''}">
+      <label>描述 (description)</label>
+      <textarea class="rDescription" placeholder="结果描述...">${data?.description || ''}</textarea>
+      <label>主图 (mainPic)</label>
+      <input class="rMainPic" placeholder="图片URL或文件名" value="${data?.mainPic || ''}">
+      <button class="removeR secondary">删除此结果</button>
+    `;
+    div.querySelector(".removeR").addEventListener("click", () => div.remove());
+    container.appendChild(div);
+  }
+
+  // 生成 results
+  function generateResults() {
+    const resultObjs = {};
+    let i = 1;
+    document.querySelectorAll(".result").forEach(r => {
+      resultObjs[i] = {
+        title: r.querySelector(".rTitle").value.trim(),
+        resultTitle: r.querySelector(".rResultTitle").value.trim(),
+        description: r.querySelector(".rDescription").value.trim(),
+        mainPic: r.querySelector(".rMainPic").value.trim()
+      };
+      i++;
+    });
+
+    const jsText = "const results = " + JSON.stringify(resultObjs, null, 2) + ";";
+    output.value = jsText;
+    return jsText;
+  }
+
+  // 事件绑定
+  document.getElementById("addResultBtn").addEventListener("click", () => addResult());
+  document.getElementById("generateBtn").addEventListener("click", generateResults);
+
+  document.getElementById("copyBtn").addEventListener("click", async () => {
+    await navigator.clipboard.writeText(output.value);
+    alert("已复制到剪贴板！");
+  });
+
+  document.getElementById("downloadBtn").addEventListener("click", () => {
+    const blob = new Blob([output.value], { type: "application/javascript" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "results.js";
+    a.click();
+  });
+
+  // 默认添加四个示例结果
+  const sampleData = [
+    {
+      title:"Je suis un chat VR : Trouvez la vraie personnalité de votre chat avec ce quiz. ",
+      resultTitle:"Chat Peureux",
+      description:"Vous êtes toujours prudent, vous cachez dès le premier signe de danger (ou un aspirateur !)...",
+      mainPic:"https://identityinsight.org/testCommon4/img/fr_img/3365bc96fe79d4a3f732986ad20263ec.jpeg"
+    },
+    {
+      title:"Je suis un chat VR : Trouvez la vraie personnalité de votre chat avec ce quiz. ",
+      resultTitle:"Chat Curieux",
+      description:"Rien n'échappe à votre attention. Vous explorez toujours et mettez votre nez partout...",
+      mainPic:"https://identityinsight.org/testCommon4/img/fr_img/1794a11c650125dc9d20ddf3b2284f69.jpeg"
+    }
+  ];
+  sampleData.forEach(d => addResult(d));
+</script>
+</body>
+</html>

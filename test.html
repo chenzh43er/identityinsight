@@ -2,208 +2,196 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>生成测验 JSON</title>
+  <title>QuizData 生成器（aId 自动增长）</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h1 { font-size: 22px; }
+    input, textarea {
+      width: 100%;
+      padding: 6px;
+      margin: 4px 0 10px;
+      box-sizing: border-box;
     }
     .question, .answer {
-      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
     }
-    .answer input {
-      margin-left: 10px;
+    .answers { margin-left: 20px; }
+    button {
+      padding: 6px 10px;
+      margin: 4px;
+      border-radius: 6px;
+      border: 1px solid #2b7cff;
+      background-color: #2b7cff;
+      color: white;
+      cursor: pointer;
     }
-    .upload-preview {
-      margin-top: 10px;
-      max-width: 300px;
-      max-height: 300px;
+    button.secondary {
+      background: #f2f2f2;
+      color: #333;
+      border-color: #ccc;
+    }
+    textarea#output {
+      height: 250px;
+      font-family: monospace;
     }
   </style>
 </head>
 <body>
-<h1>生成测验 JSON</h1>
-<form id="quizForm" enctype="multipart/form-data">
-  <label for="title">标题: </label>
-  <input type="text" id="title" name="title" placeholder="请输入测验标题"><br><br>
 
-  <label for="mainPic">封面图片 (上传图片): </label>
-  <input type="file" id="mainPic" name="mainPic" accept="image/*"><br><br>
-  <img id="mainPicPreview" class="upload-preview" src="" alt="封面图片预览"><br><br>
+<h1>QuizData 生成器（aId 自动增长）</h1>
 
-  <label for="thems">标签 (用逗号分隔): </label>
-  <input type="text" id="thems" name="thems" placeholder="请输入标签"><br><br>
+<label>标题 (title)</label>
+<input id="titleInput" placeholder="请输入 quiz 标题" />
 
-  <div id="questionsContainer">
-    <div class="question" id="question_1">
-      <h3>问题 1</h3>
-      <label for="questionText_1">问题内容: </label>
-      <input type="text" id="questionText_1" placeholder="请输入问题内容"><br><br>
+<label>主图文件名或 URL (mainPic)</label>
+<input id="mainPicInput" placeholder="例如：main.jpg 或 https://..." />
 
-      <label for="questionPic_1">问题图片 (上传图片): </label>
-      <input type="file" id="questionPic_1" name="questionPic_1" accept="image/*"><br><br>
-      <img id="questionPicPreview_1" class="upload-preview" src="" alt="问题图片预览"><br><br>
+<label>主题标签 (thems，用逗号分隔)</label>
+<input id="themsInput" placeholder="例如：Chat, Personnalité, VR" />
 
-      <div class="answer">
-        <label for="answer1_1">答案 1: </label>
-        <input type="text" id="answer1_1" placeholder="请输入答案 1"><br><br>
-        <label for="answer2_1">答案 2: </label>
-        <input type="text" id="answer2_1" placeholder="请输入答案 2"><br><br>
-        <label for="answer3_1">答案 3: </label>
-        <input type="text" id="answer3_1" placeholder="请输入答案 3"><br><br>
-        <label for="answer4_1">答案 4: </label>
-        <input type="text" id="answer4_1" placeholder="请输入答案 4"><br><br>
-      </div>
-    </div>
-  </div>
-  <button type="button" onclick="addQuestion()">添加问题</button><br><br>
-  <button type="submit">生成 JSON</button>
-</form>
+<h2>问题列表</h2>
+<div id="questionsContainer"></div>
+<button id="addQuestionBtn">＋ 添加问题</button>
 
-<h2>生成的 JSON:</h2>
-<pre id="jsonOutput"></pre>
+<h2>生成的 quizData JS</h2>
+<textarea id="output" readonly></textarea><br>
+<button id="generateBtn">生成 quizData</button>
+<button id="copyBtn" class="secondary">复制到剪贴板</button>
+<button id="downloadBtn" class="secondary">下载 JS 文件</button>
 
 <script>
-  let questionCount = 1;
-  let quizData = {
-    title: '',
-    mainPic: '',
-    thems: [],
-    questions: [],
-    toAnswer: 10059
-  };
+  const container = document.getElementById("questionsContainer");
+  const output = document.getElementById("output");
 
-  // 处理封面图片上传预览
-  document.getElementById('mainPic').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        document.getElementById('mainPicPreview').src = e.target.result;
-      };
-      reader.readAsDataURL(file);
-    }
-  });
+  // 添加新问题
+  function addQuestion(data = null) {
+    const qDiv = document.createElement("div");
+    qDiv.className = "question";
 
-  // 处理问题图片上传预览
-  function handleQuestionPicUpload(event, questionId) {
-    const file = event.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        document.getElementById(`questionPicPreview_${questionId}`).src = e.target.result;
-      };
-      reader.readAsDataURL(file);
-    }
-  }
+    qDiv.innerHTML = `
+      <label>问题文本 (question)</label>
+      <input class="qText" placeholder="输入题目" value="${data?.question || ''}">
+      <label>题目图片文件名或 URL (pic)</label>
+      <input class="qPic" placeholder="pic.jpg 或 https://..." value="${data?.pic || ''}">
+      <div class="answers">
+        <h4>答案选项</h4>
+        <div class="answersContainer"></div>
+        <button class="addAnswerBtn" type="button">＋ 添加答案</button>
+      </div>
+      <button class="removeQ secondary" type="button">删除此问题</button>
+    `;
 
-  function addQuestion() {
-    questionCount++;
-    const questionDiv = document.createElement('div');
-    questionDiv.classList.add('question');
-    questionDiv.id = `question_${questionCount}`;
-    questionDiv.innerHTML = `
-                <h3>问题 ${questionCount}</h3>
-                <label for="questionText_${questionCount}">问题内容: </label>
-                <input type="text" id="questionText_${questionCount}" placeholder="请输入问题内容"><br><br>
+    const answersContainer = qDiv.querySelector(".answersContainer");
+    const addAnswerBtn = qDiv.querySelector(".addAnswerBtn");
+    addAnswerBtn.addEventListener("click", () => addAnswer(answersContainer));
 
-                <label for="questionPic_${questionCount}">问题图片 (上传图片): </label>
-                <input type="file" id="questionPic_${questionCount}" name="questionPic_${questionCount}" accept="image/*"><br><br>
-                <img id="questionPicPreview_${questionCount}" class="upload-preview" src="" alt="问题图片预览"><br><br>
-
-                <div class="answer">
-                    <label for="answer1_${questionCount}">答案 1: </label>
-                    <input type="text" id="answer1_${questionCount}" placeholder="请输入答案 1"><br><br>
-                    <label for="answer2_${questionCount}">答案 2: </label>
-                    <input type="text" id="answer2_${questionCount}" placeholder="请输入答案 2"><br><br>
-                    <label for="answer3_${questionCount}">答案 3: </label>
-                    <input type="text" id="answer3_${questionCount}" placeholder="请输入答案 3"><br><br>
-                    <label for="answer4_${questionCount}">答案 4: </label>
-                    <input type="text" id="answer4_${questionCount}" placeholder="请输入答案 4"><br><br>
-                </div>
-            `;
-    document.getElementById('questionsContainer').appendChild(questionDiv);
-
-    // 为新增问题的图片上传添加事件监听
-    document.getElementById(`questionPic_${questionCount}`).addEventListener('change', function(event) {
-      handleQuestionPicUpload(event, questionCount);
+    qDiv.querySelector(".removeQ").addEventListener("click", () => {
+      qDiv.remove();
     });
+
+    // 如果有预置答案
+    if (data?.answers) {
+      data.answers.forEach(ans => addAnswer(answersContainer, ans));
+    }
+
+    container.appendChild(qDiv);
   }
 
-  document.getElementById('quizForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+  // 自动获取下一个 aId
+  function getNextAId(answersContainer) {
+    const existing = [...answersContainer.querySelectorAll(".aId")].map(
+            i => Number(i.value) || 0
+    );
+    return existing.length ? Math.max(...existing) + 1 : 1;
+  }
 
-    quizData.title = document.getElementById('title').value;
+  // 添加答案
+  function addAnswer(container, data = null) {
+    const nextId = data?.aId || getNextAId(container);
+    const div = document.createElement("div");
+    div.className = "answer";
+    div.innerHTML = `
+      <label>答案文本 (answer)</label>
+      <input class="aText" placeholder="输入答案" value="${data?.answer || ''}">
+      <label>答案图片 (aPic，可留空)</label>
+      <input class="aPic" placeholder="a.jpg 或 https://..." value="${data?.aPic || ''}">
+      <label>答案ID (aId)</label>
+      <input type="number" class="aId" value="${nextId}" readonly style="background:#f9f9f9;">
+      <button class="removeA secondary" type="button">删除答案</button>
+    `;
+    div.querySelector(".removeA").addEventListener("click", () => div.remove());
+    container.appendChild(div);
+  }
 
-    // 处理封面图片路径
-    const mainPicFile = document.getElementById('mainPic').files[0];
-    if (mainPicFile) {
-      const formData = new FormData();
-      formData.append("file", mainPicFile);
-      // 将文件上传到服务器（假设上传路径为"/upload"）
-      fetch("/upload", {
-        method: "POST",
-        body: formData
-      })
-              .then(response => response.json())
-              .then(data => {
-                quizData.mainPic = data.filePath;  // 假设返回JSON包含filePath字段
-                generateJSON();
-              })
-              .catch(error => {
-                console.error('文件上传失败:', error);
-              });
-    } else {
-      quizData.mainPic = "";
-      generateJSON();
-    }
+  // 生成 quizData
+  function generateQuizData() {
+    const title = document.getElementById("titleInput").value.trim();
+    const mainPic = document.getElementById("mainPicInput").value.trim();
+    const thems = document.getElementById("themsInput").value.split(",").map(t => t.trim()).filter(Boolean);
+    const questions = [];
 
-    quizData.thems = document.getElementById('thems').value.split(',');
+    document.querySelectorAll(".question").forEach(q => {
+      const questionText = q.querySelector(".qText").value.trim();
+      const pic = q.querySelector(".qPic").value.trim();
+      const answers = [];
+      q.querySelectorAll(".answer").forEach(a => {
+        answers.push({
+          answer: a.querySelector(".aText").value.trim(),
+          aPic: a.querySelector(".aPic").value.trim(),
+          aId: Number(a.querySelector(".aId").value.trim()) || 0
+        });
+      });
+      if (questionText) questions.push({ question: questionText, pic, answers });
+    });
 
-    quizData.questions = [];
-    for (let i = 1; i <= questionCount; i++) {
-      let questionObj = {
-        question: document.getElementById(`questionText_${i}`).value,
-        pic: "",
-        answers: []
-      };
+    const quizData = {
+      title,
+      mainPic,
+      thems,
+      questions,
+      toAnswer: 10000
+    };
 
-      // 处理问题图片路径
-      const questionPicFile = document.getElementById(`questionPic_${i}`).files[0];
-      if (questionPicFile) {
-        const formData = new FormData();
-        formData.append("file", questionPicFile);
-        // 将文件上传到服务器（假设上传路径为"/upload"）
-        fetch("/upload", {
-          method: "POST",
-          body: formData
-        })
-                .then(response => response.json())
-                .then(data => {
-                  questionObj.pic = data.filePath;  // 假设返回JSON包含filePath字段
-                  quizData.questions.push(questionObj);
-                })
-                .catch(error => {
-                  console.error('文件上传失败:', error);
-                });
-      }
+    const jsText = "let quizData = " + JSON.stringify(quizData, null, 2) + ";";
+    output.value = jsText;
+    return jsText;
+  }
 
-      for (let j = 1; j <= 4; j++) {
-        let answerObj = {
-          answer: document.getElementById(`answer${j}_${i}`).value,
-          aPic: "",
-          aId: j
-        };
-        questionObj.answers.push(answerObj);
-      }
-    }
+  // 事件绑定
+  document.getElementById("addQuestionBtn").addEventListener("click", () => addQuestion());
+  document.getElementById("generateBtn").addEventListener("click", generateQuizData);
+
+  document.getElementById("copyBtn").addEventListener("click", async () => {
+    await navigator.clipboard.writeText(output.value);
+    alert("已复制到剪贴板！");
   });
 
-  function generateJSON() {
-    // 生成并显示JSON
-    document.getElementById('jsonOutput').textContent = JSON.stringify(quizData, null, 2);
-  }
+  document.getElementById("downloadBtn").addEventListener("click", () => {
+    const blob = new Blob([output.value], { type: "application/javascript" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "quizData.js";
+    a.click();
+  });
+
+  // 默认添加一个示例问题
+  addQuestion({
+    question: "示例问题：你最喜欢的动物？",
+    pic: "example.jpg",
+    answers: [
+      { answer: "猫", aPic: "", aId: 1 },
+      { answer: "狗", aPic: "", aId: 2 }
+    ]
+  });
 </script>
 </body>
 </html>
