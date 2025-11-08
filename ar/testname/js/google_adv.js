@@ -123,7 +123,8 @@ function returnTestAdv_3(){
 }
 
 function returnTestAdv_4(){
-    return `<!-- test-4 -->
+    return `<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-4 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-3481735481590354"
@@ -131,7 +132,9 @@ function returnTestAdv_4(){
 }
 
 function returnTestAdv_5(){
-    return `<!-- test-5 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-5 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -141,7 +144,9 @@ function returnTestAdv_5(){
 }
 
 function returnResultAdv_1(){
-    return `<!-- result-1 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-1 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -151,7 +156,9 @@ function returnResultAdv_1(){
 }
 
 function returnResultAdv_2(){
-    return `<!-- result-2 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-2 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
      data-ad-client="ca-pub-3481735481590354"
@@ -161,7 +168,9 @@ function returnResultAdv_2(){
 }
 
 function returnResultAdv_3(){
-    return `<!-- result-3 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-3 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:100%;height:200px"
      data-ad-client="ca-pub-3481735481590354"
@@ -169,7 +178,9 @@ function returnResultAdv_3(){
 }
 
 function returnResultAdv_4(){
-    return `<!-- result-4 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-4 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
      data-ad-client="ca-pub-3481735481590354"
@@ -179,7 +190,9 @@ function returnResultAdv_4(){
 }
 
 function returnHarry_1(){
-    return `<!-- Harry_1 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- Harry_1 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -189,7 +202,9 @@ function returnHarry_1(){
 }
 
 function returnHarry_2(){
-    return `<!-- Harry_2 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- Harry_2 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"
@@ -199,7 +214,9 @@ function returnHarry_2(){
 }
 
 function returnLa_1(){
-    return `<!-- latest_adv1 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- latest_adv1 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3481735481590354"
@@ -209,7 +226,9 @@ function returnLa_1(){
 }
 
 function returnLa_2(){
-    return `<!-- latest_adv2 -->
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- latest_adv2 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
      data-ad-client="ca-pub-3481735481590354"

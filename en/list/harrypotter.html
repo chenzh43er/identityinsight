@@ -40,6 +40,19 @@
 
     <style>
 
+        .divLinePa {
+            margin: .5rem 0 !important;
+            text-align: center !important;
+            color: #ccc !important;
+            font-size: 14px !important;
+            position: relative !important;
+        }
+
+        .divLinePa {
+            text-align: center !important;
+            color: #ccc !important;
+            font-size: 14px !important;
+        }
         /*body {*/
         /*  direction: rtl;   !* 文本方向 *!*/
         /*  unicode-bidi: plaintext; !* 只作用于文字，不影响布局 *!*/
@@ -1015,11 +1028,11 @@
                 countAddIndexAdv ++;
 
                 if(version == 1 || version == 4){
-                    advHtml = '<div class="container-list-item common_list_a" id = "listAdv_2" >' +
+                    advHtml = '<div class="container-list-item common_list_a" id = "listAdv_2" style="display: block !important;">' +
                         returnAdvWord()+
                         '</div>';
                 }else if(version == 2){
-                    advHtml = '<div class="container-list-item common_list_a" id = "listAdv_4" >' +
+                    advHtml = '<div class="container-list-item common_list_a" id = "listAdv_4" style="display: block !important;">' +
                         returnAdvWord()+
                         '</div>';
                 }
