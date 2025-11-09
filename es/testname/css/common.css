@@ -80,10 +80,10 @@ input {
 }
 
 .question-main-title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .quiz_detial_tags_link {

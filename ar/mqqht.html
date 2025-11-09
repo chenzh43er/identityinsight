@@ -2279,10 +2279,10 @@
         }
         function bindEvents2() {
             $(".test_start").off('click').on('click', function () {
-                const element = document.getElementById('mainPic');
+                const element = document.getElementById('quizTitle');
                 element.scrollIntoView({
                     behavior: 'smooth',
-                    block: 'start',
+                    block: 'center',
                     inline: 'nearest'
                 });
                 //console.log("start")
