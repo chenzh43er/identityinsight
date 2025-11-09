@@ -106,13 +106,13 @@ input {
 }
 
 .newSelectTest-choiceType-pa {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     position: relative;
 }
 
 .newSelectTest-item-img {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .newSelectTest-item-img img {
@@ -123,7 +123,7 @@ input {
 .newSelectTest-item-title {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .quizeselectItem {
@@ -167,7 +167,7 @@ input {
 .count_number {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .count_number span {
@@ -295,7 +295,7 @@ input {
     border-radius: 0 0 10px 10px;
     font-size: 18px;
     color: #333;
-    padding: 12px 16px;
+    padding: 10px 10px;
     overflow: hidden;
 }
 
