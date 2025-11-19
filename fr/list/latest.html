@@ -885,6 +885,8 @@
               item.url = "./404notFound.html?content=other"
             }else if(langPage == "jp"){
               item.url = "./404notFound.html?content=other"
+            }else if(langPage == "no"){
+              item.url = "./404notFound.html?content=other"
             }else{
               item.url = "./404notFound.html?content=other"
             }
@@ -1394,12 +1396,18 @@
         document.getElementById("latest_btn_h2").innerText = "最新";
         document.getElementById("prevPage").innerText = "前のページ";
         document.getElementById("nextPage").innerText = "次のページ";
+      }else if(langPage == "no"){
+        document.getElementById("title_lt").innerText="De Nyeste";
+        document.getElementById("popular_btn_h2").innerText = "Mest Populære";
+        document.getElementById("latest_btn_h2").innerText = "De Nyeste";
+        document.getElementById("prevPage").innerText = "Forrige side";
+        document.getElementById("nextPage").innerText = "Neste side";
       }else{
-        document.getElementById("title_lt").innerText="最新";
-        document.getElementById("popular_btn_h2").innerText = "人気順";
-        document.getElementById("latest_btn_h2").innerText = "最新";
-        document.getElementById("prevPage").innerText = "前のページ";
-        document.getElementById("nextPage").innerText = "次のページ";
+        document.getElementById("title_lt").innerText="De Nyeste";
+        document.getElementById("popular_btn_h2").innerText = "Mest Populære";
+        document.getElementById("latest_btn_h2").innerText = "De Nyeste";
+        document.getElementById("prevPage").innerText = "Forrige side";
+        document.getElementById("nextPage").innerText = "Neste side";
       }
 
 
@@ -1589,10 +1597,14 @@
         homedataJs = "../testname/js/jp/homedata.js";
         document.getElementById('nextPageButton').innerText = "次へ";
         utm_campaign_js_url="../testname/js/jp/utm_campaign.js"
+      }else if(langPage == "no"){
+        homedataJs = "../testname/js/no/homedata.js";
+        document.getElementById('nextPageButton').innerText = "neste";
+        utm_campaign_js_url="../testname/js/no/utm_campaign.js"
       }else{
-        homedataJs = "../testname/js/fr/homedata.js";
-        document.getElementById('nextPageButton').innerText = "次へ";
-        utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
+        homedataJs = "../testname/js/no/homedata.js";
+        document.getElementById('nextPageButton').innerText = "neste";
+        utm_campaign_js_url="../testname/js/no/utm_campaign.js"
       }
 
       loadScript(homedataJs, function () {
@@ -1632,6 +1644,8 @@
                 }else if (langPage == "ar") {
                   indexHref = "./list.html?"
                 }else if (langPage == "jp") {
+                  indexHref = "./list.html?"
+                }else if (langPage == "no") {
                   indexHref = "./list.html?"
                 }else {
                   indexHref = "./list.html?"
@@ -1673,6 +1687,8 @@
               }else if (langPage == "ar") {
                 indexHref = "./list.html?"
               }else if (langPage == "jp") {
+                indexHref = "./list.html?"
+              }else if (langPage == "no") {
                 indexHref = "./list.html?"
               }else {
                 indexHref = "./list.html?"
