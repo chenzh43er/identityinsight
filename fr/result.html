@@ -976,6 +976,8 @@
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "jp"){
                         item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "no"){
+                        item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
                     }
@@ -1200,8 +1202,10 @@
                 document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
             }else if(langPage == "jp"){
                 document.getElementById("titleForRecMT").innerText = " 最も試される ";
+            }else if(langPage == "no"){
+                document.getElementById("titleForRecMT").innerText="Mest Testet";
             }else{
-                document.getElementById("titleForRecMT").innerText = " 最も試される ";
+                document.getElementById("titleForRecMT").innerText="Mest Testet";
             }
         }
 
@@ -1331,6 +1335,9 @@
             }else if(langPage == "jp"){
                 homedataJs = "./testname/js/jp/homedata.js";
                 utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+            }else if(langPage == "no"){
+                homedataJs = "./testname/js/no/homedata.js";
+                utm_campaign_js_url="./testname/js/no/utm_campaign.js"
             }else{
                 homedataJs = "./testname/js/fr/homedata.js";
                 utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
@@ -1406,8 +1413,10 @@
                 mt_data_url = "./testname/js/ar_most_test_data/Most Tested.js";
             }else if(langPage == "jp"){
                 mt_data_url = "./testname/js/jp_most_test_data/Most Tested.js";
+            }else if(langPage == "no"){
+                mt_data_url = "./testname/js/no_most_test_data/Most Tested.js";
             }else{
-                mt_data_url = "./testname/js/fr_most_test_data/Most Tested.js"
+                mt_data_url = "./testname/js/no_most_test_data/Most Tested.js"
             }
 
 
@@ -1463,6 +1472,8 @@
                     }else if(langPage == "ar"){
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "jp"){
+                        item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "no"){
                         item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
@@ -1718,8 +1729,10 @@
                 document.getElementById("titleForRec").innerText = "اختبارات موصى بها";
             }else if(langPage == "jp"){
                 document.getElementById("titleForRec").innerText = "おすすめクイズ";
+            }else if(langPage == "no"){
+                document.getElementById("titleForRec").innerText="ANBEFALTE QUIZER";
             }else{
-                document.getElementById("titleForRec").innerText = "おすすめクイズ";
+                document.getElementById("titleForRec").innerText="ANBEFALTE QUIZER";
             }
         }
 
@@ -1752,9 +1765,12 @@
             }else if(langPage == "jp"){
                 homedataJs = "./testname/js/jp/homedata.js";
                 utm_campaign_js_url="./testname/js/jp/utm_campaign.js"
+            }else if(langPage == "no"){
+                homedataJs = "./testname/js/no/homedata.js";
+                utm_campaign_js_url="./testname/js/no/utm_campaign.js"
             }else{
-                homedataJs = "./testname/js/fr/homedata.js";
-                utm_campaign_js_url="./testname/js/fr/utm_campaign.js"
+                homedataJs = "./testname/js/no/homedata.js";
+                utm_campaign_js_url="./testname/js/no/utm_campaign.js"
             }
             loadScript(utm_campaign_js_url, function () {
 
@@ -1833,8 +1849,10 @@
                 rq_data_url = "./testname/js/ar_recommend/recommend quizzes.js"
             }else if(langPage == "ar"){
                 rq_data_url = "./testname/js/jp_recommend/recommend quizzes.js"
+            }else if(langPage == "no"){
+                rq_data_url = "./testname/js/no_recommend/recommend quizzes.js"
             }else{
-                rq_data_url = "./testname/js/fr_recommend/recommend quizzes.js"
+                rq_data_url = "./testname/js/no_recommend/recommend quizzes.js"
             }
 
 
@@ -1925,8 +1943,10 @@
                 result_url = "./testname/js/ar_result/";
             }else if(lang == "jp"){
                 result_url = "./testname/js/jp_result/";
+            }else if(lang == "no"){
+                result_url = "./testname/js/no_result/";
             }else{
-                result_url = "./testname/js/fr_result/"
+                result_url = "./testname/js/no_result/"
             }
 
             loadScript(result_url + key2 + ".js", function () {
@@ -2015,9 +2035,13 @@
                 home_str = "ホームページに戻る"
                 again_str = "再テスト"
                 indexHref = "./list.html?"
+            }else if(langPage == "no"){
+                home_str = "Tilbake til hjemmesiden"
+                again_str = "Test på nytt"
+                indexHref = "./list.html?"
             }else{
-                home_str = "ホームページに戻る"
-                again_str = "再テスト"
+                home_str = "Tilbake til hjemmesiden"
+                again_str = "Test på nytt"
                 indexHref = "./list.html?"
             }
 
