@@ -157,6 +157,7 @@
                                     <a href="https://identityinsight.org/de/" class="index_ahref" id="de_href"></a>
                                     <a href="https://identityinsight.org/ar/" class="index_ahref" id="ar_href"></a>
                                     <a href="https://identityinsight.org/jp/" class="index_ahref" id="jp_href"></a>
+                                    <a href="https://identityinsight.org/jp/" class="index_ahref" id="no_href"></a>
                                 </div>
                             </div>
                         </div>
@@ -370,6 +371,7 @@
             document.getElementById("de_href").href= "./de/list.html?utm_campaign=" +utm_campaign+indexHref
             document.getElementById("ar_href").href= "./ar/list.html?utm_campaign=" +utm_campaign+indexHref
             document.getElementById("jp_href").href= "./jp/list.html?utm_campaign=" +utm_campaign+indexHref
+            document.getElementById("no_href").href= "./no/list.html?utm_campaign=" +utm_campaign+indexHref
         }else{
             document.getElementById("en_href").href= "./en/list.html?"+indexHref
             document.getElementById("es_href").href= "./es/list.html?"+indexHref
@@ -378,6 +380,7 @@
             document.getElementById("de_href").href= "./de/list.html?"+indexHref
             document.getElementById("ar_href").href= "./ar/list.html?"+indexHref
             document.getElementById("jp_href").href= "./jp/list.html?"+indexHref
+            document.getElementById("no_href").href= "./no/list.html?"+indexHref
         }
 
         document.getElementById("en_href").innerText= "English"
@@ -387,6 +390,7 @@
         document.getElementById("de_href").innerText= "Deutsch"
         document.getElementById("ar_href").innerText= "العربية"
         document.getElementById("jp_href").innerText= "日本語"
+        document.getElementById("no_href").innerText= "Norsk"
 
         const adContainers = document.querySelectorAll('.adsbygoogle');
         adContainers.forEach((adContainer, index) => {
