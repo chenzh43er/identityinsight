@@ -122,12 +122,139 @@ const utm_campaignData = {
         }
     ],
     "hog_main":[
-
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10028",
+            "pic": "./testname/img/fr_img/b677afdd76e0057cd2df6f074beb2817.gif",
+            "title": "Er du mer en Galtvort-jente eller en Oz-jente?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10029",
+            "pic": "./testname/img/fr_img/6b8d7b30c12ec88bf4a563c898243625.jpg",
+            "title": "Test Anime-kunnskapen din og finn ut hvilken Harry Potter-karakter du egentlig er"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10030",
+            "pic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
+            "title": "Quel est votre Patronus? Découvrez-le maintenant!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
+            "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+            "title": "Hvilket Galtvort-hus passer best for deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10032",
+            "pic": "./testname/img/fr_img/334c6206304c2b879070f3e04145e218.gif",
+            "title": "Hvor mye kjenner du Harry Potter?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10033",
+            "pic": "./testname/img/fr_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+            "title": "Hvilket Galtvort-hus tilhører du egentlig?"
+        },
     ],
     "hog_rc":[
-
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Hvilket magisk dyr fra Harry Potter ville være din følgesvenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "⚡ Hvilken magisk konkurrent ville du vært på Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
+            "pic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+            "title": "✨ Hvilken skjult side av magien din ville Galtvort avsløre?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
+            "pic": "./testname/img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
+            "title": "Que te montrerait le Miroir du Riséd ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10054",
+            "pic": "./testname/img/fr_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
+            "title": "Hvor godt ville du gjort det på Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
+            "pic": "./testname/img/fr_img/14_40347a53-a2ef-4732-a960-6cc5fe059d53.jpeg",
+            "title": "Hvilket hemmelig fag ville du studere på Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
+            "pic": "./testname/img/fr_img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
+            "title": "Combien de Slytherin y a-t-il en toi ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10057",
+            "pic": "./testname/img/fr_img/40_285b2557-54ce-4e42-b680-59a15e290d72.png",
+            "title": "Hvordan navigerer du gjennom utfordringene til Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10058",
+            "pic": "./testname/img/fr_img/53_f131ad1e-1b01-4705-8c7b-4b71c35d3fc2.jpeg",
+            "title": "Quelle position de Quidditch te correspond le mieux ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
+            "pic": "./testname/img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
+            "title": "Hvilket Galtvort-fag vil være din favoritt?"
+        }
     ],
     "hog_mt":[
-
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
+            "pic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+            "title": "Hvilken hovedperson i Harry Potter er du?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
+            "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "title": "Hvilken Harry Potter-skurk finnes i deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
+            "pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "title": "Quel artefact magique te choisirait ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
+            "pic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+            "title": "Maîtriserais-tu les Forces du Mal ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
+            "pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "title": "Hvilket magisk dyr fra Harry Potter ville være din følgesvenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
+            "pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "title": "⚡ Hvilken magisk konkurrent ville du vært på Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
+            "pic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+            "title": "✨ Hvilken skjult side av magien din ville Galtvort avsløre?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
+            "pic": "./testname/img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
+            "title": "Que te montrerait le Miroir du Riséd ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10054",
+            "pic": "./testname/img/fr_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
+            "title": "Hvor godt ville du gjort det på Galtvort?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
+            "pic": "./testname/img/fr_img/14_40347a53-a2ef-4732-a960-6cc5fe059d53.jpeg",
+            "title": "Hvilket hemmelig fag ville du studere på Galtvort?"
+        },
     ]
 };
