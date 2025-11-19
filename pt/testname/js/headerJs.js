@@ -51,7 +51,14 @@ $(document).ready(function () {
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
         indexHref = "./list.html?";
-    }else{
+    }else if(langPage == "no"){
+        home_str = "Hjem"
+        indexHref = "./list.html?"
+    }else if(langPage == "no") {
+        home_str = "ホーム"
+        indexHref = "./list.html?"
+    }
+    else{
         home_str = "الرئيسية";
         indexHref = "./list.html?";
     }
