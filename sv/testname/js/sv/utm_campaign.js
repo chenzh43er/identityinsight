@@ -129,49 +129,49 @@ const utm_campaignData = {
     "hog_main":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10031",
-            "pic": "./img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+            "pic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
             "title": "Vilket Hogwarts-hus är bäst för dig?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
-            "pic": "./img/fr_img/dA4hK0aA4vA0.jpg",
+            "pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
             "title": "Vilken Hogwarts-student är du kär?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
-            "pic": "./img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+            "pic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
             "title": "Vilken Harry Potter-huvudkaraktär är du?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
-            "pic": "./img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
             "title": "Vilken Harry Potter-skurk finns inom dig?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10032",
-            "pic": "./img/fr_img/334c6206304c2b879070f3e04145e218.gif",
+            "pic": "./testname/img/fr_img/334c6206304c2b879070f3e04145e218.gif",
             "title": "Hur mycket känner du till Harry Potter?"
         }
     ],
     "hog_rc":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10050",
-            "pic": "./img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+            "pic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
             "title": "Vad är magin med Harry Potters skalle?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
-            "pic": "./img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
+            "pic": "./testname/img/fr_img/19_ce9826fd-55fc-4820-be2c-889667f3bac6.jpeg",
             "title": "⚡ Vad sägs om skallen på Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
-            "pic": "./img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
+            "pic": "./testname/img/fr_img/19_e52f591e-3d5e-4443-b754-60c6cb8d70f0.jpeg",
             "title": "Vilken magisk artefakte skulle du välja?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10045",
-            "pic": "./img/fr_img/dA4hK0aA4vA0.jpg",
+            "pic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
             "title": "Vilken Hogwarts-student är du kär?"
         },
         {
@@ -203,32 +203,32 @@ const utm_campaignData = {
     "hog_mt":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
-            "pic": "./img/fr_img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
+            "pic": "./testname/img/fr_img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
             "title": "Hur mycket Slytherin har du i dig?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
-            "pic": "./img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
+            "pic": "./testname/img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
             "title": "Vilket Hogwarts-ämne skulle vara din favorit?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10046",
-            "pic": "./img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+            "pic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
             "title": "Vilken Harry Potter-huvudkaraktär är du?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10032",
-            "pic": "./img/fr_img/334c6206304c2b879070f3e04145e218.gif",
+            "pic": "./testname/img/fr_img/334c6206304c2b879070f3e04145e218.gif",
             "title": "Hur mycket känner du till Harry Potter?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10047",
-            "pic": "./img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+            "pic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
             "title": "Vilken Harry Potter-skurk finns inom dig?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
-            "pic": "./img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
+            "pic": "./testname/img/fr_img/19_53253b01-c20f-4349-8864-85eac1f6d65d.jpeg",
             "title": "Vad skulle Mirror of Erised visa dig?"
         }
     ]
