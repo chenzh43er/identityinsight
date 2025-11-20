@@ -54,8 +54,11 @@ $(document).ready(function () {
     }else if(langPage == "no"){
         home_str = "Hjem"
         indexHref = "./list.html?"
-    }else if(langPage == "no") {
+    }else if(langPage == "jp") {
         home_str = "ホーム"
+        indexHref = "./list.html?"
+    }else if(langPage == "sv") {
+        home_str = "Startsida"
         indexHref = "./list.html?"
     }
     else{
