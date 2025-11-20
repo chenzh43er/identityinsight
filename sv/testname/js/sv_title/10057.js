@@ -190,22 +190,22 @@ let quizData = {
   "pic": "./testname/img/fr_img/48_08fe1861-623e-4a76-96b4-9c5bb053ae3b.jpeg",
   "answers": [
     {
-      "answer": ""Livet är ett äventyr - njut av det!" »",
+      "answer": "Livet är ett äventyr - njut av det!»",
       "aPic": "",
       "aId": 1
     },
     {
-      "answer": ""Framgång kräver planering - utan mål kommer du ingenstans."",
+      "answer": "Framgång kräver planering - utan mål kommer du ingenstans.",
       "aPic": "",
       "aId": 2
     },
     {
-      "answer": ""Vänner är viktiga - du kan inte göra allt ensam."",
+      "answer": "Vänner är viktiga - du kan inte göra allt ensam.",
       "aPic": "",
       "aId": 3
     },
     {
-      "answer": ""Utmaningar gör oss starkare – möt dem."",
+      "answer": "Utmaningar gör oss starkare – möt dem.",
       "aPic": "",
       "aId": 4
     }

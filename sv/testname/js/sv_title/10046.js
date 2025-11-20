@@ -195,17 +195,17 @@ let quizData = {
                     "aId": 1
                 },
                 {
-                    "answer": ""Tillsammans är vi starkare"",
+                    "answer": "Tillsammans är vi starkare",
                     "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": ""Ande och kunskap"",
+                    "answer": "Ande och kunskap",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": ""Aktera i skuggorna"",
+                    "answer": "Aktera i skuggorna",
                     "aPic": "",
                     "aId": 4
                 }

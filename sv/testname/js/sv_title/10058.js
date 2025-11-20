@@ -164,22 +164,22 @@ let quizData = {
   "pic": "./testname/img/fr_img/60_bc8acbb6-fbd2-43a2-8115-28668ed88dd3.jpeg",
   "answers": [
     {
-      "answer": ""Jag måste göra ett bättre jobb för att fånga Snitch." »",
+      "answer": "Jag måste göra ett bättre jobb för att fånga Snitch.»",
       "aPic": "",
       "aId": 1
     },
     {
-      "answer": ""Vi måste jobba på våra pass."",
+      "answer": "Vi måste jobba på våra pass.",
       "aPic": "",
       "aId": 2
     },
     {
-      "answer": ""Vi måste hantera Bludgers bättre."",
+      "answer": "Vi måste hantera Bludgers bättre.",
       "aPic": "",
       "aId": 3
     },
     {
-      "answer": ""Jag måste förbättra mina räddningar."",
+      "answer": "Jag måste förbättra mina räddningar.",
       "aPic": "",
       "aId": 4
     }
@@ -190,22 +190,22 @@ let quizData = {
   "pic": "./testname/img/fr_img/61_07f6da6b-10f1-4911-9cf2-a951b90eb290.jpeg",
   "answers": [
     {
-      "answer": ""Allt handlar om Snitch."",
+      "answer": "Allt handlar om Snitch.",
       "aPic": "",
       "aId": 1
     },
     {
-      "answer": ""Lagarbete leder till seger."",
+      "answer": "Lagarbete leder till seger.",
       "aPic": "",
       "aId": 2
     },
     {
-      "answer": ""Att skydda laget är mitt uppdrag."",
+      "answer": "Att skydda laget är mitt uppdrag.",
       "aPic": "",
       "aId": 3
     },
     {
-      "answer": ""Ringarna är heliga!" »",
+      "answer": "Ringarna är heliga! »",
       "aPic": "",
       "aId": 4
     }

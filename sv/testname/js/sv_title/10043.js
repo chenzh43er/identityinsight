@@ -44,12 +44,12 @@ let quizData = {
                     "aId": 2
                 },
                 {
-                    "answer": ""Sluta aldrig sträva efter excellens."",
+                    "answer": "Sluta aldrig sträva efter excellens.",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": ""Kitla aldrig en sovande drake."",
+                    "answer": "Kitla aldrig en sovande drake.",
                     "aPic": "",
                     "aId": 4
                 }

@@ -134,7 +134,7 @@ let quizData = {
             ]
         },
         {
-            "question": "Hur ofta tänker du på "Tänk om...?"",
+            "question": "Hur ofta tänker du på Tänk om...?",
             "pic": "./testname/img/fr_img/13_728e99b4-74ec-4bed-8493-a7c01dbd1e6a.png",
             "answers": [
                 {

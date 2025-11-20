@@ -216,22 +216,22 @@ let quizData = {
             "pic": "./testname/img/fr_img/aM0dC1pK3lA4.png",
             "answers": [
                 {
-                    "answer": ""Du lyser upp min värld"",
+                    "answer": "Du lyser upp min värld",
                     "aPic": "",
                     "aId": 1
                 },
                 {
-                    "answer": ""Jag känner din magi nära mig"",
+                    "answer": "Jag känner din magi nära mig",
                     "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": ""Med dig är jag starkare"",
+                    "answer": "Med dig är jag starkare",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": ""Vårt band går längre än trollformler"",
+                    "answer": "Vårt band går längre än trollformler",
                     "aPic": "",
                     "aId": 4
                 }

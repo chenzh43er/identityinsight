@@ -190,22 +190,22 @@ let quizData = {
             "pic": "./testname/img/fr_img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
             "answers": [
                   {
-                    "answer": ""Vem vågar vinner." »",
+                    "answer": "Vem vågar vinner.»",
                     "aPic": "",
                     "aId": 1
                   },
                   {
-                    "answer": ""Intelligens triumferar alltid."",
+                    "answer": "Intelligens triumferar alltid.",
                     "aPic": "",
                     "aId": 2
                   },
                   {
-                    "answer": ""Tillsammans är vi oslagbara."",
+                    "answer": "Tillsammans är vi oslagbara.",
                     "aPic": "",
                     "aId": 3
                   },
                   {
-                    "answer": ""Strategi avgör allt."",
+                    "answer": "Strategi avgör allt.",
                     "aPic": "",
                     "aId": 4
                   }

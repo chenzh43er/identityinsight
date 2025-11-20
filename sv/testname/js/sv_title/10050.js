@@ -190,22 +190,22 @@ let quizData = {
             "pic": "./testname/img/fr_img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
             "answers": [
                   {
-                        "answer": ""Frihet är min största skatt."",
+                        "answer": "Frihet är min största skatt.",
                         "aPic": "",
                         "aId": 1
                       },
                       {
-                        "answer": ""Lojalitet kommer först."",
+                        "answer": "Lojalitet kommer först.",
                         "aPic": "",
                         "aId": 2
                       },
                       {
-                        "answer": ""Djärvhet leder till framgång."",
+                        "answer": "Djärvhet leder till framgång.",
                         "aPic": "",
                         "aId": 3
                       },
                       {
-                        "answer": ""Kunskap skyddar mot allt."",
+                        "answer": "Kunskap skyddar mot allt.",
                         "aPic": "",
                         "aId": 4
                       }

@@ -212,7 +212,7 @@ let quizData = {
             ]
         },
         {
-            "question": "När du hör "Fången från Azkaban" är ditt första ord...",
+            "question": "När du hör Fången från Azkaban är ditt första ord...",
             "pic": "./testname/img/fr_img/e0a2c2i7b1.jpg",
             "answers": [
                 {

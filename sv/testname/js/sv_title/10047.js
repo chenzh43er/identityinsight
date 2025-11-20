@@ -190,22 +190,22 @@ let quizData = {
             "pic": "./testname/img/fr_img/24_f0405364-48a9-4688-bfc6-fc9d3c710b32.jpeg",
             "answers": [
                 {
-                    "answer": ""Jag väljer mitt öde."",
+                    "answer": "Jag väljer mitt öde.",
                     "aPic": "",
                     "aId": 1
                 },
                 {
-                    "answer": ""Kunskap är min styrka."",
+                    "answer": "Kunskap är min styrka.",
                     "aPic": "",
                     "aId": 2
                 },
                 {
-                    "answer": ""Ingen förstår mitt hjärta."",
+                    "answer": "Ingen förstår mitt hjärta.",
                     "aPic": "",
                     "aId": 3
                 },
                 {
-                    "answer": ""Jag är gjord för att leda."",
+                    "answer": "Jag är gjord för att leda.",
                     "aPic": "",
                     "aId": 4
                 }
