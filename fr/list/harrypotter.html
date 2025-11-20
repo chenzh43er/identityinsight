@@ -821,6 +821,8 @@
                         item.url = "../404notFound.html?content=other"
                     }else if(langPage == "no"){
                         item.url = "../404notFound.html?content=other"
+                    }else if(langPage == "sv"){
+                        item.url = "../404notFound.html?content=other"
                     }else{
                         item.url = "../404notFound.html?content=other"
                     }
@@ -1234,6 +1236,8 @@
             document.getElementById("title_mp").innerText="Harry Potter";
         }else if(langPage == "no"){
             document.getElementById("title_mp").innerText="Harry Potter";
+        }else if(langPage == "sv"){
+            document.getElementById("title_mp").innerText="Harry Potter";
         }
         else{
             document.getElementById("title_mp").innerText="Harry Potter";
@@ -1265,10 +1269,13 @@
         }else if(langPage == "no"){
             document.getElementById("popular_btn_h2").innerText = "Mest Populære"
             document.getElementById("latest_btn_h2").innerText = "De Nyeste"
+        }else if(langPage == "sv"){
+            document.getElementById("popular_btn_h2").innerText = "Mest Populära"
+            document.getElementById("latest_btn_h2").innerText = "Senaste"
         }
         else{
-            document.getElementById("popular_btn_h2").innerText = "Mest Populære"
-            document.getElementById("latest_btn_h2").innerText = "De Nyeste"
+            document.getElementById("popular_btn_h2").innerText = "Mest Populära"
+            document.getElementById("latest_btn_h2").innerText = "Senaste"
         }
 
         let campaign =getQueryParam("campaign") ;
@@ -1473,11 +1480,15 @@
             homedataJs = "../testname/js/no/homedata.js";
             document.getElementById('nextPageButton').innerText = "neste";
             utm_campaign_js_url = "../testname/js/no/utm_campaign.js"
+        }else if(langPage == "sv") {
+            homedataJs = "../testname/js/sv/homedata.js";
+            document.getElementById('nextPageButton').innerText = "nästa";
+            utm_campaign_js_url = "../testname/js/sv/utm_campaign.js"
         }
         else{
-            homedataJs = "../testname/js/no/homedata.js";
-            document.getElementById('nextPageButton').innerText = "neste";
-            utm_campaign_js_url = "../testname/js/no/utm_campaign.js"
+            homedataJs = "../testname/js/sv/homedata.js";
+            document.getElementById('nextPageButton').innerText = "nästa";
+            utm_campaign_js_url = "../testname/js/sv/utm_campaign.js"
         }
 
         loadScript(homedataJs, function () {
@@ -1513,6 +1524,8 @@
                             }else if (langPage == "jp") {
                                 indexHref = "../list.html?"
                             }else if (langPage == "no") {
+                                indexHref = "../list.html?"
+                            }else if (langPage == "sv") {
                                 indexHref = "../list.html?"
                             }else {
                                 indexHref = "../list.html?"
@@ -1556,6 +1569,8 @@
                         }else if (langPage == "jp") {
                             indexHref = "../list.html?"
                         }else if (langPage == "no") {
+                            indexHref = "../list.html?"
+                        }else if (langPage == "sv") {
                             indexHref = "../list.html?"
                         }else {
                             indexHref = "../list.html?"

@@ -33,26 +33,37 @@ $(document).ready(function () {
 
     if(langPage == "fr"){
         home_str = "Acceuil"
-        indexHref = "../list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "es"){
         home_str = "Inicio"
-        indexHref = "../list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "en"){
         home_str = "Home"
-        indexHref = "../list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "pt"){
         home_str = "Início"
-        indexHref = "../list.html?"
+        indexHref = "./list.html?"
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
-        indexHref = "../list.html?"; // 链接保持不变
+        indexHref = "./list.html?"; // 链接保持不变
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
-        indexHref = "../list.html?";
-    }else{
-        home_str = "الرئيسية";
-        indexHref = "../list.html?";
+        indexHref = "./list.html?";
+    }else if(langPage == "no"){
+        home_str = "Hjem"
+        indexHref = "./list.html?"
+    }else if(langPage == "jp") {
+        home_str = "ホーム"
+        indexHref = "./list.html?"
+    }else if(langPage == "sv") {
+        home_str = "Startsida"
+        indexHref = "./list.html?"
     }
+    else{
+        home_str = "الرئيسية";
+        indexHref = "./list.html?";
+    }
+
     let toListCat1 = "../list/harrypotter.html?"
 
     if(!isNull(medium)){
