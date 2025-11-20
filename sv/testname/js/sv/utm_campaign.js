@@ -176,27 +176,27 @@ const utm_campaignData = {
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-            "pic": "./img/sv_img/0c489b861c1db124dfb92ea8bfe12735.gif",
+            "pic": "./testname/img/sv_img/0c489b861c1db124dfb92ea8bfe12735.gif",
             "title": "Vad var orsaken till din död i ditt tidigare liv?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
-            "pic": "./img/sv_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+            "pic": "./testname/img/sv_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
             "title": "Vilken Roblox Avatar Matchar Din Vibe?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10011",
-            "pic": "./img/sv_img/77fb62734271c0a1dc0b59a730ac15f8.gif",
+            "pic": "./testname/img/sv_img/77fb62734271c0a1dc0b59a730ac15f8.gif",
             "title": "Vi vet din förälskelses första initial baserat på din handflata 💖✋"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10016",
-            "pic": "./img/sv_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
+            "pic": "./testname/img/sv_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
             "title": "Vilken Disneyprinsessa är du i klä ut dig spel?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10018",
-            "pic": "./img/sv_img/f1c262270db4e7814fb4120263981a1f.gif",
+            "pic": "./testname/img/sv_img/f1c262270db4e7814fb4120263981a1f.gif",
             "title": "Är du en vakt eller en fånge i Roblox Prison Life?"
         }
     ],
