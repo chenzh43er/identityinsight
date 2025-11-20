@@ -2,7 +2,7 @@ const results = {
     "1": {
         "title": "Test Anime-kunnskapen din og finn ut hvilken Harry Potter-karakter du egentlig er",
         "resultTitle": "Ron",
-        "description": "Vous êtes Ron ! Et, malheureusement, vous avez raté ce quiz : tout comme Ron l'aurait fait. Vous avez tendance à être intimidé par les questionnaires et à tirer un trait blanc. Vous savez sûrement des choses sur l'Anime, alors essayez encore ; cette fois, sans le trac !",
+        "description": "Du er Ron! Og dessverre mislyktes du denne quizen: akkurat som Ron ville ha gjort. Du har en tendens til å bli skremt av spørreskjemaer og tegner en blank. Du vet sikkert ting om Anime, så prøv igjen; denne gangen, uten rystelser!",
         "mainPic": "./testname/img/fr_img/aa1b15c6a2f14e8784bdc5b8bf87a367.jpg"
     },
     "2": {
@@ -20,7 +20,7 @@ const results = {
     "4": {
         "title": "Test Anime-kunnskapen din og finn ut hvilken Harry Potter-karakter du egentlig er",
         "resultTitle": "Ron",
-        "description": "Vous êtes Ron ! Et, malheureusement, vous avez raté ce quiz : tout comme Ron l'aurait fait. Vous avez tendance à être intimidé par les questionnaires et à tirer un trait blanc. Vous savez sûrement des choses sur l'Anime, alors essayez encore ; cette fois, sans le trac !",
+        "description": "Du er Ron! Og dessverre mislyktes du denne quizen: akkurat som Ron ville ha gjort. Du har en tendens til å bli skremt av spørreskjemaer og tegner en blank. Du vet sikkert ting om Anime, så prøv igjen; denne gangen, uten rystelser!",
         "mainPic": "./testname/img/fr_img/aa1b15c6a2f14e8784bdc5b8bf87a367.jpg"
     }
 };

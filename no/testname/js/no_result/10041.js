@@ -1,26 +1,26 @@
 const results = {
     "1": {
-        "title": "In Welchem Universum Sollten Sie Leben?",
+        "title": "I Welchem​​​Universum Sollten Sie Leben?",
         "resultTitle": "Barbieland",
-        "description": "Du bist eine glamouröse und stilvolle Person, die alles liebt, was rosa und perfekt ist. Barbie Land ist der perfekte Ort für dich, um dein bestes Leben zu leben, voller Mode, Spaß und Freundschaft.",
+        "description": "Fra en vakker glamour og stilig person, lyver de alle, var rosa og perfekte. Barbie Land er den perfekte Ort für dich, um de beste Leben zu leben, voller Mode, Spaß und Freundschaft.",
         "mainPic": "./testname/img/de_img/47e1fec8a21983033db7c631ab5d0e93.png"
     },
     "2": {
-        "title": "In Welchem Universum Sollten Sie Leben?",
+        "title": "I Welchem​​​Universum Sollten Sie Leben?",
         "resultTitle": "Barbieland",
-        "description": "Du bist eine glamouröse und stilvolle Person, die alles liebt, was rosa und perfekt ist. Barbie Land ist der perfekte Ort für dich, um dein bestes Leben zu leben, voller Mode, Spaß und Freundschaft.",
+        "description": "Fra en vakker glamour og stilig person, lyver de alle, var rosa og perfekte. Barbie Land er den perfekte Ort für dich, um de beste Leben zu leben, voller Mode, Spaß und Freundschaft.",
         "mainPic": "./testname/img/de_img/47e1fec8a21983033db7c631ab5d0e93.png"
     },
     "3": {
-        "title": "In Welchem Universum Sollten Sie Leben?",
+        "title": "I Welchem​​​Universum Sollten Sie Leben?",
         "resultTitle": "Barbieland",
-        "description": "Du bist eine glamouröse und stilvolle Person, die alles liebt, was rosa und perfekt ist. Barbie Land ist der perfekte Ort für dich, um dein bestes Leben zu leben, voller Mode, Spaß und Freundschaft.",
+        "description": "Fra en vakker glamour og stilig person, lyver de alle, var rosa og perfekte. Barbie Land er den perfekte Ort für dich, um de beste Leben zu leben, voller Mode, Spaß und Freundschaft.",
         "mainPic": "./testname/img/de_img/47e1fec8a21983033db7c631ab5d0e93.png"
     },
     "4": {
-        "title": "In Welchem Universum Sollten Sie Leben?",
+        "title": "I Welchem​​​Universum Sollten Sie Leben?",
         "resultTitle": "Barbieland",
-        "description": "Du bist eine glamouröse und stilvolle Person, die alles liebt, was rosa und perfekt ist. Barbie Land ist der perfekte Ort für dich, um dein bestes Leben zu leben, voller Mode, Spaß und Freundschaft.",
+        "description": "Fra en vakker glamour og stilig person, lyver de alle, var rosa og perfekte. Barbie Land er den perfekte Ort für dich, um de beste Leben zu leben, voller Mode, Spaß und Freundschaft.",
         "mainPic": "./testname/img/de_img/47e1fec8a21983033db7c631ab5d0e93.png"
     }
 };

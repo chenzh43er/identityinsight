@@ -1,8 +1,8 @@
 const results = {
     "1": {
-        "title": "Hva er ditt sanne magiske talent på Galtvort?",
-        "resultTitle": "Le Maître des Sortilèges",
-        "description": "Tu es un véritable prodige des sortilèges ! Ton esprit vif et ta curiosité naturelle font de toi un élève redoutable à Poudlard. Tu apprends vite et maîtrises la magie avec élégance.\n" +
+        "title": "Hva med talentet ditt i Galtvort?",
+        "resultTitle": "Trolldommens mester",
+        "description": "Du er et ekte vidunderbarn! Ditt livlige sinn og naturlige nysgjerrighet gjør deg til en formidabel student på Galtvort. Du lærer raskt og mestrer magi med eleganse.\n" +
             "Cours magique recommandé\n" +
             "•  Sortilèges et Enchantements\n" +
             "•  Défense contre les forces du Mal\n" +
@@ -11,9 +11,9 @@ const results = {
         "mainPic": "./testname/img/fr_img/b2b0a0g1c0.jpg"
     },
     "2": {
-        "title": "Hva er ditt sanne magiske talent på Galtvort?",
-        "resultTitle": "Le Gardien des Créatures Magiques",
-        "description": "Ton cœur est pur et connecté à la nature. Tu comprends les émotions des créatures magiques mieux que quiconque, et elles t’adorent en retour.\n" +
+        "title": "Hva med talentet ditt i Galtvort?",
+        "resultTitle": "The Guardian of Magical Creatures",
+        "description": "Hjertet ditt er rent og knyttet til naturen. Du forstår følelsene til magiske skapninger bedre enn noen andre, og de elsker deg til gjengjeld.\n" +
             "Cours magique recommandé\n" +
             "•  Soins aux créatures magiques\n" +
             "•  Botanique\n" +
@@ -22,9 +22,9 @@ const results = {
         "mainPic": "./testname/img/fr_img/i4s1b1i0h5.png"
     },
     "3": {
-        "title": "Hva er ditt sanne magiske talent på Galtvort?",
-        "resultTitle": "Le Maître des Élémentaux",
-        "description": "Le feu, l’eau, l’air et la terre obéissent à ton appel. Ton pouvoir provient de ta force intérieure et de ton équilibre émotionnel. Tu es un être de passion et d’énergie.\n" +
+        "title": "Hva med talentet ditt i Galtvort?",
+        "resultTitle": "Elementalernes mester",
+        "description": "Ild, vann, luft og jord adlyder ditt kall. Din kraft kommer fra din indre styrke og følelsesmessige balanse. Du er et vesen med lidenskap og energi.\n" +
             "Cours magique recommandé\n" +
             "•  Métamorphose\n" +
             "•  Potions avancées\n" +
@@ -34,9 +34,9 @@ const results = {
         "mainPic": "./testname/img/fr_img/g2m4o4a5t0.png"
     },
     "4": {
-        "title": "Hva er ditt sanne magiske talent på Galtvort?",
-        "resultTitle": "Le Visionnaire du Temps et de l’Âme",
-        "description": "Tu as un don rare : celui de voir au-delà du présent. Tes visions te guident, et ton intuition dépasse la magie ordinaire.\n" +
+        "title": "Hva med talentet ditt i Galtvort?",
+        "resultTitle": "Visjonæren av tid og sjel",
+        "description": "Du har en sjelden gave: det å se hinsides nåtiden. Visjonene dine veileder deg, og intuisjonen din går utover vanlig magi.\n" +
             "Cours magique recommandé\n" +
             "•  Divination\n" +
             "•  Astronomie\n" +

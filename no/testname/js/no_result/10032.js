@@ -1,26 +1,26 @@
 const results = {
     "1": {
-        "title": "Hvor mye kjenner du Harry Potter?",
-        "resultTitle": "Vous avez besoin d'une potion de sagesse !",
-        "description": "Oh non, il semble que votre magie nécessite un peu plus de travail ! Ne soyez pas découragé ; tous les grands sorciers ont commencé de zéro. Essayez à nouveau, et avec un peu plus d'effort, vous pourriez bien surmonter ce défi.",
+        "title": "Hvor mye kjenner fra Harry Potter?",
+        "resultTitle": "Du trenger en visdomsdrikk!",
+        "description": "Å nei, det ser ut som om magien din trenger litt mer arbeid! Ikke bli motløs; alle store trollmenn startet fra bunnen av. Prøv igjen, og med litt mer innsats kan du kanskje overvinne denne utfordringen.",
         "mainPic": "./testname/img/fr_img/19cc7f8ad494da8e96b0173beaeee00d.jpeg"
     },
     "2": {
-        "title": "Hvor mye kjenner du Harry Potter?",
-        "resultTitle": "Vous avez besoin d'une potion de sagesse !",
-        "description": "Oh non, il semble que votre magie nécessite un peu plus de travail ! Ne soyez pas découragé ; tous les grands sorciers ont commencé de zéro. Essayez à nouveau, et avec un peu plus d'effort, vous pourriez bien surmonter ce défi.",
+        "title": "Hvor mye kjenner fra Harry Potter?",
+        "resultTitle": "Du trenger en visdomsdrikk!",
+        "description": "Å nei, det ser ut som om magien din trenger litt mer arbeid! Ikke bli motløs; alle store trollmenn startet fra bunnen av. Prøv igjen, og med litt mer innsats kan du kanskje overvinne denne utfordringen.",
         "mainPic": "./testname/img/fr_img/19cc7f8ad494da8e96b0173beaeee00d.jpeg"
     },
     "3": {
-        "title": "Hvor mye kjenner du Harry Potter?",
-        "resultTitle": "Votre vie magique ne fait que commencer",
-        "description": "Vous êtes sur la bonne voie, mais il vous reste encore un peu à faire avant de maîtriser tous les sorts. Ne vous inquiétez pas—chaque sorcier a son moment d'apprentissage ! Essayez encore et explorez davantage le monde magique.",
+        "title": "Hvor mye kjenner fra Harry Potter?",
+        "resultTitle": "Ditt magiske liv har bare så vidt begynt",
+        "description": "Du er på rett vei, men du har fortsatt litt mer å gjøre før du har mestret alle trolldommene. Ikke bekymre deg – hver veiviser har sitt lærebare øyeblikk! Prøv igjen og utforsk mer av den magiske verdenen.",
         "mainPic": "./testname/img/fr_img/6b540942611094231a097670d69f921a.jpeg"
     },
     "4": {
-        "title": "Hvor mye kjenner du Harry Potter?",
-        "resultTitle": "Vous avez besoin d'une potion de sagesse !",
-        "description": "Oh non, il semble que votre magie nécessite un peu plus de travail ! Ne soyez pas découragé ; tous les grands sorciers ont commencé de zéro. Essayez à nouveau, et avec un peu plus d'effort, vous pourriez bien surmonter ce défi.",
+        "title": "Hvor mye kjenner fra Harry Potter?",
+        "resultTitle": "Du trenger en visdomsdrikk!",
+        "description": "Å nei, det ser ut som om magien din trenger litt mer arbeid! Ikke bli motløs; alle store trollmenn startet fra bunnen av. Prøv igjen, og med litt mer innsats kan du kanskje overvinne denne utfordringen.",
         "mainPic": "./testname/img/fr_img/19cc7f8ad494da8e96b0173beaeee00d.jpeg"
     }
 };

@@ -1,8 +1,8 @@
 const results = {
     1: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
-        "resultTitle": "Le Romantique de Gryffondor",
-        "description": "Tu aimes avec passion et courage. Quand tu tombes amoureux, tu n’as peur de rien. Tu veux vivre une histoire digne d’un conte magique.\n" +
+        "resultTitle": "Romantikeren til Gryffindor",
+        "description": "Du elsker med lidenskap og mot. Når du blir forelsket, er du ikke redd for noe. Du vil oppleve en historie som er en magisk fortelling verdig.\n" +
             "Façons de s'entendre\n" +
             "Tu protèges ton partenaire et montres ton amour par des gestes forts. Tu es loyal et sincère, mais parfois un peu impulsif.\n" +
             "Avantage\n" +
@@ -15,8 +15,8 @@ const results = {
     },
     2: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
-        "resultTitle": "Le Rêveur de Serdaigle",
-        "description": "Ton amour est profond, réfléchi et poétique. Tu n’aimes pas les passions bruyantes, mais les connexions d’âme, les conversations qui durent jusqu’à l’aube.\n" +
+        "resultTitle": "Ravneklodrømmeren",
+        "description": "Din kjærlighet er dyp, gjennomtenkt og poetisk. Du liker ikke støyende lidenskaper, men sjeleforbindelser, samtaler som varer til daggry.\n" +
             "Façons de s'entendre\n" +
             "Tu séduis par ton esprit et ta sensibilité. Tu observes, comprends, et donnes un amour calme mais sincère.\n" +
             "Avantage\n" +
@@ -29,8 +29,8 @@ const results = {
     },
     3: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
-        "resultTitle": "Le Stratège de Serpentard",
-        "description": "Tu aimes d’une manière mystérieuse et intense. Tu analyses avant d’agir, mais une fois conquis, ton amour devient inébranlable.\n" +
+        "resultTitle": "Slytherin-strategen",
+        "description": "Du elsker på en mystisk og intens måte. Du analyserer før du handler, men når kjærligheten din er erobret, blir den urokkelig.\n" +
             "Façons de s'entendre\n" +
             "Tu exprimes ton amour par la protection, la fidélité et une certaine forme de séduction stratégique. Tu préfères montrer ton attachement par des actes.\n" +
             "Avantage\n" +
@@ -44,8 +44,8 @@ const results = {
     },
     4: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
-        "resultTitle": "Le Cœur Loyal de Poufsouffle",
-        "description": "Tu crois à la bonté, à la patience et aux petits gestes qui font grandir l’amour. Tu n’aimes pas les jeux, seulement la sincérité.\n" +
+        "resultTitle": "Hufflepuffs lojale hjerte",
+        "description": "Du tror på vennlighet, tålmodighet og de små gestene som får kjærligheten til å vokse. Du liker ikke spill, bare oppriktighet.\n" +
             "Façons de s'entendre\n" +
             "Tu donnes sans compter. Tu cherches la stabilité et la complicité avant tout. Tu pardonnes facilement, mais tu n’oublies jamais la gentillesse.\n" +
             "Avantage\n" +

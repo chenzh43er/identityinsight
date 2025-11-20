@@ -1,7 +1,7 @@
 const results = {
     1: {
         "title": "Hvilket Galtvort-fag vil være din favoritt?",
-        "resultTitle": "Défense contre les forces du mal",
+        "resultTitle": "Forsvar mot den mørke kunsten",
         "description": `Tu es courageux(se), direct(e) et protecteur(trice).
 Les défis te motivent et tu fais toujours face à l’adversité avec détermination.
 Tu inspires les autres à se battre pour ce qui est juste.
@@ -19,7 +19,7 @@ Tu trouves la beauté dans la logique et la rigueur.
     },
     3: {
         "title": "Hvilket Galtvort-fag vil være din favoritt?",
-        "resultTitle": "🔮 Divination",
+        "resultTitle": "🔮 Spådom",
         "description": `Guidé(e) par ton intuition, tu perçois ce que d’autres ne voient pas.
 Ton esprit est ouvert, parfois troublant, mais toujours fascinant.
 `,
@@ -27,7 +27,7 @@ Ton esprit est ouvert, parfois troublant, mais toujours fascinant.
     },
     4: {
         "title": "Hvilket Galtvort-fag vil være din favoritt?",
-        "resultTitle": "Métamorphose",
+        "resultTitle": "Metamorfose",
         "description": `Créatif(ve), spontané(e) et plein(e) d’énergie, tu adores le changement et l’imprévu.
 Tu vois la magie comme un art vivant, toujours en mouvement.
 `,

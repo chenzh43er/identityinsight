@@ -37,7 +37,7 @@ Tu manques peut-être de confiance parfois, mais ton soutien est inébranlable. 
     },
     4: {
         "title": "Hvilken hovedperson i Harry Potter er du?",
-        "resultTitle": "Luna Lovegood (ou une version “libre / visionnaire”)",
+        "resultTitle": "Luna Lovegood (eller en "fri/visjonær" versjon)",
         "description": `Description
 Tu es unique, rêveur(se) et visionnaire. Tu vois le monde différemment et tu embrasses la magie avec créativité.
 Traits dominants

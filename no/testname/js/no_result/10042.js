@@ -2,25 +2,25 @@ const results = {
     "1": {
         "title": "Hvilken Galtvort-professor er du mest lik?",
         "resultTitle": "Severus Snape",
-        "description": "Vous êtes intense, mystérieux, et perfectionniste. Vous seriez l’enseignant qui impose le respect avec votre autorité, mais vous avez aussi un côté loyal et protecteur que peu connaissent. Votre humour acéré et votre passion pour l'enseignement vous distinguent.",
+        "description": "Du er intens, mystisk og en perfeksjonist. Du ville vært læreren som avtvinger respekt med din autoritet, men du har også en lojal og beskyttende side som få kjenner til. Din skarpe humor og lidenskap for undervisning skiller deg ut.",
         "mainPic": "./testname/img/fr_img/7c3297d43be884047bdd07679d4f0f27.jpeg"
     },
     "2": {
         "title": "Hvilken Galtvort-professor er du mest lik?",
         "resultTitle": "Minerva McGonagall",
-        "description": "Pratique, juste et sage, vous trouvez toujours un moyen de résoudre les problèmes. Vous seriez l'enseignant respecté qui sait quand être ferme et quand ajouter une touche d'humour, en maintenant l'équilibre entre discipline et compréhension.",
+        "description": "Praktisk, rettferdig og klok, du finner alltid en måte å løse problemer på. Du vil være den respekterte læreren som vet når du skal være fast og når du skal legge til et snev av humor, og opprettholde balansen mellom disiplin og forståelse.",
         "mainPic": "./testname/img/fr_img/d7d2489e809d8532ea4f306b67c1346c.jpeg"
     },
     "3": {
         "title": "Hvilken Galtvort-professor er du mest lik?",
         "resultTitle": "Remus Lupin",
-        "description": "Vous êtes gentil et empathique, toujours prêt à aider. Vous seriez le professeur qui inspire confiance et soutien, guidant les élèves avec patience et sagesse, faisant en sorte que chacun se sente compris et valorisé dans son apprentissage.",
+        "description": "Du er snill og empatisk, alltid klar til å hjelpe. Du vil være læreren som inspirerer til tillit og støtte, veileder elevene med tålmodighet og visdom, slik at alle føler seg forstått og verdsatt i læringen.",
         "mainPic": "./testname/img/fr_img/2d828dab713b6696233e5502f61ab368.jpeg"
     },
     "4": {
         "title": "Hvilken Galtvort-professor er du mest lik?",
         "resultTitle": "Rubeus Hagrid",
-        "description": "Authentique, passionné, et avec un cœur immense, toujours prêt pour une aventure. Vous seriez le professeur qui transforme chaque cours en quelque chose d'unique, plein d'excitation, de chaos et d'affection, où chacun se sent accepté et spécial.",
+        "description": "Autentisk, lidenskapelig og med et stort hjerte, alltid klar for et eventyr. Du ville være læreren som gjør hver leksjon til noe unikt, fullt av spenning, kaos og hengivenhet, hvor alle føler seg akseptert og spesielle.",
         "mainPic": "./testname/img/fr_img/cee8b13088e6a8889f6d2a19cfffbfce.jpeg"
     }
 };

@@ -1,26 +1,26 @@
 const results = {
     "1": {
-        "title": "Dans Quel Univers Devriez-Vous Vivre?",
+        "title": "Hvilket univers bør du leve i?",
         "resultTitle": "Barbieland",
-        "description": "Vous êtes une personne glamour et élégante qui aime tout ce qui est rose et parfait. Barbie Land est l'endroit idéal pour vivre votre meilleure vie, rempli de mode, de plaisir et d'amitié.",
+        "description": "Du er en glamorøs og elegant person som elsker alt rosa og perfekt. Barbie Land er det perfekte stedet å leve ditt beste liv, fylt med mote, moro og vennskap.",
         "mainPic": "./testname/img/fr_img/47e1fec8a21983033db7c631ab5d0e93.png"
     },
     "2": {
-        "title": "Dans Quel Univers Devriez-Vous Vivre?",
+        "title": "Hvilket univers bør du leve i?",
         "resultTitle": "Barbieland",
-        "description": "Vous êtes une personne glamour et élégante qui aime tout ce qui est rose et parfait. Barbie Land est l'endroit idéal pour vivre votre meilleure vie, rempli de mode, de plaisir et d'amitié.",
+        "description": "Du er en glamorøs og elegant person som elsker alt rosa og perfekt. Barbie Land er det perfekte stedet å leve ditt beste liv, fylt med mote, moro og vennskap.",
         "mainPic": "./testname/img/fr_img/47e1fec8a21983033db7c631ab5d0e93.png"
     },
     "3": {
-        "title": "Dans Quel Univers Devriez-Vous Vivre?",
-        "resultTitle": "Fourchettes",
-        "description": "Vous êtes un amoureux de la nature qui apprécie la paix et la tranquillité. Forks de Twilight est l'endroit idéal pour vous vivre une vie simple entourée de beaux paysages et de gens sympathiques.",
+        "title": "Hvilket univers bør du leve i?",
+        "resultTitle": "Gafler",
+        "description": "Du er en naturelsker som setter pris på fred og ro. Twilight Forks er det perfekte stedet for deg å leve et enkelt liv omgitt av vakker natur og vennlige mennesker.",
         "mainPic": "./testname/img/fr_img/a84280a556958a5ee63ff7853d663999.png"
     },
     "4": {
-        "title": "Dans Quel Univers Devriez-Vous Vivre?",
-        "resultTitle": "Fourchettes",
-        "description": "Vous êtes un amoureux de la nature qui apprécie la paix et la tranquillité. Forks de Twilight est l'endroit idéal pour vous vivre une vie simple entourée de beaux paysages et de gens sympathiques.",
+        "title": "Hvilket univers bør du leve i?",
+        "resultTitle": "Gafler",
+        "description": "Du er en naturelsker som setter pris på fred og ro. Twilight Forks er det perfekte stedet for deg å leve et enkelt liv omgitt av vakker natur og vennlige mennesker.",
         "mainPic": "./testname/img/fr_img/a84280a556958a5ee63ff7853d663999.png"
     }
 };
