@@ -1,6 +1,11 @@
 const dataPage = {
 	"mostPopular": [
 		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
+			"pic": "./testname/img/no_img/01_e3fa10b7-c2db-4ecd-8b65-e01506cbcc30.png",
+			"title": "Er du Elsa eller Anna? (Basert på hvordan du takler stress) "
+		},
+		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10001",
 			"pic": "./testname/img/no_img/7636dd566b050c9098f74055ea4b4364.jpeg",
 			"title": "Skriv inn bursdagen din for å se hva julenavnet ditt er?"
