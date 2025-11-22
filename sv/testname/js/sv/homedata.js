@@ -1,6 +1,11 @@
 const dataPage = {
 	"mostPopular": [
 		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
+			"pic": "./testname/img/sv_img/01_10df891c-61bd-4295-8752-e6bc1004979c.jpeg",
+			"title": "Vilken \"Dress To Impress\"-drottning är du egentligen? "
+		},
+		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10001",
 			"pic": "./testname/img/sv_img/01d2e8d26910b11137a5be94d5661940.gif",
 			"title": "Misofobi, ordningssinne eller kontroll? Vilken typ av OCD har du?"
