@@ -5625,15 +5625,15 @@ input[type="search"]::-webkit-search-clear-button {
 }
 
 .horo-badges-item .star-full {
-    background: url(../images/horoscope/full-star.svg) center no-repeat;
+    background: url(../svg/full-star.svg) center no-repeat;
 }
 
 .horo-badges-item .star-half {
-    background: url(../images/horoscope/half-star.svg) center no-repeat;
+    background: url(../svg/half-star.svg) center no-repeat;
 }
 
 .horo-badges-item .star-empty {
-    background: url(../images/horoscope/empty-star.svg) center no-repeat;
+    background: url(../svg/empty-star.svg) center no-repeat;
 }
 
 .retake-quiz-ls {
