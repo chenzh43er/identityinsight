@@ -7,7 +7,6 @@
   <meta name="description" content="Want to know what the stars have in store for you today? Choose your sign for a daily horoscope reading.">
   <meta name="keywords" content="daily horoscope, daily horoscope news, daily horoscope reading, free horoscope today">
   <link rel="stylesheet" href="./css/style.css">
-  <meta property="og:type" content="article">
  </script>
 </head>
 <body style="" aria-hidden="false">
@@ -232,7 +231,7 @@
     <div class="pagecontent fortune-page" style="height: auto !important;">
 
       <div class="pageleft" style="height: auto !important;">
-        <h1 class="page-tl">
+        <h1 class="page-tl" id = "horoPageTitle">
           <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
         </h1>
         <div class="zodiac-for-ls">
@@ -393,115 +392,118 @@
             </svg>
           </div>
         </div>
-        <h3 class="astro-h3">Explore Horoscopes</h3>
-        <div class="zodiac-ex-ls">
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/daily/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-daily-explore"></use>
+
+        <div id = "selectOrAQMessage">
+          <h3 class="astro-h3">Explore Horoscopes</h3>
+          <div class="zodiac-ex-ls">
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/daily/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-daily-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/weekly/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-weekly-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/weekly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-weekly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/monthly/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-monthly-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/monthly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-monthly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/yearly/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-yearly-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/yearly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-yearly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/zodiac-love/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-zodiac-love-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/zodiac-love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-zodiac-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/love/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-love-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Love Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/health/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-health-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/health/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-health-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Health Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/career/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-career-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/career/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-career-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Career Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-ex-item">
-            <a class="coverlink" href="/horoscope/sex/"></a>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-sex-explore"></use>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/sex/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-sex-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
               </svg>
-              <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
             </div>
-            <svg class="icon-ex-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
           </div>
         </div>
         <div class="topic-pick" style="height: auto !important;">
@@ -805,4 +807,200 @@
   </div>
 </footer>
 </body>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+
+  const cat = params.get("cat");
+
+  // 方法1：判断是否为 null 或空字符串
+  if (cat === null || cat === "") {
+    document.getElementById("horoPageTitle").innerHTML = `
+        <span class="page-tl-tag">CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE</span>
+
+    `
+
+    document.getElementById("selectOrAQMessage").innerHTML = `
+        <h3 class="astro-h3">Astrology FAQs</h3>
+        <div class="faq-ls">
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>What does Horoscope mean?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+A horoscope is a brief forecast for individuals born under a certain sign based on a representation of the relative positions of planets and zodiac signs at a specific moment, specifically, the time, date, month, and year of their birth. This is done by astrologers in order to reveal a person's personality traits and predict their future life events.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How does Astrology work?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+Astrology is based on the belief that stars and planets have some impacts on individual affairs and occurrences on Earth. Horoscopes are the Western form of astrology and are based on an astrologer's interpretation of an individual's life based on how the stars and planets were aligned during their birth. These forecasts are read all around the world on a regular basis.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>What does Zodiac Sign mean?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+"Zodiac" refers to the twelve-division sphere of planetary longitude that is centered on the Sun's course. The term zodiac comes from the Latin word “Zodiacus”, which means "circle of animals" and has been used to foretell or reflect personality traits throughout centuries. These twelve signs are also divided into four elements: Fire, Earth, Air, and Water.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How do you determine your Zodiac Sign?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+You can find out your Zodiac Sign by determining where your date of birth falls on the monthly calendar. For example, March 21 - April 20 is an Aries, April 21 - May 20 is a Taurus, so on and so forth.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How can I check my Horoscope online for free?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+You can get free horoscope services online for free through our site: Astrologiez, where daily readings are done by trained astrologers. Astrologiez is the best place where you can find guidance in life and view your compatibility with other signs.
+</div>
+</div>
+</div>
+    `
+  } else {
+    document.getElementById("horoPageTitle").innerHTML = `
+    <span class="page-tl-tag">Read Your <span class="special-tag">${cat}/span> Horoscope</span>
+
+    `
+    document.getElementById("selectOrAQMessage").innerHTML = `
+    <h3 class="astro-h3">Explore Horoscopes</h3>
+          <div class="zodiac-ex-ls">
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/daily/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-daily-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/weekly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-weekly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/monthly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-monthly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/yearly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-yearly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/zodiac-love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-zodiac-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/health/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-health-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/career/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-career-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/sex/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-sex-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+          </div>
+    `
+  }
+
+
+</script>
+
 </html>
