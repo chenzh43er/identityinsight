@@ -10,6 +10,7 @@
   <meta name="description" content="Why not look to the stars for your sex and love life? Take your time make your sex life more happy and fulfilling.">
   <meta name="keywords" content="sex horoscope, sex, sex life, love, partner, man, woman, male, female">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/zodic.json.js"></script>
   </head>
 <body style="" aria-hidden="false">
 
@@ -195,6 +196,7 @@
       </li>
     </ol>
     <div class="pagecontent" style="height: auto !important;">
+
       <div class="pageleft" style="height: auto !important;">
         <div class="horopage-line">
           <img class="sign-pic-img" src="/public/static/images/horoscope/aries.png" alt="aries">
@@ -203,11 +205,6 @@
             <h1 class="horopage-tl">Aries</h1>
           </div>
         </div>
-        <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6874410873970579" crossorigin="anonymous"></script>
-        <!-- astro Ads 1 -->
-         <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
         <h3 class="astro-h3">Aries Star Ratings</h3>
         <div class="horo-badges-ls">
           <div class="horo-badges-item">
@@ -251,10 +248,6 @@
               <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
           </div>
         </div>
-        <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6874410873970579" crossorigin="anonymous"></script>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
         <h3 class="astro-h3">Sex Horoscope For Aries</h3>
         <div class="article-con">
           <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
@@ -581,5 +574,16 @@
     </div>
   </div>
 </footer>
+
 </body>
+<script>
+
+  const params = new URLSearchParams(window.location.search);
+  const horo = params.get("horo");
+  const cat = params.get("cat");
+  const result = dataPage[horo][cat];
+
+  console.log(result)
+
+</script>
 </html>
