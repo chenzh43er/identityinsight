@@ -3,19 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Free Daily, Weekly &amp; Monthly Horoscope Forecasts - astrologiez.com</title>
-    <link rel="preload" href="/public/static/fonts/BluuNext-Bold.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="/public/static/fonts/ProductSans-Regular.woff2" as="font" type="font/woff2" crossorigin="">
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="dns-prefetch preconnect" href="//pagead2.googlesyndication.com" crossorigin="">
-    <link rel="dns-prefetch preconnect" href="//googleads.g.doubleclick.net" crossorigin="">
-    <link rel="dns-prefetch preconnect" href="//adservice.google.com" crossorigin="">
-    <link rel="dns-prefetch preconnect" href="//www.yourappcdn.com" crossorigin="">
-    <link href="/asen-favicon.ico" rel="shortcut icon">
-    <link rel="apple-touch-icon" href="/asen-apple-touch-icon">
-    <link rel="apple-touch-icon" sizes="72x72" href="/asen-apple-touch-icon-72×72-precomposed.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/asen-apple-touch-icon-114×114-precomposed.png">
-    <link rel="manifest" href="/public/static/json/manifest.json">
+    <script src="./js/zodic.json.js"></script>
 <body style="">
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -240,14 +230,14 @@
         </ol>
         <div class="pagecontent" style="height: auto !important;">
             <div class="pageleft" style="height: auto !important;">
-                <div class="horopage-line">
+                <div class="horopage-line" id = "horoTitle">
                     <img class="sign-pic-img" src="/public/static/images/horoscope/aries.svg" alt="aries">
                     <div class="horopage-info">
                         <h2 class="horopage-tl">Aries Horoscopes</h2>
                         <span class="horopage-desc">Daily, Weekly and Monthly</span>
                     </div>
                 </div>
-                <div class="scorpio-con" style="height: auto !important;">
+                <div class="scorpio-con" style="height: auto !important;" id = "horoCatList">
                     <div class="scorpio-section">
                         <a class="coverlink" href="/horoscope/daily/aries/"></a>
 
@@ -645,6 +635,137 @@
         </div>
     </div>
 </footer>
-
 </body>
+
+<script>
+
+    const params = new URLSearchParams(window.location.search);
+
+    const horo = params.get("horo");
+
+    document.getElementById("horoTitle").innerHTML = `
+                        <img class="sign-pic-img" src="${dataPage[horo]["daily"].image_src}" alt="aries">
+                    <div class="horopage-info">
+                        <h2 class="horopage-tl">${horo} Horoscopes</h2>
+                        <span class="horopage-desc">Daily, Weekly and Monthly</span>
+                    </div>
+    `
+
+    document.getElementById("horoCatList").innerHTML = `
+        <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/daily/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Daily Horoscope</h3>
+                            <span class="scorpio-date">
+                                                                                    Nov 25, 2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["daily"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/weekly/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Weekly Horoscope</h3>
+                            <span class="scorpio-date">
+                                                                                    Nov 23 - Nov 29                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["weekly"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/monthly/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Monthly Horoscope</h3>
+                            <span class="scorpio-date">
+                                                                                    November                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["monthly"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/yearly/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Yearly Horoscope</h3>
+                            <span class="scorpio-date">
+                                                                                    2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["yearly"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/love/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Love Horoscope</h3>
+                            <span class="scorpio-date">
+                                        Nov 25, 2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["love"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/health/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Health Horoscope</h3>
+                            <span class="scorpio-date">
+                                        Nov 25, 2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["health"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/career/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Career Horoscope</h3>
+                            <span class="scorpio-date">
+                                        Nov 25, 2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["career"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+                    <div class="scorpio-section">
+                        <a class="coverlink" href="/horoscope/sex/aries/"></a>
+
+                        <div class="scorpio-section-inner">
+                            <h3 class="scorpio-tl">${horo} Sex Horoscope</h3>
+                            <span class="scorpio-date">
+                                        Nov 25, 2025                                    </span>
+                            <div class="scorpio-des">
+                                ${dataPage[horo]["sex"].desc}
+                            </div>
+                            <span class="scorpio-more">Read More</span>
+                        </div>
+
+                    </div>
+    `
+
+</script>
+
 </html>

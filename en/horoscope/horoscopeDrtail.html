@@ -13,6 +13,30 @@
   <script src="./js/zodic.json.js"></script>
   </head>
 <body style="" aria-hidden="false">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-read-more" viewBox="0 0 1024 1024">
+    <path d="M951.127 483.716L668.284 200.873c-7.811-7.811-18.048-11.716-28.284-11.716-10.237 0-20.474 3.905-28.284 11.716-15.621 15.621-15.621 40.947 0 56.568L826.274 472H104c-22.092 0-40 17.908-40 40 0 22.091 17.908 40 40 40h722.274L611.716 766.559c-15.621 15.62-15.621 40.947 0 56.568 7.811 7.811 18.047 11.716 28.284 11.716 10.236 0 20.474-3.905 28.284-11.716l282.843-282.843c15.621-15.621 15.621-40.948 0-56.568z" p-id="3880"></path>
+  </symbol>
+  <symbol id="icon-share-facebook" viewBox="0 0 24 24">
+    <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path>
+  </symbol>
+  <symbol id="icon-share-twitter" viewBox="0 0 1668.56 1221.19">
+    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+      .st0{stroke:#FFFFFF;stroke-miterlimit:10;}
+      .st1{fill:#FFFFFF;}
+    </style>
+    <g xmlns="http://www.w3.org/2000/svg">
+      <g id="layer1" transform="translate(52.390088,-25.058597)">
+        <path id="path1009" class="st1" d="M485.39,356.79l230.07,307.62L483.94,914.52h52.11l202.7-218.98l163.77,218.98h177.32    L836.82,589.6l215.5-232.81h-52.11L813.54,558.46L662.71,356.79H485.39z M562.02,395.17h81.46l359.72,480.97h-81.46L562.02,395.17    z"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol id="icon-share-line" viewBox="0 0 24 24">
+    <path d="m12 .5c-6.615 0-12 4.398-12 9.803 0 4.841 4.27 8.897 10.035 9.668.391.083.923.26 1.058.594.12.303.079.771.038 1.087l-.164 1.026c-.045.303-.24 1.193 1.049.649 1.291-.542 6.916-4.104 9.436-7.019 1.724-1.9 2.548-3.847 2.548-6.005 0-5.405-5.385-9.803-12-9.803zm-4.697 13.017h-2.386c-.345 0-.63-.287-.63-.633v-4.801c0-.347.285-.634.63-.634.348 0 .63.287.63.634v4.167h1.756c.348 0 .629.285.629.634 0 .346-.282.633-.629.633zm2.466-.633c0 .346-.282.633-.631.633-.345 0-.627-.287-.627-.633v-4.801c0-.347.282-.634.63-.634.346 0 .628.287.628.634zm5.741 0c0 .272-.174.513-.432.6-.064.021-.133.031-.199.031-.211 0-.391-.091-.51-.252l-2.443-3.338v2.958c0 .346-.279.633-.631.633-.346 0-.626-.287-.626-.633v-4.8c0-.272.173-.513.43-.599.06-.023.136-.033.194-.033.195 0 .375.105.495.256l2.462 3.351v-2.975c0-.347.282-.634.63-.634.345 0 .63.287.63.634zm3.855-3.035c.349 0 .63.287.63.635 0 .347-.281.634-.63.634h-1.755v1.132h1.755c.349 0 .63.285.63.634 0 .346-.281.633-.63.633h-2.386c-.345 0-.627-.287-.627-.633v-4.801c0-.347.282-.634.63-.634h2.386c.346 0 .627.287.627.634 0 .351-.281.634-.63.634h-1.755v1.132z"></path>
+  </symbol>
+</svg>
+
+
 
 <header>
   <div class="header">
@@ -198,7 +222,7 @@
     <div class="pagecontent" style="height: auto !important;">
 
       <div class="pageleft" style="height: auto !important;">
-        <div class="horopage-line">
+        <div class="horopage-line" id = "horoPageTitle">
           <img class="sign-pic-img" src="/public/static/images/horoscope/aries.png" alt="aries">
           <div class="horopage-info">
             <span class="horopage-tl-sub">Sex Horoscope</span>
@@ -248,13 +272,27 @@
               <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
           </div>
         </div>
-        <h3 class="astro-h3">Sex Horoscope For Aries</h3>
-        <div class="article-con">
+        <h3 class="astro-h3" id = "titleForMessage">Sex Horoscope For Aries</h3>
+        <div class="article-con" id = "messageForHoro">
           <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
         </div>
+
+        <div class="horo-today-ls">
+          <a class="horo-today-item active" href="/horoscope/daily/aries/"><span class="horo-today-name">daily</span></a>
+          <a class="horo-today-item " href="/horoscope/weekly/aries/"><span class="tab-trend-txt">weekly</span></a>
+          <a class="horo-today-item " href="/horoscope/monthly/aries/"><span class="tab-trend-txt">monthly</span></a>
+          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">yearly</span></a>
+        </div>
+        <div class="horo-today-ls">
+          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">love</span></a>
+          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">health</span></a>
+          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">career</span></a>
+          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">sex</span></a>
+        </div>
+
         <div class="share-social">
           <div class="share-tl">Share today's fortune</div>
-          <div class="share-ls">
+          <div class="share-ls" id = "horoShare">
             <div class="share-item share-item-facebook">
               <a class="coverlink" href="https://www.facebook.com/sharer/sharer.php?u=https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
               <svg class="icon-facebook">
@@ -585,5 +623,93 @@
 
   console.log(result)
 
+  document.getElementById("horoPageTitle").innerHTML = `
+  <img class="sign-pic-img" src="${result.image_src}" alt="aries">
+          <div class="horopage-info">
+            <span class="horopage-tl-sub">${cat} Horoscope</span>
+            <h1 class="horopage-tl">${horo}</h1>
+          </div>
+  `
+
+  document.getElementById("titleForMessage").innerHTML = `${cat} Horoscope For ${horo}`
+
+  document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
+
+  renderBadges(result.badges)
+
+  setActiveTab(cat)
+
+  const url = window.location.href;
+
+  document.getElementById("horoShare").innerHTML = `
+
+  <div class="share-item share-item-facebook">
+              <a class="coverlink" href="https://www.facebook.com/sharer/sharer.php?u=${url}" target="_blank"></a>
+              <svg class="icon-facebook">
+                <use xlink:href="#icon-share-facebook"></use>
+              </svg>
+            </div>
+            <div class="share-item share-item-twitter">
+              <a class="coverlink" href="https://twitter.com/share?url=${url}" target="_blank"></a>
+              <svg class="icon-twitter">
+                <use xlink:href="#icon-share-twitter"></use>
+              </svg>
+            </div>
+            <div class="share-item share-item-line">
+              <a class="coverlink" href="https://line.me/R/msg/text/?${url}" target="_blank"></a>
+              <svg class="icon-line">
+                <use xlink:href="#icon-share-line"></use>
+              </svg>
+            </div>
+
+  `
+
+  // ⭐ 渲染函数：把 JSON 数据填充到 HTML
+  function renderBadges(badges) {
+    const items = document.querySelectorAll('.horo-badges-item');
+
+    badges.forEach(badge => {
+      // 通过文本名称匹配对应的 DOM
+      let item = [...items].find(
+              el => el.querySelector('.horo-emoji-name').textContent.trim() === badge.name
+      );
+
+      if (!item) return;
+
+      const starsDOM = item.querySelectorAll('ul li span');
+
+      badge.stars.forEach((value, index) => {
+        if (!starsDOM[index]) return;
+
+        starsDOM[index].classList.remove('star-full', 'star-half', 'star-empty');
+
+        if (value === 1.0) {
+          starsDOM[index].classList.add('star-full');
+        } else if (value === 0.5) {
+          starsDOM[index].classList.add('star-half');
+        } else {
+          starsDOM[index].classList.add('star-empty');
+        }
+      });
+    });
+  }
+
+  function setActiveTab(type) {
+    // 移除所有 active
+    document.querySelectorAll('.horo-today-item').forEach(item => {
+      item.classList.remove('active');
+    });
+
+    // 根据 span 内容匹配
+    const target = Array.from(document.querySelectorAll('.horo-today-item span'))
+            .find(span => span.textContent.trim().toLowerCase() === type.toLowerCase());
+
+    if (target) {
+      target.parentElement.classList.add('active');
+    }
+  }
+
 </script>
 </html>
+
+
