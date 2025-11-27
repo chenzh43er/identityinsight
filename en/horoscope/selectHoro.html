@@ -576,7 +576,11 @@
 <script>
   const params = new URLSearchParams(window.location.search);
 
-  const cat = params.get("cat");
+  // const cat = params.get("cat");
+
+  const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
+  const parts = path.split('/');
+  const cat = parts[parts.length - 1];
 
   // 方法1：判断是否为 null 或空字符串
   if (cat === null || cat === "") {
