@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
+    <base href="/en/horoscope/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Free Daily, Weekly &amp; Monthly Horoscope Forecasts - astrologiez.com</title>
@@ -420,7 +421,11 @@
 
     const params = new URLSearchParams(window.location.search);
 
-    const horo = params.get("horo");
+    // const horo = params.get("horo");
+
+    const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
+    const parts = path.split('/');
+    const horo = parts[parts.length - 1];
 
     document.getElementById("horoTitle").innerHTML = `
                         <img class="sign-pic-img" src="${dataPage[horo]["daily"].image_src}" alt="aries">
