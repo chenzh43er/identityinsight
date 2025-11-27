@@ -113,10 +113,6 @@ img {
     opacity: 1;
 }
 
-img[data-src] {
-    opacity: 0;
-}
-
 button {
     border: none;
     background: none;
@@ -4316,7 +4312,8 @@ input[type='checkbox'],input[type='radio'] {
 }
 
 .scorpio-con {
-    margin-left: -16px;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
 }
 
 .scorpio-section {
@@ -9696,7 +9693,7 @@ input[type="search"]::-webkit-search-clear-button {
 
     .pageright {
         flex: 1;
-        padding-left: 62px;
+        padding-left: 30px;
     }
 
     .pageright .common-tl {
