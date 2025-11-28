@@ -586,6 +586,8 @@
     cat = '';
   }
 
+  let lang = getLangFromPath()
+
   // 方法1：判断是否为 null 或空字符串
   if (cat === null || cat === "") {
     document.getElementById("horoPageTitle").innerHTML = `
@@ -653,6 +655,12 @@ You can get free horoscope services online for free through our site: Astrologie
 </div>
 </div>
     `
+
+    document.querySelectorAll('.zodiac-for-item').forEach(item => {
+      const name = item.querySelector('.zodiac-for-tl').textContent.trim().toLowerCase();
+      const link = item.querySelector('.coverlink');
+      link.href = `/${lang}/horoscope/${name}/`;
+    });
   } else {
 
     let lang = getLangFromPath()
@@ -774,6 +782,12 @@ You can get free horoscope services online for free through our site: Astrologie
             </div>
           </div>
     `
+
+    document.querySelectorAll('.zodiac-for-item').forEach(item => {
+      const name = item.querySelector('.zodiac-for-tl').textContent.trim().toLowerCase();
+      const link = item.querySelector('.coverlink');
+      link.href = `/horoscope/${name}/${cat}`;
+    });
   }
 
 
@@ -1055,6 +1069,11 @@ You can get free horoscope services online for free through our site: Astrologie
   function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(name);
+  }
+
+  function getLangFromPath() {
+    const pathSegments = window.location.pathname.split('/');
+    return pathSegments[1]; // 假设语言代码总是在第一个路径段
   }
 
   function initTitleMT(){
