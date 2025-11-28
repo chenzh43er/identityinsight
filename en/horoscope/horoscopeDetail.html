@@ -407,20 +407,20 @@
 
   document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
 
-  let langPage = getLangFromPath()
+  let lang = getLangFromPath()
 
   document.getElementById("horo-today-ls").innerHTML = `
             <div class="horo-today-ls">
-              <a class="horo-today-item active" href="/${langPage}/horoscope/${cat}/daily/"><span class="horo-today-name">daily</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/weekly/"><span class="tab-trend-txt">weekly</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/monthly/"><span class="tab-trend-txt">monthly</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/yearly/"><span class="tab-trend-txt">yearly</span></a>
+              <a class="horo-today-item active" href="/${lang}/horoscope/${cat}/daily/"><span class="horo-today-name">daily</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/weekly/"><span class="tab-trend-txt">weekly</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/monthly/"><span class="tab-trend-txt">monthly</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/yearly/"><span class="tab-trend-txt">yearly</span></a>
             </div>
             <div class="horo-today-ls">
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/love/"><span class="tab-trend-txt">love</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/health/"><span class="tab-trend-txt">health</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/career/"><span class="tab-trend-txt">career</span></a>
-              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/sex/"><span class="tab-trend-txt">sex</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/love/"><span class="tab-trend-txt">love</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/health/"><span class="tab-trend-txt">health</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/career/"><span class="tab-trend-txt">career</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${cat}/sex/"><span class="tab-trend-txt">sex</span></a>
             </div>
   `
 
