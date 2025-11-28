@@ -578,9 +578,13 @@
 
   // const cat = params.get("cat");
 
-  const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
-  const parts = path.split('/');
-  const cat = parts[parts.length - 1];
+  const path = window.location.pathname;
+  const parts = path.split('/').filter(Boolean);
+  let cat = parts[parts.length - 1];
+
+  if (cat === 'horoscope') {
+    cat = '';
+  }
 
   // 方法1：判断是否为 null 或空字符串
   if (cat === null || cat === "") {
