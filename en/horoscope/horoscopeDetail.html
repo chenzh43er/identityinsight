@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <base href="/en/horoscope/">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>DISCOVER SECRETS TO A BETTER SEX LIFE</title>
@@ -381,8 +382,12 @@
 <script>
 
   const params = new URLSearchParams(window.location.search);
-  const horo = params.get("horo");
-  const cat = params.get("cat");
+  const segments = url.pathname.split('/').filter(s => s !== '');
+  // segments = ["en", "horoscope", "Leo", "daily"]
+
+  const horo = segments[2];   // "Leo"
+  const cat = segments[3];   // "daily"
+
   const result = dataPage[horo][cat];
 
   console.log(result)
