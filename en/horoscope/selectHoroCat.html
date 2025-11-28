@@ -987,6 +987,19 @@
 
     initTitleMT();
 
+    const indexadv_2 = document.getElementById('horoCat_2')
+    const observer2 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadHoroAdv_2(entry.target);
+                obs.unobserve(entry.target);
+            }
+        });
+    }, {
+        rootMargin: '0px',
+    });
+    observer2.observe(indexadv_2);
+
     let mt_data_url = ""
 
     let langPage = getLangFromPath()
@@ -1387,6 +1400,17 @@
 
     function isNull(value) {
         return value === null;
+    }
+
+    function loadHoroAdv_2(el) {
+        // 插入 <ins> HTML
+        el.innerHTML = returnHoroCat_2();
+        // 触发广告加载
+        try {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+            console.error("AdSense push error", e);
+        }
     }
 
 </script>
