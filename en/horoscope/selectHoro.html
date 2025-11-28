@@ -657,7 +657,7 @@ You can get free horoscope services online for free through our site: Astrologie
     `
 
     document.querySelectorAll('.zodiac-for-item').forEach(item => {
-      const name = item.querySelector('.zodiac-for-tl').textContent.trim().toLowerCase();
+      const name = item.querySelector('.zodiac-for-tl').textContent.trim();
       const link = item.querySelector('.coverlink');
       link.href = `/${lang}/horoscope/${name}/`;
     });
@@ -784,7 +784,7 @@ You can get free horoscope services online for free through our site: Astrologie
     `
 
     document.querySelectorAll('.zodiac-for-item').forEach(item => {
-      const name = item.querySelector('.zodiac-for-tl').textContent.trim().toLowerCase();
+      const name = item.querySelector('.zodiac-for-tl').textContent.trim();
       const link = item.querySelector('.coverlink');
       link.href = `/${lang}/horoscope/${name}/${cat}`;
     });
