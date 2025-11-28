@@ -419,9 +419,11 @@
 
 <script>
 
+
+
     const params = new URLSearchParams(window.location.search);
 
-    // const horo = params.get("horo");
+    //const horo = params.get("horo");
 
     const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
     const parts = path.split('/');
@@ -467,11 +469,11 @@
     const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
         + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
 
-    let langPage = getLangFromPath()
+    let lang = getLangFromPath()
 
     document.getElementById("horoCatList").innerHTML = `
         <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/daily/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/daily/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Daily Horoscope</h3>
@@ -485,7 +487,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/weekly/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/weekly/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Weekly Horoscope</h3>
@@ -499,7 +501,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/monthly/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/monthly/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Monthly Horoscope</h3>
@@ -513,7 +515,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/yearly/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/yearly/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Yearly Horoscope</h3>
@@ -527,7 +529,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/love/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/love/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Love Horoscope</h3>
@@ -541,7 +543,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/health/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/health/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Health Horoscope</h3>
@@ -555,7 +557,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/career/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/career/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Career Horoscope</h3>
@@ -569,7 +571,7 @@
 
                     </div>
                     <div class="scorpio-section">
-                        <a class="coverlink" href="/${langPage}/horoscope/sex/aries/"></a>
+                        <a class="coverlink" href="/${lang}/horoscope/sex/aries/"></a>
 
                         <div class="scorpio-section-inner">
                             <h3 class="scorpio-tl">${horo} Sex Horoscope</h3>
@@ -615,6 +617,11 @@
         // 初始化数据
         initHomeDataForMo();
     });
+
+    function getLangFromPath() {
+        const pathSegments = window.location.pathname.split('/');
+        return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    }
 
     function renderHomeData(data) {
 
@@ -900,11 +907,6 @@
         };
 
         document.head.appendChild(script); // 插入到 `head` 中
-    }
-
-    function getLangFromPath() {
-        const pathSegments = window.location.pathname.split('/');
-        return pathSegments[1]; // 假设语言代码总是在第一个路径段
     }
 
     function initHomeDataForMo() {
