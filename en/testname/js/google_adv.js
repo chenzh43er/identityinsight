@@ -262,3 +262,16 @@ function returnHoro_2(){
      data-full-width-responsive="true"></ins>
     `
 }
+
+function returnHoroCat_2(){
+    return `
+    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+    <!-- horocat_2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="8515745840"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
