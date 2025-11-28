@@ -654,6 +654,9 @@ You can get free horoscope services online for free through our site: Astrologie
 </div>
     `
   } else {
+
+    let lang = getLangFromPath()
+
     document.getElementById("horoPageTitle").innerHTML = `
     <span class="page-tl-tag">Read Your <span class="special-tag">${cat} Horoscope</span>
 
@@ -662,7 +665,7 @@ You can get free horoscope services online for free through our site: Astrologie
     <h3 class="astro-h3">Explore Horoscopes</h3>
           <div class="zodiac-ex-ls">
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/daily/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-daily-explore"></use>
@@ -674,7 +677,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/weekly/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-weekly-explore"></use>
@@ -686,7 +689,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/monthly/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-monthly-explore"></use>
@@ -698,7 +701,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/yearly/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-yearly-explore"></use>
@@ -710,7 +713,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/zodiac-love/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-zodiac-love-explore"></use>
@@ -722,7 +725,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/love/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/love/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-love-explore"></use>
@@ -734,7 +737,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/health/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/health/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-health-explore"></use>
@@ -746,7 +749,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/career/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/career/"></a>
               <div class="zodiac-ex-info"
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-career-explore"></use>
@@ -758,7 +761,7 @@ You can get free horoscope services online for free through our site: Astrologie
               </svg>
             </div>
             <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/sex/"></a>
+              <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
                   <use xlink:href="#icon-sex-explore"></use>
@@ -805,6 +808,11 @@ You can get free horoscope services online for free through our site: Astrologie
     // 初始化数据
     initHomeDataForMo();
   });
+
+  function getLangFromPath() {
+    const pathSegments = window.location.pathname.split('/');
+    return pathSegments[1]; // 假设语言代码总是在第一个路径段
+  }
 
   function renderHomeData(data) {
 
