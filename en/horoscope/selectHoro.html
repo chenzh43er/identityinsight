@@ -502,8 +502,9 @@
       </li>
     </ol>
     <div class="pagecontent fortune-page" style="height: auto !important;">
-
       <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px">
+        <div id="horo_1" class="mid_adv">
+        </div>
         <h1 class="page-tl" id = "horoPageTitle">
           <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
         </h1>
@@ -664,6 +665,9 @@
               <use xlink:href="#icon-next"></use>
             </svg>
           </div>
+        </div>
+
+        <div id="horo_2" class="mid_adv">
         </div>
 
         <div id = "selectOrAQMessage">
@@ -935,6 +939,22 @@
 
   let lang = getLangFromPath()
 
+  const indexadv_1 = document.getElementById('horo_1')
+  loadHoroAdv_1(indexadv_1);
+
+  const indexadv_2 = document.getElementById('horo_2')
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadHoroAdv_2(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: '0px',
+  });
+  observer.observe(indexadv_2);
+
   // 方法1：判断是否为 null 或空字符串
   if (cat === null || cat === "") {
     document.getElementById("horoPageTitle").innerHTML = `
@@ -1173,6 +1193,28 @@ You can get free horoscope services online for free through our site: Astrologie
   function getLangFromPath() {
     const pathSegments = window.location.pathname.split('/');
     return pathSegments[1]; // 假设语言代码总是在第一个路径段
+  }
+
+  function loadHoroAdv_1(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoro_1();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
+  }
+
+  function loadHoroAdv_2(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoro_2();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
   }
 
   function renderHomeData(data) {

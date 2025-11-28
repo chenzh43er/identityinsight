@@ -236,3 +236,29 @@ function returnLa_2(){
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>`
 }
+
+function returnHoro_1(){
+    return `
+    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+    <!-- horo_1 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="4573341844"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoro_2(){
+    return `
+    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+   <!-- horo_2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3356463096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
