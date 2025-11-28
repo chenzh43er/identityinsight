@@ -382,7 +382,7 @@
 <script>
 
   const params = new URLSearchParams(window.location.search);
-  const segments = url.pathname.split('/').filter(s => s !== '');
+  const segments = window.location.pathname.split('/').filter(s => s !== '');
   // segments = ["en", "horoscope", "Leo", "daily"]
 
   const horo = segments[2];   // "Leo"
