@@ -239,7 +239,6 @@ function returnLa_2(){
 
 function returnHoro_1(){
     return `
-    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
     <!-- horo_1 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
@@ -252,7 +251,6 @@ function returnHoro_1(){
 
 function returnHoro_2(){
     return `
-    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
    <!-- horo_2 -->
 <ins class="adsbygoogle"
      style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
@@ -265,7 +263,6 @@ function returnHoro_2(){
 
 function returnHoroCat_2(){
     return `
-    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
     <!-- horocat_2 -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -278,7 +275,6 @@ function returnHoroCat_2(){
 
 function returnHoroDetail_1(){
     return `
-    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
     <!-- horodetail_1 -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -291,7 +287,6 @@ function returnHoroDetail_1(){
 
 function returnHoroDetail_2(){
     return `
-    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
     <!-- horodetail_2 -->
 <ins class="adsbygoogle"
      style="display:block"
