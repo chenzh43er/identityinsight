@@ -283,19 +283,20 @@
           <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
         </div>
 
-        <div class="horo-today-ls">
-          <a class="horo-today-item active" href="/horoscope/daily/aries/"><span class="horo-today-name">daily</span></a>
-          <a class="horo-today-item " href="/horoscope/weekly/aries/"><span class="tab-trend-txt">weekly</span></a>
-          <a class="horo-today-item " href="/horoscope/monthly/aries/"><span class="tab-trend-txt">monthly</span></a>
-          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">yearly</span></a>
+        <div id = "horo-today-ls">
+            <div class="horo-today-ls">
+              <a class="horo-today-item active" href="/horoscope/daily/aries/"><span class="horo-today-name">daily</span></a>
+              <a class="horo-today-item " href="/horoscope/weekly/aries/"><span class="tab-trend-txt">weekly</span></a>
+              <a class="horo-today-item " href="/horoscope/monthly/aries/"><span class="tab-trend-txt">monthly</span></a>
+              <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">yearly</span></a>
+            </div>
+            <div class="horo-today-ls">
+              <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">love</span></a>
+              <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">health</span></a>
+              <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">career</span></a>
+              <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">sex</span></a>
+            </div>
         </div>
-        <div class="horo-today-ls">
-          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">love</span></a>
-          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">health</span></a>
-          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">career</span></a>
-          <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">sex</span></a>
-        </div>
-
         <div class="share-social">
           <div class="share-tl">Share today's fortune</div>
           <div class="share-ls" id = "horoShare">
@@ -390,6 +391,8 @@
 
   const result = dataPage[horo][cat];
 
+  let lang = getLangFromPath()
+
   console.log(result)
 
   document.getElementById("horoPageTitle").innerHTML = `
@@ -403,6 +406,23 @@
   document.getElementById("titleForMessage").innerHTML = `${cat} Horoscope For ${horo}`
 
   document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
+
+  let langPage = getLangFromPath()
+
+  document.getElementById("horo-today-ls").innerHTML = `
+            <div class="horo-today-ls">
+              <a class="horo-today-item active" href="/${langPage}/horoscope/${cat}/daily/"><span class="horo-today-name">daily</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/weekly/"><span class="tab-trend-txt">weekly</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/monthly/"><span class="tab-trend-txt">monthly</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/yearly/"><span class="tab-trend-txt">yearly</span></a>
+            </div>
+            <div class="horo-today-ls">
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/love/"><span class="tab-trend-txt">love</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/health/"><span class="tab-trend-txt">health</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/career/"><span class="tab-trend-txt">career</span></a>
+              <a class="horo-today-item " href="/${langPage}/horoscope/${cat}/sex/"><span class="tab-trend-txt">sex</span></a>
+            </div>
+  `
 
   renderBadges(result.badges)
 
@@ -701,6 +721,11 @@
 
       return moHtml;
     }).join('');
+  }
+
+  function getLangFromPath() {
+    const pathSegments = window.location.pathname.split('/');
+    return pathSegments[1]; // 假设语言代码总是在第一个路径段
   }
 
   function getQueryParam(name) {
