@@ -204,7 +204,7 @@
 
 <main style="height: auto !important;">
   <div class="wrapper" style="height: auto !important;">
-    <ol class="breadcrumb">
+    <ol class="breadcrumb" id="breadcrumb">
       <li>
         <a href="/">
                         <span>
@@ -420,6 +420,28 @@
               <a class="horo-today-item " href="/${lang}/horoscope/${horo}/career/"><span class="tab-trend-txt">career</span></a>
               <a class="horo-today-item " href="/${lang}/horoscope/${horo}/sex/"><span class="tab-trend-txt">sex</span></a>
             </div>
+  `
+
+  document.getElementById("breadcrumb").innerHTML = `
+  <li>
+        <a href="/${lang}/horoscope">
+                        <span>
+                            Home
+                        </span>
+        </a>
+      </li>
+      ›
+      <li>
+        <a href="/${lang}/horoscope/${cat}/">
+                        <span>
+                            ${cat}                        </span>
+        </a>
+      </li>
+      ›
+      <li>
+                    <span>
+                        ${horo}                    </span>
+      </li>
   `
 
   renderBadges(result.badges)
