@@ -510,6 +510,11 @@
           </div>
         </div>
         <h3 class="astro-h3">Aries Star Ratings</h3>
+
+        <div id = "horoAdv_1">
+
+        </div>
+
         <div class="horo-badges-ls">
           <div class="horo-badges-item">
             <div class="horo-badges-emoji">
@@ -552,6 +557,11 @@
               <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
           </div>
         </div>
+
+        <div id = "horoAdv_2">
+
+        </div>
+
         <h3 class="astro-h3" id = "titleForMessage">Sex Horoscope For Aries</h3>
         <div class="article-con" id = "messageForHoro">
           <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
@@ -740,6 +750,32 @@
 
 </body>
 <script>
+
+  const indexadv_1 = document.getElementById('horoAdv_1')
+  const observer1 = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadHoroAdv_1(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: '0px',
+  });
+  observer1.observe(indexadv_1);
+
+  const indexadv_2 = document.getElementById('horoAdv_2')
+  const observer2 = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadHoroAdv_2(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: '0px',
+  });
+  observer2.observe(indexadv_2);
 
   const params = new URLSearchParams(window.location.search);
   const segments = window.location.pathname.split('/').filter(s => s !== '');
@@ -1134,6 +1170,28 @@
       document.getElementById("titleForRecMT").innerText="Mest Testade";
     }else{
       document.getElementById("titleForRecMT").innerText="Mest Testade";
+    }
+  }
+
+  function loadHoroAdv_1(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoroDetail_1();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
+  }
+
+  function loadHoroAdv_2(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoroDetail_2();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
     }
   }
 

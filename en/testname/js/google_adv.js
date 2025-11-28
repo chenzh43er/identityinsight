@@ -275,3 +275,29 @@ function returnHoroCat_2(){
      data-full-width-responsive="true"></ins>
     `
 }
+
+function returnHoroDetail_1(){
+    return `
+    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+    <!-- horodetail_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="6569891746"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroDetail_2(){
+    return `
+    <div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+    <!-- horodetail_2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3923547104"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
