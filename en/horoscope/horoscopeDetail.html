@@ -5,23 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>HOROSCOPES - https://identityinsight.org/</title>
-  <link rel="preload" href="/public/static/fonts/BluuNext-Bold.woff2" as="font" type="font/woff2" crossorigin="">
-  <link rel="preload" href="/public/static/fonts/ProductSans-Regular.woff2" as="font" type="font/woff2" crossorigin="">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" as="script">
-
-  <meta name="description" content="Why not look to the stars for your sex and love life? Take your time make your sex life more happy and fulfilling.">
-  <meta name="keywords" content="sex horoscope, sex, sex life, love, partner, man, woman, male, female">
+  <!-- 关键 CSS 优先加载 -->
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/zodic.json.js"></script>
-  <link rel="stylesheet" href="./css/one.css" as="style">
-  <link rel="stylesheet" href="./css/common.css" as="style">
-  <script src="../testname/js/google_adv.js"></script>
-  <script src="../testname/js/common.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
-          crossorigin="anonymous"></script>
 
-  <script src="../testname/js/jquery.min.js?V=20200214"></script>
+  <!-- 非关键 CSS 异步加载 -->
+  <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
+
+  <!-- Google Ads 异步加载 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
+
+  <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
+  <script>
+    fetch('./js/zodic.json.js')
+            .then(res => res.json())
+            .then(data => {
+              window.ZODIC_DATA = data;
+            });
+  </script>
+
+  <!-- 本地 JS 延迟加载，确保优先渲染内容 -->
+  <script defer src="../testname/js/google_adv.js"></script>
+  <script defer src="../testname/js/common.js"></script>
+  <script defer src="../testname/js/jquery.min.js?V=20200214"></script>
+
 
   <!-- Google Tag Manager -->
   <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

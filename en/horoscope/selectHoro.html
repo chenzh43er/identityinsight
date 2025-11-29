@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>HOROSCOPES</title>
+
+  <!-- 关键 CSS：优先加载 -->
   <link rel="preload" href="./css/style.css" as="style">
-  <meta name="description" content="Want to know what the stars have in store for you today? Choose your sign for a daily horoscope reading.">
-  <meta name="keywords" content="daily horoscope, daily horoscope news, daily horoscope reading, free horoscope today">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/one.css" as="style">
-  <link rel="stylesheet" href="./css/common.css" as="style">
-  <script src="../testname/js/google_adv.js"></script>
-  <script src="../testname/js/common.js"></script>
-  <script src="../testname/js/jquery.min.js?V=20200214"></script>
+
+  <!-- 非关键 CSS：异步加载，减少阻塞 -->
+  <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
+
+  <!-- 将阻塞页面渲染的 script 改为 defer -->
+  <script defer src="../testname/js/google_adv.js"></script>
+  <script defer src="../testname/js/common.js"></script>
+  <script defer src="../testname/js/jquery.min.js?V=20200214"></script>
+
 
   <!-- Google Tag Manager -->
   <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
