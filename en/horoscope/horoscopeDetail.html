@@ -8,6 +8,8 @@
   <link rel="preload" href="/public/static/fonts/BluuNext-Bold.woff2" as="font" type="font/woff2" crossorigin="">
   <link rel="preload" href="/public/static/fonts/ProductSans-Regular.woff2" as="font" type="font/woff2" crossorigin="">
   <link rel="preload" href="./css/style.css" as="style">
+  <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" as="script">
+
   <meta name="description" content="Why not look to the stars for your sex and love life? Take your time make your sex life more happy and fulfilling.">
   <meta name="keywords" content="sex horoscope, sex, sex life, love, partner, man, woman, male, female">
   <link rel="stylesheet" href="./css/style.css">
@@ -16,6 +18,8 @@
   <link rel="stylesheet" href="./css/common.css" as="style">
   <script src="../testname/js/google_adv.js"></script>
   <script src="../testname/js/common.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
+          crossorigin="anonymous"></script>
 
   <script src="../testname/js/jquery.min.js?V=20200214"></script>
 
@@ -572,6 +576,9 @@
           <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
         </div>
 
+        <div id="horoAdv_3" class="mobile-margin">
+        </div>
+
         <div id = "horo-today-ls">
             <div class="horo-today-ls">
               <a class="horo-today-item active" href="/horoscope/daily/aries/"><span class="horo-today-name">daily</span></a>
@@ -781,6 +788,19 @@
     rootMargin: '0px',
   });
   observer2.observe(indexadv_2);
+
+  const indexadv_3 = document.getElementById('horoAdv_3')
+  const observer3 = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadHoroAdv_3(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: '0px',
+  });
+  observer2.observe(indexadv_3);
 
   const params = new URLSearchParams(window.location.search);
   const segments = window.location.pathname.split('/').filter(s => s !== '');
@@ -1192,6 +1212,17 @@
   function loadHoroAdv_2(el) {
     // 插入 <ins> HTML
     el.innerHTML = returnHoroDetail_2();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
+  }
+
+  function loadHoroAdv_3(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoroDetail_3();
     // 触发广告加载
     try {
       (adsbygoogle = window.adsbygoogle || []).push({});
