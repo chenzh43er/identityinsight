@@ -40,7 +40,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9MGKZV"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <style>
+    <style>
 
     .divLinePa {
       margin: .5rem 0 !important;
@@ -418,12 +418,6 @@
 
   </style>
 
-  <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
-  <script type="module">
-    const res = await fetch('./js/zodic.json.js');
-    window.ZODIC_DATA = await res.json();
-    console.log("加载完成", window.ZODIC_DATA);
-  </script>
 </head>
 <body style="" aria-hidden="false">
 <div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
@@ -952,6 +946,10 @@
 </body>
 
 <script>
+  let dataDate = `./js/zodic.json.js`
+
+  loadScript(dataDate, function () {
+
   const params = new URLSearchParams(window.location.search);
 
   // const cat = params.get("cat");
@@ -1215,6 +1213,8 @@ You can get free horoscope services online for free through our site: Astrologie
   loadScript(mt_data_url, function () {
     // 初始化数据
     initHomeDataForMo();
+  });
+
   });
 
   function getLangFromPath() {

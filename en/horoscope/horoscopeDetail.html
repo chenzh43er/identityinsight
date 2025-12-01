@@ -20,12 +20,6 @@
   <!-- Google Ads 异步加载 -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
-  <script type="module">
-    const res = await fetch('./js/zodic.json.js');
-    window.ZODIC_DATA = await res.json();
-    console.log("加载完成", window.ZODIC_DATA);
-  </script>
-
   <!-- 本地 JS 延迟加载，确保优先渲染内容 -->
   <script src="../testname/js/google_adv.js"></script>
   <script src="../testname/js/common.js"></script>
@@ -776,6 +770,11 @@
 </body>
 <script>
 
+  let dataDate = `./js/zodic.json.js`
+
+  loadScript(dataDate, function () {
+
+
   // 获取当前日期
   const now = new Date();
 
@@ -983,6 +982,8 @@
   loadScript(mt_data_url, function () {
     // 初始化数据
     initHomeDataForMo();
+  });
+
   });
 
   function renderHomeData(data) {
