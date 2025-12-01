@@ -20,13 +20,10 @@
   <!-- Google Ads 异步加载 -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
-  <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
-  <script>
-    fetch('./js/zodic.json.js')
-            .then(res => res.json())
-            .then(data => {
-              window.ZODIC_DATA = data;
-            });
+  <script type="module">
+    const res = await fetch('./js/zodic.json.js');
+    window.ZODIC_DATA = await res.json();
+    console.log("加载完成", window.ZODIC_DATA);
   </script>
 
   <!-- 本地 JS 延迟加载，确保优先渲染内容 -->
@@ -48,7 +45,6 @@
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <script src="./js/zodic.json.js"></script>
   <style>
 
     .divLinePa {

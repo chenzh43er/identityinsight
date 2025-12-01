@@ -419,12 +419,10 @@
   </style>
 
   <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
-  <script>
-    fetch('./js/zodic.json.js')
-            .then(res => res.json())
-            .then(data => {
-              window.ZODIC_DATA = data;
-            });
+  <script type="module">
+    const res = await fetch('./js/zodic.json.js');
+    window.ZODIC_DATA = await res.json();
+    console.log("加载完成", window.ZODIC_DATA);
   </script>
 </head>
 <body style="" aria-hidden="false">
@@ -531,7 +529,7 @@
       </li>
     </ol>
     <div class="pagecontent fortune-page" style="height: auto !important;">
-      <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px">
+      <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px" id = "pageleft">
         <h1 class="page-tl" id = "horoPageTitle">
           <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
         </h1>
