@@ -418,7 +418,14 @@
 
   </style>
 
-  <script src="./js/zodic.json.js"></script>
+  <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
+  <script>
+    fetch('./js/zodic.json.js')
+            .then(res => res.json())
+            .then(data => {
+              window.ZODIC_DATA = data;
+            });
+  </script>
 </head>
 <body style="" aria-hidden="false">
 <div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
