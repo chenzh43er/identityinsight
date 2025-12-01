@@ -1010,19 +1010,6 @@
 
             initTitleMT();
 
-            const indexadv_1 = document.getElementById('horoCat_1')
-            const observer1 = new IntersectionObserver((entries, obs) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        loadHoroAdv_1(entry.target);
-                        obs.unobserve(entry.target);
-                    }
-                });
-            }, {
-                rootMargin: '0px',
-            });
-            observer1.observe(indexadv_1);
-
             const indexadv_2 = document.getElementById('horoCat_2')
             const observer2 = new IntersectionObserver((entries, obs) => {
                 entries.forEach(entry => {
@@ -1035,6 +1022,9 @@
                 rootMargin: '0px',
             });
             observer2.observe(indexadv_2);
+
+            const indexadv_1 = document.getElementById('horoCat_1')
+            loadHoroAdv_1(indexadv_1);
 
             let mt_data_url = ""
 

@@ -815,17 +815,8 @@
 
 
       const indexadv_1 = document.getElementById('horoAdv_1')
-      const observer1 = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            loadHoroAdv_1(entry.target);
-            obs.unobserve(entry.target);
-          }
-        });
-      }, {
-        rootMargin: '0px',
-      });
-      observer1.observe(indexadv_1);
+      loadHoroAdv_1(indexadv_1);
+
 
       const indexadv_2 = document.getElementById('horoAdv_2')
       const observer2 = new IntersectionObserver((entries, obs) => {
@@ -894,16 +885,16 @@
 
       document.getElementById("horo-today-ls").innerHTML = `
             <div class="horo-today-ls">
-              <a class="horo-today-item active" href="/${lang}/horoscope/${horo}/daily/"><span class="horo-today-name">daily</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/weekly/"><span class="tab-trend-txt">weekly</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/monthly/"><span class="tab-trend-txt">monthly</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/yearly/"><span class="tab-trend-txt">yearly</span></a>
+              <a class="horo-today-item active" href="/${lang}/horoscope/${horo}/daily/"><span class="horo-today-name">Daily</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/weekly/"><span class="tab-trend-txt">Weekly</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/monthly/"><span class="tab-trend-txt">Monthly</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/yearly/"><span class="tab-trend-txt">Yearly</span></a>
             </div>
             <div class="horo-today-ls">
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/love/"><span class="tab-trend-txt">love</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/health/"><span class="tab-trend-txt">health</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/career/"><span class="tab-trend-txt">career</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/sex/"><span class="tab-trend-txt">sex</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/love/"><span class="tab-trend-txt">Love</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/health/"><span class="tab-trend-txt">Health</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/career/"><span class="tab-trend-txt">Career</span></a>
+              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/sex/"><span class="tab-trend-txt">Sex</span></a>
             </div>
   `
 
