@@ -263,6 +263,17 @@ function returnHoro_2(){
 
 function returnHoroCat_2(){
     return `
+<ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-3481735481590354"
+                     data-ad-slot="2083851826"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroCat_2(){
+    return `
     <!-- horocat_2 -->
 <ins class="adsbygoogle"
      style="display:block"
