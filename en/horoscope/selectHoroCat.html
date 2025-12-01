@@ -21,6 +21,14 @@
     <!-- Google Ads 异步加载 -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
+    <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
+    <script>
+        fetch('./js/zodic.json.js')
+            .then(res => res.json())
+            .then(data => {
+                window.ZODIC_DATA = data;
+            });
+    </script>
 
     <!-- 所有 JS：使用 defer，避免阻塞渲染 -->
     <script src="../testname/js/google_adv.js"></script>
@@ -431,14 +439,7 @@
         }
     </style>
 
-    <!-- JSON 数据通过 fetch 加载，而不是 script 阻塞 -->
-    <script>
-        fetch('./js/zodic.json.js')
-            .then(res => res.json())
-            .then(data => {
-                window.ZODIC_DATA = data;
-            });
-    </script>
+
 <body style="background: #f6f6f6;">
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
