@@ -261,7 +261,7 @@ function returnHoro_2(){
     `
 }
 
-function returnHoroCat_2(){
+function returnHoroCat_1(){
     return `
 <ins class="adsbygoogle"
                      style="display:block"
