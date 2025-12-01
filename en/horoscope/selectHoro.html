@@ -531,8 +531,10 @@
         <h1 class="page-tl" id = "horoPageTitle">
           <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
         </h1>
+
         <div id="horo_1" class="mobile-margin">
         </div>
+
         <div class="zodiac-for-ls" id = "zodiac-for-ls">
           <div class="zodiac-for-item">
             <a class="coverlink" href="/horoscope/daily/aries/"></a>
@@ -974,7 +976,17 @@
       let lang = getLangFromPath()
 
       const indexadv_1 = document.getElementById('horo_1')
-      loadHoroAdv_1(indexadv_1);
+      const observer1 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_1(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer1.observe(indexadv_1);
 
       const indexadv_2 = document.getElementById('horo_2')
       const observer = new IntersectionObserver((entries, obs) => {
