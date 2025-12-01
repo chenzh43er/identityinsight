@@ -531,6 +531,9 @@
             <span class="horopage-tl-sub">Sex Horoscope</span>
             <h1 class="horopage-tl">Aries</h1>
           </div>
+          <div class="horopage-info" style="padding-right: 20px;text-align: right;">
+            2025
+          </div>
         </div>
         <h3 class="astro-h3">Aries Star Ratings</h3>
 
@@ -777,6 +780,39 @@
 </body>
 <script>
 
+  // 获取当前日期
+  const now = new Date();
+
+  // 英文月份缩写
+  const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+    "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  // 英文月份全称
+  const longMonths = ["January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"];
+
+  // --- 1. 日期格式：Nov 25, 2025 ---
+  const formattedDate = `${shortMonths[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+
+  // --- 2. 月份（英文）: November ---
+  const monthLong = longMonths[now.getMonth()];
+
+  // --- 3. 年份：2025 ---
+  const year = now.getFullYear();
+
+  // --- 4. 当前周范围（周日 - 周六） ---
+  const dayOfWeek = now.getDay(); // 0 表示周日
+  const startOfWeek = new Date(now);
+  startOfWeek.setDate(now.getDate() - dayOfWeek);
+
+  const endOfWeek = new Date(now);
+  endOfWeek.setDate(now.getDate() + (6 - dayOfWeek));
+
+  // 格式化周
+  const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
+          + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
+
+
   const indexadv_1 = document.getElementById('horoAdv_1')
   const observer1 = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
@@ -829,11 +865,25 @@
 
   console.log(result)
 
+  let catData = ``
+  if(cat == "monthly"){
+    catData = monthLong
+  }else if (cat == "year"){
+    catData = year
+  }else if (cat == "weekly"){
+    catData = weekRange
+  }else {
+    catData = formattedDate
+  }
+
   document.getElementById("horoPageTitle").innerHTML = `
   <img class="sign-pic-img" src="${result.image_src}" alt="aries">
           <div class="horopage-info">
             <span class="horopage-tl-sub">${cat} Horoscope</span>
             <h1 class="horopage-tl">${horo}</h1>
+          </div>
+          <div class="horopage-info" style="padding-right: 20px;text-align: right;font-size: 1.2rem;font-weight: 600;">
+            ${catData}
           </div>
   `
 
