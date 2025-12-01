@@ -514,7 +514,11 @@
     </ol>
     <div class="pagecontent" style="height: auto !important;">
 
-      <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px">
+      <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px;text-align: center">
+
+        <div id = "pageLeftImg">
+        </div>
+        <div id = "pageLeftDetail" style="display: none">
         <div class="horopage-line" id = "horoPageTitle">
           <img class="sign-pic-img" src="/public/static/images/horoscope/aries.png" alt="aries">
           <div class="horopage-info">
@@ -622,6 +626,7 @@
               </svg>
             </div>
           </div>
+        </div>
         </div>
       </div>
 
@@ -772,106 +777,107 @@
 
   let dataDate = `./js/zodic.json.js`
 
-  loadScript(dataDate, function () {
+  document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
+
+  setTimeout(function () {
+    loadScript(dataDate, function () {
+      // 获取当前日期
+      const now = new Date();
+
+      // 英文月份缩写
+      const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+        "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+      // 英文月份全称
+      const longMonths = ["January", "February", "March", "April", "May", "June", "July",
+        "August", "September", "October", "November", "December"];
+
+      // --- 1. 日期格式：Nov 25, 2025 ---
+      const formattedDate = `${shortMonths[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+
+      // --- 2. 月份（英文）: November ---
+      const monthLong = longMonths[now.getMonth()];
+
+      // --- 3. 年份：2025 ---
+      const year = now.getFullYear();
+
+      // --- 4. 当前周范围（周日 - 周六） ---
+      const dayOfWeek = now.getDay(); // 0 表示周日
+      const startOfWeek = new Date(now);
+      startOfWeek.setDate(now.getDate() - dayOfWeek);
+
+      const endOfWeek = new Date(now);
+      endOfWeek.setDate(now.getDate() + (6 - dayOfWeek));
+
+      // 格式化周
+      const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
+              + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
 
 
-  // 获取当前日期
-  const now = new Date();
+      const indexadv_1 = document.getElementById('horoAdv_1')
+      const observer1 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_1(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer1.observe(indexadv_1);
 
-  // 英文月份缩写
-  const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
-    "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const indexadv_2 = document.getElementById('horoAdv_2')
+      const observer2 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_2(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer2.observe(indexadv_2);
 
-  // 英文月份全称
-  const longMonths = ["January", "February", "March", "April", "May", "June", "July",
-    "August", "September", "October", "November", "December"];
+      const indexadv_3 = document.getElementById('horoAdv_3')
+      const observer3 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_3(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer2.observe(indexadv_3);
 
-  // --- 1. 日期格式：Nov 25, 2025 ---
-  const formattedDate = `${shortMonths[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+      const params = new URLSearchParams(window.location.search);
+      const segments = window.location.pathname.split('/').filter(s => s !== '');
+      // segments = ["en", "horoscope", "Leo", "daily"]
 
-  // --- 2. 月份（英文）: November ---
-  const monthLong = longMonths[now.getMonth()];
+      const horo = segments[2];   // "Leo"
+      const cat = segments[3];   // "daily"
 
-  // --- 3. 年份：2025 ---
-  const year = now.getFullYear();
+      const result = dataPage[horo][cat];
 
-  // --- 4. 当前周范围（周日 - 周六） ---
-  const dayOfWeek = now.getDay(); // 0 表示周日
-  const startOfWeek = new Date(now);
-  startOfWeek.setDate(now.getDate() - dayOfWeek);
+      let lang = getLangFromPath()
 
-  const endOfWeek = new Date(now);
-  endOfWeek.setDate(now.getDate() + (6 - dayOfWeek));
+      console.log(result)
 
-  // 格式化周
-  const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
-          + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
-
-
-  const indexadv_1 = document.getElementById('horoAdv_1')
-  const observer1 = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        loadHoroAdv_1(entry.target);
-        obs.unobserve(entry.target);
+      let catData = ``
+      if (cat == "monthly") {
+        catData = monthLong
+      } else if (cat == "year") {
+        catData = year
+      } else if (cat == "weekly") {
+        catData = weekRange
+      } else {
+        catData = formattedDate
       }
-    });
-  }, {
-    rootMargin: '0px',
-  });
-  observer1.observe(indexadv_1);
 
-  const indexadv_2 = document.getElementById('horoAdv_2')
-  const observer2 = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        loadHoroAdv_2(entry.target);
-        obs.unobserve(entry.target);
-      }
-    });
-  }, {
-    rootMargin: '0px',
-  });
-  observer2.observe(indexadv_2);
-
-  const indexadv_3 = document.getElementById('horoAdv_3')
-  const observer3 = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        loadHoroAdv_3(entry.target);
-        obs.unobserve(entry.target);
-      }
-    });
-  }, {
-    rootMargin: '0px',
-  });
-  observer2.observe(indexadv_3);
-
-  const params = new URLSearchParams(window.location.search);
-  const segments = window.location.pathname.split('/').filter(s => s !== '');
-  // segments = ["en", "horoscope", "Leo", "daily"]
-
-  const horo = segments[2];   // "Leo"
-  const cat = segments[3];   // "daily"
-
-  const result = dataPage[horo][cat];
-
-  let lang = getLangFromPath()
-
-  console.log(result)
-
-  let catData = ``
-  if(cat == "monthly"){
-    catData = monthLong
-  }else if (cat == "year"){
-    catData = year
-  }else if (cat == "weekly"){
-    catData = weekRange
-  }else {
-    catData = formattedDate
-  }
-
-  document.getElementById("horoPageTitle").innerHTML = `
+      document.getElementById("horoPageTitle").innerHTML = `
   <img class="sign-pic-img" src="${result.image_src}" alt="aries">
           <div class="horopage-info">
             <span class="horopage-tl-sub">${cat} Horoscope</span>
@@ -882,11 +888,11 @@
           </div>
   `
 
-  document.getElementById("titleForMessage").innerHTML = `${cat} Horoscope For ${horo}`
+      document.getElementById("titleForMessage").innerHTML = `${cat} Horoscope For ${horo}`
 
-  document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
+      document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
 
-  document.getElementById("horo-today-ls").innerHTML = `
+      document.getElementById("horo-today-ls").innerHTML = `
             <div class="horo-today-ls">
               <a class="horo-today-item active" href="/${lang}/horoscope/${horo}/daily/"><span class="horo-today-name">daily</span></a>
               <a class="horo-today-item " href="/${lang}/horoscope/${horo}/weekly/"><span class="tab-trend-txt">weekly</span></a>
@@ -901,7 +907,7 @@
             </div>
   `
 
-  document.getElementById("breadcrumb").innerHTML = `
+      document.getElementById("breadcrumb").innerHTML = `
   <li>
         <a href="/${lang}/horoscope">
                         <span>
@@ -923,13 +929,13 @@
       </li>
   `
 
-  renderBadges(result.badges)
+      renderBadges(result.badges)
 
-  setActiveTab(cat)
+      setActiveTab(cat)
 
-  const url = window.location.href;
+      const url = window.location.href;
 
-  document.getElementById("horoShare").innerHTML = `
+      document.getElementById("horoShare").innerHTML = `
 
   <div class="share-item share-item-facebook">
               <a class="coverlink" href="https://www.facebook.com/sharer/sharer.php?u=${url}" target="_blank"></a>
@@ -952,39 +958,45 @@
 
   `
 
-  initTitleMT();
+      initTitleMT();
 
-  let mt_data_url = ""
+      let mt_data_url = ""
 
-  let langPage = getLangFromPath()
-  if(langPage == "fr"){
-    mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
-  }else if(langPage == "pt"){
-    mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
-  }else if(langPage == "es"){
-    mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
-  }else if(langPage == "en"){
-    mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
-  }else if(langPage == "de"){
-    mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
-  }else if(langPage == "ar"){
-    mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
-  }else if(langPage == "jp"){
-    mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
-  }else if(langPage == "no"){
-    mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
-  }else if(langPage == "sv"){
-    mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-  }else{
-    mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
-  }
+      let langPage = getLangFromPath()
+      if (langPage == "fr") {
+        mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
+      } else if (langPage == "pt") {
+        mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
+      } else if (langPage == "es") {
+        mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
+      } else if (langPage == "en") {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
+      } else if (langPage == "de") {
+        mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
+      } else if (langPage == "ar") {
+        mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
+      } else if (langPage == "jp") {
+        mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
+      } else if (langPage == "no") {
+        mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
+      } else if (langPage == "sv") {
+        mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+      } else {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
+      }
 
-  loadScript(mt_data_url, function () {
-    // 初始化数据
-    initHomeDataForMo();
-  });
+      loadScript(mt_data_url, function () {
+        // 初始化数据
+        initHomeDataForMo();
+      });
 
-  });
+      document.getElementById('pageLeftImg').innerHTML = ``
+      document.getElementById('pageLeftDetail').style.display = "block"
+    });
+  },2000);
+
+
+
 
   function renderHomeData(data) {
 
