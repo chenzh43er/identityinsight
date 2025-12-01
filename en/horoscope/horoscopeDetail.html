@@ -859,7 +859,7 @@
       // segments = ["en", "horoscope", "Leo", "daily"]
 
       const horo = segments[2];   // "Leo"
-      const cat = segments[3];   // "daily"
+      let cat = segments[3];   // "daily"
 
       // const horo = "Leo";   // "Leo"
       // const cat =  "daily";   // "daily"
@@ -880,6 +880,8 @@
       } else {
         catData = formattedDate
       }
+
+      cat = capitalize(cat)
 
       document.getElementById("horoPageTitle").innerHTML = `
   <img class="sign-pic-img" src="${result.image_src}" alt="aries">
@@ -1000,6 +1002,9 @@
   },1200);
 
 
+  function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
 
 
   function renderHomeData(data) {
