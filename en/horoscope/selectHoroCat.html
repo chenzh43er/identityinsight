@@ -545,6 +545,9 @@
         </ol>
         <div class="pagecontent" style="height: auto !important;">
             <div class="pageleft" style="height: auto !important;">
+                <div id = "pageLeftImg" style="text-align: center">
+                </div>
+                <div id = "pageLeftDetail" style="display: none">
                 <div class="horopage-line" id = "horoTitle">
                     <img class="sign-pic-img" src="/public/static/images/horoscope/aries.svg" alt="aries">
                     <div class="horopage-info">
@@ -666,7 +669,7 @@
                 </div>
                 <div class="topic-pick" style="height: auto !important;">
                 </div>
-
+                </div>
             </div>
             <div class="pageright" style="height: auto !important;">
                 <div class="new-quizzes" id="this_mt_right">
@@ -816,17 +819,21 @@
 
     let dataDate = `./js/zodic.json.js`
 
-    loadScript(dataDate, function () {
+    document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
 
-    const params = new URLSearchParams(window.location.search);
+    setTimeout(function () {
 
-    //const horo = params.get("horo");
+        loadScript(dataDate, function () {
 
-    const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
-    const parts = path.split('/');
-    const horo = parts[parts.length - 1];
+            const params = new URLSearchParams(window.location.search);
 
-    document.getElementById("horoTitle").innerHTML = `
+            //const horo = params.get("horo");
+
+            const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
+            const parts = path.split('/');
+            const horo = parts[parts.length - 1];
+
+            document.getElementById("horoTitle").innerHTML = `
                         <img class="sign-pic-img" src="${dataPage[horo]["daily"].image_src}" alt="aries">
                     <div class="horopage-info">
                         <h2 class="horopage-tl">${horo} Horoscopes</h2>
@@ -834,41 +841,41 @@
                     </div>
     `
 
-    // 获取当前日期
-    const now = new Date();
+            // 获取当前日期
+            const now = new Date();
 
-    // 英文月份缩写
-    const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
-        "Aug", "Sep", "Oct", "Nov", "Dec"];
+            // 英文月份缩写
+            const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+                "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-    // 英文月份全称
-    const longMonths = ["January", "February", "March", "April", "May", "June", "July",
-        "August", "September", "October", "November", "December"];
+            // 英文月份全称
+            const longMonths = ["January", "February", "March", "April", "May", "June", "July",
+                "August", "September", "October", "November", "December"];
 
-    // --- 1. 日期格式：Nov 25, 2025 ---
-    const formattedDate = `${shortMonths[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+            // --- 1. 日期格式：Nov 25, 2025 ---
+            const formattedDate = `${shortMonths[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
 
-    // --- 2. 月份（英文）: November ---
-    const monthLong = longMonths[now.getMonth()];
+            // --- 2. 月份（英文）: November ---
+            const monthLong = longMonths[now.getMonth()];
 
-    // --- 3. 年份：2025 ---
-    const year = now.getFullYear();
+            // --- 3. 年份：2025 ---
+            const year = now.getFullYear();
 
-    // --- 4. 当前周范围（周日 - 周六） ---
-    const dayOfWeek = now.getDay(); // 0 表示周日
-    const startOfWeek = new Date(now);
-    startOfWeek.setDate(now.getDate() - dayOfWeek);
+            // --- 4. 当前周范围（周日 - 周六） ---
+            const dayOfWeek = now.getDay(); // 0 表示周日
+            const startOfWeek = new Date(now);
+            startOfWeek.setDate(now.getDate() - dayOfWeek);
 
-    const endOfWeek = new Date(now);
-    endOfWeek.setDate(now.getDate() + (6 - dayOfWeek));
+            const endOfWeek = new Date(now);
+            endOfWeek.setDate(now.getDate() + (6 - dayOfWeek));
 
-    // 格式化周
-    const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
-        + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
+            // 格式化周
+            const weekRange = `${shortMonths[startOfWeek.getMonth()]} ${startOfWeek.getDate()} - `
+                + `${shortMonths[endOfWeek.getMonth()]} ${endOfWeek.getDate()}`;
 
-    let lang = getLangFromPath()
+            let lang = getLangFromPath()
 
-    document.getElementById("breadcrumb").innerHTML = `
+            document.getElementById("breadcrumb").innerHTML = `
   <li>
         <a href="/${horo}/horoscope">
                         <span>
@@ -890,7 +897,7 @@
       </li>
   `
 
-    document.getElementById("horoCatList").innerHTML = `
+            document.getElementById("horoCatList").innerHTML = `
         <div class="scorpio-section">
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/daily/"></a>
 
@@ -1009,52 +1016,53 @@
                     </div>
     `
 
-    initTitleMT();
+            initTitleMT();
 
-    const indexadv_2 = document.getElementById('horoCat_2')
-    const observer2 = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                loadHoroAdv_2(entry.target);
-                obs.unobserve(entry.target);
+            const indexadv_2 = document.getElementById('horoCat_2')
+            const observer2 = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        loadHoroAdv_2(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '0px',
+            });
+            observer2.observe(indexadv_2);
+
+            let mt_data_url = ""
+
+            let langPage = getLangFromPath()
+            if (langPage == "fr") {
+                mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
+            } else if (langPage == "pt") {
+                mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
+            } else if (langPage == "es") {
+                mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
+            } else if (langPage == "en") {
+                mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
+            } else if (langPage == "de") {
+                mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
+            } else if (langPage == "ar") {
+                mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
+            } else if (langPage == "jp") {
+                mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
+            } else if (langPage == "no") {
+                mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
+            } else if (langPage == "sv") {
+                mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+            } else {
+                mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
             }
+
+            loadScript(mt_data_url, function () {
+                // 初始化数据
+                initHomeDataForMo();
+            });
+
         });
-    }, {
-        rootMargin: '0px',
-    });
-    observer2.observe(indexadv_2);
-
-    let mt_data_url = ""
-
-    let langPage = getLangFromPath()
-    if(langPage == "fr"){
-        mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
-    }else if(langPage == "pt"){
-        mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
-    }else if(langPage == "es"){
-        mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
-    }else if(langPage == "en"){
-        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
-    }else if(langPage == "de"){
-        mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
-    }else if(langPage == "ar"){
-        mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
-    }else if(langPage == "jp"){
-        mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
-    }else if(langPage == "no"){
-        mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
-    }else if(langPage == "sv"){
-        mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-    }else{
-        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
-    }
-
-    loadScript(mt_data_url, function () {
-        // 初始化数据
-        initHomeDataForMo();
-    });
-
-    });
+    },1200)
 
     function getLangFromPath() {
         const pathSegments = window.location.pathname.split('/');

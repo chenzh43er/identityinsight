@@ -524,6 +524,10 @@
     </ol>
     <div class="pagecontent fortune-page" style="height: auto !important;">
       <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px" id = "pageleft">
+
+        <div id = "pageLeftImg" style="text-align: center">
+        </div>
+        <div id = "pageLeftDetail" style="display: none">
         <h1 class="page-tl" id = "horoPageTitle">
           <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
         </h1>
@@ -801,6 +805,7 @@
         <div class="topic-pick" style="height: auto !important;">
       </div>
       </div>
+      </div>
       <div class="pageright">
         <div class="new-quizzes" id="this_mt_right">
           <h3 class="new-quizzes-title">
@@ -948,46 +953,50 @@
 <script>
   let dataDate = `./js/zodic.json.js`
 
-  loadScript(dataDate, function () {
+  document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
 
-  const params = new URLSearchParams(window.location.search);
+  setTimeout(function () {
 
-  // const cat = params.get("cat");
+    loadScript(dataDate, function () {
 
-  const path = window.location.pathname;
-  const parts = path.split('/').filter(Boolean);
-  let cat = parts[parts.length - 1];
+      const params = new URLSearchParams(window.location.search);
 
-  if (cat === 'horoscope') {
-    cat = '';
-  }
+      // const cat = params.get("cat");
 
-  let lang = getLangFromPath()
+      const path = window.location.pathname;
+      const parts = path.split('/').filter(Boolean);
+      let cat = parts[parts.length - 1];
 
-  const indexadv_1 = document.getElementById('horo_1')
-  loadHoroAdv_1(indexadv_1);
-
-  const indexadv_2 = document.getElementById('horo_2')
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        loadHoroAdv_2(entry.target);
-        obs.unobserve(entry.target);
+      if (cat === 'horoscope') {
+        cat = '';
       }
-    });
-  }, {
-    rootMargin: '0px',
-  });
-  observer.observe(indexadv_2);
 
-  // 方法1：判断是否为 null 或空字符串
-  if (cat === null || cat === "") {
-    document.getElementById("horoPageTitle").innerHTML = `
+      let lang = getLangFromPath()
+
+      const indexadv_1 = document.getElementById('horo_1')
+      loadHoroAdv_1(indexadv_1);
+
+      const indexadv_2 = document.getElementById('horo_2')
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_2(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer.observe(indexadv_2);
+
+      // 方法1：判断是否为 null 或空字符串
+      if (cat === null || cat === "") {
+        document.getElementById("horoPageTitle").innerHTML = `
         <span class="page-tl-tag">CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE</span>
 
     `
 
-    document.getElementById("selectOrAQMessage").innerHTML = `
+        document.getElementById("selectOrAQMessage").innerHTML = `
         <h3 class="astro-h3">Astrology FAQs</h3>
         <div class="faq-ls">
 <div class="faq-item active">
@@ -1048,20 +1057,20 @@ You can get free horoscope services online for free through our site: Astrologie
 </div>
     `
 
-    document.querySelectorAll('.zodiac-for-item').forEach(item => {
-      const name = item.querySelector('.zodiac-for-tl').textContent.trim();
-      const link = item.querySelector('.coverlink');
-      link.href = `/${lang}/horoscope/${name}`;
-    });
-  } else {
+        document.querySelectorAll('.zodiac-for-item').forEach(item => {
+          const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+          const link = item.querySelector('.coverlink');
+          link.href = `/${lang}/horoscope/${name}`;
+        });
+      } else {
 
-    let lang = getLangFromPath()
+        let lang = getLangFromPath()
 
-    document.getElementById("horoPageTitle").innerHTML = `
+        document.getElementById("horoPageTitle").innerHTML = `
     <span class="page-tl-tag">Read Your <span class="special-tag">${cat} Horoscope</span>
 
     `
-    document.getElementById("selectOrAQMessage").innerHTML = `
+        document.getElementById("selectOrAQMessage").innerHTML = `
     <h3 class="astro-h3">Explore Horoscopes</h3>
           <div class="zodiac-ex-ls">
             <div class="zodiac-ex-item">
@@ -1175,47 +1184,51 @@ You can get free horoscope services online for free through our site: Astrologie
           </div>
     `
 
-    document.querySelectorAll('.zodiac-for-item').forEach(item => {
-      const name = item.querySelector('.zodiac-for-tl').textContent.trim();
-      const link = item.querySelector('.coverlink');
-      link.href = `/${lang}/horoscope/${name}/${cat}`;
+        document.querySelectorAll('.zodiac-for-item').forEach(item => {
+          const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+          const link = item.querySelector('.coverlink');
+          link.href = `/${lang}/horoscope/${name}/${cat}`;
+        });
+      }
+
+
+      initTitleMT();
+
+      let mt_data_url = ""
+
+      let langPage = getLangFromPath()
+      if (langPage == "fr") {
+        mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
+      } else if (langPage == "pt") {
+        mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
+      } else if (langPage == "es") {
+        mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
+      } else if (langPage == "en") {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
+      } else if (langPage == "de") {
+        mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
+      } else if (langPage == "ar") {
+        mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
+      } else if (langPage == "jp") {
+        mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
+      } else if (langPage == "no") {
+        mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
+      } else if (langPage == "sv") {
+        mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+      } else {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
+      }
+
+      loadScript(mt_data_url, function () {
+        // 初始化数据
+        initHomeDataForMo();
+      });
+
+      document.getElementById('pageLeftImg').innerHTML = ``
+      document.getElementById('pageLeftDetail').style.display = "block"
+
     });
-  }
-
-
-  initTitleMT();
-
-  let mt_data_url = ""
-
-  let langPage = getLangFromPath()
-  if(langPage == "fr"){
-    mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
-  }else if(langPage == "pt"){
-    mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
-  }else if(langPage == "es"){
-    mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
-  }else if(langPage == "en"){
-    mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
-  }else if(langPage == "de"){
-    mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
-  }else if(langPage == "ar"){
-    mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
-  }else if(langPage == "jp"){
-    mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
-  }else if(langPage == "no"){
-    mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
-  }else if(langPage == "sv"){
-    mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-  }else{
-    mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
-  }
-
-  loadScript(mt_data_url, function () {
-    // 初始化数据
-    initHomeDataForMo();
-  });
-
-  });
+  },1200);
 
   function getLangFromPath() {
     const pathSegments = window.location.pathname.split('/');
