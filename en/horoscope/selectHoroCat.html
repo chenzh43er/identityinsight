@@ -544,6 +544,9 @@
             </li>
         </ol>
         <div class="pagecontent" style="height: auto !important;">
+
+
+
             <div class="pageleft" style="height: auto !important;">
                 <div id = "pageLeftImg" style="text-align: center">
                 </div>
@@ -555,12 +558,8 @@
                         <span class="horopage-desc">Daily, Weekly and Monthly</span>
                     </div>
                 </div>
-
                 <!-- horocat_1 -->
-                <div class="mobile-margin" id = "horocat_1" >
-
-                </div>
-
+                <div class="mobile-margin" id="TopAdv_cat1" ></div>
                 <div class="scorpio-con" style="height: auto !important;" id = "horoCatList">
                     <div class="scorpio-section">
                         <a class="coverlink" href="/horoscope/daily/aries/"></a>
@@ -823,7 +822,9 @@
 
             const path = window.location.pathname;  // 获取 "/en/horoscope/Sex"
             const parts = path.split('/');
-            const horo = parts[parts.length - 1];
+            let horo = parts[parts.length - 1];
+
+            horo = "Aries"
 
             document.getElementById("horoTitle").innerHTML = `
                         <img class="sign-pic-img" src="${dataPage[horo]["daily"].image_src}" alt="aries">
@@ -1023,8 +1024,7 @@
             });
             observer2.observe(indexadv_2);
 
-            const indexadv_1 = document.getElementById('horoCat_1')
-            loadHoroAdv_1(indexadv_1);
+
 
             let mt_data_url = ""
 
@@ -1059,23 +1059,28 @@
             document.getElementById('pageLeftImg').innerHTML = ``
             document.getElementById('pageLeftDetail').style.display = "block"
 
+            // const indexadv_1 = document.getElementById('horoCat_1')
+            // loadHoroAdv_1(indexadv_1);
+
+            const indexadv_1 = document.getElementById('TopAdv_cat1')
+            const observer1 = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        loadHoroAdv_1(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '0px',
+            });
+            observer1.observe(indexadv_1);
+
         });
     },1200)
 
     function getLangFromPath() {
         const pathSegments = window.location.pathname.split('/');
         return pathSegments[1]; // 假设语言代码总是在第一个路径段
-    }
-
-    function loadHoroCatAdv_2(el) {
-        // 插入 <ins> HTML
-        el.innerHTML = returnHoroCat_2();
-        // 触发广告加载
-        try {
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-            console.error("AdSense push error", e);
-        }
     }
 
     function renderHomeData(data) {
