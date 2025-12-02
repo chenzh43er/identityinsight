@@ -35,6 +35,6 @@ const dataM = {
         },
     ],
     "horo":[
-        
+
     ]
 }
