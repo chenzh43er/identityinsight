@@ -144,6 +144,26 @@ const dataPage = {
 	],
 	"allRecent":[
 		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100120",
+			"pic": "./testname/img/sv_img/13bc72828b062229dd2750e3bafb47c4.gif",
+			"title": "Fatta beslut utifrån ditt stjärntecken och ta reda på vad din själsfrände heter!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100121",
+			"pic": "./testname/img/sv_img/39b596f2c024869bb393afc04c18e57a.gif",
+			"title": "Vad säger ditt veckohoroskop om ditt kärleksliv?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100122",
+			"pic": "./testname/img/sv_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+			"title": "Vilken karriär passar dig enligt ditt stjärntecken?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100123",
+			"pic": "./testname/img/sv_img/53df6ab80eebbfec50562157fb1aab58.gif",
+			"title": "Fatta beslut baserat på ditt stjärntecken och få en ödesförutsägelse!"
+		},
+		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100100",
 			"pic": "./testname/img/sv_img/0f213fa34fb9cbf22db7bdca3cac56b5.gif",
 			"title": "Måntest|Är Du Kompatibel Med Din Partner?"
