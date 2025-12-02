@@ -66,12 +66,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Die Reflexion vergangener Erfolge und Misserfolge wird wertvolle Erkenntnisse für zukünftiges Wachstum liefern.</p><h3>Liebe:.</h3><p>Emotionale Intimität wird hervorgehoben. Verbringen Sie eine schöne Zeit mit Ihrem Partner oder, wenn Sie Single sind, verbinden Sie sich mit Ihrem inneren Selbst.</p><h3>Arbeiten:.</h3><p>Das Engagement für Ihre Arbeit könnte zu einem bedeutenden Erfolg führen. Mach weiter so..</p><h3>Geld:.</h3><p>Es ist der ideale Zeitpunkt, Ihre finanziellen Ziele zu überprüfen und Ihr Budget entsprechend anzupassen.</p>"
     },
     "weekly": {
-      "section_title": "Aries Weekly Horoscope",
+      "section_title": "Wochenhoroskop Widder.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -82,7 +82,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -93,7 +93,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -104,7 +104,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -115,7 +115,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -126,17 +126,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Busy &amp; Emotional</h3><p>You will also be particularly busy at work this week. You feel like your talents are not being noticed and your efforts are in vain. This is when you feel depressed. Maybe it's a mindset you need to adjust to. You're more likely to have a lot of things planned in your head, be willing to be upfront about your feelings, and be very emotional when dealing with things. It will cause innocent people to be hurt by your anger. Being cold and silent is okay, but you must not interfere with your work. You need to control your emotions to avoid unnecessary mistakes!</p> <h3>Meet Gentle People</h3>\n<p>You may meet someone who is very sweet and mature this week. Your generosity and unintentional acts of kindness will be appreciated by the opposite sex for offering to help others when they are in trouble. This person may be good-looking or have good material conditions, don't be shy to express your true feelings, and don't vent your emotions to each other in an extreme way, which will lead to failure on both sides!</p><p> </p><p>Don’t bite off more than you can chew. Small and incremental steps is how you achieve big goals in life.</p> <h3>Prioritize drinking water</h3><p>Proper hydration is important to overall health. You've probably heard numerous times that you must drink eight glasses of water daily to keep your body hydrated. If you're thirsty, opt for water most of the time, as water quenches your thirst better than other beverages and has no calories and carbs. Make a point of carrying a water bottle with you wherever you go. Your health is fine. Do some soothing exercises, such as yoga and walking. Adjusting your body and mind to the season is more suitable for your stage and will make your body healthier.</p> ",
+      "article_html": "\n<h3>Beschäftigt und emotional.</h3><p>Auch bei der Arbeit werden Sie diese Woche besonders beschäftigt sein. Sie haben das Gefühl, dass Ihre Talente nicht wahrgenommen werden und Ihre Bemühungen vergeblich sind. Dies ist der Zeitpunkt, an dem Sie sich deprimiert fühlen. Vielleicht ist es eine Denkweise, an die Sie sich anpassen müssen. Es ist wahrscheinlicher, dass Sie viele Dinge im Kopf geplant haben, bereit sind, offen über Ihre Gefühle zu sprechen, und sehr emotional sind, wenn Sie mit Dingen umgehen. Es wird dazu führen, dass unschuldige Menschen durch Ihre Wut verletzt werden. Kalt und still zu sein ist in Ordnung, aber Sie dürfen sich nicht in Ihre Arbeit einmischen. Sie müssen Ihre Emotionen kontrollieren, um unnötige Fehler zu vermeiden!</p> <h3>Treffen Sie sanfte Menschen.</h3>\n<p>Vielleicht triffst du diese Woche jemanden, der sehr süß und reif ist. Ihre Großzügigkeit und unbeabsichtigte Freundlichkeit wird vom anderen Geschlecht geschätzt, wenn Sie anderen in Schwierigkeiten Hilfe anbieten. Diese Person mag gut aussehen oder über gute materielle Verhältnisse verfügen. Scheuen Sie sich nicht, Ihre wahren Gefühle auszudrücken, und lassen Sie Ihre Gefühle nicht auf extreme Weise aneinander aus, da dies auf beiden Seiten zum Scheitern führen wird!</p><p> </p><p>Beißen Sie nicht mehr ab, als Sie kauen können. Mit kleinen und schrittweisen Schritten erreicht man große Ziele im Leben.</p> <h3>Priorisieren Sie Trinkwasser.</h3><p>Die richtige Flüssigkeitszufuhr ist wichtig für die allgemeine Gesundheit. Sie haben wahrscheinlich schon oft gehört, dass Sie täglich acht Gläser Wasser trinken müssen, um Ihren Körper mit Feuchtigkeit zu versorgen. Wenn Sie durstig sind, entscheiden Sie sich meistens für Wasser, da Wasser Ihren Durst besser löscht als andere Getränke und keine Kalorien und Kohlenhydrate enthält. Nehmen Sie immer eine Wasserflasche mit, wohin Sie auch gehen. Deiner Gesundheit geht es gut. Machen Sie einige beruhigende Übungen wie Yoga und Gehen. Die Anpassung Ihres Körpers und Geistes an die Jahreszeit ist besser für Ihr Stadium geeignet und wird Ihren Körper gesünder machen.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>Busy &amp; Emotional</h3><p>You will also be particularly busy at work this week. You feel like your talents are not being noticed and your efforts are in vain. This is when you feel depressed. Maybe it's a mindset you need to adjust to. You're more likely to have a lot of things planned in your head, be willing to be upfront about your feelings, and be very emotional when dealing with things. It will cause innocent people to be hurt by your anger. Being cold and silent is okay, but you must not interfere with your work. You need to control your emotions to avoid unnecessary mistakes!</p>"
+      "desc": "<h3>Beschäftigt und emotional.</h3><p>Auch bei der Arbeit werden Sie diese Woche besonders beschäftigt sein. Sie haben das Gefühl, dass Ihre Talente nicht wahrgenommen werden und Ihre Bemühungen vergeblich sind. Dies ist der Zeitpunkt, an dem Sie sich deprimiert fühlen. Vielleicht ist es eine Denkweise, an die Sie sich anpassen müssen. Es ist wahrscheinlicher, dass Sie viele Dinge im Kopf geplant haben, bereit sind, offen über Ihre Gefühle zu sprechen, und sehr emotional sind, wenn Sie mit Dingen umgehen. Es wird dazu führen, dass unschuldige Menschen durch Ihre Wut verletzt werden. Kalt und still zu sein ist in Ordnung, aber Sie dürfen sich nicht in Ihre Arbeit einmischen. Sie müssen Ihre Emotionen kontrollieren, um unnötige Fehler zu vermeiden!</p>"
     },
     "monthly": {
-      "section_title": "Aries Monthly Horoscope",
+      "section_title": "Monatshoroskop Widder.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -147,7 +147,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -158,7 +158,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -169,7 +169,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -180,7 +180,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -191,17 +191,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your confidence is high, making this an excellent month for personal development. Take the lead on a project that you're passionate about.</p><h3>Love:</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Work:</h3><p>Your hard work is likely to be recognized, but don't let success go to your head. Stay humble, and continue to put in the effort.</p><h3>Money:</h3><p>You might be tempted by luxury items, but it's a better time to save for something meaningful. Financial discipline now will pay off later.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Ihr Selbstvertrauen ist groß, was diesen Monat zu einem hervorragenden Monat für die persönliche Entwicklung macht. Übernehmen Sie die Führung bei einem Projekt, das Ihnen am Herzen liegt.</p><h3>Liebe:.</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Arbeiten:.</h3><p>Ihre harte Arbeit wird wahrscheinlich anerkannt, aber lassen Sie sich den Erfolg nicht zu Kopf steigen. Bleiben Sie bescheiden und geben Sie sich weiterhin Mühe.</p><h3>Geld:.</h3><p>Sie werden vielleicht von Luxusartikeln in Versuchung geführt, aber es ist der bessere Zeitpunkt, für etwas Sinnvolles zu sparen. Finanzielle Disziplin wird sich später auszahlen.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>General:</h3><p>Your confidence is high, making this an excellent month for personal development. Take the lead on a project that you're passionate about.</p><h3>Love:</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Work:</h3><p>Your hard work is likely to be recognized, but don't let success go to your head. Stay humble, and continue to put in the effort.</p><h3>Money:</h3><p>You might be tempted by luxury items, but it's a better time to save for something meaningful. Financial discipline now will pay off later.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Ihr Selbstvertrauen ist groß, was diesen Monat zu einem hervorragenden Monat für die persönliche Entwicklung macht. Übernehmen Sie die Führung bei einem Projekt, das Ihnen am Herzen liegt.</p><h3>Liebe:.</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Arbeiten:.</h3><p>Ihre harte Arbeit wird wahrscheinlich anerkannt, aber lassen Sie sich den Erfolg nicht zu Kopf steigen. Bleiben Sie bescheiden und geben Sie sich weiterhin Mühe.</p><h3>Geld:.</h3><p>Sie werden vielleicht von Luxusartikeln in Versuchung geführt, aber es ist der bessere Zeitpunkt, für etwas Sinnvolles zu sparen. Finanzielle Disziplin wird sich später auszahlen.</p>"
     },
     "yearly": {
-      "section_title": "Aries Yearly Horoscope",
+      "section_title": "Jahreshoroskop Widder.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.0,
             0.0,
@@ -212,7 +212,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -223,7 +223,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -234,7 +234,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -245,7 +245,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -256,17 +256,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year, Aries, you're set to blaze new trails. Your natural courage will lead you to unexplored territories in life. While your energy is high, balance is crucial—take time to recharge. Challenges will present themselves, but they're merely opportunities to showcase your strength.</p><h3>Love</h3><p>Romance takes a front seat with chances for new and deeper connections. In relationships, communication will deepen bonds. Single Aries may encounter potential partners who match their adventurous spirit. Remember, true love also requires patience and understanding.</p><h3>Work</h3><p>Your professional life demands innovation and initiative. Step up as the leader you are, but also value collaboration. Career growth is on the horizon, but it requires consistent effort and adaptability. Networking will unlock doors to potential opportunities.</p><h3>Money</h3><p>Financially, strategic planning is key. Be mindful of impulsive spending and focus on long-term goals. Investment in self-improvement could lead to higher earning potential. This is a year to build, not just spend—financial advisors can provide guidance.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Dieses Jahr, Widder, bist du bereit, neue Wege zu beschreiten. Ihr natürlicher Mut wird Sie in unerforschte Gebiete des Lebens führen. Auch wenn Ihre Energie hoch ist, ist das Gleichgewicht entscheidend – nehmen Sie sich Zeit zum Aufladen. Es werden Herausforderungen auf Sie zukommen, aber sie sind lediglich Gelegenheiten, Ihre Stärke unter Beweis zu stellen.</p><h3>Liebe.</h3><p>Romantik steht im Vordergrund und bietet Chancen für neue und tiefere Verbindungen. In Beziehungen wird Kommunikation die Bindungen vertiefen. Single-Widder treffen möglicherweise auf potenzielle Partner, die zu ihrem Abenteuergeist passen. Denken Sie daran, dass wahre Liebe auch Geduld und Verständnis erfordert.</p><h3>Arbeiten.</h3><p>Ihr Berufsleben erfordert Innovation und Initiative. Seien Sie der Anführer, der Sie sind, aber legen Sie auch Wert auf Zusammenarbeit. Karrierewachstum ist in Sicht, erfordert jedoch konsequenten Einsatz und Anpassungsfähigkeit. Durch die Vernetzung eröffnen sich Türen zu potenziellen Chancen.</p><h3>Geld.</h3><p>Finanziell ist die strategische Planung von entscheidender Bedeutung. Achten Sie auf impulsive Ausgaben und konzentrieren Sie sich auf langfristige Ziele. Investitionen in die Selbstverbesserung könnten zu höheren Verdienstmöglichkeiten führen. Dies ist ein Jahr zum Aufbauen, nicht nur zum Ausgeben – Finanzberater können Ihnen Orientierung geben.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>General</h3><p>This year, Aries, you're set to blaze new trails. Your natural courage will lead you to unexplored territories in life. While your energy is high, balance is crucial—take time to recharge. Challenges will present themselves, but they're merely opportunities to showcase your strength.</p><h3>Love</h3><p>Romance takes a front seat with chances for new and deeper connections. In relationships, communication will deepen bonds. Single Aries may encounter potential partners who match their adventurous spirit. Remember, true love also requires patience and understanding.</p><h3>Work</h3><p>Your professional life demands innovation and initiative. Step up as the leader you are, but also value collaboration. Career growth is on the horizon, but it requires consistent effort and adaptability. Networking will unlock doors to potential opportunities.</p><h3>Money</h3><p>Financially, strategic planning is key. Be mindful of impulsive spending and focus on long-term goals. Investment in self-improvement could lead to higher earning potential. This is a year to build, not just spend—financial advisors can provide guidance.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Dieses Jahr, Widder, bist du bereit, neue Wege zu beschreiten. Ihr natürlicher Mut wird Sie in unerforschte Gebiete des Lebens führen. Auch wenn Ihre Energie hoch ist, ist das Gleichgewicht entscheidend – nehmen Sie sich Zeit zum Aufladen. Es werden Herausforderungen auf Sie zukommen, aber sie sind lediglich Gelegenheiten, Ihre Stärke unter Beweis zu stellen.</p><h3>Liebe.</h3><p>Romantik steht im Vordergrund und bietet Chancen für neue und tiefere Verbindungen. In Beziehungen wird Kommunikation die Bindungen vertiefen. Single-Widder treffen möglicherweise auf potenzielle Partner, die zu ihrem Abenteuergeist passen. Denken Sie daran, dass wahre Liebe auch Geduld und Verständnis erfordert.</p><h3>Arbeiten.</h3><p>Ihr Berufsleben erfordert Innovation und Initiative. Seien Sie der Anführer, der Sie sind, aber legen Sie auch Wert auf Zusammenarbeit. Karrierewachstum ist in Sicht, erfordert jedoch konsequenten Einsatz und Anpassungsfähigkeit. Durch die Vernetzung eröffnen sich Türen zu potenziellen Chancen.</p><h3>Geld.</h3><p>Finanziell ist die strategische Planung von entscheidender Bedeutung. Achten Sie auf impulsive Ausgaben und konzentrieren Sie sich auf langfristige Ziele. Investitionen in die Selbstverbesserung könnten zu höheren Verdienstmöglichkeiten führen. Dies ist ein Jahr zum Aufbauen, nicht nur zum Ausgeben – Finanzberater können Ihnen Orientierung geben.</p>"
     },
     "love": {
-      "section_title": "Aries Love Horoscope",
+      "section_title": "Liebeshoroskop Widder.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -277,7 +277,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -288,7 +288,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -299,7 +299,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -310,7 +310,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -321,17 +321,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>capricious</h3><p>Aries can be a bit capricious in relationships. Aries doesn't care what others think of their relationship, as long as they think it's worth it. And when pursuing someone, Aries doesn't care what the outside world thinks. As long as Aries likes a person, they will try their best to be together.</p> ",
+      "article_html": "\n<h3>launisch.</h3><p>Widder können in Beziehungen etwas launisch sein. Dem Widder ist es egal, was andere über ihre Beziehung denken, solange sie denken, dass es sich lohnt. Und wenn er jemanden verfolgt, ist es dem Widder egal, was die Außenwelt denkt. Solange Widder eine Person mögen, werden sie ihr Bestes geben, um zusammen zu sein.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>capricious</h3><p>Aries can be a bit capricious in relationships. Aries doesn't care what others think of their relationship, as long as they think it's worth it. And when pursuing someone, Aries doesn't care what the outside world thinks. As long as Aries likes a person, they will try their best to be together.</p>"
+      "desc": "<h3>launisch.</h3><p>Widder können in Beziehungen etwas launisch sein. Dem Widder ist es egal, was andere über ihre Beziehung denken, solange sie denken, dass es sich lohnt. Und wenn er jemanden verfolgt, ist es dem Widder egal, was die Außenwelt denkt. Solange Widder eine Person mögen, werden sie ihr Bestes geben, um zusammen zu sein.</p>"
     },
     "health": {
-      "section_title": "Aries Health Horoscope",
+      "section_title": "Gesundheitshoroskop Widder.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -342,7 +342,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -353,7 +353,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.0,
             0.0,
@@ -364,7 +364,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -375,7 +375,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -386,17 +386,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Emotional and mental state of Aries may be affected by more trivial matters. The quality of sleep is not very good, and you will easily wake up in the middle of the night. It is recommended not to drink too much water before going to bed, but you can sleep after taking a hot bath. In terms of diet, Aries can eat more fruits, such as apples, kiwi and grapes. Being rich in vitamins and minerals, they have the effect of strengthening immunity and improving the quality of sleep.</p> ",
+      "article_html": "\n<p>Der emotionale und mentale Zustand des Widders kann durch trivialere Dinge beeinflusst werden. Die Schlafqualität ist nicht sehr gut und man wacht leicht mitten in der Nacht auf. Es wird empfohlen, vor dem Schlafengehen nicht zu viel Wasser zu trinken, aber nach einem heißen Bad können Sie schlafen. Was die Ernährung angeht, kann der Widder mehr Obst essen, zum Beispiel Äpfel, Kiwi und Weintrauben. Da sie reich an Vitaminen und Mineralstoffen sind, stärken sie das Immunsystem und verbessern die Schlafqualität.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>The mood is slightly depressed. When thinking about problems, Aries can't help but think in a negative way, causing many problems to get stuck in themselves. Physical resistance may be reduced, so it is advisable to do more exercise and keep a full warm-up before exercising to increase physical fitness.\nA change of perspective or an adjustment of mind will clear things up.</p>"
+      "desc": "<p>Die Stimmung ist leicht gedrückt. Wenn er über Probleme nachdenkt, kann der Widder nicht anders, als negativ zu denken, was dazu führt, dass viele Probleme in sich selbst stecken bleiben. Der körperliche Widerstand kann reduziert sein, daher ist es ratsam, vor dem Training mehr Sport zu treiben und sich gründlich aufzuwärmen, um die körperliche Fitness zu steigern.\nEin Perspektivwechsel oder eine Anpassung der Denkweise wird die Dinge klären.</p>"
     },
     "career": {
-      "section_title": "Aries Career Horoscope",
+      "section_title": "Karrierehoroskop Widder.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -407,7 +407,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -418,7 +418,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -429,7 +429,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -440,7 +440,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -451,17 +451,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Aries prefers an environment of independence in their daily work. If boss can give Aries the authority to exercise their spontaneity, work can move forward very quickly. Another good workplace environment for An Aries is competitive. This will allow Aries to take on adventurous or independent tasks that will maximize Aries talents.</p> ",
+      "article_html": "\n<p>Widder bevorzugen bei ihrer täglichen Arbeit ein Umfeld der Unabhängigkeit. Wenn der Chef dem Widder die Autorität geben kann, seine Spontaneität auszuüben, kann die Arbeit sehr schnell voranschreiten. Ein weiteres gutes Arbeitsumfeld für An Aries ist der Wettbewerb. Dadurch kann der Widder abenteuerliche oder unabhängige Aufgaben übernehmen, die seine Talente maximieren.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>Aries has positive ambition, action and determination. They are good at breaking new ground. Aries can be very impulsive when it comes to personal prestige and will desperately seek social status. Aries will strive to compete with others, eager to win the competition and gain a reputation for professional excellence. Aries can be career blazers.</p>"
+      "desc": "<p>Der Widder hat positiven Ehrgeiz, Tatkraft und Entschlossenheit. Sie sind gut darin, neue Wege zu gehen. Widder können sehr impulsiv sein, wenn es um ihr persönliches Prestige geht, und streben verzweifelt nach sozialem Status. Widder werden danach streben, mit anderen zu konkurrieren, um den Wettbewerb zu gewinnen und sich einen Ruf für professionelle Exzellenz zu erwerben. Widder können Karrierestarter sein.</p>"
     },
     "sex": {
-      "section_title": "Aries Sex Horoscope",
+      "section_title": "Sexhoroskop Widder.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -472,7 +472,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -483,7 +483,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -494,7 +494,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -505,7 +505,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -516,9 +516,9 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p> ",
+      "article_html": "\n<p>Wirbelwind-Romantik ist für Widder weit verbreitet. Aber wenn die Liebe einmal beginnt, dauert sie normalerweise ein Leben lang. Solange genügend Würze und Aufregung vorhanden sind, um den Blutfluss aufrechtzuerhalten, wird die Beziehung stark und dauerhaft sein. Die feurige Natur des Widders macht ihn ewig optimistisch. Während Widder gerne kreativ ist, wenn es um Liebe geht, mag es Widder sexuell nicht, zu kompliziert zu sein. Denken Sie daran, es kommt darauf an, direkt zu sein.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>When it comes to romance, the manic fire sign of Aries is sure to take the initiative. When someone notices them, they move quickly. But in order to keep Aries' attention, someone needs to be as energetic and excited as they are. This passionate sign likes to take risks. So don't mistake Aries' irritability for boredom. It's not a sign that they'd prefer to go elsewhere or be with other people. It's a sign that they want to pick up the pace!</p>"
+      "desc": "<p>Wenn es um Romantik geht, ergreift das manische Feuerzeichen Widder mit Sicherheit die Initiative. Wenn jemand sie bemerkt, bewegen sie sich schnell. Aber um die Aufmerksamkeit des Widders zu behalten, muss jemand genauso energisch und aufgeregt sein wie er. Dieses leidenschaftliche Sternzeichen geht gerne Risiken ein. Verwechseln Sie die Gereiztheit des Widders also nicht mit Langeweile. Es ist kein Zeichen dafür, dass sie lieber woanders hingehen oder mit anderen Menschen zusammen sein möchten. Es ist ein Zeichen dafür, dass sie das Tempo erhöhen wollen!</p>"
     },
     "other": null
   },
@@ -589,12 +589,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Wenn Sie langsam und stetig vorgehen, können Sie Ihre Energie den ganzen Tag über aufrechterhalten.</p><h3>Liebe:.</h3><p>Bekräftigen Sie Ihr Engagement und Sie werden die Stabilität spüren, die Sie schätzen. Für Singles ist Geduld der Schlüssel – lassen Sie Beziehungen auf natürliche Weise entstehen.</p><h3>Arbeiten:.</h3><p>Möglicherweise müssen Sie sich in einer beruflichen Situation behaupten. Bleiben Sie Ihren Werten treu.</p><h3>Geld:.</h3><p>Es ist der richtige Zeitpunkt, sich von einem Finanzberater beraten zu lassen, um sicherzustellen, dass Sie auf dem richtigen Weg sind.</p>"
     },
     "weekly": {
-      "section_title": "Taurus Weekly Horoscope",
+      "section_title": "Wochenhoroskop Stier.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -605,7 +605,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -616,7 +616,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -627,7 +627,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -638,7 +638,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -649,17 +649,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p> <h3>Lack of Enthusiasm</h3><p>If you have a partner, you and your partner will have a steady and calm week, but too much calm can make you feel like your relationship lacks passion. Sometimes you can take a break from work and travel. You will learn more about your partner in your new lifestyle. Learn to add some surprises to your relationship, which will make it even hotter. If you're single, chances are you've seen characters in movies or TV shows that fit your idea of a mate. Try to make more friends in your life.</p> <p>Stay in the present. Anxieties and fears about things that happened in the past should be left in the past.</p> <h3>Take exercise</h3><p>With all your energy being spent on your work team, the potential for burnout is high. So take care of your throat and kidneys. Try to have more exercise this week. It will help with your mood as moving your body releases endorphins, which transmit messages to the brain, translating into positive feelings. Regular exercise can help you fight depression, anxiety, loneliness, and other negative feelings and strengthen your immune system. Or you can go out for a walk.</p> ",
+      "article_html": "\n<h3>Seien Sie verantwortungsbewusst und hören Sie sich Meinungen an.</h3><p>Nehmen Sie diese Woche keine Abkürzungen, um Ihre Ziele bei der Arbeit zu erreichen. Am besten wäre es, wenn Sie gewissenhaft darüber nachdenken würden, was diese Woche erledigt werden muss. Seien Sie nicht selbstgerecht. Andernfalls verlieren Sie möglicherweise einen Teil Ihres Bonus. Sie werden sich diese Woche bei der Arbeit ausgegrenzt fühlen. Sie erledigen die einfache Arbeit, während Ihre Kollegen große Aufgaben übernehmen oder die schwierigere Arbeit erledigen. Machen Sie sich darüber keine Sorgen. Die eingesparte Zeit eignet sich zur Verbesserung Ihrer Fähigkeiten. Es fällt Ihnen leichter, Hilfe von anderen zu erhalten, aber Sie müssen die Beiträge Ihres Teams in Ihren Plan einbeziehen, damit Sie Ihre Ziele schneller erreichen können.</p> <h3>Mangelnde Begeisterung.</h3><p>Wenn Sie einen Partner haben, werden Sie und Ihr Partner eine ruhige und ruhige Woche erleben, aber zu viel Ruhe kann dazu führen, dass Sie das Gefühl haben, dass es Ihrer Beziehung an Leidenschaft mangelt. Manchmal kann man sich eine Pause von der Arbeit und vom Reisen gönnen. Sie erfahren mehr über Ihren Partner in Ihrem neuen Lebensstil. Lernen Sie, Ihrer Beziehung einige Überraschungen hinzuzufügen, die sie noch heißer machen. Wenn Sie Single sind, haben Sie wahrscheinlich Charaktere in Filmen oder Fernsehsendungen gesehen, die zu Ihrer Vorstellung von einem Partner passen. Versuchen Sie, mehr Freunde in Ihrem Leben zu finden.</p> <p>Bleiben Sie in der Gegenwart. Ängste und Befürchtungen über Dinge, die in der Vergangenheit passiert sind, sollten der Vergangenheit angehören.</p> <h3>Machen Sie Sport.</h3><p>Da Sie Ihre ganze Energie in Ihr Arbeitsteam stecken, ist die Gefahr eines Burnouts hoch. Passen Sie also auf Ihren Hals und Ihre Nieren auf. Versuchen Sie, diese Woche mehr Sport zu treiben. Es wird Ihre Stimmung verbessern, da durch Bewegung Ihres Körpers Endorphine freigesetzt werden, die Botschaften an das Gehirn übermitteln und sich in positiven Gefühlen niederschlagen. Regelmäßige Bewegung kann Ihnen helfen, Depressionen, Angstzustände, Einsamkeit und andere negative Gefühle zu bekämpfen und Ihr Immunsystem zu stärken. Oder du gehst spazieren..</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p>"
+      "desc": "<h3>Seien Sie verantwortungsbewusst und hören Sie sich Meinungen an.</h3><p>Nehmen Sie diese Woche keine Abkürzungen, um Ihre Ziele bei der Arbeit zu erreichen. Am besten wäre es, wenn Sie gewissenhaft darüber nachdenken würden, was diese Woche erledigt werden muss. Seien Sie nicht selbstgerecht. Andernfalls verlieren Sie möglicherweise einen Teil Ihres Bonus. Sie werden sich diese Woche bei der Arbeit ausgegrenzt fühlen. Sie erledigen die einfache Arbeit, während Ihre Kollegen große Aufgaben übernehmen oder die schwierigere Arbeit erledigen. Machen Sie sich darüber keine Sorgen. Die eingesparte Zeit eignet sich zur Verbesserung Ihrer Fähigkeiten. Es fällt Ihnen leichter, Hilfe von anderen zu erhalten, aber Sie müssen die Beiträge Ihres Teams in Ihren Plan einbeziehen, damit Sie Ihre Ziele schneller erreichen können.</p>"
     },
     "monthly": {
-      "section_title": "Taurus Monthly Horoscope",
+      "section_title": "Monatshoroskop Stier.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -670,7 +670,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -681,7 +681,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -692,7 +692,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -703,7 +703,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -714,17 +714,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about personal development. Take up a new hobby or learn a new skill that enriches your life.</p><h3>Love:</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Work:</h3><p>Your attention to detail will be crucial in completing a project to a high standard. Your meticulous nature will not go unnoticed.</p><h3>Money:</h3><p>An opportunity to increase your income could arise. Keep an eye out for side hustles or educational opportunities that could expand your earning potential.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>In diesem Monat geht es um die persönliche Entwicklung. Nehmen Sie ein neues Hobby auf oder erlernen Sie eine neue Fähigkeit, die Ihr Leben bereichert.</p><h3>Liebe:.</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Arbeiten:.</h3><p>Ihre Liebe zum Detail ist entscheidend für den Abschluss eines Projekts auf hohem Niveau. Ihre sorgfältige Art wird nicht unbemerkt bleiben.</p><h3>Geld:.</h3><p>Es könnte sich die Möglichkeit ergeben, Ihr Einkommen zu steigern. Halten Sie Ausschau nach Nebenbeschäftigungen oder Bildungsmöglichkeiten, die Ihre Verdienstmöglichkeiten erweitern könnten.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>General:</h3><p>This month is about personal development. Take up a new hobby or learn a new skill that enriches your life.</p><h3>Love:</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Work:</h3><p>Your attention to detail will be crucial in completing a project to a high standard. Your meticulous nature will not go unnoticed.</p><h3>Money:</h3><p>An opportunity to increase your income could arise. Keep an eye out for side hustles or educational opportunities that could expand your earning potential.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>In diesem Monat geht es um die persönliche Entwicklung. Nehmen Sie ein neues Hobby auf oder erlernen Sie eine neue Fähigkeit, die Ihr Leben bereichert.</p><h3>Liebe:.</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Arbeiten:.</h3><p>Ihre Liebe zum Detail ist entscheidend für den Abschluss eines Projekts auf hohem Niveau. Ihre sorgfältige Art wird nicht unbemerkt bleiben.</p><h3>Geld:.</h3><p>Es könnte sich die Möglichkeit ergeben, Ihr Einkommen zu steigern. Halten Sie Ausschau nach Nebenbeschäftigungen oder Bildungsmöglichkeiten, die Ihre Verdienstmöglichkeiten erweitern könnten.</p>"
     },
     "yearly": {
-      "section_title": "Taurus Yearly Horoscope",
+      "section_title": "Jahreshoroskop Stier.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -735,7 +735,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -746,7 +746,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -757,7 +757,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -768,7 +768,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -779,17 +779,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Taurus, this year is about embracing change and growing from it. Your usual comfort in routine will be challenged, but this will lead to personal evolution. Stay grounded, but don't resist the call to adapt. Your resilience will be your greatest asset.</p><h3>Love</h3><p>In matters of the heart, stability and loyalty remain your focus. For couples, it's time to nurture and possibly rekindle your connection. Singles should stay true to their values, attracting partners who appreciate your sincerity. Communication is vital—speak your heart with kindness.</p><h3>Work</h3><p>Work will require a delicate balance of persistence and flexibility. Your determination will serve you well in achieving your goals. Teamwork will bring success, so foster good relationships with colleagues. This year may offer a chance to turn a passion project into a career.</p><h3>Money</h3><p>Financially, consistency is your friend. Budgeting and saving are more important than ever. Look for investments that offer steady growth. Be cautious with large expenditures—research and planning are your allies in financial decisions.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Stier, in diesem Jahr geht es darum, Veränderungen anzunehmen und daraus zu wachsen. Ihr gewohnter Komfort in der Routine wird in Frage gestellt, aber dies wird zu einer persönlichen Weiterentwicklung führen. Bleiben Sie auf dem Boden, aber widersetzen Sie sich nicht dem Ruf, sich anzupassen. Ihre Belastbarkeit wird Ihr größtes Kapital sein.</p><h3>Liebe.</h3><p>In Herzensangelegenheiten bleiben Stabilität und Loyalität Ihr Fokus. Für Paare ist es an der Zeit, die Verbindung zu pflegen und möglicherweise wieder aufleben zu lassen. Singles sollten ihren Werten treu bleiben und Partner anziehen, die Ihre Aufrichtigkeit schätzen. Kommunikation ist lebenswichtig – sprechen Sie Ihr Herz mit Freundlichkeit aus.</p><h3>Arbeiten.</h3><p>Die Arbeit erfordert ein empfindliches Gleichgewicht zwischen Beharrlichkeit und Flexibilität. Ihre Entschlossenheit wird Ihnen beim Erreichen Ihrer Ziele gute Dienste leisten. Teamarbeit bringt Erfolg, also pflegen Sie gute Beziehungen zu Kollegen. Dieses Jahr bietet möglicherweise die Chance, ein Leidenschaftsprojekt zum Beruf zu machen.</p><h3>Geld.</h3><p>Finanziell ist Beständigkeit Ihr Freund. Budgetieren und Sparen sind wichtiger denn je. Suchen Sie nach Investitionen, die ein stetiges Wachstum bieten. Seien Sie bei großen Ausgaben vorsichtig – Forschung und Planung sind Ihre Verbündeten bei finanziellen Entscheidungen.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>General</h3><p>Taurus, this year is about embracing change and growing from it. Your usual comfort in routine will be challenged, but this will lead to personal evolution. Stay grounded, but don't resist the call to adapt. Your resilience will be your greatest asset.</p><h3>Love</h3><p>In matters of the heart, stability and loyalty remain your focus. For couples, it's time to nurture and possibly rekindle your connection. Singles should stay true to their values, attracting partners who appreciate your sincerity. Communication is vital—speak your heart with kindness.</p><h3>Work</h3><p>Work will require a delicate balance of persistence and flexibility. Your determination will serve you well in achieving your goals. Teamwork will bring success, so foster good relationships with colleagues. This year may offer a chance to turn a passion project into a career.</p><h3>Money</h3><p>Financially, consistency is your friend. Budgeting and saving are more important than ever. Look for investments that offer steady growth. Be cautious with large expenditures—research and planning are your allies in financial decisions.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Stier, in diesem Jahr geht es darum, Veränderungen anzunehmen und daraus zu wachsen. Ihr gewohnter Komfort in der Routine wird in Frage gestellt, aber dies wird zu einer persönlichen Weiterentwicklung führen. Bleiben Sie auf dem Boden, aber widersetzen Sie sich nicht dem Ruf, sich anzupassen. Ihre Belastbarkeit wird Ihr größtes Kapital sein.</p><h3>Liebe.</h3><p>In Herzensangelegenheiten bleiben Stabilität und Loyalität Ihr Fokus. Für Paare ist es an der Zeit, die Verbindung zu pflegen und möglicherweise wieder aufleben zu lassen. Singles sollten ihren Werten treu bleiben und Partner anziehen, die Ihre Aufrichtigkeit schätzen. Kommunikation ist lebenswichtig – sprechen Sie Ihr Herz mit Freundlichkeit aus.</p><h3>Arbeiten.</h3><p>Die Arbeit erfordert ein empfindliches Gleichgewicht zwischen Beharrlichkeit und Flexibilität. Ihre Entschlossenheit wird Ihnen beim Erreichen Ihrer Ziele gute Dienste leisten. Teamarbeit bringt Erfolg, also pflegen Sie gute Beziehungen zu Kollegen. Dieses Jahr bietet möglicherweise die Chance, ein Leidenschaftsprojekt zum Beruf zu machen.</p><h3>Geld.</h3><p>Finanziell ist Beständigkeit Ihr Freund. Budgetieren und Sparen sind wichtiger denn je. Suchen Sie nach Investitionen, die ein stetiges Wachstum bieten. Seien Sie bei großen Ausgaben vorsichtig – Forschung und Planung sind Ihre Verbündeten bei finanziellen Entscheidungen.</p>"
     },
     "love": {
-      "section_title": "Taurus Love Horoscope",
+      "section_title": "Liebeshoroskop Stier.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -800,7 +800,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -811,7 +811,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -822,7 +822,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -833,7 +833,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -844,17 +844,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<h3>peaceful &amp; stubborn</h3><p>Taurus exhibits a state of emotional stability in most situations in love. Taurus has a peaceful mind and is rarely excited or depressed. But Taureans are also stubborn and usually don't change after they make a decision.</p> ",
+      "article_html": "\n<h3>friedlich und stur.</h3><p>Der Stier zeigt in den meisten Liebessituationen einen Zustand emotionaler Stabilität. Der Stier hat einen ruhigen Geist und ist selten aufgeregt oder deprimiert. Aber Stiere sind auch hartnäckig und ändern sich normalerweise nicht, nachdem sie eine Entscheidung getroffen haben.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>monogamous</h3><p>Taurus is monogamous in relationships. Once Taurus has a mate, they will treat that person as their one and only. Taurus is almost impossible to empathize with other people and deserves a lot of trust.</p>"
+      "desc": "<h3>monogam.</h3><p>Stier ist in Beziehungen monogam. Sobald der Stier einen Partner hat, wird er diese Person als seine einzige Person behandeln. Der Stier kann sich kaum in andere Menschen hineinversetzen und verdient viel Vertrauen.</p>"
     },
     "health": {
-      "section_title": "Taurus Health Horoscope",
+      "section_title": "Gesundheitshoroskop Stier.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -865,7 +865,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -876,7 +876,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -887,7 +887,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -898,7 +898,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -909,17 +909,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taurus should pay special attention to their diet. You may be prone to allergies, especially if you like seafood, Taurus. Be careful not to eat too much of it and also to stay away from your allergens to avoid suffering.There is also a case of not having a good appetite for all the things you like to eat. However, it is advisable for Taurus to eat regularly, more or less often, so as not to starve.It is also important not to eat too much hot or pickled food as this can lead to health risks.</p> ",
+      "article_html": "\n<p>Stiere sollten besonders auf ihre Ernährung achten. Sie sind möglicherweise anfällig für Allergien, insbesondere wenn Sie Meeresfrüchte mögen, Stier. Achten Sie darauf, nicht zu viel davon zu essen und halten Sie sich auch von Ihren Allergenen fern, um Leiden zu vermeiden. Es kann auch vorkommen, dass Sie keinen guten Appetit auf all die Dinge haben, die Sie gerne essen. Allerdings ist es für den Stier ratsam, regelmäßig, mehr oder weniger, zu essen, um nicht zu verhungern. Wichtig ist auch, nicht zu viel heißes oder eingelegtes Essen zu sich zu nehmen, da dies zu gesundheitlichen Risiken führen kann.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>Sentimentality may affect Taurus and negative emotions may cause you pain. You need an outlet to release your emotions, but don't take it out on those close to you. Also, Taurus should be aware that overindulging in your emotional outbursts can affect your mental state and have some negative health effects. In this case, Taurus needs a better night's sleep. Therefore, try to drink less strong tea, milk tea and coffee right after the afternoon. These drinks tend to affect the quality of sleep at night and may cause insomnia or excessive dreaming.</p>"
+      "desc": "<p>Sentimentalität kann sich auf den Stier auswirken und negative Emotionen können Schmerzen verursachen. Sie brauchen ein Ventil, um Ihren Gefühlen freien Lauf zu lassen, aber lassen Sie es nicht an denen aus, die Ihnen nahe stehen. Außerdem sollte sich der Stier darüber im Klaren sein, dass ein übermäßiger Genuss emotionaler Ausbrüche seinen Geisteszustand beeinträchtigen und negative Auswirkungen auf die Gesundheit haben kann. In diesem Fall braucht der Stier einen besseren Schlaf. Versuchen Sie daher, direkt nach dem Nachmittag weniger starken Tee, Milchtee und Kaffee zu trinken. Diese Getränke neigen dazu, die Qualität des nächtlichen Schlafs zu beeinträchtigen und können Schlaflosigkeit oder übermäßiges Träumen verursachen.</p>"
     },
     "career": {
-      "section_title": "Taurus Career Horoscope",
+      "section_title": "Karrierehoroskop Stier.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -930,7 +930,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -941,7 +941,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -952,7 +952,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.0,
@@ -963,7 +963,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -974,17 +974,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taureans are slow and steady. They don't give up halfway through a task. This has to do with the fact that Taurus is a responsible person. Taureans are good for starting at the bottom and slowly developing their ability to work for themselves. They are the type of person who will grow with experience. However, when things go wrong in Taurus, they don't have enough motivation to push things forward and tend to run away from problems, making them unsuitable for high-stress companies.</p> ",
+      "article_html": "\n<p>Stiere sind langsam und stetig. Sie geben nicht mitten in einer Aufgabe auf. Das hat damit zu tun, dass der Stier ein verantwortungsbewusster Mensch ist. Stiere sind gut darin, ganz unten anzufangen und langsam ihre Fähigkeit zu entwickeln, selbstständig zu arbeiten. Sie gehören zu den Menschen, die mit der Erfahrung wachsen. Wenn beim Stier jedoch etwas schief geht, fehlt ihm die Motivation, die Dinge voranzutreiben, und er neigt dazu, vor Problemen davonzulaufen, was ihn für Unternehmen mit hohem Stress ungeeignet macht.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>Taureans are usually slow to warm up. It takes a while to get used to a relationship, job, or situation, but once they get used to it, they rarely change unless forced to. Taureans are not impatient and impulsive, but patient. Taurus is also very stubborn and doesn't like to change things once they have made up their minds.</p>"
+      "desc": "<p>Stiere erwärmen sich normalerweise nur langsam. Es dauert eine Weile, sich an eine Beziehung, einen Job oder eine Situation zu gewöhnen, aber wenn man sich erst einmal daran gewöhnt hat, ändert man kaum etwas, es sei denn, man wird dazu gezwungen. Stiere sind nicht ungeduldig und impulsiv, sondern geduldig. Außerdem ist der Stier sehr stur und ändert nicht gern Dinge, wenn er sich einmal entschieden hat.</p>"
     },
     "sex": {
-      "section_title": "Taurus Sex Horoscope",
+      "section_title": "Sexhoroskop Stier.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -995,7 +995,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1006,7 +1006,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1017,7 +1017,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1028,7 +1028,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1039,9 +1039,9 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taurus prefers real conversations to jokes or jesting as opposed to flirting. Forget trying to figure out what Taurus wants you to say. When you're insincere, this sign will feel that nothing is more important than closure. Using a sexy perfume or cologne is a great way to attract a Taurus, especially if the scent is sweet, like vanilla. Taurus also likes to touch their partner and be touched, so they enjoy massages, hugs and dancing.</p> ",
+      "article_html": "\n<p>Der Stier bevorzugt echte Gespräche gegenüber Witzen oder Scherzen, statt zu flirten. Versuchen Sie nicht herauszufinden, was Stier von Ihnen sagen möchte. Wenn Sie unaufrichtig sind, wird dieses Zeichen das Gefühl haben, dass nichts wichtiger ist als ein Abschluss. Die Verwendung eines sexy Parfüms oder Eau de Cologne ist eine großartige Möglichkeit, einen Stier anzulocken, insbesondere wenn der Duft süß ist, wie Vanille. Auch der Stier liebt es, seinen Partner zu berühren und berührt zu werden, deshalb genießt er Massagen, Umarmungen und Tanzen.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>The Tauruses are quiet and introverted in nature, and are more likely to be shy when dealing with the opposite sex. Therefore, it is very difficult for them to develop a romantic relationship with the person they meet by chance. But through the matchmaking, it will have a different ending. Because of the prior knowledge of the person they are going to meet, they can communicate with each other calmly and let each other open up their own conversation box. During the question-and-answer session, you will be able to relax and get to know each other well.</p>"
+      "desc": "<p>Der Stier ist von Natur aus ruhig und introvertiert und im Umgang mit dem anderen Geschlecht eher schüchtern. Daher ist es für sie sehr schwierig, eine romantische Beziehung zu der Person aufzubauen, die sie zufällig treffen. Aber durch das Matchmaking wird es ein anderes Ende nehmen. Aufgrund der Vorkenntnisse der Person, die sie treffen werden, können sie ruhig miteinander kommunizieren und sich gegenseitig ihre eigene Gesprächsbox öffnen lassen. Während der Frage-und-Antwort-Runde können Sie sich entspannen und sich gut kennenlernen.</p>"
     },
     "other": null
   },
@@ -1112,12 +1112,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Flexibilität wird heute Ihr größtes Kapital sein, da sich Pläne unerwartet ändern können. Lass dich treiben!.</p><h3>Liebe:.</h3><p>Ein spielerischer Scherz mit Ihrem Partner hält die Beziehung lebendig. Für Singles ist Ihr Charme heute besonders stark.</p><h3>Arbeiten:.</h3><p>Verbundprojekte profitieren von Ihren innovativen Ideen. Halten Sie sich bei Brainstorming-Sitzungen nicht zurück.</p><h3>Geld:.</h3><p>Es könnte an der Zeit sein, Ihr Budget zu überdenken – suchen Sie nach Möglichkeiten, unnötige Ausgaben einzusparen.</p>"
     },
     "weekly": {
-      "section_title": "Gemini Weekly Horoscope",
+      "section_title": "Wochenhoroskop Zwillinge.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1128,7 +1128,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1139,7 +1139,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -1150,7 +1150,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1161,7 +1161,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1172,17 +1172,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>Keep thinking</h3><p>Your work schedule will be more flexible this week, and you will be able to get things done and be more productive. Although this week's schedule is more formal, it is recommended that you focus on a few things. Use your sharp mind to try different things this week. Find things that interest you and pay more attention to them. This will keep you motivated and avoid self-doubt.</p> <h3>Madly in love</h3><p>Someone of the opposite sex will be close to you this week. This person may not be who you think they are, but don't be the first to reject them. Try to get along. Love is a flash of lightning. If you're unattached, your relationship with your significant other will enter a new phase. Both partners will take the initiative to move the relationship forward, and in addition to the vision, they will also take concrete actions to implement each other's ideas. Another possibility is that the ensuing romance involves a meeting at work or an academic presentation. You may fall in love at first sight and quickly fall in love, but your lack of rational thinking has hidden dangers.</p> <p>Everyone makes mistakes. Accept the truth and embrace your imperfection will not make you weaker.</p> <h3>Get sound sleep</h3><p>Overeating can easily lead to gastrointestinal discomfort. It is recommended that people minimize the number of times they eat out and take care of their gastrointestinal problems. The bad news is that you may begin sleeping problems this week. Sleep is strongly linked to health, stress levels, weight, and quality of life. Developing a good sleep schedule, watching what you eat, and managing stress can all help you get sound sleep. In rare cases, medical intervention might be needed.</p> ",
+      "article_html": "\n<h3>Denken Sie weiter.</h3><p>Ihr Arbeitsplan wird diese Woche flexibler sein und Sie werden in der Lage sein, Dinge zu erledigen und produktiver zu sein. Obwohl der Zeitplan für diese Woche formeller ist, wird empfohlen, dass Sie sich auf einige Dinge konzentrieren. Nutzen Sie Ihren scharfen Verstand, um diese Woche verschiedene Dinge auszuprobieren. Finden Sie Dinge, die Sie interessieren, und schenken Sie ihnen mehr Aufmerksamkeit. Das hält Sie motiviert und vermeidet Selbstzweifel.</p> <h3>Wahnsinnig verliebt.</h3><p>Jemand vom anderen Geschlecht wird Ihnen diese Woche nahe sein. Diese Person ist vielleicht nicht die, für die Sie sie halten, aber seien Sie nicht der Erste, der sie ablehnt. Versuchen Sie, miteinander auszukommen. Liebe ist ein Blitz. Wenn Sie ungebunden sind, tritt Ihre Beziehung zu Ihrem Lebensgefährten in eine neue Phase ein. Beide Partner werden die Initiative ergreifen, um die Beziehung voranzutreiben, und neben der Vision auch konkrete Maßnahmen ergreifen, um die Ideen des anderen umzusetzen. Eine andere Möglichkeit besteht darin, dass die daraus resultierende Romanze ein Treffen am Arbeitsplatz oder eine wissenschaftliche Präsentation beinhaltet. Sie verlieben sich vielleicht auf den ersten Blick und verlieben sich schnell, aber Ihr Mangel an rationalem Denken birgt versteckte Gefahren.</p> <p>Jeder macht Fehler. Akzeptiere die Wahrheit und nimm deine Unvollkommenheit an, das wird dich nicht schwächen.</p> <h3>Schlafen Sie tief und fest.</h3><p>Übermäßiges Essen kann leicht zu Magen-Darm-Beschwerden führen. Es wird empfohlen, dass die Menschen möglichst wenig auswärts essen und sich um ihre Magen-Darm-Probleme kümmern. Die schlechte Nachricht ist, dass Sie diese Woche möglicherweise Schlafprobleme bekommen. Schlaf steht in engem Zusammenhang mit Gesundheit, Stresslevel, Gewicht und Lebensqualität. Die Entwicklung eines guten Schlafplans, die Überwachung Ihrer Ernährung und die Bewältigung von Stress können Ihnen zu einem gesunden Schlaf verhelfen. In seltenen Fällen kann ein medizinischer Eingriff erforderlich sein.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>Keep thinking</h3><p>Your work schedule will be more flexible this week, and you will be able to get things done and be more productive. Although this week's schedule is more formal, it is recommended that you focus on a few things. Use your sharp mind to try different things this week. Find things that interest you and pay more attention to them. This will keep you motivated and avoid self-doubt.</p>"
+      "desc": "<h3>Denken Sie weiter.</h3><p>Ihr Arbeitsplan wird diese Woche flexibler sein und Sie werden in der Lage sein, Dinge zu erledigen und produktiver zu sein. Obwohl der Zeitplan für diese Woche formeller ist, wird empfohlen, dass Sie sich auf einige Dinge konzentrieren. Nutzen Sie Ihren scharfen Verstand, um diese Woche verschiedene Dinge auszuprobieren. Finden Sie Dinge, die Sie interessieren, und schenken Sie ihnen mehr Aufmerksamkeit. Das hält Sie motiviert und vermeidet Selbstzweifel.</p>"
     },
     "monthly": {
-      "section_title": "Gemini Monthly Horoscope",
+      "section_title": "Monatshoroskop Zwillinge.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1193,7 +1193,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.0,
@@ -1204,7 +1204,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1215,7 +1215,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -1226,7 +1226,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1237,17 +1237,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your natural curiosity could lead you to pick up a new hobby or study. Follow your interests wherever they lead you.</p><h3>Love:</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Work:</h3><p>You may be required to multitask more than usual. Stay organized to keep on top of things.</p><h3>Money:</h3><p>You might discover a new way to make money on the side. Explore any entrepreneurial ideas you have.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Ihre natürliche Neugier könnte Sie dazu veranlassen, ein neues Hobby oder Studium aufzunehmen. Folgen Sie Ihren Interessen, wohin sie Sie auch führen.</p><h3>Liebe:.</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Arbeiten:.</h3><p>Möglicherweise müssen Sie mehr als gewöhnlich Multitasking betreiben. Bleiben Sie organisiert, um den Überblick zu behalten.</p><h3>Geld:.</h3><p>Vielleicht entdecken Sie eine neue Möglichkeit, nebenbei Geld zu verdienen. Entdecken Sie Ihre unternehmerischen Ideen.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>General:</h3><p>Your natural curiosity could lead you to pick up a new hobby or study. Follow your interests wherever they lead you.</p><h3>Love:</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Work:</h3><p>You may be required to multitask more than usual. Stay organized to keep on top of things.</p><h3>Money:</h3><p>You might discover a new way to make money on the side. Explore any entrepreneurial ideas you have.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Ihre natürliche Neugier könnte Sie dazu veranlassen, ein neues Hobby oder Studium aufzunehmen. Folgen Sie Ihren Interessen, wohin sie Sie auch führen.</p><h3>Liebe:.</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Arbeiten:.</h3><p>Möglicherweise müssen Sie mehr als gewöhnlich Multitasking betreiben. Bleiben Sie organisiert, um den Überblick zu behalten.</p><h3>Geld:.</h3><p>Vielleicht entdecken Sie eine neue Möglichkeit, nebenbei Geld zu verdienen. Entdecken Sie Ihre unternehmerischen Ideen.</p>"
     },
     "yearly": {
-      "section_title": "Gemini Yearly Horoscope",
+      "section_title": "Jahreshoroskop Zwillinge.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1258,7 +1258,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1269,7 +1269,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -1280,7 +1280,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1291,7 +1291,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -1302,17 +1302,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Gemini, this year is about intellectual growth and exploring new interests. Your adaptability will serve you well as you navigate through diverse experiences. Social interactions will bring valuable insights, so keep an open mind. Balance your curiosity with commitment to make the most of this year.</p><h3>Love</h3><p>Your love life will be vibrant and dynamic. Communication is key—express your needs and listen to your partner's. For singles, your charm will attract many, but seek a connection that stimulates your mind. Be honest with yourself and others about what you want in a relationship.</p><h3>Work</h3><p>Professionally, your versatility will open many doors. Embrace opportunities to learn and expand your skill set. Team projects will benefit from your innovative ideas. Stay organized to manage multiple tasks effectively.</p><h3>Money</h3><p>Financially, this is a year to be smart and inventive. Diversify your income streams if possible. Budget for spontaneity, but keep savings a priority. Investments in technology or education may prove beneficial.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Zwillinge, in diesem Jahr geht es um intellektuelles Wachstum und die Erkundung neuer Interessen. Ihre Anpassungsfähigkeit wird Ihnen beim Navigieren durch vielfältige Erfahrungen von großem Nutzen sein. Soziale Interaktionen werden wertvolle Erkenntnisse bringen, also bleiben Sie aufgeschlossen. Bringen Sie Neugier und Engagement in Einklang, um das Beste aus diesem Jahr zu machen.</p><h3>Liebe.</h3><p>Ihr Liebesleben wird lebendig und dynamisch sein. Kommunikation ist der Schlüssel – äußern Sie Ihre Bedürfnisse und hören Sie denen Ihres Partners zu. Für Singles wird Ihr Charme viele anziehen, aber suchen Sie nach einer Verbindung, die Ihren Geist anregt. Seien Sie ehrlich zu sich selbst und anderen, was Sie in einer Beziehung wollen.</p><h3>Arbeiten.</h3><p>Beruflich öffnet Ihnen Ihre Vielseitigkeit viele Türen. Nutzen Sie die Gelegenheit, zu lernen und Ihre Fähigkeiten zu erweitern. Teamprojekte profitieren von Ihren innovativen Ideen. Bleiben Sie organisiert, um mehrere Aufgaben effektiv zu verwalten.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem es darum geht, klug und erfinderisch zu sein. Diversifizieren Sie Ihre Einnahmequellen, wenn möglich. Planen Sie Spontaneität ein, aber sparen Sie Priorität. Investitionen in Technologie oder Bildung können sich als vorteilhaft erweisen.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>General</h3><p>Gemini, this year is about intellectual growth and exploring new interests. Your adaptability will serve you well as you navigate through diverse experiences. Social interactions will bring valuable insights, so keep an open mind. Balance your curiosity with commitment to make the most of this year.</p><h3>Love</h3><p>Your love life will be vibrant and dynamic. Communication is key—express your needs and listen to your partner's. For singles, your charm will attract many, but seek a connection that stimulates your mind. Be honest with yourself and others about what you want in a relationship.</p><h3>Work</h3><p>Professionally, your versatility will open many doors. Embrace opportunities to learn and expand your skill set. Team projects will benefit from your innovative ideas. Stay organized to manage multiple tasks effectively.</p><h3>Money</h3><p>Financially, this is a year to be smart and inventive. Diversify your income streams if possible. Budget for spontaneity, but keep savings a priority. Investments in technology or education may prove beneficial.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Zwillinge, in diesem Jahr geht es um intellektuelles Wachstum und die Erkundung neuer Interessen. Ihre Anpassungsfähigkeit wird Ihnen beim Navigieren durch vielfältige Erfahrungen von großem Nutzen sein. Soziale Interaktionen werden wertvolle Erkenntnisse bringen, also bleiben Sie aufgeschlossen. Bringen Sie Neugier und Engagement in Einklang, um das Beste aus diesem Jahr zu machen.</p><h3>Liebe.</h3><p>Ihr Liebesleben wird lebendig und dynamisch sein. Kommunikation ist der Schlüssel – äußern Sie Ihre Bedürfnisse und hören Sie denen Ihres Partners zu. Für Singles wird Ihr Charme viele anziehen, aber suchen Sie nach einer Verbindung, die Ihren Geist anregt. Seien Sie ehrlich zu sich selbst und anderen, was Sie in einer Beziehung wollen.</p><h3>Arbeiten.</h3><p>Beruflich öffnet Ihnen Ihre Vielseitigkeit viele Türen. Nutzen Sie die Gelegenheit, zu lernen und Ihre Fähigkeiten zu erweitern. Teamprojekte profitieren von Ihren innovativen Ideen. Bleiben Sie organisiert, um mehrere Aufgaben effektiv zu verwalten.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem es darum geht, klug und erfinderisch zu sein. Diversifizieren Sie Ihre Einnahmequellen, wenn möglich. Planen Sie Spontaneität ein, aber sparen Sie Priorität. Investitionen in Technologie oder Bildung können sich als vorteilhaft erweisen.</p>"
     },
     "love": {
-      "section_title": "Gemini Love Horoscope",
+      "section_title": "Liebeshoroskop Zwillinge.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1323,7 +1323,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1334,7 +1334,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1345,7 +1345,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1356,7 +1356,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1367,17 +1367,17 @@ const dataPage = {
           "score": 2.0
         }
       ],
-      "article_html": "\n<h3>Interest in many</h3><p>Geminis like a lot of things and tend to be interested in more than one person. Gemini's liking may be rational, that is, whatever Gemini doesn't hate is liking. But Geminis are more interested in being needed in a relationship and want their partner to discover their inner needs. This is a sign of being taken seriously.</p> ",
+      "article_html": "\n<h3>Interesse an vielen.</h3><p>Zwillinge mögen viele Dinge und neigen dazu, sich für mehr als eine Person zu interessieren. Die Vorliebe eines Zwillings mag rational sein, das heißt, dass ihm alles gefällt, was er nicht hasst. Zwillinge sind jedoch mehr daran interessiert, in einer Beziehung gebraucht zu werden und möchten, dass ihr Partner ihre inneren Bedürfnisse entdeckt. Das ist ein Zeichen dafür, dass man ernst genommen wird.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>fickle &amp; fresh</h3><p>Geminis are fickle, so it's hard for them to settle down and do the same thing. In other words, Gemini is very impatient. Geminis are terrified of boredom and hate conventional relationships. Geminis want a lover who will keep them fresh. Go on different adventures with them, bringing romance and happiness to the Geminis.</p>"
+      "desc": "<h3>launisch und frisch.</h3><p>Zwillinge sind wankelmütig, daher fällt es ihnen schwer, sich zu beruhigen und das Gleiche zu tun. Mit anderen Worten: Zwillinge sind sehr ungeduldig. Zwillinge haben große Angst vor Langeweile und hassen konventionelle Beziehungen. Zwillinge wollen einen Liebhaber, der sie frisch hält. Erleben Sie mit ihnen verschiedene Abenteuer und bringen Sie den Zwillingen Romantik und Glück.</p>"
     },
     "health": {
-      "section_title": "Gemini Health Horoscope",
+      "section_title": "Gesundheitshoroskop Zwillinge.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1388,7 +1388,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -1399,7 +1399,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1410,7 +1410,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1421,7 +1421,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -1432,17 +1432,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>There is little motivation for Gemini today. Try to do something to heal yourself and lighten your state of mind a little. Keep up a moderate amount of exercise and consider practising yoga to tone your body and mind.Chia seeds are healthy as they absorb water and help keep the stomach feeling full. Gemini, sprinkle chilli seeds on your morning yoghurt, smoothie or even salad today.</p> ",
+      "article_html": "\n<p>Für Zwillinge gibt es heute wenig Motivation. Versuchen Sie, etwas zu tun, um sich selbst zu heilen und Ihren Geisteszustand ein wenig aufzuhellen. Treiben Sie mäßig viel Sport und erwägen Sie Yoga, um Ihren Körper und Geist zu stärken. Chiasamen sind gesund, da sie Wasser absorbieren und dafür sorgen, dass sich der Magen satt anfühlt. Zwillinge, streuen Sie heute Chilisamen auf Ihren Morgenjoghurt, Smoothie oder sogar Salat.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Surging motivation makes it easier for Gemini to focus on working hard. You could just try starting the day with a physical workout to encourage more physical and emotional energy.It is said that coconut oil helps to reduce belly fat and it can replace almost any cooking oil you might use. Just try using coconut oil to fry up some stir-fry dishes topped with liquid amino acids, Gemini.</p>"
+      "desc": "<p>Steigende Motivation erleichtert es Zwillingen, sich auf harte Arbeit zu konzentrieren. Sie könnten einfach versuchen, den Tag mit einem körperlichen Training zu beginnen, um mehr körperliche und emotionale Energie zu fördern. Es heißt, dass Kokosnussöl dabei hilft, Bauchfett zu reduzieren, und es kann fast jedes Speiseöl ersetzen, das Sie verwenden. Versuchen Sie einfach, Kokosnussöl zu verwenden, um einige Pfannengerichte mit flüssigen Aminosäuren zuzubereiten, Gemini.</p>"
     },
     "career": {
-      "section_title": "Gemini Career Horoscope",
+      "section_title": "Karrierehoroskop Zwillinge.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1453,7 +1453,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1464,7 +1464,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1475,7 +1475,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1486,7 +1486,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.0,
@@ -1497,17 +1497,17 @@ const dataPage = {
           "score": 1.0
         }
       ],
-      "article_html": "\n<p>Gemini is good for brain and communication. This satisfies the Gemini's analytical and critical thirst for writers, journalists, and communicators. Geminis love to gossip about their lives. They have strong ability to adapt to the environment and interpersonal communication skills. Gemini is also quick-witted and has a sense of humor.</p> ",
+      "article_html": "\n<p>Zwillinge sind gut für Gehirn und Kommunikation. Dies befriedigt den analytischen und kritischen Durst des Zwillings nach Schriftstellern, Journalisten und Kommunikatoren. Zwillinge lieben es, über ihr Leben zu klatschen. Sie verfügen über eine starke Anpassungsfähigkeit an die Umgebung und über zwischenmenschliche Kommunikationsfähigkeiten. Zwillinge sind außerdem schlagfertig und haben Sinn für Humor.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Geminis have many opinions. They don't like overly complicated rules and don't care what other people think. One of the greatest strengths of Geminis is that they are quick to react and their ideas are often thorough and creative. So instead of asking them to draw a schedule, give them the freedom to play at work to make the most of it.</p>"
+      "desc": "<p>Zwillinge haben viele Meinungen. Sie mögen keine allzu komplizierten Regeln und es ist ihnen egal, was andere Leute denken. Eine der größten Stärken von Zwillingen ist, dass sie schnell reagieren und ihre Ideen oft gründlich und kreativ sind. Anstatt sie also zu bitten, einen Zeitplan zu erstellen, geben Sie ihnen die Freiheit, bei der Arbeit zu spielen, um das Beste daraus zu machen.</p>"
     },
     "sex": {
-      "section_title": "Gemini Sex Horoscope",
+      "section_title": "Sexhoroskop Zwillinge.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -1518,7 +1518,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1529,7 +1529,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1540,7 +1540,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -1551,7 +1551,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1562,9 +1562,9 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Energetic and intense, Geminis have many changing parts to their personality and they love to date. In fact, they consider dating to be a skill. Geminis are very good at drawing first dates out of their shell and they rarely have a 'bad' date as this optimistic sign always finds something positive in the people they meet or the conversations they have. Of course, these traits are also reflected in their sexual interests. Geminis love mental stimulation and are quick to do anything, so if you're dating a Gemini, you need to stay alert.</p> ",
+      "article_html": "\n<p>Energiegeladene und intensive Zwillinge haben viele wechselnde Persönlichkeitsanteile und lieben es, auf dem Laufenden zu bleiben. Tatsächlich betrachten sie Dating als eine Fähigkeit. Zwillinge sind sehr gut darin, erste Verabredungen aus sich herauszuholen, und sie haben selten ein „schlechtes“ Date, da dieses optimistische Zeichen immer etwas Positives in den Menschen findet, die sie treffen, oder in den Gesprächen, die sie führen. Diese Eigenschaften spiegeln sich natürlich auch in ihren sexuellen Interessen wider. Zwillinge lieben mentale Stimulation und sind schnell zu allem bereit. Wenn Sie also mit einem Zwilling ausgehen, müssen Sie wachsam bleiben.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Even when dating is fun, it can be hard for a Gemini to take the next step. Although Geminis have a fondness for the idea of love, they are also passionate about their independence. They want to make sure they don't give up anything before they take the next step. Although Geminis are not dishonest, their ruling planet Mercury makes them particularly good at telling people what they want to hear - some may see this as leading people on. Gemini is a smart, talkative sign, so you'll need to practise your flirting skills.</p>"
+      "desc": "<p>Auch wenn Dating Spaß macht, kann es für einen Zwilling schwierig sein, den nächsten Schritt zu wagen. Obwohl Zwillinge eine Vorliebe für die Idee der Liebe haben, legen sie auch großen Wert auf ihre Unabhängigkeit. Sie wollen sicherstellen, dass sie nichts aufgeben, bevor sie den nächsten Schritt wagen. Obwohl Zwillinge nicht unehrlich sind, sind sie aufgrund ihres herrschenden Planeten Merkur besonders gut darin, den Menschen zu sagen, was sie hören wollen – manche sehen darin vielleicht einen Anreiz, Menschen weiterzuleiten. Zwillinge sind ein kluges, gesprächiges Zeichen, daher müssen Sie Ihre Flirtfähigkeiten üben.</p>"
     },
     "other": null
   },
@@ -1635,12 +1635,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Ein ruhiger und friedlicher Tag steht bevor. Nutzen Sie diese Ruhe, um Ihre emotionalen Batterien wieder aufzuladen.</p><h3>Liebe:.</h3><p>Kleine freundliche Gesten werden Ihrem Partner viel bedeuten. Für Singles ist Selbstliebe genauso wichtig wie romantische Liebe.</p><h3>Arbeiten:.</h3><p>Ein gleichmäßiges Tempo hält Sie produktiv, ohne Stress zu verursachen. Priorisieren Sie Ihre Aufgaben.</p><h3>Geld:.</h3><p>Vermeiden Sie impulsive finanzielle Entscheidungen. Halten Sie Ihr Budget ein und sparen Sie für einen regnerischen Tag.</p>"
     },
     "weekly": {
-      "section_title": "Cancer Weekly Horoscope",
+      "section_title": "Wochenhoroskop Krebs.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1651,7 +1651,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1662,7 +1662,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -1673,7 +1673,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -1684,7 +1684,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1695,17 +1695,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p> <h3>Away from the ex</h3><p>Your love life will be strong this week, so if you are the one being expressed, try saying yes. Because you're ready for a new relationship. If you're in a relationship with someone, staying away from your ex is important. Especially when a relationship is on the rise, it's important to minimize surprises.</p> <p>As a thank-you to yourself, give yourself a break or vacation that is different from the ordinary. Set some time side and make it special.</p> <h3>Protect your eyes</h3><p>Vision is one of your most important faculties, so you should be very mindful about protecting your precious eyes.  Exposure to TV, computer and mobile phones should be limited. If you have to look at the screen for the bulk of the day, you can at least make the screen more eye-friendly by adjusting the screen brightness and increasing the text size.</p> ",
+      "article_html": "\n<h3>Seien Sie verantwortungsbewusst und hören Sie sich Meinungen an.</h3><p>Nehmen Sie diese Woche keine Abkürzungen, um Ihre Ziele bei der Arbeit zu erreichen. Am besten wäre es, wenn Sie gewissenhaft darüber nachdenken würden, was diese Woche erledigt werden muss. Seien Sie nicht selbstgerecht. Andernfalls verlieren Sie möglicherweise einen Teil Ihres Bonus. Sie werden sich diese Woche bei der Arbeit ausgegrenzt fühlen. Sie erledigen die einfache Arbeit, während Ihre Kollegen große Aufgaben übernehmen oder die schwierigere Arbeit erledigen. Machen Sie sich darüber keine Sorgen. Die eingesparte Zeit eignet sich zur Verbesserung Ihrer Fähigkeiten. Es fällt Ihnen leichter, Hilfe von anderen zu erhalten, aber Sie müssen die Beiträge Ihres Teams in Ihren Plan einbeziehen, damit Sie Ihre Ziele schneller erreichen können.</p> <h3>Weg von der Ex.</h3><p>Ihr Liebesleben wird diese Woche stark sein. Wenn Sie also derjenige sind, der zum Ausdruck kommt, versuchen Sie, Ja zu sagen. Weil Sie bereit für eine neue Beziehung sind. Wenn Sie mit jemandem in einer Beziehung sind, ist es wichtig, sich von Ihrem Ex fernzuhalten. Gerade wenn eine Beziehung auf dem Vormarsch ist, ist es wichtig, Überraschungen zu minimieren.</p> <p>Gönnen Sie sich als Dankeschön an sich selbst eine Auszeit oder einen Urlaub, der anders als gewöhnlich ist. Nehmen Sie sich etwas Zeit und machen Sie es zu etwas Besonderem.</p> <h3>Schützen Sie Ihre Augen.</h3><p>Das Sehen ist eine Ihrer wichtigsten Fähigkeiten, daher sollten Sie sehr darauf achten, Ihre wertvollen Augen zu schützen.  Der Kontakt mit Fernseher, Computer und Mobiltelefonen sollte begrenzt werden. Wenn Sie den größten Teil des Tages auf den Bildschirm schauen müssen, können Sie den Bildschirm zumindest augenfreundlicher gestalten, indem Sie die Bildschirmhelligkeit anpassen und die Textgröße erhöhen.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p>"
+      "desc": "<h3>Seien Sie verantwortungsbewusst und hören Sie sich Meinungen an.</h3><p>Nehmen Sie diese Woche keine Abkürzungen, um Ihre Ziele bei der Arbeit zu erreichen. Am besten wäre es, wenn Sie gewissenhaft darüber nachdenken würden, was diese Woche erledigt werden muss. Seien Sie nicht selbstgerecht. Andernfalls verlieren Sie möglicherweise einen Teil Ihres Bonus. Sie werden sich diese Woche bei der Arbeit ausgegrenzt fühlen. Sie erledigen die einfache Arbeit, während Ihre Kollegen große Aufgaben übernehmen oder die schwierigere Arbeit erledigen. Machen Sie sich darüber keine Sorgen. Die eingesparte Zeit eignet sich zur Verbesserung Ihrer Fähigkeiten. Es fällt Ihnen leichter, Hilfe von anderen zu erhalten, aber Sie müssen die Beiträge Ihres Teams in Ihren Plan einbeziehen, damit Sie Ihre Ziele schneller erreichen können.</p>"
     },
     "monthly": {
-      "section_title": "Cancer Monthly Horoscope",
+      "section_title": "Monatshoroskop Krebs.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1716,7 +1716,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1727,7 +1727,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -1738,7 +1738,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1749,7 +1749,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1760,17 +1760,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is a time for introspection and personal growth. Focus on nurturing yourself as much as you nurture others. Embrace change as it comes.</p><h3>Love:</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Work:</h3><p>Teamwork will be particularly rewarding at work. Your intuition can guide you to make valuable contributions during group projects.</p><h3>Money:</h3><p>Financial security is on your mind. It's a good time to review your savings and set up a budget that allows for unexpected expenses.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Dieser Monat ist eine Zeit der Selbstbeobachtung und des persönlichen Wachstums. Konzentrieren Sie sich darauf, sich selbst genauso zu pflegen wie andere. Nehmen Sie den Wandel an, wie er kommt.</p><h3>Liebe:.</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Arbeiten:.</h3><p>Bei der Arbeit wird sich Teamarbeit besonders lohnen. Ihre Intuition kann Sie dabei unterstützen, bei Gruppenprojekten wertvolle Beiträge zu leisten.</p><h3>Geld:.</h3><p>Finanzielle Sicherheit liegt Ihnen am Herzen. Es ist ein guter Zeitpunkt, Ihre Ersparnisse zu überprüfen und ein Budget aufzustellen, das unerwartete Ausgaben berücksichtigt.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>General:</h3><p>This month is a time for introspection and personal growth. Focus on nurturing yourself as much as you nurture others. Embrace change as it comes.</p><h3>Love:</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Work:</h3><p>Teamwork will be particularly rewarding at work. Your intuition can guide you to make valuable contributions during group projects.</p><h3>Money:</h3><p>Financial security is on your mind. It's a good time to review your savings and set up a budget that allows for unexpected expenses.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Dieser Monat ist eine Zeit der Selbstbeobachtung und des persönlichen Wachstums. Konzentrieren Sie sich darauf, sich selbst genauso zu pflegen wie andere. Nehmen Sie den Wandel an, wie er kommt.</p><h3>Liebe:.</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Arbeiten:.</h3><p>Bei der Arbeit wird sich Teamarbeit besonders lohnen. Ihre Intuition kann Sie dabei unterstützen, bei Gruppenprojekten wertvolle Beiträge zu leisten.</p><h3>Geld:.</h3><p>Finanzielle Sicherheit liegt Ihnen am Herzen. Es ist ein guter Zeitpunkt, Ihre Ersparnisse zu überprüfen und ein Budget aufzustellen, das unerwartete Ausgaben berücksichtigt.</p>"
     },
     "yearly": {
-      "section_title": "Cancer Yearly Horoscope",
+      "section_title": "Jahreshoroskop Krebs.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.0,
@@ -1781,7 +1781,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1792,7 +1792,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1803,7 +1803,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1814,7 +1814,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.0,
             0.0,
@@ -1825,17 +1825,17 @@ const dataPage = {
           "score": 0.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Cancer, this year is a tapestry of emotional depth and self-reflection. You'll find strength in your vulnerability, allowing for personal growth and healing. Prioritize self-care and don't shy away from asserting your needs. Challenges may arise, but your intuitive nature will guide you through smoothly. Embrace change as it comes; it's the universe nudging you towards growth.</p><h3>Love</h3><p>In love, Cancers will find that openness leads to deeper connections. For those in relationships, it's a year to work on understanding and nurturing your bond. Communication is your alley; share your feelings and encourage your partner to do the same. Single Cancers might find love closer than expected, perhaps with a friend turning into something more. Trust your heart, but also be patient; love grows in its own time.</p><h3>Work</h3><p>Work-wise, it's a year of building and reinforcing your career foundations. Your natural dedication will be recognized, but don't let your work consume you. Seek balance to avoid burnout. Collaborations could be particularly fruitful, so invest in your professional relationships. Don't hesitate to step out of your comfort zone; it's where growth happens.</p><h3>Money</h3><p>Financially, this is a year to be cautious yet optimistic. Budgeting and saving are crucial, as you might face some unexpected expenses. However, your hard work could lead to a bonus or promotion that bolsters your financial situation. Consider long-term investments over short-term gains, and don't be afraid to seek advice from a financial expert.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Krebs, dieses Jahr ist ein Teppich voller emotionaler Tiefe und Selbstreflexion. Sie werden in Ihrer Verletzlichkeit Kraft finden, die persönliches Wachstum und Heilung ermöglicht. Priorisieren Sie die Selbstfürsorge und scheuen Sie sich nicht, Ihre Bedürfnisse geltend zu machen. Es können Herausforderungen auftauchen, aber Ihre intuitive Natur wird Sie reibungslos durch die Herausforderungen führen. Nehmen Sie den Wandel an, wie er kommt; Es ist das Universum, das dich zum Wachstum antreibt.</p><h3>Liebe.</h3><p>In der Liebe werden Krebserkrankungen feststellen, dass Offenheit zu tieferen Verbindungen führt. Für Menschen in einer Beziehung ist es ein Jahr, in dem sie daran arbeiten müssen, ihre Bindung zu verstehen und zu pflegen. Kommunikation ist Ihr Ding; Teilen Sie Ihre Gefühle mit und ermutigen Sie Ihren Partner, dasselbe zu tun. Alleinstehende Krebspatienten finden die Liebe möglicherweise näher als erwartet, vielleicht weil sich aus einem Freund etwas mehr entwickelt. Vertraue deinem Herzen, aber sei auch geduldig; Liebe wächst mit ihrer eigenen Zeit.</p><h3>Arbeiten.</h3><p>Beruflich ist es ein Jahr des Aufbaus und der Festigung Ihrer beruflichen Grundlagen. Ihr natürliches Engagement wird anerkannt, aber lassen Sie sich nicht von Ihrer Arbeit verzehren. Suchen Sie nach einem Gleichgewicht, um ein Burnout zu vermeiden. Kooperationen könnten besonders fruchtbar sein, investieren Sie also in Ihre beruflichen Beziehungen. Zögern Sie nicht, Ihre Komfortzone zu verlassen. Hier findet Wachstum statt.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem man vorsichtig und dennoch optimistisch sein sollte. Budgetierung und Sparen sind von entscheidender Bedeutung, da möglicherweise unerwartete Ausgaben anfallen. Ihre harte Arbeit könnte jedoch zu einem Bonus oder einer Beförderung führen, die Ihre finanzielle Situation verbessert. Erwägen Sie langfristige Investitionen gegenüber kurzfristigen Gewinnen und scheuen Sie sich nicht, sich von einem Finanzexperten beraten zu lassen.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>General</h3><p>Cancer, this year is a tapestry of emotional depth and self-reflection. You'll find strength in your vulnerability, allowing for personal growth and healing. Prioritize self-care and don't shy away from asserting your needs. Challenges may arise, but your intuitive nature will guide you through smoothly. Embrace change as it comes; it's the universe nudging you towards growth.</p><h3>Love</h3><p>In love, Cancers will find that openness leads to deeper connections. For those in relationships, it's a year to work on understanding and nurturing your bond. Communication is your alley; share your feelings and encourage your partner to do the same. Single Cancers might find love closer than expected, perhaps with a friend turning into something more. Trust your heart, but also be patient; love grows in its own time.</p><h3>Work</h3><p>Work-wise, it's a year of building and reinforcing your career foundations. Your natural dedication will be recognized, but don't let your work consume you. Seek balance to avoid burnout. Collaborations could be particularly fruitful, so invest in your professional relationships. Don't hesitate to step out of your comfort zone; it's where growth happens.</p><h3>Money</h3><p>Financially, this is a year to be cautious yet optimistic. Budgeting and saving are crucial, as you might face some unexpected expenses. However, your hard work could lead to a bonus or promotion that bolsters your financial situation. Consider long-term investments over short-term gains, and don't be afraid to seek advice from a financial expert.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Krebs, dieses Jahr ist ein Teppich voller emotionaler Tiefe und Selbstreflexion. Sie werden in Ihrer Verletzlichkeit Kraft finden, die persönliches Wachstum und Heilung ermöglicht. Priorisieren Sie die Selbstfürsorge und scheuen Sie sich nicht, Ihre Bedürfnisse geltend zu machen. Es können Herausforderungen auftauchen, aber Ihre intuitive Natur wird Sie reibungslos durch die Herausforderungen führen. Nehmen Sie den Wandel an, wie er kommt; Es ist das Universum, das dich zum Wachstum antreibt.</p><h3>Liebe.</h3><p>In der Liebe werden Krebserkrankungen feststellen, dass Offenheit zu tieferen Verbindungen führt. Für Menschen in einer Beziehung ist es ein Jahr, in dem sie daran arbeiten müssen, ihre Bindung zu verstehen und zu pflegen. Kommunikation ist Ihr Ding; Teilen Sie Ihre Gefühle mit und ermutigen Sie Ihren Partner, dasselbe zu tun. Alleinstehende Krebspatienten finden die Liebe möglicherweise näher als erwartet, vielleicht weil sich aus einem Freund etwas mehr entwickelt. Vertraue deinem Herzen, aber sei auch geduldig; Liebe wächst mit ihrer eigenen Zeit.</p><h3>Arbeiten.</h3><p>Beruflich ist es ein Jahr des Aufbaus und der Festigung Ihrer beruflichen Grundlagen. Ihr natürliches Engagement wird anerkannt, aber lassen Sie sich nicht von Ihrer Arbeit verzehren. Suchen Sie nach einem Gleichgewicht, um ein Burnout zu vermeiden. Kooperationen könnten besonders fruchtbar sein, investieren Sie also in Ihre beruflichen Beziehungen. Zögern Sie nicht, Ihre Komfortzone zu verlassen. Hier findet Wachstum statt.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem man vorsichtig und dennoch optimistisch sein sollte. Budgetierung und Sparen sind von entscheidender Bedeutung, da möglicherweise unerwartete Ausgaben anfallen. Ihre harte Arbeit könnte jedoch zu einem Bonus oder einer Beförderung führen, die Ihre finanzielle Situation verbessert. Erwägen Sie langfristige Investitionen gegenüber kurzfristigen Gewinnen und scheuen Sie sich nicht, sich von einem Finanzexperten beraten zu lassen.</p>"
     },
     "love": {
-      "section_title": "Cancer Love Horoscope",
+      "section_title": "Liebeshoroskop Krebs.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -1846,7 +1846,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1857,7 +1857,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -1868,7 +1868,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1879,7 +1879,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -1890,17 +1890,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>passive</h3><p>Cancers tend to be passive in relationships and rarely open their hearts. Cancer's priority in a relationship is to protect yourself. They hide their softest parts to protect their vulnerability. If a Cancer is hurt in a relationship, it is likely that the Cancer will be in endless pain and will not be able to move on.</p> ",
+      "article_html": "\n<h3>passiv.</h3><p>Krebserkrankungen neigen dazu, in Beziehungen passiv zu sein und selten ihr Herz zu öffnen. Die Priorität eines Krebses in einer Beziehung besteht darin, sich selbst zu schützen. Sie verstecken ihre weichsten Teile, um ihre Verletzlichkeit zu schützen. Wenn ein Krebs in einer Beziehung verletzt wird, ist es wahrscheinlich, dass der Krebs endlose Schmerzen hat und nicht in der Lage sein wird, weiterzumachen.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>emotional</h3><p>Cancer's emotional swings will be obvious. Cancer is very emotional but afraid of getting hurt. Cancers are timid in love, even if they like someone, they will not choose to express their feelings. But if there is enough love in a relationship, Cancers can be very considerate towards their partner.</p>"
+      "desc": "<h3>emotional.</h3><p>Die emotionalen Schwankungen des Krebses werden offensichtlich sein. Krebs ist sehr emotional, hat aber Angst davor, verletzt zu werden. Krebse sind schüchtern in der Liebe, auch wenn sie jemanden mögen, werden sie ihre Gefühle nicht ausdrücken. Aber wenn in einer Beziehung genügend Liebe vorhanden ist, können Krebserkrankungen ihrem Partner gegenüber sehr rücksichtsvoll sein.</p>"
     },
     "health": {
-      "section_title": "Cancer Health Horoscope",
+      "section_title": "Gesundheitshoroskop Krebs.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1911,7 +1911,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1922,7 +1922,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1933,7 +1933,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -1944,7 +1944,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -1955,17 +1955,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<p>Cancer may feel more emotionally restricted today, as if it's difficult for you to share yourself and be vulnerable with those you love. Try to remind yourself that sharing your emotions and thoughts will bring you closer to the person you love, and a deeper connection will help you feel emotionally coherent.Eggs are nutritious and rich in vitamin D, folic acid, riboflavin and selenium. Make yourself a feta, arugula and spice-glazed omelet for a nutritious breakfast, Cancer.</p> ",
+      "article_html": "\n<p>Krebs fühlt sich heute möglicherweise emotional eingeschränkter, als ob es für Sie schwierig wäre, sich mit denen, die Sie lieben, zu teilen und verletzlich zu sein. Versuchen Sie, sich daran zu erinnern, dass Sie durch das Teilen Ihrer Gefühle und Gedanken der Person, die Sie lieben, näher kommen und eine tiefere Verbindung dazu beitragen wird, dass Sie sich emotional kohärent fühlen. Eier sind nahrhaft und reich an Vitamin D, Folsäure, Riboflavin und Selen. Machen Sie sich ein mit Feta, Rucola und Gewürzen glasiertes Omelett für ein nahrhaftes Frühstück, Krebs.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>Cancer is likely to be mentally tense today. It is easy to lose patience when working and studying. Try doing something mentally relaxing to get your motivation back. It is also advisable not to think about anything before going to bed. Staying up too late or having insomnia can easily affect your mental state the next day.Milk is rich in calcium, which is a natural nerve stabilizer that relaxes tense nerves and calms the mood. Have a glass of milk before bed, Cancer.</p>"
+      "desc": "<p>Krebs ist heute wahrscheinlich psychisch angespannt. Beim Arbeiten und Lernen verliert man leicht die Geduld. Versuchen Sie, etwas geistig Entspannendes zu tun, um Ihre Motivation zurückzugewinnen. Es ist auch ratsam, vor dem Schlafengehen an nichts zu denken. Zu langes Aufbleiben oder Schlaflosigkeit können sich leicht auf Ihren Geisteszustand am nächsten Tag auswirken. Milch ist reich an Kalzium, einem natürlichen Nervenstabilisator, der angespannte Nerven entspannt und die Stimmung beruhigt. Trinken Sie vor dem Schlafengehen ein Glas Milch, Krebs.</p>"
     },
     "career": {
-      "section_title": "Cancer Career Horoscope",
+      "section_title": "Karrierehoroskop Krebs.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -1976,7 +1976,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -1987,7 +1987,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -1998,7 +1998,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2009,7 +2009,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -2020,17 +2020,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Cancer's career is closely related to family. They often prefer jobs that involve food or work from home. Cancer has considerable love and will take care of others. They are good at empathy, treat subordinates well at work, sacrifice when encountering difficulties. There may be a lot of ups and downs in Cancer's career, but the commitment to career will help Cancer stay in business. They are sensitive to status and fame and want to be seen by others as responsible and respectable.</p> ",
+      "article_html": "\n<p>Die Karriere einer Krebserkrankung ist eng mit der Familie verbunden. Sie bevorzugen oft Jobs, bei denen es um Essen geht oder die Arbeit von zu Hause aus. Krebs hat viel Liebe und kümmert sich um andere. Sie sind gut im Einfühlungsvermögen, behandeln ihre Untergebenen bei der Arbeit gut und bringen Opfer, wenn sie auf Schwierigkeiten stoßen. In der Karriere von Krebs mag es viele Höhen und Tiefen geben, aber das Engagement für die Karriere wird Krebs dabei helfen, im Geschäft zu bleiben. Sie reagieren sensibel auf Status und Ruhm und möchten von anderen als verantwortungsbewusst und respektabel angesehen werden.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>Another advantage of Cancers is their philosophical thinking. Cancer people have an innate cosmology, they are born with a complex of maternal love, so their thinking is often with human concern. A career in the arts will allow Cancer to tap into their natural strengths. However, not every Cancer has this opportunity, so most Cancers will feel oppressed and bitter.</p>"
+      "desc": "<p>Ein weiterer Vorteil von Krebserkrankungen ist ihr philosophisches Denken. Krebsmenschen haben eine angeborene Kosmologie, sie werden mit einem Komplex mütterlicher Liebe geboren, daher ist ihr Denken oft mit menschlichen Anliegen verbunden. Eine Karriere in der Kunst wird es Krebs ermöglichen, seine natürlichen Stärken auszuschöpfen. Allerdings hat nicht jeder Krebs diese Möglichkeit, sodass sich die meisten Krebsarten deprimiert und verbittert fühlen.</p>"
     },
     "sex": {
-      "section_title": "Cancer Sex Horoscope",
+      "section_title": "Sexhoroskop Krebs.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2041,7 +2041,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2052,7 +2052,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -2063,7 +2063,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2074,7 +2074,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -2085,9 +2085,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Cancer can sometimes be frustrated by the fact that their partner doesn't know everything that's going on in their inner life. When everything is apparently the complete opposite, they can easily put up walls and say that everything is fine. To really connect, Cancer must be patient with their partner and express their emotional needs - these lessons can be a steep learning curve for this sign. Cancer wants a partner who can witness their emotional ups and downs, but if their partner tries to 'fix' things, they will lash out. Sometimes, all Cancer needs is to let off steam.</p> ",
+      "article_html": "\n<p>Krebs kann manchmal dadurch frustriert sein, dass der Partner nicht alles weiß, was in seinem Innenleben vor sich geht. Wenn scheinbar alles das genaue Gegenteil ist, können sie leicht Mauern errichten und sagen, dass alles in Ordnung sei. Um wirklich eine Verbindung herzustellen, muss der Krebs geduldig mit seinem Partner sein und seine emotionalen Bedürfnisse zum Ausdruck bringen – diese Lektionen können für dieses Sternzeichen eine steile Lernkurve sein. Der Krebs möchte einen Partner, der seine emotionalen Höhen und Tiefen miterleben kann, aber wenn sein Partner versucht, die Dinge zu „reparieren“, wird er um sich schlagen. Manchmal braucht Krebs nur, Dampf abzulassen.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>You are full of changes, both with mature women temperament and the girl's enthusiasm and vivacity, sometimes shy or sexy to make the other side happy, and sometimes sentimental to let the other side touched. You are especially good at using chronic poisoning to make each other fall in love with you, pretty like mellow wine, not strong but unforgettable.</p>"
+      "desc": "<p>Sie sind voller Veränderungen, sowohl im Temperament reifer Frauen als auch in der Begeisterung und Lebhaftigkeit des Mädchens, manchmal schüchtern oder sexy, um die andere Seite glücklich zu machen, und manchmal sentimental, um die andere Seite berühren zu lassen. Sie sind besonders gut darin, chronische Vergiftungen zu nutzen, um sich gegenseitig in Sie zu verlieben, so schön wie milder Wein, nicht stark, aber unvergesslich.</p>"
     },
     "other": null
   },
@@ -2158,12 +2158,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Ihre Energie ist ansteckend, was diesen Tag zu einem hervorragenden Tag für soziale Aktivitäten und Networking macht.</p><h3>Liebe:.</h3><p>Halten Sie die Dinge mit Ihrem Partner locker und verspielt. Singles sollten den geselligen Trubel und Flirt genießen, den der Tag mit sich bringt.</p><h3>Arbeiten:.</h3><p>Eine positive Einstellung hilft Ihnen, selbst die banalsten Aufgaben mit Begeisterung anzugehen.</p><h3>Geld:.</h3><p>Sie fühlen sich vielleicht großzügig, aber achten Sie darauf, in wen und was Sie investieren.</p>"
     },
     "weekly": {
-      "section_title": "Leo Weekly Horoscope",
+      "section_title": "Wochenhoroskop Löwe.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -2174,7 +2174,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.0,
@@ -2185,7 +2185,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -2196,7 +2196,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -2207,7 +2207,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2218,17 +2218,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p> <h3>Proactive</h3><p>Take the initiative emotionally this week. If you are in a relationship (including a marriage), you can easily communicate with your partner and enjoy the interaction. There are a few tricks you can use to catch the eye of the opposite sex. Sweet words and wise brains will win more people's affection. A few surprises in a relationship can keep it moving forward! Even a few small surprises can create unexpected possibilities in your life!</p> <p>Keep in touch with those you love. They are always there to give you help and support in a difficult time.</p> <h3>Pick comfortable footwear</h3><p>In the process of seeking medical treatment, you will meet a good doctor, or someone around you will recommend suitable doctors and medical methods. It is also possible to detect the disease suddenly, and early detection of treatment has a good outcome. Maybe you’re going to have a date, or maybe you’re going to have a trip with your friends. Whatever the reason, you should first choose your footwear. Try to pick a pair of comfortable shoes to reduce the burden on the feet, as you may move around a lot this week.</p> ",
+      "article_html": "\n<h3>Streit und Angst.</h3><p>Sie sind bestrebt, mit anderen zu kommunizieren, um den Konflikt zu lösen. Dennoch sind die Worte oft nicht gut genug, um die Wirkung der Kommunikation zu erzielen. Achten Sie diese Woche mehr auf Ihre Kommunikationsfähigkeiten bei der Arbeit. Die Kommunikation mit dem Vorgesetzten kann aufgrund unterschiedlicher Meinungen zu ständigen Streitigkeiten führen. Es ist am besten, die Dinge zuerst zu verlangsamen. Achten Sie auf den letzten Teil der Arbeit, um kleine Fehler zu vermeiden. Reizbarkeit und Empfindlichkeit können Ihre Gesamtproduktivität beeinträchtigen. Möglicherweise sind Sie diese Woche nicht in bester Stimmung und neigen möglicherweise dazu, Fehler bei Ihren Daten zu machen. Sei einfach vorsichtig..</p> <h3>Proaktiv.</h3><p>Ergreifen Sie diese Woche emotional die Initiative. Wenn Sie in einer Beziehung (einschließlich einer Ehe) sind, können Sie problemlos mit Ihrem Partner kommunizieren und die Interaktion genießen. Es gibt ein paar Tricks, mit denen Sie die Aufmerksamkeit des anderen Geschlechts auf sich ziehen können. Süße Worte und weise Köpfe werden die Zuneigung von mehr Menschen gewinnen. Ein paar Überraschungen in einer Beziehung können dazu beitragen, dass es weitergeht! Schon ein paar kleine Überraschungen können unerwartete Möglichkeiten in Ihrem Leben schaffen!</p> <p>Bleiben Sie in Kontakt mit denen, die Sie lieben. Sie sind immer da, um Ihnen in einer schwierigen Zeit Hilfe und Unterstützung zu geben.</p> <h3>Wählen Sie bequemes Schuhwerk.</h3><p>Bei der Suche nach einer medizinischen Behandlung treffen Sie einen guten Arzt oder jemand in Ihrem Umfeld wird Ihnen geeignete Ärzte und medizinische Methoden empfehlen. Es ist auch möglich, die Krankheit plötzlich zu erkennen, und eine frühzeitige Erkennung einer Behandlung hat gute Ergebnisse. Vielleicht haben Sie ein Date oder einen Ausflug mit Ihren Freunden. Was auch immer der Grund sein mag, Sie sollten zunächst Ihr Schuhwerk auswählen. Versuchen Sie, ein Paar bequeme Schuhe auszuwählen, um die Belastung Ihrer Füße zu verringern, da Sie sich diese Woche möglicherweise viel bewegen werden.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p>"
+      "desc": "<h3>Streit und Angst.</h3><p>Sie sind bestrebt, mit anderen zu kommunizieren, um den Konflikt zu lösen. Dennoch sind die Worte oft nicht gut genug, um die Wirkung der Kommunikation zu erzielen. Achten Sie diese Woche mehr auf Ihre Kommunikationsfähigkeiten bei der Arbeit. Die Kommunikation mit dem Vorgesetzten kann aufgrund unterschiedlicher Meinungen zu ständigen Streitigkeiten führen. Es ist am besten, die Dinge zuerst zu verlangsamen. Achten Sie auf den letzten Teil der Arbeit, um kleine Fehler zu vermeiden. Reizbarkeit und Empfindlichkeit können Ihre Gesamtproduktivität beeinträchtigen. Möglicherweise sind Sie diese Woche nicht in bester Stimmung und neigen möglicherweise dazu, Fehler bei Ihren Daten zu machen. Sei einfach vorsichtig..</p>"
     },
     "monthly": {
-      "section_title": "Leo Monthly Horoscope",
+      "section_title": "Monatshoroskop Löwe.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -2239,7 +2239,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -2250,7 +2250,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -2261,7 +2261,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -2272,7 +2272,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -2283,17 +2283,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your social circle could expand this month. Be open to meeting new people who can offer different perspectives and enrich your life.</p><h3>Love:</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Work:</h3><p>Your ability to lead by example will inspire your colleagues. A group project could benefit greatly from your input and direction.</p><h3>Money:</h3><p>You may feel generous, but be mindful of whom you lend money to. It's important to help others, but not at the expense of your own financial stability.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Ihr sozialer Kreis könnte sich diesen Monat erweitern. Seien Sie offen dafür, neue Menschen kennenzulernen, die Ihnen andere Perspektiven bieten und Ihr Leben bereichern können.</p><h3>Liebe:.</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Arbeiten:.</h3><p>Ihre Fähigkeit, mit gutem Beispiel voranzugehen, wird Ihre Kollegen inspirieren. Ein Gruppenprojekt könnte von Ihrem Input und Ihrer Anleitung stark profitieren.</p><h3>Geld:.</h3><p>Sie fühlen sich vielleicht großzügig, aber achten Sie darauf, wem Sie Geld leihen. Es ist wichtig, anderen zu helfen, aber nicht auf Kosten der eigenen finanziellen Stabilität.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>General:</h3><p>Your social circle could expand this month. Be open to meeting new people who can offer different perspectives and enrich your life.</p><h3>Love:</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Work:</h3><p>Your ability to lead by example will inspire your colleagues. A group project could benefit greatly from your input and direction.</p><h3>Money:</h3><p>You may feel generous, but be mindful of whom you lend money to. It's important to help others, but not at the expense of your own financial stability.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Ihr sozialer Kreis könnte sich diesen Monat erweitern. Seien Sie offen dafür, neue Menschen kennenzulernen, die Ihnen andere Perspektiven bieten und Ihr Leben bereichern können.</p><h3>Liebe:.</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Arbeiten:.</h3><p>Ihre Fähigkeit, mit gutem Beispiel voranzugehen, wird Ihre Kollegen inspirieren. Ein Gruppenprojekt könnte von Ihrem Input und Ihrer Anleitung stark profitieren.</p><h3>Geld:.</h3><p>Sie fühlen sich vielleicht großzügig, aber achten Sie darauf, wem Sie Geld leihen. Es ist wichtig, anderen zu helfen, aber nicht auf Kosten der eigenen finanziellen Stabilität.</p>"
     },
     "yearly": {
-      "section_title": "Leo Yearly Horoscope",
+      "section_title": "Löwe-Jahreshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -2304,7 +2304,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2315,7 +2315,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -2326,7 +2326,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2337,7 +2337,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2348,17 +2348,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Leos can expect a year sparkling with potential and personal achievements. Your natural charisma will attract favorable circumstances, but staying humble is key to making the most of them. Challenges are inevitable, yet they'll serve as a platform for growth, pushing you to showcase your leadership qualities. Remember to share the spotlight; it's your generosity that will endear you to others and bring true fulfillment.</p><h3>Love</h3><p>Romance for Leos this year is about passion and deepening intimacy. If you're in a relationship, plan grand gestures and small acts of kindness to keep the flame alive. Single Leos will find that their magnetic allure draws admirers, but seek a partner who values your heart as much as your strength. Communication should be heartfelt and dramatic; after all, you're the sign of grand love stories.</p><h3>Work</h3><p>On the professional front, Leos will find that their ambition and drive could lead to significant accomplishments. It's a time to take the lead on projects and assert your ideas with confidence. Networking will pay off, so attend events and connect with influencers in your field. Be mindful of teamwork, though; your colleagues' support is vital for long-term success.</p><h3>Money</h3><p>Financially, this is a year to shine by making bold but calculated decisions. Your instincts will be sharp, so trust them when exploring new investment opportunities. However, avoid extravagance; ensuring you have a solid savings plan will provide the stability to enjoy your well-earned luxuries. Generosity is a noble trait, but keep a balance to secure your financial future.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Leos erwartet ein Jahr voller Potenzial und persönlicher Erfolge. Ihr natürliches Charisma wird günstige Umstände anziehen, aber bescheiden zu bleiben ist der Schlüssel, um das Beste daraus zu machen. Herausforderungen sind unvermeidlich, dennoch dienen sie als Plattform für Wachstum und drängen Sie dazu, Ihre Führungsqualitäten unter Beweis zu stellen. Denken Sie daran, das Rampenlicht zu teilen; Es ist Ihre Großzügigkeit, die Sie bei anderen beliebt macht und wahre Erfüllung bringt.</p><h3>Liebe.</h3><p>Bei der Romantik geht es für Löwen in diesem Jahr um Leidenschaft und die Vertiefung der Intimität. Wenn Sie in einer Beziehung sind, planen Sie große Gesten und kleine freundliche Gesten, um die Flamme am Leben zu erhalten. Single-Löwen werden feststellen, dass ihre magnetische Anziehungskraft Bewunderer anzieht, aber suchen Sie einen Partner, der Ihr Herz genauso schätzt wie Ihre Stärke. Die Kommunikation sollte herzlich und dramatisch sein; Schließlich bist du das Zeichen großer Liebesgeschichten.</p><h3>Arbeiten.</h3><p>Auf beruflicher Ebene werden Leos feststellen, dass ihr Ehrgeiz und ihr Tatendrang zu bedeutenden Erfolgen führen können. Es ist an der Zeit, bei Projekten die Führung zu übernehmen und Ihre Ideen selbstbewusst durchzusetzen. Networking wird sich auszahlen. Besuchen Sie also Veranstaltungen und vernetzen Sie sich mit Influencern in Ihrem Bereich. Achten Sie jedoch auf Teamarbeit. Die Unterstützung Ihrer Kollegen ist für den langfristigen Erfolg von entscheidender Bedeutung.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem Sie glänzen können, indem Sie mutige, aber kalkulierte Entscheidungen treffen. Ihre Instinkte werden scharf sein, also vertrauen Sie ihnen, wenn Sie neue Investitionsmöglichkeiten erkunden. Vermeiden Sie jedoch Extravaganz; Wenn Sie über einen soliden Sparplan verfügen, erhalten Sie die nötige Stabilität, um Ihren wohlverdienten Luxus zu genießen. Großzügigkeit ist eine edle Eigenschaft, aber bewahren Sie ein Gleichgewicht, um Ihre finanzielle Zukunft zu sichern.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>General</h3><p>Leos can expect a year sparkling with potential and personal achievements. Your natural charisma will attract favorable circumstances, but staying humble is key to making the most of them. Challenges are inevitable, yet they'll serve as a platform for growth, pushing you to showcase your leadership qualities. Remember to share the spotlight; it's your generosity that will endear you to others and bring true fulfillment.</p><h3>Love</h3><p>Romance for Leos this year is about passion and deepening intimacy. If you're in a relationship, plan grand gestures and small acts of kindness to keep the flame alive. Single Leos will find that their magnetic allure draws admirers, but seek a partner who values your heart as much as your strength. Communication should be heartfelt and dramatic; after all, you're the sign of grand love stories.</p><h3>Work</h3><p>On the professional front, Leos will find that their ambition and drive could lead to significant accomplishments. It's a time to take the lead on projects and assert your ideas with confidence. Networking will pay off, so attend events and connect with influencers in your field. Be mindful of teamwork, though; your colleagues' support is vital for long-term success.</p><h3>Money</h3><p>Financially, this is a year to shine by making bold but calculated decisions. Your instincts will be sharp, so trust them when exploring new investment opportunities. However, avoid extravagance; ensuring you have a solid savings plan will provide the stability to enjoy your well-earned luxuries. Generosity is a noble trait, but keep a balance to secure your financial future.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Leos erwartet ein Jahr voller Potenzial und persönlicher Erfolge. Ihr natürliches Charisma wird günstige Umstände anziehen, aber bescheiden zu bleiben ist der Schlüssel, um das Beste daraus zu machen. Herausforderungen sind unvermeidlich, dennoch dienen sie als Plattform für Wachstum und drängen Sie dazu, Ihre Führungsqualitäten unter Beweis zu stellen. Denken Sie daran, das Rampenlicht zu teilen; Es ist Ihre Großzügigkeit, die Sie bei anderen beliebt macht und wahre Erfüllung bringt.</p><h3>Liebe.</h3><p>Bei der Romantik geht es für Löwen in diesem Jahr um Leidenschaft und die Vertiefung der Intimität. Wenn Sie in einer Beziehung sind, planen Sie große Gesten und kleine freundliche Gesten, um die Flamme am Leben zu erhalten. Single-Löwen werden feststellen, dass ihre magnetische Anziehungskraft Bewunderer anzieht, aber suchen Sie einen Partner, der Ihr Herz genauso schätzt wie Ihre Stärke. Die Kommunikation sollte herzlich und dramatisch sein; Schließlich bist du das Zeichen großer Liebesgeschichten.</p><h3>Arbeiten.</h3><p>Auf beruflicher Ebene werden Leos feststellen, dass ihr Ehrgeiz und ihr Tatendrang zu bedeutenden Erfolgen führen können. Es ist an der Zeit, bei Projekten die Führung zu übernehmen und Ihre Ideen selbstbewusst durchzusetzen. Networking wird sich auszahlen. Besuchen Sie also Veranstaltungen und vernetzen Sie sich mit Influencern in Ihrem Bereich. Achten Sie jedoch auf Teamarbeit. Die Unterstützung Ihrer Kollegen ist für den langfristigen Erfolg von entscheidender Bedeutung.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem Sie glänzen können, indem Sie mutige, aber kalkulierte Entscheidungen treffen. Ihre Instinkte werden scharf sein, also vertrauen Sie ihnen, wenn Sie neue Investitionsmöglichkeiten erkunden. Vermeiden Sie jedoch Extravaganz; Wenn Sie über einen soliden Sparplan verfügen, erhalten Sie die nötige Stabilität, um Ihren wohlverdienten Luxus zu genießen. Großzügigkeit ist eine edle Eigenschaft, aber bewahren Sie ein Gleichgewicht, um Ihre finanzielle Zukunft zu sichern.</p>"
     },
     "love": {
-      "section_title": "Leo Love Horoscope",
+      "section_title": "Löwe-Liebeshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2369,7 +2369,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2380,7 +2380,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -2391,7 +2391,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2402,7 +2402,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2413,17 +2413,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>bravado </h3><p>Leo can be very strong in certain things, which can be called bravado. Leos want to be noticed, and leos feel that their security comes from their unique qualities. So Leos hate being ignored in a relationship. It makes them feel undervalued. For Leos, love and attention are what drives a person forward.</p> ",
+      "article_html": "\n<h3>Tapferkeit.</h3><p>Löwe kann in bestimmten Dingen sehr stark sein, was man als Tapferkeit bezeichnen kann. Löwen möchten auffallen und haben das Gefühl, dass ihre Sicherheit auf ihren einzigartigen Qualitäten beruht. Deshalb hassen Löwen es, in einer Beziehung ignoriert zu werden. Dadurch fühlen sie sich unterbewertet. Für Löwen sind Liebe und Aufmerksamkeit das, was einen Menschen vorantreibt.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>generous &amp; awkward</h3><p>Leos are very generous and will spend a lot of money on their partner in a relationship. But Leo tends to spoil their partner on their own terms. Leos may start giving without asking what their partner really wants. And Leo sees himself as pampering their mate. Leos are like awkward Kings.</p>"
+      "desc": "<h3>großzügig und umständlich.</h3><p>Löwen sind sehr großzügig und geben in einer Beziehung viel Geld für ihren Partner aus. Aber Leo neigt dazu, seinen Partner nach seinen eigenen Vorstellungen zu verwöhnen. Löwen können anfangen zu geben, ohne zu fragen, was ihr Partner wirklich will. Und Leo sieht sich selbst darin, seinen Partner zu verwöhnen. Löwen sind wie unbeholfene Könige.</p>"
     },
     "health": {
-      "section_title": "Leo Health Horoscope",
+      "section_title": "Gesundheitshoroskop Löwe.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -2434,7 +2434,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2445,7 +2445,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -2456,7 +2456,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2467,7 +2467,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2478,17 +2478,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Leo is showing more creativity and expression today. You are encouraged to spend time on art supplies, which may come as an unexpected surprise. Try to take some time to sit back and use your creativity and let it flow through you. Meditation will remove any distracting thoughts from your day.Apricots are low in saturated fat and contain fibre, potassium and vitamins A and C. Serve sliced apricots today as a fresh, juicy treat or add dried apricots to Leo's afternoon snack.</p> ",
+      "article_html": "\n<p>Leo zeigt heute mehr Kreativität und Ausdruck. Wir empfehlen Ihnen, Zeit mit Malutensilien zu verbringen, was eine unerwartete Überraschung sein kann. Versuchen Sie, sich etwas Zeit zu nehmen, sich zurückzulehnen, Ihrer Kreativität freien Lauf zu lassen und sie durch sich fließen zu lassen. Meditation wird alle ablenkenden Gedanken aus Ihrem Tag entfernen. Aprikosen sind arm an gesättigten Fettsäuren und enthalten Ballaststoffe, Kalium sowie die Vitamine A und C. Servieren Sie heute geschnittene Aprikosen als frischen, saftigen Leckerbissen oder fügen Sie getrocknete Aprikosen zu Leos Nachmittagssnack hinzu.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>Leos are charismatic today and their enthusiastic spirit can be infectious to those around them. Any existing relationships will flourish. So Leo don't shy away from connecting or talking about your feelings. Be bold and show the sparkle of your soul.Apples are rich in fibre, vitamin C and many antioxidants. If Leos find themselves feeling hungry between meals, eat apples - they're filling and make the perfect snack.</p>"
+      "desc": "<p>Löwen sind heute charismatisch und ihr enthusiastischer Geist kann auf ihre Mitmenschen ansteckend sein. Alle bestehenden Beziehungen werden gedeihen. Löwe scheut sich also nicht davor, sich mit seinen Gefühlen zu verbinden oder darüber zu sprechen. Seien Sie mutig und zeigen Sie das Strahlen Ihrer Seele. Äpfel sind reich an Ballaststoffen, Vitamin C und vielen Antioxidantien. Wenn Löwen zwischen den Mahlzeiten Hunger verspüren, essen Sie Äpfel – sie sättigen und sind der perfekte Snack.</p>"
     },
     "career": {
-      "section_title": "Leo Career Horoscope",
+      "section_title": "Löwe-Karrierehoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2499,7 +2499,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2510,7 +2510,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -2521,7 +2521,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.0,
             0.0,
@@ -2532,7 +2532,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2543,17 +2543,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Leos are ambitious and have a strong sense of enterprise. They are very concerned about their performance and always take steps to improve their influence. Leos make great politicians, managers and entertainers. However, while Leos value status, they don't want to be known for nothing. They believe that others should respect their efforts and their reputation in society, and it annoys them if people don't treat them with respect.</p> ",
+      "article_html": "\n<p>Löwen sind ehrgeizig und haben einen ausgeprägten Unternehmergeist. Sie sind sehr auf ihre Leistung bedacht und ergreifen stets Maßnahmen, um ihren Einfluss zu verbessern. Löwen sind großartige Politiker, Manager und Entertainer. Obwohl Löwen Wert auf ihren Status legen, möchten sie nicht umsonst bekannt sein. Sie glauben, dass andere ihre Bemühungen und ihren Ruf in der Gesellschaft respektieren sollten, und es ärgert sie, wenn andere sie nicht mit Respekt behandeln.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>Leos are ambitious and have a strong sense of enterprise. They are very concerned about their performance and always take steps to improve their influence. Leos make great politicians, managers and entertainers. However, while Leos value status, they don't want to be known for nothing. They believe that others should respect their efforts and their reputation in society, and it annoys them if people don't treat them with respect.</p>"
+      "desc": "<p>Löwen sind ehrgeizig und haben einen ausgeprägten Unternehmergeist. Sie sind sehr auf ihre Leistung bedacht und ergreifen stets Maßnahmen, um ihren Einfluss zu verbessern. Löwen sind großartige Politiker, Manager und Entertainer. Obwohl Löwen Wert auf ihren Status legen, möchten sie nicht umsonst bekannt sein. Sie glauben, dass andere ihre Bemühungen und ihren Ruf in der Gesellschaft respektieren sollten, und es ärgert sie, wenn andere sie nicht mit Respekt behandeln.</p>"
     },
     "sex": {
-      "section_title": "Leo Sex Horoscope",
+      "section_title": "Löwe-Sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2564,7 +2564,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2575,7 +2575,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -2586,7 +2586,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2597,7 +2597,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -2608,9 +2608,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Leos fall in love easily. But finding someone who can match them and stay in love can be difficult. Leos love to flirt and date, and have no problem writing new names on the calendar. This sign loves the rollercoaster of romance, from butterflies before the first date to catching your breath after lying in bed for the first time. But while Leo thrives on the novelty of dating, they can easily be disappointed if their date fails to meet their expectations. This is why Leos occasionally find true love with partners they may have dated or broken up with in the past.</p> ",
+      "article_html": "\n<p>Löwen verlieben sich leicht. Aber es kann schwierig sein, jemanden zu finden, der mit ihnen mithalten und verliebt bleiben kann. Löwen lieben es zu flirten und sich zu verabreden und haben kein Problem damit, neue Namen in den Kalender einzutragen. Dieses Sternzeichen liebt die Achterbahnfahrt der Romantik, von Schmetterlingen vor dem ersten Date bis zum Atemholen nach dem ersten Mal im Bett. Doch während Leo von der Neuheit des Datings lebt, können sie leicht enttäuscht sein, wenn ihr Date nicht ihren Erwartungen entspricht. Aus diesem Grund finden Löwen gelegentlich die wahre Liebe bei Partnern, mit denen sie vielleicht in der Vergangenheit zusammen waren oder mit denen sie Schluss gemacht haben.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>The passionate lion is a little domineering, which is something that the opposite sex can't stand. People feel that when they get along with the Leo, they are always repressed by them.  So, if Leo is not so aggressive, the relationship with the opposite sex will be much better.</p>"
+      "desc": "<p>Der leidenschaftliche Löwe ist ein wenig dominant, was das andere Geschlecht nicht ertragen kann. Menschen haben das Gefühl, dass sie, wenn sie mit dem Löwen auskommen, immer von ihm unterdrückt werden.  Wenn Löwe also nicht so aggressiv ist, wird die Beziehung zum anderen Geschlecht viel besser sein..</p>"
     },
     "other": null
   },
@@ -2681,12 +2681,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Ihre Praktikabilität ist von Vorteil, aber vergessen Sie nicht, große Träume zu haben. Ausgewogenheit ist der Schlüssel..</p><h3>Liebe:.</h3><p>Teilen Sie Ihre Träume mit Ihrem Partner, um eine tiefere Verbindung aufzubauen. Alleinstehende Jungfrauen sollten ihre romantischen Ideale nicht ignorieren.</p><h3>Arbeiten:.</h3><p>Setzen Sie sich hohe Ziele, aber bleiben Sie realistisch. Ihr Ehrgeiz wird von Vorgesetzten wahrgenommen.</p><h3>Geld:.</h3><p>Langfristige Investitionen werden heute bevorzugt. Denken Sie an die Zukunft..</p>"
     },
     "weekly": {
-      "section_title": "Virgo Weekly Horoscope",
+      "section_title": "Wochenhoroskop Jungfrau.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2697,7 +2697,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -2708,7 +2708,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -2719,7 +2719,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2730,7 +2730,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2741,17 +2741,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p> <h3>Ordinary</h3><p>Your love life will be average this week. Maybe you're in the middle of a relationship, but you're lucky to have friends. You're also a little pessimistic about relationships. Falling in love with your best friend doesn't feel good, making you wary of moving forward in your relationship and not becoming a friend. If you are already in a relationship, you will need to explain your relationship with other members of the opposite sex to your partner.</p> <p>Work on your time management skills. Cut out unnecessary wastes of time. Start with making to-do lists to stay focused.</p> <h3>Have breakfast</h3><p>Have you had your breakfast today? Maybe not. You are too busy to get up on time. You have no time for breakfast in a hurry. Some people now skip breakfast because they don’t want to be bothered by preparing it or they are in a rush to get out of the door. But for the sake of health, it’s wise of you to develop the habit of eating breakfast.You should pay attention to the problems of the digestive system, it is easy to cause diarrhea because of an improper diet, so it is recommended to eat more green food.</p> ",
+      "article_html": "\n<h3>Streit und Angst.</h3><p>Sie sind bestrebt, mit anderen zu kommunizieren, um den Konflikt zu lösen. Dennoch sind die Worte oft nicht gut genug, um die Wirkung der Kommunikation zu erzielen. Achten Sie diese Woche mehr auf Ihre Kommunikationsfähigkeiten bei der Arbeit. Die Kommunikation mit dem Vorgesetzten kann aufgrund unterschiedlicher Meinungen zu ständigen Streitigkeiten führen. Es ist am besten, die Dinge zuerst zu verlangsamen. Achten Sie auf den letzten Teil der Arbeit, um kleine Fehler zu vermeiden. Reizbarkeit und Empfindlichkeit können Ihre Gesamtproduktivität beeinträchtigen. Möglicherweise sind Sie diese Woche nicht in bester Stimmung und neigen möglicherweise dazu, Fehler bei Ihren Daten zu machen. Sei einfach vorsichtig..</p> <h3>Normal.</h3><p>Ihr Liebesleben wird diese Woche durchschnittlich sein. Vielleicht stecken Sie mitten in einer Beziehung, aber Sie haben Glück, Freunde zu haben. Du bist auch ein wenig pessimistisch, was Beziehungen angeht. Sich in deinen besten Freund zu verlieben fühlt sich nicht gut an und macht dich vorsichtig, deine Beziehung voranzutreiben und kein Freund zu werden. Wenn Sie bereits in einer Beziehung sind, müssen Sie Ihrem Partner Ihre Beziehung zu anderen Mitgliedern des anderen Geschlechts erklären.</p> <p>Arbeiten Sie an Ihren Zeitmanagementfähigkeiten. Vermeiden Sie unnötige Zeitverschwendung. Beginnen Sie mit der Erstellung von To-Do-Listen, um konzentriert zu bleiben.</p> <h3>Frühstücken.</h3><p>Hast du heute schon gefrühstückt? Vielleicht auch nicht. Sie sind zu beschäftigt, um pünktlich aufzustehen. Sie haben in Eile keine Zeit zum Frühstück. Manche Leute verzichten mittlerweile auf das Frühstück, weil sie sich nicht mit der Zubereitung herumschlagen wollen oder weil sie es eilig haben, nach draußen zu gehen. Aus gesundheitlichen Gründen ist es jedoch ratsam, sich das Frühstück zur Gewohnheit zu machen. Sie sollten auf die Probleme des Verdauungssystems achten, da eine falsche Ernährung leicht zu Durchfall führen kann, daher wird empfohlen, mehr grüne Lebensmittel zu sich zu nehmen.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p>"
+      "desc": "<h3>Streit und Angst.</h3><p>Sie sind bestrebt, mit anderen zu kommunizieren, um den Konflikt zu lösen. Dennoch sind die Worte oft nicht gut genug, um die Wirkung der Kommunikation zu erzielen. Achten Sie diese Woche mehr auf Ihre Kommunikationsfähigkeiten bei der Arbeit. Die Kommunikation mit dem Vorgesetzten kann aufgrund unterschiedlicher Meinungen zu ständigen Streitigkeiten führen. Es ist am besten, die Dinge zuerst zu verlangsamen. Achten Sie auf den letzten Teil der Arbeit, um kleine Fehler zu vermeiden. Reizbarkeit und Empfindlichkeit können Ihre Gesamtproduktivität beeinträchtigen. Möglicherweise sind Sie diese Woche nicht in bester Stimmung und neigen möglicherweise dazu, Fehler bei Ihren Daten zu machen. Sei einfach vorsichtig..</p>"
     },
     "monthly": {
-      "section_title": "Virgo Monthly Horoscope",
+      "section_title": "Monatshoroskop Jungfrau.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2762,7 +2762,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2773,7 +2773,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.0,
             0.0,
@@ -2784,7 +2784,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2795,7 +2795,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2806,17 +2806,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about personal refinement and self-improvement. Focus on organizing your life and setting achievable goals. Your attention to detail will bring clarity to complex situations.</p><h3>Love:</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Work:</h3><p>Efficiency is your forte, and this month it pays off. Look for ways to streamline processes at work. Your problem-solving skills will be recognized and appreciated by your superiors.</p><h3>Money:</h3><p>It's time to review your budget and cut unnecessary expenses. Consider an investment in your education or health as these can bring long-term benefits.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>In diesem Monat geht es um persönliche Weiterentwicklung und Selbstverbesserung. Konzentrieren Sie sich darauf, Ihr Leben zu organisieren und erreichbare Ziele zu setzen. Ihre Liebe zum Detail bringt Klarheit in komplexe Situationen.</p><h3>Liebe:.</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Arbeiten:.</h3><p>Effizienz ist Ihre Stärke und diesen Monat zahlt sie sich aus. Suchen Sie nach Möglichkeiten, Prozesse am Arbeitsplatz zu optimieren. Ihre Problemlösungsfähigkeiten werden von Ihren Vorgesetzten anerkannt und geschätzt.</p><h3>Geld:.</h3><p>Es ist Zeit, Ihr Budget zu überprüfen und unnötige Ausgaben zu reduzieren. Erwägen Sie eine Investition in Ihre Bildung oder Gesundheit, da diese langfristige Vorteile bringen kann.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>General:</h3><p>This month is about personal refinement and self-improvement. Focus on organizing your life and setting achievable goals. Your attention to detail will bring clarity to complex situations.</p><h3>Love:</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Work:</h3><p>Efficiency is your forte, and this month it pays off. Look for ways to streamline processes at work. Your problem-solving skills will be recognized and appreciated by your superiors.</p><h3>Money:</h3><p>It's time to review your budget and cut unnecessary expenses. Consider an investment in your education or health as these can bring long-term benefits.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>In diesem Monat geht es um persönliche Weiterentwicklung und Selbstverbesserung. Konzentrieren Sie sich darauf, Ihr Leben zu organisieren und erreichbare Ziele zu setzen. Ihre Liebe zum Detail bringt Klarheit in komplexe Situationen.</p><h3>Liebe:.</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Arbeiten:.</h3><p>Effizienz ist Ihre Stärke und diesen Monat zahlt sie sich aus. Suchen Sie nach Möglichkeiten, Prozesse am Arbeitsplatz zu optimieren. Ihre Problemlösungsfähigkeiten werden von Ihren Vorgesetzten anerkannt und geschätzt.</p><h3>Geld:.</h3><p>Es ist Zeit, Ihr Budget zu überprüfen und unnötige Ausgaben zu reduzieren. Erwägen Sie eine Investition in Ihre Bildung oder Gesundheit, da diese langfristige Vorteile bringen kann.</p>"
     },
     "yearly": {
-      "section_title": "Virgo Yearly Horoscope",
+      "section_title": "Jahreshoroskop Jungfrau.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2827,7 +2827,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -2838,7 +2838,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -2849,7 +2849,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -2860,7 +2860,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -2871,17 +2871,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Virgos will find this year to be a harmonious blend of planning and spontaneity. Your meticulous attention to detail will serve you well, particularly as you navigate through some complex challenges that will ultimately lead to personal growth. Embrace flexibility; it will be your greatest asset. Remember to take time to decompress, as your well-being is the foundation of your success.</p><h3>Love</h3><p>In the realm of love, Virgos may need to step outside their comfort zones. For those in relationships, it's a year to deepen your connection through shared experiences and open communication. Single Virgos should explore new social settings to meet potential partners. Trust in the process of building relationships slowly; genuine connections take time to bloom.</p><h3>Work</h3><p>Career-wise, Virgos are poised to make significant strides. Your analytical skills will be in high demand, opening doors to new opportunities. However, be wary of overcommitting; prioritize your tasks to maintain a high standard of work. Collaboration will be key, and you may find that teamwork leads to the most rewarding accomplishments.</p><h3>Money</h3><p>Financially, it's a year for strategic planning. Your natural prudence will help you avoid pitfalls. It's an opportune time to review your investments and savings plans. While there may be temptations to splurge, focusing on long-term financial security will prove more rewarding. Consider seeking advice for managing your finances to optimize your resources.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Für Jungfrauen ist dieses Jahr eine harmonische Mischung aus Planung und Spontaneität. Ihre akribische Liebe zum Detail wird Ihnen von großem Nutzen sein, insbesondere bei der Bewältigung komplexer Herausforderungen, die letztendlich zu persönlichem Wachstum führen. Seien Sie flexibel; Es wird Ihr größtes Kapital sein. Denken Sie daran, sich Zeit zum Entspannen zu nehmen, denn Ihr Wohlbefinden ist die Grundlage Ihres Erfolgs.</p><h3>Liebe.</h3><p>Im Bereich der Liebe müssen Jungfrauen möglicherweise ihre Komfortzone verlassen. Für diejenigen, die in einer Beziehung leben, ist es ein Jahr, in dem Sie Ihre Verbindung durch gemeinsame Erfahrungen und offene Kommunikation vertiefen können. Alleinstehende Jungfrauen sollten neue soziale Umfelder erkunden, um potenzielle Partner kennenzulernen. Vertrauen Sie dem Prozess des langsamen Aufbaus von Beziehungen; Echte Verbindungen brauchen Zeit, um zu blühen.</p><h3>Arbeiten.</h3><p>Beruflich sind Jungfrauen bereit, bedeutende Fortschritte zu machen. Ihre analytischen Fähigkeiten werden sehr gefragt sein und Türen zu neuen Möglichkeiten öffnen. Seien Sie jedoch vorsichtig, wenn Sie sich nicht zu sehr verpflichten. Priorisieren Sie Ihre Aufgaben, um einen hohen Arbeitsstandard aufrechtzuerhalten. Zusammenarbeit wird der Schlüssel sein, und Sie werden vielleicht feststellen, dass Teamarbeit zu den lohnendsten Erfolgen führt.</p><h3>Geld.</h3><p>Finanziell ist es ein Jahr der strategischen Planung. Ihre natürliche Besonnenheit wird Ihnen helfen, Fallstricke zu vermeiden. Es ist ein günstiger Zeitpunkt, Ihre Investitionen und Sparpläne zu überprüfen. Auch wenn die Versuchung bestehen mag, Geld auszugeben, wird sich die Konzentration auf langfristige finanzielle Sicherheit als lohnender erweisen. Erwägen Sie, sich bei der Verwaltung Ihrer Finanzen beraten zu lassen, um Ihre Ressourcen zu optimieren.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>General</h3><p>Virgos will find this year to be a harmonious blend of planning and spontaneity. Your meticulous attention to detail will serve you well, particularly as you navigate through some complex challenges that will ultimately lead to personal growth. Embrace flexibility; it will be your greatest asset. Remember to take time to decompress, as your well-being is the foundation of your success.</p><h3>Love</h3><p>In the realm of love, Virgos may need to step outside their comfort zones. For those in relationships, it's a year to deepen your connection through shared experiences and open communication. Single Virgos should explore new social settings to meet potential partners. Trust in the process of building relationships slowly; genuine connections take time to bloom.</p><h3>Work</h3><p>Career-wise, Virgos are poised to make significant strides. Your analytical skills will be in high demand, opening doors to new opportunities. However, be wary of overcommitting; prioritize your tasks to maintain a high standard of work. Collaboration will be key, and you may find that teamwork leads to the most rewarding accomplishments.</p><h3>Money</h3><p>Financially, it's a year for strategic planning. Your natural prudence will help you avoid pitfalls. It's an opportune time to review your investments and savings plans. While there may be temptations to splurge, focusing on long-term financial security will prove more rewarding. Consider seeking advice for managing your finances to optimize your resources.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Für Jungfrauen ist dieses Jahr eine harmonische Mischung aus Planung und Spontaneität. Ihre akribische Liebe zum Detail wird Ihnen von großem Nutzen sein, insbesondere bei der Bewältigung komplexer Herausforderungen, die letztendlich zu persönlichem Wachstum führen. Seien Sie flexibel; Es wird Ihr größtes Kapital sein. Denken Sie daran, sich Zeit zum Entspannen zu nehmen, denn Ihr Wohlbefinden ist die Grundlage Ihres Erfolgs.</p><h3>Liebe.</h3><p>Im Bereich der Liebe müssen Jungfrauen möglicherweise ihre Komfortzone verlassen. Für diejenigen, die in einer Beziehung leben, ist es ein Jahr, in dem Sie Ihre Verbindung durch gemeinsame Erfahrungen und offene Kommunikation vertiefen können. Alleinstehende Jungfrauen sollten neue soziale Umfelder erkunden, um potenzielle Partner kennenzulernen. Vertrauen Sie dem Prozess des langsamen Aufbaus von Beziehungen; Echte Verbindungen brauchen Zeit, um zu blühen.</p><h3>Arbeiten.</h3><p>Beruflich sind Jungfrauen bereit, bedeutende Fortschritte zu machen. Ihre analytischen Fähigkeiten werden sehr gefragt sein und Türen zu neuen Möglichkeiten öffnen. Seien Sie jedoch vorsichtig, wenn Sie sich nicht zu sehr verpflichten. Priorisieren Sie Ihre Aufgaben, um einen hohen Arbeitsstandard aufrechtzuerhalten. Zusammenarbeit wird der Schlüssel sein, und Sie werden vielleicht feststellen, dass Teamarbeit zu den lohnendsten Erfolgen führt.</p><h3>Geld.</h3><p>Finanziell ist es ein Jahr der strategischen Planung. Ihre natürliche Besonnenheit wird Ihnen helfen, Fallstricke zu vermeiden. Es ist ein günstiger Zeitpunkt, Ihre Investitionen und Sparpläne zu überprüfen. Auch wenn die Versuchung bestehen mag, Geld auszugeben, wird sich die Konzentration auf langfristige finanzielle Sicherheit als lohnender erweisen. Erwägen Sie, sich bei der Verwaltung Ihrer Finanzen beraten zu lassen, um Ihre Ressourcen zu optimieren.</p>"
     },
     "love": {
-      "section_title": "Virgo Love Horoscope",
+      "section_title": "Liebeshoroskop Jungfrau.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2892,7 +2892,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -2903,7 +2903,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -2914,7 +2914,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2925,7 +2925,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -2936,17 +2936,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>pessimistic &amp; cautious</h3><p>Virgos may be in a pessimistic and passive state at the beginning of a relationship. They may not find it easy to fall in love, but they have high expectations for the perfect relationship and partner. Virgos are afraid of getting hurt in a relationship, so they make very cautious decisions. Therefore, Virgos are very selective when it comes to choosing a mate.</p> ",
+      "article_html": "\n<h3>pessimistisch und vorsichtig.</h3><p>Jungfrauen können zu Beginn einer Beziehung in einem pessimistischen und passiven Zustand sein. Es fällt ihnen vielleicht nicht leicht, sich zu verlieben, aber sie haben hohe Erwartungen an die perfekte Beziehung und den perfekten Partner. Jungfrauen haben Angst, in einer Beziehung verletzt zu werden, deshalb treffen sie sehr vorsichtige Entscheidungen. Daher sind Jungfrauen sehr wählerisch, wenn es um die Partnerwahl geht.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>simple &amp; trustworthy</h3><p>Virgo's way of showing love is very simple and they can help you take care of life's little problems. At the same time, Virgos know exactly what they want in a mate, and they tend to take a cold attitude to uninterested people's confessions of love. Virgos are very trustworthy when it comes to love. They have an innate sense of service and dedication.</p>"
+      "desc": "<h3>einfach und vertrauenswürdig.</h3><p>Die Art und Weise, wie Jungfrauen Liebe zeigen, ist sehr einfach und sie können Ihnen helfen, sich um die kleinen Probleme des Lebens zu kümmern. Gleichzeitig wissen Jungfrauen genau, was sie von einem Partner erwarten, und neigen dazu, den Liebesgeständnissen uninteressierter Menschen gegenüber eine kühle Haltung einzunehmen. Jungfrauen sind sehr vertrauenswürdig, wenn es um die Liebe geht. Sie haben einen angeborenen Sinn für Service und Hingabe.</p>"
     },
     "health": {
-      "section_title": "Virgo Health Horoscope",
+      "section_title": "Gesundheitshoroskop Jungfrau.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -2957,7 +2957,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -2968,7 +2968,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -2979,7 +2979,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -2990,7 +2990,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3001,17 +3001,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>For Virgo, this is a good day to reflect on the past. This is because your peace of mind and mental relaxation allows you to reflect on the changes that your past life has given you through reflection. Don't avoid mistakes made in the past, as your ability to attract what you want in life is magnified. Focus your mind and attention on what you want to create in your life today, and you can access relevant messages by reflecting on the past.Kale is extremely high in fibre, vitamins C and K and many other nutrients. It adds a satisfying crunch to salads and other dishes. Virgo, make yourself a kale salad with artichoke hearts, grilled chicken and your favourite dressing.</p> ",
+      "article_html": "\n<p>Für die Jungfrau ist dies ein guter Tag, um über die Vergangenheit nachzudenken. Dies liegt daran, dass Ihr Seelenfrieden und Ihre geistige Entspannung es Ihnen ermöglichen, durch Reflexion über die Veränderungen nachzudenken, die Ihr früheres Leben Ihnen beschert hat. Vermeiden Sie nicht die Fehler der Vergangenheit, da sich Ihre Fähigkeit, im Leben das anzuziehen, was Sie wollen, vergrößert. Konzentrieren Sie Ihren Geist und Ihre Aufmerksamkeit auf das, was Sie heute in Ihrem Leben schaffen möchten, und Sie können relevante Botschaften erhalten, indem Sie über die Vergangenheit nachdenken. Grünkohl ist extrem reich an Ballaststoffen, den Vitaminen C und K und vielen anderen Nährstoffen. Es verleiht Salaten und anderen Gerichten einen satten Biss. Jungfrau, mach dir einen Grünkohlsalat mit Artischockenherzen, gegrilltem Hähnchen und deinem Lieblingsdressing.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>Conversations happening today in Virgo may take on a deeper tone, encouraging you to explore many themes in your interactions with others. This is a good day to open up in conversation with others. Balancing your chakras can help you achieve this openness.Tomatoes are rich in vitamin C, potassium and antioxidants, which your body craves. Virgo, tomato slices go well with salads, cottage cheese or avocado toast and can help keep you full today.</p>"
+      "desc": "<p>Gespräche, die heute in der Jungfrau geführt werden, können einen tieferen Ton annehmen und Sie dazu ermutigen, in Ihren Interaktionen mit anderen viele Themen zu erkunden. Dies ist ein guter Tag, um mit anderen ins Gespräch zu kommen. Das Ausbalancieren Ihrer Chakren kann Ihnen dabei helfen, diese Offenheit zu erreichen. Tomaten sind reich an Vitamin C, Kalium und Antioxidantien, nach denen Ihr Körper verlangt. Jungfrau-Tomatenscheiben passen gut zu Salaten, Hüttenkäse oder Avocado-Toast und können heute helfen, satt zu bleiben.</p>"
     },
     "career": {
-      "section_title": "Virgo Career Horoscope",
+      "section_title": "Karrierehoroskop Jungfrau.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3022,7 +3022,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3033,7 +3033,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -3044,7 +3044,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -3055,7 +3055,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3066,17 +3066,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Virgos plan and arrange everything carefully. They like to keep track of exactly how everything happened. They keep records afterwards for reference and keep an account of every expense. In short, Virgo lives a meticulous and well-organized life, and does not like unexpected events to disturb their life. Their deliberation sometimes even misses the opportune moment.</p> ",
+      "article_html": "\n<p>Jungfrauen planen und arrangieren alles sorgfältig. Sie behalten gerne den genauen Überblick darüber, wie alles passiert ist. Anschließend führen sie zu Referenzzwecken Aufzeichnungen und dokumentieren alle Ausgaben. Kurz gesagt, die Jungfrau führt ein sorgfältiges und gut organisiertes Leben und mag es nicht, wenn unerwartete Ereignisse ihr Leben stören. Ihre Überlegungen verpassen manchmal sogar den passenden Moment.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>Virgos plan and arrange everything carefully. They like to keep track of exactly how everything happened. They keep records afterwards for reference and keep an account of every expense. In short, Virgo lives a meticulous and well-organized life, and does not like unexpected events to disturb their life. Their deliberation sometimes even misses the opportune moment.</p>"
+      "desc": "<p>Jungfrauen planen und arrangieren alles sorgfältig. Sie behalten gerne den genauen Überblick darüber, wie alles passiert ist. Anschließend führen sie zu Referenzzwecken Aufzeichnungen und dokumentieren alle Ausgaben. Kurz gesagt, die Jungfrau führt ein sorgfältiges und gut organisiertes Leben und mag es nicht, wenn unerwartete Ereignisse ihr Leben stören. Ihre Überlegungen verpassen manchmal sogar den passenden Moment.</p>"
     },
     "sex": {
-      "section_title": "Virgo Sex Horoscope",
+      "section_title": "Sexhoroskop Jungfrau.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3087,7 +3087,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -3098,7 +3098,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -3109,7 +3109,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -3120,7 +3120,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3131,9 +3131,9 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>Virgos need to support and be supported. They can balance intimacy and freedom by focusing on work, career goals, etc. However, Virgos cannot tolerate feelings of being left out of responsibilities and obligations. They want their partner to be consistently responsible.</p> ",
+      "article_html": "\n<p>Jungfrauen müssen unterstützen und unterstützt werden. Sie können Intimität und Freiheit in Einklang bringen, indem sie sich auf Arbeit, Karriereziele usw. konzentrieren. Jungfrauen können jedoch das Gefühl, von Verantwortung und Verpflichtungen ausgeschlossen zu werden, nicht tolerieren. Sie möchten, dass ihr Partner stets Verantwortung übernimmt.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>You are very gentle and considerate, with a strong will power and the generosity to share with others. You are soft and affectionate at all times and in all places, and your tender and shy nature will make people want to approach and cherish you.</p>"
+      "desc": "<p>Sie sind sehr sanft und rücksichtsvoll, haben einen starken Willen und die Großzügigkeit, etwas mit anderen zu teilen. Sie sind jederzeit und an jedem Ort sanft und liebevoll, und Ihre zärtliche und schüchterne Art wird Menschen dazu bringen, sich Ihnen zu nähern und sie zu schätzen.</p>"
     },
     "other": null
   },
@@ -3204,12 +3204,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Ihre kooperative Art ist heute ein Segen für die Gruppendynamik. Engagieren Sie sich mit Ihrer Community.</p><h3>Liebe:.</h3><p>Kompromisse sind der Schlüssel zur Aufrechterhaltung der Harmonie mit Ihrem Lebensgefährten. Singles sollten sich überlegen, auf welche Kompromisse sie in einer Beziehung bereit sind.</p><h3>Arbeiten:.</h3><p>Zusammenarbeit bringt Erfolg. Suchen Sie nach Möglichkeiten, mit Kollegen zusammenzuarbeiten.</p><h3>Geld:.</h3><p>Joint-Finance-Ventures können von Vorteil sein, aber stellen Sie sicher, dass die Bedingungen für alle Parteien klar sind.</p>"
     },
     "weekly": {
-      "section_title": "Libra Weekly Horoscope",
+      "section_title": "Wochenhoroskop Waage.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -3220,7 +3220,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3231,7 +3231,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -3242,7 +3242,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -3253,7 +3253,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -3264,17 +3264,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Plan &amp; Be flexible</h3><p>You will be more organized in your career this week. Having a clear plan for your work will help you make good progress through your efforts. The overall trend of the work is smooth, but there may be some sudden small problems. Do not blindly believe you can do a certain plan or cooperation before making a final decision; the same is true for other aspects. Therefore, you need to be prepared to be flexible at all times. Try to be proactive in taking advice, reducing your time when encountering problems.</p> <h3>Valiant</h3><p>You may be hesitant to make the right choices in your relationships this week. Maybe you have someone in mind who can take your relationship to the next level, but you can't decide to tell them. Be brave! Try to speak your mind, and don't be afraid. Maybe you'll get tender love! For you, the big changes in your life are growth experiences, and you will gradually find that your concept is undergoing some subtle changes. Learn to accept it and adapt to it. The strange things that will happen are worth looking forward to.</p> <p>Each day is a chance to do better than before. Start with small steps to move forward and build on what you have learned from past mistakes.</p> <h3>Protect your eyes</h3><p>Vision is one of your most important faculties, so you should be very mindful about protecting your precious eyes.  Exposure to TV, computer and mobile phones should be limited. If you have to look at the screen for the bulk of the day, you can at least make the screen more eye-friendly by adjusting the screen brightness and increasing the text size.</p> ",
+      "article_html": "\n<h3>Planen und flexibel sein.</h3><p>Diese Woche werden Sie in Ihrer Karriere besser organisiert sein. Wenn Sie einen klaren Plan für Ihre Arbeit haben, können Sie bei Ihren Bemühungen gute Fortschritte erzielen. Der Gesamtverlauf der Arbeit verläuft reibungslos, es können jedoch plötzlich kleine Probleme auftreten. Glauben Sie nicht blind, dass Sie einen bestimmten Plan umsetzen oder zusammenarbeiten können, bevor Sie eine endgültige Entscheidung treffen. das Gleiche gilt auch für andere Aspekte. Daher müssen Sie darauf vorbereitet sein, jederzeit flexibel zu sein. Versuchen Sie, sich proaktiv beraten zu lassen und Ihre Zeit bei Problemen zu verkürzen.</p> <h3>Tapfer.</h3><p>Möglicherweise zögern Sie diese Woche, in Ihren Beziehungen die richtigen Entscheidungen zu treffen. Vielleicht haben Sie jemanden im Sinn, der Ihre Beziehung auf die nächste Ebene heben kann, aber Sie können sich nicht dazu entschließen, es ihm zu sagen. Sei mutig! Versuchen Sie, Ihre Meinung zu äußern, und haben Sie keine Angst. Vielleicht bekommst du zärtliche Liebe! Für Sie sind die großen Veränderungen in Ihrem Leben Wachstumserlebnisse und Sie werden nach und nach feststellen, dass Ihr Konzept einige subtile Veränderungen durchmacht. Lernen Sie, es zu akzeptieren und sich daran anzupassen. Es lohnt sich, sich auf die seltsamen Dinge zu freuen, die passieren werden.</p> <p>Jeder Tag ist eine Chance, es besser zu machen als zuvor. Beginnen Sie mit kleinen Schritten, um voranzukommen, und bauen Sie auf dem auf, was Sie aus den Fehlern der Vergangenheit gelernt haben.</p> <h3>Schützen Sie Ihre Augen.</h3><p>Das Sehen ist eine Ihrer wichtigsten Fähigkeiten, daher sollten Sie sehr darauf achten, Ihre wertvollen Augen zu schützen.  Der Kontakt mit Fernseher, Computer und Mobiltelefonen sollte begrenzt werden. Wenn Sie den größten Teil des Tages auf den Bildschirm schauen müssen, können Sie den Bildschirm zumindest augenfreundlicher gestalten, indem Sie die Bildschirmhelligkeit anpassen und die Textgröße erhöhen.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>Plan &amp; Be flexible</h3><p>You will be more organized in your career this week. Having a clear plan for your work will help you make good progress through your efforts. The overall trend of the work is smooth, but there may be some sudden small problems. Do not blindly believe you can do a certain plan or cooperation before making a final decision; the same is true for other aspects. Therefore, you need to be prepared to be flexible at all times. Try to be proactive in taking advice, reducing your time when encountering problems.</p>"
+      "desc": "<h3>Planen und flexibel sein.</h3><p>Diese Woche werden Sie in Ihrer Karriere besser organisiert sein. Wenn Sie einen klaren Plan für Ihre Arbeit haben, können Sie bei Ihren Bemühungen gute Fortschritte erzielen. Der Gesamtverlauf der Arbeit verläuft reibungslos, es können jedoch plötzlich kleine Probleme auftreten. Glauben Sie nicht blind, dass Sie einen bestimmten Plan umsetzen oder zusammenarbeiten können, bevor Sie eine endgültige Entscheidung treffen. das Gleiche gilt auch für andere Aspekte. Daher müssen Sie darauf vorbereitet sein, jederzeit flexibel zu sein. Versuchen Sie, sich proaktiv beraten zu lassen und Ihre Zeit bei Problemen zu verkürzen.</p>"
     },
     "monthly": {
-      "section_title": "Libra Monthly Horoscope",
+      "section_title": "Monatshoroskop Waage.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -3285,7 +3285,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.0,
@@ -3296,7 +3296,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -3307,7 +3307,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -3318,7 +3318,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3329,17 +3329,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about forging your own path. Trust your instincts and don't be afraid to stand out from the crowd.</p><h3>Love:</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Work:</h3><p>Your unique approach to tasks will set you apart. Innovate and don't be afraid to present your ideas, even if they're unconventional.</p><h3>Money:</h3><p>Your financial intuition is strong now. Trust your gut when it comes to making decisions about money, but also make sure to do your research.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>In diesem Monat geht es darum, Ihren eigenen Weg zu gehen. Vertrauen Sie Ihrem Instinkt und haben Sie keine Angst, sich von der Masse abzuheben.</p><h3>Liebe:.</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Arbeiten:.</h3><p>Ihre einzigartige Herangehensweise an Aufgaben wird Sie auszeichnen. Seien Sie innovativ und haben Sie keine Angst, Ihre Ideen zu präsentieren, auch wenn sie unkonventionell sind.</p><h3>Geld:.</h3><p>Ihre finanzielle Intuition ist jetzt stark. Vertrauen Sie Ihrem Bauchgefühl, wenn es darum geht, Geldentscheidungen zu treffen, aber stellen Sie auch sicher, dass Sie gründlich recherchieren.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>General:</h3><p>This month is about forging your own path. Trust your instincts and don't be afraid to stand out from the crowd.</p><h3>Love:</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Work:</h3><p>Your unique approach to tasks will set you apart. Innovate and don't be afraid to present your ideas, even if they're unconventional.</p><h3>Money:</h3><p>Your financial intuition is strong now. Trust your gut when it comes to making decisions about money, but also make sure to do your research.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>In diesem Monat geht es darum, Ihren eigenen Weg zu gehen. Vertrauen Sie Ihrem Instinkt und haben Sie keine Angst, sich von der Masse abzuheben.</p><h3>Liebe:.</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Arbeiten:.</h3><p>Ihre einzigartige Herangehensweise an Aufgaben wird Sie auszeichnen. Seien Sie innovativ und haben Sie keine Angst, Ihre Ideen zu präsentieren, auch wenn sie unkonventionell sind.</p><h3>Geld:.</h3><p>Ihre finanzielle Intuition ist jetzt stark. Vertrauen Sie Ihrem Bauchgefühl, wenn es darum geht, Geldentscheidungen zu treffen, aber stellen Sie auch sicher, dass Sie gründlich recherchieren.</p>"
     },
     "yearly": {
-      "section_title": "Libra Yearly Horoscope",
+      "section_title": "Jahreshoroskop Waage.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3350,7 +3350,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3361,7 +3361,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -3372,7 +3372,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -3383,7 +3383,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3394,17 +3394,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year, Libras will find themselves at the center of a delicate balancing act. Your innate desire for harmony will be tested as you navigate through periods of fluctuating energies. Embrace your diplomatic skills to maintain equilibrium in all areas of life. Personal development will come through embracing challenges, and your natural charm will help you turn potential conflicts into opportunities for growth.</p><h3>Love</h3><p>For Libra, love this year is about finding equilibrium between giving and receiving. Those in relationships should strive for fairness and ensure that their needs are communicated as clearly as they attend to their partners'. Single Libras might find themselves attracted to individuals who mirror their own qualities, seeking balance in unity. Patience will be key; true love takes time to blossom.</p><h3>Work</h3><p>Professionally, Libras are set to achieve great strides by leveraging their collaborative skills. Team projects will shine under your guidance, and your fair leadership will be appreciated. It's a good year to seek mentorship or to mentor others, as the exchange of knowledge will favor your career growth. Stay decisive, even when the choices are tough, to keep the momentum going.</p><h3>Money</h3><p>Financially, the scales will need careful watching for Libras this year. Wise investments and prudent spending are recommended, as there may be a tendency to indulge in luxuries. Budgeting will help maintain a healthy financial state, and it might be time to seek advice for long-term financial planning. Unexpected gains are possible if you keep a balanced approach to your finances.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>In diesem Jahr stehen die Waagen im Mittelpunkt eines heiklen Balanceakts. Ihr angeborener Wunsch nach Harmonie wird auf die Probe gestellt, während Sie durch Zeiten schwankender Energien navigieren. Nutzen Sie Ihre diplomatischen Fähigkeiten, um in allen Lebensbereichen das Gleichgewicht zu wahren. Persönliche Entwicklung wird durch die Annahme von Herausforderungen erreicht, und Ihr natürlicher Charme wird Ihnen dabei helfen, potenzielle Konflikte in Wachstumschancen zu verwandeln.</p><h3>Liebe.</h3><p>Für die Waage geht es in diesem Jahr bei der Liebe darum, ein Gleichgewicht zwischen Geben und Nehmen zu finden. Wer in einer Beziehung ist, sollte sich um Fairness bemühen und dafür sorgen, dass seine Bedürfnisse ebenso klar kommuniziert werden, wie er sich um die seiner Partner kümmert. Single-Waagen fühlen sich möglicherweise zu Menschen hingezogen, die ihre eigenen Qualitäten widerspiegeln und das Gleichgewicht in der Einheit suchen. Geduld wird der Schlüssel sein; Wahre Liebe braucht Zeit, um zu erblühen.</p><h3>Arbeiten.</h3><p>Beruflich werden Waagen große Fortschritte erzielen, indem sie ihre Fähigkeiten zur Zusammenarbeit nutzen. Teamprojekte werden unter Ihrer Anleitung glänzen und Ihre faire Führung wird geschätzt. Es ist ein gutes Jahr, um eine Mentorschaft zu suchen oder andere zu betreuen, da der Wissensaustausch Ihr berufliches Wachstum begünstigen wird. Bleiben Sie entschlossen, auch wenn die Entscheidungen schwierig sind, um den Schwung aufrechtzuerhalten.</p><h3>Geld.</h3><p>In finanzieller Hinsicht müssen die Waagen in diesem Jahr sorgfältig im Auge behalten werden. Kluge Investitionen und umsichtige Ausgaben werden empfohlen, da möglicherweise eine Tendenz besteht, sich Luxus zu gönnen. Die Budgetierung trägt dazu bei, eine gesunde Finanzlage aufrechtzuerhalten, und es könnte an der Zeit sein, sich für eine langfristige Finanzplanung beraten zu lassen. Unerwartete Gewinne sind möglich, wenn Sie einen ausgewogenen Umgang mit Ihren Finanzen beibehalten.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>General</h3><p>This year, Libras will find themselves at the center of a delicate balancing act. Your innate desire for harmony will be tested as you navigate through periods of fluctuating energies. Embrace your diplomatic skills to maintain equilibrium in all areas of life. Personal development will come through embracing challenges, and your natural charm will help you turn potential conflicts into opportunities for growth.</p><h3>Love</h3><p>For Libra, love this year is about finding equilibrium between giving and receiving. Those in relationships should strive for fairness and ensure that their needs are communicated as clearly as they attend to their partners'. Single Libras might find themselves attracted to individuals who mirror their own qualities, seeking balance in unity. Patience will be key; true love takes time to blossom.</p><h3>Work</h3><p>Professionally, Libras are set to achieve great strides by leveraging their collaborative skills. Team projects will shine under your guidance, and your fair leadership will be appreciated. It's a good year to seek mentorship or to mentor others, as the exchange of knowledge will favor your career growth. Stay decisive, even when the choices are tough, to keep the momentum going.</p><h3>Money</h3><p>Financially, the scales will need careful watching for Libras this year. Wise investments and prudent spending are recommended, as there may be a tendency to indulge in luxuries. Budgeting will help maintain a healthy financial state, and it might be time to seek advice for long-term financial planning. Unexpected gains are possible if you keep a balanced approach to your finances.</p>"
+      "desc": "<h3>Allgemein.</h3><p>In diesem Jahr stehen die Waagen im Mittelpunkt eines heiklen Balanceakts. Ihr angeborener Wunsch nach Harmonie wird auf die Probe gestellt, während Sie durch Zeiten schwankender Energien navigieren. Nutzen Sie Ihre diplomatischen Fähigkeiten, um in allen Lebensbereichen das Gleichgewicht zu wahren. Persönliche Entwicklung wird durch die Annahme von Herausforderungen erreicht, und Ihr natürlicher Charme wird Ihnen dabei helfen, potenzielle Konflikte in Wachstumschancen zu verwandeln.</p><h3>Liebe.</h3><p>Für die Waage geht es in diesem Jahr bei der Liebe darum, ein Gleichgewicht zwischen Geben und Nehmen zu finden. Wer in einer Beziehung ist, sollte sich um Fairness bemühen und dafür sorgen, dass seine Bedürfnisse ebenso klar kommuniziert werden, wie er sich um die seiner Partner kümmert. Single-Waagen fühlen sich möglicherweise zu Menschen hingezogen, die ihre eigenen Qualitäten widerspiegeln und das Gleichgewicht in der Einheit suchen. Geduld wird der Schlüssel sein; Wahre Liebe braucht Zeit, um zu erblühen.</p><h3>Arbeiten.</h3><p>Beruflich werden Waagen große Fortschritte erzielen, indem sie ihre Fähigkeiten zur Zusammenarbeit nutzen. Teamprojekte werden unter Ihrer Anleitung glänzen und Ihre faire Führung wird geschätzt. Es ist ein gutes Jahr, um eine Mentorschaft zu suchen oder andere zu betreuen, da der Wissensaustausch Ihr berufliches Wachstum begünstigen wird. Bleiben Sie entschlossen, auch wenn die Entscheidungen schwierig sind, um den Schwung aufrechtzuerhalten.</p><h3>Geld.</h3><p>In finanzieller Hinsicht müssen die Waagen in diesem Jahr sorgfältig im Auge behalten werden. Kluge Investitionen und umsichtige Ausgaben werden empfohlen, da möglicherweise eine Tendenz besteht, sich Luxus zu gönnen. Die Budgetierung trägt dazu bei, eine gesunde Finanzlage aufrechtzuerhalten, und es könnte an der Zeit sein, sich für eine langfristige Finanzplanung beraten zu lassen. Unerwartete Gewinne sind möglich, wenn Sie einen ausgewogenen Umgang mit Ihren Finanzen beibehalten.</p>"
     },
     "love": {
-      "section_title": "Libra Love Horoscope",
+      "section_title": "Liebeshoroskop Waage.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.0,
             0.0,
@@ -3415,7 +3415,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3426,7 +3426,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -3437,7 +3437,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -3448,7 +3448,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3459,17 +3459,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>kind &amp; lovely</h3><p>I believe that every person will require his or her partner to have a kind heart when he or she is looking for a date. This shows how much benefit a person's kind heart will bring in their love life. Libra, you are gentle and virtuous, treating everything you encounter with justice. So it's very likely to have a happy ending in your relationship.</p> ",
+      "article_html": "\n<h3>nett und liebenswert.</h3><p>Ich glaube, dass jeder Mensch von seinem Partner ein gutes Herz verlangt, wenn er oder sie auf der Suche nach einem Date ist. Dies zeigt, wie viel Nutzen das gütige Herz einer Person in ihrem Liebesleben bringt. Waage, du bist sanft und tugendhaft und behandelst alles, was dir begegnet, mit Gerechtigkeit. Es ist also sehr wahrscheinlich, dass Ihre Beziehung ein Happy End hat.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>kind &amp; lovely</h3><p>I believe that every person will require his or her partner to have a kind heart when he or she is looking for a date. This shows how much benefit a person's kind heart will bring in their love life. Libra, you are gentle and virtuous, treating everything you encounter with justice. So it's very likely to have a happy ending in your relationship.</p>"
+      "desc": "<h3>nett und liebenswert.</h3><p>Ich glaube, dass jeder Mensch von seinem Partner ein gutes Herz verlangt, wenn er oder sie auf der Suche nach einem Date ist. Dies zeigt, wie viel Nutzen das gütige Herz einer Person in ihrem Liebesleben bringt. Waage, du bist sanft und tugendhaft und behandelst alles, was dir begegnet, mit Gerechtigkeit. Es ist also sehr wahrscheinlich, dass Ihre Beziehung ein Happy End hat.</p>"
     },
     "health": {
-      "section_title": "Libra Health Horoscope",
+      "section_title": "Gesundheitshoroskop Waage.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3480,7 +3480,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3491,7 +3491,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -3502,7 +3502,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.0,
             0.0,
@@ -3513,7 +3513,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3524,17 +3524,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Libra, which represents calmness and harmony, often has problems with back pain and stiffness. Take part in more physical exercises, such as Pilates, and also pay attention to your mattress to see if it makes your back uncomfortable. In addition to exercise, diet is also a priority, and a proper diet can be of great benefit to Libra's health.</p> ",
+      "article_html": "\n<p>Die Waage, die für Ruhe und Harmonie steht, hat oft Probleme mit Rückenschmerzen und Steifheit. Nehmen Sie an mehr körperlichen Übungen wie Pilates teil und achten Sie auch auf Ihre Matratze, um festzustellen, ob sie Ihren Rücken belastet. Neben Bewegung steht auch die Ernährung im Vordergrund, und eine richtige Ernährung kann für die Gesundheit der Waage von großem Nutzen sein.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>Libra, which represents calmness and harmony, often has problems with back pain and stiffness. Take part in more physical exercises, such as Pilates, and also pay attention to your mattress to see if it makes your back uncomfortable. In addition to exercise, diet is also a priority, and a proper diet can be of great benefit to Libra's health.</p>"
+      "desc": "<p>Die Waage, die für Ruhe und Harmonie steht, hat oft Probleme mit Rückenschmerzen und Steifheit. Nehmen Sie an mehr körperlichen Übungen wie Pilates teil und achten Sie auch auf Ihre Matratze, um festzustellen, ob sie Ihren Rücken belastet. Neben Bewegung steht auch die Ernährung im Vordergrund, und eine richtige Ernährung kann für die Gesundheit der Waage von großem Nutzen sein.</p>"
     },
     "career": {
-      "section_title": "Libra Career Horoscope",
+      "section_title": "Karrierehoroskop Waage.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3545,7 +3545,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3556,7 +3556,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -3567,7 +3567,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -3578,7 +3578,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3589,17 +3589,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Libra are suitable for a wide range of industries and fields, but too much choice brings another headache for Libra, that is, they should choose which one? Libra can do a good job on their favorite career, but they are also interested in many other professions, Libra will inevitably miss some good opportunities in the choice.</p> ",
+      "article_html": "\n<p>Waagen eignen sich für eine Vielzahl von Branchen und Bereichen, aber zu viel Auswahl bereitet Waagen erneut Kopfzerbrechen, das heißt, sie sollten sich für welche entscheiden? Waagen können in ihrem Lieblingsberuf gute Arbeit leisten, interessieren sich aber auch für viele andere Berufe, werden Waagen bei der Wahl zwangsläufig einige gute Chancen verpassen.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>The ruling planet of Libra is Venus, a planet that symbolizes love and beauty and endows Librans with an outstanding appreciation. Therefore, most Librans have a knack for appreciating and creating art. They are talented in music, art, photography, advertising design, cultural media, art collection and appreciation, and fashion design, and these professions also play to Libra's strengths, inspiring Libra's passion and allowing Libra to experience a feeling of harmony and beauty.</p>"
+      "desc": "<p>Der herrschende Planet der Waage ist Venus, ein Planet, der Liebe und Schönheit symbolisiert und den Waagen eine außergewöhnliche Wertschätzung verleiht. Daher haben die meisten Waagen ein Händchen dafür, Kunst zu schätzen und zu schaffen. Sie sind talentiert in den Bereichen Musik, Kunst, Fotografie, Werbedesign, kulturelle Medien, Kunstsammlung und -würdigung sowie Modedesign, und diese Berufe nutzen auch die Stärken der Waage aus, indem sie die Leidenschaft der Waage wecken und es der Waage ermöglichen, ein Gefühl von Harmonie und Schönheit zu erleben.</p>"
     },
     "sex": {
-      "section_title": "Libra Sex Horoscope",
+      "section_title": "Sexhoroskop Waage.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3610,7 +3610,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -3621,7 +3621,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -3632,7 +3632,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -3643,7 +3643,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -3654,9 +3654,9 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>The ideal marriage for a Libra is elegant, romantic and able to express itself through the body and words. They want their partner to be calm, artistic and good-natured. Libra sees their partner as the centre of their career and wants to balance their needs, desires, and thoughts while maintaining harmony and peace. The Libra needs to seek a certain balance in a relationship and they cannot tolerate prejudice or injustice.</p> ",
+      "article_html": "\n<p>Die ideale Ehe für eine Waage ist elegant, romantisch und kann sich durch Körper und Worte ausdrücken. Sie möchten, dass ihr Partner ruhig, künstlerisch und gutmütig ist. Die Waage sieht ihren Partner als Mittelpunkt ihrer Karriere und möchte ihre Bedürfnisse, Wünsche und Gedanken in Einklang bringen und gleichzeitig Harmonie und Frieden bewahren. Die Waage muss in einer Beziehung ein gewisses Gleichgewicht anstreben und kann Vorurteile oder Ungerechtigkeit nicht tolerieren.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>Libra needs a partner who is charming, sociable and has good artistic tastes. The partner with whom they actually live has a high degree of harmony and is not only a socialist externally but also knows how to maintain a harmonious atmosphere at home. The relationship is a harmonious one and they will keep their marriage commitments.</p>"
+      "desc": "<p>Die Waage braucht einen Partner, der charmant, kontaktfreudig und über einen guten künstlerischen Geschmack verfügt. Der Partner, mit dem man tatsächlich zusammenlebt, verfügt über ein hohes Maß an Harmonie und ist nicht nur äußerlich ein Sozialist, sondern versteht es auch, zu Hause eine harmonische Atmosphäre aufrechtzuerhalten. Die Beziehung ist harmonisch und sie werden ihre Eheverpflichtungen einhalten.</p>"
     },
     "other": null
   },
@@ -3727,12 +3727,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Ihre natürliche Ausstrahlung strahlt heute. Nutzen Sie dies in sozialen Situationen zu Ihrem Vorteil.</p><h3>Liebe:.</h3><p>Romantik nimmt eine spielerische Wendung. Genießen Sie unbeschwerte Momente mit Ihrem Partner oder, wenn Sie Single sind, könnte ein Flirt mit Interesse erwidert werden.</p><h3>Arbeiten:.</h3><p>Ihr Charme kann Ihnen dabei helfen, sich effektiv zu vernetzen. Knüpfen Sie neue Kontakte..</p><h3>Geld:.</h3><p>Möglicherweise finden Sie in Ihrem sozialen Umfeld finanzielle Möglichkeiten. Halten Sie Ausschau nach Tipps.</p>"
     },
     "weekly": {
-      "section_title": "Scorpio Weekly Horoscope",
+      "section_title": "Wochenhoroskop Skorpion.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3743,7 +3743,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -3754,7 +3754,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -3765,7 +3765,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -3776,7 +3776,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3787,17 +3787,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Changes &amp; Details</h3><p>There may be some changes or unexpected events in your career this week. Maybe you need to work late, or you're late for work. So your life may be a little busy this week. In addition, please pay attention to some details of the work. Due to your carelessness, there is a great potential for errors in the progress of the work. Be sure to prepare for these possibilities.</p> <h3>Ordinary</h3><p>Your love life will be average this week. Maybe you're in the middle of a relationship, but you're lucky to have friends. You're also a little pessimistic about relationships. Falling in love with your best friend doesn't feel good, making you wary of moving forward in your relationship and not becoming a friend. If you are already in a relationship, you will need to explain your relationship with other members of the opposite sex to your partner.</p> <p>Understand you always have a right to turn down an invitation or refuse a favor. You are not obligated to say “Yes” all the time. </p> <h3>Pay attention to your hair</h3><p>Hair is a person's second face. You may have lost your hair recently. It can be a frustrating and embarrassing experience, and if you're looking for a solution, you're not alone. Hair loss can be caused by excessive stress, poor hair care, or other possibilities. If you identify the cause of your hair loss and perhaps make some lifestyle changes, it will help.</p> ",
+      "article_html": "\n<h3>Änderungen & Details.</h3><p>Diese Woche kann es in Ihrer Karriere zu einigen Veränderungen oder unerwarteten Ereignissen kommen. Vielleicht müssen Sie länger arbeiten oder kommen zu spät zur Arbeit. Daher könnte Ihr Leben diese Woche etwas geschäftig sein. Bitte achten Sie außerdem auf einige Details der Arbeit. Aufgrund Ihrer Unachtsamkeit besteht ein großes Fehlerpotenzial im Arbeitsfortschritt. Bereiten Sie sich unbedingt auf diese Möglichkeiten vor.</p> <h3>Normal.</h3><p>Ihr Liebesleben wird diese Woche durchschnittlich sein. Vielleicht stecken Sie mitten in einer Beziehung, aber Sie haben Glück, Freunde zu haben. Du bist auch ein wenig pessimistisch, was Beziehungen angeht. Sich in deinen besten Freund zu verlieben fühlt sich nicht gut an und macht dich vorsichtig, deine Beziehung voranzutreiben und kein Freund zu werden. Wenn Sie bereits in einer Beziehung sind, müssen Sie Ihrem Partner Ihre Beziehung zu anderen Mitgliedern des anderen Geschlechts erklären.</p> <p>Seien Sie sich bewusst, dass Sie immer das Recht haben, eine Einladung abzulehnen oder einen Gefallen abzulehnen. Sie sind nicht verpflichtet, immer „Ja“ zu sagen. .</p> <h3>Achten Sie auf Ihre Haare.</h3><p>Haare sind das zweite Gesicht eines Menschen. Möglicherweise haben Sie kürzlich Ihre Haare verloren. Es kann eine frustrierende und peinliche Erfahrung sein, und wenn Sie nach einer Lösung suchen, sind Sie nicht allein. Haarausfall kann durch übermäßigen Stress, schlechte Haarpflege oder andere Ursachen verursacht werden. Wenn Sie die Ursache Ihres Haarausfalls identifizieren und vielleicht einige Änderungen in Ihrem Lebensstil vornehmen, wird es helfen.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>Changes &amp; Details</h3><p>There may be some changes or unexpected events in your career this week. Maybe you need to work late, or you're late for work. So your life may be a little busy this week. In addition, please pay attention to some details of the work. Due to your carelessness, there is a great potential for errors in the progress of the work. Be sure to prepare for these possibilities.</p>"
+      "desc": "<h3>Änderungen & Details.</h3><p>Diese Woche kann es in Ihrer Karriere zu einigen Veränderungen oder unerwarteten Ereignissen kommen. Vielleicht müssen Sie länger arbeiten oder kommen zu spät zur Arbeit. Daher könnte Ihr Leben diese Woche etwas geschäftig sein. Bitte achten Sie außerdem auf einige Details der Arbeit. Aufgrund Ihrer Unachtsamkeit besteht ein großes Fehlerpotenzial im Arbeitsfortschritt. Bereiten Sie sich unbedingt auf diese Möglichkeiten vor.</p>"
     },
     "monthly": {
-      "section_title": "Scorpio Monthly Horoscope",
+      "section_title": "Monatshoroskop Skorpion.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -3808,7 +3808,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3819,7 +3819,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -3830,7 +3830,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.0,
@@ -3841,7 +3841,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -3852,17 +3852,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General:</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Love:</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Work:</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Money:</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p> ",
+      "article_html": "\n<h3>Allgemein:.</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Liebe:.</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Arbeiten:.</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Geld:.</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>General:</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Love:</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Work:</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Money:</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p>"
+      "desc": "<h3>Allgemein:.</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Liebe:.</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Arbeiten:.</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Geld:.</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p>"
     },
     "yearly": {
-      "section_title": "Scorpio Yearly Horoscope",
+      "section_title": "Jahreshoroskop Skorpion.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3873,7 +3873,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -3884,7 +3884,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -3895,7 +3895,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.0,
             0.0,
@@ -3906,7 +3906,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3917,17 +3917,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Scorpios are set to experience a year of transformation. Your resilience will be your guiding light as you navigate through both highs and lows with a fierce determination. This is a year to trust your instincts and embrace change, as it will lead to personal evolution. Remember that your journey is as important as the destination, so take time to reflect on your growth.</p><h3>Love</h3><p>In matters of the heart, Scorpios will find that vulnerability is their strength. For those in relationships, this is the time to deepen emotional connections by sharing your innermost feelings. Singles should be open to new emotional experiences, as unexpected encounters could lead to intense connections. Patience will be key; true intimacy cannot be rushed.</p><h3>Work</h3><p>Professionally, Scorpios will thrive by channeling their passion into their work. Your ability to focus intensely on tasks will result in impressive accomplishments. Be mindful of power dynamics in the workplace; cooperation will often lead to greater success than competition. Networking will also play a crucial role in advancing your career this year.</p><h3>Money</h3><p>Financially, Scorpios should approach this year with a strategic mindset. Your intuition will serve you well in investment decisions, but caution is advised to avoid unnecessary risks. It's a good year to eliminate any debts and to build a more secure financial foundation. Consider seeking advice from a financial planner to optimize your resources for long-term stability.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Skorpione stehen vor einem Jahr der Transformation. Ihre Belastbarkeit wird Ihr Leitfaden sein, wenn Sie mit großer Entschlossenheit durch Höhen und Tiefen navigieren. Dies ist ein Jahr, in dem Sie Ihren Instinkten vertrauen und Veränderungen annehmen sollten, denn sie werden zu einer persönlichen Weiterentwicklung führen. Denken Sie daran, dass Ihre Reise genauso wichtig ist wie das Ziel. Nehmen Sie sich also Zeit, über Ihr Wachstum nachzudenken.</p><h3>Liebe.</h3><p>In Herzensangelegenheiten werden Skorpione feststellen, dass Verletzlichkeit ihre Stärke ist. Für diejenigen, die in einer Beziehung leben, ist dies die Zeit, emotionale Verbindungen zu vertiefen, indem sie ihre innersten Gefühle teilen. Singles sollten offen für neue emotionale Erfahrungen sein, da unerwartete Begegnungen zu intensiven Verbindungen führen können. Geduld wird der Schlüssel sein; Wahre Intimität kann nicht überstürzt werden.</p><h3>Arbeiten.</h3><p>Beruflich werden Skorpione erfolgreich sein, wenn sie ihre Leidenschaft in ihre Arbeit einfließen lassen. Ihre Fähigkeit, sich intensiv auf Aufgaben zu konzentrieren, wird zu beeindruckenden Erfolgen führen. Achten Sie auf die Machtdynamik am Arbeitsplatz. Zusammenarbeit führt oft zu größerem Erfolg als Konkurrenz. Auch Networking wird in diesem Jahr eine entscheidende Rolle bei der Weiterentwicklung Ihrer Karriere spielen.</p><h3>Geld.</h3><p>Finanziell sollten Skorpione dieses Jahr mit einer strategischen Denkweise angehen. Ihre Intuition wird Ihnen bei Anlageentscheidungen gute Dienste leisten, dennoch ist Vorsicht geboten, um unnötige Risiken zu vermeiden. Es ist ein gutes Jahr, um alle Schulden abzubauen und eine sicherere finanzielle Grundlage zu schaffen. Ziehen Sie in Betracht, sich von einem Finanzplaner beraten zu lassen, um Ihre Ressourcen für langfristige Stabilität zu optimieren.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>General</h3><p>Scorpios are set to experience a year of transformation. Your resilience will be your guiding light as you navigate through both highs and lows with a fierce determination. This is a year to trust your instincts and embrace change, as it will lead to personal evolution. Remember that your journey is as important as the destination, so take time to reflect on your growth.</p><h3>Love</h3><p>In matters of the heart, Scorpios will find that vulnerability is their strength. For those in relationships, this is the time to deepen emotional connections by sharing your innermost feelings. Singles should be open to new emotional experiences, as unexpected encounters could lead to intense connections. Patience will be key; true intimacy cannot be rushed.</p><h3>Work</h3><p>Professionally, Scorpios will thrive by channeling their passion into their work. Your ability to focus intensely on tasks will result in impressive accomplishments. Be mindful of power dynamics in the workplace; cooperation will often lead to greater success than competition. Networking will also play a crucial role in advancing your career this year.</p><h3>Money</h3><p>Financially, Scorpios should approach this year with a strategic mindset. Your intuition will serve you well in investment decisions, but caution is advised to avoid unnecessary risks. It's a good year to eliminate any debts and to build a more secure financial foundation. Consider seeking advice from a financial planner to optimize your resources for long-term stability.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Skorpione stehen vor einem Jahr der Transformation. Ihre Belastbarkeit wird Ihr Leitfaden sein, wenn Sie mit großer Entschlossenheit durch Höhen und Tiefen navigieren. Dies ist ein Jahr, in dem Sie Ihren Instinkten vertrauen und Veränderungen annehmen sollten, denn sie werden zu einer persönlichen Weiterentwicklung führen. Denken Sie daran, dass Ihre Reise genauso wichtig ist wie das Ziel. Nehmen Sie sich also Zeit, über Ihr Wachstum nachzudenken.</p><h3>Liebe.</h3><p>In Herzensangelegenheiten werden Skorpione feststellen, dass Verletzlichkeit ihre Stärke ist. Für diejenigen, die in einer Beziehung leben, ist dies die Zeit, emotionale Verbindungen zu vertiefen, indem sie ihre innersten Gefühle teilen. Singles sollten offen für neue emotionale Erfahrungen sein, da unerwartete Begegnungen zu intensiven Verbindungen führen können. Geduld wird der Schlüssel sein; Wahre Intimität kann nicht überstürzt werden.</p><h3>Arbeiten.</h3><p>Beruflich werden Skorpione erfolgreich sein, wenn sie ihre Leidenschaft in ihre Arbeit einfließen lassen. Ihre Fähigkeit, sich intensiv auf Aufgaben zu konzentrieren, wird zu beeindruckenden Erfolgen führen. Achten Sie auf die Machtdynamik am Arbeitsplatz. Zusammenarbeit führt oft zu größerem Erfolg als Konkurrenz. Auch Networking wird in diesem Jahr eine entscheidende Rolle bei der Weiterentwicklung Ihrer Karriere spielen.</p><h3>Geld.</h3><p>Finanziell sollten Skorpione dieses Jahr mit einer strategischen Denkweise angehen. Ihre Intuition wird Ihnen bei Anlageentscheidungen gute Dienste leisten, dennoch ist Vorsicht geboten, um unnötige Risiken zu vermeiden. Es ist ein gutes Jahr, um alle Schulden abzubauen und eine sicherere finanzielle Grundlage zu schaffen. Ziehen Sie in Betracht, sich von einem Finanzplaner beraten zu lassen, um Ihre Ressourcen für langfristige Stabilität zu optimieren.</p>"
     },
     "love": {
-      "section_title": "Scorpio Love Horoscope",
+      "section_title": "Liebeshoroskop Skorpion.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -3938,7 +3938,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.0,
             0.0,
@@ -3949,7 +3949,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -3960,7 +3960,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -3971,7 +3971,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -3982,17 +3982,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>stubborn</h3><p>Scorpio, you and your lover may break up because of a series of problems. Two people constantly quarrel and both sides are physically and mentally exhausted. Although Scorpio do not want to lose each other, the two people are very stubborn, refusing to make concessions. If not change, it is difficult to have a perfect ending.</p> ",
+      "article_html": "\n<h3>hartnäckig.</h3><p>Skorpion, Sie und Ihr Liebhaber könnten sich aufgrund einer Reihe von Problemen trennen. Zwei Menschen streiten sich ständig und beide Seiten sind körperlich und geistig erschöpft. Obwohl Skorpione einander nicht verlieren wollen, sind die beiden sehr stur und weigern sich, Zugeständnisse zu machen. Wenn sich nichts ändert, ist es schwierig, ein perfektes Ende zu erreichen.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>stubborn</h3><p>Scorpio, you and your lover may break up because of a series of problems. Two people constantly quarrel and both sides are physically and mentally exhausted. Although Scorpio do not want to lose each other, the two people are very stubborn, refusing to make concessions. If not change, it is difficult to have a perfect ending.</p>"
+      "desc": "<h3>hartnäckig.</h3><p>Skorpion, Sie und Ihr Liebhaber könnten sich aufgrund einer Reihe von Problemen trennen. Zwei Menschen streiten sich ständig und beide Seiten sind körperlich und geistig erschöpft. Obwohl Skorpione einander nicht verlieren wollen, sind die beiden sehr stur und weigern sich, Zugeständnisse zu machen. Wenn sich nichts ändert, ist es schwierig, ein perfektes Ende zu erreichen.</p>"
     },
     "health": {
-      "section_title": "Scorpio Health Horoscope",
+      "section_title": "Gesundheitshoroskop Skorpion.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4003,7 +4003,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4014,7 +4014,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -4025,7 +4025,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4036,7 +4036,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -4047,17 +4047,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Regularity is a major health issue for Scorpios because they dominate the colon, so Scorpios are often constipated. Fiber-rich foods can prevent the condition. Effective stress-relieving exercises such as yoga and contemplation can also be very beneficial for bowel health.</p> ",
+      "article_html": "\n<p>Regelmäßigkeit ist für Skorpione ein großes Gesundheitsproblem, da sie den Dickdarm dominieren und daher oft unter Verstopfung leiden. Ballaststoffreiche Lebensmittel können der Erkrankung vorbeugen. Auch wirksame stressabbauende Übungen wie Yoga und Kontemplation können der Darmgesundheit sehr zuträglich sein.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Due to the long-term strain, Scorpio appears to have low immunity and declined physical functions. Especially for those who are physically weak, exercise and nutrition should be strengthened. Scorpio should be careful not to eat too much spicy and greasy food to avoid causing too much burden on the stomach and intestines.</p>"
+      "desc": "<p>Aufgrund der langfristigen Belastung scheint der Skorpion eine geringe Immunität und verminderte körperliche Funktionen zu haben. Gerade bei körperlich geschwächten Menschen sollten Bewegung und Ernährung gestärkt werden. Skorpione sollten darauf achten, nicht zu viel scharfes und fettiges Essen zu sich zu nehmen, um Magen und Darm nicht zu stark zu belasten.</p>"
     },
     "career": {
-      "section_title": "Scorpio Career Horoscope",
+      "section_title": "Karrierehoroskop Skorpion.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -4068,7 +4068,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4079,7 +4079,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -4090,7 +4090,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4101,7 +4101,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -4112,17 +4112,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>For the Scorpio, work is not a difficult thing, they can basically do in office hours to get things done, but if the Scorpio is engaged in their favorite or interested in the work, they are not afraid of difficulties and they are willing to make sustaining efforts for their passion.</p> ",
+      "article_html": "\n<p>Für den Skorpion ist die Arbeit keine schwierige Sache, er kann grundsätzlich während der Bürozeiten Dinge erledigen, aber wenn der Skorpion mit seiner Lieblingsarbeit beschäftigt ist oder sich für die Arbeit interessiert, hat er keine Angst vor Schwierigkeiten und ist bereit, nachhaltige Anstrengungen für seine Leidenschaft zu unternehmen.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Scorpio can do a lot of work, this is because they pay attention to detail, can bear hard work, and know how to keep secrets. Therefore, they are easy to get the leadership's appreciation, become the leader's side of the secretary, staff or even their own people. However, your expertise does not lie in understanding the leadership's mind, so although it is also conducive to your career, you should first give priority to your feelings.</p>"
+      "desc": "<p>Skorpione können viel arbeiten, weil sie auf Details achten, harte Arbeit ertragen können und wissen, wie man Geheimnisse bewahrt. Daher ist es für sie leicht, die Wertschätzung der Führung zu erlangen und zur Führungspersönlichkeit der Sekretärin, des Personals oder sogar ihrer eigenen Leute zu werden. Allerdings liegt Ihre Expertise nicht darin, die Gedanken der Führung zu verstehen. Auch wenn es Ihrer Karriere zuträglich ist, sollten Sie Ihren Gefühlen zunächst Vorrang einräumen.</p>"
     },
     "sex": {
-      "section_title": "Scorpio Sex Horoscope",
+      "section_title": "Sexhoroskop Skorpion.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -4133,7 +4133,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4144,7 +4144,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4155,7 +4155,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -4166,7 +4166,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -4177,9 +4177,9 @@ const dataPage = {
           "score": 2.0
         }
       ],
-      "article_html": "\n<p>The sexy and mysterious Scorpion may not be very popular among the same sex, but they are quite attractive to the opposite sex. They are understanding and know how to handle relationships between people, and know when to get close to each other and when to keep their distance from each other. This makes the two sides get along particularly easy, but also more willing to establish a long-term friendship.</p> ",
+      "article_html": "\n<p>Der sexy und geheimnisvolle Skorpion mag beim gleichen Geschlecht nicht sehr beliebt sein, beim anderen Geschlecht ist er jedoch durchaus attraktiv. Sie sind verständnisvoll und wissen, wie man mit Beziehungen zwischen Menschen umgeht, und wissen, wann man einander nahe sein und wann man Abstand voneinander halten sollte. Dadurch verstehen sich die beiden Seiten besonders gut, sind aber auch eher bereit, eine langfristige Freundschaft aufzubauen.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Scorpios need a partner who is passionate, loyal, focused and strong. They are excellent at being independent and possessive, and Scorpios know that personal freedom does not diminish the relationship foundation and level of trust that grows with time and commitment. Their long-term partner is sensitive and likes to be in control, has a magical charm and is usually quiet and secretive rather than overly secretive or assertive.</p>"
+      "desc": "<p>Skorpione brauchen einen Partner, der leidenschaftlich, loyal, konzentriert und stark ist. Sie sind hervorragend darin, unabhängig und besitzergreifend zu sein, und Skorpione wissen, dass persönliche Freiheit die Grundlage einer Beziehung und das Maß an Vertrauen, das mit der Zeit und dem Engagement wächst, nicht schmälert. Ihr langjähriger Partner ist sensibel und hat gerne die Kontrolle, hat einen magischen Charme und ist normalerweise eher ruhig und geheimnisvoll als übermäßig geheimnisvoll oder durchsetzungsfähig.</p>"
     },
     "other": null
   },
@@ -4250,12 +4250,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Es ist ein Tag der Praktikabilität. Bringen Sie Ihre freigeistige Natur mit der Aufmerksamkeit für alltägliche Aufgaben in Einklang.</p><h3>Liebe:.</h3><p>Zeigen Sie Ihrem Partner durch praktische Hilfsleistungen, dass Sie ihm am Herzen liegen. Wenn Sie Single sind, kann die Praktikabilität für potenzielle Partner attraktiv sein.</p><h3>Arbeiten:.</h3><p>Bleiben Sie auf dem Boden und erledigen Sie Ihre To-Do-Liste. Produktivität führt zu einem Erfolgserlebnis.</p><h3>Geld:.</h3><p>Eine praktische Finanzplanung schafft die Voraussetzungen für zukünftige Freiheit. Konzentrieren Sie sich auf die Erstellung eines soliden Budgets und Sparplans.</p>"
     },
     "weekly": {
-      "section_title": "Sagittarius Weekly Horoscope",
+      "section_title": "Wochenhoroskop Schütze.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4266,7 +4266,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -4277,7 +4277,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -4288,7 +4288,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4299,7 +4299,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -4310,17 +4310,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p> <h3>Valiant</h3><p>You may be hesitant to make the right choices in your relationships this week. Maybe you have someone in mind who can take your relationship to the next level, but you can't decide to tell them. Be brave! Try to speak your mind, and don't be afraid. Maybe you'll get tender love! For you, the big changes in your life are growth experiences, and you will gradually find that your concept is undergoing some subtle changes. Learn to accept it and adapt to it. The strange things that will happen are worth looking forward to.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Prioritize drinking water</h3><p>Proper hydration is important to overall health. You've probably heard numerous times that you must drink eight glasses of water daily to keep your body hydrated. If you're thirsty, opt for water most of the time, as water quenches your thirst better than other beverages and has no calories and carbs. Make a point of carrying a water bottle with you wherever you go. Your health is fine. Do some soothing exercises, such as yoga and walking. Adjusting your body and mind to the season is more suitable for your stage and will make your body healthier.</p> ",
+      "article_html": "\n<h3>Tests zur emotionalen Instabilität und am Arbeitsplatz.</h3><p>Möglicherweise verlieren Sie sich in Ihrer Arbeit. Emotionen können stark schwanken, was zu verbalen Konflikten mit Führungskräften oder Kollegen über Arbeitsthemen oder Meinungsverschiedenheiten führen kann. Es könnte daran liegen, dass Sie Probleme mit dem Schlafen haben. Versuchen Sie, nachts Musik zu hören. Wenn Sie bei der Arbeit Schwierigkeiten erleben, empfiehlt es sich, an Ihren Grundsätzen festzuhalten und gelassener und rationaler damit umzugehen.</p> <h3>Tapfer.</h3><p>Möglicherweise zögern Sie diese Woche, in Ihren Beziehungen die richtigen Entscheidungen zu treffen. Vielleicht haben Sie jemanden im Sinn, der Ihre Beziehung auf die nächste Ebene heben kann, aber Sie können sich nicht dazu entschließen, es ihm zu sagen. Sei mutig! Versuchen Sie, Ihre Meinung zu äußern, und haben Sie keine Angst. Vielleicht bekommst du zärtliche Liebe! Für Sie sind die großen Veränderungen in Ihrem Leben Wachstumserlebnisse und Sie werden nach und nach feststellen, dass Ihr Konzept einige subtile Veränderungen durchmacht. Lernen Sie, es zu akzeptieren und sich daran anzupassen. Es lohnt sich, sich auf die seltsamen Dinge zu freuen, die passieren werden.</p> <p>Konzentrieren Sie sich darauf, neugierig statt ängstlich zu sein. Man weiß nicht immer, wohin das Leben einen führen wird.</p> <h3>Priorisieren Sie Trinkwasser.</h3><p>Die richtige Flüssigkeitszufuhr ist wichtig für die allgemeine Gesundheit. Sie haben wahrscheinlich schon oft gehört, dass Sie täglich acht Gläser Wasser trinken müssen, um Ihren Körper mit Feuchtigkeit zu versorgen. Wenn Sie durstig sind, entscheiden Sie sich meistens für Wasser, da Wasser Ihren Durst besser löscht als andere Getränke und keine Kalorien und Kohlenhydrate enthält. Nehmen Sie immer eine Wasserflasche mit, wohin Sie auch gehen. Deiner Gesundheit geht es gut. Machen Sie einige beruhigende Übungen wie Yoga und Gehen. Die Anpassung Ihres Körpers und Geistes an die Jahreszeit ist besser für Ihr Stadium geeignet und wird Ihren Körper gesünder machen.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p>"
+      "desc": "<h3>Tests zur emotionalen Instabilität und am Arbeitsplatz.</h3><p>Möglicherweise verlieren Sie sich in Ihrer Arbeit. Emotionen können stark schwanken, was zu verbalen Konflikten mit Führungskräften oder Kollegen über Arbeitsthemen oder Meinungsverschiedenheiten führen kann. Es könnte daran liegen, dass Sie Probleme mit dem Schlafen haben. Versuchen Sie, nachts Musik zu hören. Wenn Sie bei der Arbeit Schwierigkeiten erleben, empfiehlt es sich, an Ihren Grundsätzen festzuhalten und gelassener und rationaler damit umzugehen.</p>"
     },
     "monthly": {
-      "section_title": "Sagittarius Monthly Horoscope",
+      "section_title": "Monatshoroskop Schütze.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -4331,7 +4331,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4342,7 +4342,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4353,7 +4353,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4364,7 +4364,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -4375,17 +4375,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your natural optimism will serve you well this month. Face challenges with a positive mindset, and you'll find creative solutions. Sharing your positive energy will attract good fortune.</p><h3>Love:</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Work:</h3><p>Your sunny disposition makes you a favorite among colleagues. Use this to your advantage in collaborative projects, but be wary of those who might want to take credit for your ideas.</p><h3>Money:</h3><p>Consider ways to make your money work for you. Passive income streams or side hustles could provide a financial boost without adding too much to your workload.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Ihr natürlicher Optimismus wird Ihnen diesen Monat gute Dienste leisten. Stellen Sie sich Herausforderungen mit einer positiven Einstellung und Sie werden kreative Lösungen finden. Das Teilen Ihrer positiven Energie wird Ihnen Glück bringen.</p><h3>Liebe:.</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Arbeiten:.</h3><p>Ihr sonniges Gemüt macht Sie zu einem Liebling unter Kollegen. Nutzen Sie dies zu Ihrem Vorteil bei Gemeinschaftsprojekten, aber seien Sie vorsichtig vor denen, die möglicherweise Anerkennung für Ihre Ideen an sich reißen möchten.</p><h3>Geld:.</h3><p>Überlegen Sie, wie Sie Ihr Geld für sich arbeiten lassen können. Passive Einkommensquellen oder Nebenbeschäftigungen könnten für einen finanziellen Aufschwung sorgen, ohne Ihre Arbeitsbelastung zu sehr zu erhöhen.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>General:</h3><p>Your natural optimism will serve you well this month. Face challenges with a positive mindset, and you'll find creative solutions. Sharing your positive energy will attract good fortune.</p><h3>Love:</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Work:</h3><p>Your sunny disposition makes you a favorite among colleagues. Use this to your advantage in collaborative projects, but be wary of those who might want to take credit for your ideas.</p><h3>Money:</h3><p>Consider ways to make your money work for you. Passive income streams or side hustles could provide a financial boost without adding too much to your workload.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Ihr natürlicher Optimismus wird Ihnen diesen Monat gute Dienste leisten. Stellen Sie sich Herausforderungen mit einer positiven Einstellung und Sie werden kreative Lösungen finden. Das Teilen Ihrer positiven Energie wird Ihnen Glück bringen.</p><h3>Liebe:.</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Arbeiten:.</h3><p>Ihr sonniges Gemüt macht Sie zu einem Liebling unter Kollegen. Nutzen Sie dies zu Ihrem Vorteil bei Gemeinschaftsprojekten, aber seien Sie vorsichtig vor denen, die möglicherweise Anerkennung für Ihre Ideen an sich reißen möchten.</p><h3>Geld:.</h3><p>Überlegen Sie, wie Sie Ihr Geld für sich arbeiten lassen können. Passive Einkommensquellen oder Nebenbeschäftigungen könnten für einen finanziellen Aufschwung sorgen, ohne Ihre Arbeitsbelastung zu sehr zu erhöhen.</p>"
     },
     "yearly": {
-      "section_title": "Sagittarius Yearly Horoscope",
+      "section_title": "Jahreshoroskop Schütze.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4396,7 +4396,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4407,7 +4407,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4418,7 +4418,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4429,7 +4429,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -4440,17 +4440,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Sagittarians can anticipate a year brimming with growth opportunities. Your natural thirst for knowledge and adventure will lead you to new experiences that broaden your horizons. Flexibility will be key, as the winds of change may blow in unexpected directions. Stay optimistic, as your positive outlook will be a beacon that attracts success and goodwill throughout the year.</p><h3>Love</h3><p>In the realm of romance, Sagittarians may find that honesty and openness are the foundations for deep connections this year. If you're in a relationship, planning adventures together will strengthen your bond. For the single Sagittarius, your radiant confidence is likely to draw intriguing prospects into your orbit. Remember, communication is paramount in nurturing any budding romance.</p><h3>Work</h3><p>The professional landscape for Sagittarians looks promising, with your enthusiasm and strategic thinking paving the way for recognition. Team collaborations will benefit from your innovative ideas and willingness to take risks. Keep an eye out for opportunities to lead, as your natural leadership qualities are set to shine. Continuous learning will be your ally in achieving your career goals.</p><h3>Money</h3><p>Financially, this is a year for Sagittarians to balance their spontaneous spending habits with a more structured approach to savings. Unexpected gains are possible, but they should be met with wise investments rather than impulsive purchases. Budgeting for your adventures will ensure that you can enjoy the best of both worlds without compromising financial stability.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Schützen können sich auf ein Jahr voller Wachstumschancen freuen. Ihr natürlicher Wissens- und Abenteuerdrang führt Sie zu neuen Erfahrungen, die Ihren Horizont erweitern. Flexibilität wird der Schlüssel sein, da der Wind des Wandels in unerwartete Richtungen wehen kann. Bleiben Sie optimistisch, denn Ihre positive Einstellung wird ein Leuchtturm sein, der das ganze Jahr über Erfolg und Wohlwollen anzieht.</p><h3>Liebe.</h3><p>Im Bereich der Romantik könnten Schützen feststellen, dass Ehrlichkeit und Offenheit in diesem Jahr die Grundlage für tiefe Verbindungen sind. Wenn Sie in einer Beziehung sind, wird die gemeinsame Planung von Abenteuern Ihre Bindung stärken. Für den alleinstehenden Schützen wird Ihr strahlendes Selbstvertrauen wahrscheinlich interessante Interessenten in Ihren Bann ziehen. Denken Sie daran, dass Kommunikation für die Pflege jeder aufkeimenden Romanze von größter Bedeutung ist.</p><h3>Arbeiten.</h3><p>Die Berufslandschaft für Schützen sieht vielversprechend aus, und Ihr Enthusiasmus und Ihr strategisches Denken ebnen den Weg zur Anerkennung. Die Zusammenarbeit im Team profitiert von Ihren innovativen Ideen und Ihrer Risikobereitschaft. Halten Sie Ausschau nach Führungsmöglichkeiten, denn Ihre natürlichen Führungsqualitäten werden zum Vorschein kommen. Kontinuierliches Lernen wird Ihr Verbündeter beim Erreichen Ihrer Karriereziele sein.</p><h3>Geld.</h3><p>Finanziell ist dies für Schützen ein Jahr, in dem sie ihre spontanen Ausgabegewohnheiten mit einem strukturierteren Sparansatz in Einklang bringen. Unerwartete Gewinne sind möglich, aber sie sollten mit klugen Investitionen und nicht mit impulsiven Käufen bewältigt werden. Durch die Budgetierung Ihrer Abenteuer stellen Sie sicher, dass Sie das Beste aus beiden Welten genießen können, ohne die finanzielle Stabilität zu gefährden.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>General</h3><p>Sagittarians can anticipate a year brimming with growth opportunities. Your natural thirst for knowledge and adventure will lead you to new experiences that broaden your horizons. Flexibility will be key, as the winds of change may blow in unexpected directions. Stay optimistic, as your positive outlook will be a beacon that attracts success and goodwill throughout the year.</p><h3>Love</h3><p>In the realm of romance, Sagittarians may find that honesty and openness are the foundations for deep connections this year. If you're in a relationship, planning adventures together will strengthen your bond. For the single Sagittarius, your radiant confidence is likely to draw intriguing prospects into your orbit. Remember, communication is paramount in nurturing any budding romance.</p><h3>Work</h3><p>The professional landscape for Sagittarians looks promising, with your enthusiasm and strategic thinking paving the way for recognition. Team collaborations will benefit from your innovative ideas and willingness to take risks. Keep an eye out for opportunities to lead, as your natural leadership qualities are set to shine. Continuous learning will be your ally in achieving your career goals.</p><h3>Money</h3><p>Financially, this is a year for Sagittarians to balance their spontaneous spending habits with a more structured approach to savings. Unexpected gains are possible, but they should be met with wise investments rather than impulsive purchases. Budgeting for your adventures will ensure that you can enjoy the best of both worlds without compromising financial stability.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Schützen können sich auf ein Jahr voller Wachstumschancen freuen. Ihr natürlicher Wissens- und Abenteuerdrang führt Sie zu neuen Erfahrungen, die Ihren Horizont erweitern. Flexibilität wird der Schlüssel sein, da der Wind des Wandels in unerwartete Richtungen wehen kann. Bleiben Sie optimistisch, denn Ihre positive Einstellung wird ein Leuchtturm sein, der das ganze Jahr über Erfolg und Wohlwollen anzieht.</p><h3>Liebe.</h3><p>Im Bereich der Romantik könnten Schützen feststellen, dass Ehrlichkeit und Offenheit in diesem Jahr die Grundlage für tiefe Verbindungen sind. Wenn Sie in einer Beziehung sind, wird die gemeinsame Planung von Abenteuern Ihre Bindung stärken. Für den alleinstehenden Schützen wird Ihr strahlendes Selbstvertrauen wahrscheinlich interessante Interessenten in Ihren Bann ziehen. Denken Sie daran, dass Kommunikation für die Pflege jeder aufkeimenden Romanze von größter Bedeutung ist.</p><h3>Arbeiten.</h3><p>Die Berufslandschaft für Schützen sieht vielversprechend aus, und Ihr Enthusiasmus und Ihr strategisches Denken ebnen den Weg zur Anerkennung. Die Zusammenarbeit im Team profitiert von Ihren innovativen Ideen und Ihrer Risikobereitschaft. Halten Sie Ausschau nach Führungsmöglichkeiten, denn Ihre natürlichen Führungsqualitäten werden zum Vorschein kommen. Kontinuierliches Lernen wird Ihr Verbündeter beim Erreichen Ihrer Karriereziele sein.</p><h3>Geld.</h3><p>Finanziell ist dies für Schützen ein Jahr, in dem sie ihre spontanen Ausgabegewohnheiten mit einem strukturierteren Sparansatz in Einklang bringen. Unerwartete Gewinne sind möglich, aber sie sollten mit klugen Investitionen und nicht mit impulsiven Käufen bewältigt werden. Durch die Budgetierung Ihrer Abenteuer stellen Sie sicher, dass Sie das Beste aus beiden Welten genießen können, ohne die finanzielle Stabilität zu gefährden.</p>"
     },
     "love": {
-      "section_title": "Sagittarius Love Horoscope",
+      "section_title": "Liebeshoroskop Schütze.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.0,
             0.0,
@@ -4461,7 +4461,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4472,7 +4472,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4483,7 +4483,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4494,7 +4494,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -4505,17 +4505,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>a long wait </h3><p>Even if the family urge you to date and you face a lot of pressure, you still think that fate takes a hand in a relationship, so you just let nature take its course. This is not a bad thing for you, but when you meet the right person, you still have to take the initiative.</p> ",
+      "article_html": "\n<h3>eine lange Wartezeit.</h3><p>Selbst wenn die Familie dich zu einem Date drängt und du unter großem Druck stehst, denkst du immer noch, dass das Schicksal in einer Beziehung eine Rolle spielt, also lässt du einfach der Natur ihren Lauf. Das ist nicht schlecht für Sie, aber wenn Sie die richtige Person treffen, müssen Sie trotzdem die Initiative ergreifen.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>enjoy excitement</h3><p>Everything has a meaning for Sagittarians. Because Sagittarians are obsessed with the pursuit of truth, they are pursuing the evolution of the mind. The process of trying something new gives sagittarians a sense of security. In a relationship, someone who can give Sagittarius something new will stay with Sagittarius for a long time.</p>"
+      "desc": "<h3>genieße die Aufregung.</h3><p>Für Schützen hat alles eine Bedeutung. Da Schützen von der Suche nach der Wahrheit besessen sind, verfolgen sie die Weiterentwicklung des Geistes. Der Prozess, etwas Neues auszuprobieren, gibt Schützen ein Gefühl der Sicherheit. In einer Beziehung bleibt jemand, der dem Schützen etwas Neues schenken kann, lange bei ihm.</p>"
     },
     "health": {
-      "section_title": "Sagittarius Health Horoscope",
+      "section_title": "Gesundheitshoroskop Schütze.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -4526,7 +4526,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4537,7 +4537,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4548,7 +4548,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -4559,7 +4559,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -4570,17 +4570,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>The physical condition of Sagittarius is not too ideal, they will often feel overwhelmed and do not have much interest in anything. In fact, Sagittarius is not too tired caused by overwork, just that they have no plan for the future.They hate the boring routine of each single day, therefore, nothing can keep their spirits up and they easily feel lethargic.</p> ",
+      "article_html": "\n<p>Die körperliche Verfassung des Schützen ist nicht besonders ideal, er fühlt sich oft überfordert und hat kein großes Interesse an irgendetwas. Tatsächlich ist der Schütze nicht allzu müde, weil er überlastet ist, sondern weil er keinen Plan für die Zukunft hat. Er hasst die langweilige Routine eines jeden einzelnen Tages, deshalb kann nichts seine Stimmung aufrechterhalten und er fühlt sich leicht lethargisch.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>The physical condition of Sagittarius is not too ideal, they will often feel overwhelmed and do not have much interest in anything. In fact, Sagittarius is not too tired caused by overwork, just that they have no plan for the future.They hate the boring routine of each single day, therefore, nothing can keep their spirits up and they easily feel lethargic.</p>"
+      "desc": "<p>Die körperliche Verfassung des Schützen ist nicht besonders ideal, er fühlt sich oft überfordert und hat kein großes Interesse an irgendetwas. Tatsächlich ist der Schütze nicht allzu müde, weil er überlastet ist, sondern weil er keinen Plan für die Zukunft hat. Er hasst die langweilige Routine eines jeden einzelnen Tages, deshalb kann nichts seine Stimmung aufrechterhalten und er fühlt sich leicht lethargisch.</p>"
     },
     "career": {
-      "section_title": "Sagittarius Career Horoscope",
+      "section_title": "Karrierehoroskop Schütze.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4591,7 +4591,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4602,7 +4602,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -4613,7 +4613,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -4624,7 +4624,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -4635,17 +4635,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Straightforward, quick-witted Sagittarius are very confident in everything, and they can accept anything that happens to them. They not only love freedom, but also like to pursue the sense of speed, and with cheerfulness and generosity, can face the future positively. They will immediately put things into action, and will also take less time than others to complete.</p> ",
+      "article_html": "\n<p>Geradlinige, schlagfertige Schützen sind in allem sehr zuversichtlich und können alles akzeptieren, was ihnen passiert. Sie lieben nicht nur die Freiheit, sondern verfolgen auch gerne den Sinn für Geschwindigkeit und können mit Fröhlichkeit und Großzügigkeit positiv in die Zukunft blicken. Sie werden die Dinge sofort in die Tat umsetzen und auch weniger Zeit als andere in Anspruch nehmen.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>Having high expectations of yourself, working hard, having a wide thinking space and being able to see everything thoroughly are all characteristics of Sagittarius. Thanks to the ability to analyze precisely and effectively, you can cut right to the heart of the matter. This ability allows you to make the best decisions before you put them into action, without wasting too much thinking space.</p>"
+      "desc": "<p>Hohe Erwartungen an sich selbst, harte Arbeit, ein großer Denkspielraum und die Fähigkeit, alles gründlich zu sehen, sind alles Merkmale des Schützen. Dank der Fähigkeit zur präzisen und effektiven Analyse gelangen Sie direkt zum Kern der Sache. Diese Fähigkeit ermöglicht es Ihnen, die besten Entscheidungen zu treffen, bevor Sie sie in die Tat umsetzen, ohne zu viel Denkraum zu verschwenden.</p>"
     },
     "sex": {
-      "section_title": "Sagittarius Sex Horoscope",
+      "section_title": "Sexhoroskop Schütze.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4656,7 +4656,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4667,7 +4667,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4678,7 +4678,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4689,7 +4689,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -4700,9 +4700,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>You are optimistic and positive, cheerful and have the power to inspire people. Once you have the object of your desire, you are a fast and accurate love hunter who is good at seizing and creating opportunities, and then show charm and romance to win his or her heart.</p> ",
+      "article_html": "\n<p>Du bist optimistisch und positiv, fröhlich und hast die Kraft, Menschen zu inspirieren. Sobald Sie das Objekt Ihrer Begierde gefunden haben, sind Sie ein schneller und präziser Liebesjäger, der gut darin ist, Gelegenheiten zu ergreifen und zu schaffen und dann Charme und Romantik zu zeigen, um sein oder ihr Herz zu gewinnen.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>You are optimistic and positive, cheerful and have the power to inspire people. Once you have the object of your desire, you are a fast and accurate love hunter who is good at seizing and creating opportunities, and then show charm and romance to win his or her heart.</p>"
+      "desc": "<p>Du bist optimistisch und positiv, fröhlich und hast die Kraft, Menschen zu inspirieren. Sobald Sie das Objekt Ihrer Begierde gefunden haben, sind Sie ein schneller und präziser Liebesjäger, der gut darin ist, Gelegenheiten zu ergreifen und zu schaffen und dann Charme und Romantik zu zeigen, um sein oder ihr Herz zu gewinnen.</p>"
     },
     "other": null
   },
@@ -4773,12 +4773,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Heute kommt Ihr Ehrgeiz voll zur Geltung. Nutzen Sie diese Energie, um sich hohe Ziele zu setzen.</p><h3>Liebe:.</h3><p>Streben Sie danach, mit Ihrem Partner neue Ziele zu erreichen. Wenn Sie Single sind, fühlen Sie sich möglicherweise zu jemandem hingezogen, der Ihre Ambitionen teilt.</p><h3>Arbeiten:.</h3><p>Setzen Sie sich bei Ihren beruflichen Unternehmungen hohe Ziele. Ihr Ehrgeiz wird Ihre Vorgesetzten beeindrucken und möglicherweise zu Chancen führen.</p><h3>Geld:.</h3><p>Setzen Sie sich finanzielle Ziele, die Sie dazu herausfordern, Ihr Vermögen zu vermehren. Ihr Ehrgeiz wird Ihnen helfen, Wege zu finden, diese zu erreichen.</p>"
     },
     "weekly": {
-      "section_title": "Capricorn Weekly Horoscope",
+      "section_title": "Wochenhoroskop Steinbock.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4789,7 +4789,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4800,7 +4800,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -4811,7 +4811,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -4822,7 +4822,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -4833,17 +4833,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p> <h3>Lack of Enthusiasm</h3><p>If you have a partner, you and your partner will have a steady and calm week, but too much calm can make you feel like your relationship lacks passion. Sometimes you can take a break from work and travel. You will learn more about your partner in your new lifestyle. Learn to add some surprises to your relationship, which will make it even hotter. If you're single, chances are you've seen characters in movies or TV shows that fit your idea of a mate. Try to make more friends in your life.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Stress</h3><p>Chronic stress at work or study recently may make you feel unmotivated and dispassionate about everything else around you. It's time to make some small changes! Start carving in a few breaks into your typical day. During the break, do something that helps you detach from the work and study, such as meditating and other activities that you might find appealing. Take care of your cervical spine and neck. Especially in the second half of the year, you are prone to feel discomfort in the neck.</p> ",
+      "article_html": "\n<h3>Tests zur emotionalen Instabilität und am Arbeitsplatz.</h3><p>Möglicherweise verlieren Sie sich in Ihrer Arbeit. Emotionen können stark schwanken, was zu verbalen Konflikten mit Führungskräften oder Kollegen über Arbeitsthemen oder Meinungsverschiedenheiten führen kann. Es könnte daran liegen, dass Sie Probleme mit dem Schlafen haben. Versuchen Sie, nachts Musik zu hören. Wenn Sie bei der Arbeit Schwierigkeiten erleben, empfiehlt es sich, an Ihren Grundsätzen festzuhalten und gelassener und rationaler damit umzugehen.</p> <h3>Mangelnde Begeisterung.</h3><p>Wenn Sie einen Partner haben, werden Sie und Ihr Partner eine ruhige und ruhige Woche erleben, aber zu viel Ruhe kann dazu führen, dass Sie das Gefühl haben, dass es Ihrer Beziehung an Leidenschaft mangelt. Manchmal kann man sich eine Pause von der Arbeit und vom Reisen gönnen. Sie erfahren mehr über Ihren Partner in Ihrem neuen Lebensstil. Lernen Sie, Ihrer Beziehung einige Überraschungen hinzuzufügen, die sie noch heißer machen. Wenn Sie Single sind, haben Sie wahrscheinlich Charaktere in Filmen oder Fernsehsendungen gesehen, die zu Ihrer Vorstellung von einem Partner passen. Versuchen Sie, mehr Freunde in Ihrem Leben zu finden.</p> <p>Konzentrieren Sie sich darauf, neugierig statt ängstlich zu sein. Man weiß nicht immer, wohin das Leben einen führen wird.</p> <h3>Stress.</h3><p>Chronischer Stress bei der Arbeit oder im Studium kann dazu führen, dass Sie sich unmotiviert und leidenschaftslos gegenüber allem anderen um Sie herum fühlen. Es ist Zeit, ein paar kleine Änderungen vorzunehmen! Beginnen Sie mit dem Schnitzen und machen Sie ein paar Pausen in Ihren typischen Tag. Machen Sie in der Pause etwas, das Ihnen hilft, sich von der Arbeit und dem Lernen zu lösen, zum Beispiel meditieren und andere Aktivitäten, die Ihnen gefallen könnten. Achten Sie auf Ihre Halswirbelsäule und Ihren Nacken. Vor allem in der zweiten Jahreshälfte kommt es häufig zu Beschwerden im Nackenbereich.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p>"
+      "desc": "<h3>Tests zur emotionalen Instabilität und am Arbeitsplatz.</h3><p>Möglicherweise verlieren Sie sich in Ihrer Arbeit. Emotionen können stark schwanken, was zu verbalen Konflikten mit Führungskräften oder Kollegen über Arbeitsthemen oder Meinungsverschiedenheiten führen kann. Es könnte daran liegen, dass Sie Probleme mit dem Schlafen haben. Versuchen Sie, nachts Musik zu hören. Wenn Sie bei der Arbeit Schwierigkeiten erleben, empfiehlt es sich, an Ihren Grundsätzen festzuhalten und gelassener und rationaler damit umzugehen.</p>"
     },
     "monthly": {
-      "section_title": "Capricorn Monthly Horoscope",
+      "section_title": "Monatshoroskop Steinbock.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.0,
@@ -4854,7 +4854,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4865,7 +4865,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4876,7 +4876,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -4887,7 +4887,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -4898,17 +4898,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>It's a month for building upon existing foundations. Your practical approach will help you refine your strategies for achieving your dreams. Keep an eye out for advice from a wise mentor.</p><h3>Love:</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Work:</h3><p>Aim for consistency in your professional life. Your ability to maintain a steady pace will help you complete long-term projects successfully. Avoid distractions and stay focused on your objectives.</p><h3>Money:</h3><p>Sound judgment in financial matters is crucial. This is not the time for risky investments. Instead, reinforce your savings and look into stable financial plans that offer gradual growth.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Es ist ein Monat, um auf bestehenden Fundamenten aufzubauen. Ihr praktischer Ansatz wird Ihnen helfen, Ihre Strategien zur Verwirklichung Ihrer Träume zu verfeinern. Halten Sie Ausschau nach dem Rat eines weisen Mentors.</p><h3>Liebe:.</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Arbeiten:.</h3><p>Streben Sie nach Beständigkeit in Ihrem Berufsleben. Ihre Fähigkeit, ein gleichmäßiges Tempo beizubehalten, wird Ihnen helfen, langfristige Projekte erfolgreich abzuschließen. Vermeiden Sie Ablenkungen und konzentrieren Sie sich auf Ihre Ziele.</p><h3>Geld:.</h3><p>Ein gesundes Urteilsvermögen in Finanzangelegenheiten ist entscheidend. Dies ist nicht die Zeit für riskante Investitionen. Stärken Sie stattdessen Ihre Ersparnisse und prüfen Sie stabile Finanzpläne, die ein schrittweises Wachstum ermöglichen.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>General:</h3><p>It's a month for building upon existing foundations. Your practical approach will help you refine your strategies for achieving your dreams. Keep an eye out for advice from a wise mentor.</p><h3>Love:</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Work:</h3><p>Aim for consistency in your professional life. Your ability to maintain a steady pace will help you complete long-term projects successfully. Avoid distractions and stay focused on your objectives.</p><h3>Money:</h3><p>Sound judgment in financial matters is crucial. This is not the time for risky investments. Instead, reinforce your savings and look into stable financial plans that offer gradual growth.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Es ist ein Monat, um auf bestehenden Fundamenten aufzubauen. Ihr praktischer Ansatz wird Ihnen helfen, Ihre Strategien zur Verwirklichung Ihrer Träume zu verfeinern. Halten Sie Ausschau nach dem Rat eines weisen Mentors.</p><h3>Liebe:.</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Arbeiten:.</h3><p>Streben Sie nach Beständigkeit in Ihrem Berufsleben. Ihre Fähigkeit, ein gleichmäßiges Tempo beizubehalten, wird Ihnen helfen, langfristige Projekte erfolgreich abzuschließen. Vermeiden Sie Ablenkungen und konzentrieren Sie sich auf Ihre Ziele.</p><h3>Geld:.</h3><p>Ein gesundes Urteilsvermögen in Finanzangelegenheiten ist entscheidend. Dies ist nicht die Zeit für riskante Investitionen. Stärken Sie stattdessen Ihre Ersparnisse und prüfen Sie stabile Finanzpläne, die ein schrittweises Wachstum ermöglichen.</p>"
     },
     "yearly": {
-      "section_title": "Capricorn Yearly Horoscope",
+      "section_title": "Jahreshoroskop Steinbock.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -4919,7 +4919,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -4930,7 +4930,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -4941,7 +4941,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.0,
             0.0,
@@ -4952,7 +4952,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -4963,17 +4963,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year presents a promising path for Capricorns, with a focus on personal development and self-improvement. Your natural discipline and determination will serve you well, as you'll find yourself setting and achieving new goals. Challenges may arise, but your pragmatic approach ensures you'll handle them with grace. Embrace the learning opportunities these challenges present, as they will contribute to your growth.</p><h3>Love</h3><p>Romantically, Capricorns may need to step outside their comfort zone this year. It's a time to let down your guard and show more vulnerability to your partner or potential suitors. Communication is key; being open about your desires and concerns will lead to deeper connections. For singles, a new, unexpected romance could bloom when you least anticipate it.</p><h3>Work</h3><p>Professionally, Capricorns are likely to gain recognition for their hard work. Leadership opportunities may present themselves, so be prepared to step up. Teamwork is also highlighted, and your ability to collaborate will be just as important as your individual contributions. Keep an eye out for a mentor who can provide valuable guidance.</p><h3>Money</h3><p>Financially, this is a year to be cautious but also to make calculated risks. Your financial acumen will help you navigate any uncertainties. It's a good time to plan for the long term, perhaps by investing in personal assets or saving for future expenses. Wise budgeting early in the year can lead to a more comfortable financial position later on.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Dieses Jahr stellt für Steinböcke einen vielversprechenden Weg dar, dessen Schwerpunkt auf persönlicher Entwicklung und Selbstverbesserung liegt. Ihre natürliche Disziplin und Entschlossenheit werden Ihnen gute Dienste leisten, wenn Sie neue Ziele setzen und erreichen. Es können Herausforderungen auftauchen, aber Ihr pragmatischer Ansatz stellt sicher, dass Sie sie mit Anstand meistern. Nutzen Sie die Lernmöglichkeiten, die diese Herausforderungen bieten, denn sie werden zu Ihrem Wachstum beitragen.</p><h3>Liebe.</h3><p>Romantisch gesehen müssen Steinböcke dieses Jahr möglicherweise ihre Komfortzone verlassen. Es ist an der Zeit, die Wachsamkeit aufzugeben und Ihrem Partner oder potenziellen Bewerbern gegenüber mehr Verletzlichkeit zu zeigen. Kommunikation ist der Schlüssel; Offenheit für Ihre Wünsche und Sorgen wird zu tieferen Verbindungen führen. Für Singles könnte eine neue, unerwartete Romanze entstehen, wenn man es am wenigsten erwartet.</p><h3>Arbeiten.</h3><p>Beruflich werden Steinböcke wahrscheinlich Anerkennung für ihre harte Arbeit erhalten. Es können sich Führungschancen ergeben, seien Sie also bereit, diese zu übernehmen. Auch Teamarbeit wird großgeschrieben und Ihre Fähigkeit zur Zusammenarbeit wird ebenso wichtig sein wie Ihre individuellen Beiträge. Halten Sie Ausschau nach einem Mentor, der Ihnen wertvolle Hinweise geben kann.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem man vorsichtig sein, aber auch kalkulierte Risiken eingehen sollte. Ihr finanzieller Sachverstand wird Ihnen helfen, alle Unsicherheiten zu meistern. Es ist ein guter Zeitpunkt, langfristig zu planen, vielleicht indem Sie in Ihr Privatvermögen investieren oder für zukünftige Ausgaben sparen. Eine kluge Budgetierung zu Beginn des Jahres kann später zu einer komfortableren Finanzlage führen.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>General</h3><p>This year presents a promising path for Capricorns, with a focus on personal development and self-improvement. Your natural discipline and determination will serve you well, as you'll find yourself setting and achieving new goals. Challenges may arise, but your pragmatic approach ensures you'll handle them with grace. Embrace the learning opportunities these challenges present, as they will contribute to your growth.</p><h3>Love</h3><p>Romantically, Capricorns may need to step outside their comfort zone this year. It's a time to let down your guard and show more vulnerability to your partner or potential suitors. Communication is key; being open about your desires and concerns will lead to deeper connections. For singles, a new, unexpected romance could bloom when you least anticipate it.</p><h3>Work</h3><p>Professionally, Capricorns are likely to gain recognition for their hard work. Leadership opportunities may present themselves, so be prepared to step up. Teamwork is also highlighted, and your ability to collaborate will be just as important as your individual contributions. Keep an eye out for a mentor who can provide valuable guidance.</p><h3>Money</h3><p>Financially, this is a year to be cautious but also to make calculated risks. Your financial acumen will help you navigate any uncertainties. It's a good time to plan for the long term, perhaps by investing in personal assets or saving for future expenses. Wise budgeting early in the year can lead to a more comfortable financial position later on.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Dieses Jahr stellt für Steinböcke einen vielversprechenden Weg dar, dessen Schwerpunkt auf persönlicher Entwicklung und Selbstverbesserung liegt. Ihre natürliche Disziplin und Entschlossenheit werden Ihnen gute Dienste leisten, wenn Sie neue Ziele setzen und erreichen. Es können Herausforderungen auftauchen, aber Ihr pragmatischer Ansatz stellt sicher, dass Sie sie mit Anstand meistern. Nutzen Sie die Lernmöglichkeiten, die diese Herausforderungen bieten, denn sie werden zu Ihrem Wachstum beitragen.</p><h3>Liebe.</h3><p>Romantisch gesehen müssen Steinböcke dieses Jahr möglicherweise ihre Komfortzone verlassen. Es ist an der Zeit, die Wachsamkeit aufzugeben und Ihrem Partner oder potenziellen Bewerbern gegenüber mehr Verletzlichkeit zu zeigen. Kommunikation ist der Schlüssel; Offenheit für Ihre Wünsche und Sorgen wird zu tieferen Verbindungen führen. Für Singles könnte eine neue, unerwartete Romanze entstehen, wenn man es am wenigsten erwartet.</p><h3>Arbeiten.</h3><p>Beruflich werden Steinböcke wahrscheinlich Anerkennung für ihre harte Arbeit erhalten. Es können sich Führungschancen ergeben, seien Sie also bereit, diese zu übernehmen. Auch Teamarbeit wird großgeschrieben und Ihre Fähigkeit zur Zusammenarbeit wird ebenso wichtig sein wie Ihre individuellen Beiträge. Halten Sie Ausschau nach einem Mentor, der Ihnen wertvolle Hinweise geben kann.</p><h3>Geld.</h3><p>Finanziell ist dies ein Jahr, in dem man vorsichtig sein, aber auch kalkulierte Risiken eingehen sollte. Ihr finanzieller Sachverstand wird Ihnen helfen, alle Unsicherheiten zu meistern. Es ist ein guter Zeitpunkt, langfristig zu planen, vielleicht indem Sie in Ihr Privatvermögen investieren oder für zukünftige Ausgaben sparen. Eine kluge Budgetierung zu Beginn des Jahres kann später zu einer komfortableren Finanzlage führen.</p>"
     },
     "love": {
-      "section_title": "Capricorn Love Horoscope",
+      "section_title": "Liebeshoroskop Steinbock.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.0,
             0.0,
@@ -4984,7 +4984,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -4995,7 +4995,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5006,7 +5006,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5017,7 +5017,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5028,17 +5028,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>supportive</h3><p>Capricorns are used to thinking and are usually very disciplined. Capricorn values the real feelings that come with love. Only some actual behavior, can really move Capricorn. So when it comes to love, Capricorns care more about what happens in life with their partner. Capricorn hopes for a supportive love.</p> ",
+      "article_html": "\n<h3>unterstützend.</h3><p>Steinböcke sind es gewohnt zu denken und sind normalerweise sehr diszipliniert. Steinbock schätzt die wahren Gefühle, die mit der Liebe einhergehen. Nur ein gewisses tatsächliches Verhalten kann den Steinbock wirklich bewegen. Wenn es um Liebe geht, legen Steinböcke also mehr Wert darauf, was im Leben mit ihrem Partner passiert. Steinbock hofft auf eine unterstützende Liebe.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>keep emotions in check</h3><p>Capricorn shows love in a very simple way. They prepare meals for their partner, prepare gifts and plan their future together. Capricorns tend to be modest and polite, able to keep their emotions in check. Even if the Capricorn has a quarrel with their partner, they don't show their emotions easily. Because Capricorn psychological defense is relatively strong, the sense of crisis exists.</p>"
+      "desc": "<h3>Halten Sie Ihre Emotionen unter Kontrolle.</h3><p>Steinbock zeigt Liebe auf ganz einfache Weise. Sie bereiten Mahlzeiten für ihren Partner zu, bereiten Geschenke vor und planen gemeinsam ihre Zukunft. Steinböcke neigen dazu, bescheiden und höflich zu sein und ihre Gefühle im Zaum zu halten. Selbst wenn der Steinbock einen Streit mit seinem Partner hat, zeigt er seine Gefühle nicht so leicht. Da die psychologische Abwehr des Steinbocks relativ stark ist, besteht das Gefühl einer Krise.</p>"
     },
     "health": {
-      "section_title": "Capricorn Health Horoscope",
+      "section_title": "Gesundheitshoroskop Steinbock.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -5049,7 +5049,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5060,7 +5060,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -5071,7 +5071,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -5082,7 +5082,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5093,17 +5093,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>In order to be able to earn a lot of money, you may make great efforts, participating in a variety of drinks, which will certainly cause a heavy blow to your health. Although the money is very important, Capricorn, you still need to focus on health. Pay attention to rest, eat more healthy and nourishing food, take health care products suitable for yourselves.</p> ",
+      "article_html": "\n<p>Um viel Geld zu verdienen, müssen Sie große Anstrengungen unternehmen und verschiedene Getränke zu sich nehmen, was Ihrer Gesundheit sicherlich einen schweren Schlag versetzen wird. Obwohl das Geld sehr wichtig ist, Steinbock, müssen Sie sich dennoch auf die Gesundheit konzentrieren. Achten Sie auf Ruhe, ernähren Sie sich gesünder und nahrhafter und nehmen Sie Gesundheitsprodukte ein, die für Sie geeignet sind.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>You may think you're healthy, but you spend most of your time at work!  It would be better to change your habits this week, first and foremost, take a balanced diet, eat less fatty foods and remember to drink more hot water. In fact, hot water will greatly increase your energy. Try to eat less junk food.</p>"
+      "desc": "<p>Sie denken vielleicht, dass Sie gesund sind, aber Sie verbringen die meiste Zeit bei der Arbeit!  Es wäre besser, diese Woche Ihre Gewohnheiten zu ändern, sich in erster Linie ausgewogen zu ernähren, weniger fetthaltige Lebensmittel zu sich zu nehmen und daran zu denken, mehr heißes Wasser zu trinken. Tatsächlich erhöht heißes Wasser Ihre Energie erheblich. Versuchen Sie, weniger Junk Food zu essen.</p>"
     },
     "career": {
-      "section_title": "Capricorn Career Horoscope",
+      "section_title": "Karrierehoroskop Steinbock.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -5114,7 +5114,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5125,7 +5125,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5136,7 +5136,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -5147,7 +5147,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -5158,17 +5158,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Capricorn is most suitable for politics as they can keep secrets, tolerate loneliness, hide ambition. Such comprehensive qualities are very conducive for Capricorn to become an excellent official in the political world. In addition, Capricorns respect tradition and morality, and they have a strong sense of good and evil, so Capricorns can be a good subordinate who strictly carries out the orders of superiors, and can also engage in a legal profession related to fairness and justice.</p> ",
+      "article_html": "\n<p>Steinböcke eignen sich am besten für die Politik, da sie Geheimnisse bewahren, Einsamkeit ertragen und Ambitionen verbergen können. Solche umfassenden Eigenschaften sind für den Steinbock sehr förderlich, um ein hervorragender Beamter in der politischen Welt zu werden. Darüber hinaus respektieren Steinböcke Traditionen und Moral und haben ein starkes Gespür für Gut und Böse, sodass Steinböcke gute Untergebene sein können, die die Anweisungen von Vorgesetzten strikt befolgen, und auch einen Anwaltsberuf ausüben können, bei dem es um Fairness und Gerechtigkeit geht.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>Capricorn is good at accumulating strength and has strong execution, but their creativity is not strong; although they also have great ambition, most of Capricorn's ambition is limited to rising up the established steps within the unit and eventually reaching the top. Independent entrepreneurship does not apply to most Capricorns, because Capricorns do not like the feeling of having nothing as everything has to be created by themselves.</p>"
+      "desc": "<p>Steinböcke sind gut darin, Kraft zu sammeln und haben eine starke Ausführungskraft, aber ihre Kreativität ist nicht stark; Auch wenn sie große Ambitionen haben, beschränkt sich Capricorns Ehrgeiz größtenteils darauf, die etablierten Stufen innerhalb der Einheit hinaufzusteigen und schließlich die Spitze zu erreichen. Selbständiges Unternehmertum trifft auf die meisten Steinböcke nicht zu, da Steinböcke das Gefühl nicht mögen, nichts zu haben und alles selbst erschaffen zu müssen.</p>"
     },
     "sex": {
-      "section_title": "Capricorn Sex Horoscope",
+      "section_title": "Sexhoroskop Steinbock.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -5179,7 +5179,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5190,7 +5190,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.0,
@@ -5201,7 +5201,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5212,7 +5212,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -5223,9 +5223,9 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>The Capricorns are poised and calm, good at analyzing and summarizing. They would observe and think beforehand no matter what they do, and would not start a relationship casually, after all, they are in a relationship to get married. Through matchmaking, they will be able to determine whether the other party is suitable for them through observing the other party's behavior patterns, mannerisms and many other aspects. </p> ",
+      "article_html": "\n<p>Der Steinbock ist ausgeglichen und ruhig und kann gut analysieren und zusammenfassen. Sie würden alles im Voraus beobachten und überlegen, was sie auch tun, und eine Beziehung nicht nebenbei eingehen, denn schließlich sind sie in einer Beziehung, in der es ums Heiraten geht. Durch das Matchmaking können sie anhand der Verhaltensmuster, Manierismen und vieler anderer Aspekte der anderen Partei feststellen, ob die andere Partei für sie geeignet ist. .</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>Capricorn is conservative and introverted, and usually does not like to talk to people, let alone communicate with the opposite sex. Therefore, it's quite reasonable that Capricorn don't have too many opposite sex friends around them. If they can open their minds a little, it relatively will be better.</p>"
+      "desc": "<p>Steinbock ist konservativ und introvertiert und spricht normalerweise nicht gern mit Menschen, geschweige denn mit dem anderen Geschlecht. Daher ist es durchaus vernünftig, dass Steinböcke nicht zu viele Freunde unterschiedlichen Geschlechts um sich haben. Wenn sie ihren Geist ein wenig öffnen können, wird es relativ besser sein.</p>"
     },
     "other": null
   },
@@ -5296,12 +5296,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Die Neugier kann Sie heute auf neue Wege führen. Umfassen Sie Lernen und Erkunden.</p><h3>Liebe:.</h3><p>Besonders anregend sind die intellektuellen Verbindungen. Egal, ob Sie Single oder in einer Partnerschaft leben, suchen Sie nach Tiefe in Gesprächen.</p><h3>Arbeiten:.</h3><p>Ihre Fähigkeit, schnell zu lernen, ist von Vorteil. Nehmen Sie neue Herausforderungen an, die Ihre Fähigkeiten erweitern.</p><h3>Geld:.</h3><p>Informieren Sie sich über Finanzthemen. Wissen ist Macht und kann sich bei Ihren finanziellen Entscheidungen auszahlen.</p>"
     },
     "weekly": {
-      "section_title": "Aquarius Weekly Horoscope",
+      "section_title": "Wochenhoroskop Wassermann.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -5312,7 +5312,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -5323,7 +5323,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5334,7 +5334,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -5345,7 +5345,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -5356,17 +5356,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Lack of opportunity &amp; Make amends</h3><p>You may feel a little lost at work this week. You think you've done enough to prepare for what's ahead, but it's easy to make a mistake when it matters most. This is because your attention is only on a certain detail and lacks macro analysis. You shouldn't just care about your interests. But don't be afraid. If something goes wrong, try your best to fix it. Your work is still positive, your mind is active, you expect recognition from others, and you are likely to get a raise or promotion.</p> <h3>Proactive</h3><p>Take the initiative emotionally this week. If you are in a relationship (including a marriage), you can easily communicate with your partner and enjoy the interaction. There are a few tricks you can use to catch the eye of the opposite sex. Sweet words and wise brains will win more people's affection. A few surprises in a relationship can keep it moving forward! Even a few small surprises can create unexpected possibilities in your life!</p> <p>Everyone makes mistakes. Accept the truth and embrace your imperfection will not make you weaker.</p> <h3>Stretching is needed</h3><p>Don't overindulge yourself at will. Pay attention to the balance between life and work, and develop a good habit of working and resting to prevent illness.There may be pain in the cervical spine and lumbar region, so try to avoid doing some strenuous exercises daily. Stretching needs to be done before exercise to decrease your chances of injury. Make sure to warm up first.</p> ",
+      "article_html": "\n<h3>Mangel an Möglichkeiten und Wiedergutmachung.</h3><p>Möglicherweise fühlen Sie sich diese Woche bei der Arbeit ein wenig verloren. Sie denken, Sie hätten genug getan, um sich auf das vorzubereiten, was vor Ihnen liegt, aber es ist leicht, einen Fehler zu machen, wenn es darauf ankommt. Dies liegt daran, dass Ihre Aufmerksamkeit nur auf ein bestimmtes Detail gerichtet ist und es an einer Makroanalyse mangelt. Sie sollten sich nicht nur um Ihre Interessen kümmern. Aber haben Sie keine Angst. Wenn etwas schief geht, versuchen Sie Ihr Bestes, um das Problem zu beheben. Ihre Arbeit ist immer noch positiv, Ihr Geist ist aktiv, Sie erwarten Anerkennung von anderen und es ist wahrscheinlich, dass Sie eine Gehaltserhöhung oder Beförderung erhalten.</p> <h3>Proaktiv.</h3><p>Ergreifen Sie diese Woche emotional die Initiative. Wenn Sie in einer Beziehung (einschließlich einer Ehe) sind, können Sie problemlos mit Ihrem Partner kommunizieren und die Interaktion genießen. Es gibt ein paar Tricks, mit denen Sie die Aufmerksamkeit des anderen Geschlechts auf sich ziehen können. Süße Worte und weise Köpfe werden die Zuneigung von mehr Menschen gewinnen. Ein paar Überraschungen in einer Beziehung können dazu beitragen, dass es weitergeht! Schon ein paar kleine Überraschungen können unerwartete Möglichkeiten in Ihrem Leben schaffen!</p> <p>Jeder macht Fehler. Akzeptiere die Wahrheit und nimm deine Unvollkommenheit an, das wird dich nicht schwächen.</p> <h3>Dehnung ist nötig.</h3><p>Gönnen Sie sich nicht nach Belieben zu viel. Achten Sie auf die Balance zwischen Leben und Beruf und entwickeln Sie eine gute Arbeits- und Ruhegewohnheit, um Krankheiten vorzubeugen. Es kann zu Schmerzen in der Halswirbelsäule und im Lendenwirbelbereich kommen. Versuchen Sie daher, täglich anstrengende Übungen zu vermeiden. Vor dem Training müssen Dehnübungen durchgeführt werden, um das Verletzungsrisiko zu verringern. Stellen Sie sicher, dass Sie sich zuerst aufwärmen.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>Lack of opportunity &amp; Make amends</h3><p>You may feel a little lost at work this week. You think you've done enough to prepare for what's ahead, but it's easy to make a mistake when it matters most. This is because your attention is only on a certain detail and lacks macro analysis. You shouldn't just care about your interests. But don't be afraid. If something goes wrong, try your best to fix it. Your work is still positive, your mind is active, you expect recognition from others, and you are likely to get a raise or promotion.</p>"
+      "desc": "<h3>Mangel an Möglichkeiten und Wiedergutmachung.</h3><p>Möglicherweise fühlen Sie sich diese Woche bei der Arbeit ein wenig verloren. Sie denken, Sie hätten genug getan, um sich auf das vorzubereiten, was vor Ihnen liegt, aber es ist leicht, einen Fehler zu machen, wenn es darauf ankommt. Dies liegt daran, dass Ihre Aufmerksamkeit nur auf ein bestimmtes Detail gerichtet ist und es an einer Makroanalyse mangelt. Sie sollten sich nicht nur um Ihre Interessen kümmern. Aber haben Sie keine Angst. Wenn etwas schief geht, versuchen Sie Ihr Bestes, um das Problem zu beheben. Ihre Arbeit ist immer noch positiv, Ihr Geist ist aktiv, Sie erwarten Anerkennung von anderen und es ist wahrscheinlich, dass Sie eine Gehaltserhöhung oder Beförderung erhalten.</p>"
     },
     "monthly": {
-      "section_title": "Aquarius Monthly Horoscope",
+      "section_title": "Monatshoroskop Wassermann.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -5377,7 +5377,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5388,7 +5388,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5399,7 +5399,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5410,7 +5410,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -5421,17 +5421,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month, you may feel the urge to break free from constraints and pursue your own path. It's a time to be bold and take calculated risks. Trust that the universe will support your authentic journey.</p><h3>Love:</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Work:</h3><p>You're likely to thrive in environments that value innovation and originality. Seek out projects that allow you to flex your creative muscles. A hobby could turn into a profitable side hustle.</p><h3>Money:</h3><p>Financial liberation is a theme. Look for ways to increase your passive income, which will give you the freedom to explore other interests. This might involve some upfront investment, but the potential returns are promising.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>In diesem Monat verspüren Sie vielleicht den Drang, sich von Zwängen zu befreien und Ihren eigenen Weg zu gehen. Es ist an der Zeit, mutig zu sein und kalkulierte Risiken einzugehen. Vertraue darauf, dass das Universum deine authentische Reise unterstützt.</p><h3>Liebe:.</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Arbeiten:.</h3><p>Sie werden wahrscheinlich in Umgebungen erfolgreich sein, die Innovation und Originalität schätzen. Suchen Sie nach Projekten, bei denen Sie Ihrer Kreativität freien Lauf lassen können. Aus einem Hobby könnte ein lukrativer Nebenerwerb werden.</p><h3>Geld:.</h3><p>Finanzielle Befreiung ist ein Thema. Suchen Sie nach Möglichkeiten, Ihr passives Einkommen zu steigern, damit Sie die Freiheit haben, anderen Interessen nachzugehen. Dies erfordert möglicherweise einige Vorabinvestitionen, aber die potenziellen Erträge sind vielversprechend.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>General:</h3><p>This month, you may feel the urge to break free from constraints and pursue your own path. It's a time to be bold and take calculated risks. Trust that the universe will support your authentic journey.</p><h3>Love:</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Work:</h3><p>You're likely to thrive in environments that value innovation and originality. Seek out projects that allow you to flex your creative muscles. A hobby could turn into a profitable side hustle.</p><h3>Money:</h3><p>Financial liberation is a theme. Look for ways to increase your passive income, which will give you the freedom to explore other interests. This might involve some upfront investment, but the potential returns are promising.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>In diesem Monat verspüren Sie vielleicht den Drang, sich von Zwängen zu befreien und Ihren eigenen Weg zu gehen. Es ist an der Zeit, mutig zu sein und kalkulierte Risiken einzugehen. Vertraue darauf, dass das Universum deine authentische Reise unterstützt.</p><h3>Liebe:.</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Arbeiten:.</h3><p>Sie werden wahrscheinlich in Umgebungen erfolgreich sein, die Innovation und Originalität schätzen. Suchen Sie nach Projekten, bei denen Sie Ihrer Kreativität freien Lauf lassen können. Aus einem Hobby könnte ein lukrativer Nebenerwerb werden.</p><h3>Geld:.</h3><p>Finanzielle Befreiung ist ein Thema. Suchen Sie nach Möglichkeiten, Ihr passives Einkommen zu steigern, damit Sie die Freiheit haben, anderen Interessen nachzugehen. Dies erfordert möglicherweise einige Vorabinvestitionen, aber die potenziellen Erträge sind vielversprechend.</p>"
     },
     "yearly": {
-      "section_title": "Aquarius Yearly Horoscope",
+      "section_title": "Jahreshoroskop Wassermann.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -5442,7 +5442,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5453,7 +5453,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -5464,7 +5464,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5475,7 +5475,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5486,17 +5486,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Aquarians are set to embark on a year of innovation and self-discovery. Your unique perspective will lead you to explore unconventional paths, both personally and professionally. Growth comes from embracing the unexpected, so remain adaptable. This year, your social consciousness might inspire you to engage in humanitarian efforts or community projects.</p><h3>Love</h3><p>In love, Aquarians will find that authenticity is the key to fulfilling relationships. If you're already partnered, this is the year to foster greater understanding and build a future vision together. Singles should stay true to their values, as this authenticity will attract like-minded partners. Keep an open heart, as love may come from the most surprising places.</p><h3>Work</h3><p>The workplace will be a stage for your inventive ideas, as your ability to think outside the box will be highly valued. Collaborative projects will flourish under your guidance, but be willing to listen to others' input to achieve the best outcomes. Networking will introduce you to influential individuals who can help propel your career forward.</p><h3>Money</h3><p>Financially, Aquarians should focus on long-term planning this year. Innovative investments or unconventional financial strategies could pay off, but due diligence is essential. Managing your resources effectively will be crucial, as unexpected expenses could arise. Consider seeking advice from a financial planner to secure your economic future.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Wassermänner stehen vor einem Jahr der Innovation und Selbstfindung. Ihre einzigartige Perspektive wird Sie dazu führen, sowohl privat als auch beruflich unkonventionelle Wege zu gehen. Wachstum entsteht durch die Akzeptanz des Unerwarteten. Bleiben Sie also anpassungsfähig. Dieses Jahr könnte Ihr soziales Bewusstsein Sie dazu inspirieren, sich an humanitären Bemühungen oder Gemeinschaftsprojekten zu beteiligen.</p><h3>Liebe.</h3><p>In der Liebe werden Wassermänner feststellen, dass Authentizität der Schlüssel zu erfüllenden Beziehungen ist. Wenn Sie bereits Partner sind, ist dies das Jahr, in dem Sie ein besseres Verständnis fördern und gemeinsam eine Zukunftsvision entwickeln können. Singles sollten ihren Werten treu bleiben, denn diese Authentizität zieht gleichgesinnte Partner an. Behalten Sie ein offenes Herz, denn die Liebe kann von den überraschendsten Orten kommen.</p><h3>Arbeiten.</h3><p>Der Arbeitsplatz wird eine Bühne für Ihre erfinderischen Ideen sein, denn Ihre Fähigkeit, über den Tellerrand zu schauen, wird sehr geschätzt. Gemeinsame Projekte werden unter Ihrer Anleitung gedeihen, aber seien Sie bereit, auf die Beiträge anderer zu hören, um die besten Ergebnisse zu erzielen. Beim Networking lernen Sie einflussreiche Persönlichkeiten kennen, die Ihnen dabei helfen können, Ihre Karriere voranzutreiben.</p><h3>Geld.</h3><p>Finanziell sollten sich Wassermänner in diesem Jahr auf eine langfristige Planung konzentrieren. Innovative Investitionen oder unkonventionelle Finanzstrategien könnten sich lohnen, doch die gebotene Sorgfalt ist unerlässlich. Die effektive Verwaltung Ihrer Ressourcen ist von entscheidender Bedeutung, da unerwartete Kosten entstehen können. Ziehen Sie in Betracht, sich von einem Finanzplaner beraten zu lassen, um Ihre wirtschaftliche Zukunft zu sichern.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>General</h3><p>Aquarians are set to embark on a year of innovation and self-discovery. Your unique perspective will lead you to explore unconventional paths, both personally and professionally. Growth comes from embracing the unexpected, so remain adaptable. This year, your social consciousness might inspire you to engage in humanitarian efforts or community projects.</p><h3>Love</h3><p>In love, Aquarians will find that authenticity is the key to fulfilling relationships. If you're already partnered, this is the year to foster greater understanding and build a future vision together. Singles should stay true to their values, as this authenticity will attract like-minded partners. Keep an open heart, as love may come from the most surprising places.</p><h3>Work</h3><p>The workplace will be a stage for your inventive ideas, as your ability to think outside the box will be highly valued. Collaborative projects will flourish under your guidance, but be willing to listen to others' input to achieve the best outcomes. Networking will introduce you to influential individuals who can help propel your career forward.</p><h3>Money</h3><p>Financially, Aquarians should focus on long-term planning this year. Innovative investments or unconventional financial strategies could pay off, but due diligence is essential. Managing your resources effectively will be crucial, as unexpected expenses could arise. Consider seeking advice from a financial planner to secure your economic future.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Wassermänner stehen vor einem Jahr der Innovation und Selbstfindung. Ihre einzigartige Perspektive wird Sie dazu führen, sowohl privat als auch beruflich unkonventionelle Wege zu gehen. Wachstum entsteht durch die Akzeptanz des Unerwarteten. Bleiben Sie also anpassungsfähig. Dieses Jahr könnte Ihr soziales Bewusstsein Sie dazu inspirieren, sich an humanitären Bemühungen oder Gemeinschaftsprojekten zu beteiligen.</p><h3>Liebe.</h3><p>In der Liebe werden Wassermänner feststellen, dass Authentizität der Schlüssel zu erfüllenden Beziehungen ist. Wenn Sie bereits Partner sind, ist dies das Jahr, in dem Sie ein besseres Verständnis fördern und gemeinsam eine Zukunftsvision entwickeln können. Singles sollten ihren Werten treu bleiben, denn diese Authentizität zieht gleichgesinnte Partner an. Behalten Sie ein offenes Herz, denn die Liebe kann von den überraschendsten Orten kommen.</p><h3>Arbeiten.</h3><p>Der Arbeitsplatz wird eine Bühne für Ihre erfinderischen Ideen sein, denn Ihre Fähigkeit, über den Tellerrand zu schauen, wird sehr geschätzt. Gemeinsame Projekte werden unter Ihrer Anleitung gedeihen, aber seien Sie bereit, auf die Beiträge anderer zu hören, um die besten Ergebnisse zu erzielen. Beim Networking lernen Sie einflussreiche Persönlichkeiten kennen, die Ihnen dabei helfen können, Ihre Karriere voranzutreiben.</p><h3>Geld.</h3><p>Finanziell sollten sich Wassermänner in diesem Jahr auf eine langfristige Planung konzentrieren. Innovative Investitionen oder unkonventionelle Finanzstrategien könnten sich lohnen, doch die gebotene Sorgfalt ist unerlässlich. Die effektive Verwaltung Ihrer Ressourcen ist von entscheidender Bedeutung, da unerwartete Kosten entstehen können. Ziehen Sie in Betracht, sich von einem Finanzplaner beraten zu lassen, um Ihre wirtschaftliche Zukunft zu sichern.</p>"
     },
     "love": {
-      "section_title": "Aquarius Love Horoscope",
+      "section_title": "Liebeshoroskop Wassermann.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -5507,7 +5507,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -5518,7 +5518,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5529,7 +5529,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -5540,7 +5540,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5551,17 +5551,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>spiritual connection</h3><p>Aquarius is looking for a spiritual connection with their partner. An Aquarius will end a relationship if they can't share similar views with their partner. Aquarians are likely to discuss issues frequently with their partner and take a critical look at the whole situation. Similarly, if Aquarius often finds someone to talk to, there is a good chance that Aquarius likes this person.</p> ",
+      "article_html": "\n<h3>spirituelle Verbindung.</h3><p>Der Wassermann sucht eine spirituelle Verbindung zu seinem Partner. Ein Wassermann beendet eine Beziehung, wenn er mit seinem Partner nicht die gleichen Ansichten teilen kann. Wassermänner besprechen häufig Probleme mit ihrem Partner und werfen einen kritischen Blick auf die gesamte Situation. Wenn Wassermann oft jemanden findet, mit dem er reden kann, besteht eine gute Chance, dass Wassermann diese Person mag.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>believe in fate</h3><p>Aquarius has a casual feel for the relationships around them. In Aquarius' view, becoming friends and partners is a matter of fate, and if the fate ends one day, tough retention will not work. Therefore, in a relationship, if there is an argument with Aquarius, breaking up should not be openly said, because Aquarians may believe it and will not hold their lover back. Feelings are what Aquarius values most.</p>"
+      "desc": "<h3>Glaube an das Schicksal.</h3><p>Der Wassermann hat ein lockeres Gespür für die Beziehungen um ihn herum. Nach Ansicht des Wassermanns ist es eine Frage des Schicksals, Freunde und Partner zu werden, und wenn das Schicksal eines Tages endet, wird harte Bindung nicht funktionieren. Deshalb sollte in einer Beziehung, wenn es zu einem Streit mit dem Wassermann kommt, die Trennung nicht offen gesagt werden, da der Wassermann das vielleicht glaubt und seinen Liebhaber nicht zurückhalten wird. Gefühle sind das, was Wassermann am meisten schätzt.</p>"
     },
     "health": {
-      "section_title": "Aquarius Health Horoscope",
+      "section_title": "Gesundheitshoroskop Wassermann.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -5572,7 +5572,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -5583,7 +5583,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.5,
             0.0,
@@ -5594,7 +5594,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5605,7 +5605,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             0.5,
             0.0,
@@ -5621,12 +5621,12 @@ const dataPage = {
       "desc": "Aquarius recently must realize the importance of physical exercise. Don't just stay at home and do nothing meaningful. You can go to the gym to run, you can also follow the yoga teacher and do the body stretching type of exercise. If the financial conditions permit, you can also go to a tour group."
     },
     "career": {
-      "section_title": "Aquarius Career Horoscope",
+      "section_title": "Karrierehoroskop Wassermann.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -5637,7 +5637,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -5648,7 +5648,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5659,7 +5659,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5670,7 +5670,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5681,17 +5681,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Aquarius is very smart, they are not afraid to engage in traditional industries, such as business and agriculture. However, the general traditional industry can only let Aquarius get financial freedom, but it is difficult for them to get the real spiritual satisfaction. Intellectual industry is the most suitable occupation for them. In addition to the design industry, they are also suitable for scientific research, humanities and social professions.</p> ",
+      "article_html": "\n<p>Wassermänner sind sehr schlau und haben keine Angst davor, sich in traditionellen Branchen wie der Wirtschaft und der Landwirtschaft zu engagieren. Allerdings kann die allgemeine traditionelle Industrie dem Wassermann nur finanzielle Freiheit gewähren, es ist jedoch schwierig für ihn, die wahre spirituelle Befriedigung zu erlangen. Für sie ist die geistige Industrie der am besten geeignete Beruf. Neben der Designbranche eignen sie sich auch für naturwissenschaftliche Forschung, Geisteswissenschaften und soziale Berufe.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<p>Aquarians need work that is creative or that allows them to grow; they get bored quickly with the same old routine. Of course, they are certainly capable enough to do dull work, but that would be a waste of their innate creative ability. If they have the chance, an Aquarian can come up with many new ideas and give a new look to the work he is doing.</p>"
+      "desc": "<p>Wassermänner brauchen Arbeit, die kreativ ist oder die es ihnen ermöglicht, zu wachsen; Sie langweilen sich schnell mit der gleichen alten Routine. Natürlich sind sie durchaus in der Lage, langweilige Arbeiten zu erledigen, aber das wäre eine Verschwendung ihrer angeborenen kreativen Fähigkeiten. Wenn sie die Chance dazu haben, kann ein Wassermann viele neue Ideen einbringen und seiner Arbeit ein neues Aussehen verleihen.</p>"
     },
     "sex": {
-      "section_title": "Aquarius Sex Horoscope",
+      "section_title": "Sexhoroskop Wassermann.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -5702,7 +5702,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5713,7 +5713,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -5724,7 +5724,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5735,7 +5735,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -5746,9 +5746,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Aquarius people have a wide range of interests, and like to make friends, so there is no lack of some friends of the opposite sex. Aquarius is a person who values friendship more than love, so they will not easily cross the line of friendship, destroying the original innocent feeling. </p> ",
+      "article_html": "\n<p>Wassermann-Menschen haben ein breites Spektrum an Interessen und schließen gern Freundschaften, daher mangelt es ihnen nicht an Freunden des anderen Geschlechts. Wassermann ist eine Person, die Freundschaft mehr schätzt als Liebe, daher wird sie nicht so leicht die Grenze der Freundschaft überschreiten und das ursprüngliche unschuldige Gefühl zerstören. .</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<p>Aquarius needs a partner who is different. They may well be a genius, or behave oddly, or may even be mentally ill, or all of the above. Your relationship might be quite unusual. Aquarians are fanatics of independence and personal space. For Aquarians, a purely physical marriage, where the two of you often remain separated, would be fine.</p>"
+      "desc": "<p>Wassermann braucht einen Partner, der anders ist. Sie können durchaus ein Genie sein oder sich seltsam verhalten oder sogar psychisch krank sein oder all das oben Genannte. Ihre Beziehung könnte ziemlich ungewöhnlich sein. Wassermänner sind Fanatiker von Unabhängigkeit und persönlichem Freiraum. Für Wassermänner wäre eine rein körperliche Ehe, bei der ihr beide oft getrennt bleibt, in Ordnung.</p>"
     },
     "other": null
   },
@@ -5819,12 +5819,12 @@ const dataPage = {
       "desc": "<h3>Allgemein:.</h3><p>Heute geht es darum, die Balance zwischen Ihren Träumen und der Realität zu finden. Nehmen Sie sich Zeit für beides.</p><h3>Liebe:.</h3><p>Kompromisse stärken Ihre Beziehung. Als Single gilt: Verlieren Sie sich nicht in Fantasien; Bleiben Sie auf dem Boden..</p><h3>Arbeiten:.</h3><p>Ihr Engagement für Ihre Vision ist bewundernswert, aber seien Sie realistisch, was Zeitpläne und Ziele angeht.</p><h3>Geld:.</h3><p>Träumen Sie groß, wenn es um Ihre finanzielle Zukunft geht, aber erstellen Sie auch einen praktischen Plan, um dorthin zu gelangen.</p>"
     },
     "weekly": {
-      "section_title": "Pisces Weekly Horoscope",
+      "section_title": "Wochenhoroskop Fische.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             0.5,
             0.0,
@@ -5835,7 +5835,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5846,7 +5846,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             0.5,
@@ -5857,7 +5857,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             0.5,
@@ -5868,7 +5868,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -5879,17 +5879,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Smooth &amp; Relationship</h3><p>You will feel more comfortable at work this week because you will have more opportunities and help from others. But it should be noted that there may be some small changes in cooperation, business negotiations and so on. This is also when you need to balance your time and prepare for work, just in case. Kindness circulates among people, so you get along well with your colleagues and get help from others.</p> <h3>Good Performance</h3><p>Your love life will go well this week, and your friends will help you make it easier. If you want to confess, the scene's layout is the key. If you're already in a relationship, going on a date with them will make you feel better. Just dress yourself up! It feels good to be part of your partner's circle of friends. Some people have unfulfilled love for many years, are ambiguous for a long time, and can not confirm the relationship. You can take advantage of recent good fortune to love the emotion. Maybe the other side has long waited for you to open your heart.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Keep a balanced diet</h3><p>You might want to lose some weight recently, and an action plan is already on the way. Skipping meals won’t help you to lose weight. You should pay attention to keeping a balanced diet by eating more fruits, vegetables, or whole grains. You should pay attention to the problem of cervical vertebra. There will likely be shoulder and neck pain. It is suggested that you can relieve the pain with proper massage.</p> ",
+      "article_html": "\n<h3>Reibungslos & Beziehung.</h3><p>Sie werden sich diese Woche bei der Arbeit wohler fühlen, weil Sie mehr Möglichkeiten und Hilfe von anderen erhalten. Es ist jedoch zu beachten, dass es zu geringfügigen Änderungen in der Zusammenarbeit, bei Geschäftsverhandlungen usw. kommen kann. Dies ist auch der Zeitpunkt, an dem Sie für alle Fälle Ihre Zeit einteilen und sich auf die Arbeit vorbereiten müssen. Freundlichkeit zirkuliert unter den Menschen, sodass Sie gut mit Ihren Kollegen auskommen und Hilfe von anderen erhalten.</p> <h3>Gute Leistung.</h3><p>Ihr Liebesleben wird diese Woche gut verlaufen und Ihre Freunde werden Ihnen helfen, es einfacher zu machen. Wenn Sie gestehen möchten, ist das Layout der Szene der Schlüssel. Wenn Sie bereits in einer Beziehung sind, werden Sie sich durch ein Date mit ihnen besser fühlen. Zieh dich einfach schick an! Es fühlt sich gut an, zum Freundeskreis Ihres Partners zu gehören. Manche Menschen haben jahrelang eine unerfüllte Liebe, sind sich lange nicht sicher und können die Beziehung nicht bestätigen. Sie können das jüngste Glück nutzen, um die Emotion zu lieben. Vielleicht hat die andere Seite schon lange darauf gewartet, dass du dein Herz öffnest.</p> <p>Konzentrieren Sie sich darauf, neugierig statt ängstlich zu sein. Man weiß nicht immer, wohin das Leben einen führen wird.</p> <h3>Achten Sie auf eine ausgewogene Ernährung.</h3><p>Vielleicht möchten Sie in letzter Zeit etwas abnehmen, und ein Aktionsplan ist bereits auf dem Weg. Das Auslassen von Mahlzeiten hilft nicht beim Abnehmen. Sie sollten auf eine ausgewogene Ernährung achten, indem Sie mehr Obst, Gemüse oder Vollkornprodukte essen. Sie sollten auf das Problem der Halswirbel achten. Es werden wahrscheinlich Schulter- und Nackenschmerzen auftreten. Es wird empfohlen, die Schmerzen durch eine richtige Massage zu lindern.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>Smooth &amp; Relationship</h3><p>You will feel more comfortable at work this week because you will have more opportunities and help from others. But it should be noted that there may be some small changes in cooperation, business negotiations and so on. This is also when you need to balance your time and prepare for work, just in case. Kindness circulates among people, so you get along well with your colleagues and get help from others.</p>"
+      "desc": "<h3>Reibungslos & Beziehung.</h3><p>Sie werden sich diese Woche bei der Arbeit wohler fühlen, weil Sie mehr Möglichkeiten und Hilfe von anderen erhalten. Es ist jedoch zu beachten, dass es zu geringfügigen Änderungen in der Zusammenarbeit, bei Geschäftsverhandlungen usw. kommen kann. Dies ist auch der Zeitpunkt, an dem Sie für alle Fälle Ihre Zeit einteilen und sich auf die Arbeit vorbereiten müssen. Freundlichkeit zirkuliert unter den Menschen, sodass Sie gut mit Ihren Kollegen auskommen und Hilfe von anderen erhalten.</p>"
     },
     "monthly": {
-      "section_title": "Pisces Monthly Horoscope",
+      "section_title": "Monatshoroskop Fische.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -5900,7 +5900,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -5911,7 +5911,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -5922,7 +5922,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -5933,7 +5933,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -5944,17 +5944,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month, focus on building self-confidence. Your talents and abilities deserve recognition, so don't downplay your achievements. Embrace opportunities to showcase your skills.</p><h3>Love:</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Work:</h3><p>Take on new challenges at work with confidence. Your capability will shine through, and you may be considered for a promotion or a leadership role.</p><h3>Money:</h3><p>Your financial acumen is growing. This is a good time to renegotiate contracts or ask for a raise. Be confident in your value.</p> ",
+      "article_html": "\n<h3>Allgemein:.</h3><p>Konzentrieren Sie sich diesen Monat auf den Aufbau von Selbstvertrauen. Ihre Talente und Fähigkeiten verdienen Anerkennung, also spielen Sie Ihre Erfolge nicht herunter. Nutzen Sie die Gelegenheit, Ihre Fähigkeiten unter Beweis zu stellen.</p><h3>Liebe:.</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Arbeiten:.</h3><p>Nehmen Sie neue Herausforderungen bei der Arbeit selbstbewusst an. Ihre Fähigkeiten werden durchscheinen und Sie könnten für eine Beförderung oder eine Führungsrolle in Betracht gezogen werden.</p><h3>Geld:.</h3><p>Ihr finanzieller Scharfsinn wächst. Dies ist ein guter Zeitpunkt, um Verträge neu zu verhandeln oder um eine Gehaltserhöhung zu bitten. Seien Sie von Ihrem Wert überzeugt.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>General:</h3><p>This month, focus on building self-confidence. Your talents and abilities deserve recognition, so don't downplay your achievements. Embrace opportunities to showcase your skills.</p><h3>Love:</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Work:</h3><p>Take on new challenges at work with confidence. Your capability will shine through, and you may be considered for a promotion or a leadership role.</p><h3>Money:</h3><p>Your financial acumen is growing. This is a good time to renegotiate contracts or ask for a raise. Be confident in your value.</p>"
+      "desc": "<h3>Allgemein:.</h3><p>Konzentrieren Sie sich diesen Monat auf den Aufbau von Selbstvertrauen. Ihre Talente und Fähigkeiten verdienen Anerkennung, also spielen Sie Ihre Erfolge nicht herunter. Nutzen Sie die Gelegenheit, Ihre Fähigkeiten unter Beweis zu stellen.</p><h3>Liebe:.</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Arbeiten:.</h3><p>Nehmen Sie neue Herausforderungen bei der Arbeit selbstbewusst an. Ihre Fähigkeiten werden durchscheinen und Sie könnten für eine Beförderung oder eine Führungsrolle in Betracht gezogen werden.</p><h3>Geld:.</h3><p>Ihr finanzieller Scharfsinn wächst. Dies ist ein guter Zeitpunkt, um Verträge neu zu verhandeln oder um eine Gehaltserhöhung zu bitten. Seien Sie von Ihrem Wert überzeugt.</p>"
     },
     "yearly": {
-      "section_title": "Pisces Yearly Horoscope",
+      "section_title": "Jahreshoroskop Fische.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.0,
@@ -5965,7 +5965,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -5976,7 +5976,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             0.0,
             0.0,
@@ -5987,7 +5987,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             0.5,
             0.0,
@@ -5998,7 +5998,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -6009,17 +6009,17 @@ const dataPage = {
           "score": 5.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year promises a journey of emotional and spiritual growth for Pisces. Your intuitive nature will be heightened, guiding you through various life scenarios with insight. You may find yourself drawn to mindfulness practices that enhance your well-being. Embrace the flow of creativity and inspiration, but be wary of becoming too absorbed in daydreams—balance is key.</p><h3>Love</h3><p>In the realm of love, Pisces will find that openness and honesty are the cornerstones of a strong relationship this year. If single, you might encounter someone who not only sparks romantic interest but also offers a deep, soulful connection. For those in a relationship, it's a time to nurture bonds and express empathy, ensuring you and your partner grow in harmony.</p><h3>Work</h3><p>Work-wise, Pisces may experience a year of meaningful projects and collaborations. Your empathetic nature makes you a valued team member, and your creative ideas will likely receive recognition. It's important to set boundaries, however, as your desire to help others may lead to overcommitment. Prioritize tasks and seek clarity in your professional goals.</p><h3>Money</h3><p>Financially, a careful approach is advised for Pisces throughout the year. While there may be temptations to invest in artistic or philanthropic endeavors, it's essential to assess the practicality of these ventures. Budgeting and planning for long-term security will prove beneficial. Unexpected expenses could arise, so having a financial cushion will provide peace of mind.</p> ",
+      "article_html": "\n<h3>Allgemein.</h3><p>Dieses Jahr verspricht den Fischen eine Reise des emotionalen und spirituellen Wachstums. Ihre intuitive Natur wird gestärkt und Sie werden mit Einsicht durch verschiedene Lebensszenarien geführt. Möglicherweise fühlen Sie sich zu Achtsamkeitsübungen hingezogen, die Ihr Wohlbefinden steigern. Genießen Sie den Fluss der Kreativität und Inspiration, aber seien Sie vorsichtig, nicht zu sehr in Tagträumen zu versinken – Ausgeglichenheit ist der Schlüssel.</p><h3>Liebe.</h3><p>Im Bereich der Liebe werden Fische in diesem Jahr feststellen, dass Offenheit und Ehrlichkeit die Eckpfeiler einer starken Beziehung sind. Wenn Sie Single sind, treffen Sie vielleicht jemanden, der nicht nur romantisches Interesse weckt, sondern auch eine tiefe, gefühlvolle Verbindung bietet. Für diejenigen in einer Beziehung ist es eine Zeit, Bindungen zu pflegen und Empathie auszudrücken, um sicherzustellen, dass Sie und Ihr Partner in Harmonie aufwachsen.</p><h3>Arbeiten.</h3><p>Beruflich können Fische ein Jahr voller bedeutungsvoller Projekte und Kooperationen erleben. Ihre einfühlsame Art macht Sie zu einem geschätzten Teammitglied und Ihre kreativen Ideen werden wahrscheinlich Anerkennung finden. Es ist jedoch wichtig, Grenzen zu setzen, da Ihr Wunsch, anderen zu helfen, zu übermäßigem Engagement führen kann. Priorisieren Sie Aufgaben und sorgen Sie für Klarheit über Ihre beruflichen Ziele.</p><h3>Geld.</h3><p>Finanziell ist den Fischen das ganze Jahr über ein sorgfältiger Umgang geboten. Auch wenn die Versuchung bestehen mag, in künstlerische oder philanthropische Unternehmungen zu investieren, ist es wichtig, die Praktikabilität dieser Unternehmungen zu beurteilen. Budgetierung und Planung für langfristige Sicherheit werden sich als vorteilhaft erweisen. Unerwartete Ausgaben könnten anfallen, sodass ein finanzielles Polster beruhigt sein kann.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>General</h3><p>This year promises a journey of emotional and spiritual growth for Pisces. Your intuitive nature will be heightened, guiding you through various life scenarios with insight. You may find yourself drawn to mindfulness practices that enhance your well-being. Embrace the flow of creativity and inspiration, but be wary of becoming too absorbed in daydreams—balance is key.</p><h3>Love</h3><p>In the realm of love, Pisces will find that openness and honesty are the cornerstones of a strong relationship this year. If single, you might encounter someone who not only sparks romantic interest but also offers a deep, soulful connection. For those in a relationship, it's a time to nurture bonds and express empathy, ensuring you and your partner grow in harmony.</p><h3>Work</h3><p>Work-wise, Pisces may experience a year of meaningful projects and collaborations. Your empathetic nature makes you a valued team member, and your creative ideas will likely receive recognition. It's important to set boundaries, however, as your desire to help others may lead to overcommitment. Prioritize tasks and seek clarity in your professional goals.</p><h3>Money</h3><p>Financially, a careful approach is advised for Pisces throughout the year. While there may be temptations to invest in artistic or philanthropic endeavors, it's essential to assess the practicality of these ventures. Budgeting and planning for long-term security will prove beneficial. Unexpected expenses could arise, so having a financial cushion will provide peace of mind.</p>"
+      "desc": "<h3>Allgemein.</h3><p>Dieses Jahr verspricht den Fischen eine Reise des emotionalen und spirituellen Wachstums. Ihre intuitive Natur wird gestärkt und Sie werden mit Einsicht durch verschiedene Lebensszenarien geführt. Möglicherweise fühlen Sie sich zu Achtsamkeitsübungen hingezogen, die Ihr Wohlbefinden steigern. Genießen Sie den Fluss der Kreativität und Inspiration, aber seien Sie vorsichtig, nicht zu sehr in Tagträumen zu versinken – Ausgeglichenheit ist der Schlüssel.</p><h3>Liebe.</h3><p>Im Bereich der Liebe werden Fische in diesem Jahr feststellen, dass Offenheit und Ehrlichkeit die Eckpfeiler einer starken Beziehung sind. Wenn Sie Single sind, treffen Sie vielleicht jemanden, der nicht nur romantisches Interesse weckt, sondern auch eine tiefe, gefühlvolle Verbindung bietet. Für diejenigen in einer Beziehung ist es eine Zeit, Bindungen zu pflegen und Empathie auszudrücken, um sicherzustellen, dass Sie und Ihr Partner in Harmonie aufwachsen.</p><h3>Arbeiten.</h3><p>Beruflich können Fische ein Jahr voller bedeutungsvoller Projekte und Kooperationen erleben. Ihre einfühlsame Art macht Sie zu einem geschätzten Teammitglied und Ihre kreativen Ideen werden wahrscheinlich Anerkennung finden. Es ist jedoch wichtig, Grenzen zu setzen, da Ihr Wunsch, anderen zu helfen, zu übermäßigem Engagement führen kann. Priorisieren Sie Aufgaben und sorgen Sie für Klarheit über Ihre beruflichen Ziele.</p><h3>Geld.</h3><p>Finanziell ist den Fischen das ganze Jahr über ein sorgfältiger Umgang geboten. Auch wenn die Versuchung bestehen mag, in künstlerische oder philanthropische Unternehmungen zu investieren, ist es wichtig, die Praktikabilität dieser Unternehmungen zu beurteilen. Budgetierung und Planung für langfristige Sicherheit werden sich als vorteilhaft erweisen. Unerwartete Ausgaben könnten anfallen, sodass ein finanzielles Polster beruhigt sein kann.</p>"
     },
     "love": {
-      "section_title": "Pisces Love Horoscope",
+      "section_title": "Liebeshoroskop Fische.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -6030,7 +6030,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -6041,7 +6041,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -6052,7 +6052,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -6063,7 +6063,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             1.0,
@@ -6074,17 +6074,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>empathetic</h3><p>Pisces is a giver in relationships. Empathy is a Pisces gift, which makes them accustomed to thinking of others. Pisceans are very sensitive to the tenderness of other people's hearts and will feel the same for others' sadness. Pisces is not good at saying no to requests due to their giving nature.</p> ",
+      "article_html": "\n<h3>einfühlsam.</h3><p>Fische sind ein Geber in Beziehungen. Empathie ist eine Gabe der Fische, die sie daran gewöhnt, an andere zu denken. Fische reagieren sehr empfindlich auf die Zärtlichkeit der Herzen anderer Menschen und empfinden das Gleiche auch für die Traurigkeit anderer. Fische sind aufgrund ihrer großzügigen Natur nicht gut darin, Anfragen abzulehnen.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>sensitive</h3><p>Pisces enjoys being needed in a relationship. Pisces are sensitive and want their partner to have a perfect relationship. So Pisces tends to feel sorry for someone in a relationship and not know what to choose. Pisces also beautifies their partners when they are in love. But they also run away from problems in the relationship.</p>"
+      "desc": "<h3>empfindlich.</h3><p>Fische genießen es, in einer Beziehung gebraucht zu werden. Fische sind sensibel und wünschen sich eine perfekte Beziehung zu ihrem Partner. Daher neigen Fische dazu, Mitleid mit jemandem in einer Beziehung zu haben und nicht zu wissen, was sie wählen sollen. Fische verschönern ihre Partner auch, wenn sie verliebt sind. Sie laufen aber auch vor Problemen in der Beziehung davon.</p>"
     },
     "health": {
-      "section_title": "Pisces Health Horoscope",
+      "section_title": "Gesundheitshoroskop Fische.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -6095,7 +6095,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             0.5,
@@ -6106,7 +6106,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -6117,7 +6117,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -6128,7 +6128,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -6144,12 +6144,12 @@ const dataPage = {
       "desc": "Physically there will not be big crisis, as long as not be overstretched, such as staying up all night or running outside, then there will not be too big problem. It is worth noting that Pisces' mental world is relatively depressed, some people will use alcohol or other bad habits to relieve stress, such as binge drinking, overeating, etc. So if you have unhealthy habits in daily life, you must be aware of what risks this will bring to you, stop promptly and correct them in time, and be responsible for your own health."
     },
     "career": {
-      "section_title": "Pisces Career Horoscope",
+      "section_title": "Karrierehoroskop Fische.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             0.5,
@@ -6160,7 +6160,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             1.0,
             1.0,
@@ -6171,7 +6171,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -6182,7 +6182,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -6193,7 +6193,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -6204,17 +6204,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Pisces do not like to compete with anyone. They will selflessly help others in the workplace. On the one hand, they will not show apathy or keep a distance from  the weak. On the other hand, they will not feel that they are dragged down by others, but rather fully engaged, hoping that they can contribute to the overall performance with this selflessness. </p>&gt;                    ",
+      "article_html": "\n<p>Fische konkurrieren nicht gerne mit irgendjemandem. Sie helfen anderen selbstlos am Arbeitsplatz. Einerseits zeigen sie keine Apathie und halten keine Distanz zu den Schwachen. Andererseits werden sie sich nicht von anderen heruntergezogen fühlen, sondern sich voll und ganz engagieren, in der Hoffnung, mit dieser Selbstlosigkeit einen Beitrag zur Gesamtleistung leisten zu können. .</p>&gt;                    ",
       "image_src": "./img/pisces.svg",
-      "desc": "<p>Pisces do not like to compete with anyone. They will selflessly help others in the workplace. On the one hand, they will not show apathy or keep a distance from  the weak. On the other hand, they will not feel that they are dragged down by others, but rather fully engaged, hoping that they can contribute to the overall performance with this selflessness. </p>&gt;"
+      "desc": "<p>Fische konkurrieren nicht gerne mit irgendjemandem. Sie helfen anderen selbstlos am Arbeitsplatz. Einerseits zeigen sie keine Apathie und halten keine Distanz zu den Schwachen. Andererseits werden sie sich nicht von anderen heruntergezogen fühlen, sondern sich voll und ganz engagieren, in der Hoffnung, mit dieser Selbstlosigkeit einen Beitrag zur Gesamtleistung leisten zu können. .</p>&gt;"
     },
     "sex": {
-      "section_title": "Pisces Sex Horoscope",
+      "section_title": "Sexhoroskop Fische.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "LIEBE.",
           "stars": [
             1.0,
             1.0,
@@ -6225,7 +6225,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIERE.",
           "stars": [
             0.5,
             0.0,
@@ -6236,7 +6236,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "STIMMUNG.",
           "stars": [
             1.0,
             1.0,
@@ -6247,7 +6247,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGIE.",
           "stars": [
             1.0,
             1.0,
@@ -6258,7 +6258,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "GESUNDHEIT.",
           "stars": [
             1.0,
             0.5,
@@ -6269,9 +6269,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Pisces is an emotional, sentimental person who has a hard time dealing with cold reality. Likewise, their partners tend to be emotional people and you must learn to balance your ability to love people unconditionally with self-love and self-respect.</p> ",
+      "article_html": "\n<p>Fische sind ein emotionaler, sentimentaler Mensch, dem es schwerfällt, mit der kalten Realität umzugehen. Ebenso neigen ihre Partner dazu, emotionale Menschen zu sein, und Sie müssen lernen, Ihre Fähigkeit, Menschen bedingungslos zu lieben, mit Selbstliebe und Selbstachtung in Einklang zu bringen.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<p>A partner who actually lives with a Pisces tends to be a romantic, affectionate person. They are soft-hearted and caring, but are also prone to control the thoughts and actions of their other half with tearful tenderness.Pisces is easily self-deceived, obsessed with certain areas and may be a religious enthusiast. Their partners tend to be imaginative and poetic dreamers.</p>"
+      "desc": "<p>Ein Partner, der tatsächlich mit einem Fisch zusammenlebt, ist in der Regel ein romantischer, liebevoller Mensch. Sie sind weichherzig und fürsorglich, neigen aber auch dazu, die Gedanken und Handlungen ihrer anderen Hälfte mit tränenerregender Zärtlichkeit zu kontrollieren. Fische betrügen leicht, sind von bestimmten Bereichen besessen und können ein religiöser Enthusiast sein. Ihre Partner neigen dazu, fantasievolle und poetische Träumer zu sein.</p>"
     },
     "other": null
   }
