@@ -66,12 +66,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Reflektion över tidigare framgångar och misslyckanden kommer att ge värdefulla insikter för framtida tillväxt.</p><h3>Kärlek:.</h3><p>Känslomässig intimitet lyfts fram. Tillbringa kvalitetstid med din partner eller, om du är singel, få kontakt med ditt inre.</p><h3>Arbete:.</h3><p>Dedikation till ditt arbete kan resultera i en betydande prestation. Fortsätt gå framåt..</p><h3>Pengar:.</h3><p>Det är en idealisk tid att se över dina ekonomiska mål och anpassa din budget därefter.</p>"
     },
     "weekly": {
-      "section_title": "Aries Weekly Horoscope",
+      "section_title": "Vädurens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -82,7 +82,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -93,7 +93,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -104,7 +104,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -115,7 +115,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -126,17 +126,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Busy &amp; Emotional</h3><p>You will also be particularly busy at work this week. You feel like your talents are not being noticed and your efforts are in vain. This is when you feel depressed. Maybe it's a mindset you need to adjust to. You're more likely to have a lot of things planned in your head, be willing to be upfront about your feelings, and be very emotional when dealing with things. It will cause innocent people to be hurt by your anger. Being cold and silent is okay, but you must not interfere with your work. You need to control your emotions to avoid unnecessary mistakes!</p> <h3>Meet Gentle People</h3>\n<p>You may meet someone who is very sweet and mature this week. Your generosity and unintentional acts of kindness will be appreciated by the opposite sex for offering to help others when they are in trouble. This person may be good-looking or have good material conditions, don't be shy to express your true feelings, and don't vent your emotions to each other in an extreme way, which will lead to failure on both sides!</p><p> </p><p>Don’t bite off more than you can chew. Small and incremental steps is how you achieve big goals in life.</p> <h3>Prioritize drinking water</h3><p>Proper hydration is important to overall health. You've probably heard numerous times that you must drink eight glasses of water daily to keep your body hydrated. If you're thirsty, opt for water most of the time, as water quenches your thirst better than other beverages and has no calories and carbs. Make a point of carrying a water bottle with you wherever you go. Your health is fine. Do some soothing exercises, such as yoga and walking. Adjusting your body and mind to the season is more suitable for your stage and will make your body healthier.</p> ",
+      "article_html": "\n<h3>Upptagen & känslomässig.</h3><p>Du kommer också att vara särskilt upptagen på jobbet den här veckan. Du känner att dina talanger inte uppmärksammas och dina ansträngningar är förgäves. Det är då du känner dig deprimerad. Kanske är det ett tankesätt du måste anpassa dig till. Du är mer benägen att ha en massa saker planerade i ditt huvud, vara villig att vara uppriktig om dina känslor och vara mycket känslomässig när du hanterar saker. Det kommer att få oskyldiga människor att skadas av din ilska. Att vara kall och tyst är okej, men du får inte störa ditt arbete. Du måste kontrollera dina känslor för att undvika onödiga misstag!.</p> <h3>Träffa milda människor.</h3>\n<p>Du kanske träffar någon som är väldigt söt och mogen den här veckan. Din generositet och oavsiktliga vänliga handlingar kommer att uppskattas av det motsatta könet för att de erbjuder sig att hjälpa andra när de har problem. Den här personen kan vara snygg eller ha goda materiella förutsättningar, var inte blyg för att uttrycka dina sanna känslor och ventilera inte dina känslor till varandra på ett extremt sätt, vilket kommer att leda till misslyckande på båda sidor!.</p><p> </p><p>Bit inte av mer än du kan tugga. Små och stegvisa steg är hur du når stora mål i livet..</p> <h3>Prioritera dricksvatten.</h3><p>Korrekt hydrering är viktigt för den allmänna hälsan. Du har säkert hört många gånger att du måste dricka åtta glas vatten dagligen för att hålla kroppen hydrerad. Om du är törstig, välj vatten för det mesta, eftersom vatten släcker din törst bättre än andra drycker och har inga kalorier och kolhydrater. Se till att ha en vattenflaska med dig vart du än går. Din hälsa är bra. Gör några lugnande övningar, som yoga och promenader. Att anpassa din kropp och ditt sinne till säsongen är mer lämpat för din scen och kommer att göra din kropp friskare..</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>Busy &amp; Emotional</h3><p>You will also be particularly busy at work this week. You feel like your talents are not being noticed and your efforts are in vain. This is when you feel depressed. Maybe it's a mindset you need to adjust to. You're more likely to have a lot of things planned in your head, be willing to be upfront about your feelings, and be very emotional when dealing with things. It will cause innocent people to be hurt by your anger. Being cold and silent is okay, but you must not interfere with your work. You need to control your emotions to avoid unnecessary mistakes!</p>"
+      "desc": "<h3>Upptagen & känslomässig.</h3><p>Du kommer också att vara särskilt upptagen på jobbet den här veckan. Du känner att dina talanger inte uppmärksammas och dina ansträngningar är förgäves. Det är då du känner dig deprimerad. Kanske är det ett tankesätt du måste anpassa dig till. Du är mer benägen att ha en massa saker planerade i ditt huvud, vara villig att vara uppriktig om dina känslor och vara mycket känslomässig när du hanterar saker. Det kommer att få oskyldiga människor att skadas av din ilska. Att vara kall och tyst är okej, men du får inte störa ditt arbete. Du måste kontrollera dina känslor för att undvika onödiga misstag!.</p>"
     },
     "monthly": {
-      "section_title": "Aries Monthly Horoscope",
+      "section_title": "Vädurens månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -147,7 +147,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -158,7 +158,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -169,7 +169,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -180,7 +180,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -191,17 +191,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your confidence is high, making this an excellent month for personal development. Take the lead on a project that you're passionate about.</p><h3>Love:</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Work:</h3><p>Your hard work is likely to be recognized, but don't let success go to your head. Stay humble, and continue to put in the effort.</p><h3>Money:</h3><p>You might be tempted by luxury items, but it's a better time to save for something meaningful. Financial discipline now will pay off later.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Ditt självförtroende är högt, vilket gör detta till en utmärkt månad för personlig utveckling. Ta ledningen för ett projekt som du brinner för..</p><h3>Kärlek:.</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Arbete:.</h3><p>Ditt hårda arbete kommer sannolikt att uppmärksammas, men låt inte framgången gå dig åt huvudet. Var ödmjuk och fortsätt anstränga dig..</p><h3>Pengar:.</h3><p>Du kanske lockas av lyxvaror, men det är en bättre tid att spara till något vettigt. Finansiell disciplin nu kommer att löna sig senare..</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>General:</h3><p>Your confidence is high, making this an excellent month for personal development. Take the lead on a project that you're passionate about.</p><h3>Love:</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Work:</h3><p>Your hard work is likely to be recognized, but don't let success go to your head. Stay humble, and continue to put in the effort.</p><h3>Money:</h3><p>You might be tempted by luxury items, but it's a better time to save for something meaningful. Financial discipline now will pay off later.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Ditt självförtroende är högt, vilket gör detta till en utmärkt månad för personlig utveckling. Ta ledningen för ett projekt som du brinner för..</p><h3>Kärlek:.</h3>If you're in a relationship, try to find new ways to show your affection. Single Aries may stumble upon a romantic interest who challenges their intellect.<p></p><h3>Arbete:.</h3><p>Ditt hårda arbete kommer sannolikt att uppmärksammas, men låt inte framgången gå dig åt huvudet. Var ödmjuk och fortsätt anstränga dig..</p><h3>Pengar:.</h3><p>Du kanske lockas av lyxvaror, men det är en bättre tid att spara till något vettigt. Finansiell disciplin nu kommer att löna sig senare..</p>"
     },
     "yearly": {
-      "section_title": "Aries Yearly Horoscope",
+      "section_title": "Aries årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.0,
             0.0,
@@ -212,7 +212,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -223,7 +223,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -234,7 +234,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -245,7 +245,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -256,17 +256,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year, Aries, you're set to blaze new trails. Your natural courage will lead you to unexplored territories in life. While your energy is high, balance is crucial—take time to recharge. Challenges will present themselves, but they're merely opportunities to showcase your strength.</p><h3>Love</h3><p>Romance takes a front seat with chances for new and deeper connections. In relationships, communication will deepen bonds. Single Aries may encounter potential partners who match their adventurous spirit. Remember, true love also requires patience and understanding.</p><h3>Work</h3><p>Your professional life demands innovation and initiative. Step up as the leader you are, but also value collaboration. Career growth is on the horizon, but it requires consistent effort and adaptability. Networking will unlock doors to potential opportunities.</p><h3>Money</h3><p>Financially, strategic planning is key. Be mindful of impulsive spending and focus on long-term goals. Investment in self-improvement could lead to higher earning potential. This is a year to build, not just spend—financial advisors can provide guidance.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>I år, Väduren, är du redo att slå nya spår. Ditt naturliga mod kommer att leda dig till outforskade territorier i livet. Även om din energi är hög, är balansen avgörande – ta dig tid att ladda om. Utmaningar kommer att dyka upp, men de är bara möjligheter att visa din styrka.</p><h3>Kärlek.</h3><p>Romance tar en framsäte med chanser till nya och djupare kontakter. I relationer kommer kommunikationen att fördjupa banden. Singel Vädur kan stöta på potentiella partners som matchar deras äventyrliga anda. Kom ihåg, sann kärlek kräver också tålamod och förståelse..</p><h3>Arbete.</h3><p>Ditt yrkesliv kräver innovation och initiativförmåga. Ta steget upp som den ledare du är, men värdesätt också samarbete. Karriärtillväxt är i horisonten, men det kräver konsekvent ansträngning och anpassningsförmåga. Nätverk kommer att öppna dörrar till potentiella möjligheter..</p><h3>Pengar.</h3><p>Ekonomiskt är strategisk planering nyckeln. Var uppmärksam på impulsiva utgifter och fokusera på långsiktiga mål. Investeringar i självförbättring kan leda till högre intjäningspotential. Det här är ett år att bygga, inte bara spendera – finansiella rådgivare kan ge vägledning.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>General</h3><p>This year, Aries, you're set to blaze new trails. Your natural courage will lead you to unexplored territories in life. While your energy is high, balance is crucial—take time to recharge. Challenges will present themselves, but they're merely opportunities to showcase your strength.</p><h3>Love</h3><p>Romance takes a front seat with chances for new and deeper connections. In relationships, communication will deepen bonds. Single Aries may encounter potential partners who match their adventurous spirit. Remember, true love also requires patience and understanding.</p><h3>Work</h3><p>Your professional life demands innovation and initiative. Step up as the leader you are, but also value collaboration. Career growth is on the horizon, but it requires consistent effort and adaptability. Networking will unlock doors to potential opportunities.</p><h3>Money</h3><p>Financially, strategic planning is key. Be mindful of impulsive spending and focus on long-term goals. Investment in self-improvement could lead to higher earning potential. This is a year to build, not just spend—financial advisors can provide guidance.</p>"
+      "desc": "<h3>Allmän.</h3><p>I år, Väduren, är du redo att slå nya spår. Ditt naturliga mod kommer att leda dig till outforskade territorier i livet. Även om din energi är hög, är balansen avgörande – ta dig tid att ladda om. Utmaningar kommer att dyka upp, men de är bara möjligheter att visa din styrka.</p><h3>Kärlek.</h3><p>Romance tar en framsäte med chanser till nya och djupare kontakter. I relationer kommer kommunikationen att fördjupa banden. Singel Vädur kan stöta på potentiella partners som matchar deras äventyrliga anda. Kom ihåg, sann kärlek kräver också tålamod och förståelse..</p><h3>Arbete.</h3><p>Ditt yrkesliv kräver innovation och initiativförmåga. Ta steget upp som den ledare du är, men värdesätt också samarbete. Karriärtillväxt är i horisonten, men det kräver konsekvent ansträngning och anpassningsförmåga. Nätverk kommer att öppna dörrar till potentiella möjligheter..</p><h3>Pengar.</h3><p>Ekonomiskt är strategisk planering nyckeln. Var uppmärksam på impulsiva utgifter och fokusera på långsiktiga mål. Investeringar i självförbättring kan leda till högre intjäningspotential. Det här är ett år att bygga, inte bara spendera – finansiella rådgivare kan ge vägledning.</p>"
     },
     "love": {
-      "section_title": "Aries Love Horoscope",
+      "section_title": "Vädurens kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -277,7 +277,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -288,7 +288,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -299,7 +299,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -310,7 +310,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -321,17 +321,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>capricious</h3><p>Aries can be a bit capricious in relationships. Aries doesn't care what others think of their relationship, as long as they think it's worth it. And when pursuing someone, Aries doesn't care what the outside world thinks. As long as Aries likes a person, they will try their best to be together.</p> ",
+      "article_html": "\n<h3>nyckfull.</h3><p>Väduren kan vara lite nyckfull i relationer. Väduren bryr sig inte om vad andra tycker om deras förhållande, så länge de tycker att det är värt det. Och när man förföljer någon bryr sig Aries inte om vad omvärlden tycker. Så länge Väduren gillar en person kommer de att göra sitt bästa för att vara tillsammans..</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<h3>capricious</h3><p>Aries can be a bit capricious in relationships. Aries doesn't care what others think of their relationship, as long as they think it's worth it. And when pursuing someone, Aries doesn't care what the outside world thinks. As long as Aries likes a person, they will try their best to be together.</p>"
+      "desc": "<h3>nyckfull.</h3><p>Väduren kan vara lite nyckfull i relationer. Väduren bryr sig inte om vad andra tycker om deras förhållande, så länge de tycker att det är värt det. Och när man förföljer någon bryr sig Aries inte om vad omvärlden tycker. Så länge Väduren gillar en person kommer de att göra sitt bästa för att vara tillsammans..</p>"
     },
     "health": {
-      "section_title": "Aries Health Horoscope",
+      "section_title": "Vädurens hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -342,7 +342,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -353,7 +353,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.0,
             0.0,
@@ -364,7 +364,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -375,7 +375,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -386,17 +386,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Emotional and mental state of Aries may be affected by more trivial matters. The quality of sleep is not very good, and you will easily wake up in the middle of the night. It is recommended not to drink too much water before going to bed, but you can sleep after taking a hot bath. In terms of diet, Aries can eat more fruits, such as apples, kiwi and grapes. Being rich in vitamins and minerals, they have the effect of strengthening immunity and improving the quality of sleep.</p> ",
+      "article_html": "\n<p>Vädurens känslomässiga och mentala tillstånd kan påverkas av mer triviala saker. Sömnkvaliteten är inte särskilt bra, och du kommer lätt att vakna mitt i natten. Det rekommenderas att inte dricka för mycket vatten innan du går och lägger dig, men du kan sova efter att ha tagit ett varmt bad. När det gäller kosten kan Väduren äta mer frukt, som äpplen, kiwi och vindruvor. Eftersom de är rika på vitaminer och mineraler har de effekten att stärka immuniteten och förbättra sömnkvaliteten.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>The mood is slightly depressed. When thinking about problems, Aries can't help but think in a negative way, causing many problems to get stuck in themselves. Physical resistance may be reduced, so it is advisable to do more exercise and keep a full warm-up before exercising to increase physical fitness.\nA change of perspective or an adjustment of mind will clear things up.</p>"
+      "desc": "<p>Humöret är något deprimerat. När man tänker på problem kan Väduren inte låta bli att tänka på ett negativt sätt, vilket gör att många problem fastnar i sig själva. Det fysiska motståndet kan minska, så det är lämpligt att träna mer och hålla en full uppvärmning innan du tränar för att öka den fysiska konditionen.\nEn förändring av perspektiv eller en justering av sinnet kommer att klara upp saker och ting..</p>"
     },
     "career": {
-      "section_title": "Aries Career Horoscope",
+      "section_title": "Vädurens karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -407,7 +407,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -418,7 +418,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -429,7 +429,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -440,7 +440,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -451,17 +451,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Aries prefers an environment of independence in their daily work. If boss can give Aries the authority to exercise their spontaneity, work can move forward very quickly. Another good workplace environment for An Aries is competitive. This will allow Aries to take on adventurous or independent tasks that will maximize Aries talents.</p> ",
+      "article_html": "\n<p>Väduren föredrar en miljö av självständighet i sitt dagliga arbete. Om chefen kan ge Väduren auktoritet att utöva sin spontanitet, kan arbetet gå framåt mycket snabbt. En annan bra arbetsplatsmiljö för An Aries är konkurrenskraftig. Detta kommer att tillåta Väduren att ta på sig äventyrliga eller självständiga uppgifter som kommer att maximera Vädurens talanger.</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>Aries has positive ambition, action and determination. They are good at breaking new ground. Aries can be very impulsive when it comes to personal prestige and will desperately seek social status. Aries will strive to compete with others, eager to win the competition and gain a reputation for professional excellence. Aries can be career blazers.</p>"
+      "desc": "<p>Väduren har positiv ambition, handling och beslutsamhet. De är bra på att bryta ny mark. Väduren kan vara väldigt impulsiv när det kommer till personlig prestige och kommer desperat att söka social status. Väduren kommer att sträva efter att konkurrera med andra, ivriga att vinna tävlingen och skaffa sig ett rykte om professionell excellens. Väduren kan vara karriärblazers..</p>"
     },
     "sex": {
-      "section_title": "Aries Sex Horoscope",
+      "section_title": "Vädurens sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/aries/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -472,7 +472,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -483,7 +483,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -494,7 +494,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -505,7 +505,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -516,9 +516,9 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p> ",
+      "article_html": "\n<p>Virvelvindsromantik är vanlig för Väduren. Men när kärleken väl börjar, varar den oftast hela livet. Så länge det finns tillräckligt med krydda och spänning för att hålla blodet flödande, kommer relationen att vara stark och varaktig. Vädurens eldiga natur gör dem evigt optimistiska. Medan Aries gillar att vara kreativ när det kommer till kärlek, sexuellt, gillar Aries inte att vara för komplicerad. Kom ihåg att det handlar om att vara direkt..</p> ",
       "image_src": "./img/aries.svg",
-      "desc": "<p>When it comes to romance, the manic fire sign of Aries is sure to take the initiative. When someone notices them, they move quickly. But in order to keep Aries' attention, someone needs to be as energetic and excited as they are. This passionate sign likes to take risks. So don't mistake Aries' irritability for boredom. It's not a sign that they'd prefer to go elsewhere or be with other people. It's a sign that they want to pick up the pace!</p>"
+      "desc": "<p>När det kommer till romantik kommer det maniska eldtecknet Väduren säkert att ta initiativet. När någon lägger märke till dem rör de sig snabbt. Men för att behålla Vädurens uppmärksamhet måste någon vara lika energisk och upprymd som de är. Denna passionerade skylt gillar att ta risker. Så misstag inte Vädurens irritabilitet med tristess. Det är inte ett tecken på att de föredrar att gå någon annanstans eller vara med andra människor. Det är ett tecken på att de vill öka tempot!.</p>"
     },
     "other": null
   },
@@ -589,12 +589,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Att ta ett långsamt och stadigt tillvägagångssätt hjälper dig att behålla din energi hela dagen..</p><h3>Kärlek:.</h3><p>Bekräfta ditt engagemang, och du kommer att känna den stabilitet som du värnar om. För singlar är tålamod nyckeln – låt relationer utvecklas naturligt.</p><h3>Arbete:.</h3><p>Du kan behöva hävda dig i en professionell situation. Stå fast i dina värderingar..</p><h3>Pengar:.</h3><p>Det är en lämplig tidpunkt att söka råd från en finansiell rådgivare för att säkerställa att du är på rätt väg.</p>"
     },
     "weekly": {
-      "section_title": "Taurus Weekly Horoscope",
+      "section_title": "Taurus veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -605,7 +605,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -616,7 +616,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -627,7 +627,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -638,7 +638,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -649,17 +649,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p> <h3>Lack of Enthusiasm</h3><p>If you have a partner, you and your partner will have a steady and calm week, but too much calm can make you feel like your relationship lacks passion. Sometimes you can take a break from work and travel. You will learn more about your partner in your new lifestyle. Learn to add some surprises to your relationship, which will make it even hotter. If you're single, chances are you've seen characters in movies or TV shows that fit your idea of a mate. Try to make more friends in your life.</p> <p>Stay in the present. Anxieties and fears about things that happened in the past should be left in the past.</p> <h3>Take exercise</h3><p>With all your energy being spent on your work team, the potential for burnout is high. So take care of your throat and kidneys. Try to have more exercise this week. It will help with your mood as moving your body releases endorphins, which transmit messages to the brain, translating into positive feelings. Regular exercise can help you fight depression, anxiety, loneliness, and other negative feelings and strengthen your immune system. Or you can go out for a walk.</p> ",
+      "article_html": "\n<h3>Ta ansvar och lyssna på åsikter.</h3><p>Ta inte genvägar för att nå dina mål på jobbet den här veckan. Det bästa vore om du var noggrann med vad som behöver göras den här veckan. Var inte självgod. Annars kan du förlora en del av din bonus. Du kommer att känna dig marginaliserad på jobbet den här veckan. Du kommer att göra det enkla arbetet medan dina kollegor tar stora uppdrag eller gör det hårdare arbetet. Oroa dig inte för det. Tiden som sparas är lämplig för att förbättra dina färdigheter. Det är lättare för dig att få hjälp av andra, men du måste införliva ditt teams input i din plan så att du kan uppnå dina mål snabbare.</p> <h3>Brist på entusiasm.</h3><p>Om du har en partner kommer du och din partner att ha en jämn och lugn vecka, men för mycket lugn kan få dig att känna att ditt förhållande saknar passion. Ibland kan man ta en paus från jobbet och resa. Du kommer att lära dig mer om din partner i din nya livsstil. Lär dig att lägga till några överraskningar till ditt förhållande, vilket kommer att göra det ännu hetare. Om du är singel är chansen stor att du har sett karaktärer i filmer eller tv-program som passar din idé om en kompis. Försök att få fler vänner i ditt liv..</p> <p>Håll dig i nuet. Ångest och rädsla för saker som hänt i det förflutna bör lämnas i det förflutna.</p> <h3>Ta motion.</h3><p>Med all din energi som läggs på ditt arbetslag är potentialen för utbrändhet stor. Så ta hand om din hals och njurar. Försök att träna mer den här veckan. Det kommer att hjälpa till med ditt humör eftersom att röra på din kropp frigör endorfiner, som överför meddelanden till hjärnan och omvandlas till positiva känslor. Regelbunden träning kan hjälpa dig att bekämpa depression, ångest, ensamhet och andra negativa känslor och stärka ditt immunförsvar. Eller så kan du gå ut på en promenad..</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p>"
+      "desc": "<h3>Ta ansvar och lyssna på åsikter.</h3><p>Ta inte genvägar för att nå dina mål på jobbet den här veckan. Det bästa vore om du var noggrann med vad som behöver göras den här veckan. Var inte självgod. Annars kan du förlora en del av din bonus. Du kommer att känna dig marginaliserad på jobbet den här veckan. Du kommer att göra det enkla arbetet medan dina kollegor tar stora uppdrag eller gör det hårdare arbetet. Oroa dig inte för det. Tiden som sparas är lämplig för att förbättra dina färdigheter. Det är lättare för dig att få hjälp av andra, men du måste införliva ditt teams input i din plan så att du kan uppnå dina mål snabbare.</p>"
     },
     "monthly": {
-      "section_title": "Taurus Monthly Horoscope",
+      "section_title": "Taurus månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -670,7 +670,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -681,7 +681,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -692,7 +692,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -703,7 +703,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -714,17 +714,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about personal development. Take up a new hobby or learn a new skill that enriches your life.</p><h3>Love:</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Work:</h3><p>Your attention to detail will be crucial in completing a project to a high standard. Your meticulous nature will not go unnoticed.</p><h3>Money:</h3><p>An opportunity to increase your income could arise. Keep an eye out for side hustles or educational opportunities that could expand your earning potential.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Den här månaden handlar om personlig utveckling. Skaffa dig en ny hobby eller lär dig en ny färdighet som berikar ditt liv..</p><h3>Kärlek:.</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Arbete:.</h3><p>Din uppmärksamhet på detaljer kommer att vara avgörande för att slutföra ett projekt till en hög standard. Din noggranna natur kommer inte att gå obemärkt förbi..</p><h3>Pengar:.</h3><p>En möjlighet att öka din inkomst kan uppstå. Håll utkik efter tjafs eller utbildningsmöjligheter som kan utöka din inkomstpotential.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>General:</h3><p>This month is about personal development. Take up a new hobby or learn a new skill that enriches your life.</p><h3>Love:</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Work:</h3><p>Your attention to detail will be crucial in completing a project to a high standard. Your meticulous nature will not go unnoticed.</p><h3>Money:</h3><p>An opportunity to increase your income could arise. Keep an eye out for side hustles or educational opportunities that could expand your earning potential.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Den här månaden handlar om personlig utveckling. Skaffa dig en ny hobby eller lär dig en ny färdighet som berikar ditt liv..</p><h3>Kärlek:.</h3>Your relationship will benefit from shared learning experiences. If single, consider educational settings as a place to meet a like-minded individual.<p></p><h3>Arbete:.</h3><p>Din uppmärksamhet på detaljer kommer att vara avgörande för att slutföra ett projekt till en hög standard. Din noggranna natur kommer inte att gå obemärkt förbi..</p><h3>Pengar:.</h3><p>En möjlighet att öka din inkomst kan uppstå. Håll utkik efter tjafs eller utbildningsmöjligheter som kan utöka din inkomstpotential.</p>"
     },
     "yearly": {
-      "section_title": "Taurus Yearly Horoscope",
+      "section_title": "Oxens årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -735,7 +735,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -746,7 +746,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -757,7 +757,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -768,7 +768,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -779,17 +779,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Taurus, this year is about embracing change and growing from it. Your usual comfort in routine will be challenged, but this will lead to personal evolution. Stay grounded, but don't resist the call to adapt. Your resilience will be your greatest asset.</p><h3>Love</h3><p>In matters of the heart, stability and loyalty remain your focus. For couples, it's time to nurture and possibly rekindle your connection. Singles should stay true to their values, attracting partners who appreciate your sincerity. Communication is vital—speak your heart with kindness.</p><h3>Work</h3><p>Work will require a delicate balance of persistence and flexibility. Your determination will serve you well in achieving your goals. Teamwork will bring success, so foster good relationships with colleagues. This year may offer a chance to turn a passion project into a career.</p><h3>Money</h3><p>Financially, consistency is your friend. Budgeting and saving are more important than ever. Look for investments that offer steady growth. Be cautious with large expenditures—research and planning are your allies in financial decisions.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Oxen, detta år handlar om att omfamna förändring och växa från den. Din vanliga komfort i rutin kommer att utmanas, men detta kommer att leda till personlig utveckling. Håll dig jordad, men motstå inte uppmaningen att anpassa dig. Din motståndskraft kommer att vara din största tillgång..</p><h3>Kärlek.</h3><p>I hjärtefrågor förblir stabilitet och lojalitet ditt fokus. För par är det dags att vårda och eventuellt återuppliva din anslutning. Singlar bör vara trogna sina värderingar och attrahera partners som uppskattar din uppriktighet. Kommunikation är avgörande - tala ditt hjärta med vänlighet..</p><h3>Arbete.</h3><p>Arbetet kommer att kräva en delikat balans mellan uthållighet och flexibilitet. Din beslutsamhet kommer att tjäna dig väl för att uppnå dina mål. Lagarbete kommer att ge framgång, så främja goda relationer med kollegor. Det här året kan erbjuda en chans att förvandla ett passionsprojekt till en karriär..</p><h3>Pengar.</h3><p>Ekonomiskt är konsekvens din vän. Budgetering och sparande är viktigare än någonsin. Leta efter investeringar som erbjuder stadig tillväxt. Var försiktig med stora utgifter – forskning och planering är dina allierade i ekonomiska beslut.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>General</h3><p>Taurus, this year is about embracing change and growing from it. Your usual comfort in routine will be challenged, but this will lead to personal evolution. Stay grounded, but don't resist the call to adapt. Your resilience will be your greatest asset.</p><h3>Love</h3><p>In matters of the heart, stability and loyalty remain your focus. For couples, it's time to nurture and possibly rekindle your connection. Singles should stay true to their values, attracting partners who appreciate your sincerity. Communication is vital—speak your heart with kindness.</p><h3>Work</h3><p>Work will require a delicate balance of persistence and flexibility. Your determination will serve you well in achieving your goals. Teamwork will bring success, so foster good relationships with colleagues. This year may offer a chance to turn a passion project into a career.</p><h3>Money</h3><p>Financially, consistency is your friend. Budgeting and saving are more important than ever. Look for investments that offer steady growth. Be cautious with large expenditures—research and planning are your allies in financial decisions.</p>"
+      "desc": "<h3>Allmän.</h3><p>Oxen, detta år handlar om att omfamna förändring och växa från den. Din vanliga komfort i rutin kommer att utmanas, men detta kommer att leda till personlig utveckling. Håll dig jordad, men motstå inte uppmaningen att anpassa dig. Din motståndskraft kommer att vara din största tillgång..</p><h3>Kärlek.</h3><p>I hjärtefrågor förblir stabilitet och lojalitet ditt fokus. För par är det dags att vårda och eventuellt återuppliva din anslutning. Singlar bör vara trogna sina värderingar och attrahera partners som uppskattar din uppriktighet. Kommunikation är avgörande - tala ditt hjärta med vänlighet..</p><h3>Arbete.</h3><p>Arbetet kommer att kräva en delikat balans mellan uthållighet och flexibilitet. Din beslutsamhet kommer att tjäna dig väl för att uppnå dina mål. Lagarbete kommer att ge framgång, så främja goda relationer med kollegor. Det här året kan erbjuda en chans att förvandla ett passionsprojekt till en karriär..</p><h3>Pengar.</h3><p>Ekonomiskt är konsekvens din vän. Budgetering och sparande är viktigare än någonsin. Leta efter investeringar som erbjuder stadig tillväxt. Var försiktig med stora utgifter – forskning och planering är dina allierade i ekonomiska beslut.</p>"
     },
     "love": {
-      "section_title": "Taurus Love Horoscope",
+      "section_title": "Oxens kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -800,7 +800,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -811,7 +811,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -822,7 +822,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -833,7 +833,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -844,17 +844,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<h3>peaceful &amp; stubborn</h3><p>Taurus exhibits a state of emotional stability in most situations in love. Taurus has a peaceful mind and is rarely excited or depressed. But Taureans are also stubborn and usually don't change after they make a decision.</p> ",
+      "article_html": "\n<h3>fredlig & envis.</h3><p>Oxen uppvisar ett tillstånd av känslomässig stabilitet i de flesta situationer i kärlek. Oxen har ett fridfullt sinne och är sällan upphetsad eller deprimerad. Men Oxar är också envisa och förändras vanligtvis inte efter att de har fattat ett beslut.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<h3>monogamous</h3><p>Taurus is monogamous in relationships. Once Taurus has a mate, they will treat that person as their one and only. Taurus is almost impossible to empathize with other people and deserves a lot of trust.</p>"
+      "desc": "<h3>monogam.</h3><p>Oxen är monogam i relationer. När Oxen har en kompis kommer de att behandla den personen som sin enda. Oxen är nästan omöjlig att känna empati med andra människor och förtjänar mycket förtroende..</p>"
     },
     "health": {
-      "section_title": "Taurus Health Horoscope",
+      "section_title": "Taurus hälsa horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -865,7 +865,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -876,7 +876,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -887,7 +887,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -898,7 +898,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -909,17 +909,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taurus should pay special attention to their diet. You may be prone to allergies, especially if you like seafood, Taurus. Be careful not to eat too much of it and also to stay away from your allergens to avoid suffering.There is also a case of not having a good appetite for all the things you like to eat. However, it is advisable for Taurus to eat regularly, more or less often, so as not to starve.It is also important not to eat too much hot or pickled food as this can lead to health risks.</p> ",
+      "article_html": "\n<p>Oxen bör ägna särskild uppmärksamhet åt sin kost. Du kan vara benägen att få allergier, speciellt om du gillar skaldjur, Oxen. Var noga med att inte äta för mycket av det och även att hålla dig borta från dina allergener för att undvika lidande. Det finns också ett fall av att du inte har en god aptit på allt du gillar att äta. Det är dock tillrådligt för Oxen att äta regelbundet, mer eller mindre ofta, för att inte svälta. Det är också viktigt att inte äta för mycket varm eller inlagd mat eftersom detta kan leda till hälsorisker.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>Sentimentality may affect Taurus and negative emotions may cause you pain. You need an outlet to release your emotions, but don't take it out on those close to you. Also, Taurus should be aware that overindulging in your emotional outbursts can affect your mental state and have some negative health effects. In this case, Taurus needs a better night's sleep. Therefore, try to drink less strong tea, milk tea and coffee right after the afternoon. These drinks tend to affect the quality of sleep at night and may cause insomnia or excessive dreaming.</p>"
+      "desc": "<p>Sentimentalitet kan påverka Oxen och negativa känslor kan orsaka smärta. Du behöver ett utlopp för att släppa dina känslor, men ta det inte ut på dina nära. Oxen bör också vara medveten om att överhängande av dina känslomässiga utbrott kan påverka ditt mentala tillstånd och ha vissa negativa hälsoeffekter. I det här fallet behöver Oxen en bättre nattsömn. Försök därför att dricka mindre starkt te, mjölkte och kaffe direkt efter eftermiddagen. Dessa drycker tenderar att påverka sömnkvaliteten på natten och kan orsaka sömnlöshet eller överdrivet drömmande.</p>"
     },
     "career": {
-      "section_title": "Taurus Career Horoscope",
+      "section_title": "Taurus karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -930,7 +930,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -941,7 +941,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -952,7 +952,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.0,
@@ -963,7 +963,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -974,17 +974,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taureans are slow and steady. They don't give up halfway through a task. This has to do with the fact that Taurus is a responsible person. Taureans are good for starting at the bottom and slowly developing their ability to work for themselves. They are the type of person who will grow with experience. However, when things go wrong in Taurus, they don't have enough motivation to push things forward and tend to run away from problems, making them unsuitable for high-stress companies.</p> ",
+      "article_html": "\n<p>Oxar är långsamma och stadiga. De ger sig inte halvvägs genom en uppgift. Detta har att göra med att Oxen är en ansvarsfull person. Oxar är bra för att börja på botten och långsamt utveckla sin förmåga att arbeta för sig själva. De är den typen av person som kommer att växa med erfarenhet. Men när saker går fel i Oxen har de inte tillräckligt med motivation för att driva saker framåt och tenderar att fly från problem, vilket gör dem olämpliga för företag med hög stress.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>Taureans are usually slow to warm up. It takes a while to get used to a relationship, job, or situation, but once they get used to it, they rarely change unless forced to. Taureans are not impatient and impulsive, but patient. Taurus is also very stubborn and doesn't like to change things once they have made up their minds.</p>"
+      "desc": "<p>Oxar är vanligtvis långsamma att värma upp. Det tar ett tag att vänja sig vid en relation, ett jobb eller en situation, men när de väl har vant sig, förändras de sällan om de inte tvingas till det. Oxar är inte otåliga och impulsiva, utan tålmodiga. Oxen är också väldigt envis och gillar inte att ändra på saker när de väl har bestämt sig..</p>"
     },
     "sex": {
-      "section_title": "Taurus Sex Horoscope",
+      "section_title": "Sexhoroskop för Oxen.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/taurus/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -995,7 +995,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1006,7 +1006,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1017,7 +1017,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1028,7 +1028,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1039,9 +1039,9 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Taurus prefers real conversations to jokes or jesting as opposed to flirting. Forget trying to figure out what Taurus wants you to say. When you're insincere, this sign will feel that nothing is more important than closure. Using a sexy perfume or cologne is a great way to attract a Taurus, especially if the scent is sweet, like vanilla. Taurus also likes to touch their partner and be touched, so they enjoy massages, hugs and dancing.</p> ",
+      "article_html": "\n<p>Oxen föredrar riktiga konversationer framför skämt eller skämt i motsats till att flirta. Glöm att försöka komma på vad Oxen vill att du ska säga. När du är ouppriktig kommer detta tecken att känna att ingenting är viktigare än stängning. Att använda en sexig parfym eller cologne är ett bra sätt att locka till sig en Oxe, speciellt om doften är söt, som vanilj. Oxen gillar också att röra sin partner och bli berörd, så de njuter av massage, kramar och dans.</p> ",
       "image_src": "./img/taurus.svg",
-      "desc": "<p>The Tauruses are quiet and introverted in nature, and are more likely to be shy when dealing with the opposite sex. Therefore, it is very difficult for them to develop a romantic relationship with the person they meet by chance. But through the matchmaking, it will have a different ending. Because of the prior knowledge of the person they are going to meet, they can communicate with each other calmly and let each other open up their own conversation box. During the question-and-answer session, you will be able to relax and get to know each other well.</p>"
+      "desc": "<p>Oxarna är tysta och introverta till sin natur och är mer benägna att vara blyga när de har att göra med det motsatta könet. Därför är det väldigt svårt för dem att utveckla en romantisk relation med personen de träffar av en slump. Men genom matchmakingen kommer det att få ett annat slut. På grund av förkunskaperna hos personen de ska träffa kan de kommunicera med varandra lugnt och låta varandra öppna upp sin egen samtalslåda. Under frågestunden kommer ni att kunna koppla av och lära känna varandra väl..</p>"
     },
     "other": null
   },
@@ -1112,12 +1112,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Flexibilitet kommer att vara din bästa tillgång idag eftersom planer kan ändras oväntat. Gå med strömmen!.</p><h3>Kärlek:.</h3><p>Ett lekfullt skämt med din partner kommer att hålla relationen livlig. För singlar är din charm särskilt stark idag..</p><h3>Arbete:.</h3><p>Samarbetsprojekt kommer att dra nytta av dina innovativa idéer. Håll inte tillbaka i brainstormingsessioner..</p><h3>Pengar:.</h3><p>Det kan vara dags att tänka om din budget – leta efter sätt att minska onödiga utgifter.</p>"
     },
     "weekly": {
-      "section_title": "Gemini Weekly Horoscope",
+      "section_title": "Tvillingarnas veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1128,7 +1128,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1139,7 +1139,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -1150,7 +1150,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1161,7 +1161,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1172,17 +1172,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>Keep thinking</h3><p>Your work schedule will be more flexible this week, and you will be able to get things done and be more productive. Although this week's schedule is more formal, it is recommended that you focus on a few things. Use your sharp mind to try different things this week. Find things that interest you and pay more attention to them. This will keep you motivated and avoid self-doubt.</p> <h3>Madly in love</h3><p>Someone of the opposite sex will be close to you this week. This person may not be who you think they are, but don't be the first to reject them. Try to get along. Love is a flash of lightning. If you're unattached, your relationship with your significant other will enter a new phase. Both partners will take the initiative to move the relationship forward, and in addition to the vision, they will also take concrete actions to implement each other's ideas. Another possibility is that the ensuing romance involves a meeting at work or an academic presentation. You may fall in love at first sight and quickly fall in love, but your lack of rational thinking has hidden dangers.</p> <p>Everyone makes mistakes. Accept the truth and embrace your imperfection will not make you weaker.</p> <h3>Get sound sleep</h3><p>Overeating can easily lead to gastrointestinal discomfort. It is recommended that people minimize the number of times they eat out and take care of their gastrointestinal problems. The bad news is that you may begin sleeping problems this week. Sleep is strongly linked to health, stress levels, weight, and quality of life. Developing a good sleep schedule, watching what you eat, and managing stress can all help you get sound sleep. In rare cases, medical intervention might be needed.</p> ",
+      "article_html": "\n<h3>Fortsätt tänka.</h3><p>Ditt arbetsschema kommer att vara mer flexibelt den här veckan, och du kommer att kunna få saker gjorda och bli mer produktiv. Även om veckans schema är mer formellt rekommenderas det att du fokuserar på några saker. Använd ditt skarpa sinne för att prova olika saker den här veckan. Hitta saker som intresserar dig och ägna mer uppmärksamhet åt dem. Detta kommer att hålla dig motiverad och undvika självtvivel..</p> <h3>Galet kär.</h3><p>Någon av det motsatta könet kommer att vara nära dig den här veckan. Den här personen kanske inte är den du tror att den är, men var inte den första att avvisa dem. Försök att komma överens. Kärlek är en blixt. Om du är obunden kommer din relation med din partner att gå in i en ny fas. Båda parter kommer att ta initiativ för att föra relationen framåt, och utöver visionen kommer de också att vidta konkreta åtgärder för att implementera varandras idéer. En annan möjlighet är att den efterföljande romansen innebär ett möte på jobbet eller en akademisk presentation. Du kan bli kär vid första ögonkastet och snabbt bli kär, men din brist på rationellt tänkande har dolda faror.</p> <p>Alla gör misstag. Acceptera sanningen och omfamna din ofullkomlighet kommer inte att göra dig svagare..</p> <h3>Sov gott.</h3><p>Att äta för mycket kan lätt leda till gastrointestinala besvär. Det rekommenderas att människor minimerar antalet gånger de äter ute och tar hand om sina gastrointestinala problem. Den dåliga nyheten är att du kan börja sömnproblem den här veckan. Sömn är starkt kopplad till hälsa, stressnivåer, vikt och livskvalitet. Att ta fram ett bra sömnschema, titta på vad du äter och hantera stress kan hjälpa dig att sova gott. I sällsynta fall kan medicinsk intervention behövas..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>Keep thinking</h3><p>Your work schedule will be more flexible this week, and you will be able to get things done and be more productive. Although this week's schedule is more formal, it is recommended that you focus on a few things. Use your sharp mind to try different things this week. Find things that interest you and pay more attention to them. This will keep you motivated and avoid self-doubt.</p>"
+      "desc": "<h3>Fortsätt tänka.</h3><p>Ditt arbetsschema kommer att vara mer flexibelt den här veckan, och du kommer att kunna få saker gjorda och bli mer produktiv. Även om veckans schema är mer formellt rekommenderas det att du fokuserar på några saker. Använd ditt skarpa sinne för att prova olika saker den här veckan. Hitta saker som intresserar dig och ägna mer uppmärksamhet åt dem. Detta kommer att hålla dig motiverad och undvika självtvivel..</p>"
     },
     "monthly": {
-      "section_title": "Gemini Monthly Horoscope",
+      "section_title": "Tvillingarnas månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1193,7 +1193,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.0,
@@ -1204,7 +1204,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1215,7 +1215,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -1226,7 +1226,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1237,17 +1237,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your natural curiosity could lead you to pick up a new hobby or study. Follow your interests wherever they lead you.</p><h3>Love:</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Work:</h3><p>You may be required to multitask more than usual. Stay organized to keep on top of things.</p><h3>Money:</h3><p>You might discover a new way to make money on the side. Explore any entrepreneurial ideas you have.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Din naturliga nyfikenhet kan leda till att du skaffar en ny hobby eller studerar. Följ dina intressen vart de än leder dig..</p><h3>Kärlek:.</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Arbete:.</h3><p>Du kan behöva multitaska mer än vanligt. Håll dig organiserad för att hålla koll på saker och ting..</p><h3>Pengar:.</h3><p>Du kanske upptäcker ett nytt sätt att tjäna pengar vid sidan av. Utforska alla entreprenörsidéer du har..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>General:</h3><p>Your natural curiosity could lead you to pick up a new hobby or study. Follow your interests wherever they lead you.</p><h3>Love:</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Work:</h3><p>You may be required to multitask more than usual. Stay organized to keep on top of things.</p><h3>Money:</h3><p>You might discover a new way to make money on the side. Explore any entrepreneurial ideas you have.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Din naturliga nyfikenhet kan leda till att du skaffar en ny hobby eller studerar. Följ dina intressen vart de än leder dig..</p><h3>Kärlek:.</h3>If in a relationship, try a new activity together to keep things exciting. Single Geminis might meet someone with similar interests in a class or workshop.<p></p><h3>Arbete:.</h3><p>Du kan behöva multitaska mer än vanligt. Håll dig organiserad för att hålla koll på saker och ting..</p><h3>Pengar:.</h3><p>Du kanske upptäcker ett nytt sätt att tjäna pengar vid sidan av. Utforska alla entreprenörsidéer du har..</p>"
     },
     "yearly": {
-      "section_title": "Gemini Yearly Horoscope",
+      "section_title": "Gemini årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1258,7 +1258,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1269,7 +1269,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -1280,7 +1280,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1291,7 +1291,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -1302,17 +1302,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Gemini, this year is about intellectual growth and exploring new interests. Your adaptability will serve you well as you navigate through diverse experiences. Social interactions will bring valuable insights, so keep an open mind. Balance your curiosity with commitment to make the most of this year.</p><h3>Love</h3><p>Your love life will be vibrant and dynamic. Communication is key—express your needs and listen to your partner's. For singles, your charm will attract many, but seek a connection that stimulates your mind. Be honest with yourself and others about what you want in a relationship.</p><h3>Work</h3><p>Professionally, your versatility will open many doors. Embrace opportunities to learn and expand your skill set. Team projects will benefit from your innovative ideas. Stay organized to manage multiple tasks effectively.</p><h3>Money</h3><p>Financially, this is a year to be smart and inventive. Diversify your income streams if possible. Budget for spontaneity, but keep savings a priority. Investments in technology or education may prove beneficial.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Tvillingarna, detta år handlar om intellektuell tillväxt och att utforska nya intressen. Din anpassningsförmåga kommer att tjäna dig väl när du navigerar genom olika upplevelser. Sociala interaktioner kommer att ge värdefulla insikter, så håll ett öppet sinne. Balansera din nyfikenhet med engagemang för att få ut det mesta av detta år..</p><h3>Kärlek.</h3><p>Ditt kärleksliv kommer att vara levande och dynamiskt. Kommunikation är nyckeln – uttryck dina behov och lyssna på din partners. För singlar kommer din charm att locka många, men sök en anslutning som stimulerar ditt sinne. Var ärlig mot dig själv och andra om vad du vill ha i ett förhållande..</p><h3>Arbete.</h3><p>Professionellt kommer din mångsidighet att öppna många dörrar. Omfamna möjligheter att lära sig och utöka din kompetens. Teamprojekt kommer att dra nytta av dina innovativa idéer. Håll dig organiserad för att hantera flera uppgifter effektivt..</p><h3>Pengar.</h3><p>Ekonomiskt är det här ett år att vara smart och uppfinningsrik. Diversifiera dina inkomstströmmar om möjligt. Budgetera för spontanitet, men prioritera sparandet. Investeringar i teknik eller utbildning kan visa sig vara fördelaktiga..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>General</h3><p>Gemini, this year is about intellectual growth and exploring new interests. Your adaptability will serve you well as you navigate through diverse experiences. Social interactions will bring valuable insights, so keep an open mind. Balance your curiosity with commitment to make the most of this year.</p><h3>Love</h3><p>Your love life will be vibrant and dynamic. Communication is key—express your needs and listen to your partner's. For singles, your charm will attract many, but seek a connection that stimulates your mind. Be honest with yourself and others about what you want in a relationship.</p><h3>Work</h3><p>Professionally, your versatility will open many doors. Embrace opportunities to learn and expand your skill set. Team projects will benefit from your innovative ideas. Stay organized to manage multiple tasks effectively.</p><h3>Money</h3><p>Financially, this is a year to be smart and inventive. Diversify your income streams if possible. Budget for spontaneity, but keep savings a priority. Investments in technology or education may prove beneficial.</p>"
+      "desc": "<h3>Allmän.</h3><p>Tvillingarna, detta år handlar om intellektuell tillväxt och att utforska nya intressen. Din anpassningsförmåga kommer att tjäna dig väl när du navigerar genom olika upplevelser. Sociala interaktioner kommer att ge värdefulla insikter, så håll ett öppet sinne. Balansera din nyfikenhet med engagemang för att få ut det mesta av detta år..</p><h3>Kärlek.</h3><p>Ditt kärleksliv kommer att vara levande och dynamiskt. Kommunikation är nyckeln – uttryck dina behov och lyssna på din partners. För singlar kommer din charm att locka många, men sök en anslutning som stimulerar ditt sinne. Var ärlig mot dig själv och andra om vad du vill ha i ett förhållande..</p><h3>Arbete.</h3><p>Professionellt kommer din mångsidighet att öppna många dörrar. Omfamna möjligheter att lära sig och utöka din kompetens. Teamprojekt kommer att dra nytta av dina innovativa idéer. Håll dig organiserad för att hantera flera uppgifter effektivt..</p><h3>Pengar.</h3><p>Ekonomiskt är det här ett år att vara smart och uppfinningsrik. Diversifiera dina inkomstströmmar om möjligt. Budgetera för spontanitet, men prioritera sparandet. Investeringar i teknik eller utbildning kan visa sig vara fördelaktiga..</p>"
     },
     "love": {
-      "section_title": "Gemini Love Horoscope",
+      "section_title": "Tvillingarnas kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1323,7 +1323,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1334,7 +1334,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1345,7 +1345,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1356,7 +1356,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1367,17 +1367,17 @@ const dataPage = {
           "score": 2.0
         }
       ],
-      "article_html": "\n<h3>Interest in many</h3><p>Geminis like a lot of things and tend to be interested in more than one person. Gemini's liking may be rational, that is, whatever Gemini doesn't hate is liking. But Geminis are more interested in being needed in a relationship and want their partner to discover their inner needs. This is a sign of being taken seriously.</p> ",
+      "article_html": "\n<h3>Intresse för många.</h3><p>Tvillingar gillar många saker och tenderar att vara intresserade av mer än en person. Tvillingarnas tycke kan vara rationellt, det vill säga vad Tvillingarna inte hatar är att tycka om. Men Tvillingarna är mer intresserade av att behövas i ett förhållande och vill att deras partner ska upptäcka deras inre behov. Detta är ett tecken på att bli tagen på allvar..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<h3>fickle &amp; fresh</h3><p>Geminis are fickle, so it's hard for them to settle down and do the same thing. In other words, Gemini is very impatient. Geminis are terrified of boredom and hate conventional relationships. Geminis want a lover who will keep them fresh. Go on different adventures with them, bringing romance and happiness to the Geminis.</p>"
+      "desc": "<h3>ombytlig & fräsch.</h3><p>Tvillingarna är ombytliga, så det är svårt för dem att slå sig ner och göra samma sak. Tvillingarna är med andra ord väldigt otåliga. Tvillingarna är livrädda för tristess och hatar konventionella relationer. Tvillingarna vill ha en älskare som håller dem fräscha. Åk på olika äventyr med dem och ge dem romantik och lycka till Tvillingarna.</p>"
     },
     "health": {
-      "section_title": "Gemini Health Horoscope",
+      "section_title": "Tvillingarnas hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1388,7 +1388,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -1399,7 +1399,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1410,7 +1410,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1421,7 +1421,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -1432,17 +1432,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>There is little motivation for Gemini today. Try to do something to heal yourself and lighten your state of mind a little. Keep up a moderate amount of exercise and consider practising yoga to tone your body and mind.Chia seeds are healthy as they absorb water and help keep the stomach feeling full. Gemini, sprinkle chilli seeds on your morning yoghurt, smoothie or even salad today.</p> ",
+      "article_html": "\n<p>Det finns liten motivation för Tvillingarna idag. Försök att göra något för att läka dig själv och lätta upp ditt sinnestillstånd lite. Håll upp en måttlig mängd motion och överväg att utöva yoga för att tona din kropp och själ. Chiafrön är hälsosamma eftersom de absorberar vatten och hjälper till att hålla magen mätt. Tvillingarna, strö chilifrön på din morgonyoghurt, smoothie eller till och med sallad idag..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Surging motivation makes it easier for Gemini to focus on working hard. You could just try starting the day with a physical workout to encourage more physical and emotional energy.It is said that coconut oil helps to reduce belly fat and it can replace almost any cooking oil you might use. Just try using coconut oil to fry up some stir-fry dishes topped with liquid amino acids, Gemini.</p>"
+      "desc": "<p>Ökad motivation gör det lättare för Tvillingarna att fokusera på att arbeta hårt. Du kan bara försöka börja dagen med ett fysiskt träningspass för att uppmuntra mer fysisk och känslomässig energi. Det sägs att kokosolja hjälper till att minska magfettet och den kan ersätta nästan all matolja du kan använda. Testa bara att använda kokosolja för att steka upp några wokade rätter toppade med flytande aminosyror, Gemini..</p>"
     },
     "career": {
-      "section_title": "Gemini Career Horoscope",
+      "section_title": "Gemini karriär horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1453,7 +1453,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1464,7 +1464,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1475,7 +1475,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1486,7 +1486,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.0,
@@ -1497,17 +1497,17 @@ const dataPage = {
           "score": 1.0
         }
       ],
-      "article_html": "\n<p>Gemini is good for brain and communication. This satisfies the Gemini's analytical and critical thirst for writers, journalists, and communicators. Geminis love to gossip about their lives. They have strong ability to adapt to the environment and interpersonal communication skills. Gemini is also quick-witted and has a sense of humor.</p> ",
+      "article_html": "\n<p>Tvillingarna är bra för hjärnan och kommunikationen. Detta tillfredsställer Tvillingarnas analytiska och kritiska törst efter författare, journalister och kommunikatörer. Tvillingarna älskar att skvallra om sina liv. De har en stark förmåga att anpassa sig till miljön och interpersonell kommunikationsförmåga. Tvillingarna är också kvicktänkta och har ett sinne för humor..</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Geminis have many opinions. They don't like overly complicated rules and don't care what other people think. One of the greatest strengths of Geminis is that they are quick to react and their ideas are often thorough and creative. So instead of asking them to draw a schedule, give them the freedom to play at work to make the most of it.</p>"
+      "desc": "<p>Tvillingarna har många åsikter. De gillar inte alltför komplicerade regler och bryr sig inte om vad andra tycker. En av de största styrkorna med Geminis är att de är snabba att reagera och deras idéer är ofta noggranna och kreativa. Så istället för att be dem rita ett schema, ge dem friheten att leka på jobbet för att få ut det mesta av det.</p>"
     },
     "sex": {
-      "section_title": "Gemini Sex Horoscope",
+      "section_title": "Gemini sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/gemini/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -1518,7 +1518,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1529,7 +1529,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1540,7 +1540,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -1551,7 +1551,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1562,9 +1562,9 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Energetic and intense, Geminis have many changing parts to their personality and they love to date. In fact, they consider dating to be a skill. Geminis are very good at drawing first dates out of their shell and they rarely have a 'bad' date as this optimistic sign always finds something positive in the people they meet or the conversations they have. Of course, these traits are also reflected in their sexual interests. Geminis love mental stimulation and are quick to do anything, so if you're dating a Gemini, you need to stay alert.</p> ",
+      "article_html": "\n<p>Energisk och intensiv, Tvillingarna har många föränderliga delar av sin personlighet och de älskar att dejta. Faktum är att de anser att dejting är en färdighet. Tvillingarna är väldigt duktiga på att dra första dejten ur sitt skal och de har sällan en \"dålig\" dejt eftersom detta optimistiska tecken alltid hittar något positivt i människorna de möter eller samtalen de har. Naturligtvis återspeglas dessa egenskaper också i deras sexuella intressen. Tvillingar älskar mental stimulering och är snabba på att göra vad som helst, så om du dejtar en Tvilling måste du vara uppmärksam.</p> ",
       "image_src": "./img/gemini.svg",
-      "desc": "<p>Even when dating is fun, it can be hard for a Gemini to take the next step. Although Geminis have a fondness for the idea of love, they are also passionate about their independence. They want to make sure they don't give up anything before they take the next step. Although Geminis are not dishonest, their ruling planet Mercury makes them particularly good at telling people what they want to hear - some may see this as leading people on. Gemini is a smart, talkative sign, so you'll need to practise your flirting skills.</p>"
+      "desc": "<p>Även när dejting är roligt kan det vara svårt för en Tvilling att ta nästa steg. Även om Tvillingarna har en förkärlek för idén om kärlek, brinner de också för sitt oberoende. De vill se till att de inte ger upp någonting innan de tar nästa steg. Även om Tvillingarna inte är oärliga, gör deras härskande planet Merkurius dem särskilt bra på att berätta för människor vad de vill höra - vissa kanske ser detta som att leda människor vidare. Tvillingarna är ett smart, pratsamt tecken, så du måste öva på dina flirtfärdigheter.</p>"
     },
     "other": null
   },
@@ -1635,12 +1635,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>En lugn och fridfull dag väntar. Använd detta lugn för att ladda dina känslomässiga batterier..</p><h3>Kärlek:.</h3><p>Små handlingar av vänlighet kommer att betyda mycket för din partner. För singlar är självkärlek lika viktig som romantisk kärlek..</p><h3>Arbete:.</h3><p>En jämn takt kommer att hålla dig produktiv utan att orsaka stress. Prioritera dina uppgifter..</p><h3>Pengar:.</h3><p>Undvik impulsiva ekonomiska beslut. Håll dig till din budget och spara till en regnig dag..</p>"
     },
     "weekly": {
-      "section_title": "Cancer Weekly Horoscope",
+      "section_title": "Veckohoroskop för cancer.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1651,7 +1651,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1662,7 +1662,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -1673,7 +1673,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -1684,7 +1684,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1695,17 +1695,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p> <h3>Away from the ex</h3><p>Your love life will be strong this week, so if you are the one being expressed, try saying yes. Because you're ready for a new relationship. If you're in a relationship with someone, staying away from your ex is important. Especially when a relationship is on the rise, it's important to minimize surprises.</p> <p>As a thank-you to yourself, give yourself a break or vacation that is different from the ordinary. Set some time side and make it special.</p> <h3>Protect your eyes</h3><p>Vision is one of your most important faculties, so you should be very mindful about protecting your precious eyes.  Exposure to TV, computer and mobile phones should be limited. If you have to look at the screen for the bulk of the day, you can at least make the screen more eye-friendly by adjusting the screen brightness and increasing the text size.</p> ",
+      "article_html": "\n<h3>Ta ansvar och lyssna på åsikter.</h3><p>Ta inte genvägar för att nå dina mål på jobbet den här veckan. Det bästa vore om du var noggrann med vad som behöver göras den här veckan. Var inte självgod. Annars kan du förlora en del av din bonus. Du kommer att känna dig marginaliserad på jobbet den här veckan. Du kommer att göra det enkla arbetet medan dina kollegor tar stora uppdrag eller gör det hårdare arbetet. Oroa dig inte för det. Tiden som sparas är lämplig för att förbättra dina färdigheter. Det är lättare för dig att få hjälp av andra, men du måste införliva ditt teams input i din plan så att du kan uppnå dina mål snabbare.</p> <h3>Bort från exet.</h3><p>Ditt kärleksliv kommer att vara starkt den här veckan, så om du är den som uttrycks, försök att säga ja. För du är redo för ett nytt förhållande. Om du är i ett förhållande med någon är det viktigt att hålla sig borta från ditt ex. Speciellt när ett förhållande är på uppgång är det viktigt att minimera överraskningar.</p> <p>Som ett tack till dig själv, ge dig själv en paus eller semester som är annorlunda än det vanliga. Ställ in lite tid och gör det speciellt..</p> <h3>Skydda dina ögon.</h3><p>Syn är en av dina viktigaste förmågor, så du bör vara mycket uppmärksam på att skydda dina dyrbara ögon.  Exponering för TV, dator och mobiltelefoner bör begränsas. Om du måste titta på skärmen under större delen av dagen kan du åtminstone göra skärmen mer ögonvänlig genom att justera skärmens ljusstyrka och öka textstorleken.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>Be responsible &amp; Listen to opinions</h3><p>Don't take shortcuts to achieve your goals at work this week. It would be best if you were conscientious about what needs to be done this week. Don't be self-righteous. Otherwise, you may lose some of your bonus. You will feel marginalized at work this week. You will do the easy work while your colleagues take on big assignments or do the harder work. Don't worry about it. The time saved is suitable for improving your skills. It's easier for you to get help from others, but you need to incorporate your team's input into your plan so you can accomplish your goals more quickly.</p>"
+      "desc": "<h3>Ta ansvar och lyssna på åsikter.</h3><p>Ta inte genvägar för att nå dina mål på jobbet den här veckan. Det bästa vore om du var noggrann med vad som behöver göras den här veckan. Var inte självgod. Annars kan du förlora en del av din bonus. Du kommer att känna dig marginaliserad på jobbet den här veckan. Du kommer att göra det enkla arbetet medan dina kollegor tar stora uppdrag eller gör det hårdare arbetet. Oroa dig inte för det. Tiden som sparas är lämplig för att förbättra dina färdigheter. Det är lättare för dig att få hjälp av andra, men du måste införliva ditt teams input i din plan så att du kan uppnå dina mål snabbare.</p>"
     },
     "monthly": {
-      "section_title": "Cancer Monthly Horoscope",
+      "section_title": "Cancer månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1716,7 +1716,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1727,7 +1727,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -1738,7 +1738,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1749,7 +1749,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1760,17 +1760,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is a time for introspection and personal growth. Focus on nurturing yourself as much as you nurture others. Embrace change as it comes.</p><h3>Love:</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Work:</h3><p>Teamwork will be particularly rewarding at work. Your intuition can guide you to make valuable contributions during group projects.</p><h3>Money:</h3><p>Financial security is on your mind. It's a good time to review your savings and set up a budget that allows for unexpected expenses.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Den här månaden är en tid för introspektion och personlig utveckling. Fokusera på att vårda dig själv lika mycket som du vårdar andra. Omfamna förändringen när den kommer..</p><h3>Kärlek:.</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Arbete:.</h3><p>Lagarbete kommer att vara särskilt givande på jobbet. Din intuition kan vägleda dig att göra värdefulla bidrag under gruppprojekt.</p><h3>Pengar:.</h3><p>Du tänker på ekonomisk säkerhet. Det är ett bra tillfälle att se över dina besparingar och sätta upp en budget som tillåter oväntade utgifter.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>General:</h3><p>This month is a time for introspection and personal growth. Focus on nurturing yourself as much as you nurture others. Embrace change as it comes.</p><h3>Love:</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Work:</h3><p>Teamwork will be particularly rewarding at work. Your intuition can guide you to make valuable contributions during group projects.</p><h3>Money:</h3><p>Financial security is on your mind. It's a good time to review your savings and set up a budget that allows for unexpected expenses.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Den här månaden är en tid för introspektion och personlig utveckling. Fokusera på att vårda dig själv lika mycket som du vårdar andra. Omfamna förändringen när den kommer..</p><h3>Kärlek:.</h3>Your empathetic nature will deepen connections in your love life. If you're in a relationship, plan a cozy night in. Single Cancers might find a spark with someone who values emotional depth.<p></p><h3>Arbete:.</h3><p>Lagarbete kommer att vara särskilt givande på jobbet. Din intuition kan vägleda dig att göra värdefulla bidrag under gruppprojekt.</p><h3>Pengar:.</h3><p>Du tänker på ekonomisk säkerhet. Det är ett bra tillfälle att se över dina besparingar och sätta upp en budget som tillåter oväntade utgifter.</p>"
     },
     "yearly": {
-      "section_title": "Cancer Yearly Horoscope",
+      "section_title": "Årshoroskop för cancer.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.0,
@@ -1781,7 +1781,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1792,7 +1792,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1803,7 +1803,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1814,7 +1814,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.0,
             0.0,
@@ -1825,17 +1825,17 @@ const dataPage = {
           "score": 0.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Cancer, this year is a tapestry of emotional depth and self-reflection. You'll find strength in your vulnerability, allowing for personal growth and healing. Prioritize self-care and don't shy away from asserting your needs. Challenges may arise, but your intuitive nature will guide you through smoothly. Embrace change as it comes; it's the universe nudging you towards growth.</p><h3>Love</h3><p>In love, Cancers will find that openness leads to deeper connections. For those in relationships, it's a year to work on understanding and nurturing your bond. Communication is your alley; share your feelings and encourage your partner to do the same. Single Cancers might find love closer than expected, perhaps with a friend turning into something more. Trust your heart, but also be patient; love grows in its own time.</p><h3>Work</h3><p>Work-wise, it's a year of building and reinforcing your career foundations. Your natural dedication will be recognized, but don't let your work consume you. Seek balance to avoid burnout. Collaborations could be particularly fruitful, so invest in your professional relationships. Don't hesitate to step out of your comfort zone; it's where growth happens.</p><h3>Money</h3><p>Financially, this is a year to be cautious yet optimistic. Budgeting and saving are crucial, as you might face some unexpected expenses. However, your hard work could lead to a bonus or promotion that bolsters your financial situation. Consider long-term investments over short-term gains, and don't be afraid to seek advice from a financial expert.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Cancer, i år är en gobeläng av känslomässigt djup och självreflektion. Du kommer att finna styrka i din sårbarhet, vilket möjliggör personlig tillväxt och helande. Prioritera egenvård och dra dig inte för att hävda dina behov. Utmaningar kan uppstå, men din intuitiva natur kommer att guida dig igenom smidigt. Omfamna förändring när den kommer; det är universum som driver dig mot tillväxt..</p><h3>Kärlek.</h3><p>I kärlek kommer cancer att finna att öppenhet leder till djupare kopplingar. För dem i relationer är det ett år att arbeta med att förstå och vårda ditt band. Kommunikation är din gränd; dela dina känslor och uppmuntra din partner att göra detsamma. Singelcancer kan hitta kärleken närmare än väntat, kanske med en vän som förvandlas till något mer. Lita på ditt hjärta, men ha också tålamod; kärlek växer i sin egen tid..</p><h3>Arbete.</h3><p>Arbetsmässigt är det ett år av att bygga och stärka din karriärgrund. Ditt naturliga engagemang kommer att erkännas, men låt inte ditt arbete förtära dig. Sök balans för att undvika utbrändhet. Samarbeten kan vara särskilt givande, så investera i dina professionella relationer. Tveka inte att kliva ur din komfortzon; det är där tillväxten sker..</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år att vara försiktig men ändå optimistisk. Budgetering och sparande är avgörande, eftersom du kan ställas inför några oväntade utgifter. Men ditt hårda arbete kan leda till en bonus eller befordran som stärker din ekonomiska situation. Överväg långsiktiga investeringar framför kortsiktiga vinster och var inte rädd för att söka råd från en finansiell expert.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>General</h3><p>Cancer, this year is a tapestry of emotional depth and self-reflection. You'll find strength in your vulnerability, allowing for personal growth and healing. Prioritize self-care and don't shy away from asserting your needs. Challenges may arise, but your intuitive nature will guide you through smoothly. Embrace change as it comes; it's the universe nudging you towards growth.</p><h3>Love</h3><p>In love, Cancers will find that openness leads to deeper connections. For those in relationships, it's a year to work on understanding and nurturing your bond. Communication is your alley; share your feelings and encourage your partner to do the same. Single Cancers might find love closer than expected, perhaps with a friend turning into something more. Trust your heart, but also be patient; love grows in its own time.</p><h3>Work</h3><p>Work-wise, it's a year of building and reinforcing your career foundations. Your natural dedication will be recognized, but don't let your work consume you. Seek balance to avoid burnout. Collaborations could be particularly fruitful, so invest in your professional relationships. Don't hesitate to step out of your comfort zone; it's where growth happens.</p><h3>Money</h3><p>Financially, this is a year to be cautious yet optimistic. Budgeting and saving are crucial, as you might face some unexpected expenses. However, your hard work could lead to a bonus or promotion that bolsters your financial situation. Consider long-term investments over short-term gains, and don't be afraid to seek advice from a financial expert.</p>"
+      "desc": "<h3>Allmän.</h3><p>Cancer, i år är en gobeläng av känslomässigt djup och självreflektion. Du kommer att finna styrka i din sårbarhet, vilket möjliggör personlig tillväxt och helande. Prioritera egenvård och dra dig inte för att hävda dina behov. Utmaningar kan uppstå, men din intuitiva natur kommer att guida dig igenom smidigt. Omfamna förändring när den kommer; det är universum som driver dig mot tillväxt..</p><h3>Kärlek.</h3><p>I kärlek kommer cancer att finna att öppenhet leder till djupare kopplingar. För dem i relationer är det ett år att arbeta med att förstå och vårda ditt band. Kommunikation är din gränd; dela dina känslor och uppmuntra din partner att göra detsamma. Singelcancer kan hitta kärleken närmare än väntat, kanske med en vän som förvandlas till något mer. Lita på ditt hjärta, men ha också tålamod; kärlek växer i sin egen tid..</p><h3>Arbete.</h3><p>Arbetsmässigt är det ett år av att bygga och stärka din karriärgrund. Ditt naturliga engagemang kommer att erkännas, men låt inte ditt arbete förtära dig. Sök balans för att undvika utbrändhet. Samarbeten kan vara särskilt givande, så investera i dina professionella relationer. Tveka inte att kliva ur din komfortzon; det är där tillväxten sker..</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år att vara försiktig men ändå optimistisk. Budgetering och sparande är avgörande, eftersom du kan ställas inför några oväntade utgifter. Men ditt hårda arbete kan leda till en bonus eller befordran som stärker din ekonomiska situation. Överväg långsiktiga investeringar framför kortsiktiga vinster och var inte rädd för att söka råd från en finansiell expert.</p>"
     },
     "love": {
-      "section_title": "Cancer Love Horoscope",
+      "section_title": "Horoskop för cancerkärlek.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -1846,7 +1846,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1857,7 +1857,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -1868,7 +1868,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1879,7 +1879,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -1890,17 +1890,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>passive</h3><p>Cancers tend to be passive in relationships and rarely open their hearts. Cancer's priority in a relationship is to protect yourself. They hide their softest parts to protect their vulnerability. If a Cancer is hurt in a relationship, it is likely that the Cancer will be in endless pain and will not be able to move on.</p> ",
+      "article_html": "\n<h3>passiv.</h3><p>Cancer tenderar att vara passiva i relationer och sällan öppna sina hjärtan. Cancers prioritet i ett förhållande är att skydda sig själv. De gömmer sina mjukaste delar för att skydda sin sårbarhet. Om en cancer skadas i ett förhållande är det troligt att cancern kommer att ha oändlig smärta och inte kommer att kunna gå vidare.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<h3>emotional</h3><p>Cancer's emotional swings will be obvious. Cancer is very emotional but afraid of getting hurt. Cancers are timid in love, even if they like someone, they will not choose to express their feelings. But if there is enough love in a relationship, Cancers can be very considerate towards their partner.</p>"
+      "desc": "<h3>emotionell.</h3><p>Kräftans känslomässiga svängningar kommer att vara uppenbara. Cancer är väldigt känslomässigt men rädd för att bli sårad. Cancer är skygg i kärlek, även om de gillar någon, kommer de inte att välja att uttrycka sina känslor. Men om det finns tillräckligt med kärlek i ett förhållande, kan cancer vara mycket hänsynsfull mot sin partner.</p>"
     },
     "health": {
-      "section_title": "Cancer Health Horoscope",
+      "section_title": "Horoskop för cancerhälsa.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1911,7 +1911,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1922,7 +1922,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1933,7 +1933,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -1944,7 +1944,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -1955,17 +1955,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<p>Cancer may feel more emotionally restricted today, as if it's difficult for you to share yourself and be vulnerable with those you love. Try to remind yourself that sharing your emotions and thoughts will bring you closer to the person you love, and a deeper connection will help you feel emotionally coherent.Eggs are nutritious and rich in vitamin D, folic acid, riboflavin and selenium. Make yourself a feta, arugula and spice-glazed omelet for a nutritious breakfast, Cancer.</p> ",
+      "article_html": "\n<p>Cancer kan kännas mer känslomässigt begränsad idag, som om det är svårt för dig att dela dig själv och vara sårbar med dem du älskar. Försök att påminna dig själv om att att dela dina känslor och tankar kommer att föra dig närmare personen du älskar, och en djupare anslutning hjälper dig att känna dig känslomässigt sammanhängande. Ägg är näringsrika och rika på D-vitamin, folsyra, riboflavin och selen. Gör dig själv en feta-, ruccola- och kryddglaserad omelett för en näringsrik frukost, Cancer..</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>Cancer is likely to be mentally tense today. It is easy to lose patience when working and studying. Try doing something mentally relaxing to get your motivation back. It is also advisable not to think about anything before going to bed. Staying up too late or having insomnia can easily affect your mental state the next day.Milk is rich in calcium, which is a natural nerve stabilizer that relaxes tense nerves and calms the mood. Have a glass of milk before bed, Cancer.</p>"
+      "desc": "<p>Cancer är sannolikt mentalt spänd idag. Det är lätt att tappa tålamodet när man jobbar och studerar. Försök att göra något mentalt avslappnande för att få tillbaka motivationen. Det är också tillrådligt att inte tänka på någonting innan du går och lägger dig. Att vara uppe för sent eller ha sömnlöshet kan lätt påverka ditt mentala tillstånd nästa dag. Mjölk är rik på kalcium, som är en naturlig nervstabilisator som slappnar av spända nerver och lugnar humöret. Ta ett glas mjölk innan du lägger dig, Kräftan..</p>"
     },
     "career": {
-      "section_title": "Cancer Career Horoscope",
+      "section_title": "Horoskop för cancerkarriär.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -1976,7 +1976,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -1987,7 +1987,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -1998,7 +1998,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2009,7 +2009,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -2020,17 +2020,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Cancer's career is closely related to family. They often prefer jobs that involve food or work from home. Cancer has considerable love and will take care of others. They are good at empathy, treat subordinates well at work, sacrifice when encountering difficulties. There may be a lot of ups and downs in Cancer's career, but the commitment to career will help Cancer stay in business. They are sensitive to status and fame and want to be seen by others as responsible and respectable.</p> ",
+      "article_html": "\n<p>Cancers karriär är nära relaterad till familjen. De föredrar ofta jobb som involverar mat eller arbete hemifrån. Cancer har stor kärlek och kommer att ta hand om andra. De är bra på empati, behandlar underordnade väl på jobbet, offrar sig när de stöter på svårigheter. Det kan finnas många upp- och nedgångar i Cancers karriär, men engagemanget för karriären kommer att hjälpa Cancer att hålla sig i verksamheten. De är känsliga för status och berömmelse och vill ses av andra som ansvarsfulla och respektabla.</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>Another advantage of Cancers is their philosophical thinking. Cancer people have an innate cosmology, they are born with a complex of maternal love, so their thinking is often with human concern. A career in the arts will allow Cancer to tap into their natural strengths. However, not every Cancer has this opportunity, so most Cancers will feel oppressed and bitter.</p>"
+      "desc": "<p>En annan fördel med Cancer är deras filosofiska tänkande. Cancermänniskor har en medfödd kosmologi, de föds med ett komplex av moderskärlek, så deras tänkande är ofta med mänsklig oro. En karriär inom konsten kommer att tillåta cancer att utnyttja sina naturliga styrkor. Men inte alla cancer har denna möjlighet, så de flesta cancer kommer att känna sig förtryckta och bittra.</p>"
     },
     "sex": {
-      "section_title": "Cancer Sex Horoscope",
+      "section_title": "Sexhoroskop för cancer.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/cancer/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2041,7 +2041,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2052,7 +2052,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -2063,7 +2063,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2074,7 +2074,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -2085,9 +2085,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Cancer can sometimes be frustrated by the fact that their partner doesn't know everything that's going on in their inner life. When everything is apparently the complete opposite, they can easily put up walls and say that everything is fine. To really connect, Cancer must be patient with their partner and express their emotional needs - these lessons can be a steep learning curve for this sign. Cancer wants a partner who can witness their emotional ups and downs, but if their partner tries to 'fix' things, they will lash out. Sometimes, all Cancer needs is to let off steam.</p> ",
+      "article_html": "\n<p>Cancer kan ibland bli frustrerad över att deras partner inte vet allt som händer i deras inre liv. När allt tydligen är tvärtom kan de lätt sätta upp väggar och säga att allt är bra. För att verkligen få kontakt måste Cancer ha tålamod med sin partner och uttrycka sina känslomässiga behov - dessa lektioner kan vara en brant inlärningskurva för detta tecken. Cancer vill ha en partner som kan bevittna deras känslomässiga upp- och nedgångar, men om deras partner försöker \"fixa\" saker, kommer de att slå ut. Ibland behöver cancer bara släppa ut kraften..</p> ",
       "image_src": "./img/cancer.svg",
-      "desc": "<p>You are full of changes, both with mature women temperament and the girl's enthusiasm and vivacity, sometimes shy or sexy to make the other side happy, and sometimes sentimental to let the other side touched. You are especially good at using chronic poisoning to make each other fall in love with you, pretty like mellow wine, not strong but unforgettable.</p>"
+      "desc": "<p>Du är full av förändringar, både med mogna kvinnors temperament och flickans entusiasm och livlighet, ibland blyg eller sexig för att göra den andra sidan glad, och ibland sentimental för att låta den andra sidan beröras. Ni är särskilt bra på att använda kroniska förgiftningar för att få varandra att bli kära i er, ganska som mjukt vin, inte starkt men oförglömligt..</p>"
     },
     "other": null
   },
@@ -2158,12 +2158,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Din energi är smittsam, vilket gör detta till en utmärkt dag för sociala aktiviteter och nätverkande..</p><h3>Kärlek:.</h3><p>Håll saker lätta och lekfulla med din partner. Singlar borde njuta av den sociala virvel och flirt som dagen för med sig.</p><h3>Arbete:.</h3><p>En positiv attityd hjälper dig att tackla även de mest vardagliga uppgifterna med entusiasm.</p><h3>Pengar:.</h3><p>Du kanske känner dig generös, men var uppmärksam på vem och vad du investerar i..</p>"
     },
     "weekly": {
-      "section_title": "Leo Weekly Horoscope",
+      "section_title": "Leo veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -2174,7 +2174,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.0,
@@ -2185,7 +2185,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -2196,7 +2196,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -2207,7 +2207,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2218,17 +2218,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p> <h3>Proactive</h3><p>Take the initiative emotionally this week. If you are in a relationship (including a marriage), you can easily communicate with your partner and enjoy the interaction. There are a few tricks you can use to catch the eye of the opposite sex. Sweet words and wise brains will win more people's affection. A few surprises in a relationship can keep it moving forward! Even a few small surprises can create unexpected possibilities in your life!</p> <p>Keep in touch with those you love. They are always there to give you help and support in a difficult time.</p> <h3>Pick comfortable footwear</h3><p>In the process of seeking medical treatment, you will meet a good doctor, or someone around you will recommend suitable doctors and medical methods. It is also possible to detect the disease suddenly, and early detection of treatment has a good outcome. Maybe you’re going to have a date, or maybe you’re going to have a trip with your friends. Whatever the reason, you should first choose your footwear. Try to pick a pair of comfortable shoes to reduce the burden on the feet, as you may move around a lot this week.</p> ",
+      "article_html": "\n<h3>Bråk & ångest.</h3><p>Du är angelägen om att kommunicera med andra för att lösa konflikten. Ändå är orden ofta inte tillräckligt bra för att uppnå effekten av kommunikation. Var mer uppmärksam på dina kommunikationsförmåga på jobbet den här veckan. Att kommunicera med ledaren kan leda till bråk hela tiden på grund av olika åsikter. Det är bäst att sakta ner saker först. Var uppmärksam på den sista delen av arbetet för att undvika små misstag. Irritabilitet och känslighet kan påverka din totala produktivitet. Du kanske inte är på det bästa humöret den här veckan och kan vara benägen att göra misstag med din data. Var bara försiktig..</p> <h3>Proaktiv.</h3><p>Ta initiativet känslomässigt den här veckan. Om du är i ett förhållande (inklusive ett äktenskap) kan du enkelt kommunicera med din partner och njuta av interaktionen. Det finns några knep du kan använda för att fånga ögonen på det motsatta könet. Söta ord och kloka hjärnor kommer att vinna fler människors tillgivenhet. Några överraskningar i ett förhållande kan hålla det framåt! Även några små överraskningar kan skapa oväntade möjligheter i ditt liv!.</p> <p>Håll kontakten med dem du älskar. De finns alltid där för att ge dig hjälp och stöd i en svår tid..</p> <h3>Välj bekväma skor.</h3><p>I processen att söka medicinsk behandling kommer du att träffa en bra läkare, eller så kommer någon i din närhet att rekommendera lämpliga läkare och medicinska metoder. Det är också möjligt att upptäcka sjukdomen plötsligt, och tidig upptäckt av behandling har ett bra resultat. Kanske ska du ha en dejt, eller kanske du ska ha en resa med dina vänner. Oavsett anledning bör du först välja dina skor. Försök att välja ett par bekväma skor för att minska belastningen på fötterna, eftersom du kan röra dig mycket den här veckan.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p>"
+      "desc": "<h3>Bråk & ångest.</h3><p>Du är angelägen om att kommunicera med andra för att lösa konflikten. Ändå är orden ofta inte tillräckligt bra för att uppnå effekten av kommunikation. Var mer uppmärksam på dina kommunikationsförmåga på jobbet den här veckan. Att kommunicera med ledaren kan leda till bråk hela tiden på grund av olika åsikter. Det är bäst att sakta ner saker först. Var uppmärksam på den sista delen av arbetet för att undvika små misstag. Irritabilitet och känslighet kan påverka din totala produktivitet. Du kanske inte är på det bästa humöret den här veckan och kan vara benägen att göra misstag med din data. Var bara försiktig..</p>"
     },
     "monthly": {
-      "section_title": "Leo Monthly Horoscope",
+      "section_title": "Leo månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -2239,7 +2239,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -2250,7 +2250,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -2261,7 +2261,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -2272,7 +2272,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -2283,17 +2283,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your social circle could expand this month. Be open to meeting new people who can offer different perspectives and enrich your life.</p><h3>Love:</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Work:</h3><p>Your ability to lead by example will inspire your colleagues. A group project could benefit greatly from your input and direction.</p><h3>Money:</h3><p>You may feel generous, but be mindful of whom you lend money to. It's important to help others, but not at the expense of your own financial stability.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Din umgängeskrets kan utökas den här månaden. Var öppen för att träffa nya människor som kan erbjuda olika perspektiv och berika ditt liv..</p><h3>Kärlek:.</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Arbete:.</h3><p>Din förmåga att föregå med gott exempel kommer att inspirera dina kollegor. Ett gruppprojekt skulle kunna dra stor nytta av din input och riktning..</p><h3>Pengar:.</h3><p>Du kanske känner dig generös, men tänk på vem du lånar ut pengar till. Det är viktigt att hjälpa andra, men inte på bekostnad av din egen ekonomiska stabilitet.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>General:</h3><p>Your social circle could expand this month. Be open to meeting new people who can offer different perspectives and enrich your life.</p><h3>Love:</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Work:</h3><p>Your ability to lead by example will inspire your colleagues. A group project could benefit greatly from your input and direction.</p><h3>Money:</h3><p>You may feel generous, but be mindful of whom you lend money to. It's important to help others, but not at the expense of your own financial stability.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Din umgängeskrets kan utökas den här månaden. Var öppen för att träffa nya människor som kan erbjuda olika perspektiv och berika ditt liv..</p><h3>Kärlek:.</h3>If in a relationship, you might find joy in group social activities. For singles, a new friendship could blossom into something more.<p></p><h3>Arbete:.</h3><p>Din förmåga att föregå med gott exempel kommer att inspirera dina kollegor. Ett gruppprojekt skulle kunna dra stor nytta av din input och riktning..</p><h3>Pengar:.</h3><p>Du kanske känner dig generös, men tänk på vem du lånar ut pengar till. Det är viktigt att hjälpa andra, men inte på bekostnad av din egen ekonomiska stabilitet.</p>"
     },
     "yearly": {
-      "section_title": "Leo Yearly Horoscope",
+      "section_title": "Leo årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -2304,7 +2304,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2315,7 +2315,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -2326,7 +2326,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2337,7 +2337,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2348,17 +2348,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Leos can expect a year sparkling with potential and personal achievements. Your natural charisma will attract favorable circumstances, but staying humble is key to making the most of them. Challenges are inevitable, yet they'll serve as a platform for growth, pushing you to showcase your leadership qualities. Remember to share the spotlight; it's your generosity that will endear you to others and bring true fulfillment.</p><h3>Love</h3><p>Romance for Leos this year is about passion and deepening intimacy. If you're in a relationship, plan grand gestures and small acts of kindness to keep the flame alive. Single Leos will find that their magnetic allure draws admirers, but seek a partner who values your heart as much as your strength. Communication should be heartfelt and dramatic; after all, you're the sign of grand love stories.</p><h3>Work</h3><p>On the professional front, Leos will find that their ambition and drive could lead to significant accomplishments. It's a time to take the lead on projects and assert your ideas with confidence. Networking will pay off, so attend events and connect with influencers in your field. Be mindful of teamwork, though; your colleagues' support is vital for long-term success.</p><h3>Money</h3><p>Financially, this is a year to shine by making bold but calculated decisions. Your instincts will be sharp, so trust them when exploring new investment opportunities. However, avoid extravagance; ensuring you have a solid savings plan will provide the stability to enjoy your well-earned luxuries. Generosity is a noble trait, but keep a balance to secure your financial future.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Leomedlemmar kan förvänta sig ett år sprudlande med potentiella och personliga prestationer. Din naturliga karisma kommer att locka till sig gynnsamma omständigheter, men att förbli ödmjuk är nyckeln till att få ut det mesta av dem. Utmaningar är oundvikliga, men de kommer att fungera som en plattform för tillväxt, vilket driver dig att visa upp dina ledaregenskaper. Kom ihåg att dela rampljuset; det är din generositet som kommer att älska dig för andra och ge sann tillfredsställelse..</p><h3>Kärlek.</h3><p>Romance for Leos i år handlar om passion och fördjupad intimitet. Om du är i ett förhållande, planera storslagna gester och små handlingar av vänlighet för att hålla lågan vid liv. Ensamstående leomedlemmar kommer att upptäcka att deras magnetiska lockelse lockar beundrare, men söker en partner som värderar ditt hjärta lika mycket som din styrka. Kommunikationen bör vara hjärtlig och dramatisk; trots allt är du tecknet på stora kärlekshistorier..</p><h3>Arbete.</h3><p>På den professionella fronten kommer leomedlemmar att upptäcka att deras ambition och drivkraft kan leda till betydande prestationer. Det är en tid att ta ledningen i projekt och hävda dina idéer med tillförsikt. Nätverk kommer att löna sig, så gå på evenemang och ta kontakt med influencers inom ditt område. Var dock uppmärksam på lagarbete; dina kollegors stöd är avgörande för långsiktig framgång..</p><h3>Pengar.</h3><p>Ekonomiskt är det här ett år att lysa genom att fatta djärva men kalkylerade beslut. Dina instinkter kommer att vara skarpa, så lita på dem när du utforskar nya investeringsmöjligheter. Undvik dock extravagans; se till att du har en solid sparplan kommer att ge stabiliteten för att njuta av din välförtjänta lyx. Generositet är en ädel egenskap, men håll en balans för att säkra din ekonomiska framtid.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>General</h3><p>Leos can expect a year sparkling with potential and personal achievements. Your natural charisma will attract favorable circumstances, but staying humble is key to making the most of them. Challenges are inevitable, yet they'll serve as a platform for growth, pushing you to showcase your leadership qualities. Remember to share the spotlight; it's your generosity that will endear you to others and bring true fulfillment.</p><h3>Love</h3><p>Romance for Leos this year is about passion and deepening intimacy. If you're in a relationship, plan grand gestures and small acts of kindness to keep the flame alive. Single Leos will find that their magnetic allure draws admirers, but seek a partner who values your heart as much as your strength. Communication should be heartfelt and dramatic; after all, you're the sign of grand love stories.</p><h3>Work</h3><p>On the professional front, Leos will find that their ambition and drive could lead to significant accomplishments. It's a time to take the lead on projects and assert your ideas with confidence. Networking will pay off, so attend events and connect with influencers in your field. Be mindful of teamwork, though; your colleagues' support is vital for long-term success.</p><h3>Money</h3><p>Financially, this is a year to shine by making bold but calculated decisions. Your instincts will be sharp, so trust them when exploring new investment opportunities. However, avoid extravagance; ensuring you have a solid savings plan will provide the stability to enjoy your well-earned luxuries. Generosity is a noble trait, but keep a balance to secure your financial future.</p>"
+      "desc": "<h3>Allmän.</h3><p>Leomedlemmar kan förvänta sig ett år sprudlande med potentiella och personliga prestationer. Din naturliga karisma kommer att locka till sig gynnsamma omständigheter, men att förbli ödmjuk är nyckeln till att få ut det mesta av dem. Utmaningar är oundvikliga, men de kommer att fungera som en plattform för tillväxt, vilket driver dig att visa upp dina ledaregenskaper. Kom ihåg att dela rampljuset; det är din generositet som kommer att älska dig för andra och ge sann tillfredsställelse..</p><h3>Kärlek.</h3><p>Romance for Leos i år handlar om passion och fördjupad intimitet. Om du är i ett förhållande, planera storslagna gester och små handlingar av vänlighet för att hålla lågan vid liv. Ensamstående leomedlemmar kommer att upptäcka att deras magnetiska lockelse lockar beundrare, men söker en partner som värderar ditt hjärta lika mycket som din styrka. Kommunikationen bör vara hjärtlig och dramatisk; trots allt är du tecknet på stora kärlekshistorier..</p><h3>Arbete.</h3><p>På den professionella fronten kommer leomedlemmar att upptäcka att deras ambition och drivkraft kan leda till betydande prestationer. Det är en tid att ta ledningen i projekt och hävda dina idéer med tillförsikt. Nätverk kommer att löna sig, så gå på evenemang och ta kontakt med influencers inom ditt område. Var dock uppmärksam på lagarbete; dina kollegors stöd är avgörande för långsiktig framgång..</p><h3>Pengar.</h3><p>Ekonomiskt är det här ett år att lysa genom att fatta djärva men kalkylerade beslut. Dina instinkter kommer att vara skarpa, så lita på dem när du utforskar nya investeringsmöjligheter. Undvik dock extravagans; se till att du har en solid sparplan kommer att ge stabiliteten för att njuta av din välförtjänta lyx. Generositet är en ädel egenskap, men håll en balans för att säkra din ekonomiska framtid.</p>"
     },
     "love": {
-      "section_title": "Leo Love Horoscope",
+      "section_title": "Leo kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2369,7 +2369,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2380,7 +2380,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -2391,7 +2391,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2402,7 +2402,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2413,17 +2413,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>bravado </h3><p>Leo can be very strong in certain things, which can be called bravado. Leos want to be noticed, and leos feel that their security comes from their unique qualities. So Leos hate being ignored in a relationship. It makes them feel undervalued. For Leos, love and attention are what drives a person forward.</p> ",
+      "article_html": "\n<h3>bravader .</h3><p>Lejonet kan vara väldigt starkt i vissa saker, vilket kan kallas bravader. Leomedlemmar vill bli uppmärksammade, och leomedlemmar känner att deras trygghet kommer från deras unika egenskaper. Så leomedlemmar hatar att bli ignorerade i ett förhållande. Det får dem att känna sig undervärderade. För leomedlemmar är kärlek och uppmärksamhet det som driver en person framåt..</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<h3>generous &amp; awkward</h3><p>Leos are very generous and will spend a lot of money on their partner in a relationship. But Leo tends to spoil their partner on their own terms. Leos may start giving without asking what their partner really wants. And Leo sees himself as pampering their mate. Leos are like awkward Kings.</p>"
+      "desc": "<h3>generös & besvärlig.</h3><p>Leomedlemmar är väldigt generösa och kommer att spendera mycket pengar på sin partner i ett förhållande. Men Leo tenderar att skämma bort sin partner på deras egna villkor. Leomedlemmar kan börja ge utan att fråga vad deras partner verkligen vill. Och Leo ser sig själv som att skämma bort deras kompis. Leo är som besvärliga kungar..</p>"
     },
     "health": {
-      "section_title": "Leo Health Horoscope",
+      "section_title": "Leo hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -2434,7 +2434,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2445,7 +2445,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -2456,7 +2456,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2467,7 +2467,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2478,17 +2478,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<p>Leo is showing more creativity and expression today. You are encouraged to spend time on art supplies, which may come as an unexpected surprise. Try to take some time to sit back and use your creativity and let it flow through you. Meditation will remove any distracting thoughts from your day.Apricots are low in saturated fat and contain fibre, potassium and vitamins A and C. Serve sliced apricots today as a fresh, juicy treat or add dried apricots to Leo's afternoon snack.</p> ",
+      "article_html": "\n<p>Leo visar mer kreativitet och uttryck idag. Du uppmuntras att lägga tid på konstmaterial, vilket kan komma som en oväntad överraskning. Försök att ta lite tid att luta dig tillbaka och använda din kreativitet och låt den flöda genom dig. Meditation tar bort alla distraherande tankar från din dag. Aprikoser är låga i mättat fett och innehåller fibrer, kalium och vitamin A och C. Servera skivade aprikoser idag som en fräsch, saftig goding eller tillsätt torkade aprikoser till Leos eftermiddagsmellanmål.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>Leos are charismatic today and their enthusiastic spirit can be infectious to those around them. Any existing relationships will flourish. So Leo don't shy away from connecting or talking about your feelings. Be bold and show the sparkle of your soul.Apples are rich in fibre, vitamin C and many antioxidants. If Leos find themselves feeling hungry between meals, eat apples - they're filling and make the perfect snack.</p>"
+      "desc": "<p>Lejonmedlemmar är karismatiska idag och deras entusiastiska anda kan vara smittsam för dem runt omkring dem. Alla befintliga relationer kommer att blomstra. Så Leo drar sig inte för att ansluta eller prata om dina känslor. Var modig och visa din själs gnistra. Äpplen är rika på fibrer, C-vitamin och många antioxidanter. Om leomedlemmar känner att de känner sig hungriga mellan måltiderna, ät äpplen - de mättar och är det perfekta mellanmålet.</p>"
     },
     "career": {
-      "section_title": "Leo Career Horoscope",
+      "section_title": "Leo karriär horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2499,7 +2499,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2510,7 +2510,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -2521,7 +2521,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.0,
             0.0,
@@ -2532,7 +2532,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2543,17 +2543,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Leos are ambitious and have a strong sense of enterprise. They are very concerned about their performance and always take steps to improve their influence. Leos make great politicians, managers and entertainers. However, while Leos value status, they don't want to be known for nothing. They believe that others should respect their efforts and their reputation in society, and it annoys them if people don't treat them with respect.</p> ",
+      "article_html": "\n<p>Leomedlemmar är ambitiösa och har en stark känsla för företagsamhet. De är mycket bekymrade över sin prestation och vidtar alltid åtgärder för att förbättra sitt inflytande. Leomedlemmar är fantastiska politiker, chefer och underhållare. Men även om leomedlemmar värdesätter status, vill de inte bli kända för ingenting. De tror att andra ska respektera deras ansträngningar och deras rykte i samhället, och det irriterar dem om folk inte behandlar dem med respekt.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>Leos are ambitious and have a strong sense of enterprise. They are very concerned about their performance and always take steps to improve their influence. Leos make great politicians, managers and entertainers. However, while Leos value status, they don't want to be known for nothing. They believe that others should respect their efforts and their reputation in society, and it annoys them if people don't treat them with respect.</p>"
+      "desc": "<p>Leomedlemmar är ambitiösa och har en stark känsla för företagsamhet. De är mycket bekymrade över sin prestation och vidtar alltid åtgärder för att förbättra sitt inflytande. Leomedlemmar är fantastiska politiker, chefer och underhållare. Men även om leomedlemmar värdesätter status, vill de inte bli kända för ingenting. De tror att andra ska respektera deras ansträngningar och deras rykte i samhället, och det irriterar dem om folk inte behandlar dem med respekt.</p>"
     },
     "sex": {
-      "section_title": "Leo Sex Horoscope",
+      "section_title": "Leo sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/leo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2564,7 +2564,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2575,7 +2575,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -2586,7 +2586,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2597,7 +2597,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -2608,9 +2608,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Leos fall in love easily. But finding someone who can match them and stay in love can be difficult. Leos love to flirt and date, and have no problem writing new names on the calendar. This sign loves the rollercoaster of romance, from butterflies before the first date to catching your breath after lying in bed for the first time. But while Leo thrives on the novelty of dating, they can easily be disappointed if their date fails to meet their expectations. This is why Leos occasionally find true love with partners they may have dated or broken up with in the past.</p> ",
+      "article_html": "\n<p>Leos blir lätt kära. Men att hitta någon som kan matcha dem och förbli kär kan vara svårt. Leos älskar att flirta och dejta, och har inga problem att skriva nya namn i kalendern. Denna skylt älskar romantikens berg-och-dalbana, från fjärilar före den första dejten till att hämta andan efter att ha legat i sängen för första gången. Men medan Leo trivs med det nya med att dejta, kan de lätt bli besvikna om deras dejt inte uppfyller deras förväntningar. Det är därför leomedlemmar ibland hittar sann kärlek med partners som de kan ha dejtat eller gjort slut med tidigare.</p> ",
       "image_src": "./img/leo.svg",
-      "desc": "<p>The passionate lion is a little domineering, which is something that the opposite sex can't stand. People feel that when they get along with the Leo, they are always repressed by them.  So, if Leo is not so aggressive, the relationship with the opposite sex will be much better.</p>"
+      "desc": "<p>Det passionerade lejonet är lite dominerande, vilket är något som det motsatta könet inte tål. Människor känner att när de kommer överens med lejonet blir de alltid förträngda av dem.  Så om Leo inte är så aggressiv kommer relationen med det motsatta könet att bli mycket bättre..</p>"
     },
     "other": null
   },
@@ -2681,12 +2681,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Din praktiska funktion är en tillgång, men glöm inte att drömma stort. Balans är nyckeln..</p><h3>Kärlek:.</h3><p>Dela dina drömmar med din partner för att bygga en djupare kontakt. Ensamstående jungfrur bör inte ignorera sina romantiska ideal..</p><h3>Arbete:.</h3><p>Sikta högt men håll dina mål realistiska. Din ambition uppmärksammas av överordnade..</p><h3>Pengar:.</h3><p>Långsiktiga investeringar gynnas idag. Tänk på framtiden..</p>"
     },
     "weekly": {
-      "section_title": "Virgo Weekly Horoscope",
+      "section_title": "Jungfruns veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2697,7 +2697,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -2708,7 +2708,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -2719,7 +2719,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2730,7 +2730,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2741,17 +2741,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p> <h3>Ordinary</h3><p>Your love life will be average this week. Maybe you're in the middle of a relationship, but you're lucky to have friends. You're also a little pessimistic about relationships. Falling in love with your best friend doesn't feel good, making you wary of moving forward in your relationship and not becoming a friend. If you are already in a relationship, you will need to explain your relationship with other members of the opposite sex to your partner.</p> <p>Work on your time management skills. Cut out unnecessary wastes of time. Start with making to-do lists to stay focused.</p> <h3>Have breakfast</h3><p>Have you had your breakfast today? Maybe not. You are too busy to get up on time. You have no time for breakfast in a hurry. Some people now skip breakfast because they don’t want to be bothered by preparing it or they are in a rush to get out of the door. But for the sake of health, it’s wise of you to develop the habit of eating breakfast.You should pay attention to the problems of the digestive system, it is easy to cause diarrhea because of an improper diet, so it is recommended to eat more green food.</p> ",
+      "article_html": "\n<h3>Bråk & ångest.</h3><p>Du är angelägen om att kommunicera med andra för att lösa konflikten. Ändå är orden ofta inte tillräckligt bra för att uppnå effekten av kommunikation. Var mer uppmärksam på dina kommunikationsförmåga på jobbet den här veckan. Att kommunicera med ledaren kan leda till bråk hela tiden på grund av olika åsikter. Det är bäst att sakta ner saker först. Var uppmärksam på den sista delen av arbetet för att undvika små misstag. Irritabilitet och känslighet kan påverka din totala produktivitet. Du kanske inte är på det bästa humöret den här veckan och kan vara benägen att göra misstag med din data. Var bara försiktig..</p> <h3>Vanlig.</h3><p>Ditt kärleksliv kommer att vara genomsnittligt den här veckan. Kanske är du mitt uppe i ett förhållande, men du har tur som har vänner. Du är också lite pessimistisk när det gäller relationer. Att bli kär i din bästa vän känns inte bra, vilket gör dig försiktig med att gå vidare i ditt förhållande och inte bli en vän. Om du redan är i ett förhållande måste du förklara ditt förhållande till andra medlemmar av det motsatta könet för din partner.</p> <p>Arbeta med dina färdigheter i tidshantering. Klipp bort onödigt slöseri med tid. Börja med att göra att-göra-listor för att hålla fokus..</p> <h3>Ät frukost.</h3><p>Har du ätit frukost idag? Kanske inte. Du är för upptagen för att gå upp i tid. Du har inte tid för frukost i all hast. Vissa människor hoppar nu över frukosten för att de inte vill bli besvärade av att förbereda den eller för att de har bråttom att komma ut genom dörren. Men för hälsans skull är det klokt av dig att utveckla vanan att äta frukost. Du bör vara uppmärksam på problemen med matsmältningssystemet, det är lätt att orsaka diarré på grund av en felaktig kost, så det rekommenderas att äta mer grön mat.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>Quarrels &amp; Anxiety</h3><p>You are eager to communicate with others to resolve the conflict. Still, often the words are not good enough to achieve the effect of communication. Pay more attention to your communication skills at work this week. Communicating with the leader may lead to quarrels constantly because of different opinions. It's best to slow things down first. Pay attention to the last part of the work to avoid small mistakes. Irritability and sensitivity can affect your overall productivity. You may not be in the best of moods this week and may be prone to making mistakes with your data. Just be careful.</p>"
+      "desc": "<h3>Bråk & ångest.</h3><p>Du är angelägen om att kommunicera med andra för att lösa konflikten. Ändå är orden ofta inte tillräckligt bra för att uppnå effekten av kommunikation. Var mer uppmärksam på dina kommunikationsförmåga på jobbet den här veckan. Att kommunicera med ledaren kan leda till bråk hela tiden på grund av olika åsikter. Det är bäst att sakta ner saker först. Var uppmärksam på den sista delen av arbetet för att undvika små misstag. Irritabilitet och känslighet kan påverka din totala produktivitet. Du kanske inte är på det bästa humöret den här veckan och kan vara benägen att göra misstag med din data. Var bara försiktig..</p>"
     },
     "monthly": {
-      "section_title": "Virgo Monthly Horoscope",
+      "section_title": "Jungfruns månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2762,7 +2762,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2773,7 +2773,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.0,
             0.0,
@@ -2784,7 +2784,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2795,7 +2795,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2806,17 +2806,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about personal refinement and self-improvement. Focus on organizing your life and setting achievable goals. Your attention to detail will bring clarity to complex situations.</p><h3>Love:</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Work:</h3><p>Efficiency is your forte, and this month it pays off. Look for ways to streamline processes at work. Your problem-solving skills will be recognized and appreciated by your superiors.</p><h3>Money:</h3><p>It's time to review your budget and cut unnecessary expenses. Consider an investment in your education or health as these can bring long-term benefits.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Den här månaden handlar om personlig förfining och självförbättring. Fokusera på att organisera ditt liv och sätta upp nåbara mål. Din uppmärksamhet på detaljer kommer att ge klarhet i komplexa situationer.</p><h3>Kärlek:.</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Arbete:.</h3><p>Effektivitet är din styrka, och den här månaden lönar det sig. Leta efter sätt att effektivisera processer på jobbet. Dina problemlösningsförmåga kommer att erkännas och uppskattas av dina överordnade..</p><h3>Pengar:.</h3><p>Det är dags att se över din budget och minska onödiga utgifter. Överväg en investering i din utbildning eller hälsa eftersom dessa kan ge långsiktiga fördelar.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>General:</h3><p>This month is about personal refinement and self-improvement. Focus on organizing your life and setting achievable goals. Your attention to detail will bring clarity to complex situations.</p><h3>Love:</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Work:</h3><p>Efficiency is your forte, and this month it pays off. Look for ways to streamline processes at work. Your problem-solving skills will be recognized and appreciated by your superiors.</p><h3>Money:</h3><p>It's time to review your budget and cut unnecessary expenses. Consider an investment in your education or health as these can bring long-term benefits.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Den här månaden handlar om personlig förfining och självförbättring. Fokusera på att organisera ditt liv och sätta upp nåbara mål. Din uppmärksamhet på detaljer kommer att ge klarhet i komplexa situationer.</p><h3>Kärlek:.</h3>Communication in your relationship needs to be handled with care. Be mindful of your words and strive for understanding. Single Virgos may find potential partners in intellectual settings.<p></p><h3>Arbete:.</h3><p>Effektivitet är din styrka, och den här månaden lönar det sig. Leta efter sätt att effektivisera processer på jobbet. Dina problemlösningsförmåga kommer att erkännas och uppskattas av dina överordnade..</p><h3>Pengar:.</h3><p>Det är dags att se över din budget och minska onödiga utgifter. Överväg en investering i din utbildning eller hälsa eftersom dessa kan ge långsiktiga fördelar.</p>"
     },
     "yearly": {
-      "section_title": "Virgo Yearly Horoscope",
+      "section_title": "Jungfruns årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2827,7 +2827,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -2838,7 +2838,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -2849,7 +2849,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -2860,7 +2860,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -2871,17 +2871,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Virgos will find this year to be a harmonious blend of planning and spontaneity. Your meticulous attention to detail will serve you well, particularly as you navigate through some complex challenges that will ultimately lead to personal growth. Embrace flexibility; it will be your greatest asset. Remember to take time to decompress, as your well-being is the foundation of your success.</p><h3>Love</h3><p>In the realm of love, Virgos may need to step outside their comfort zones. For those in relationships, it's a year to deepen your connection through shared experiences and open communication. Single Virgos should explore new social settings to meet potential partners. Trust in the process of building relationships slowly; genuine connections take time to bloom.</p><h3>Work</h3><p>Career-wise, Virgos are poised to make significant strides. Your analytical skills will be in high demand, opening doors to new opportunities. However, be wary of overcommitting; prioritize your tasks to maintain a high standard of work. Collaboration will be key, and you may find that teamwork leads to the most rewarding accomplishments.</p><h3>Money</h3><p>Financially, it's a year for strategic planning. Your natural prudence will help you avoid pitfalls. It's an opportune time to review your investments and savings plans. While there may be temptations to splurge, focusing on long-term financial security will prove more rewarding. Consider seeking advice for managing your finances to optimize your resources.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Jungfrur kommer att uppleva det här året som en harmonisk blandning av planering och spontanitet. Din noggranna uppmärksamhet på detaljer kommer att tjäna dig väl, särskilt när du navigerar genom några komplexa utmaningar som i slutändan kommer att leda till personlig tillväxt. Omfamna flexibilitet; det kommer att vara din största tillgång. Kom ihåg att ta tid att dekomprimera, eftersom ditt välbefinnande är grunden för din framgång.</p><h3>Kärlek.</h3><p>I kärlekens rike kan Jungfrun behöva kliva utanför sina bekvämlighetszoner. För dem i relationer är det ett år att fördjupa din koppling genom delade erfarenheter och öppen kommunikation. Single Virgos bör utforska nya sociala miljöer för att träffa potentiella partners. Lita på processen att bygga relationer långsamt; genuina kontakter tar tid att blomma ut..</p><h3>Arbete.</h3><p>Karriärmässigt är Jungfrur redo att göra betydande framsteg. Dina analytiska färdigheter kommer att vara mycket efterfrågade, vilket öppnar dörrar till nya möjligheter. Var dock försiktig med att överenta; prioritera dina uppgifter för att upprätthålla en hög standard på arbetet. Samarbete kommer att vara nyckeln, och du kanske upptäcker att lagarbete leder till de mest givande prestationerna.</p><h3>Pengar.</h3><p>Ekonomiskt är det ett år för strategisk planering. Din naturliga försiktighet hjälper dig att undvika fallgropar. Det är ett lämpligt tillfälle att se över dina investeringar och sparplaner. Även om det kan finnas frestelser att spendera, kommer det att visa sig mer givande att fokusera på långsiktig ekonomisk säkerhet. Överväg att söka råd för att hantera din ekonomi för att optimera dina resurser.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>General</h3><p>Virgos will find this year to be a harmonious blend of planning and spontaneity. Your meticulous attention to detail will serve you well, particularly as you navigate through some complex challenges that will ultimately lead to personal growth. Embrace flexibility; it will be your greatest asset. Remember to take time to decompress, as your well-being is the foundation of your success.</p><h3>Love</h3><p>In the realm of love, Virgos may need to step outside their comfort zones. For those in relationships, it's a year to deepen your connection through shared experiences and open communication. Single Virgos should explore new social settings to meet potential partners. Trust in the process of building relationships slowly; genuine connections take time to bloom.</p><h3>Work</h3><p>Career-wise, Virgos are poised to make significant strides. Your analytical skills will be in high demand, opening doors to new opportunities. However, be wary of overcommitting; prioritize your tasks to maintain a high standard of work. Collaboration will be key, and you may find that teamwork leads to the most rewarding accomplishments.</p><h3>Money</h3><p>Financially, it's a year for strategic planning. Your natural prudence will help you avoid pitfalls. It's an opportune time to review your investments and savings plans. While there may be temptations to splurge, focusing on long-term financial security will prove more rewarding. Consider seeking advice for managing your finances to optimize your resources.</p>"
+      "desc": "<h3>Allmän.</h3><p>Jungfrur kommer att uppleva det här året som en harmonisk blandning av planering och spontanitet. Din noggranna uppmärksamhet på detaljer kommer att tjäna dig väl, särskilt när du navigerar genom några komplexa utmaningar som i slutändan kommer att leda till personlig tillväxt. Omfamna flexibilitet; det kommer att vara din största tillgång. Kom ihåg att ta tid att dekomprimera, eftersom ditt välbefinnande är grunden för din framgång.</p><h3>Kärlek.</h3><p>I kärlekens rike kan Jungfrun behöva kliva utanför sina bekvämlighetszoner. För dem i relationer är det ett år att fördjupa din koppling genom delade erfarenheter och öppen kommunikation. Single Virgos bör utforska nya sociala miljöer för att träffa potentiella partners. Lita på processen att bygga relationer långsamt; genuina kontakter tar tid att blomma ut..</p><h3>Arbete.</h3><p>Karriärmässigt är Jungfrur redo att göra betydande framsteg. Dina analytiska färdigheter kommer att vara mycket efterfrågade, vilket öppnar dörrar till nya möjligheter. Var dock försiktig med att överenta; prioritera dina uppgifter för att upprätthålla en hög standard på arbetet. Samarbete kommer att vara nyckeln, och du kanske upptäcker att lagarbete leder till de mest givande prestationerna.</p><h3>Pengar.</h3><p>Ekonomiskt är det ett år för strategisk planering. Din naturliga försiktighet hjälper dig att undvika fallgropar. Det är ett lämpligt tillfälle att se över dina investeringar och sparplaner. Även om det kan finnas frestelser att spendera, kommer det att visa sig mer givande att fokusera på långsiktig ekonomisk säkerhet. Överväg att söka råd för att hantera din ekonomi för att optimera dina resurser.</p>"
     },
     "love": {
-      "section_title": "Virgo Love Horoscope",
+      "section_title": "Jungfru kärlek horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2892,7 +2892,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -2903,7 +2903,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -2914,7 +2914,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2925,7 +2925,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -2936,17 +2936,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>pessimistic &amp; cautious</h3><p>Virgos may be in a pessimistic and passive state at the beginning of a relationship. They may not find it easy to fall in love, but they have high expectations for the perfect relationship and partner. Virgos are afraid of getting hurt in a relationship, so they make very cautious decisions. Therefore, Virgos are very selective when it comes to choosing a mate.</p> ",
+      "article_html": "\n<h3>pessimistisk & försiktig.</h3><p>Jungfrur kan vara i ett pessimistiskt och passivt tillstånd i början av ett förhållande. De kanske inte har lätt för att bli kära, men de har höga förväntningar på den perfekta relationen och partnern. Jungfrur är rädda för att bli sårade i ett förhållande, så de fattar mycket försiktiga beslut. Därför är Jungfrur mycket selektiva när det gäller att välja en partner.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<h3>simple &amp; trustworthy</h3><p>Virgo's way of showing love is very simple and they can help you take care of life's little problems. At the same time, Virgos know exactly what they want in a mate, and they tend to take a cold attitude to uninterested people's confessions of love. Virgos are very trustworthy when it comes to love. They have an innate sense of service and dedication.</p>"
+      "desc": "<h3>enkel & pålitlig.</h3><p>Jungfruns sätt att visa kärlek är väldigt enkelt och de kan hjälpa dig att ta hand om livets små problem. Samtidigt vet Jungfrun exakt vad de vill ha i en partner, och de tenderar att inta en kall inställning till ointresserade människors bekännelser om kärlek. Jungfrur är mycket pålitliga när det kommer till kärlek. De har en medfödd känsla för service och engagemang..</p>"
     },
     "health": {
-      "section_title": "Virgo Health Horoscope",
+      "section_title": "Jungfruns hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -2957,7 +2957,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -2968,7 +2968,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -2979,7 +2979,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -2990,7 +2990,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3001,17 +3001,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>For Virgo, this is a good day to reflect on the past. This is because your peace of mind and mental relaxation allows you to reflect on the changes that your past life has given you through reflection. Don't avoid mistakes made in the past, as your ability to attract what you want in life is magnified. Focus your mind and attention on what you want to create in your life today, and you can access relevant messages by reflecting on the past.Kale is extremely high in fibre, vitamins C and K and many other nutrients. It adds a satisfying crunch to salads and other dishes. Virgo, make yourself a kale salad with artichoke hearts, grilled chicken and your favourite dressing.</p> ",
+      "article_html": "\n<p>För Jungfrun är detta en bra dag att reflektera över det förflutna. Detta beror på att din sinnesfrid och mentala avslappning låter dig reflektera över de förändringar som ditt tidigare liv har gett dig genom reflektion. Undvik inte misstag som gjorts i det förflutna, eftersom din förmåga att attrahera det du vill ha i livet förstoras. Fokusera ditt sinne och din uppmärksamhet på vad du vill skapa i ditt liv idag, så kan du komma åt relevanta budskap genom att reflektera över det förflutna. Grönkål är extremt hög i fibrer, vitamin C och K och många andra näringsämnen. Det ger en tillfredsställande crunch till sallader och andra rätter. Jungfrun, gör dig en grönkålssallad med kronärtskockshjärtan, grillad kyckling och din favoritdressing..</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>Conversations happening today in Virgo may take on a deeper tone, encouraging you to explore many themes in your interactions with others. This is a good day to open up in conversation with others. Balancing your chakras can help you achieve this openness.Tomatoes are rich in vitamin C, potassium and antioxidants, which your body craves. Virgo, tomato slices go well with salads, cottage cheese or avocado toast and can help keep you full today.</p>"
+      "desc": "<p>Konversationer som sker idag i Jungfrun kan få en djupare ton, vilket uppmuntrar dig att utforska många teman i din interaktion med andra. Det här är en bra dag att öppna upp i samtal med andra. Att balansera dina chakran kan hjälpa dig att uppnå denna öppenhet. Tomater är rika på vitamin C, kalium och antioxidanter, som din kropp är sugen på. Jungfrun, tomatskivor passar bra till sallader, keso eller avokadotoast och kan hjälpa till att hålla dig mätt idag..</p>"
     },
     "career": {
-      "section_title": "Virgo Career Horoscope",
+      "section_title": "Jungfruns karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3022,7 +3022,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3033,7 +3033,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -3044,7 +3044,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -3055,7 +3055,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3066,17 +3066,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Virgos plan and arrange everything carefully. They like to keep track of exactly how everything happened. They keep records afterwards for reference and keep an account of every expense. In short, Virgo lives a meticulous and well-organized life, and does not like unexpected events to disturb their life. Their deliberation sometimes even misses the opportune moment.</p> ",
+      "article_html": "\n<p>Jungfrur planerar och ordnar allt noggrant. De gillar att hålla koll på exakt hur allt hände. De för register i efterhand för referens och håller en redovisning av varje utgift. Kort sagt, Jungfrun lever ett noggrant och välorganiserat liv, och gillar inte att oväntade händelser stör deras liv. Deras övervägande missar ibland till och med det lämpliga ögonblicket.</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>Virgos plan and arrange everything carefully. They like to keep track of exactly how everything happened. They keep records afterwards for reference and keep an account of every expense. In short, Virgo lives a meticulous and well-organized life, and does not like unexpected events to disturb their life. Their deliberation sometimes even misses the opportune moment.</p>"
+      "desc": "<p>Jungfrur planerar och ordnar allt noggrant. De gillar att hålla koll på exakt hur allt hände. De för register i efterhand för referens och håller en redovisning av varje utgift. Kort sagt, Jungfrun lever ett noggrant och välorganiserat liv, och gillar inte att oväntade händelser stör deras liv. Deras övervägande missar ibland till och med det lämpliga ögonblicket.</p>"
     },
     "sex": {
-      "section_title": "Virgo Sex Horoscope",
+      "section_title": "Jungfruns sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/virgo/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3087,7 +3087,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -3098,7 +3098,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -3109,7 +3109,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -3120,7 +3120,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3131,9 +3131,9 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>Virgos need to support and be supported. They can balance intimacy and freedom by focusing on work, career goals, etc. However, Virgos cannot tolerate feelings of being left out of responsibilities and obligations. They want their partner to be consistently responsible.</p> ",
+      "article_html": "\n<p>Jungfrur behöver stödja och stöttas. De kan balansera intimitet och frihet genom att fokusera på arbete, karriärmål etc. Jungfrur kan dock inte tolerera känslor av att stå utanför ansvar och skyldigheter. De vill att deras partner ska vara konsekvent ansvarig..</p> ",
       "image_src": "./img/virgo.svg",
-      "desc": "<p>You are very gentle and considerate, with a strong will power and the generosity to share with others. You are soft and affectionate at all times and in all places, and your tender and shy nature will make people want to approach and cherish you.</p>"
+      "desc": "<p>Du är mycket mild och omtänksam, med en stark viljestyrka och generositet att dela med andra. Du är mjuk och tillgiven hela tiden och på alla ställen, och din ömma och blyga natur kommer att få folk att vilja närma sig och vårda dig.</p>"
     },
     "other": null
   },
@@ -3204,12 +3204,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Din kooperativa natur är en välsignelse för gruppdynamiken idag. Engagera dig i ditt samhälle..</p><h3>Kärlek:.</h3><p>Kompromiss är nyckeln för att upprätthålla harmoni med din partner. Singlar bör överväga vad de är villiga att kompromissa med i ett förhållande.</p><h3>Arbete:.</h3><p>Samarbete ger framgång. Leta efter möjligheter att samarbeta med kollegor..</p><h3>Pengar:.</h3><p>Joint financial ventures kan vara fördelaktigt, men se till att villkoren är tydliga för alla parter.</p>"
     },
     "weekly": {
-      "section_title": "Libra Weekly Horoscope",
+      "section_title": "Vågens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -3220,7 +3220,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3231,7 +3231,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -3242,7 +3242,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -3253,7 +3253,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -3264,17 +3264,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Plan &amp; Be flexible</h3><p>You will be more organized in your career this week. Having a clear plan for your work will help you make good progress through your efforts. The overall trend of the work is smooth, but there may be some sudden small problems. Do not blindly believe you can do a certain plan or cooperation before making a final decision; the same is true for other aspects. Therefore, you need to be prepared to be flexible at all times. Try to be proactive in taking advice, reducing your time when encountering problems.</p> <h3>Valiant</h3><p>You may be hesitant to make the right choices in your relationships this week. Maybe you have someone in mind who can take your relationship to the next level, but you can't decide to tell them. Be brave! Try to speak your mind, and don't be afraid. Maybe you'll get tender love! For you, the big changes in your life are growth experiences, and you will gradually find that your concept is undergoing some subtle changes. Learn to accept it and adapt to it. The strange things that will happen are worth looking forward to.</p> <p>Each day is a chance to do better than before. Start with small steps to move forward and build on what you have learned from past mistakes.</p> <h3>Protect your eyes</h3><p>Vision is one of your most important faculties, so you should be very mindful about protecting your precious eyes.  Exposure to TV, computer and mobile phones should be limited. If you have to look at the screen for the bulk of the day, you can at least make the screen more eye-friendly by adjusting the screen brightness and increasing the text size.</p> ",
+      "article_html": "\n<h3>Planera & var flexibel.</h3><p>Du kommer att vara mer organiserad i din karriär den här veckan. Att ha en tydlig plan för ditt arbete kommer att hjälpa dig att göra bra framsteg genom dina ansträngningar. Den övergripande trenden för arbetet är jämn, men det kan uppstå några plötsliga små problem. Tro inte blint att du kan göra en viss plan eller samarbete innan du fattar ett slutgiltigt beslut; detsamma gäller för andra aspekter. Därför måste du vara beredd på att alltid vara flexibel. Försök att vara proaktiv i att ta emot råd, minska din tid när du stöter på problem.</p> <h3>Tapper.</h3><p>Du kanske är tveksam till att göra rätt val i dina relationer den här veckan. Kanske har du någon i åtanke som kan ta ditt förhållande till nästa nivå, men du kan inte bestämma dig för att berätta för dem. Var modig! Försök säga vad du tycker och var inte rädd. Kanske får du öm kärlek! För dig är de stora förändringarna i ditt liv tillväxtupplevelser, och du kommer gradvis att upptäcka att ditt koncept genomgår några subtila förändringar. Lär dig att acceptera det och anpassa dig till det. De konstiga sakerna som kommer att hända är värda att se fram emot..</p> <p>Varje dag är en chans att göra bättre än tidigare. Börja med små steg för att gå framåt och bygg vidare på det du har lärt dig av tidigare misstag.</p> <h3>Skydda dina ögon.</h3><p>Syn är en av dina viktigaste förmågor, så du bör vara mycket uppmärksam på att skydda dina dyrbara ögon.  Exponering för TV, dator och mobiltelefoner bör begränsas. Om du måste titta på skärmen under större delen av dagen kan du åtminstone göra skärmen mer ögonvänlig genom att justera skärmens ljusstyrka och öka textstorleken.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>Plan &amp; Be flexible</h3><p>You will be more organized in your career this week. Having a clear plan for your work will help you make good progress through your efforts. The overall trend of the work is smooth, but there may be some sudden small problems. Do not blindly believe you can do a certain plan or cooperation before making a final decision; the same is true for other aspects. Therefore, you need to be prepared to be flexible at all times. Try to be proactive in taking advice, reducing your time when encountering problems.</p>"
+      "desc": "<h3>Planera & var flexibel.</h3><p>Du kommer att vara mer organiserad i din karriär den här veckan. Att ha en tydlig plan för ditt arbete kommer att hjälpa dig att göra bra framsteg genom dina ansträngningar. Den övergripande trenden för arbetet är jämn, men det kan uppstå några plötsliga små problem. Tro inte blint att du kan göra en viss plan eller samarbete innan du fattar ett slutgiltigt beslut; detsamma gäller för andra aspekter. Därför måste du vara beredd på att alltid vara flexibel. Försök att vara proaktiv i att ta emot råd, minska din tid när du stöter på problem.</p>"
     },
     "monthly": {
-      "section_title": "Libra Monthly Horoscope",
+      "section_title": "Vågen månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -3285,7 +3285,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.0,
@@ -3296,7 +3296,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -3307,7 +3307,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -3318,7 +3318,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3329,17 +3329,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month is about forging your own path. Trust your instincts and don't be afraid to stand out from the crowd.</p><h3>Love:</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Work:</h3><p>Your unique approach to tasks will set you apart. Innovate and don't be afraid to present your ideas, even if they're unconventional.</p><h3>Money:</h3><p>Your financial intuition is strong now. Trust your gut when it comes to making decisions about money, but also make sure to do your research.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Den här månaden handlar om att skapa din egen väg. Lita på dina instinkter och var inte rädd för att sticka ut från mängden..</p><h3>Kärlek:.</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Arbete:.</h3><p>Ditt unika förhållningssätt till uppgifter kommer att skilja dig åt. Förnya och var inte rädd för att presentera dina idéer, även om de är okonventionella.</p><h3>Pengar:.</h3><p>Din ekonomiska intuition är stark nu. Lita på din magkänsla när det gäller att fatta beslut om pengar, men se också till att göra din research.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>General:</h3><p>This month is about forging your own path. Trust your instincts and don't be afraid to stand out from the crowd.</p><h3>Love:</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Work:</h3><p>Your unique approach to tasks will set you apart. Innovate and don't be afraid to present your ideas, even if they're unconventional.</p><h3>Money:</h3><p>Your financial intuition is strong now. Trust your gut when it comes to making decisions about money, but also make sure to do your research.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Den här månaden handlar om att skapa din egen väg. Lita på dina instinkter och var inte rädd för att sticka ut från mängden..</p><h3>Kärlek:.</h3>In relationships, it's important to maintain your individuality. Singles should stay true to themselves, as authenticity will attract the right person.<p></p><h3>Arbete:.</h3><p>Ditt unika förhållningssätt till uppgifter kommer att skilja dig åt. Förnya och var inte rädd för att presentera dina idéer, även om de är okonventionella.</p><h3>Pengar:.</h3><p>Din ekonomiska intuition är stark nu. Lita på din magkänsla när det gäller att fatta beslut om pengar, men se också till att göra din research.</p>"
     },
     "yearly": {
-      "section_title": "Libra Yearly Horoscope",
+      "section_title": "Vågen årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3350,7 +3350,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3361,7 +3361,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -3372,7 +3372,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -3383,7 +3383,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3394,17 +3394,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year, Libras will find themselves at the center of a delicate balancing act. Your innate desire for harmony will be tested as you navigate through periods of fluctuating energies. Embrace your diplomatic skills to maintain equilibrium in all areas of life. Personal development will come through embracing challenges, and your natural charm will help you turn potential conflicts into opportunities for growth.</p><h3>Love</h3><p>For Libra, love this year is about finding equilibrium between giving and receiving. Those in relationships should strive for fairness and ensure that their needs are communicated as clearly as they attend to their partners'. Single Libras might find themselves attracted to individuals who mirror their own qualities, seeking balance in unity. Patience will be key; true love takes time to blossom.</p><h3>Work</h3><p>Professionally, Libras are set to achieve great strides by leveraging their collaborative skills. Team projects will shine under your guidance, and your fair leadership will be appreciated. It's a good year to seek mentorship or to mentor others, as the exchange of knowledge will favor your career growth. Stay decisive, even when the choices are tough, to keep the momentum going.</p><h3>Money</h3><p>Financially, the scales will need careful watching for Libras this year. Wise investments and prudent spending are recommended, as there may be a tendency to indulge in luxuries. Budgeting will help maintain a healthy financial state, and it might be time to seek advice for long-term financial planning. Unexpected gains are possible if you keep a balanced approach to your finances.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>I år kommer Libras att befinna sig i centrum för en delikat balansgång. Din medfödda önskan efter harmoni kommer att testas när du navigerar genom perioder av fluktuerande energier. Omfamna dina diplomatiska färdigheter för att upprätthålla jämvikt på alla områden i livet. Personlig utveckling kommer genom att anamma utmaningar, och din naturliga charm hjälper dig att vända potentiella konflikter till möjligheter till tillväxt.</p><h3>Kärlek.</h3><p>För Vågen handlar kärlek i år om att hitta jämvikt mellan att ge och att ta emot. De i relationer bör sträva efter rättvisa och se till att deras behov kommuniceras lika tydligt som de tar hand om sina partners. Enstaka vågar kan finna sig attraherade av individer som speglar sina egna egenskaper och söker balans i enhet. Tålamod kommer att vara nyckeln; sann kärlek tar tid att blomma ut..</p><h3>Arbete.</h3><p>Professionellt är Libras inställda på att nå stora framsteg genom att utnyttja sina samarbetsförmåga. Teamprojekt kommer att lysa under din ledning, och ditt rättvisa ledarskap kommer att uppskattas. Det är ett bra år att söka mentorskap eller mentor för andra, eftersom utbyte av kunskap kommer att gynna din karriärtillväxt. Var beslutsam, även när valen är svåra, för att hålla farten uppe..</p><h3>Pengar.</h3><p>Ekonomiskt kommer vågen att behöva noggrann bevakning för Libras i år. Kloka investeringar och försiktiga utgifter rekommenderas, eftersom det kan finnas en tendens att unna sig lyx. Budgetering hjälper till att upprätthålla en sund ekonomisk situation, och det kan vara dags att söka råd för långsiktig ekonomisk planering. Oväntade vinster är möjliga om du håller en balanserad strategi för din ekonomi.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>General</h3><p>This year, Libras will find themselves at the center of a delicate balancing act. Your innate desire for harmony will be tested as you navigate through periods of fluctuating energies. Embrace your diplomatic skills to maintain equilibrium in all areas of life. Personal development will come through embracing challenges, and your natural charm will help you turn potential conflicts into opportunities for growth.</p><h3>Love</h3><p>For Libra, love this year is about finding equilibrium between giving and receiving. Those in relationships should strive for fairness and ensure that their needs are communicated as clearly as they attend to their partners'. Single Libras might find themselves attracted to individuals who mirror their own qualities, seeking balance in unity. Patience will be key; true love takes time to blossom.</p><h3>Work</h3><p>Professionally, Libras are set to achieve great strides by leveraging their collaborative skills. Team projects will shine under your guidance, and your fair leadership will be appreciated. It's a good year to seek mentorship or to mentor others, as the exchange of knowledge will favor your career growth. Stay decisive, even when the choices are tough, to keep the momentum going.</p><h3>Money</h3><p>Financially, the scales will need careful watching for Libras this year. Wise investments and prudent spending are recommended, as there may be a tendency to indulge in luxuries. Budgeting will help maintain a healthy financial state, and it might be time to seek advice for long-term financial planning. Unexpected gains are possible if you keep a balanced approach to your finances.</p>"
+      "desc": "<h3>Allmän.</h3><p>I år kommer Libras att befinna sig i centrum för en delikat balansgång. Din medfödda önskan efter harmoni kommer att testas när du navigerar genom perioder av fluktuerande energier. Omfamna dina diplomatiska färdigheter för att upprätthålla jämvikt på alla områden i livet. Personlig utveckling kommer genom att anamma utmaningar, och din naturliga charm hjälper dig att vända potentiella konflikter till möjligheter till tillväxt.</p><h3>Kärlek.</h3><p>För Vågen handlar kärlek i år om att hitta jämvikt mellan att ge och att ta emot. De i relationer bör sträva efter rättvisa och se till att deras behov kommuniceras lika tydligt som de tar hand om sina partners. Enstaka vågar kan finna sig attraherade av individer som speglar sina egna egenskaper och söker balans i enhet. Tålamod kommer att vara nyckeln; sann kärlek tar tid att blomma ut..</p><h3>Arbete.</h3><p>Professionellt är Libras inställda på att nå stora framsteg genom att utnyttja sina samarbetsförmåga. Teamprojekt kommer att lysa under din ledning, och ditt rättvisa ledarskap kommer att uppskattas. Det är ett bra år att söka mentorskap eller mentor för andra, eftersom utbyte av kunskap kommer att gynna din karriärtillväxt. Var beslutsam, även när valen är svåra, för att hålla farten uppe..</p><h3>Pengar.</h3><p>Ekonomiskt kommer vågen att behöva noggrann bevakning för Libras i år. Kloka investeringar och försiktiga utgifter rekommenderas, eftersom det kan finnas en tendens att unna sig lyx. Budgetering hjälper till att upprätthålla en sund ekonomisk situation, och det kan vara dags att söka råd för långsiktig ekonomisk planering. Oväntade vinster är möjliga om du håller en balanserad strategi för din ekonomi.</p>"
     },
     "love": {
-      "section_title": "Libra Love Horoscope",
+      "section_title": "Vågen kärlek horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.0,
             0.0,
@@ -3415,7 +3415,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3426,7 +3426,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -3437,7 +3437,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -3448,7 +3448,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3459,17 +3459,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>kind &amp; lovely</h3><p>I believe that every person will require his or her partner to have a kind heart when he or she is looking for a date. This shows how much benefit a person's kind heart will bring in their love life. Libra, you are gentle and virtuous, treating everything you encounter with justice. So it's very likely to have a happy ending in your relationship.</p> ",
+      "article_html": "\n<h3>snäll & härlig.</h3><p>Jag tror att varje person kommer att kräva att hans eller hennes partner har ett vänligt hjärta när han eller hon letar efter en dejt. Detta visar hur mycket nytta en persons vänliga hjärta kommer att ge i deras kärleksliv. Vågen, du är mild och dygdig, behandlar allt du möter med rättvisa. Så det är mycket troligt att ditt förhållande får ett lyckligt slut..</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<h3>kind &amp; lovely</h3><p>I believe that every person will require his or her partner to have a kind heart when he or she is looking for a date. This shows how much benefit a person's kind heart will bring in their love life. Libra, you are gentle and virtuous, treating everything you encounter with justice. So it's very likely to have a happy ending in your relationship.</p>"
+      "desc": "<h3>snäll & härlig.</h3><p>Jag tror att varje person kommer att kräva att hans eller hennes partner har ett vänligt hjärta när han eller hon letar efter en dejt. Detta visar hur mycket nytta en persons vänliga hjärta kommer att ge i deras kärleksliv. Vågen, du är mild och dygdig, behandlar allt du möter med rättvisa. Så det är mycket troligt att ditt förhållande får ett lyckligt slut..</p>"
     },
     "health": {
-      "section_title": "Libra Health Horoscope",
+      "section_title": "Hälsohoroskop för Vågen.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3480,7 +3480,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3491,7 +3491,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -3502,7 +3502,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.0,
             0.0,
@@ -3513,7 +3513,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3524,17 +3524,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Libra, which represents calmness and harmony, often has problems with back pain and stiffness. Take part in more physical exercises, such as Pilates, and also pay attention to your mattress to see if it makes your back uncomfortable. In addition to exercise, diet is also a priority, and a proper diet can be of great benefit to Libra's health.</p> ",
+      "article_html": "\n<p>Vågen, som representerar lugn och harmoni, har ofta problem med ryggsmärtor och stelhet. Delta i mer fysiska övningar, som pilates, och var också uppmärksam på din madrass för att se om det gör din rygg obekväm. Förutom träning är även kost prioriterad, och en ordentlig kost kan vara till stor nytta för Vågens hälsa.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>Libra, which represents calmness and harmony, often has problems with back pain and stiffness. Take part in more physical exercises, such as Pilates, and also pay attention to your mattress to see if it makes your back uncomfortable. In addition to exercise, diet is also a priority, and a proper diet can be of great benefit to Libra's health.</p>"
+      "desc": "<p>Vågen, som representerar lugn och harmoni, har ofta problem med ryggsmärtor och stelhet. Delta i mer fysiska övningar, som pilates, och var också uppmärksam på din madrass för att se om det gör din rygg obekväm. Förutom träning är även kost prioriterad, och en ordentlig kost kan vara till stor nytta för Vågens hälsa.</p>"
     },
     "career": {
-      "section_title": "Libra Career Horoscope",
+      "section_title": "Vågen karriär horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3545,7 +3545,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3556,7 +3556,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -3567,7 +3567,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -3578,7 +3578,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3589,17 +3589,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Libra are suitable for a wide range of industries and fields, but too much choice brings another headache for Libra, that is, they should choose which one? Libra can do a good job on their favorite career, but they are also interested in many other professions, Libra will inevitably miss some good opportunities in the choice.</p> ",
+      "article_html": "\n<p>Vågen är lämpliga för ett brett spektrum av branscher och områden, men för mycket val ger en annan huvudvärk för Vågen, det vill säga att de ska välja vilken? Libra kan göra ett bra jobb på sin favoritkarriär, men de är också intresserade av många andra yrken, Libra kommer oundvikligen att missa några bra möjligheter i valet.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>The ruling planet of Libra is Venus, a planet that symbolizes love and beauty and endows Librans with an outstanding appreciation. Therefore, most Librans have a knack for appreciating and creating art. They are talented in music, art, photography, advertising design, cultural media, art collection and appreciation, and fashion design, and these professions also play to Libra's strengths, inspiring Libra's passion and allowing Libra to experience a feeling of harmony and beauty.</p>"
+      "desc": "<p>Den härskande planeten i Vågen är Venus, en planet som symboliserar kärlek och skönhet och som ger Vågen en enastående uppskattning. Därför har de flesta Librans en förmåga att uppskatta och skapa konst. De är begåvade inom musik, konst, fotografi, reklamdesign, kulturella medier, konstsamling och uppskattning, och modedesign, och dessa yrken spelar också till Vågens styrkor, inspirerar Vågens passion och låter Vågen uppleva en känsla av harmoni och skönhet.</p>"
     },
     "sex": {
-      "section_title": "Libra Sex Horoscope",
+      "section_title": "Vågen sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/libra/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3610,7 +3610,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -3621,7 +3621,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -3632,7 +3632,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -3643,7 +3643,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -3654,9 +3654,9 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<p>The ideal marriage for a Libra is elegant, romantic and able to express itself through the body and words. They want their partner to be calm, artistic and good-natured. Libra sees their partner as the centre of their career and wants to balance their needs, desires, and thoughts while maintaining harmony and peace. The Libra needs to seek a certain balance in a relationship and they cannot tolerate prejudice or injustice.</p> ",
+      "article_html": "\n<p>Det ideala äktenskapet för en Våg är elegant, romantiskt och kan uttrycka sig genom kropp och ord. De vill att deras partner ska vara lugn, konstnärlig och godmodig. Vågen ser sin partner som centrum för deras karriär och vill balansera deras behov, önskningar och tankar samtidigt som de upprätthåller harmoni och frid. Vågen måste söka en viss balans i ett förhållande och de kan inte tolerera fördomar eller orättvisor.</p> ",
       "image_src": "./img/libra.svg",
-      "desc": "<p>Libra needs a partner who is charming, sociable and has good artistic tastes. The partner with whom they actually live has a high degree of harmony and is not only a socialist externally but also knows how to maintain a harmonious atmosphere at home. The relationship is a harmonious one and they will keep their marriage commitments.</p>"
+      "desc": "<p>Vågen behöver en partner som är charmig, sällskaplig och har god konstnärlig smak. Partnern som de faktiskt bor med har en hög grad av harmoni och är inte bara socialist utifrån utan vet också hur man upprätthåller en harmonisk atmosfär hemma. Förhållandet är harmoniskt och de kommer att hålla sina äktenskapsåtaganden.</p>"
     },
     "other": null
   },
@@ -3727,12 +3727,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Din naturliga karisma lyser idag. Använd detta till din fördel i sociala situationer..</p><h3>Kärlek:.</h3><p>Romantiken tar en lekfull vändning. Njut av lättsamma stunder med din partner eller, om du är singel, kan flirten återgäldas med intresse.</p><h3>Arbete:.</h3><p>Din charm kan hjälpa dig att nätverka effektivt. Skapa nya kontakter..</p><h3>Pengar:.</h3><p>Du kan hitta ekonomiska möjligheter genom din umgängeskrets. Håll öra för tips..</p>"
     },
     "weekly": {
-      "section_title": "Scorpio Weekly Horoscope",
+      "section_title": "Skorpionens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3743,7 +3743,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -3754,7 +3754,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -3765,7 +3765,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -3776,7 +3776,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3787,17 +3787,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Changes &amp; Details</h3><p>There may be some changes or unexpected events in your career this week. Maybe you need to work late, or you're late for work. So your life may be a little busy this week. In addition, please pay attention to some details of the work. Due to your carelessness, there is a great potential for errors in the progress of the work. Be sure to prepare for these possibilities.</p> <h3>Ordinary</h3><p>Your love life will be average this week. Maybe you're in the middle of a relationship, but you're lucky to have friends. You're also a little pessimistic about relationships. Falling in love with your best friend doesn't feel good, making you wary of moving forward in your relationship and not becoming a friend. If you are already in a relationship, you will need to explain your relationship with other members of the opposite sex to your partner.</p> <p>Understand you always have a right to turn down an invitation or refuse a favor. You are not obligated to say “Yes” all the time. </p> <h3>Pay attention to your hair</h3><p>Hair is a person's second face. You may have lost your hair recently. It can be a frustrating and embarrassing experience, and if you're looking for a solution, you're not alone. Hair loss can be caused by excessive stress, poor hair care, or other possibilities. If you identify the cause of your hair loss and perhaps make some lifestyle changes, it will help.</p> ",
+      "article_html": "\n<h3>Ändringar och detaljer.</h3><p>Det kan bli några förändringar eller oväntade händelser i din karriär den här veckan. Kanske behöver du jobba sent, eller så är du sen till jobbet. Så ditt liv kan vara lite hektiskt den här veckan. Var dessutom uppmärksam på några detaljer i arbetet. På grund av din slarv finns det en stor risk för fel i arbetets gång. Se till att förbereda dig för dessa möjligheter..</p> <h3>Vanlig.</h3><p>Ditt kärleksliv kommer att vara genomsnittligt den här veckan. Kanske är du mitt uppe i ett förhållande, men du har tur som har vänner. Du är också lite pessimistisk när det gäller relationer. Att bli kär i din bästa vän känns inte bra, vilket gör dig försiktig med att gå vidare i ditt förhållande och inte bli en vän. Om du redan är i ett förhållande måste du förklara ditt förhållande till andra medlemmar av det motsatta könet för din partner.</p> <p>Förstå att du alltid har rätt att tacka nej till en inbjudan eller tacka nej till en tjänst. Du är inte skyldig att säga \"Ja\" hela tiden. .</p> <h3>Var uppmärksam på ditt hår.</h3><p>Hår är en persons andra ansikte. Du kan ha tappat håret nyligen. Det kan vara en frustrerande och pinsam upplevelse, och om du letar efter en lösning är du inte ensam. Håravfall kan orsakas av överdriven stress, dålig hårvård eller andra möjligheter. Om du identifierar orsaken till ditt håravfall och kanske gör några livsstilsförändringar, kommer det att hjälpa..</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>Changes &amp; Details</h3><p>There may be some changes or unexpected events in your career this week. Maybe you need to work late, or you're late for work. So your life may be a little busy this week. In addition, please pay attention to some details of the work. Due to your carelessness, there is a great potential for errors in the progress of the work. Be sure to prepare for these possibilities.</p>"
+      "desc": "<h3>Ändringar och detaljer.</h3><p>Det kan bli några förändringar eller oväntade händelser i din karriär den här veckan. Kanske behöver du jobba sent, eller så är du sen till jobbet. Så ditt liv kan vara lite hektiskt den här veckan. Var dessutom uppmärksam på några detaljer i arbetet. På grund av din slarv finns det en stor risk för fel i arbetets gång. Se till att förbereda dig för dessa möjligheter..</p>"
     },
     "monthly": {
-      "section_title": "Scorpio Monthly Horoscope",
+      "section_title": "Skorpionens månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -3808,7 +3808,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3819,7 +3819,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -3830,7 +3830,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.0,
@@ -3841,7 +3841,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -3852,17 +3852,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>General:</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Love:</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Work:</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Money:</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p> ",
+      "article_html": "\n<h3>Allmän:.</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Kärlek:.</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Arbete:.</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Pengar:.</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>General:</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Love:</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Work:</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Money:</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p>"
+      "desc": "<h3>Allmän:.</h3>This month is a time for introspection and personal growth. Embrace the transformative energy around you to make significant strides in your self-improvement journey.<p></p><h3>Kärlek:.</h3>Deep connections are on the horizon. If you're in a relationship, it's time to address underlying issues and strengthen your bond. Single Scorpios may encounter a potential partner who challenges and excites them.<p></p><h3>Arbete:.</h3>Your strategic thinking will be your greatest asset at work. Tackle complex problems with your characteristic intensity, and you'll be recognized for your efforts.<p></p><h3>Pengar:.</h3>Financial discipline is key this month. Resist the urge to make impulsive purchases and focus on building your savings for future security.<p></p>"
     },
     "yearly": {
-      "section_title": "Scorpio Yearly Horoscope",
+      "section_title": "Skorpionens årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3873,7 +3873,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -3884,7 +3884,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -3895,7 +3895,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.0,
             0.0,
@@ -3906,7 +3906,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3917,17 +3917,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Scorpios are set to experience a year of transformation. Your resilience will be your guiding light as you navigate through both highs and lows with a fierce determination. This is a year to trust your instincts and embrace change, as it will lead to personal evolution. Remember that your journey is as important as the destination, so take time to reflect on your growth.</p><h3>Love</h3><p>In matters of the heart, Scorpios will find that vulnerability is their strength. For those in relationships, this is the time to deepen emotional connections by sharing your innermost feelings. Singles should be open to new emotional experiences, as unexpected encounters could lead to intense connections. Patience will be key; true intimacy cannot be rushed.</p><h3>Work</h3><p>Professionally, Scorpios will thrive by channeling their passion into their work. Your ability to focus intensely on tasks will result in impressive accomplishments. Be mindful of power dynamics in the workplace; cooperation will often lead to greater success than competition. Networking will also play a crucial role in advancing your career this year.</p><h3>Money</h3><p>Financially, Scorpios should approach this year with a strategic mindset. Your intuition will serve you well in investment decisions, but caution is advised to avoid unnecessary risks. It's a good year to eliminate any debts and to build a more secure financial foundation. Consider seeking advice from a financial planner to optimize your resources for long-term stability.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Skorpioner kommer att uppleva ett år av förvandling. Din motståndskraft kommer att vara ditt ledstjärna när du navigerar genom både toppar och dalar med en hård beslutsamhet. Det här är ett år att lita på dina instinkter och omfamna förändring, eftersom det kommer att leda till personlig utveckling. Kom ihåg att din resa är lika viktig som destinationen, så ta dig tid att reflektera över din tillväxt.</p><h3>Kärlek.</h3><p>När det gäller hjärtat kommer skorpioner att finna att sårbarhet är deras styrka. För de i relationer är det här dags att fördjupa känslomässiga förbindelser genom att dela med dig av dina innersta känslor. Singlar bör vara öppna för nya känslomässiga upplevelser, eftersom oväntade möten kan leda till intensiva kontakter. Tålamod kommer att vara nyckeln; sann intimitet kan inte skyndas på..</p><h3>Arbete.</h3><p>Professionellt kommer skorpioner att trivas genom att kanalisera sin passion i sitt arbete. Din förmåga att fokusera intensivt på uppgifter kommer att resultera i imponerande prestationer. Var uppmärksam på maktdynamik på arbetsplatsen; samarbete leder ofta till större framgång än konkurrens. Nätverk kommer också att spela en avgörande roll för att avancera din karriär i år.</p><h3>Pengar.</h3><p>Ekonomiskt bör skorpioner närma sig detta år med ett strategiskt tänkesätt. Din intuition kommer att tjäna dig väl vid investeringsbeslut, men försiktighet rekommenderas för att undvika onödiga risker. Det är ett bra år att eliminera eventuella skulder och bygga en säkrare ekonomisk grund. Överväg att söka råd från en finansiell planerare för att optimera dina resurser för långsiktig stabilitet.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>General</h3><p>Scorpios are set to experience a year of transformation. Your resilience will be your guiding light as you navigate through both highs and lows with a fierce determination. This is a year to trust your instincts and embrace change, as it will lead to personal evolution. Remember that your journey is as important as the destination, so take time to reflect on your growth.</p><h3>Love</h3><p>In matters of the heart, Scorpios will find that vulnerability is their strength. For those in relationships, this is the time to deepen emotional connections by sharing your innermost feelings. Singles should be open to new emotional experiences, as unexpected encounters could lead to intense connections. Patience will be key; true intimacy cannot be rushed.</p><h3>Work</h3><p>Professionally, Scorpios will thrive by channeling their passion into their work. Your ability to focus intensely on tasks will result in impressive accomplishments. Be mindful of power dynamics in the workplace; cooperation will often lead to greater success than competition. Networking will also play a crucial role in advancing your career this year.</p><h3>Money</h3><p>Financially, Scorpios should approach this year with a strategic mindset. Your intuition will serve you well in investment decisions, but caution is advised to avoid unnecessary risks. It's a good year to eliminate any debts and to build a more secure financial foundation. Consider seeking advice from a financial planner to optimize your resources for long-term stability.</p>"
+      "desc": "<h3>Allmän.</h3><p>Skorpioner kommer att uppleva ett år av förvandling. Din motståndskraft kommer att vara ditt ledstjärna när du navigerar genom både toppar och dalar med en hård beslutsamhet. Det här är ett år att lita på dina instinkter och omfamna förändring, eftersom det kommer att leda till personlig utveckling. Kom ihåg att din resa är lika viktig som destinationen, så ta dig tid att reflektera över din tillväxt.</p><h3>Kärlek.</h3><p>När det gäller hjärtat kommer skorpioner att finna att sårbarhet är deras styrka. För de i relationer är det här dags att fördjupa känslomässiga förbindelser genom att dela med dig av dina innersta känslor. Singlar bör vara öppna för nya känslomässiga upplevelser, eftersom oväntade möten kan leda till intensiva kontakter. Tålamod kommer att vara nyckeln; sann intimitet kan inte skyndas på..</p><h3>Arbete.</h3><p>Professionellt kommer skorpioner att trivas genom att kanalisera sin passion i sitt arbete. Din förmåga att fokusera intensivt på uppgifter kommer att resultera i imponerande prestationer. Var uppmärksam på maktdynamik på arbetsplatsen; samarbete leder ofta till större framgång än konkurrens. Nätverk kommer också att spela en avgörande roll för att avancera din karriär i år.</p><h3>Pengar.</h3><p>Ekonomiskt bör skorpioner närma sig detta år med ett strategiskt tänkesätt. Din intuition kommer att tjäna dig väl vid investeringsbeslut, men försiktighet rekommenderas för att undvika onödiga risker. Det är ett bra år att eliminera eventuella skulder och bygga en säkrare ekonomisk grund. Överväg att söka råd från en finansiell planerare för att optimera dina resurser för långsiktig stabilitet.</p>"
     },
     "love": {
-      "section_title": "Scorpio Love Horoscope",
+      "section_title": "Skorpionens kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -3938,7 +3938,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.0,
             0.0,
@@ -3949,7 +3949,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -3960,7 +3960,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -3971,7 +3971,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -3982,17 +3982,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>stubborn</h3><p>Scorpio, you and your lover may break up because of a series of problems. Two people constantly quarrel and both sides are physically and mentally exhausted. Although Scorpio do not want to lose each other, the two people are very stubborn, refusing to make concessions. If not change, it is difficult to have a perfect ending.</p> ",
+      "article_html": "\n<h3>envis.</h3><p>Skorpionen, du och din älskare kan göra slut på grund av en rad problem. Två personer bråkar ständigt och båda sidor är fysiskt och mentalt utmattade. Även om Scorpio inte vill förlora varandra är de två personerna väldigt envisa och vägrar att göra eftergifter. Om inte ändras, är det svårt att få ett perfekt slut..</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<h3>stubborn</h3><p>Scorpio, you and your lover may break up because of a series of problems. Two people constantly quarrel and both sides are physically and mentally exhausted. Although Scorpio do not want to lose each other, the two people are very stubborn, refusing to make concessions. If not change, it is difficult to have a perfect ending.</p>"
+      "desc": "<h3>envis.</h3><p>Skorpionen, du och din älskare kan göra slut på grund av en rad problem. Två personer bråkar ständigt och båda sidor är fysiskt och mentalt utmattade. Även om Scorpio inte vill förlora varandra är de två personerna väldigt envisa och vägrar att göra eftergifter. Om inte ändras, är det svårt att få ett perfekt slut..</p>"
     },
     "health": {
-      "section_title": "Scorpio Health Horoscope",
+      "section_title": "Skorpionens hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4003,7 +4003,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4014,7 +4014,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -4025,7 +4025,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4036,7 +4036,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -4047,17 +4047,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Regularity is a major health issue for Scorpios because they dominate the colon, so Scorpios are often constipated. Fiber-rich foods can prevent the condition. Effective stress-relieving exercises such as yoga and contemplation can also be very beneficial for bowel health.</p> ",
+      "article_html": "\n<p>Regelbundenhet är ett stort hälsoproblem för skorpioner eftersom de dominerar tjocktarmen, så skorpioner är ofta förstoppade. Fiberrika livsmedel kan förhindra tillståndet. Effektiva avstressande övningar som yoga och kontemplation kan också vara mycket fördelaktigt för tarmhälsa.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Due to the long-term strain, Scorpio appears to have low immunity and declined physical functions. Especially for those who are physically weak, exercise and nutrition should be strengthened. Scorpio should be careful not to eat too much spicy and greasy food to avoid causing too much burden on the stomach and intestines.</p>"
+      "desc": "<p>På grund av den långvariga påfrestningen verkar Skorpionen ha låg immunitet och minskade fysiska funktioner. Speciellt för dem som är fysiskt svaga bör träning och kost stärkas. Skorpionen bör vara noga med att inte äta för mycket kryddig och fet mat för att undvika att belasta mage och tarmar för mycket.</p>"
     },
     "career": {
-      "section_title": "Scorpio Career Horoscope",
+      "section_title": "Skorpionens karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -4068,7 +4068,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4079,7 +4079,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -4090,7 +4090,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4101,7 +4101,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -4112,17 +4112,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>For the Scorpio, work is not a difficult thing, they can basically do in office hours to get things done, but if the Scorpio is engaged in their favorite or interested in the work, they are not afraid of difficulties and they are willing to make sustaining efforts for their passion.</p> ",
+      "article_html": "\n<p>För skorpionen är arbete inte en svår sak, de kan i princip göra på kontorstid för att få saker gjorda, men om skorpionen är engagerad i sin favorit eller intresserad av arbetet, är de inte rädda för svårigheter och de är villiga att göra upprätthållande ansträngningar för sin passion.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Scorpio can do a lot of work, this is because they pay attention to detail, can bear hard work, and know how to keep secrets. Therefore, they are easy to get the leadership's appreciation, become the leader's side of the secretary, staff or even their own people. However, your expertise does not lie in understanding the leadership's mind, so although it is also conducive to your career, you should first give priority to your feelings.</p>"
+      "desc": "<p>Skorpionen kan göra mycket arbete, det beror på att de är uppmärksamma på detaljer, tål hårt arbete och vet hur man håller hemligheter. Därför har de lätt för att få ledarskapets uppskattning, bli ledarsidan hos sekreteraren, personalen eller till och med sitt eget folk. Din expertis ligger dock inte i att förstå ledarskapets sinne, så även om det också främjar din karriär, bör du först prioritera dina känslor.</p>"
     },
     "sex": {
-      "section_title": "Scorpio Sex Horoscope",
+      "section_title": "Skorpionens sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/scorpio/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -4133,7 +4133,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4144,7 +4144,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4155,7 +4155,7 @@ const dataPage = {
           "score": 2.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -4166,7 +4166,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -4177,9 +4177,9 @@ const dataPage = {
           "score": 2.0
         }
       ],
-      "article_html": "\n<p>The sexy and mysterious Scorpion may not be very popular among the same sex, but they are quite attractive to the opposite sex. They are understanding and know how to handle relationships between people, and know when to get close to each other and when to keep their distance from each other. This makes the two sides get along particularly easy, but also more willing to establish a long-term friendship.</p> ",
+      "article_html": "\n<p>Den sexiga och mystiska skorpionen är kanske inte särskilt populär bland samma kön, men de är ganska attraktiva för det motsatta könet. De är förstående och vet hur de ska hantera relationer mellan människor, och vet när de ska komma varandra nära och när de ska hålla avstånd till varandra. Detta gör att de två sidorna kommer överens särskilt lätt, men också mer villiga att etablera en långvarig vänskap.</p> ",
       "image_src": "./img/scorpio.svg",
-      "desc": "<p>Scorpios need a partner who is passionate, loyal, focused and strong. They are excellent at being independent and possessive, and Scorpios know that personal freedom does not diminish the relationship foundation and level of trust that grows with time and commitment. Their long-term partner is sensitive and likes to be in control, has a magical charm and is usually quiet and secretive rather than overly secretive or assertive.</p>"
+      "desc": "<p>Skorpioner behöver en partner som är passionerad, lojal, fokuserad och stark. De är utmärkta på att vara självständiga och besittande, och skorpioner vet att personlig frihet inte minskar relationsgrunden och nivån av förtroende som växer med tid och engagemang. Deras långvariga partner är känslig och gillar att ha kontroll, har en magisk charm och är vanligtvis tyst och hemlighetsfull snarare än alltför hemlighetsfull eller påstridig.</p>"
     },
     "other": null
   },
@@ -4250,12 +4250,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Det är en dag för det praktiska. Balansera din frisinnade natur med uppmärksamhet på vardagliga uppgifter..</p><h3>Kärlek:.</h3><p>Visa din partner att du bryr dig genom praktiska handlingar. Om den är singel, kan det praktiska vara tilltalande för potentiella partners.</p><h3>Arbete:.</h3><p>Håll dig jordad och ta itu med din att göra-lista. Produktivitet leder till en känsla av prestation..</p><h3>Pengar:.</h3><p>Praktisk ekonomisk planering sätter scenen för framtida frihet. Fokusera på att skapa en solid budget och sparplan..</p>"
     },
     "weekly": {
-      "section_title": "Sagittarius Weekly Horoscope",
+      "section_title": "Skyttens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4266,7 +4266,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -4277,7 +4277,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -4288,7 +4288,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4299,7 +4299,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -4310,17 +4310,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p> <h3>Valiant</h3><p>You may be hesitant to make the right choices in your relationships this week. Maybe you have someone in mind who can take your relationship to the next level, but you can't decide to tell them. Be brave! Try to speak your mind, and don't be afraid. Maybe you'll get tender love! For you, the big changes in your life are growth experiences, and you will gradually find that your concept is undergoing some subtle changes. Learn to accept it and adapt to it. The strange things that will happen are worth looking forward to.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Prioritize drinking water</h3><p>Proper hydration is important to overall health. You've probably heard numerous times that you must drink eight glasses of water daily to keep your body hydrated. If you're thirsty, opt for water most of the time, as water quenches your thirst better than other beverages and has no calories and carbs. Make a point of carrying a water bottle with you wherever you go. Your health is fine. Do some soothing exercises, such as yoga and walking. Adjusting your body and mind to the season is more suitable for your stage and will make your body healthier.</p> ",
+      "article_html": "\n<h3>Emotionell instabilitet & arbetsplatstester.</h3><p>Du kan komma på att du går vilse i ditt arbete. Känslor kan fluktuera mycket, vilket leder till verbala konflikter med ledare eller kollegor om arbetsfrågor eller meningsskiljaktigheter. Det kan bero på att du har problem med att sova. Försök att lyssna på musik på natten. När du upplever prövningar på jobbet rekommenderas det att du håller dig till dina principer och behandlar dem mer lugnt och rationellt.</p> <h3>Tapper.</h3><p>Du kanske är tveksam till att göra rätt val i dina relationer den här veckan. Kanske har du någon i åtanke som kan ta ditt förhållande till nästa nivå, men du kan inte bestämma dig för att berätta för dem. Var modig! Försök säga vad du tycker och var inte rädd. Kanske får du öm kärlek! För dig är de stora förändringarna i ditt liv tillväxtupplevelser, och du kommer gradvis att upptäcka att ditt koncept genomgår några subtila förändringar. Lär dig att acceptera det och anpassa dig till det. De konstiga sakerna som kommer att hända är värda att se fram emot..</p> <p>Fokusera på att vara nyfiken snarare än orolig. Du vet inte alltid vart livet tar dig..</p> <h3>Prioritera dricksvatten.</h3><p>Korrekt hydrering är viktigt för den allmänna hälsan. Du har säkert hört många gånger att du måste dricka åtta glas vatten dagligen för att hålla kroppen hydrerad. Om du är törstig, välj vatten för det mesta, eftersom vatten släcker din törst bättre än andra drycker och har inga kalorier och kolhydrater. Se till att ha en vattenflaska med dig vart du än går. Din hälsa är bra. Gör några lugnande övningar, som yoga och promenader. Att anpassa din kropp och ditt sinne till säsongen är mer lämpat för din scen och kommer att göra din kropp friskare..</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p>"
+      "desc": "<h3>Emotionell instabilitet & arbetsplatstester.</h3><p>Du kan komma på att du går vilse i ditt arbete. Känslor kan fluktuera mycket, vilket leder till verbala konflikter med ledare eller kollegor om arbetsfrågor eller meningsskiljaktigheter. Det kan bero på att du har problem med att sova. Försök att lyssna på musik på natten. När du upplever prövningar på jobbet rekommenderas det att du håller dig till dina principer och behandlar dem mer lugnt och rationellt.</p>"
     },
     "monthly": {
-      "section_title": "Sagittarius Monthly Horoscope",
+      "section_title": "Skyttens månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -4331,7 +4331,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4342,7 +4342,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4353,7 +4353,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4364,7 +4364,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -4375,17 +4375,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>Your natural optimism will serve you well this month. Face challenges with a positive mindset, and you'll find creative solutions. Sharing your positive energy will attract good fortune.</p><h3>Love:</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Work:</h3><p>Your sunny disposition makes you a favorite among colleagues. Use this to your advantage in collaborative projects, but be wary of those who might want to take credit for your ideas.</p><h3>Money:</h3><p>Consider ways to make your money work for you. Passive income streams or side hustles could provide a financial boost without adding too much to your workload.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Din naturliga optimism kommer att tjäna dig väl den här månaden. Möta utmaningar med ett positivt tänkesätt och du kommer att hitta kreativa lösningar. Att dela din positiva energi kommer att locka lycka..</p><h3>Kärlek:.</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Arbete:.</h3><p>Ditt soliga utseende gör dig till en favorit bland kollegor. Använd detta till din fördel i samarbetsprojekt, men var försiktig med dem som kanske vill ta åt sig äran för dina idéer.</p><h3>Pengar:.</h3><p>Fundera över sätt att få dina pengar att fungera för dig. Passiva inkomstströmmar eller sidodrift kan ge ett ekonomiskt uppsving utan att lägga till för mycket till din arbetsbörda.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>General:</h3><p>Your natural optimism will serve you well this month. Face challenges with a positive mindset, and you'll find creative solutions. Sharing your positive energy will attract good fortune.</p><h3>Love:</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Work:</h3><p>Your sunny disposition makes you a favorite among colleagues. Use this to your advantage in collaborative projects, but be wary of those who might want to take credit for your ideas.</p><h3>Money:</h3><p>Consider ways to make your money work for you. Passive income streams or side hustles could provide a financial boost without adding too much to your workload.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Din naturliga optimism kommer att tjäna dig väl den här månaden. Möta utmaningar med ett positivt tänkesätt och du kommer att hitta kreativa lösningar. Att dela din positiva energi kommer att locka lycka..</p><h3>Kärlek:.</h3>Laughter will be the heart of your love life. Whether you're single or attached, a sense of humor will be the magnet that draws people to you.<p></p><h3>Arbete:.</h3><p>Ditt soliga utseende gör dig till en favorit bland kollegor. Använd detta till din fördel i samarbetsprojekt, men var försiktig med dem som kanske vill ta åt sig äran för dina idéer.</p><h3>Pengar:.</h3><p>Fundera över sätt att få dina pengar att fungera för dig. Passiva inkomstströmmar eller sidodrift kan ge ett ekonomiskt uppsving utan att lägga till för mycket till din arbetsbörda.</p>"
     },
     "yearly": {
-      "section_title": "Sagittarius Yearly Horoscope",
+      "section_title": "Skyttens årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4396,7 +4396,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4407,7 +4407,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4418,7 +4418,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4429,7 +4429,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -4440,17 +4440,17 @@ const dataPage = {
           "score": 4.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Sagittarians can anticipate a year brimming with growth opportunities. Your natural thirst for knowledge and adventure will lead you to new experiences that broaden your horizons. Flexibility will be key, as the winds of change may blow in unexpected directions. Stay optimistic, as your positive outlook will be a beacon that attracts success and goodwill throughout the year.</p><h3>Love</h3><p>In the realm of romance, Sagittarians may find that honesty and openness are the foundations for deep connections this year. If you're in a relationship, planning adventures together will strengthen your bond. For the single Sagittarius, your radiant confidence is likely to draw intriguing prospects into your orbit. Remember, communication is paramount in nurturing any budding romance.</p><h3>Work</h3><p>The professional landscape for Sagittarians looks promising, with your enthusiasm and strategic thinking paving the way for recognition. Team collaborations will benefit from your innovative ideas and willingness to take risks. Keep an eye out for opportunities to lead, as your natural leadership qualities are set to shine. Continuous learning will be your ally in achieving your career goals.</p><h3>Money</h3><p>Financially, this is a year for Sagittarians to balance their spontaneous spending habits with a more structured approach to savings. Unexpected gains are possible, but they should be met with wise investments rather than impulsive purchases. Budgeting for your adventures will ensure that you can enjoy the best of both worlds without compromising financial stability.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Skytten kan förutse ett år fyllt av tillväxtmöjligheter. Din naturliga törst efter kunskap och äventyr kommer att leda dig till nya upplevelser som vidgar dina vyer. Flexibilitet kommer att vara nyckeln, eftersom förändringens vindar kan blåsa i oväntade riktningar. Håll dig optimistisk, eftersom din positiva syn kommer att vara en ledstjärna som lockar fram framgång och goodwill under hela året.</p><h3>Kärlek.</h3><p>I romantikens rike kan skyttar upptäcka att ärlighet och öppenhet är grunden för djupa kontakter i år. Om du är i ett förhållande, kommer planering av äventyr tillsammans att stärka ditt band. För singeln Skytten kommer ditt strålande självförtroende sannolikt att dra in spännande framtidsutsikter i din omloppsbana. Kom ihåg att kommunikation är avgörande för att vårda all spirande romantik.</p><h3>Arbete.</h3><p>Det professionella landskapet för skyttar ser lovande ut, med din entusiasm och strategiska tänkande som banar väg för erkännande. Teamsamarbeten kommer att dra nytta av dina innovativa idéer och vilja att ta risker. Håll utkik efter möjligheter att leda, eftersom dina naturliga ledaregenskaper kommer att lysa. Kontinuerligt lärande kommer att vara din allierade för att uppnå dina karriärmål.</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år för Skytten att balansera sina spontana konsumtionsvanor med ett mer strukturerat förhållningssätt till sparande. Oväntade vinster är möjliga, men de bör mötas med kloka investeringar snarare än impulsköp. Budgetering för dina äventyr säkerställer att du kan njuta av det bästa av två världar utan att kompromissa med den finansiella stabiliteten.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>General</h3><p>Sagittarians can anticipate a year brimming with growth opportunities. Your natural thirst for knowledge and adventure will lead you to new experiences that broaden your horizons. Flexibility will be key, as the winds of change may blow in unexpected directions. Stay optimistic, as your positive outlook will be a beacon that attracts success and goodwill throughout the year.</p><h3>Love</h3><p>In the realm of romance, Sagittarians may find that honesty and openness are the foundations for deep connections this year. If you're in a relationship, planning adventures together will strengthen your bond. For the single Sagittarius, your radiant confidence is likely to draw intriguing prospects into your orbit. Remember, communication is paramount in nurturing any budding romance.</p><h3>Work</h3><p>The professional landscape for Sagittarians looks promising, with your enthusiasm and strategic thinking paving the way for recognition. Team collaborations will benefit from your innovative ideas and willingness to take risks. Keep an eye out for opportunities to lead, as your natural leadership qualities are set to shine. Continuous learning will be your ally in achieving your career goals.</p><h3>Money</h3><p>Financially, this is a year for Sagittarians to balance their spontaneous spending habits with a more structured approach to savings. Unexpected gains are possible, but they should be met with wise investments rather than impulsive purchases. Budgeting for your adventures will ensure that you can enjoy the best of both worlds without compromising financial stability.</p>"
+      "desc": "<h3>Allmän.</h3><p>Skytten kan förutse ett år fyllt av tillväxtmöjligheter. Din naturliga törst efter kunskap och äventyr kommer att leda dig till nya upplevelser som vidgar dina vyer. Flexibilitet kommer att vara nyckeln, eftersom förändringens vindar kan blåsa i oväntade riktningar. Håll dig optimistisk, eftersom din positiva syn kommer att vara en ledstjärna som lockar fram framgång och goodwill under hela året.</p><h3>Kärlek.</h3><p>I romantikens rike kan skyttar upptäcka att ärlighet och öppenhet är grunden för djupa kontakter i år. Om du är i ett förhållande, kommer planering av äventyr tillsammans att stärka ditt band. För singeln Skytten kommer ditt strålande självförtroende sannolikt att dra in spännande framtidsutsikter i din omloppsbana. Kom ihåg att kommunikation är avgörande för att vårda all spirande romantik.</p><h3>Arbete.</h3><p>Det professionella landskapet för skyttar ser lovande ut, med din entusiasm och strategiska tänkande som banar väg för erkännande. Teamsamarbeten kommer att dra nytta av dina innovativa idéer och vilja att ta risker. Håll utkik efter möjligheter att leda, eftersom dina naturliga ledaregenskaper kommer att lysa. Kontinuerligt lärande kommer att vara din allierade för att uppnå dina karriärmål.</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år för Skytten att balansera sina spontana konsumtionsvanor med ett mer strukturerat förhållningssätt till sparande. Oväntade vinster är möjliga, men de bör mötas med kloka investeringar snarare än impulsköp. Budgetering för dina äventyr säkerställer att du kan njuta av det bästa av två världar utan att kompromissa med den finansiella stabiliteten.</p>"
     },
     "love": {
-      "section_title": "Sagittarius Love Horoscope",
+      "section_title": "Skytten kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.0,
             0.0,
@@ -4461,7 +4461,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4472,7 +4472,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4483,7 +4483,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4494,7 +4494,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -4505,17 +4505,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>a long wait </h3><p>Even if the family urge you to date and you face a lot of pressure, you still think that fate takes a hand in a relationship, so you just let nature take its course. This is not a bad thing for you, but when you meet the right person, you still have to take the initiative.</p> ",
+      "article_html": "\n<h3>en lång väntan.</h3><p>Även om familjen uppmanar dig att dejta och du möter en stor press, tror du fortfarande att ödet tar en hand i ett förhållande, så du låter bara naturen ta sin gång. Detta är inte dåligt för dig, men när du träffar rätt person måste du ändå ta initiativet..</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<h3>enjoy excitement</h3><p>Everything has a meaning for Sagittarians. Because Sagittarians are obsessed with the pursuit of truth, they are pursuing the evolution of the mind. The process of trying something new gives sagittarians a sense of security. In a relationship, someone who can give Sagittarius something new will stay with Sagittarius for a long time.</p>"
+      "desc": "<h3>njuta av spänning.</h3><p>Allt har en betydelse för Skytten. Eftersom skyttar är besatta av strävan efter sanning, driver de sinnets utveckling. Processen att prova något nytt ger skyttar en känsla av trygghet. I ett förhållande kommer någon som kan ge skytten något nytt att stanna hos skytten under lång tid..</p>"
     },
     "health": {
-      "section_title": "Sagittarius Health Horoscope",
+      "section_title": "Skyttens hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -4526,7 +4526,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4537,7 +4537,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4548,7 +4548,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -4559,7 +4559,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -4570,17 +4570,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>The physical condition of Sagittarius is not too ideal, they will often feel overwhelmed and do not have much interest in anything. In fact, Sagittarius is not too tired caused by overwork, just that they have no plan for the future.They hate the boring routine of each single day, therefore, nothing can keep their spirits up and they easily feel lethargic.</p> ",
+      "article_html": "\n<p>Skyttens fysiska tillstånd är inte alltför idealiskt, de kommer ofta att känna sig överväldigade och har inte så mycket intresse för någonting. Skytten är faktiskt inte för trött på grund av överansträngning, bara att de inte har någon plan för framtiden. De hatar den tråkiga rutinen varje dag, därför kan ingenting hålla humöret uppe och de känner sig lätt slöa.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>The physical condition of Sagittarius is not too ideal, they will often feel overwhelmed and do not have much interest in anything. In fact, Sagittarius is not too tired caused by overwork, just that they have no plan for the future.They hate the boring routine of each single day, therefore, nothing can keep their spirits up and they easily feel lethargic.</p>"
+      "desc": "<p>Skyttens fysiska tillstånd är inte alltför idealiskt, de kommer ofta att känna sig överväldigade och har inte så mycket intresse för någonting. Skytten är faktiskt inte för trött på grund av överansträngning, bara att de inte har någon plan för framtiden. De hatar den tråkiga rutinen varje dag, därför kan ingenting hålla humöret uppe och de känner sig lätt slöa.</p>"
     },
     "career": {
-      "section_title": "Sagittarius Career Horoscope",
+      "section_title": "Skytten karriär horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4591,7 +4591,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4602,7 +4602,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -4613,7 +4613,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -4624,7 +4624,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -4635,17 +4635,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Straightforward, quick-witted Sagittarius are very confident in everything, and they can accept anything that happens to them. They not only love freedom, but also like to pursue the sense of speed, and with cheerfulness and generosity, can face the future positively. They will immediately put things into action, and will also take less time than others to complete.</p> ",
+      "article_html": "\n<p>Raka, snabba Skytten är väldigt säkra på allt, och de kan acceptera allt som händer dem. De älskar inte bara frihet, utan gillar också att driva känslan av snabbhet, och kan med glädje och generositet möta framtiden positivt. De kommer omedelbart att sätta saker i verket och kommer också att ta mindre tid än andra att slutföra.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>Having high expectations of yourself, working hard, having a wide thinking space and being able to see everything thoroughly are all characteristics of Sagittarius. Thanks to the ability to analyze precisely and effectively, you can cut right to the heart of the matter. This ability allows you to make the best decisions before you put them into action, without wasting too much thinking space.</p>"
+      "desc": "<p>Att ha höga förväntningar på sig själv, arbeta hårt, ha ett brett tankeutrymme och kunna se allt grundligt är alla egenskaper hos Skytten. Tack vare förmågan att analysera exakt och effektivt kan du skära dig rakt in i sakens kärna. Den här förmågan gör att du kan fatta de bästa besluten innan du sätter dem i verket, utan att slösa för mycket tankeutrymme.</p>"
     },
     "sex": {
-      "section_title": "Sagittarius Sex Horoscope",
+      "section_title": "Skytten sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/sagittarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4656,7 +4656,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4667,7 +4667,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4678,7 +4678,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4689,7 +4689,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -4700,9 +4700,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>You are optimistic and positive, cheerful and have the power to inspire people. Once you have the object of your desire, you are a fast and accurate love hunter who is good at seizing and creating opportunities, and then show charm and romance to win his or her heart.</p> ",
+      "article_html": "\n<p>Du är optimistisk och positiv, glad och har kraften att inspirera människor. När du väl har ett mål för din önskan är du en snabb och exakt kärleksjägare som är bra på att ta vara på och skapa möjligheter, och sedan visa charm och romantik för att vinna hans eller hennes hjärta.</p> ",
       "image_src": "./img/sagittarius.svg",
-      "desc": "<p>You are optimistic and positive, cheerful and have the power to inspire people. Once you have the object of your desire, you are a fast and accurate love hunter who is good at seizing and creating opportunities, and then show charm and romance to win his or her heart.</p>"
+      "desc": "<p>Du är optimistisk och positiv, glad och har kraften att inspirera människor. När du väl har ett mål för din önskan är du en snabb och exakt kärleksjägare som är bra på att ta vara på och skapa möjligheter, och sedan visa charm och romantik för att vinna hans eller hennes hjärta.</p>"
     },
     "other": null
   },
@@ -4773,12 +4773,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Idag visas din ambition för fullt. Använd denna energi för att sätta höga mål för dig själv..</p><h3>Kärlek:.</h3><p>Sträva efter att skapa nya mål med din partner. Om du är singel kanske du attraheras av någon som delar din ambition..</p><h3>Arbete:.</h3><p>Sikta högt i dina karriärsträvanden. Din ambition kommer att imponera på dina överordnade och kan leda till möjligheter.</p><h3>Pengar:.</h3><p>Sätt upp finansiella mål som utmanar dig att öka din förmögenhet. Din ambition hjälper dig att hitta sätt att uppnå dem..</p>"
     },
     "weekly": {
-      "section_title": "Capricorn Weekly Horoscope",
+      "section_title": "Stenbockens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4789,7 +4789,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4800,7 +4800,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -4811,7 +4811,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -4822,7 +4822,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -4833,17 +4833,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p> <h3>Lack of Enthusiasm</h3><p>If you have a partner, you and your partner will have a steady and calm week, but too much calm can make you feel like your relationship lacks passion. Sometimes you can take a break from work and travel. You will learn more about your partner in your new lifestyle. Learn to add some surprises to your relationship, which will make it even hotter. If you're single, chances are you've seen characters in movies or TV shows that fit your idea of a mate. Try to make more friends in your life.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Stress</h3><p>Chronic stress at work or study recently may make you feel unmotivated and dispassionate about everything else around you. It's time to make some small changes! Start carving in a few breaks into your typical day. During the break, do something that helps you detach from the work and study, such as meditating and other activities that you might find appealing. Take care of your cervical spine and neck. Especially in the second half of the year, you are prone to feel discomfort in the neck.</p> ",
+      "article_html": "\n<h3>Emotionell instabilitet & arbetsplatstester.</h3><p>Du kan komma på att du går vilse i ditt arbete. Känslor kan fluktuera mycket, vilket leder till verbala konflikter med ledare eller kollegor om arbetsfrågor eller meningsskiljaktigheter. Det kan bero på att du har problem med att sova. Försök att lyssna på musik på natten. När du upplever prövningar på jobbet rekommenderas det att du håller dig till dina principer och behandlar dem mer lugnt och rationellt.</p> <h3>Brist på entusiasm.</h3><p>Om du har en partner kommer du och din partner att ha en jämn och lugn vecka, men för mycket lugn kan få dig att känna att ditt förhållande saknar passion. Ibland kan man ta en paus från jobbet och resa. Du kommer att lära dig mer om din partner i din nya livsstil. Lär dig att lägga till några överraskningar till ditt förhållande, vilket kommer att göra det ännu hetare. Om du är singel är chansen stor att du har sett karaktärer i filmer eller tv-program som passar din idé om en kompis. Försök att få fler vänner i ditt liv..</p> <p>Fokusera på att vara nyfiken snarare än orolig. Du vet inte alltid vart livet tar dig..</p> <h3>Stress.</h3><p>Kronisk stress på jobbet eller studier nyligen kan få dig att känna dig omotiverad och passionerad inför allt annat omkring dig. Det är dags att göra några små förändringar! Börja carving på några pauser in i din vanliga dag. Under pausen, gör något som hjälper dig att lossa från arbetet och studierna, som att meditera och andra aktiviteter som du kan tycka är tilltalande. Ta hand om din halsrygg och nacke. Speciellt under andra halvan av året är du benägen att känna obehag i nacken..</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>Emotional Instability &amp; Workplace tests</h3><p>You may find yourself getting lost in your work. Emotions can fluctuate greatly, leading to verbal conflicts with leaders or colleagues over work issues or differences of opinion. It could be because you have a problem sleeping. Try listening to music at night. When you experience trials at work, it is recommended that you stick to your principles and treat them more calmly and rationally.</p>"
+      "desc": "<h3>Emotionell instabilitet & arbetsplatstester.</h3><p>Du kan komma på att du går vilse i ditt arbete. Känslor kan fluktuera mycket, vilket leder till verbala konflikter med ledare eller kollegor om arbetsfrågor eller meningsskiljaktigheter. Det kan bero på att du har problem med att sova. Försök att lyssna på musik på natten. När du upplever prövningar på jobbet rekommenderas det att du håller dig till dina principer och behandlar dem mer lugnt och rationellt.</p>"
     },
     "monthly": {
-      "section_title": "Capricorn Monthly Horoscope",
+      "section_title": "Stenbockens månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.0,
@@ -4854,7 +4854,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4865,7 +4865,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4876,7 +4876,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -4887,7 +4887,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -4898,17 +4898,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>It's a month for building upon existing foundations. Your practical approach will help you refine your strategies for achieving your dreams. Keep an eye out for advice from a wise mentor.</p><h3>Love:</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Work:</h3><p>Aim for consistency in your professional life. Your ability to maintain a steady pace will help you complete long-term projects successfully. Avoid distractions and stay focused on your objectives.</p><h3>Money:</h3><p>Sound judgment in financial matters is crucial. This is not the time for risky investments. Instead, reinforce your savings and look into stable financial plans that offer gradual growth.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Det är en månad för att bygga på befintliga grunder. Ditt praktiska tillvägagångssätt hjälper dig att förfina dina strategier för att uppnå dina drömmar. Håll utkik efter råd från en klok mentor..</p><h3>Kärlek:.</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Arbete:.</h3><p>Sträva efter konsekvens i ditt yrkesliv. Din förmåga att hålla en jämn takt kommer att hjälpa dig att slutföra långsiktiga projekt framgångsrikt. Undvik distraktioner och håll fokus på dina mål..</p><h3>Pengar:.</h3><p>Ett sundt omdöme i ekonomiska frågor är avgörande. Det här är inte tiden för riskfyllda investeringar. Förstärk istället dina besparingar och titta på stabila finansiella planer som erbjuder gradvis tillväxt.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>General:</h3><p>It's a month for building upon existing foundations. Your practical approach will help you refine your strategies for achieving your dreams. Keep an eye out for advice from a wise mentor.</p><h3>Love:</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Work:</h3><p>Aim for consistency in your professional life. Your ability to maintain a steady pace will help you complete long-term projects successfully. Avoid distractions and stay focused on your objectives.</p><h3>Money:</h3><p>Sound judgment in financial matters is crucial. This is not the time for risky investments. Instead, reinforce your savings and look into stable financial plans that offer gradual growth.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Det är en månad för att bygga på befintliga grunder. Ditt praktiska tillvägagångssätt hjälper dig att förfina dina strategier för att uppnå dina drömmar. Håll utkik efter råd från en klok mentor..</p><h3>Kärlek:.</h3>Loyalty is highlighted in your romantic life. Show appreciation for your partner's steadfast support. If single, you may be attracted to someone who exudes a sense of security and wisdom.<p></p><h3>Arbete:.</h3><p>Sträva efter konsekvens i ditt yrkesliv. Din förmåga att hålla en jämn takt kommer att hjälpa dig att slutföra långsiktiga projekt framgångsrikt. Undvik distraktioner och håll fokus på dina mål..</p><h3>Pengar:.</h3><p>Ett sundt omdöme i ekonomiska frågor är avgörande. Det här är inte tiden för riskfyllda investeringar. Förstärk istället dina besparingar och titta på stabila finansiella planer som erbjuder gradvis tillväxt.</p>"
     },
     "yearly": {
-      "section_title": "Capricorn Yearly Horoscope",
+      "section_title": "Stenbockens årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -4919,7 +4919,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -4930,7 +4930,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -4941,7 +4941,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.0,
             0.0,
@@ -4952,7 +4952,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -4963,17 +4963,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year presents a promising path for Capricorns, with a focus on personal development and self-improvement. Your natural discipline and determination will serve you well, as you'll find yourself setting and achieving new goals. Challenges may arise, but your pragmatic approach ensures you'll handle them with grace. Embrace the learning opportunities these challenges present, as they will contribute to your growth.</p><h3>Love</h3><p>Romantically, Capricorns may need to step outside their comfort zone this year. It's a time to let down your guard and show more vulnerability to your partner or potential suitors. Communication is key; being open about your desires and concerns will lead to deeper connections. For singles, a new, unexpected romance could bloom when you least anticipate it.</p><h3>Work</h3><p>Professionally, Capricorns are likely to gain recognition for their hard work. Leadership opportunities may present themselves, so be prepared to step up. Teamwork is also highlighted, and your ability to collaborate will be just as important as your individual contributions. Keep an eye out for a mentor who can provide valuable guidance.</p><h3>Money</h3><p>Financially, this is a year to be cautious but also to make calculated risks. Your financial acumen will help you navigate any uncertainties. It's a good time to plan for the long term, perhaps by investing in personal assets or saving for future expenses. Wise budgeting early in the year can lead to a more comfortable financial position later on.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Detta år presenterar en lovande väg för Stenbocken, med fokus på personlig utveckling och självförbättring. Din naturliga disciplin och beslutsamhet kommer att tjäna dig väl, eftersom du kommer att finna dig själv att sätta och uppnå nya mål. Utmaningar kan uppstå, men ditt pragmatiska förhållningssätt säkerställer att du kommer att hantera dem med nåd. Omfamna inlärningsmöjligheterna som dessa utmaningar ger, eftersom de kommer att bidra till din tillväxt.</p><h3>Kärlek.</h3><p>Romantiskt sett kan Stenbockar behöva kliva utanför sin komfortzon i år. Det är en tid att svika din vakt och visa mer sårbarhet för din partner eller potentiella friare. Kommunikation är nyckeln; att vara öppen med dina önskningar och bekymmer kommer att leda till djupare kopplingar. För singlar kan en ny, oväntad romans blomma när du minst anar det.</p><h3>Arbete.</h3><p>Yrkesmässigt kommer Stenbocken sannolikt att få erkännande för sitt hårda arbete. Ledarskapsmöjligheter kan dyka upp, så var beredd att ta steget. Lagarbete lyfts också fram, och din förmåga att samarbeta kommer att vara lika viktig som dina individuella bidrag. Håll utkik efter en mentor som kan ge värdefull vägledning..</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år för att vara försiktig men också för att göra kalkylerade risker. Ditt ekonomiska sinne hjälper dig att navigera i eventuella osäkerheter. Det är ett bra tillfälle att planera långsiktigt, kanske genom att investera i personliga tillgångar eller spara för framtida utgifter. En klok budgetering tidigt på året kan leda till en mer bekväm finansiell ställning senare.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>General</h3><p>This year presents a promising path for Capricorns, with a focus on personal development and self-improvement. Your natural discipline and determination will serve you well, as you'll find yourself setting and achieving new goals. Challenges may arise, but your pragmatic approach ensures you'll handle them with grace. Embrace the learning opportunities these challenges present, as they will contribute to your growth.</p><h3>Love</h3><p>Romantically, Capricorns may need to step outside their comfort zone this year. It's a time to let down your guard and show more vulnerability to your partner or potential suitors. Communication is key; being open about your desires and concerns will lead to deeper connections. For singles, a new, unexpected romance could bloom when you least anticipate it.</p><h3>Work</h3><p>Professionally, Capricorns are likely to gain recognition for their hard work. Leadership opportunities may present themselves, so be prepared to step up. Teamwork is also highlighted, and your ability to collaborate will be just as important as your individual contributions. Keep an eye out for a mentor who can provide valuable guidance.</p><h3>Money</h3><p>Financially, this is a year to be cautious but also to make calculated risks. Your financial acumen will help you navigate any uncertainties. It's a good time to plan for the long term, perhaps by investing in personal assets or saving for future expenses. Wise budgeting early in the year can lead to a more comfortable financial position later on.</p>"
+      "desc": "<h3>Allmän.</h3><p>Detta år presenterar en lovande väg för Stenbocken, med fokus på personlig utveckling och självförbättring. Din naturliga disciplin och beslutsamhet kommer att tjäna dig väl, eftersom du kommer att finna dig själv att sätta och uppnå nya mål. Utmaningar kan uppstå, men ditt pragmatiska förhållningssätt säkerställer att du kommer att hantera dem med nåd. Omfamna inlärningsmöjligheterna som dessa utmaningar ger, eftersom de kommer att bidra till din tillväxt.</p><h3>Kärlek.</h3><p>Romantiskt sett kan Stenbockar behöva kliva utanför sin komfortzon i år. Det är en tid att svika din vakt och visa mer sårbarhet för din partner eller potentiella friare. Kommunikation är nyckeln; att vara öppen med dina önskningar och bekymmer kommer att leda till djupare kopplingar. För singlar kan en ny, oväntad romans blomma när du minst anar det.</p><h3>Arbete.</h3><p>Yrkesmässigt kommer Stenbocken sannolikt att få erkännande för sitt hårda arbete. Ledarskapsmöjligheter kan dyka upp, så var beredd att ta steget. Lagarbete lyfts också fram, och din förmåga att samarbeta kommer att vara lika viktig som dina individuella bidrag. Håll utkik efter en mentor som kan ge värdefull vägledning..</p><h3>Pengar.</h3><p>Ekonomiskt är detta ett år för att vara försiktig men också för att göra kalkylerade risker. Ditt ekonomiska sinne hjälper dig att navigera i eventuella osäkerheter. Det är ett bra tillfälle att planera långsiktigt, kanske genom att investera i personliga tillgångar eller spara för framtida utgifter. En klok budgetering tidigt på året kan leda till en mer bekväm finansiell ställning senare.</p>"
     },
     "love": {
-      "section_title": "Capricorn Love Horoscope",
+      "section_title": "Stenbocken kärlek horoskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.0,
             0.0,
@@ -4984,7 +4984,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -4995,7 +4995,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5006,7 +5006,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5017,7 +5017,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5028,17 +5028,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>supportive</h3><p>Capricorns are used to thinking and are usually very disciplined. Capricorn values the real feelings that come with love. Only some actual behavior, can really move Capricorn. So when it comes to love, Capricorns care more about what happens in life with their partner. Capricorn hopes for a supportive love.</p> ",
+      "article_html": "\n<h3>stödjande.</h3><p>Stenbockar är vana vid att tänka och är oftast väldigt disciplinerade. Stenbocken värdesätter de verkliga känslorna som kommer med kärlek. Endast vissa faktiska beteende, kan verkligen flytta Stenbocken. Så när det kommer till kärlek bryr sig Stenbocken mer om vad som händer i livet med sin partner. Stenbocken hoppas på en stödjande kärlek..</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<h3>keep emotions in check</h3><p>Capricorn shows love in a very simple way. They prepare meals for their partner, prepare gifts and plan their future together. Capricorns tend to be modest and polite, able to keep their emotions in check. Even if the Capricorn has a quarrel with their partner, they don't show their emotions easily. Because Capricorn psychological defense is relatively strong, the sense of crisis exists.</p>"
+      "desc": "<h3>hålla känslorna i schack.</h3><p>Stenbocken visar kärlek på ett väldigt enkelt sätt. De lagar mat åt sin partner, förbereder presenter och planerar sin framtid tillsammans. Stenbockar tenderar att vara blygsamma och artiga, kunna hålla sina känslor i schack. Även om Stenbocken bråkar med sin partner, visar de inte sina känslor lätt. Eftersom Stenbockens psykologiska försvar är relativt starkt, existerar känslan av kris.</p>"
     },
     "health": {
-      "section_title": "Capricorn Health Horoscope",
+      "section_title": "Stenbockens hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -5049,7 +5049,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5060,7 +5060,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -5071,7 +5071,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -5082,7 +5082,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5093,17 +5093,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>In order to be able to earn a lot of money, you may make great efforts, participating in a variety of drinks, which will certainly cause a heavy blow to your health. Although the money is very important, Capricorn, you still need to focus on health. Pay attention to rest, eat more healthy and nourishing food, take health care products suitable for yourselves.</p> ",
+      "article_html": "\n<p>För att kunna tjäna mycket pengar kan du göra stora ansträngningar och delta i en mängd olika drycker, vilket säkert kommer att orsaka ett hårt slag mot din hälsa. Även om pengarna är väldigt viktiga, Stenbocken, måste du fortfarande fokusera på hälsan. Var uppmärksam på vila, ät mer hälsosam och närande mat, ta hälsovårdsprodukter som passar er själva..</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>You may think you're healthy, but you spend most of your time at work!  It would be better to change your habits this week, first and foremost, take a balanced diet, eat less fatty foods and remember to drink more hot water. In fact, hot water will greatly increase your energy. Try to eat less junk food.</p>"
+      "desc": "<p>Du kanske tror att du är frisk, men du spenderar det mesta av din tid på jobbet!  Det skulle vara bättre att ändra dina vanor den här veckan, först och främst, ta en balanserad kost, ät mindre fet mat och kom ihåg att dricka mer varmt vatten. Faktum är att varmt vatten kommer att öka din energi avsevärt. Försök att äta mindre skräpmat..</p>"
     },
     "career": {
-      "section_title": "Capricorn Career Horoscope",
+      "section_title": "Stenbockens karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -5114,7 +5114,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5125,7 +5125,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5136,7 +5136,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -5147,7 +5147,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -5158,17 +5158,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>Capricorn is most suitable for politics as they can keep secrets, tolerate loneliness, hide ambition. Such comprehensive qualities are very conducive for Capricorn to become an excellent official in the political world. In addition, Capricorns respect tradition and morality, and they have a strong sense of good and evil, so Capricorns can be a good subordinate who strictly carries out the orders of superiors, and can also engage in a legal profession related to fairness and justice.</p> ",
+      "article_html": "\n<p>Stenbocken är mest lämpad för politik eftersom de kan hålla hemligheter, tolerera ensamhet, dölja ambitioner. Sådana omfattande egenskaper är mycket gynnsamma för Stenbocken att bli en utmärkt tjänsteman i den politiska världen. Dessutom respekterar Stenbockar tradition och moral, och de har en stark känsla för gott och ont, så Stenbockar kan vara en bra underordnad som strikt utför överordnades order, och kan också engagera sig i en juridisk profession relaterad till rättvisa och rättvisa.</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>Capricorn is good at accumulating strength and has strong execution, but their creativity is not strong; although they also have great ambition, most of Capricorn's ambition is limited to rising up the established steps within the unit and eventually reaching the top. Independent entrepreneurship does not apply to most Capricorns, because Capricorns do not like the feeling of having nothing as everything has to be created by themselves.</p>"
+      "desc": "<p>Stenbocken är bra på att samla styrka och har starkt utförande, men deras kreativitet är inte stark; även om de också har stora ambitioner är det mesta av Capricorns ambition begränsad till att ta sig upp för de etablerade stegen inom enheten och så småningom nå toppen. Oberoende entreprenörskap gäller inte de flesta Stenbockar, eftersom Stenbockar inte gillar känslan av att inte ha någonting då allt måste skapas av sig själva.</p>"
     },
     "sex": {
-      "section_title": "Capricorn Sex Horoscope",
+      "section_title": "Stenbockens sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/capricorn/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -5179,7 +5179,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5190,7 +5190,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.0,
@@ -5201,7 +5201,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5212,7 +5212,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -5223,9 +5223,9 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<p>The Capricorns are poised and calm, good at analyzing and summarizing. They would observe and think beforehand no matter what they do, and would not start a relationship casually, after all, they are in a relationship to get married. Through matchmaking, they will be able to determine whether the other party is suitable for them through observing the other party's behavior patterns, mannerisms and many other aspects. </p> ",
+      "article_html": "\n<p>Stenbockarna är balanserade och lugna, bra på att analysera och sammanfatta. De skulle observera och tänka i förväg oavsett vad de gör, och skulle inte starta ett förhållande slentrianmässigt, trots allt är de i ett förhållande för att gifta sig. Genom matchmaking kommer de att kunna avgöra om den andra parten är lämplig för dem genom att observera den andra partens beteendemönster, manér och många andra aspekter. .</p> ",
       "image_src": "./img/capricorn.svg",
-      "desc": "<p>Capricorn is conservative and introverted, and usually does not like to talk to people, let alone communicate with the opposite sex. Therefore, it's quite reasonable that Capricorn don't have too many opposite sex friends around them. If they can open their minds a little, it relatively will be better.</p>"
+      "desc": "<p>Stenbocken är konservativ och introvert och gillar vanligtvis inte att prata med människor, än mindre att kommunicera med det motsatta könet. Därför är det ganska rimligt att Stenbocken inte har för många vänner av motsatta kön runt sig. Om de kan öppna sina sinnen lite så blir det relativt sett bättre..</p>"
     },
     "other": null
   },
@@ -5296,12 +5296,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Nyfikenhet kan leda dig in på nya vägar idag. Omfamna lärande och utforskning..</p><h3>Kärlek:.</h3><p>Intellektuella förbindelser är särskilt stimulerande. Oavsett om du är singel eller partner, sök djup i konversationer..</p><h3>Arbete:.</h3><p>Din förmåga att lära dig snabbt är en tillgång. Ta dig an nya utmaningar som utökar dina färdigheter..</p><h3>Pengar:.</h3><p>Utbilda dig själv i ekonomiska frågor. Kunskap är makt, och det kan löna sig i dina ekonomiska beslut.</p>"
     },
     "weekly": {
-      "section_title": "Aquarius Weekly Horoscope",
+      "section_title": "Vattumannens veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -5312,7 +5312,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -5323,7 +5323,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5334,7 +5334,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -5345,7 +5345,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -5356,17 +5356,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>Lack of opportunity &amp; Make amends</h3><p>You may feel a little lost at work this week. You think you've done enough to prepare for what's ahead, but it's easy to make a mistake when it matters most. This is because your attention is only on a certain detail and lacks macro analysis. You shouldn't just care about your interests. But don't be afraid. If something goes wrong, try your best to fix it. Your work is still positive, your mind is active, you expect recognition from others, and you are likely to get a raise or promotion.</p> <h3>Proactive</h3><p>Take the initiative emotionally this week. If you are in a relationship (including a marriage), you can easily communicate with your partner and enjoy the interaction. There are a few tricks you can use to catch the eye of the opposite sex. Sweet words and wise brains will win more people's affection. A few surprises in a relationship can keep it moving forward! Even a few small surprises can create unexpected possibilities in your life!</p> <p>Everyone makes mistakes. Accept the truth and embrace your imperfection will not make you weaker.</p> <h3>Stretching is needed</h3><p>Don't overindulge yourself at will. Pay attention to the balance between life and work, and develop a good habit of working and resting to prevent illness.There may be pain in the cervical spine and lumbar region, so try to avoid doing some strenuous exercises daily. Stretching needs to be done before exercise to decrease your chances of injury. Make sure to warm up first.</p> ",
+      "article_html": "\n<h3>Brist på möjligheter & gör gott.</h3><p>Du kanske känner dig lite vilsen på jobbet den här veckan. Du tycker att du har gjort tillräckligt för att förbereda dig för vad som väntar, men det är lätt att göra ett misstag när det betyder mest. Detta beror på att din uppmärksamhet bara är på en viss detalj och saknar makroanalys. Du ska inte bara bry dig om dina intressen. Men var inte rädd. Om något går fel, försök ditt bästa för att fixa det. Ditt arbete är fortfarande positivt, ditt sinne är aktivt, du förväntar dig erkännande från andra och du kommer sannolikt att få löneförhöjning eller befordran.</p> <h3>Proaktiv.</h3><p>Ta initiativet känslomässigt den här veckan. Om du är i ett förhållande (inklusive ett äktenskap) kan du enkelt kommunicera med din partner och njuta av interaktionen. Det finns några knep du kan använda för att fånga ögonen på det motsatta könet. Söta ord och kloka hjärnor kommer att vinna fler människors tillgivenhet. Några överraskningar i ett förhållande kan hålla det framåt! Även några små överraskningar kan skapa oväntade möjligheter i ditt liv!.</p> <p>Alla gör misstag. Acceptera sanningen och omfamna din ofullkomlighet kommer inte att göra dig svagare..</p> <h3>Stretching behövs.</h3><p>Överskäm inte dig själv efter behag. Var uppmärksam på balansen mellan liv och arbete, och utveckla en god vana att arbeta och vila för att förebygga sjukdom. Det kan finnas smärta i halsryggen och ländryggen, så försök att undvika att göra några ansträngande övningar dagligen. Stretching måste göras före träning för att minska dina risker för skador. Se till att värma upp först..</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>Lack of opportunity &amp; Make amends</h3><p>You may feel a little lost at work this week. You think you've done enough to prepare for what's ahead, but it's easy to make a mistake when it matters most. This is because your attention is only on a certain detail and lacks macro analysis. You shouldn't just care about your interests. But don't be afraid. If something goes wrong, try your best to fix it. Your work is still positive, your mind is active, you expect recognition from others, and you are likely to get a raise or promotion.</p>"
+      "desc": "<h3>Brist på möjligheter & gör gott.</h3><p>Du kanske känner dig lite vilsen på jobbet den här veckan. Du tycker att du har gjort tillräckligt för att förbereda dig för vad som väntar, men det är lätt att göra ett misstag när det betyder mest. Detta beror på att din uppmärksamhet bara är på en viss detalj och saknar makroanalys. Du ska inte bara bry dig om dina intressen. Men var inte rädd. Om något går fel, försök ditt bästa för att fixa det. Ditt arbete är fortfarande positivt, ditt sinne är aktivt, du förväntar dig erkännande från andra och du kommer sannolikt att få löneförhöjning eller befordran.</p>"
     },
     "monthly": {
-      "section_title": "Aquarius Monthly Horoscope",
+      "section_title": "Vattumannens månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -5377,7 +5377,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5388,7 +5388,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5399,7 +5399,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5410,7 +5410,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -5421,17 +5421,17 @@ const dataPage = {
           "score": 0.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month, you may feel the urge to break free from constraints and pursue your own path. It's a time to be bold and take calculated risks. Trust that the universe will support your authentic journey.</p><h3>Love:</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Work:</h3><p>You're likely to thrive in environments that value innovation and originality. Seek out projects that allow you to flex your creative muscles. A hobby could turn into a profitable side hustle.</p><h3>Money:</h3><p>Financial liberation is a theme. Look for ways to increase your passive income, which will give you the freedom to explore other interests. This might involve some upfront investment, but the potential returns are promising.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Den här månaden kanske du känner ett behov av att bryta dig loss från begränsningar och följa din egen väg. Det är en tid att vara djärv och ta kalkylerade risker. Lita på att universum kommer att stödja din autentiska resa..</p><h3>Kärlek:.</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Arbete:.</h3><p>Du kommer sannolikt att trivas i miljöer som värdesätter innovation och originalitet. Sök efter projekt som låter dig spänna dina kreativa muskler. En hobby kan förvandlas till ett lönsamt sidoliv..</p><h3>Pengar:.</h3><p>Ekonomisk befrielse är ett tema. Leta efter sätt att öka din passiva inkomst, vilket ger dig friheten att utforska andra intressen. Detta kan innebära vissa förskottsinvesteringar, men den potentiella avkastningen är lovande.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>General:</h3><p>This month, you may feel the urge to break free from constraints and pursue your own path. It's a time to be bold and take calculated risks. Trust that the universe will support your authentic journey.</p><h3>Love:</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Work:</h3><p>You're likely to thrive in environments that value innovation and originality. Seek out projects that allow you to flex your creative muscles. A hobby could turn into a profitable side hustle.</p><h3>Money:</h3><p>Financial liberation is a theme. Look for ways to increase your passive income, which will give you the freedom to explore other interests. This might involve some upfront investment, but the potential returns are promising.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Den här månaden kanske du känner ett behov av att bryta dig loss från begränsningar och följa din egen väg. Det är en tid att vara djärv och ta kalkylerade risker. Lita på att universum kommer att stödja din autentiska resa..</p><h3>Kärlek:.</h3>In relationships, it's important to maintain your independence and encourage your partner to do the same. Single Aquarians might find love in places where free spirits congregate.<p></p><h3>Arbete:.</h3><p>Du kommer sannolikt att trivas i miljöer som värdesätter innovation och originalitet. Sök efter projekt som låter dig spänna dina kreativa muskler. En hobby kan förvandlas till ett lönsamt sidoliv..</p><h3>Pengar:.</h3><p>Ekonomisk befrielse är ett tema. Leta efter sätt att öka din passiva inkomst, vilket ger dig friheten att utforska andra intressen. Detta kan innebära vissa förskottsinvesteringar, men den potentiella avkastningen är lovande.</p>"
     },
     "yearly": {
-      "section_title": "Aquarius Yearly Horoscope",
+      "section_title": "Vattumannens årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -5442,7 +5442,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5453,7 +5453,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -5464,7 +5464,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5475,7 +5475,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5486,17 +5486,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>General</h3><p>Aquarians are set to embark on a year of innovation and self-discovery. Your unique perspective will lead you to explore unconventional paths, both personally and professionally. Growth comes from embracing the unexpected, so remain adaptable. This year, your social consciousness might inspire you to engage in humanitarian efforts or community projects.</p><h3>Love</h3><p>In love, Aquarians will find that authenticity is the key to fulfilling relationships. If you're already partnered, this is the year to foster greater understanding and build a future vision together. Singles should stay true to their values, as this authenticity will attract like-minded partners. Keep an open heart, as love may come from the most surprising places.</p><h3>Work</h3><p>The workplace will be a stage for your inventive ideas, as your ability to think outside the box will be highly valued. Collaborative projects will flourish under your guidance, but be willing to listen to others' input to achieve the best outcomes. Networking will introduce you to influential individuals who can help propel your career forward.</p><h3>Money</h3><p>Financially, Aquarians should focus on long-term planning this year. Innovative investments or unconventional financial strategies could pay off, but due diligence is essential. Managing your resources effectively will be crucial, as unexpected expenses could arise. Consider seeking advice from a financial planner to secure your economic future.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Vattumännen kommer att inleda ett år av innovation och självupptäckt. Ditt unika perspektiv kommer att leda dig att utforska okonventionella vägar, både personligt och professionellt. Tillväxt kommer från att omfamna det oväntade, så förbli anpassningsbar. I år kan ditt sociala medvetande inspirera dig att engagera dig i humanitära insatser eller samhällsprojekt.</p><h3>Kärlek.</h3><p>I kärlek kommer Vattumännen att upptäcka att autenticitet är nyckeln till att uppfylla relationer. Om du redan är partner är det här året för att skapa större förståelse och bygga en framtidsvision tillsammans. Singlar bör förbli trogna sina värderingar, eftersom denna autenticitet kommer att locka likasinnade partners. Håll ett öppet hjärta, eftersom kärlek kan komma från de mest överraskande ställen..</p><h3>Arbete.</h3><p>Arbetsplatsen kommer att vara en scen för dina uppfinningsrika idéer, eftersom din förmåga att tänka utanför ramarna kommer att värderas högt. Samarbetsprojekt kommer att blomstra under din ledning, men var villig att lyssna på andras input för att uppnå de bästa resultaten. Nätverksarbete kommer att introducera dig till inflytelserika personer som kan hjälpa dig att driva din karriär framåt.</p><h3>Pengar.</h3><p>Ekonomiskt bör Vattumännen fokusera på långsiktig planering i år. Innovativa investeringar eller okonventionella finansiella strategier kan löna sig, men due diligence är viktigt. Att hantera dina resurser effektivt kommer att vara avgörande, eftersom oväntade utgifter kan uppstå. Överväg att söka råd från en finansiell planerare för att säkra din ekonomiska framtid.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>General</h3><p>Aquarians are set to embark on a year of innovation and self-discovery. Your unique perspective will lead you to explore unconventional paths, both personally and professionally. Growth comes from embracing the unexpected, so remain adaptable. This year, your social consciousness might inspire you to engage in humanitarian efforts or community projects.</p><h3>Love</h3><p>In love, Aquarians will find that authenticity is the key to fulfilling relationships. If you're already partnered, this is the year to foster greater understanding and build a future vision together. Singles should stay true to their values, as this authenticity will attract like-minded partners. Keep an open heart, as love may come from the most surprising places.</p><h3>Work</h3><p>The workplace will be a stage for your inventive ideas, as your ability to think outside the box will be highly valued. Collaborative projects will flourish under your guidance, but be willing to listen to others' input to achieve the best outcomes. Networking will introduce you to influential individuals who can help propel your career forward.</p><h3>Money</h3><p>Financially, Aquarians should focus on long-term planning this year. Innovative investments or unconventional financial strategies could pay off, but due diligence is essential. Managing your resources effectively will be crucial, as unexpected expenses could arise. Consider seeking advice from a financial planner to secure your economic future.</p>"
+      "desc": "<h3>Allmän.</h3><p>Vattumännen kommer att inleda ett år av innovation och självupptäckt. Ditt unika perspektiv kommer att leda dig att utforska okonventionella vägar, både personligt och professionellt. Tillväxt kommer från att omfamna det oväntade, så förbli anpassningsbar. I år kan ditt sociala medvetande inspirera dig att engagera dig i humanitära insatser eller samhällsprojekt.</p><h3>Kärlek.</h3><p>I kärlek kommer Vattumännen att upptäcka att autenticitet är nyckeln till att uppfylla relationer. Om du redan är partner är det här året för att skapa större förståelse och bygga en framtidsvision tillsammans. Singlar bör förbli trogna sina värderingar, eftersom denna autenticitet kommer att locka likasinnade partners. Håll ett öppet hjärta, eftersom kärlek kan komma från de mest överraskande ställen..</p><h3>Arbete.</h3><p>Arbetsplatsen kommer att vara en scen för dina uppfinningsrika idéer, eftersom din förmåga att tänka utanför ramarna kommer att värderas högt. Samarbetsprojekt kommer att blomstra under din ledning, men var villig att lyssna på andras input för att uppnå de bästa resultaten. Nätverksarbete kommer att introducera dig till inflytelserika personer som kan hjälpa dig att driva din karriär framåt.</p><h3>Pengar.</h3><p>Ekonomiskt bör Vattumännen fokusera på långsiktig planering i år. Innovativa investeringar eller okonventionella finansiella strategier kan löna sig, men due diligence är viktigt. Att hantera dina resurser effektivt kommer att vara avgörande, eftersom oväntade utgifter kan uppstå. Överväg att söka råd från en finansiell planerare för att säkra din ekonomiska framtid.</p>"
     },
     "love": {
-      "section_title": "Aquarius Love Horoscope",
+      "section_title": "Vattumannens kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -5507,7 +5507,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -5518,7 +5518,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5529,7 +5529,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -5540,7 +5540,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5551,17 +5551,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<h3>spiritual connection</h3><p>Aquarius is looking for a spiritual connection with their partner. An Aquarius will end a relationship if they can't share similar views with their partner. Aquarians are likely to discuss issues frequently with their partner and take a critical look at the whole situation. Similarly, if Aquarius often finds someone to talk to, there is a good chance that Aquarius likes this person.</p> ",
+      "article_html": "\n<h3>andlig förbindelse.</h3><p>Vattumannen letar efter en andlig kontakt med sin partner. En Vattuman kommer att avsluta ett förhållande om de inte kan dela liknande åsikter med sin partner. Vattumän kommer sannolikt att diskutera frågor ofta med sin partner och ta en kritisk titt på hela situationen. På samma sätt, om Vattumannen ofta hittar någon att prata med, finns det en god chans att Vattumannen gillar den här personen.</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<h3>believe in fate</h3><p>Aquarius has a casual feel for the relationships around them. In Aquarius' view, becoming friends and partners is a matter of fate, and if the fate ends one day, tough retention will not work. Therefore, in a relationship, if there is an argument with Aquarius, breaking up should not be openly said, because Aquarians may believe it and will not hold their lover back. Feelings are what Aquarius values most.</p>"
+      "desc": "<h3>tror på ödet.</h3><p>Vattumannen har en avslappnad känsla för relationerna runt dem. Enligt Vattumannens uppfattning är det en ödesfråga att bli vänner och partners, och om ödet tar slut en dag kommer tuff retention inte att fungera. Därför, i ett förhållande, om det finns ett argument med Vattumannen, bör det inte sägas öppet att bryta upp, eftersom Vattumännen kan tro det och inte kommer att hålla tillbaka sin älskare. Känslor är det Vattumannen värdesätter mest..</p>"
     },
     "health": {
-      "section_title": "Aquarius Health Horoscope",
+      "section_title": "Vattumannens hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -5572,7 +5572,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -5583,7 +5583,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.5,
             0.0,
@@ -5594,7 +5594,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5605,7 +5605,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             0.5,
             0.0,
@@ -5621,12 +5621,12 @@ const dataPage = {
       "desc": "Aquarius recently must realize the importance of physical exercise. Don't just stay at home and do nothing meaningful. You can go to the gym to run, you can also follow the yoga teacher and do the body stretching type of exercise. If the financial conditions permit, you can also go to a tour group."
     },
     "career": {
-      "section_title": "Aquarius Career Horoscope",
+      "section_title": "Vattumannens karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -5637,7 +5637,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -5648,7 +5648,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5659,7 +5659,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5670,7 +5670,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5681,17 +5681,17 @@ const dataPage = {
           "score": 2.5
         }
       ],
-      "article_html": "\n<p>Aquarius is very smart, they are not afraid to engage in traditional industries, such as business and agriculture. However, the general traditional industry can only let Aquarius get financial freedom, but it is difficult for them to get the real spiritual satisfaction. Intellectual industry is the most suitable occupation for them. In addition to the design industry, they are also suitable for scientific research, humanities and social professions.</p> ",
+      "article_html": "\n<p>Vattumannen är väldigt smart, de är inte rädda för att engagera sig i traditionella industrier, som affärer och jordbruk. Den allmänna traditionella industrin kan dock bara låta Vattumannen få ekonomisk frihet, men det är svårt för dem att få den verkliga andliga tillfredsställelsen. Intellektuell industri är den mest lämpliga sysselsättningen för dem. Förutom designbranschen lämpar de sig även för vetenskaplig forskning, humaniora och sociala yrken..</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<p>Aquarians need work that is creative or that allows them to grow; they get bored quickly with the same old routine. Of course, they are certainly capable enough to do dull work, but that would be a waste of their innate creative ability. If they have the chance, an Aquarian can come up with many new ideas and give a new look to the work he is doing.</p>"
+      "desc": "<p>Vattumännen behöver arbete som är kreativt eller som låter dem växa; de blir snabbt uttråkade med samma gamla rutin. Naturligtvis är de säkert kapabla nog att göra tråkigt arbete, men det skulle vara ett slöseri med deras medfödda kreativa förmåga. Om de har chansen kan en Vattuman komma på många nya idéer och ge ett nytt utseende åt det arbete han gör.</p>"
     },
     "sex": {
-      "section_title": "Aquarius Sex Horoscope",
+      "section_title": "Vattumannen sexhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/aquarius/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -5702,7 +5702,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5713,7 +5713,7 @@ const dataPage = {
           "score": 3.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -5724,7 +5724,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5735,7 +5735,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -5746,9 +5746,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Aquarius people have a wide range of interests, and like to make friends, so there is no lack of some friends of the opposite sex. Aquarius is a person who values friendship more than love, so they will not easily cross the line of friendship, destroying the original innocent feeling. </p> ",
+      "article_html": "\n<p>Vattumannen har ett brett utbud av intressen och gillar att få vänner, så det saknas inte några vänner av det motsatta könet. Vattumannen är en person som värderar vänskap mer än kärlek, så de kommer inte lätt att korsa vänskapslinjen och förstöra den ursprungliga oskyldiga känslan. .</p> ",
       "image_src": "./img/aquarius.svg",
-      "desc": "<p>Aquarius needs a partner who is different. They may well be a genius, or behave oddly, or may even be mentally ill, or all of the above. Your relationship might be quite unusual. Aquarians are fanatics of independence and personal space. For Aquarians, a purely physical marriage, where the two of you often remain separated, would be fine.</p>"
+      "desc": "<p>Vattumannen behöver en partner som är annorlunda. De kan mycket väl vara ett geni, eller bete sig konstigt, eller kan till och med vara psykiskt sjuka, eller allt det ovanstående. Ditt förhållande kan vara ganska ovanligt. Vattumännen är fanatiker av oberoende och personligt utrymme. För Vattumännen skulle ett rent fysiskt äktenskap, där ni två ofta förblir separerade, vara bra.</p>"
     },
     "other": null
   },
@@ -5819,12 +5819,12 @@ const dataPage = {
       "desc": "<h3>Allmän:.</h3><p>Idag handlar det om att hitta balans mellan dina drömmar och verklighet. Ta tid för båda..</p><h3>Kärlek:.</h3><p>Kompromisser kommer att stärka din relation. För singlar, förlora dig inte i fantasier; håll dig jordad..</p><h3>Arbete:.</h3><p>Ditt engagemang för din vision är beundransvärt, men var realistisk när det gäller tidslinjer och mål.</p><h3>Pengar:.</h3><p>Dröm stort när det kommer till din ekonomiska framtid, men skapa också en praktisk plan för att nå dit..</p>"
     },
     "weekly": {
-      "section_title": "Pisces Weekly Horoscope",
+      "section_title": "Fiskarnas veckohoroskop.",
       "section_date": "Nov 16 - Nov 22",
       "section_href": "https://www.astrologiez.com/horoscope/weekly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             0.5,
             0.0,
@@ -5835,7 +5835,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5846,7 +5846,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             0.5,
@@ -5857,7 +5857,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             0.5,
@@ -5868,7 +5868,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -5879,17 +5879,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<h3>Smooth &amp; Relationship</h3><p>You will feel more comfortable at work this week because you will have more opportunities and help from others. But it should be noted that there may be some small changes in cooperation, business negotiations and so on. This is also when you need to balance your time and prepare for work, just in case. Kindness circulates among people, so you get along well with your colleagues and get help from others.</p> <h3>Good Performance</h3><p>Your love life will go well this week, and your friends will help you make it easier. If you want to confess, the scene's layout is the key. If you're already in a relationship, going on a date with them will make you feel better. Just dress yourself up! It feels good to be part of your partner's circle of friends. Some people have unfulfilled love for many years, are ambiguous for a long time, and can not confirm the relationship. You can take advantage of recent good fortune to love the emotion. Maybe the other side has long waited for you to open your heart.</p> <p>Focus on being curious rather than anxious. You don’t always know where life will take you.</p> <h3>Keep a balanced diet</h3><p>You might want to lose some weight recently, and an action plan is already on the way. Skipping meals won’t help you to lose weight. You should pay attention to keeping a balanced diet by eating more fruits, vegetables, or whole grains. You should pay attention to the problem of cervical vertebra. There will likely be shoulder and neck pain. It is suggested that you can relieve the pain with proper massage.</p> ",
+      "article_html": "\n<h3>Smidig & Relation.</h3><p>Du kommer att känna dig mer bekväm på jobbet den här veckan eftersom du kommer att få fler möjligheter och hjälp från andra. Men det bör noteras att det kan bli några små förändringar i samarbete, affärsförhandlingar och så vidare. Det är också då du behöver balansera din tid och förbereda dig för arbetet, för säkerhets skull. Vänlighet cirkulerar bland människor, så du kommer bra överens med dina kollegor och får hjälp av andra..</p> <h3>Bra prestanda.</h3><p>Ditt kärleksliv kommer att gå bra den här veckan, och dina vänner hjälper dig att göra det lättare. Om du vill erkänna är scenens layout nyckeln. Om du redan är i ett förhållande kommer du att må bättre om du går på en dejt med dem. Klä upp dig bara! Det känns bra att vara en del av sin partners vänkrets. Vissa människor har ouppfylld kärlek i många år, är tvetydiga under lång tid och kan inte bekräfta förhållandet. Du kan dra nytta av den senaste lyckan att älska känslan. Kanske den andra sidan har väntat länge på att du ska öppna ditt hjärta..</p> <p>Fokusera på att vara nyfiken snarare än orolig. Du vet inte alltid vart livet tar dig..</p> <h3>Håll en balanserad kost.</h3><p>Du kanske vill gå ner lite i vikt nyligen, och en handlingsplan är redan på väg. Att hoppa över måltider hjälper dig inte att gå ner i vikt. Du bör vara uppmärksam på att hålla en balanserad kost genom att äta mer frukt, grönsaker eller fullkorn. Du bör vara uppmärksam på problemet med halskotan. Det kommer sannolikt att finnas axel- och nacksmärtor. Det föreslås att du kan lindra smärtan med ordentlig massage..</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>Smooth &amp; Relationship</h3><p>You will feel more comfortable at work this week because you will have more opportunities and help from others. But it should be noted that there may be some small changes in cooperation, business negotiations and so on. This is also when you need to balance your time and prepare for work, just in case. Kindness circulates among people, so you get along well with your colleagues and get help from others.</p>"
+      "desc": "<h3>Smidig & Relation.</h3><p>Du kommer att känna dig mer bekväm på jobbet den här veckan eftersom du kommer att få fler möjligheter och hjälp från andra. Men det bör noteras att det kan bli några små förändringar i samarbete, affärsförhandlingar och så vidare. Det är också då du behöver balansera din tid och förbereda dig för arbetet, för säkerhets skull. Vänlighet cirkulerar bland människor, så du kommer bra överens med dina kollegor och får hjälp av andra..</p>"
     },
     "monthly": {
-      "section_title": "Pisces Monthly Horoscope",
+      "section_title": "Fiskarnas månadshoroskop.",
       "section_date": "November",
       "section_href": "https://www.astrologiez.com/horoscope/monthly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -5900,7 +5900,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -5911,7 +5911,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -5922,7 +5922,7 @@ const dataPage = {
           "score": 5.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -5933,7 +5933,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -5944,17 +5944,17 @@ const dataPage = {
           "score": 4.5
         }
       ],
-      "article_html": "\n<h3>General:</h3><p>This month, focus on building self-confidence. Your talents and abilities deserve recognition, so don't downplay your achievements. Embrace opportunities to showcase your skills.</p><h3>Love:</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Work:</h3><p>Take on new challenges at work with confidence. Your capability will shine through, and you may be considered for a promotion or a leadership role.</p><h3>Money:</h3><p>Your financial acumen is growing. This is a good time to renegotiate contracts or ask for a raise. Be confident in your value.</p> ",
+      "article_html": "\n<h3>Allmän:.</h3><p>Fokus den här månaden på att bygga självförtroende. Dina talanger och förmågor förtjänar erkännande, så förringa inte dina prestationer. Omfamna möjligheter att visa upp dina färdigheter..</p><h3>Kärlek:.</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Arbete:.</h3><p>Anta nya utmaningar på jobbet med självförtroende. Din förmåga kommer att lysa igenom, och du kan komma ifråga för en befordran eller en ledarroll.</p><h3>Pengar:.</h3><p>Ditt ekonomiska sinne växer. Det här är ett bra tillfälle att omförhandla kontrakt eller be om löneförhöjning. Var säker på ditt värde..</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>General:</h3><p>This month, focus on building self-confidence. Your talents and abilities deserve recognition, so don't downplay your achievements. Embrace opportunities to showcase your skills.</p><h3>Love:</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Work:</h3><p>Take on new challenges at work with confidence. Your capability will shine through, and you may be considered for a promotion or a leadership role.</p><h3>Money:</h3><p>Your financial acumen is growing. This is a good time to renegotiate contracts or ask for a raise. Be confident in your value.</p>"
+      "desc": "<h3>Allmän:.</h3><p>Fokus den här månaden på att bygga självförtroende. Dina talanger och förmågor förtjänar erkännande, så förringa inte dina prestationer. Omfamna möjligheter att visa upp dina färdigheter..</p><h3>Kärlek:.</h3>Confidence is attractive, and as you step into your power, your love life will benefit. Couples should support each other's successes, while single Pisces might attract someone who admires their self-assuredness.<p></p><h3>Arbete:.</h3><p>Anta nya utmaningar på jobbet med självförtroende. Din förmåga kommer att lysa igenom, och du kan komma ifråga för en befordran eller en ledarroll.</p><h3>Pengar:.</h3><p>Ditt ekonomiska sinne växer. Det här är ett bra tillfälle att omförhandla kontrakt eller be om löneförhöjning. Var säker på ditt värde..</p>"
     },
     "yearly": {
-      "section_title": "Pisces Yearly Horoscope",
+      "section_title": "Fiskarnas årshoroskop.",
       "section_date": "2025",
       "section_href": "https://www.astrologiez.com/horoscope/yearly/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.0,
@@ -5965,7 +5965,7 @@ const dataPage = {
           "score": 1.0
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -5976,7 +5976,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             0.0,
             0.0,
@@ -5987,7 +5987,7 @@ const dataPage = {
           "score": 0.0
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             0.5,
             0.0,
@@ -5998,7 +5998,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -6009,17 +6009,17 @@ const dataPage = {
           "score": 5.0
         }
       ],
-      "article_html": "\n<h3>General</h3><p>This year promises a journey of emotional and spiritual growth for Pisces. Your intuitive nature will be heightened, guiding you through various life scenarios with insight. You may find yourself drawn to mindfulness practices that enhance your well-being. Embrace the flow of creativity and inspiration, but be wary of becoming too absorbed in daydreams—balance is key.</p><h3>Love</h3><p>In the realm of love, Pisces will find that openness and honesty are the cornerstones of a strong relationship this year. If single, you might encounter someone who not only sparks romantic interest but also offers a deep, soulful connection. For those in a relationship, it's a time to nurture bonds and express empathy, ensuring you and your partner grow in harmony.</p><h3>Work</h3><p>Work-wise, Pisces may experience a year of meaningful projects and collaborations. Your empathetic nature makes you a valued team member, and your creative ideas will likely receive recognition. It's important to set boundaries, however, as your desire to help others may lead to overcommitment. Prioritize tasks and seek clarity in your professional goals.</p><h3>Money</h3><p>Financially, a careful approach is advised for Pisces throughout the year. While there may be temptations to invest in artistic or philanthropic endeavors, it's essential to assess the practicality of these ventures. Budgeting and planning for long-term security will prove beneficial. Unexpected expenses could arise, so having a financial cushion will provide peace of mind.</p> ",
+      "article_html": "\n<h3>Allmän.</h3><p>Detta år lovar en resa av känslomässig och andlig tillväxt för Fiskarna. Din intuitiva natur kommer att öka, och guidar dig genom olika livsscenarier med insikt. Du kanske dras till mindfulness-övningar som förbättrar ditt välbefinnande. Omfamna flödet av kreativitet och inspiration, men var försiktig med att bli för absorberad av dagdrömmar – balans är nyckeln.</p><h3>Kärlek.</h3><p>I kärlekens rike kommer Fiskarna att upptäcka att öppenhet och ärlighet är hörnstenarna i en stark relation i år. Om du är singel kan du stöta på någon som inte bara väcker romantiskt intresse utan också erbjuder en djup, själfull koppling. För dem i ett förhållande är det en tid att vårda band och uttrycka empati, se till att du och din partner växer i harmoni.</p><h3>Arbete.</h3><p>Arbetsmässigt kan Fiskarna uppleva ett år av meningsfulla projekt och samarbeten. Din empatiska natur gör dig till en uppskattad teammedlem, och dina kreativa idéer kommer sannolikt att få erkännande. Det är dock viktigt att sätta gränser, eftersom din önskan att hjälpa andra kan leda till överengagemang. Prioritera uppgifter och sök tydlighet i dina professionella mål..</p><h3>Pengar.</h3><p>Ekonomiskt rekommenderas ett försiktigt tillvägagångssätt för Fiskarna under hela året. Även om det kan finnas frestelser att investera i konstnärliga eller filantropiska ansträngningar, är det viktigt att bedöma det praktiska i dessa satsningar. Budgetering och planering för långsiktig säkerhet kommer att visa sig fördelaktigt. Oväntade utgifter kan uppstå, så att ha en ekonomisk kudde kommer att ge sinnesfrid..</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>General</h3><p>This year promises a journey of emotional and spiritual growth for Pisces. Your intuitive nature will be heightened, guiding you through various life scenarios with insight. You may find yourself drawn to mindfulness practices that enhance your well-being. Embrace the flow of creativity and inspiration, but be wary of becoming too absorbed in daydreams—balance is key.</p><h3>Love</h3><p>In the realm of love, Pisces will find that openness and honesty are the cornerstones of a strong relationship this year. If single, you might encounter someone who not only sparks romantic interest but also offers a deep, soulful connection. For those in a relationship, it's a time to nurture bonds and express empathy, ensuring you and your partner grow in harmony.</p><h3>Work</h3><p>Work-wise, Pisces may experience a year of meaningful projects and collaborations. Your empathetic nature makes you a valued team member, and your creative ideas will likely receive recognition. It's important to set boundaries, however, as your desire to help others may lead to overcommitment. Prioritize tasks and seek clarity in your professional goals.</p><h3>Money</h3><p>Financially, a careful approach is advised for Pisces throughout the year. While there may be temptations to invest in artistic or philanthropic endeavors, it's essential to assess the practicality of these ventures. Budgeting and planning for long-term security will prove beneficial. Unexpected expenses could arise, so having a financial cushion will provide peace of mind.</p>"
+      "desc": "<h3>Allmän.</h3><p>Detta år lovar en resa av känslomässig och andlig tillväxt för Fiskarna. Din intuitiva natur kommer att öka, och guidar dig genom olika livsscenarier med insikt. Du kanske dras till mindfulness-övningar som förbättrar ditt välbefinnande. Omfamna flödet av kreativitet och inspiration, men var försiktig med att bli för absorberad av dagdrömmar – balans är nyckeln.</p><h3>Kärlek.</h3><p>I kärlekens rike kommer Fiskarna att upptäcka att öppenhet och ärlighet är hörnstenarna i en stark relation i år. Om du är singel kan du stöta på någon som inte bara väcker romantiskt intresse utan också erbjuder en djup, själfull koppling. För dem i ett förhållande är det en tid att vårda band och uttrycka empati, se till att du och din partner växer i harmoni.</p><h3>Arbete.</h3><p>Arbetsmässigt kan Fiskarna uppleva ett år av meningsfulla projekt och samarbeten. Din empatiska natur gör dig till en uppskattad teammedlem, och dina kreativa idéer kommer sannolikt att få erkännande. Det är dock viktigt att sätta gränser, eftersom din önskan att hjälpa andra kan leda till överengagemang. Prioritera uppgifter och sök tydlighet i dina professionella mål..</p><h3>Pengar.</h3><p>Ekonomiskt rekommenderas ett försiktigt tillvägagångssätt för Fiskarna under hela året. Även om det kan finnas frestelser att investera i konstnärliga eller filantropiska ansträngningar, är det viktigt att bedöma det praktiska i dessa satsningar. Budgetering och planering för långsiktig säkerhet kommer att visa sig fördelaktigt. Oväntade utgifter kan uppstå, så att ha en ekonomisk kudde kommer att ge sinnesfrid..</p>"
     },
     "love": {
-      "section_title": "Pisces Love Horoscope",
+      "section_title": "Fiskarnas kärlekshoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/love/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -6030,7 +6030,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -6041,7 +6041,7 @@ const dataPage = {
           "score": 4.0
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -6052,7 +6052,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -6063,7 +6063,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             1.0,
@@ -6074,17 +6074,17 @@ const dataPage = {
           "score": 3.5
         }
       ],
-      "article_html": "\n<h3>empathetic</h3><p>Pisces is a giver in relationships. Empathy is a Pisces gift, which makes them accustomed to thinking of others. Pisceans are very sensitive to the tenderness of other people's hearts and will feel the same for others' sadness. Pisces is not good at saying no to requests due to their giving nature.</p> ",
+      "article_html": "\n<h3>empatisk.</h3><p>Fiskarna är en givare i relationer. Empati är en fiskgåva, som gör dem vana vid att tänka på andra. Fiskar är mycket känsliga för ömhet i andra människors hjärtan och kommer att känna samma sak för andras sorg. Fiskarna är inte bra på att säga nej till förfrågningar på grund av deras givande natur..</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<h3>sensitive</h3><p>Pisces enjoys being needed in a relationship. Pisces are sensitive and want their partner to have a perfect relationship. So Pisces tends to feel sorry for someone in a relationship and not know what to choose. Pisces also beautifies their partners when they are in love. But they also run away from problems in the relationship.</p>"
+      "desc": "<h3>känslig.</h3><p>Fiskarna tycker om att behövas i ett förhållande. Fiskarna är känsliga och vill att deras partner ska ha ett perfekt förhållande. Så Fiskarna tenderar att tycka synd om någon i ett förhållande och inte veta vad de ska välja. Fiskarna förskönar också sina partners när de är kära. Men de flyr också från problem i relationen..</p>"
     },
     "health": {
-      "section_title": "Pisces Health Horoscope",
+      "section_title": "Fiskarnas hälsohoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/health/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -6095,7 +6095,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             0.5,
@@ -6106,7 +6106,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -6117,7 +6117,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -6128,7 +6128,7 @@ const dataPage = {
           "score": 4.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -6144,12 +6144,12 @@ const dataPage = {
       "desc": "Physically there will not be big crisis, as long as not be overstretched, such as staying up all night or running outside, then there will not be too big problem. It is worth noting that Pisces' mental world is relatively depressed, some people will use alcohol or other bad habits to relieve stress, such as binge drinking, overeating, etc. So if you have unhealthy habits in daily life, you must be aware of what risks this will bring to you, stop promptly and correct them in time, and be responsible for your own health."
     },
     "career": {
-      "section_title": "Pisces Career Horoscope",
+      "section_title": "Fiskarnas karriärhoroskop.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/career/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             0.5,
@@ -6160,7 +6160,7 @@ const dataPage = {
           "score": 1.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             1.0,
             1.0,
@@ -6171,7 +6171,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -6182,7 +6182,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -6193,7 +6193,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -6204,17 +6204,17 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Pisces do not like to compete with anyone. They will selflessly help others in the workplace. On the one hand, they will not show apathy or keep a distance from  the weak. On the other hand, they will not feel that they are dragged down by others, but rather fully engaged, hoping that they can contribute to the overall performance with this selflessness. </p>&gt;                    ",
+      "article_html": "\n<p>Fiskarna gillar inte att tävla med någon. De kommer osjälviskt att hjälpa andra på arbetsplatsen. Å ena sidan kommer de inte att visa apati eller hålla avstånd till de svaga. Å andra sidan kommer de inte att känna att de dras ned av andra, utan snarare helt engagerade, i hopp om att de kan bidra till den totala prestationen med denna osjälviska. .</p>&gt;                    ",
       "image_src": "./img/pisces.svg",
-      "desc": "<p>Pisces do not like to compete with anyone. They will selflessly help others in the workplace. On the one hand, they will not show apathy or keep a distance from  the weak. On the other hand, they will not feel that they are dragged down by others, but rather fully engaged, hoping that they can contribute to the overall performance with this selflessness. </p>&gt;"
+      "desc": "<p>Fiskarna gillar inte att tävla med någon. De kommer osjälviskt att hjälpa andra på arbetsplatsen. Å ena sidan kommer de inte att visa apati eller hålla avstånd till de svaga. Å andra sidan kommer de inte att känna att de dras ned av andra, utan snarare helt engagerade, i hopp om att de kan bidra till den totala prestationen med denna osjälviska. .</p>&gt;"
     },
     "sex": {
-      "section_title": "Pisces Sex Horoscope",
+      "section_title": "Sexhoroskop för Fiskarna.",
       "section_date": "Nov 21, 2025",
       "section_href": "https://www.astrologiez.com/horoscope/sex/pisces/",
       "badges": [
         {
-          "name": "LOVE",
+          "name": "KÄRLEK.",
           "stars": [
             1.0,
             1.0,
@@ -6225,7 +6225,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "CAREER",
+          "name": "KARRIÄR.",
           "stars": [
             0.5,
             0.0,
@@ -6236,7 +6236,7 @@ const dataPage = {
           "score": 0.5
         },
         {
-          "name": "MOOD",
+          "name": "HUMÖR.",
           "stars": [
             1.0,
             1.0,
@@ -6247,7 +6247,7 @@ const dataPage = {
           "score": 2.5
         },
         {
-          "name": "ENERGY",
+          "name": "ENERGI.",
           "stars": [
             1.0,
             1.0,
@@ -6258,7 +6258,7 @@ const dataPage = {
           "score": 3.5
         },
         {
-          "name": "HEALTH",
+          "name": "HÄLSA.",
           "stars": [
             1.0,
             0.5,
@@ -6269,9 +6269,9 @@ const dataPage = {
           "score": 1.5
         }
       ],
-      "article_html": "\n<p>Pisces is an emotional, sentimental person who has a hard time dealing with cold reality. Likewise, their partners tend to be emotional people and you must learn to balance your ability to love people unconditionally with self-love and self-respect.</p> ",
+      "article_html": "\n<p>Fiskarna är en känslomässig, sentimental person som har svårt att hantera den kalla verkligheten. På samma sätt tenderar deras partner att vara känslomässiga människor och du måste lära dig att balansera din förmåga att älska människor villkorslöst med självkärlek och självrespekt.</p> ",
       "image_src": "./img/pisces.svg",
-      "desc": "<p>A partner who actually lives with a Pisces tends to be a romantic, affectionate person. They are soft-hearted and caring, but are also prone to control the thoughts and actions of their other half with tearful tenderness.Pisces is easily self-deceived, obsessed with certain areas and may be a religious enthusiast. Their partners tend to be imaginative and poetic dreamers.</p>"
+      "desc": "<p>En partner som faktiskt bor med en Fisk tenderar att vara en romantisk, tillgiven person. De är mjuka och omtänksamma, men är också benägna att kontrollera sin andra hälfts tankar och handlingar med tårfylld ömhet. Fiskarna är lätt att lura sig själv, besatta av vissa områden och kan vara en religiös entusiast. Deras partner tenderar att vara fantasifulla och poetiska drömmare..</p>"
     },
     "other": null
   }
