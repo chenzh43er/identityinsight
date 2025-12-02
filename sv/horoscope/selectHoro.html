@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <base href="/sv/horoscope/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>HOROSCOPES</title>
+
+  <!-- 预连接关键第三方域名 -->
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net">
+  <link rel="preconnect" href="https://tpc.googlesyndication.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- 关键 CSS：优先加载 -->
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- 非关键 CSS：异步加载，减少阻塞 -->
+  <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
+
+  <!-- Google Ads 异步加载 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
+
+
+  <!-- 将阻塞页面渲染的 script 改为 defer -->
+  <script src="../testname/js/google_adv.js"></script>
+  <script src="../testname/js/common.js"></script>
+  <script src="../testname/js/jquery.min.js?V=20200214"></script>
+
+
+  <!-- Google Tag Manager -->
+  <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5G9MGKZV');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9MGKZV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <style>
+
+    .divLinePa {
+      margin: .5rem 0 !important;
+      text-align: center !important;
+      color: #ccc !important;
+      font-size: 14px !important;
+      position: relative !important;
+    }
+
+    .divLinePa {
+      text-align: center !important;
+      color: #ccc !important;
+      font-size: 14px !important;
+    }
+
+    /*body {*/
+    /*  direction: rtl;   !* 文本方向 *!*/
+    /*  unicode-bidi: plaintext; !* 只作用于文字，不影响布局 *!*/
+    /*}*/
+
+    .quiz_home-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      box-sizing: border-box;
+    }
+
+    .center-common {
+    }
+
+    .container-next-btn {
+      margin: 40px auto 0;
+    }
+
+    .mid_adv{
+      width: 100%;
+      height: auto;
+    }
+
+    ins.adsbygoogle {
+      margin: 0 auto !important; /* 强制水平居中 */
+      float: none !important;
+      display: block !important;
+    }
+
+    .tempTitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tempTitle img {
+      width: 40px;
+      margin: 0 20px;
+      height: 15px;
+    }
+
+    .container-list-item-warp{
+      transition-duration: 0.3s;
+      transform: scale(1);
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .mostPopular >a {
+        width: 100%
+      }
+
+      .theLatest >a {
+        width: 100%
+      }
+
+      .youMayLike >a {
+        width: 100%
+      }
+
+      .mid_adv {
+        margin: 0 -20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .mobile-margin {
+        margin: 0 -30px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+
+      .tempTitle {
+        text-align: center;
+        font-size: 20px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .tempTitle img {
+        width: 40px;
+        margin: 0 20px;
+        height: 15px;
+      }
+
+      .container-list-item{
+        width: 100%;
+        width: 100%;
+        background: #FFF;
+        border-radius: 0.5rem;
+        position: relative;
+      }
+
+      .container-list-item-p {
+        font-size: 0.9rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        font-weight: bold;
+        padding: 0 0.2rem;
+      }
+
+      .container-list-item-p {
+        height: auto !important;
+      }
+
+      .container-list-item-warp {
+        border: 3px solid #FF9600;
+        padding: 0px;
+        margin: 10px;
+      }
+    }
+
+
+
+    </style>
+    <style>
+
+       /* ========== 通用样式 ========== */
+     nav {
+       position: relative;
+       z-index: 1000;
+       padding: 0px 30px
+     }
+
+    /* 桌面端：右对齐菜单 */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: flex-end; /* ← 关键：右对齐 */
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      padding: 8px 12px;
+      display: block;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #ff0059;
+    }
+
+    /* ========== 汉堡按钮样式 ========== */
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+      font-size: 26px;
+      color: #333;
+      background: none;
+      border: none;
+      line-height: 1;
+      padding: 8px;
+    }
+
+    .selectNav{
+      font-family: "Aldrich",Sans-serif;
+      font-weight: 600;
+    }
+
+    .tempCatHref{
+      display: none;
+    }
+
+    .home_tab {
+      display: none;
+    }
+
+    /* ========== 移动端样式 ========== */
+    @media (max-width: 768px) {
+
+      .home_tab {
+        display: block;
+      }
+
+      .menu-toggle {
+        display: block;
+        top: 15px;
+        right: 20px;
+        z-index: 2000;
+      }
+
+      .elementor-13 .elementor-element.elementor-element-16a4503 {
+        width: 35% !important;
+      }
+
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 55px;
+        right: 45px;
+        width: 300px;
+        max-width: 300px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 10px 0;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+      }
+
+      nav ul.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      nav li {
+        text-align: center;
+      }
+
+      nav a {
+        font-size: 18px;
+        padding: 14px;
+        color: #222;
+      }
+
+      nav a:hover {
+        background: #f5f5f5;
+      }
+
+      .tempCatHref {
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+      }
+
+      .tempCatHref ul {
+        display: flex;
+        justify-content: center; /* 居中 */
+        align-items: center;
+        gap: 20px; /* 链接间距 */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow-x: auto; /* 适应小屏横向滚动 */
+        white-space: nowrap;
+        scrollbar-width: none; /* 隐藏滚动条（Firefox） */
+      }
+
+      .tempCatHref ul::-webkit-scrollbar {
+        display: none; /* 隐藏滚动条（Chrome/Safari） */
+      }
+
+      .tempCatHref li {
+        flex-shrink: 0;
+      }
+
+      .tempCatHref a {
+        display: inline-block;
+        text-decoration: none; /* 去掉默认下划线 */
+        color: #000; /* 黑色文字 */
+        font-weight: 600;
+        padding: 1px 1px;
+        font-size: 16px;
+        border-bottom: 3px solid red; /* 永久红线 */
+        border-radius: 0; /* 去掉圆角 */
+      }
+
+
+
+    }
+    </style>
+    <style>
+       /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
+     #CybotCookiebotDialog {
+       position: fixed !important;
+       bottom: 0 !important;
+       left: 0 !important;
+       width: 100% !important;
+       max-width: 100% !important;
+       border: none !important;
+       border-top: 1px solid #ccc !important;
+       box-shadow: 0 -2px 5px rgba(0,0,0,0.1) !important;
+       text-align: center !important;
+       padding: 10px !important;
+       background-color: #f9f9f9 !important;
+       z-index: 10000 !important;
+     }
+
+    /* 按钮样式 */
+    #CybotCookiebotDialogBodyButtonDecline,
+    #CybotCookiebotDialogBodyButtonAccept {
+      background-color: #fff !important;
+      border: 1px solid #ccc !important;
+      border-radius: 4px !important;
+      padding: 6px 12px !important;
+      margin: 5px !important;
+      cursor: pointer !important;
+    }
+
+    /* 信息文本样式 */
+    #CybotCookiebotDialogBodyContent {
+      font-size: 12px !important;
+      color: #555 !important;
+      margin-bottom: 5px !important;
+    }
+    ft-menu {
+      display: none !important;
+    }
+    </style>
+    <style>
+     #popular_btn {
+       border-radius: 0.5rem 0 0 0.5rem;
+     }
+
+    .subBanner a {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+      padding: 0.4rem 0.5rem;
+      background: #fff;
+      font-size: 0.95rem;
+      font-weight: bold;
+      border: 1px solid #618CCC;
+    }
+
+    #popular_btn {
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+    .subBanner a.currentBannerClass {
+      color: #fff;
+      background: #618CCC;
+    }
+
+    .subBanner {
+      display: flex;
+      align-items: center;
+    }
+
+    .home_tab {
+      padding: 0.5rem;
+    }
+
+    #latest_btn {
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .subBanner a h2 {
+      font-size: 0.95rem;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+  </style>
+
+</head>
+<body style="" aria-hidden="false">
+<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" id = "content_for_header"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-50d24b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="50d24b9" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-501690e"
+           data-id="501690e" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-5daaf45 elementor-widget-mobile__width-initial elementor-widget elementor-widget-html"
+               data-id="5daaf45" data-element_type="widget" data-widget_type="html.default">
+            <div class="elementor-widget-container">
+              <meta charset="UTF-8">
+              <title>Title</title>
+              <a href="" id="picForUrlJump">
+                <img src="./img/title.png">
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
+           data-id="16a4503" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
+          <div class="elementor-widget-container">
+            <nav style="  display: flex;
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
+              <!-- 汉堡按钮 -->
+              <button class="menu-toggle" id="menuToggle">☰</button>
+              <ul id="menu-1-20d443e">
+                <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
+                <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-arrow-right" viewBox="0 0 1024 1024">
+    <path d="M717.312 477.866667l-214.801067-214.801067 48.298667-48.264533L848.008533 512l-297.198933 297.198933-48.298667-48.264533L717.312 546.133333H170.666667v-68.266666z" p-id="1203" fill="#dcc9a5"></path>
+  </symbol>
+  <symbol id="icon-daily-explore" viewBox="0 0 1024 1024">
+    <path id="svg_1" p-id="7298" fill="#7731d7" d="m672.695,311.33875l-114.176,-273.408c-1.536,-2.56 -3.072,-6.144 -5.632,-10.24c-2.56,-4.096 -5.632,-8.704 -8.704,-12.288c-3.584,-4.096 -8.192,-7.68 -12.8,-10.752c-5.632,-3.072 -11.776,-4.608 -17.92,-4.608c-11.264,-0.512 -22.528,3.584 -30.72,11.776c-7.68,8.192 -13.312,17.408 -17.408,28.16l-117.76,273.408l-315.392,28.672c-7.68,1.536 -14.848,4.608 -20.48,10.24c-6.144,6.144 -10.24,13.824 -11.264,22.528c-1.536,9.728 1.024,19.968 6.656,28.16c5.632,9.216 12.8,17.92 20.992,25.088c0.512,0.512 4.608,4.096 11.264,9.728c6.656,5.632 15.36,13.312 26.112,22.528s22.528,19.456 35.84,30.72l40.448,34.304c0.512,0.512 223.744,-65.536 231.936,-69.632c0,-25.088 14.336,-47.616 36.864,-58.88c8.704,-4.608 18.432,-6.656 28.16,-7.168c35.84,0.512 65.024,29.184 65.024,65.024c0,10.752 -2.56,21.504 -8.192,30.72c3.072,3.584 125.44,136.704 126.464,138.24c6.144,-2.56 12.8,-3.584 19.456,-3.584l2.56,0c2.048,-5.12 163.84,-292.352 165.376,-295.936l-136.704,-12.8z"></path>
+    <path id="svg_2" p-id="7299" fill="#7731d7" d="m1016.247,353.32275c-8.704,-6.144 -18.432,-10.24 -28.672,-12.288l-129.536,-12.288c-1.024,2.048 -171.52,306.688 -174.592,311.296l0,0.512c7.168,9.216 11.264,20.48 11.264,32.256c0,29.184 -23.552,52.736 -52.736,52.736c-29.184,0 -52.736,-23.552 -52.736,-52.736c0,-6.144 1.024,-11.776 3.072,-17.408c-0.512,-1.024 -126.976,-137.216 -129.536,-139.776c-7.68,3.072 -15.872,4.608 -24.064,4.608c-19.968,0 -38.912,-9.216 -51.2,-25.088l-205.312,65.024s43.008,36.864 67.072,57.856l-34.816,142.848c-4.608,18.432 -9.216,36.352 -13.824,54.272c-4.608,17.92 -8.192,33.792 -11.776,48.64c-3.584,14.848 -6.656,27.136 -9.216,37.888c-2.56,10.752 -4.608,17.408 -5.12,19.968c-1.536,6.144 -0.512,12.288 2.048,17.92c3.072,6.144 7.168,11.264 12.8,14.848c5.632,4.096 12.288,6.656 19.456,7.68c7.168,1.024 14.336,0 20.992,-3.584c6.656,-3.072 13.312,-6.656 19.968,-10.24c9.728,-5.632 21.504,-12.288 35.328,-20.48s28.672,-16.896 45.568,-26.624c16.384,-9.728 33.28,-18.944 50.688,-28.672c39.424,-22.528 83.456,-48.128 131.584,-76.8l266.24,155.136c3.584,1.536 8.192,3.072 14.848,5.632c4.608,2.048 9.728,3.072 14.848,3.584c9.728,0 18.944,-2.048 27.648,-6.656c8.192,-4.608 11.264,-13.312 9.216,-27.136c-0.512,-2.56 -2.048,-9.216 -4.096,-19.968c-2.048,-10.752 -4.608,-23.04 -7.68,-38.4c-3.072,-14.848 -6.144,-31.744 -9.728,-50.176s-7.168,-36.864 -11.264,-55.296c-8.704,-43.52 -18.944,-92.16 -30.72,-145.92l211.456,-189.44c8.704,-10.24 16.384,-18.944 22.016,-26.112c5.632,-7.168 8.704,-15.872 8.704,-24.576c0.512,-8.704 -2.56,-16.896 -8.192,-23.04z"></path>
+    <path id="svg_3" p-id="7300" d="m142.263,523.81875z"></path>
+  </symbol>
+  <symbol id="icon-weekly-explore" viewBox="0 0 1024 1024">
+    <path id="svg_1" p-id="7298" fill="#7731d7" d="m672.695,311.33875l-114.176,-273.408c-1.536,-2.56 -3.072,-6.144 -5.632,-10.24c-2.56,-4.096 -5.632,-8.704 -8.704,-12.288c-3.584,-4.096 -8.192,-7.68 -12.8,-10.752c-5.632,-3.072 -11.776,-4.608 -17.92,-4.608c-11.264,-0.512 -22.528,3.584 -30.72,11.776c-7.68,8.192 -13.312,17.408 -17.408,28.16l-117.76,273.408l-315.392,28.672c-7.68,1.536 -14.848,4.608 -20.48,10.24c-6.144,6.144 -10.24,13.824 -11.264,22.528c-1.536,9.728 1.024,19.968 6.656,28.16c5.632,9.216 12.8,17.92 20.992,25.088c0.512,0.512 4.608,4.096 11.264,9.728c6.656,5.632 15.36,13.312 26.112,22.528s22.528,19.456 35.84,30.72l40.448,34.304c0.512,0.512 223.744,-65.536 231.936,-69.632c0,-25.088 14.336,-47.616 36.864,-58.88c8.704,-4.608 18.432,-6.656 28.16,-7.168c35.84,0.512 65.024,29.184 65.024,65.024c0,10.752 -2.56,21.504 -8.192,30.72c3.072,3.584 125.44,136.704 126.464,138.24c6.144,-2.56 12.8,-3.584 19.456,-3.584l2.56,0c2.048,-5.12 163.84,-292.352 165.376,-295.936l-136.704,-12.8z"></path>
+    <path id="svg_2" p-id="7299" fill="#7731d7" d="m1016.247,353.32275c-8.704,-6.144 -18.432,-10.24 -28.672,-12.288l-129.536,-12.288c-1.024,2.048 -171.52,306.688 -174.592,311.296l0,0.512c7.168,9.216 11.264,20.48 11.264,32.256c0,29.184 -23.552,52.736 -52.736,52.736c-29.184,0 -52.736,-23.552 -52.736,-52.736c0,-6.144 1.024,-11.776 3.072,-17.408c-0.512,-1.024 -126.976,-137.216 -129.536,-139.776c-7.68,3.072 -15.872,4.608 -24.064,4.608c-19.968,0 -38.912,-9.216 -51.2,-25.088l-205.312,65.024s43.008,36.864 67.072,57.856l-34.816,142.848c-4.608,18.432 -9.216,36.352 -13.824,54.272c-4.608,17.92 -8.192,33.792 -11.776,48.64c-3.584,14.848 -6.656,27.136 -9.216,37.888c-2.56,10.752 -4.608,17.408 -5.12,19.968c-1.536,6.144 -0.512,12.288 2.048,17.92c3.072,6.144 7.168,11.264 12.8,14.848c5.632,4.096 12.288,6.656 19.456,7.68c7.168,1.024 14.336,0 20.992,-3.584c6.656,-3.072 13.312,-6.656 19.968,-10.24c9.728,-5.632 21.504,-12.288 35.328,-20.48s28.672,-16.896 45.568,-26.624c16.384,-9.728 33.28,-18.944 50.688,-28.672c39.424,-22.528 83.456,-48.128 131.584,-76.8l266.24,155.136c3.584,1.536 8.192,3.072 14.848,5.632c4.608,2.048 9.728,3.072 14.848,3.584c9.728,0 18.944,-2.048 27.648,-6.656c8.192,-4.608 11.264,-13.312 9.216,-27.136c-0.512,-2.56 -2.048,-9.216 -4.096,-19.968c-2.048,-10.752 -4.608,-23.04 -7.68,-38.4c-3.072,-14.848 -6.144,-31.744 -9.728,-50.176s-7.168,-36.864 -11.264,-55.296c-8.704,-43.52 -18.944,-92.16 -30.72,-145.92l211.456,-189.44c8.704,-10.24 16.384,-18.944 22.016,-26.112c5.632,-7.168 8.704,-15.872 8.704,-24.576c0.512,-8.704 -2.56,-16.896 -8.192,-23.04z"></path>
+    <path id="svg_3" p-id="7300" d="m142.263,523.81875z"></path>
+  </symbol>
+  <symbol id="icon-monthly-explore" viewBox="0 0 1024 1024">
+    <path id="svg_1" p-id="7298" fill="#7731d7" d="m672.695,311.33875l-114.176,-273.408c-1.536,-2.56 -3.072,-6.144 -5.632,-10.24c-2.56,-4.096 -5.632,-8.704 -8.704,-12.288c-3.584,-4.096 -8.192,-7.68 -12.8,-10.752c-5.632,-3.072 -11.776,-4.608 -17.92,-4.608c-11.264,-0.512 -22.528,3.584 -30.72,11.776c-7.68,8.192 -13.312,17.408 -17.408,28.16l-117.76,273.408l-315.392,28.672c-7.68,1.536 -14.848,4.608 -20.48,10.24c-6.144,6.144 -10.24,13.824 -11.264,22.528c-1.536,9.728 1.024,19.968 6.656,28.16c5.632,9.216 12.8,17.92 20.992,25.088c0.512,0.512 4.608,4.096 11.264,9.728c6.656,5.632 15.36,13.312 26.112,22.528s22.528,19.456 35.84,30.72l40.448,34.304c0.512,0.512 223.744,-65.536 231.936,-69.632c0,-25.088 14.336,-47.616 36.864,-58.88c8.704,-4.608 18.432,-6.656 28.16,-7.168c35.84,0.512 65.024,29.184 65.024,65.024c0,10.752 -2.56,21.504 -8.192,30.72c3.072,3.584 125.44,136.704 126.464,138.24c6.144,-2.56 12.8,-3.584 19.456,-3.584l2.56,0c2.048,-5.12 163.84,-292.352 165.376,-295.936l-136.704,-12.8z"></path>
+    <path id="svg_2" p-id="7299" fill="#7731d7" d="m1016.247,353.32275c-8.704,-6.144 -18.432,-10.24 -28.672,-12.288l-129.536,-12.288c-1.024,2.048 -171.52,306.688 -174.592,311.296l0,0.512c7.168,9.216 11.264,20.48 11.264,32.256c0,29.184 -23.552,52.736 -52.736,52.736c-29.184,0 -52.736,-23.552 -52.736,-52.736c0,-6.144 1.024,-11.776 3.072,-17.408c-0.512,-1.024 -126.976,-137.216 -129.536,-139.776c-7.68,3.072 -15.872,4.608 -24.064,4.608c-19.968,0 -38.912,-9.216 -51.2,-25.088l-205.312,65.024s43.008,36.864 67.072,57.856l-34.816,142.848c-4.608,18.432 -9.216,36.352 -13.824,54.272c-4.608,17.92 -8.192,33.792 -11.776,48.64c-3.584,14.848 -6.656,27.136 -9.216,37.888c-2.56,10.752 -4.608,17.408 -5.12,19.968c-1.536,6.144 -0.512,12.288 2.048,17.92c3.072,6.144 7.168,11.264 12.8,14.848c5.632,4.096 12.288,6.656 19.456,7.68c7.168,1.024 14.336,0 20.992,-3.584c6.656,-3.072 13.312,-6.656 19.968,-10.24c9.728,-5.632 21.504,-12.288 35.328,-20.48s28.672,-16.896 45.568,-26.624c16.384,-9.728 33.28,-18.944 50.688,-28.672c39.424,-22.528 83.456,-48.128 131.584,-76.8l266.24,155.136c3.584,1.536 8.192,3.072 14.848,5.632c4.608,2.048 9.728,3.072 14.848,3.584c9.728,0 18.944,-2.048 27.648,-6.656c8.192,-4.608 11.264,-13.312 9.216,-27.136c-0.512,-2.56 -2.048,-9.216 -4.096,-19.968c-2.048,-10.752 -4.608,-23.04 -7.68,-38.4c-3.072,-14.848 -6.144,-31.744 -9.728,-50.176s-7.168,-36.864 -11.264,-55.296c-8.704,-43.52 -18.944,-92.16 -30.72,-145.92l211.456,-189.44c8.704,-10.24 16.384,-18.944 22.016,-26.112c5.632,-7.168 8.704,-15.872 8.704,-24.576c0.512,-8.704 -2.56,-16.896 -8.192,-23.04z"></path>
+    <path id="svg_3" p-id="7300" d="m142.263,523.81875z"></path>
+  </symbol>
+  <symbol id="icon-yearly-explore" viewBox="0 0 1024 1024">
+    <path id="svg_1" p-id="7298" fill="#7731d7" d="m672.695,311.33875l-114.176,-273.408c-1.536,-2.56 -3.072,-6.144 -5.632,-10.24c-2.56,-4.096 -5.632,-8.704 -8.704,-12.288c-3.584,-4.096 -8.192,-7.68 -12.8,-10.752c-5.632,-3.072 -11.776,-4.608 -17.92,-4.608c-11.264,-0.512 -22.528,3.584 -30.72,11.776c-7.68,8.192 -13.312,17.408 -17.408,28.16l-117.76,273.408l-315.392,28.672c-7.68,1.536 -14.848,4.608 -20.48,10.24c-6.144,6.144 -10.24,13.824 -11.264,22.528c-1.536,9.728 1.024,19.968 6.656,28.16c5.632,9.216 12.8,17.92 20.992,25.088c0.512,0.512 4.608,4.096 11.264,9.728c6.656,5.632 15.36,13.312 26.112,22.528s22.528,19.456 35.84,30.72l40.448,34.304c0.512,0.512 223.744,-65.536 231.936,-69.632c0,-25.088 14.336,-47.616 36.864,-58.88c8.704,-4.608 18.432,-6.656 28.16,-7.168c35.84,0.512 65.024,29.184 65.024,65.024c0,10.752 -2.56,21.504 -8.192,30.72c3.072,3.584 125.44,136.704 126.464,138.24c6.144,-2.56 12.8,-3.584 19.456,-3.584l2.56,0c2.048,-5.12 163.84,-292.352 165.376,-295.936l-136.704,-12.8z"></path>
+    <path id="svg_2" p-id="7299" fill="#7731d7" d="m1016.247,353.32275c-8.704,-6.144 -18.432,-10.24 -28.672,-12.288l-129.536,-12.288c-1.024,2.048 -171.52,306.688 -174.592,311.296l0,0.512c7.168,9.216 11.264,20.48 11.264,32.256c0,29.184 -23.552,52.736 -52.736,52.736c-29.184,0 -52.736,-23.552 -52.736,-52.736c0,-6.144 1.024,-11.776 3.072,-17.408c-0.512,-1.024 -126.976,-137.216 -129.536,-139.776c-7.68,3.072 -15.872,4.608 -24.064,4.608c-19.968,0 -38.912,-9.216 -51.2,-25.088l-205.312,65.024s43.008,36.864 67.072,57.856l-34.816,142.848c-4.608,18.432 -9.216,36.352 -13.824,54.272c-4.608,17.92 -8.192,33.792 -11.776,48.64c-3.584,14.848 -6.656,27.136 -9.216,37.888c-2.56,10.752 -4.608,17.408 -5.12,19.968c-1.536,6.144 -0.512,12.288 2.048,17.92c3.072,6.144 7.168,11.264 12.8,14.848c5.632,4.096 12.288,6.656 19.456,7.68c7.168,1.024 14.336,0 20.992,-3.584c6.656,-3.072 13.312,-6.656 19.968,-10.24c9.728,-5.632 21.504,-12.288 35.328,-20.48s28.672,-16.896 45.568,-26.624c16.384,-9.728 33.28,-18.944 50.688,-28.672c39.424,-22.528 83.456,-48.128 131.584,-76.8l266.24,155.136c3.584,1.536 8.192,3.072 14.848,5.632c4.608,2.048 9.728,3.072 14.848,3.584c9.728,0 18.944,-2.048 27.648,-6.656c8.192,-4.608 11.264,-13.312 9.216,-27.136c-0.512,-2.56 -2.048,-9.216 -4.096,-19.968c-2.048,-10.752 -4.608,-23.04 -7.68,-38.4c-3.072,-14.848 -6.144,-31.744 -9.728,-50.176s-7.168,-36.864 -11.264,-55.296c-8.704,-43.52 -18.944,-92.16 -30.72,-145.92l211.456,-189.44c8.704,-10.24 16.384,-18.944 22.016,-26.112c5.632,-7.168 8.704,-15.872 8.704,-24.576c0.512,-8.704 -2.56,-16.896 -8.192,-23.04z"></path>
+    <path id="svg_3" p-id="7300" d="m142.263,523.81875z"></path>
+  </symbol>
+  <symbol id="icon-zodiac-love-explore" viewBox="0 0 939 768">
+    <path id="svg_3" p-id="7300" d="m99.59567,426.81943z"></path>
+    <path p-id="8409" fill="#7731d7" d="m445.7158,76.496c102.99733,-101.99466 270.016,-101.99466 373.03467,0a259.328,259.328 0 0 1 70.80533,242.26134a203.79733,203.79733 0 0 0 -182.08,2.816l-4.24533,2.26133l-4.24534,-2.26133c-76.39466,-39.808 -172.90666,-27.73334 -237.12,36.16c-75.22133,74.85866 -73.088,190.93333 -8.10666,276.992c20.352,26.96533 50.85866,59.88266 82.47466,90.92266l-10.58133,10.47467c-44.16,43.73333 -108.48,41.25867 -159.872,0c-51.392,-41.23733 -210.56,-185.216 -297.216,-294.4c-86.656,-109.20533 -97.49333,-264.59733 4.11733,-365.22667c103.01867,-101.99466 270.016,-101.99466 373.03467,0z"></path>
+    <path p-id="8410" fill="#7731d7" d="m703.20913,403.10934a139.22133,139.22133 0 0 1 196.24534,0c53.33333,53.07733 50.41066,135.50933 2.45333,192.74666l-8.064,9.42934c-29.568,33.92 -73.42933,77.568 -131.56267,130.98666l-17.00266,15.50934c-23.232,23.12533 -58.21867,20.05333 -84.096,0l-5.01334,-3.968l-6.99733,-5.80267c-34.34667,-28.864 -105.664,-94.63467 -144.34133,-145.856c-44.05334,-58.32533 -51.28534,-139.86133 2.176,-193.06667a139.22133,139.22133 0 0 1 196.224,0l-0.02134,0.02134z"></path>
+  </symbol>
+  <symbol id="icon-love-explore" viewBox="0 0 512 512">
+    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
+  </symbol>
+  <symbol id="icon-career-explore" viewBox="0 0 512 512">
+    <path d="M128 480h256V80c0-26.5-21.5-48-48-48H176c-26.5 0-48 21.5-48 48v400zm64-384h128v32H192V96zm320 80v256c0 26.5-21.5 48-48 48h-48V128h48c26.5 0 48 21.5 48 48zM96 480H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48h48v352z"></path>
+  </symbol>
+  <symbol id="icon-health-explore" viewBox="0 0 512 512">
+    <path d="M464 128h-80V80c0-26.5-21.5-48-48-48H176c-26.5 0-48 21.5-48 48v48H48c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48zM192 96h128v32H192V96zm160 248c0 4.4-3.6 8-8 8h-56v56c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8v-56h-56c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h56v-56c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v56h56c4.4 0 8 3.6 8 8v48z"></path>
+  </symbol>
+  <symbol id="icon-sex-explore" viewBox="0 0 512 512">
+    <path d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z"></path>
+  </symbol>
+  <symbol id="icon-next" viewBox="0 0 20 20">
+    <path d="M11.6668 15.4167L10.3127 14.1042L13.5002 10.8958H2.896V9H13.5002L10.2918 5.77083L11.646 4.5L17.1252 9.95833L11.6668 15.4167Z"></path>
+  </symbol>
+</svg>
+<main style="height: auto !important;">
+  <div class="wrapper" style="height: auto !important;">
+    <ol class="breadcrumb">
+      <li>
+        <a href="/">
+                        <span>
+                            Home
+                        </span>
+        </a>
+      </li>
+    </ol>
+    <div class="pagecontent fortune-page" style="height: auto !important;">
+      <div class="pageleft" style="height: auto !important;background-color: #FFFFFF;padding: 10px;margin-top: 10px;margin-bottom: 10px" id = "pageleft">
+
+        <div id = "pageLeftImg" style="text-align: center">
+        </div>
+        <div id = "pageLeftDetail" style="display: none">
+        <h1 class="page-tl" id = "horoPageTitle">
+          <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
+        </h1>
+
+        <div id="horo_1" class="mobile-margin">
+        </div>
+
+        <div class="zodiac-for-ls" id = "zodiac-for-ls">
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/aries/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="aries" src="./img/aries.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Aries</h3>
+                <p class="zodiac-for-desc">Mar 21 - Apr 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/taurus/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="taurus" src="./img/taurus.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Taurus</h3>
+                <p class="zodiac-for-desc">Apr 21 - May 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/gemini/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="gemini" src="./img/gemini.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Gemini</h3>
+                <p class="zodiac-for-desc">May 21 - Jun 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/cancer/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="cancer" src="./img/cancer.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Cancer</h3>
+                <p class="zodiac-for-desc">Jun 21 - Jul 22</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/leo/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="leo" src="./img/leo.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Leo</h3>
+                <p class="zodiac-for-desc">Jul 23 - Aug 22</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/virgo/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="virgo" src="./img/virgo.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Virgo</h3>
+                <p class="zodiac-for-desc">Aug 23 - Sep 21</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/libra/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="libra" src="./img/libra.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Libra</h3>
+                <p class="zodiac-for-desc">Sep 22 - Oct 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/scorpio/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="scorpio" src="./img/scorpio.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Scorpio</h3>
+                <p class="zodiac-for-desc">Oct 21 - Nov 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/sagittarius/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="sagittarius" src="./img/sagittarius.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Sagittarius</h3>
+                <p class="zodiac-for-desc">Nov 21 - Dec 21</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/capricorn/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="capricorn" src="./img/capricorn.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Capricorn</h3>
+                <p class="zodiac-for-desc">Dec 22 - Jan 21</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/aquarius/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="aquarius" src="./img/aquarius.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Aquarius</h3>
+                <p class="zodiac-for-desc">Jan 22 - Feb 18</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+          <div class="zodiac-for-item">
+            <a class="coverlink" href="/horoscope/daily/pisces/"></a>
+            <div class="zodiac-for-left">
+              <img class="zodiac-for-img" alt="pisces" src="./img/pisces.svg">
+              <div class="zodiac-for-info">
+                <h3 class="zodiac-for-tl">Pisces</h3>
+                <p class="zodiac-for-desc">Feb 19 - Mar 20</p>
+              </div>
+            </div>
+            <svg class="icon-zodiac-next">
+              <use xlink:href="#icon-next"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div id="horo_2" class="mobile-margin">
+        </div>
+
+        <div id = "selectOrAQMessage">
+          <h3 class="astro-h3">Explore Horoscopes</h3>
+          <div class="zodiac-ex-ls">
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/daily/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-daily-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/weekly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-weekly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/monthly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-monthly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/yearly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-yearly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/zodiac-love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-zodiac-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/health/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-health-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-info">
+              <svg class="icon-ex-explore">
+                <use xlink:href="#icon-career-explore"></use>
+              </svg>
+              <h3 class="zodiac-ex-tl">Career Horoscope</h3>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/horoscope/sex/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-sex-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="topic-pick" style="height: auto !important;">
+      </div>
+      </div>
+      </div>
+      <div class="pageright">
+        <div class="new-quizzes" id="this_mt_right">
+          <h3 class="new-quizzes-title">
+            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                 src="../testname/img/title_ornament_left.png?w=800&amp;ssl=1"
+                 alt="">
+            <span style="text-align: center; font-size: 18px; font-weight: bold;"
+                  id="titleForRecMT">Les plus testés</span>
+            <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
+                 src="../testname/img/title_ornament_right.png?w=800&amp;ssl=1"
+                 alt="">
+          </h3>
+          <div class="new-quizzes--item-wrap tested">
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </div>
+</main>
+</div>
+<div data-elementor-type="footer" data-elementor-id="197" class="elementor elementor-197 elementor-location-footer" id = "content_for_footer"
+     data-elementor-post-type="elementor_library">
+  <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-9e00932 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="9e00932" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-36c843f"
+           data-id="36c843f" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-b97e7fa elementor-widget elementor-widget-heading"
+               data-id="b97e7fa" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">Subscribe For New Quizzes
+              </h2>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-19c50eb elementor-button-align-stretch elementor-widget elementor-widget-form"
+               data-id="19c50eb" data-element_type="widget"
+               data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+               data-widget_type="form.default">
+            <div class="elementor-widget-container">
+              <form class="elementor-form" method="post" name="New Form">
+                <input type="hidden" name="post_id" value="197">
+                <input type="hidden" name="form_id" value="19c50eb">
+                <input type="hidden" name="referer_title" value="">
+
+                <input type="hidden" name="queried_id" value="9">
+
+                <div class="elementor-form-fields-wrapper elementor-labels-">
+                  <div
+                          class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+                    <label for="form-field-email"
+                           class="elementor-field-label elementor-screen-only">
+                      Email </label>
+                    <input size="1" type="email" name="form_fields[email]" id="form-field-email"
+                           class="elementor-field elementor-size-sm  elementor-field-textual"
+                           placeholder="Email" required="required">
+                  </div>
+                  <div
+                          class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                    <button class="elementor-button elementor-size-sm" type="submit">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-text">Sign Up</span>
+                                                </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-71a9600"
+           data-id="71a9600" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-4580ce7 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+               data-id="4580ce7" data-element_type="widget" data-widget_type="icon-list.default">
+            <div class="elementor-widget-container">
+              <ul class="elementor-icon-list-items elementor-inline-items">
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="abount_us_link">
+                    <span class="elementor-icon-list-text">About Us</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="privacy_link">
+                    <span class="elementor-icon-list-text"> Privacy Policy</span>
+                  </a>
+                </li>
+                <li class="elementor-icon-list-item elementor-inline-item">
+                  <a href="" id="data_link">
+                    <span class="elementor-icon-list-text">Data Removal</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-ab0a714 elementor-widget elementor-widget-heading"
+               data-id="ab0a714" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+              <p class="elementor-heading-title elementor-size-default">Copyright © 2025 | All rights
+                reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bc2eed8"
+           data-id="bc2eed8" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-e8b89d1 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+               data-id="e8b89d1" data-element_type="widget" data-widget_type="social-icons.default">
+            <div class="elementor-widget-container">
+              <div class="elementor-social-icons-wrapper elementor-grid">
+                                    <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a8f7d9b"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Facebook</span>
+                                            <i class="fab fa-facebook"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-cf3ccf1"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Pinterest</span>
+                                            <i class="fab fa-pinterest"></i> </a>
+                                    </span>
+                <span class="elementor-grid-item">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-cd914b5"
+                                           target="_blank">
+                                            <span class="elementor-screen-only">Youtube</span>
+                                            <i class="fab fa-youtube"></i> </a>
+                                    </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+
+<script>
+  let dataDate = `./js/zodic.de.json.js`
+
+  document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
+
+  setTimeout(function () {
+
+    loadScript(dataDate, function () {
+
+      const params = new URLSearchParams(window.location.search);
+
+      // const cat = params.get("cat");
+
+      const path = window.location.pathname;
+      const parts = path.split('/').filter(Boolean);
+      let cat = parts[parts.length - 1];
+
+      if (cat === 'horoscope') {
+        cat = '';
+      }
+
+      let lang = getLangFromPath()
+
+      const indexadv_1 = document.getElementById('horo_1')
+      const observer1 = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_1(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer1.observe(indexadv_1);
+
+      const indexadv_2 = document.getElementById('horo_2')
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            loadHoroAdv_2(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px',
+      });
+      observer.observe(indexadv_2);
+
+      // 方法1：判断是否为 null 或空字符串
+      if (cat === null || cat === "") {
+        document.getElementById("horoPageTitle").innerHTML = `
+        <span class="page-tl-tag">CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE</span>
+
+    `
+
+        document.getElementById("selectOrAQMessage").innerHTML = `
+        <h3 class="astro-h3">Astrology FAQs</h3>
+        <div class="faq-ls">
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>What does Horoscope mean?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+A horoscope is a brief forecast for individuals born under a certain sign based on a representation of the relative positions of planets and zodiac signs at a specific moment, specifically, the time, date, month, and year of their birth. This is done by astrologers in order to reveal a person's personality traits and predict their future life events.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How does Astrology work?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+Astrology is based on the belief that stars and planets have some impacts on individual affairs and occurrences on Earth. Horoscopes are the Western form of astrology and are based on an astrologer's interpretation of an individual's life based on how the stars and planets were aligned during their birth. These forecasts are read all around the world on a regular basis.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>What does Zodiac Sign mean?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+"Zodiac" refers to the twelve-division sphere of planetary longitude that is centered on the Sun's course. The term zodiac comes from the Latin word “Zodiacus”, which means "circle of animals" and has been used to foretell or reflect personality traits throughout centuries. These twelve signs are also divided into four elements: Fire, Earth, Air, and Water.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How do you determine your Zodiac Sign?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+You can find out your Zodiac Sign by determining where your date of birth falls on the monthly calendar. For example, March 21 - April 20 is an Aries, April 21 - May 20 is a Taurus, so on and so forth.
+</div>
+</div>
+<div class="faq-item active">
+<div class="faq-item-header">
+<span>How can I check my Horoscope online for free?</span>
+<svg class="icon-faq">
+<use xlink:href="#icon-faq"></use>
+</svg>
+</div>
+<div class="faq-item-answer">
+You can get free horoscope services online for free through our site: Astrologiez, where daily readings are done by trained astrologers. Astrologiez is the best place where you can find guidance in life and view your compatibility with other signs.
+</div>
+</div>
+</div>
+    `
+
+        document.querySelectorAll('.zodiac-for-item').forEach(item => {
+          const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+          const link = item.querySelector('.coverlink');
+          link.href = `/${lang}/horoscope/${name}`;
+        });
+      } else {
+
+        let lang = getLangFromPath()
+
+        document.getElementById("horoPageTitle").innerHTML = `
+    <span class="page-tl-tag">Read Your <span class="special-tag">${cat} Horoscope</span>
+
+    `
+        document.getElementById("selectOrAQMessage").innerHTML = `
+    <h3 class="astro-h3">Explore Horoscopes</h3>
+          <div class="zodiac-ex-ls">
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-daily-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-weekly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-monthly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-yearly-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-zodiac-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/love/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-love-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/health/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-health-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/career/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-career-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+            <div class="zodiac-ex-item">
+              <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
+              <div class="zodiac-ex-info">
+                <svg class="icon-ex-explore">
+                  <use xlink:href="#icon-sex-explore"></use>
+                </svg>
+                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
+              </div>
+              <svg class="icon-ex-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
+            </div>
+          </div>
+    `
+
+        document.querySelectorAll('.zodiac-for-item').forEach(item => {
+          const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+          const link = item.querySelector('.coverlink');
+          link.href = `/${lang}/horoscope/${name}/${cat}`;
+        });
+      }
+
+
+      initTitleMT();
+
+      let mt_data_url = ""
+
+      let langPage = getLangFromPath()
+      if (langPage == "fr") {
+        mt_data_url = "../testname/js/fr_most_test_data/Most Tested.js";
+      } else if (langPage == "pt") {
+        mt_data_url = "../testname/js/pt_most_test_data/Most Tested.js";
+      } else if (langPage == "es") {
+        mt_data_url = "../testname/js/es_most_test_data/Most Tested.js";
+      } else if (langPage == "en") {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js";
+      } else if (langPage == "de") {
+        mt_data_url = "../testname/js/de_most_test_data/Most Tested.js";
+      } else if (langPage == "ar") {
+        mt_data_url = "../testname/js/ar_most_test_data/Most Tested.js";
+      } else if (langPage == "jp") {
+        mt_data_url = "../testname/js/jp_most_test_data/Most Tested.js";
+      } else if (langPage == "no") {
+        mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
+      } else if (langPage == "sv") {
+        mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+      } else {
+        mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
+      }
+
+      loadScript(mt_data_url, function () {
+        // 初始化数据
+        initHomeDataForMo();
+      });
+
+      document.getElementById('pageLeftImg').innerHTML = ``
+      document.getElementById('pageLeftDetail').style.display = "block"
+
+    });
+  },1200);
+
+  function getLangFromPath() {
+    const pathSegments = window.location.pathname.split('/');
+    return pathSegments[1]; // 假设语言代码总是在第一个路径段
+  }
+
+  function loadHoroAdv_1(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoro_1();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
+  }
+
+  function loadHoroAdv_2(el) {
+    // 插入 <ins> HTML
+    el.innerHTML = returnHoro_2();
+    // 触发广告加载
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense push error", e);
+    }
+  }
+
+  function renderHomeData(data) {
+
+    let returnAdvAction = 0;
+
+    return data.map((item,index) => {
+
+      let utm_campaign =getQueryParam("utm_campaign") ;
+
+      item.url = item.url.replace("https://identityinsight.org/es/test-page_es/?","./mqqht.html?")
+              .replace("https://identityinsight.org/en/test-page_en/?","./mqqht.html?")
+              .replace("https://identityinsight.org/fr/test-page_fr/?","./mqqht.html?")
+              .replace("https://identityinsight.org/pt/test-page_pt/?","./mqqht.html?")
+              .replace("https://identityinsight.org/de/test-page_de/?","./mqqht.html?")
+              .replace("https://identityinsight.org/ar/test-page_ar/?","./mqqht.html?")
+
+      if(item.url == "#"){
+        let langPage = getLangFromPath()
+        if(langPage == "fr"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "es"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "en"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "pt"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "de"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "ar"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "jp"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "no"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "sv"){
+          item.url = "./404notFound.html?content=other"
+        }else{
+          item.url = "./404notFound.html?content=other"
+        }
+        if (!isNull(utm_campaign)){
+          item.url = item.url + "&utm_campaign=" + utm_campaign
+        }
+
+        let utm_keyword = getQueryParam("keyword") ;
+
+        let utm_medium = getQueryParam("medium") ;
+
+        let utm_source = getQueryParam("source") ;
+
+        let campaign =getQueryParam("campaign") ;
+
+        //let content =getQueryParam("content") ;
+
+        let country = getQueryParam("country");
+
+        let source = getQueryParam("utm_source")
+
+        let medium = getQueryParam("utm_medium")
+
+        if(!isNull(medium)){
+          item.url = item.url + "&utm_medium=" +medium;
+        }
+
+        if(!isNull(source)){
+          item.url = item.url + "&utm_source=" +source;
+        }
+
+        if(!isNull(country)){
+          item.url = item.url + "&country=" +country;
+        }
+
+        if(!isNull(utm_source)){
+          item.url = item.url + "&source=" +utm_source;
+        }
+
+        if(!isNull(utm_keyword)){
+          item.url = item.url + "&keyword=" +utm_keyword;
+        }
+
+        if(!isNull(utm_medium)){
+          item.url = item.url + "&medium=" +utm_medium;
+        }
+
+        if(!isNull(campaign)){
+          item.url = item.url + "&campaign=" +campaign;
+        }
+
+        // if(!isNull(content)){
+        //     item.url = item.url + "&content=" +content;
+        // }
+      }
+      else if (!isNull(utm_campaign)){
+        item.url = item.url + "&utm_campaign=" + utm_campaign
+
+        let utm_keyword = getQueryParam("keyword") ;
+
+        let utm_medium = getQueryParam("medium") ;
+
+        let utm_source = getQueryParam("source") ;
+
+        let campaign =getQueryParam("campaign") ;
+
+        //let content =getQueryParam("content") ;
+
+        let country = getQueryParam("country");
+
+        let source = getQueryParam("utm_source")
+
+        let medium = getQueryParam("utm_medium")
+
+        if(!isNull(medium)){
+          item.url = item.url + "&utm_medium=" +medium;
+        }
+
+        if(!isNull(source)){
+          item.url = item.url + "&utm_source=" +source;
+        }
+
+        if(!isNull(country)){
+          item.url = item.url + "&country=" +country;
+        }
+
+        if(!isNull(utm_source)){
+          item.url = item.url + "&source=" +utm_source;
+        }
+
+        if(!isNull(utm_keyword)){
+          item.url = item.url + "&keyword=" +utm_keyword;
+        }
+
+        if(!isNull(utm_medium)){
+          item.url = item.url + "&medium=" +utm_medium;
+        }
+
+        if(!isNull(campaign)){
+          item.url = item.url + "&campaign=" +campaign;
+        }
+
+        // if(!isNull(content)){
+        //     item.url = item.url + "&content=" +content;
+        // }
+      }
+      else{
+        let utm_keyword = getQueryParam("keyword") ;
+
+        let utm_medium = getQueryParam("medium") ;
+
+        let utm_source = getQueryParam("source") ;
+
+        let campaign =getQueryParam("campaign") ;
+
+        //let content =getQueryParam("content") ;
+
+        let country = getQueryParam("country");
+
+        let source = getQueryParam("utm_source")
+
+        let medium = getQueryParam("utm_medium")
+
+        if(!isNull(medium)){
+          item.url = item.url + "&utm_medium=" +medium;
+        }
+
+        if(!isNull(source)){
+          item.url = item.url + "&utm_source=" +source;
+        }
+
+        if(!isNull(country)){
+          item.url = item.url + "&country=" +country;
+        }
+
+        if(!isNull(utm_source)){
+          item.url = item.url + "&source=" +utm_source;
+        }
+
+        if(!isNull(utm_keyword)){
+          item.url = item.url + "&keyword=" +utm_keyword;
+        }
+
+        if(!isNull(utm_medium)){
+          item.url = item.url + "&medium=" +utm_medium;
+        }
+
+        if(!isNull(campaign)){
+          item.url = item.url + "&campaign=" +campaign;
+        }
+
+        // if(!isNull(content)){
+        //     item.url = item.url + "&content=" +content;
+        // }
+      }
+
+      item.url = item.url.replace("titleid","utm_content").replace("utm_content","content").replace("./mqqht.html","../mqqht.html")
+      item.pic = item.pic.replace("./testname","../testname")
+              .replace("https://identityinsight.org/testCommon4","../testname").replace("gif","png")
+
+      let moHtml = `
+                <a href="${item.url}" class="container-list-item common_list_a" style="width: 100%">
+                    <div class="container-list-item-warp" style="transition-duration: 0.3s; transform: scale(1);overflow: hidden;">
+                        <div class="container-list-item-img">
+                            <img class="lazyimg common_three_li_img"
+                                data-language="en"
+                                data-src="${item.pic}"
+                                src="${item.pic}"
+                                alt="${item.title}" loading="lazy">
+                        </div>
+                        <div class="container-list-item-p"  style="height: 80px">
+                            <p>${item.title}</p>
+                        </div>
+                    </div>
+                </a>
+                `
+      const params = new URLSearchParams(window.location.search);
+      const utm_content = params.get('content')
+
+      const relativeUrl = item.url
+      const baseUrl = window.location.origin;
+      const urlObj = new URL(relativeUrl, baseUrl);
+      const paramsItem = new URLSearchParams(urlObj.search);
+      const itemUtm_content = paramsItem.get('content')
+
+      if(utm_content == itemUtm_content){
+        return ;
+      }
+
+
+
+      if(index > 5 ){
+        return;
+      }
+
+      if(returnAdvAction == 0){
+        returnAdvAction = 1
+      }
+
+      return moHtml;
+    }).join('');
+  }
+
+  function getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+
+  function getLangFromPath() {
+    const pathSegments = window.location.pathname.split('/');
+    return pathSegments[1]; // 假设语言代码总是在第一个路径段
+  }
+
+  function initTitleMT(){
+    let langPage = getLangFromPath()
+    if(langPage=="fr"){
+      document.getElementById("titleForRecMT").innerText="Les plus testés";
+    }else if(langPage == "es"){
+      document.getElementById("titleForRecMT").innerText="Más completado";
+    }else if(langPage == "pt"){
+      document.getElementById("titleForRecMT").innerText="mais testado";
+    }else if(langPage == "en"){
+      document.getElementById("titleForRecMT").innerText="Most Tested";
+    }else if(langPage == "de"){
+      document.getElementById("titleForRecMT").innerText = "Meistgetestet"
+    }else if(langPage == "ar"){
+      document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
+    }else if(langPage == "jp"){
+      document.getElementById("titleForRecMT").innerText = " 最も試される ";
+    }else if(langPage == "no"){
+      document.getElementById("titleForRecMT").innerText="Mest Testede";
+    }else if(langPage == "sv"){
+      document.getElementById("titleForRecMT").innerText="Mest Testade";
+    }else{
+      document.getElementById("titleForRecMT").innerText="Mest Testade";
+    }
+  }
+
+  function loadScript(src, callback) {
+    let script = document.createElement("script");
+    script.src = src;
+    script.type = "text/javascript";
+    script.async = true;
+
+    script.onload = function () {
+      //console.log(`${src} 加载完成`);
+      if (callback) callback(); // 加载完成后执行回调函数
+    };
+
+    script.onerror = function () {
+      //console.error(`${src} 加载失败`);
+    };
+
+    document.head.appendChild(script); // 插入到 `head` 中
+  }
+
+  function initHomeDataForMo() {
+    // 渲染首页数据
+    let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+    let utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
+    let langPage = getLangFromPath()
+    if(langPage == "fr"){
+      homedataJs = "../testname/js/fr/homedata.js";
+      utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
+    }else if(langPage == "es"){
+      homedataJs = "../testname/js/es/homedata.js";
+      utm_campaign_js_url="../testname/js/es/utm_campaign.js"
+    }else if(langPage == "pt"){
+      homedataJs = "../testname/js/pt/homedata.js";
+      utm_campaign_js_url="../testname/js/pt/utm_campaign.js"
+    }else if(langPage == "en"){
+      homedataJs = "../testname/js/en/homedata.js";
+      utm_campaign_js_url="../testname/js/en/utm_campaign.js"
+    }else if(langPage == "de"){
+      homedataJs = "../testname/js/de/homedata.js";
+      utm_campaign_js_url="../testname/js/de/utm_campaign.js"
+    }else if(langPage == "ar"){
+      homedataJs = "../testname/js/ar/homedata.js";
+      utm_campaign_js_url="../testname/js/ar/utm_campaign.js"
+    }else if(langPage == "jp"){
+      homedataJs = "../testname/js/jp/homedata.js";
+      utm_campaign_js_url="../testname/js/jp/utm_campaign.js"
+    }else if(langPage == "no"){
+      homedataJs = "../testname/js/no/homedata.js";
+      utm_campaign_js_url="../testname/js/no/utm_campaign.js"
+    }else if(langPage == "sv"){
+      homedataJs = "../testname/js/sv/homedata.js";
+      utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
+    }else{
+      homedataJs = "../testname/js/en/homedata.js";
+      utm_campaign_js_url="../testname/js/en/utm_campaign.js"
+    }
+
+    loadScript(utm_campaign_js_url, function () {
+      let utm_campaign = getQueryParam("campaign");
+      let testData = utm_campaignData[utm_campaign] || 0
+
+      if(utm_campaign === "hog"){
+        testData = utm_campaignData["hog_mt"] || 0
+      }
+
+      if (testData.length > 0) {
+        document.querySelector('.tested').innerHTML = renderHomeData(testData);
+      } else {
+        document.querySelector('.tested').innerHTML = renderHomeData(dataM.tested);
+      }
+    });
+  }
+
+  function isNull(value) {
+    return value === null;
+  }
+
+
+</script>
+
+<script src="./js/footJs.js" async></script>
+<script src="./js/headerJs.js" async></script>
+
+</html>
