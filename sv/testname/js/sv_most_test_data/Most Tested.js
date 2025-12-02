@@ -33,5 +33,8 @@ const dataM = {
             "pic": "./testname/img/sv_img/5f54c23b13c557e2bb81a6a8bcdfd4bb.jpeg",
             "title": "Vad är ditt namn som jul-emoji?"
         },
+    ],
+    "horo":[
+        
     ]
 }
