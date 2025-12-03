@@ -977,7 +977,16 @@
 </body>
 
 <script>
-  let dataDate = `./js/zodic.sv.json.js`
+  let dataDate = `./js/sv/zodic.json.js`
+
+  if (getLangFromPath() == "de") {
+    dataDate = `./js/de/zodic.json.js`
+  } else if(getLangFromPath() == "sv"){
+    dataDate = `./js/sv/zodic.json.js`
+  } else {
+    dataDate = `./js/en/zodic.json.js`
+  }
+
 
   document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
 
