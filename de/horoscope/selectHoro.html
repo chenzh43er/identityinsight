@@ -1254,119 +1254,142 @@
     <span class="page-tl-tag">Read Your <span class="special-tag">${cat} Horoscope</span>
 
     `
+        let exploreTitle = "";
+        let dailyStr = "";
+        let weeklyStr = "";
+        let monthlyStr = "";
+        let yearlyStr = "";
+        let zodiacLoveStr = "";
+        let loveStr = "";
+        let healthStr = "";
+        let careerStr = "";
+        let sexStr = "";
+
+        if (getLangFromPath() == "de") {
+          exploreTitle = "Horoskope entdecken";
+          dailyStr = "Tageshoroskop";
+          weeklyStr = "Wochenhoroskop";
+          monthlyStr = "Monatshoroskop";
+          yearlyStr = "Jahreshoroskop";
+          zodiacLoveStr = "Tierkreis-Liebe Horoskop";
+          loveStr = "Liebeshoroskop";
+          healthStr = "Gesundheitshoroskop";
+          careerStr = "Karrierehoroskop";
+          sexStr = "Sexhoroskop";
+
+        } else if (getLangFromPath() == "sv") {
+          exploreTitle = "Utforska horoskop";
+          dailyStr = "Dagens horoskop";
+          weeklyStr = "Veckans horoskop";
+          monthlyStr = "Månadens horoskop";
+          yearlyStr = "Årshoroskop";
+          zodiacLoveStr = "Zodiak-kärlek horoskop";
+          loveStr = "Kärlekshoroskop";
+          healthStr = "Hälsahoroskop";
+          careerStr = "Karriärhoroskop";
+          sexStr = "Sexhoroskop";
+
+        } else {
+          exploreTitle = "Explore Horoscopes";
+          dailyStr = "Daily Horoscope";
+          weeklyStr = "Weekly Horoscope";
+          monthlyStr = "Monthly Horoscope";
+          yearlyStr = "Yearly Horoscope";
+          zodiacLoveStr = "Zodiac-love Horoscope";
+          loveStr = "Love Horoscope";
+          healthStr = "Health Horoscope";
+          careerStr = "Career Horoscope";
+          sexStr = "Sex Horoscope";
+        }
+
         document.getElementById("selectOrAQMessage").innerHTML = `
-    <h3 class="astro-h3">Explore Horoscopes</h3>
-          <div class="zodiac-ex-ls">
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-daily-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-weekly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-monthly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-yearly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-zodiac-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/health/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-health-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/career/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-career-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-sex-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-          </div>
-    `
+    <h3 class="astro-h3">${exploreTitle}</h3>
+    <div class="zodiac-ex-ls">
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-daily-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${dailyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-weekly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${weeklyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-monthly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${monthlyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-yearly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${yearlyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-zodiac-love-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${zodiacLoveStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/love/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-love-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${loveStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/health/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-health-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${healthStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/career/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-career-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${careerStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-sex-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${sexStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+    </div>
+`;
+
 
         document.querySelectorAll('.zodiac-for-item').forEach(item => {
           const name = item.querySelector('.zodiac-for-tl').textContent.trim();

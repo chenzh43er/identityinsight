@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <base href="/en/horoscope/">
+  <base href="/sv/horoscope/">
+  <script>
+    function getLangFromPath() {
+      const pathSegments = window.location.pathname.split('/');
+      return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    }
+
+    if(getLangFromPath() == "de"){
+      const base = document.querySelector('base');
+      base.href = '/de/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/de/horoscope/');
+    }else if(getLangFromPath() == "sv"){
+      const base = document.querySelector('base');
+      base.href = '/sv/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/sv/horoscope/');
+    }else{
+      const base = document.querySelector('base');
+      base.href = '/en/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/en/horoscope/');
+    }
+
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>HOROSCOPES</title>
@@ -953,7 +977,7 @@
 </body>
 
 <script>
-  let dataDate = `./js/zodic.json.js`
+  let dataDate = `./js/zodic.sv.json.js`
 
   document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
 
@@ -1003,71 +1027,219 @@
 
       // 方法1：判断是否为 null 或空字符串
       if (cat === null || cat === "") {
+
+        let horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
+        if(getLangFromPath() == "de"){
+          horoPageTitleStr = `WÄHLE DEIN TIERKREISZEICHEN, UM DEIN HOROSKOP ZU LESEN`
+        }else if(getLangFromPath() == "sv"){
+          horoPageTitleStr = `VÄLJ DITT STJÄRNTECKEN FÖR ATT LÄSA DITT HOROSKOP`
+        }else{
+          horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
+        }
+
         document.getElementById("horoPageTitle").innerHTML = `
-        <span class="page-tl-tag">CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE</span>
+        <span class="page-tl-tag">${horoPageTitleStr}</span>
 
     `
 
-        document.getElementById("selectOrAQMessage").innerHTML = `
-        <h3 class="astro-h3">Astrology FAQs</h3>
-        <div class="faq-ls">
-<div class="faq-item active">
-<div class="faq-item-header">
-<span>What does Horoscope mean?</span>
-<svg class="icon-faq">
-<use xlink:href="#icon-faq"></use>
-</svg>
-</div>
-<div class="faq-item-answer">
-A horoscope is a brief forecast for individuals born under a certain sign based on a representation of the relative positions of planets and zodiac signs at a specific moment, specifically, the time, date, month, and year of their birth. This is done by astrologers in order to reveal a person's personality traits and predict their future life events.
-</div>
-</div>
-<div class="faq-item active">
-<div class="faq-item-header">
-<span>How does Astrology work?</span>
-<svg class="icon-faq">
-<use xlink:href="#icon-faq"></use>
-</svg>
-</div>
-<div class="faq-item-answer">
-Astrology is based on the belief that stars and planets have some impacts on individual affairs and occurrences on Earth. Horoscopes are the Western form of astrology and are based on an astrologer's interpretation of an individual's life based on how the stars and planets were aligned during their birth. These forecasts are read all around the world on a regular basis.
-</div>
-</div>
-<div class="faq-item active">
-<div class="faq-item-header">
-<span>What does Zodiac Sign mean?</span>
-<svg class="icon-faq">
-<use xlink:href="#icon-faq"></use>
-</svg>
-</div>
-<div class="faq-item-answer">
-"Zodiac" refers to the twelve-division sphere of planetary longitude that is centered on the Sun's course. The term zodiac comes from the Latin word “Zodiacus”, which means "circle of animals" and has been used to foretell or reflect personality traits throughout centuries. These twelve signs are also divided into four elements: Fire, Earth, Air, and Water.
-</div>
-</div>
-<div class="faq-item active">
-<div class="faq-item-header">
-<span>How do you determine your Zodiac Sign?</span>
-<svg class="icon-faq">
-<use xlink:href="#icon-faq"></use>
-</svg>
-</div>
-<div class="faq-item-answer">
-You can find out your Zodiac Sign by determining where your date of birth falls on the monthly calendar. For example, March 21 - April 20 is an Aries, April 21 - May 20 is a Taurus, so on and so forth.
-</div>
-</div>
-<div class="faq-item active">
-<div class="faq-item-header">
-<span>How can I check my Horoscope online for free?</span>
-<svg class="icon-faq">
-<use xlink:href="#icon-faq"></use>
-</svg>
-</div>
-<div class="faq-item-answer">
-You can get free horoscope services online for free through our site: Astrologiez, where daily readings are done by trained astrologers. Astrologiez is the best place where you can find guidance in life and view your compatibility with other signs.
-</div>
-</div>
-</div>
-    `
+        let faqHTML = ``;
+
+        if (getLangFromPath() == "de") {
+          // ---- 德语版本 ----
+          faqHTML = `
+    <h3 class="astro-h3">Astrologie FAQ</h3>
+    <div class="faq-ls">
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Was bedeutet Horoskop?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Ein Horoskop ist eine kurze Vorhersage für Personen, die unter einem bestimmten Sternzeichen geboren wurden.
+          Es basiert auf der Position der Planeten und Sternzeichen zum Zeitpunkt ihrer Geburt und wird von Astrologen genutzt,
+          um Persönlichkeitsmerkmale und zukünftige Ereignisse vorherzusagen.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Wie funktioniert Astrologie?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Astrologie basiert auf dem Glauben, dass Sterne und Planeten Einfluss auf das Leben und Ereignisse auf der Erde haben.
+          Horoskope sind die westliche Form der Astrologie und beruhen auf der Interpretation eines Astrologen,
+          wie die Himmelskörper bei der Geburt einer Person ausgerichtet waren.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Was bedeutet Sternzeichen?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Der „Zodiak“ bezeichnet die in zwölf Abschnitte aufgeteilte Himmelsbahn der Sonne.
+          Das Wort stammt aus dem Lateinischen „Zodiacus“, was „Kreis der Tiere“ bedeutet.
+          Diese zwölf Zeichen werden außerdem in vier Elemente eingeteilt: Feuer, Erde, Luft und Wasser.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Wie bestimmt man sein Sternzeichen?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Dein Sternzeichen wird durch dein Geburtsdatum bestimmt.
+          Zum Beispiel: 21. März – 20. April ist Widder, 21. April – 20. Mai ist Stier, usw.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Wie kann ich mein Horoskop kostenlos online lesen?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Auf unserer Website Astrologiez kannst du kostenlos Horoskope lesen.
+          Täglich erstellte Horoskope von professionellen Astrologen helfen dir, Orientierung im Leben zu finden
+          und deine Kompatibilität mit anderen Zeichen zu prüfen.
+        </div>
+      </div>
+    </div>
+  `;
+
+        } else if (getLangFromPath() == "sv") {
+          // ---- 瑞典语版本 ----
+          faqHTML = `
+    <h3 class="astro-h3">Astrologi FAQ</h3>
+    <div class="faq-ls">
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Vad betyder horoskop?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Ett horoskop är en kort framtidsprognos baserad på planeternas och stjärntecknens position vid en persons födelse.
+          Astrologer använder denna information för att avslöja personlighetsdrag och förutsäga framtida händelser.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Hur fungerar astrologi?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Astrologi bygger på tron att stjärnor och planeter påverkar människors liv och händelser på jorden.
+          Horoskop är den västerländska formen av astrologi och baseras på hur himlakropparna stod vid en persons födelse.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Vad betyder stjärntecken?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          ”Zodiaken” är den tolvdelade himmelszonen längs solens bana.
+          Ordet kommer från latinets ”Zodiacus”, som betyder ”djurskretsen”.
+          De tolv tecknen är indelade i fyra element: eld, jord, luft och vatten.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Hur bestämmer man sitt stjärntecken?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Ditt stjärntecken bestäms av vilket datum du är född.
+          Till exempel: 21 mars – 20 april är Vädur, 21 april – 20 maj är Oxen, och så vidare.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>Hur kan jag läsa mitt horoskop gratis online?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Du kan läsa gratis horoskop på vår webbplats Astrologiez.
+          Dagliga tolkningar av utbildade astrologer hjälper dig att hitta vägledning och se kompatibilitet mellan tecken.
+        </div>
+      </div>
+    </div>
+  `;
+
+        } else {
+          // ---- 英文版本 ----
+          faqHTML = `
+    <h3 class="astro-h3">Astrology FAQs</h3>
+    <div class="faq-ls">
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>What does Horoscope mean?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          A horoscope is a brief forecast for individuals born under a specific sign based on the positions of planets
+          and zodiac signs at the moment of their birth. It is used by astrologers to reveal personality traits
+          and predict future events.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>How does Astrology work?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Astrology is based on the belief that stars and planets influence human affairs.
+          Horoscopes interpret how celestial bodies were aligned during a person's birth to create life predictions.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>What does Zodiac Sign mean?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          The "Zodiac" is the twelve-division celestial belt along the Sun’s path.
+          The term comes from Latin “Zodiacus,” meaning “circle of animals.”
+          These signs are grouped into four elements: Fire, Earth, Air, and Water.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>How do you determine your Zodiac Sign?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          Your Zodiac Sign is determined by your date of birth.
+          For example: March 21 – April 20 is Aries, April 21 – May 20 is Taurus, and so on.
+        </div>
+      </div>
+
+      <div class="faq-item active">
+        <div class="faq-item-header">
+          <span>How can I check my Horoscope online for free?</span>
+          <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+        </div>
+        <div class="faq-item-answer">
+          You can get free horoscope readings on our site Astrologiez,
+          where trained astrologers provide daily insights and compatibility readings.
+        </div>
+      </div>
+    </div>
+  `;
+        }
+
+        document.getElementById("selectOrAQMessage").innerHTML = faqHTML;
+
 
         document.querySelectorAll('.zodiac-for-item').forEach(item => {
           const name = item.querySelector('.zodiac-for-tl').textContent.trim();
@@ -1082,119 +1254,142 @@ You can get free horoscope services online for free through our site: Astrologie
     <span class="page-tl-tag">Read Your <span class="special-tag">${cat} Horoscope</span>
 
     `
+        let exploreTitle = "";
+        let dailyStr = "";
+        let weeklyStr = "";
+        let monthlyStr = "";
+        let yearlyStr = "";
+        let zodiacLoveStr = "";
+        let loveStr = "";
+        let healthStr = "";
+        let careerStr = "";
+        let sexStr = "";
+
+        if (getLangFromPath() == "de") {
+          exploreTitle = "Horoskope entdecken";
+          dailyStr = "Tageshoroskop";
+          weeklyStr = "Wochenhoroskop";
+          monthlyStr = "Monatshoroskop";
+          yearlyStr = "Jahreshoroskop";
+          zodiacLoveStr = "Tierkreis-Liebe Horoskop";
+          loveStr = "Liebeshoroskop";
+          healthStr = "Gesundheitshoroskop";
+          careerStr = "Karrierehoroskop";
+          sexStr = "Sexhoroskop";
+
+        } else if (getLangFromPath() == "sv") {
+          exploreTitle = "Utforska horoskop";
+          dailyStr = "Dagens horoskop";
+          weeklyStr = "Veckans horoskop";
+          monthlyStr = "Månadens horoskop";
+          yearlyStr = "Årshoroskop";
+          zodiacLoveStr = "Zodiak-kärlek horoskop";
+          loveStr = "Kärlekshoroskop";
+          healthStr = "Hälsahoroskop";
+          careerStr = "Karriärhoroskop";
+          sexStr = "Sexhoroskop";
+
+        } else {
+          exploreTitle = "Explore Horoscopes";
+          dailyStr = "Daily Horoscope";
+          weeklyStr = "Weekly Horoscope";
+          monthlyStr = "Monthly Horoscope";
+          yearlyStr = "Yearly Horoscope";
+          zodiacLoveStr = "Zodiac-love Horoscope";
+          loveStr = "Love Horoscope";
+          healthStr = "Health Horoscope";
+          careerStr = "Career Horoscope";
+          sexStr = "Sex Horoscope";
+        }
+
         document.getElementById("selectOrAQMessage").innerHTML = `
-    <h3 class="astro-h3">Explore Horoscopes</h3>
-          <div class="zodiac-ex-ls">
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-daily-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-weekly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-monthly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-yearly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-zodiac-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/health/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-health-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/career/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-career-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-sex-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-          </div>
-    `
+    <h3 class="astro-h3">${exploreTitle}</h3>
+    <div class="zodiac-ex-ls">
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/daily/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-daily-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${dailyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/weekly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-weekly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${weeklyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/monthly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-monthly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${monthlyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/yearly/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-yearly-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${yearlyStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/zodiac-love/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-zodiac-love-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${zodiacLoveStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/love/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-love-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${loveStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/health/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-health-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${healthStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/career/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-career-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${careerStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+      <div class="zodiac-ex-item">
+        <a class="coverlink" href="/${lang}/horoscope/sex/"></a>
+        <div class="zodiac-ex-info">
+          <svg class="icon-ex-explore"><use xlink:href="#icon-sex-explore"></use></svg>
+          <h3 class="zodiac-ex-tl">${sexStr}</h3>
+        </div>
+        <svg class="icon-ex-next"><use xlink:href="#icon-next"></use></svg>
+      </div>
+
+    </div>
+`;
+
 
         document.querySelectorAll('.zodiac-for-item').forEach(item => {
           const name = item.querySelector('.zodiac-for-tl').textContent.trim();

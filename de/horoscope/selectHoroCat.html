@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <base href="/de/horoscope/">
+    <base href="/sv/horoscope/">
+    <script>
+        function getLangFromPath() {
+            const pathSegments = window.location.pathname.split('/');
+            return pathSegments[1]; // 假设语言代码总是在第一个路径段
+        }
+
+        if(getLangFromPath() == "de"){
+            const base = document.querySelector('base');
+            base.href = '/de/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/de/horoscope/');
+        }else if(getLangFromPath() == "sv"){
+            const base = document.querySelector('base');
+            base.href = '/sv/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/sv/horoscope/');
+        }else{
+            const base = document.querySelector('base');
+            base.href = '/en/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/en/horoscope/');
+        }
+
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>HOROSCOPES - https://identityinsight.org/</title>
@@ -812,7 +836,7 @@
 
 <script>
 
-    let dataDate = `./js/zodic.de.json.js`
+    let dataDate = `./js/zodic.sv.json.js`
 
     document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
 
@@ -899,7 +923,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/daily/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Daily Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["daily"].section_title}</h3>
                             <span class="scorpio-date">
                                                                                     ${formattedDate}                                    </span>
                             <div class="scorpio-des">
@@ -913,7 +937,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/weekly/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Weekly Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["weekly"].section_title}</h3>
                             <span class="scorpio-date">
                                                                                     ${weekRange}                                    </span>
                             <div class="scorpio-des">
@@ -931,7 +955,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/monthly/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Monthly Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["monthly"].section_title}</h3>
                             <span class="scorpio-date">
                                                                                     ${monthLong}                                    </span>
                             <div class="scorpio-des">
@@ -945,7 +969,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/yearly/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Yearly Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["yearly"].section_title}</h3>
                             <span class="scorpio-date">
                                                                                     ${year}                                    </span>
                             <div class="scorpio-des">
@@ -963,7 +987,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/love/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Love Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["love"].section_title}</h3>
                             <span class="scorpio-date">
                                         ${formattedDate}                                    </span>
                             <div class="scorpio-des">
@@ -977,7 +1001,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/health/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Health Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["health"].section_title}</h3>
                             <span class="scorpio-date">
                                         ${formattedDate}                                    </span>
                             <div class="scorpio-des">
@@ -991,7 +1015,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/career/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Career Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["career"].section_title}</h3>
                             <span class="scorpio-date">
                                         ${formattedDate}                                    </span>
                             <div class="scorpio-des">
@@ -1005,7 +1029,7 @@
                         <a class="coverlink" href="/${lang}/horoscope/${horo}/sex/"></a>
 
                         <div class="scorpio-section-inner">
-                            <h3 class="scorpio-tl">${horo} Sex Horoscope</h3>
+                            <h3 class="scorpio-tl">${dataPage[horo]["sex"].section_title}</h3>
                             <span class="scorpio-date">
                                         ${formattedDate}                                    </span>
                             <div class="scorpio-des">
