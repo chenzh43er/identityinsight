@@ -836,15 +836,58 @@
 
 <script>
 
+    // 获取今天的日期
+    const today = new Date();
+    const month = today.getMonth() + 1; // 月份从 0 开始
+    const day = today.getDate();
+
     let dataDate = `./js/sv/zodic.json.js`
 
     if (getLangFromPath() == "de") {
-        dataDate = `./js/de/zodic.json.js`
+        dataDate = `./js/de/`
     } else if(getLangFromPath() == "sv"){
-        dataDate = `./js/sv/zodic.json.js`
+        dataDate = `./js/sv/`
     } else {
-        dataDate = `./js/en/zodic.json.js`
+        dataDate = `./js/en/`
     }
+
+    // day 对应 JS 文件映射
+    const dayToJs = {
+        1: '1.js',
+        2: '2.js',
+        3: '3.js',
+        4: '4.js',
+        5: '5.js',
+        6: '6.js',
+        7: '7.js',
+        8: '8.js',
+        9: '9.js',
+        10: '10.js',
+        11: '11.js',
+        12: '12.js',
+        13: '13.js',
+        14: '14.js',
+        15: '15.js',
+        16: '16.js',
+        17: '17.js',
+        18: '18.js',
+        19: '19.js',
+        20: '20.js',
+        21: '21.js',
+        22: '22.js',
+        23: '23.js',
+        24: '24.js',
+        25: '25.js',
+        26: '26.js',
+        27: '27.js',
+        28: '28.js',
+        29: '29.js',
+        30: '30.js',
+        31: '31.js',
+    };
+    const scriptSrc = dayToJs[day] || '1.js';
+
+    dataDate = dataDate + scriptSrc
 
 
     document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif">`
