@@ -854,11 +854,21 @@
 
             //horo = "Aries"
 
+            let descMsg = "";
+
+            if (getLangFromPath() == "de") {
+                descMsg = "Täglich, Wöchentlich und Monatlich";
+            } else if (getLangFromPath() == "sv") {
+                descMsg = "Daglig, Veckovis och Månatlig";
+            } else {
+                descMsg = "Daily, Weekly and Monthly";
+            }
+
             document.getElementById("horoTitle").innerHTML = `
                         <img class="sign-pic-img" src="${dataPage[horo]["daily"].image_src}" alt="aries">
                     <div class="horopage-info">
-                        <h2 class="horopage-tl">${horo} Horoscopes</h2>
-                        <span class="horopage-desc">Daily, Weekly and Monthly</span>
+                        <h2 class="horopage-tl">${dataPage[horo]["daily"].name}</h2>
+                        <span class="horopage-desc">${descMsg}</span>
                     </div>
     `
 
