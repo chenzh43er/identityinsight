@@ -1038,6 +1038,8 @@
 
     loadScript(dataDate, function () {
 
+
+
       const params = new URLSearchParams(window.location.search);
 
       // const cat = params.get("cat");
@@ -1051,6 +1053,12 @@
       }
 
       let lang = getLangFromPath()
+
+      document.querySelectorAll('.zodiac-for-item').forEach(item => {
+        const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+        const link = item.querySelector('.coverlink');
+        link.href = `/${lang}/horoscope/${name}`;
+      });
 
       const indexadv_1 = document.getElementById('horo_1')
       const observer1 = new IntersectionObserver((entries, obs) => {
@@ -1324,12 +1332,6 @@
 
         document.getElementById("selectOrAQMessage").innerHTML = faqHTML;
 
-
-        document.querySelectorAll('.zodiac-for-item').forEach(item => {
-          const name = item.querySelector('.zodiac-for-tl').textContent.trim();
-          const link = item.querySelector('.coverlink');
-          link.href = `/${lang}/horoscope/${name}`;
-        });
       } else {
 
         let lang = getLangFromPath()
