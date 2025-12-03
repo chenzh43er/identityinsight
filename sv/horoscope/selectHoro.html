@@ -1025,6 +1025,35 @@
       });
       observer.observe(indexadv_2);
 
+      const zodiacNames = {
+        aries: { en: "Aries", de: "Widder", sv: "Vädur" },
+        taurus: { en: "Taurus", de: "Stier", sv: "Oxen" },
+        gemini: { en: "Gemini", de: "Zwillinge", sv: "Tvillingarna" },
+        cancer: { en: "Cancer", de: "Krebs", sv: "Kräftan" },
+        leo: { en: "Leo", de: "Löwe", sv: "Lejonet" },
+        virgo: { en: "Virgo", de: "Jungfrau", sv: "Jungfrun" },
+        libra: { en: "Libra", de: "Waage", sv: "Vågen" },
+        scorpio: { en: "Scorpio", de: "Skorpion", sv: "Skorpionen" },
+        sagittarius: { en: "Sagittarius", de: "Schütze", sv: "Skytten" },
+        capricorn: { en: "Capricorn", de: "Steinbock", sv: "Stenbocken" },
+        aquarius: { en: "Aquarius", de: "Wassermann", sv: "Vattumannen" },
+        pisces: { en: "Pisces", de: "Fische", sv: "Fiskarna" }
+      };
+
+      lang = getLangFromPath(); // "en" / "de" / "sv"
+
+      document.querySelectorAll(".zodiac-for-item").forEach(item => {
+        const key = item.querySelector(".zodiac-for-img").alt; // 获取星座 key
+        if (zodiacNames[key]) {
+          item.querySelector(".zodiac-for-tl").innerText =
+                  lang === "de" ? zodiacNames[key].de :
+                          lang === "sv" ? zodiacNames[key].sv :
+                                  zodiacNames[key].en;
+        }
+      });
+
+
+
       // 方法1：判断是否为 null 或空字符串
       if (cat === null || cat === "") {
 
@@ -1041,6 +1070,8 @@
         <span class="page-tl-tag">${horoPageTitleStr}</span>
 
     `
+
+
 
         let faqHTML = ``;
 
