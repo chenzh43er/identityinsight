@@ -553,7 +553,7 @@
             2025
           </div>
         </div>
-        <h3 class="astro-h3">Aries Star Ratings</h3>
+        <h3 class="astro-h3" id="ratingMsg">Star Ratings</h3>
 
         <div id = "horoAdv_1" class="mobile-margin">
 
@@ -894,6 +894,18 @@
 
       console.log(result)
 
+      let ratingMsg = "";
+
+      if (getLangFromPath() == "de") {
+        ratingMsg = "Sternebewertungen";
+      } else if (getLangFromPath() == "sv") {
+        ratingMsg = "Stjärnbetyg";
+      } else {
+        ratingMsg = "Star Ratings";
+      }
+
+      document.getElementById("ratingMsg").innerText = ratingMsg;
+
       let catData = ``
       if (cat == "monthly") {
         catData = monthLong
@@ -910,15 +922,14 @@
       document.getElementById("horoPageTitle").innerHTML = `
   <img class="sign-pic-img" src="${result.image_src}" alt="aries">
           <div class="horopage-info">
-            <span class="horopage-tl-sub">${cat} Horoscope</span>
-            <h1 class="horopage-tl">${horo}</h1>
+            <h1 class="horopage-tl">dataPage[horo][cat].section_title</h1>
           </div>
           <div class="horopage-info" style="padding-right: 20px;text-align: right;font-size: 1.2rem;font-weight: 600;">
             ${catData}
           </div>
   `
 
-      document.getElementById("titleForMessage").innerHTML = `${cat} Horoscope For ${horo}`
+      document.getElementById("titleForMessage").innerHTML = dataPage[horo][cat].section_title
 
       document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
 
