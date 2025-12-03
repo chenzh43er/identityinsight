@@ -922,20 +922,78 @@
 
       document.getElementById("messageForHoro").innerHTML = `${result.article_html}`
 
+      let dailyTab = "";
+      let weeklyTab = "";
+      let monthlyTab = "";
+      let yearlyTab = "";
+      let loveTab = "";
+      let healthTab = "";
+      let careerTab = "";
+      let sexTab = "";
+
+      if (getLangFromPath() == "de") {
+        dailyTab = "Täglich";
+        weeklyTab = "Wöchentlich";
+        monthlyTab = "Monatlich";
+        yearlyTab = "Jährlich";
+        loveTab = "Liebe";
+        healthTab = "Gesundheit";
+        careerTab = "Karriere";
+        sexTab = "Sex";
+
+      } else if (getLangFromPath() == "sv") {
+        dailyTab = "Daglig";
+        weeklyTab = "Veckovis";
+        monthlyTab = "Månadsvis";
+        yearlyTab = "Årsvis";
+        loveTab = "Kärlek";
+        healthTab = "Hälsa";
+        careerTab = "Karriär";
+        sexTab = "Sex";
+
+      } else {
+        dailyTab = "Daily";
+        weeklyTab = "Weekly";
+        monthlyTab = "Monthly";
+        yearlyTab = "Yearly";
+        loveTab = "Love";
+        healthTab = "Health";
+        careerTab = "Career";
+        sexTab = "Sex";
+      }
+
       document.getElementById("horo-today-ls").innerHTML = `
-            <div class="horo-today-ls">
-              <a class="horo-today-item active" href="/${lang}/horoscope/${horo}/daily/"><span class="horo-today-name">Daily</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/weekly/"><span class="tab-trend-txt">Weekly</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/monthly/"><span class="tab-trend-txt">Monthly</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/yearly/"><span class="tab-trend-txt">Yearly</span></a>
-            </div>
-            <div class="horo-today-ls">
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/love/"><span class="tab-trend-txt">Love</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/health/"><span class="tab-trend-txt">Health</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/career/"><span class="tab-trend-txt">Career</span></a>
-              <a class="horo-today-item " href="/${lang}/horoscope/${horo}/sex/"><span class="tab-trend-txt">Sex</span></a>
-            </div>
-  `
+    <div class="horo-today-ls">
+      <a class="horo-today-item active" href="/${lang}/horoscope/${horo}/daily/">
+        <span class="horo-today-name">${dailyTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/weekly/">
+        <span class="tab-trend-txt">${weeklyTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/monthly/">
+        <span class="tab-trend-txt">${monthlyTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/yearly/">
+        <span class="tab-trend-txt">${yearlyTab}</span>
+      </a>
+    </div>
+
+    <div class="horo-today-ls">
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/love/">
+        <span class="tab-trend-txt">${loveTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/health/">
+        <span class="tab-trend-txt">${healthTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/career/">
+        <span class="tab-trend-txt">${careerTab}</span>
+      </a>
+      <a class="horo-today-item" href="/${lang}/horoscope/${horo}/sex/">
+        <span class="tab-trend-txt">${sexTab}</span>
+      </a>
+    </div>
+`;
+
 
       document.getElementById("breadcrumb").innerHTML = `
   <li>
