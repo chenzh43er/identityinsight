@@ -32,6 +32,7 @@ $(document).ready(function () {
 
     let indexHref = ""
     let home_str = ""
+    let toListCat12 = "/horoscope"
 
     if(langPage == "fr"){
         home_str = "Acceuil"
@@ -48,6 +49,7 @@ $(document).ready(function () {
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
         indexHref = "../list.html?"; // 链接保持不变
+        toListCat12 = "/de/horoscope"
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
         indexHref = "../list.html?";
@@ -60,12 +62,15 @@ $(document).ready(function () {
     }else if(langPage == "sv") {
         home_str = "Startsida"
         indexHref = "../list.html?"
+        toListCat12 = "/sv/horoscope"
     }
     else{
         home_str = "الرئيسية";
         indexHref = "../list.html?";
+        toListCat12 = "/en/horoscope"
     }
     let toListCat1 = "../list/harrypotter.html?"
+
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
@@ -122,6 +127,19 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
     document.getElementById("menu_index_select2").href=toListCat1
+
+    let lang = getLangFromPath(); // en / de / sv
+
+    let menuText = "Horoscope";
+
+    if (lang === "de") {
+        menuText = "Horoskop";
+    } else if (lang === "sv") {
+        menuText = "Horoskop";
+    }
+
+    document.getElementById("menu_index_select3").innerText = menuText;
+    document.getElementById("menu_index_select3").href=toListCat12
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
