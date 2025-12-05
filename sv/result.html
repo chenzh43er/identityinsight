@@ -1359,6 +1359,10 @@
                     testData = utm_campaignData["hog_mt"] || 0
                 }
 
+                if(utm_campaign === "horo"){
+                    testData = utm_campaignData["horo_mt"] || 0
+                }
+
                 if (testData.length > 0) {
                     document.querySelector('.tested').innerHTML = renderHomeData(testData);
                 } else {
@@ -1800,6 +1804,10 @@
 
                 if(utm_campaign === "hog"){
                     testData = utm_campaignData["hog_rc"] || 0
+                }
+
+                if(utm_campaign === "horo"){
+                    testData = utm_campaignData["horo_rc"] || 0
                 }
 
                 if (testData.length > 0) {
