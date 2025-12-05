@@ -30,6 +30,7 @@ $(document).ready(function () {
 
     let indexHref = ""
     let home_str = ""
+    let toListCat12 = "./horoscope.html?"
 
     if(langPage == "fr"){
         home_str = "Acceuil"
@@ -117,6 +118,19 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
     document.getElementById("menu_index_select2").href=toListCat1
+
+    let menuText = "Horoscope";
+
+    if (langPage === "de") {
+        menuText = "Horoskop";
+    } else if (langPage === "sv") {
+        menuText = "Horoskop";
+    }else{
+        menuText = "Horoscope";
+    }
+
+    document.getElementById("menu_index_select3").innerText = menuText;
+    document.getElementById("menu_index_select3").href=toListCat12
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {

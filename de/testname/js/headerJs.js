@@ -66,6 +66,7 @@ $(document).ready(function () {
         indexHref = "./list.html?";
     }
     let toListCat1 = "./list/harrypotter.html?"
+    let toListCat12 = "./list/horoscope.html?"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
@@ -122,6 +123,19 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
     document.getElementById("menu_index_select2").href=toListCat1
+
+    let menuText = "Horoscope";
+
+    if (langPage === "de") {
+        menuText = "Horoskop";
+    } else if (langPage === "sv") {
+        menuText = "Horoskop";
+    }else{
+        menuText = "Horoscope";
+    }
+
+    document.getElementById("menu_index_select3").innerText = menuText;
+    document.getElementById("menu_index_select3").href=toListCat12
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
