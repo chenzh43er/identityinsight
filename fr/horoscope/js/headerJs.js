@@ -71,7 +71,6 @@ $(document).ready(function () {
     }
     let toListCat1 = "../list/harrypotter.html?"
 
-
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
         toListCat1 = toListCat1  + "&utm_medium=" +medium;
@@ -139,6 +138,8 @@ $(document).ready(function () {
     }else{
         menuText = "Horoscope";
     }
+
+    toListCat12 = toListCat12 + "?campaign=horo"
 
     document.getElementById("menu_index_select3").innerText = menuText;
     document.getElementById("menu_index_select3").href=toListCat12

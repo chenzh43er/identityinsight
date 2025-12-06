@@ -134,6 +134,8 @@ $(document).ready(function () {
         menuText = "Horoscope";
     }
 
+    toListCat12 = toListCat12 + "?campaign=horo"
+
     document.getElementById("menu_index_select3").innerText = menuText;
     document.getElementById("menu_index_select3").href=toListCat12
 
