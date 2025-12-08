@@ -1,57 +1,57 @@
 const dataR = {
-    "recommend":[{
-        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10011",
-        "pic": "./testname/img/sv_img/77fb62734271c0a1dc0b59a730ac15f8.gif",
-        "title": "Vi vet din förälskelses första initial baserat på din handflata 💖✋"
+    "recommend":[ {
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100102",
+        "pic": "./testname/img/sv_img/5733f4c5286c61332b3a744289e4ab79.gif",
+        "title": "Vem är din perfekta matchning i zodiaken på skolan? 💫🎒"
     },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10012",
-            "pic": "./testname/img/sv_img/a09f623108e4d67071c2ec573f6cf567.gif",
-            "title": "Vilken Disneyprinsessas magi skulle hjälpa dig att klara dina prov? 🏰✏️"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100103",
+            "pic": "./testname/img/sv_img/33df5d5851de316b949deee8ad45bdde.gif",
+            "title": "Vilken typ av livsmanus är gömt på din födelsedag?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10013",
-            "pic": "./testname/img/sv_img/fd69e6a18f4dbb7e267a27849fe8b1ab.gif",
-            "title": "Vilken scen i Kpop Demon Hunters 2 avslöjar ditt sanna jag?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100104",
+            "pic": "./testname/img/sv_img/951707f8724e35d3feb275c5bd719b90.gif",
+            "title": "Upptäck din framtid för 2025 genom tarotkort!"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10014",
-            "pic": "./testname/img/sv_img/b971cf35daa9df392256d8ddfcbda2ae.gif",
-            "title": "Vilka KPOP Demon Hunters är du i Miraculous Ladybug?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100105",
+            "pic": "./testname/img/sv_img/d202cce92fbe7877cc1212f67584a0d2.gif",
+            "title": "Drömläsning | Kommer din själ att gå till himlen eller helvetet?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10015",
-            "pic": "./testname/img/sv_img/4aede605cb776100b91df0a9a41becb6.gif",
-            "title": "Clash Royale: Skulle P.E.K.K.A leda dig till seger eller nederlag?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100106",
+            "pic": "./testname/img/sv_img/da2b8b02ba8e7cf49aea92283a7eaa24.gif",
+            "title": "Vad kommer att hända dig år 2025?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10016",
-            "pic": "./testname/img/sv_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
-            "title": "Vilken Disneyprinsessa är du i klä ut dig spel?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100107",
+            "pic": "./testname/img/sv_img/825852946811c237259322970ca7e8a5.jpeg",
+            "title": "Hur många människor dog samma dag som du?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10017",
-            "pic": "./testname/img/sv_img/b8c09584176f4a2c7952f18f20a965c2.gif",
-            "title": "Vilken typ av butiksägare är du i Scan Or Scam VR?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100108",
+            "pic": "./testname/img/sv_img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
+            "title": "Ditt livskarta | Upptäck din framtid med denna session av handläsning 🔮🤛"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10018",
-            "pic": "./testname/img/sv_img/f1c262270db4e7814fb4120263981a1f.gif",
-            "title": "Är du en vakt eller en fånge i Roblox Prison Life?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100109",
+            "pic": "./testname/img/sv_img/1dd9ac2619cb0b137ba5184393a444af.gif",
+            "title": "Gör val relaterade till ditt stjärntecken och få din personlighet analyserad!"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10019",
-            "pic": "./testname/img/sv_img/cc61100b6142456ed68cb2222fcfb8c2.gif",
-            "title": "Är jag lojal eller en player? 💔🔒"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100110",
+            "pic": "./testname/img/sv_img/03bc5b4f002977705d02ea147f92fa1b.gif",
+            "title": "Vad säger din zodiaks födelsesten om dig?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10020",
-            "pic": "./testname/img/sv_img/aecf360b21f2df880f3a16b72898104b.gif",
-            "title": "Vilken Disney-figur matchar ditt bästa ämne i skolan? 🏰💡"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100111",
+            "pic": "./testname/img/sv_img/e03a3428cd3a4556940c594500755100.gif",
+            "title": "Testa din nationalitet genom handtydning"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10021",
-            "pic": "./testname/img/sv_img/532332b5bd731ee705a821a8270c0ed5.gif",
-            "title": "Vilken Disney Bröllopsklänning Fångar Din Sanna Essens? 👰✨"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100112",
+            "pic": "./testname/img/sv_img/68ccf7ef8a5158b47ceaf5b512cb9989.gif",
+            "title": "Vad är din själsfrändes element? Upptäck det nu!"
         }]
 }
