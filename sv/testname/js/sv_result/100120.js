@@ -15,12 +15,12 @@ const results = {
         "title": "Fatta beslut utifrån ditt stjärntecken och ta reda på vad din själsfrände heter!",
         "resultTitle": "Alex",
         "description": "Baserat på ditt val av stjärntecken heter din själsfrände Alex. Namnet för med sig en gnista av spänning och intellektuell nyfikenhet i ditt liv, och inspirerar dig att tänja på dina gränser.",
-        "mainPic": "./testname/img/sv_img/814e0e0b6b692e774cec6ed09a10fff9.png"
+        "mainPic": "./testname/img/sv_img/08_5584e0e7-0fd5-42b6-a3eb-81b2339d61cc.png"
     },
     "4": {
         "title": "Fatta beslut utifrån ditt stjärntecken och ta reda på vad din själsfrände heter!",
         "resultTitle": "Alex",
         "description": "Baserat på ditt val av stjärntecken heter din själsfrände Alex. Namnet för med sig en gnista av spänning och intellektuell nyfikenhet i ditt liv, och inspirerar dig att tänja på dina gränser.",
-        "mainPic": "./testname/img/sv_img/814e0e0b6b692e774cec6ed09a10fff9.png"
+        "mainPic": "./testname/img/sv_img/08_5584e0e7-0fd5-42b6-a3eb-81b2339d61cc.png"
     }
 };
