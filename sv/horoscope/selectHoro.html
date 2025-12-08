@@ -1063,7 +1063,7 @@
       document.querySelectorAll('.zodiac-for-item').forEach(item => {
         const name = item.querySelector('.zodiac-for-tl').textContent.trim();
         const link = item.querySelector('.coverlink');
-        link.href = `/${lang}/horoscope/${name}`;
+        link.href = `/${lang}/horoscope/${name}?campaign=horo`;
       });
 
       const indexadv_1 = document.getElementById('horo_1')
@@ -1477,7 +1477,7 @@
         document.querySelectorAll('.zodiac-for-item').forEach(item => {
           const name = capitalize(item.querySelector('.zodiac-for-img').alt)
           const link = item.querySelector('.coverlink');
-          link.href = `/${lang}/horoscope/${name}/${cat}`;
+          link.href = `/${lang}/horoscope/${name}/${cat}?campaign=horo`;
         });
       }
 
