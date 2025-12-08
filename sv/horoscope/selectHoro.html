@@ -362,6 +362,7 @@
 
     }
     </style>
+
     <style>
        /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
      #CybotCookiebotDialog {
@@ -1904,5 +1905,16 @@
 
 <script src="./js/footJs.js" async></script>
 <script src="./js/headerJs.js" async></script>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const menu = document.getElementById('menu-1-20d443e');
+
+  toggle.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('active');
+    toggle.textContent = isOpen ? '×' : '☰'; // ← 用字符切换：汉堡 ↔ X
+  });
+</script>
+
 
 </html>
