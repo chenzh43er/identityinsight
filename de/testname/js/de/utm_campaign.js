@@ -26,6 +26,61 @@ const utm_campaignData = {
     },
     "hog":[
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
+            "pic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
+            "title": "Wie würdest du Weihnachten in Hogwarts feiern?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
+            "pic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
+            "title": "Welcher Zauber wird dein Jahr 2026 bestimmen?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
+            "pic": "./testname/img/de_img/27_e7acb3424b68401db293a74c46316bc3.jpeg",
+            "title": "Welche Prophezeiung wartet 2026 auf dich?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
+            "pic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
+            "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
+            "pic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
+            "title": "Welches Hogwarts-Haus spiegelt dein Jahr 2026 wider?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
+            "pic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
+            "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
+            "pic": "./testname/img/de_img/79_07a58fdfa2b4407b8f7d4d9721d576af.jpeg",
+            "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
+            "pic": "./testname/img/de_img/92_ef91a5bb2efd43d9afed274d19dbb1df.jpeg",
+            "title": "Quel héritage magique vous attend en 2026 ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
+            "pic": "./testname/img/de_img/105_90016b03c8314c4e8e2dd789e258ea9f.jpeg",
+            "title": "Où fêterez-vous le réveillon 2026 à Poudlard ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
+            "pic": "./testname/img/de_img/118_e2cfafad84664eca89b6d28de64ce093.jpeg",
+            "title": "Quel Patronus protégera votre année 2026 ?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
+            "pic": "./testname/img/de_img/131_b1b36965f69b44e99fcde254bcebf438.jpeg",
+            "title": "Avec quel protagoniste de Poudlard partagerez-vous votre réveillon 2026 ?"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10054",
             "pic": "./testname/img/de_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
             "title": "Wie gut würdest du dich in Hogwarts schlagen?"
