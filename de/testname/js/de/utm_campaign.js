@@ -24,6 +24,11 @@ const utm_campaignData = {
         "pic": "./testname/img/de_img/735a575acde713df117f43d8defde53b.gif",
         "title": "Welche Disney-Prinzessin bist du?"
     },
+    "newyear":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
+        "pic": "./testname/img/de_img/131_b1b36965f69b44e99fcde254bcebf438.jpeg",
+        "title": "Avec quel protagoniste de Poudlard partagerez-vous votre réveillon 2026 ?"
+    },
     "hog":[
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
