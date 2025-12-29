@@ -1,5 +1,5 @@
 let quizData = {
-    "title": "AMit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?",
+    "title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?",
     "mainPic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
     "thems": [
         "Harry Potter",
