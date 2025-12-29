@@ -1,6 +1,6 @@
 let quizData = {
-    "title": "Quel Patronus protégera votre année 2026 ?",
-    "mainPic": "./testname/img/de_img/118_e2cfafad84664eca89b6d28de64ce093.jpeg",
+    "title": "Welcher Patronus wird dein Jahr 2026 beschützen?",
+    "mainPic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -13,83 +13,83 @@ let quizData = {
     ],
     "questions": [
   {
-    "question": "Votre souvenir le plus joyeux concerne …",
-    "pic": "./testname/img/de_img/119_040a01c1980941079a9dbf608bfec63a.jpeg",
+    "question": "Deine glücklichste Erinnerung handelt von …",
+    "pic": "./testname/img/de_img/28_83adb597aa714365bdbb6d3072a17176.jpeg",
     "answers": [
-      { "answer": "Un moment de triomphe éclatant.", "aPic": "", "aId": 1 },
-      { "answer": "Un rire partagé avec des amis.", "aPic": "", "aId": 2 },
-      { "answer": "Le sentiment d'avoir enfin compris.", "aPic": "", "aId": 3 },
-      { "answer": "Un secret que vous seul connaissez.", "aPic": "", "aId": 4 }
+      { "answer": "Einem Moment des triumphalen Erfolgs.", "aPic": "", "aId": 1 },
+      { "answer": "Einem herzhaften Lachen mit Freunden.", "aPic": "", "aId": 2 },
+      { "answer": "Dem Gefühl, endlich etwas wirklich verstanden zu haben.", "aPic": "", "aId": 3 },
+      { "answer": "Einem Geheimnis, das nur du kennst.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quelle est la météo de votre âme à l'aube de 2026 ?",
-    "pic": "./testname/img/de_img/120_00434f35208f4d98a3e44afcb2f35650.jpeg",
+    "question": "Wie ist das Wetter deiner Seele zu Beginn des Jahres 2026?",
+    "pic": "./testname/img/de_img/29_680843f3bf3240d1a24d1822d8b70bfd.jpeg",
     "answers": [
-      { "answer": "Un orage électrique plein d'énergie.", "aPic": "", "aId": 1 },
-      { "answer": "Un soleil de printemps réconfortant.", "aPic": "", "aId": 2 },
-      { "answer": "Une nuit étoilée, claire et infinie.", "aPic": "", "aId": 3 },
-      { "answer": "Un brouillard matinal mystérieux.", "aPic": "", "aId": 4 }
+      { "answer": "Ein elektrisches Gewitter voller Energie.", "aPic": "", "aId": 1 },
+      { "answer": "Eine wärmende Frühlingssonne.", "aPic": "", "aId": 2 },
+      { "answer": "Eine klare, endlose Sternennacht.", "aPic": "", "aId": 3 },
+      { "answer": "Ein geheimnisvoller Morgennebel.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Pour vous, la protection rime avec …",
-    "pic": "./testname/img/de_img/121_02aea408026843d293883e5af1bd1ca0.jpeg",
+    "question": "Für dich bedeutet Schutz vor allem …",
+    "pic": "./testname/img/de_img/30_28523490108443e4ba7dc46266991a70.jpeg",
     "answers": [
-      { "answer": "Le courage de se battre.", "aPic": "", "aId": 1 },
-      { "answer": "Le pouvoir de l'amour.", "aPic": "", "aId": 2 },
-      { "answer": "La force de la connaissance.", "aPic": "", "aId": 3 },
-      { "answer": "La maîtrise totale de soi.", "aPic": "", "aId": 4 }
+      { "answer": "Den Mut zu kämpfen.", "aPic": "", "aId": 1 },
+      { "answer": "Die Kraft der Liebe.", "aPic": "", "aId": 2 },
+      { "answer": "Die Stärke des Wissens.", "aPic": "", "aId": 3 },
+      { "answer": "Die vollkommene Selbstbeherrschung.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Choisissez une pierre précieuse pour votre amulette.",
-    "pic": "./testname/img/de_img/122_ca39c21f3f624cb4a5fdb69dabfa5055.jpeg",
+    "question": "Wähle einen Edelstein für dein Amulett.",
+    "pic": "./testname/img/de_img/31_d6ffe8f209844b9691a6760c14a184fb.jpeg",
     "answers": [
-      { "answer": "Le Rubis flamboyant.", "aPic": "", "aId": 1 },
-      { "answer": "L'Ambre chaleureux.", "aPic": "", "aId": 2 },
-      { "answer": "Le Saphir profond.", "aPic": "", "aId": 3 },
-      { "answer": "L'Obsidienne tranchante.", "aPic": "", "aId": 4 }
+      { "answer": "Den leuchtenden Rubin.", "aPic": "", "aId": 1 },
+      { "answer": "Den warmen Bernstein.", "aPic": "", "aId": 2 },
+      { "answer": "Den tiefblauen Saphir.", "aPic": "", "aId": 3 },
+      { "answer": "Den scharfen Obsidian.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Comment vous sentez-vous dans la Forêt Interdite ?",
-    "pic": "./testname/img/de_img/123_42a191b90cbb44efb9118734b10edd23.jpeg",
+    "question": "Wie fühlst du dich im Verbotenen Wald?",
+    "pic": "./testname/img/de_img/32_bc6cf934600e454ab9ac27693e30d275.jpeg",
     "answers": [
-      { "answer": "Prêt à affronter n'importe quel danger.", "aPic": "", "aId": 1 },
-      { "answer": "Respectueux de la nature sauvage.", "aPic": "", "aId": 2 },
-      { "answer": "Fasciné par ses mystères antiques.", "aPic": "", "aId": 3 },
-      { "answer": "Parfaitement en sécurité dans le noir.", "aPic": "", "aId": 4 }
+      { "answer": "Bereit, jeder Gefahr zu trotzen.", "aPic": "", "aId": 1 },
+      { "answer": "Voller Respekt für die wilde Natur.", "aPic": "", "aId": 2 },
+      { "answer": "Fasziniert von den uralten Geheimnissen.", "aPic": "", "aId": 3 },
+      { "answer": "Ganz ruhig und sicher in der Dunkelheit.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel sens est le plus aiguisé chez vous ?",
-    "pic": "./testname/img/de_img/124_4591af3a6ee945acb236dd1dca8224aa.jpeg",
+    "question": "Welcher deiner Sinne ist am schärfsten?",
+    "pic": "./testname/img/de_img/33_7743ae7853244485a019e1034cff5dea.jpeg",
     "answers": [
-      { "answer": "Mon instinct de survie.", "aPic": "", "aId": 1 },
-      { "answer": "Ma perception des émotions.", "aPic": "", "aId": 2 },
-      { "answer": "Mon intuition intellectuelle.", "aPic": "", "aId": 3 },
-      { "answer": "Mon sens de l'observation tactique.", "aPic": "", "aId": 4 }
+      { "answer": "Mein Überlebensinstinkt.", "aPic": "", "aId": 1 },
+      { "answer": "Mein Gespür für Emotionen.", "aPic": "", "aId": 2 },
+      { "answer": "Meine geistige Intuition.", "aPic": "", "aId": 3 },
+      { "answer": "Mein taktischer Beobachtungssinn.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quelle est votre plus grande peur pour cette année ?",
-    "pic": "./testname/img/de_img/125_536f8e8aa8e9495b8037e411914405aa.jpeg",
+    "question": "Wovor fürchtest du dich 2026 am meisten?",
+    "pic": "./testname/img/de_img/34_76e915166e254f3e81da4ad6d9586237.jpeg",
     "answers": [
-      { "answer": "L'échec ou la stagnation.", "aPic": "", "aId": 1 },
-      { "answer": "La perte d'un être cher.", "aPic": "", "aId": 2 },
-      { "answer": "L'ignorance ou le mensonge.", "aPic": "", "aId": 3 },
-      { "answer": "La trahison de ma confiance.", "aPic": "", "aId": 4 }
+      { "answer": "Vor Stillstand oder Misserfolg.", "aPic": "", "aId": 1 },
+      { "answer": "Vor dem Verlust eines geliebten Menschen.", "aPic": "", "aId": 2 },
+      { "answer": "Vor Unwissenheit oder Lügen.", "aPic": "", "aId": 3 },
+      { "answer": "Vor dem Verrat meines Vertrauens.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel message portez-vous au reste du monde ?",
-    "pic": "./testname/img/de_img/126_2fea47ad2aee498e93d22fc8bc356aa0.jpeg",
+    "question": "Welche Botschaft möchtest du der Welt mitgeben?",
+    "pic": "./testname/img/de_img/35_f689a2901aa74a35b75a01ac4058e440.jpeg",
     "answers": [
-      { "answer": "Force et Honneur.", "aPic": "", "aId": 1 },
-      { "answer": "Paix et Harmonie.", "aPic": "", "aId": 2 },
-      { "answer": "Vérité et Sagesse.", "aPic": "", "aId": 3 },
-      { "answer": "Ambition et Réussite.", "aPic": "", "aId": 4 }
+      { "answer": "Stärke und Ehre.", "aPic": "", "aId": 1 },
+      { "answer": "Frieden und Harmonie.", "aPic": "", "aId": 2 },
+      { "answer": "Wahrheit und Weisheit.", "aPic": "", "aId": 3 },
+      { "answer": "Ehrgeiz und Erfolg.", "aPic": "", "aId": 4 }
     ]
   }
 ]

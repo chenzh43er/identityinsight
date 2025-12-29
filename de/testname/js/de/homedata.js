@@ -235,23 +235,23 @@ const dataPage = {
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
-			"pic": "./testname/img/de_img/92_ef91a5bb2efd43d9afed274d19dbb1df.jpeg",
-			"title": "Quel héritage magique vous attend en 2026 ?"
+			"pic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
+			"title": "Welches magisches Erbe erwartet dich im Jahr 2026?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
-			"pic": "./testname/img/de_img/105_90016b03c8314c4e8e2dd789e258ea9f.jpeg",
-			"title": "Où fêterez-vous le réveillon 2026 à Poudlard ?"
+			"pic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
+			"title": "Wo wirst du Silvester 2026 in Hogwarts feiern?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
-			"pic": "./testname/img/de_img/118_e2cfafad84664eca89b6d28de64ce093.jpeg",
-			"title": "Quel Patronus protégera votre année 2026 ?"
+			"pic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
+			"title": "Welcher Patronus wird dein Jahr 2026 beschützen?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
-			"pic": "./testname/img/de_img/131_b1b36965f69b44e99fcde254bcebf438.jpeg",
-			"title": "Avec quel protagoniste de Poudlard partagerez-vous votre réveillon 2026 ?"
+			"pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
+			"title": "AMit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100100",

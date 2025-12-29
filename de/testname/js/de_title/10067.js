@@ -1,6 +1,6 @@
 let quizData = {
-    "title": "Quel héritage magique vous attend en 2026 ?",
-    "mainPic": "./testname/img/de_img/92_ef91a5bb2efd43d9afed274d19dbb1df.jpeg",
+    "title": "Welches magisches Erbe erwartet dich im Jahr 2026?",
+    "mainPic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -13,58 +13,58 @@ let quizData = {
     ],
     "questions": [
   {
-    "question": "On vous offre un Portoloin pour le réveillon. Où atterrissez-vous ?",
-    "pic": "./testname/img/de_img/93_849ec5779bb24fc7baec8146ea08c040.jpeg",
+    "question": "Man schenkt dir einen Portschlüssel zum Jahreswechsel. Wo landest du?",
+    "pic": "./testname/img/de_img/02_6922811add914216beca9ee3572e1158.jpeg",
     "answers": [
-      { "answer": "Au sommet d'une montagne enneigée pour défier le froid.", "aPic": "", "aId": 1 },
-      { "answer": "Dans une petite maison de campagne chaleureuse et fleurie.", "aPic": "", "aId": 2 },
-      { "answer": "Dans une bibliothèque ancienne dont les livres flottent.", "aPic": "", "aId": 3 },
-      { "answer": "Dans un manoir mystérieux où personne ne vous attend.", "aPic": "", "aId": 4 }
+      { "answer": "Auf einem verschneiten Berggipfel, bereit, der Kälte zu trotzen.", "aPic": "", "aId": 1 },
+      { "answer": "In einem gemütlichen Landhaus voller Wärme und Blumen.", "aPic": "", "aId": 2 },
+      { "answer": "In einer alten Bibliothek, in der die Bücher schweben.", "aPic": "", "aId": 3 },
+      { "answer": "In einem geheimnisvollen Herrenhaus, in dem dich niemand erwartet.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel parfum embaume votre potion Amortentia ce matin ?",
-    "pic": "./testname/img/de_img/94_849b1042bb17420f9ce3214720c7f98a.jpeg",
+    "question": "Welcher Duft erfüllt deine Amortentia-Potion an diesem Morgen?",
+    "pic": "./testname/img/de_img/03_ceff7046489d4f7fb7847906135bb8cd.jpeg",
     "answers": [
-      { "answer": "Le feu de bois et l'aventure.", "aPic": "", "aId": 1 },
-      { "answer": "Le pain d'épices et l'herbe coupée.", "aPic": "", "aId": 2 },
-      { "answer": "Le vieux parchemin et l'encre fraîche.", "aPic": "", "aId": 3 },
-      { "answer": "La brume nocturne et les fleurs rares.", "aPic": "", "aId": 4 }
+      { "answer": "Kaminfeuer und Abenteuerlust.", "aPic": "", "aId": 1 },
+      { "answer": "Lebkuchen und frisch geschnittenes Gras.", "aPic": "", "aId": 2 },
+      { "answer": "Altes Pergament und frische Tinte.", "aPic": "", "aId": 3 },
+      { "answer": "Nachtnebel und seltene Blumen.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Votre baguette réagit étrangement à minuit. Elle produit des …",
-    "pic": "./testname/img/de_img/95_92c15b082b0b4e9d8c680717c58622ce.jpeg",
+    "question": "Deine Zauberstab reagiert um Mitternacht merkwürdig. Er erzeugt …",
+    "pic": "./testname/img/de_img/04_34597a2d9e2340c5b31e51d4d75e37d0.jpeg",
     "answers": [
-      { "answer": "Flammes rugissantes et protectrices.", "aPic": "", "aId": 1 },
-      { "answer": "Bulles d'argent irisées.", "aPic": "", "aId": 2 },
-      { "answer": "Feuilles de chêne qui dansent.", "aPic": "", "aId": 3 },
-      { "answer": "Éclairs violets silencieux.", "aPic": "", "aId": 4 }
+      { "answer": "Tosende, schützende Flammen.", "aPic": "", "aId": 1 },
+      { "answer": "Schimmernde silberne Blasen.", "aPic": "", "aId": 2 },
+      { "answer": "Tanzende Eichenblätter.", "aPic": "", "aId": 3 },
+      { "answer": "Leise, violette Blitze.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel est votre plus grand regret de l'année passée ?",
-    "pic": "./testname/img/de_img/96_94d29340c9bf4aca983b9e3f7d9beaaa.jpeg",
+    "question": "Was ist dein größtes Bedauern des vergangenen Jahres?",
+    "pic": "./testname/img/de_img/05_b3958da5c911448f983fd0c3ede2f69c.jpeg",
     "answers": [
-      { "answer": "Mon manque d'audace.", "aPic": "", "aId": 1 },
-      { "answer": "Ma solitude.", "aPic": "", "aId": 2 },
-      { "answer": "Mes erreurs de jugement.", "aPic": "", "aId": 3 },
-      { "answer": "Une opportunité manquée par méfiance.", "aPic": "", "aId": 4 }
+      { "answer": "Mein Mangel an Mut.", "aPic": "", "aId": 1 },
+      { "answer": "Meine Einsamkeit.", "aPic": "", "aId": 2 },
+      { "answer": "Meine Fehlentscheidungen.", "aPic": "", "aId": 3 },
+      { "answer": "Eine verpasste Chance aus Misstrauen.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel animal vous accompagnera dans vos résolutions de 2026 ?",
-    "pic": "./testname/img/de_img/97_ef7b6d75a7b24a53b0ef47a205b46e2a.jpeg",
+    "question": "Welches Tier wird dich bei deinen Vorsätzen für 2026 begleiten?",
+    "pic": "./testname/img/de_img/06_97e4c1616ea54c93a71f6b6e218ef6ad.jpeg",
     "answers": [
-      { "answer": "Un lion majestueux.", "aPic": "", "aId": 1 },
-      { "answer": "Un blaireau protecteur.", "aPic": "", "aId": 2 },
-      { "answer": "Un aigle royal.", "aPic": "", "aId": 3 },
-      { "answer": "Un serpent d'argent.", "aPic": "", "aId": 4 }
+      { "answer": "Ein majestätischer Löwe.", "aPic": "", "aId": 1 },
+      { "answer": "Ein beschützender Dachs.", "aPic": "", "aId": 2 },
+      { "answer": "Ein königlicher Adler.", "aPic": "", "aId": 3 },
+      { "answer": "Eine silberne Schlange.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Le sortilège que vous maîtrisez le mieux par pur instinct ?",
-    "pic": "./testname/img/de_img/98_f2f6ae5159e1477a90aeb4d74861258f.jpeg",
+    "question": "Welchen Zauberspruch beherrschst du instinktiv am besten?",
+    "pic": "./testname/img/de_img/07_286c22ba2fcc4804bdc2c809f8dabee8.jpeg",
     "answers": [
       { "answer": "Expelliarmus.", "aPic": "", "aId": 1 },
       { "answer": "Protego.", "aPic": "", "aId": 2 },
@@ -73,27 +73,26 @@ let quizData = {
     ]
   },
   {
-    "question": "Face à l'inconnu, quelle est votre première réaction ?",
-    "pic": "./testname/img/de_img/99_ec1a3119f50540b695bf2d1139492959.jpeg",
+    "question": "Wenn du dem Unbekannten gegenüberstehst, wie reagierst du zuerst?",
+    "pic": "./testname/img/de_img/08_b25762415e9d4cf2851e9a786766ca35.jpeg",
     "answers": [
-      { "answer": "Je fonce pour voir de quoi il s'agit.", "aPic": "", "aId": 1 },
-      { "answer": "Je cherche à protéger mes proches.", "aPic": "", "aId": 2 },
-      { "answer": "J'analyse la situation avec logique.", "aPic": "", "aId": 3 },
-      { "answer": "Je reste dans l'ombre pour observer.", "aPic": "", "aId": 4 }
+      { "answer": "Ich stürze mich hinein, um zu sehen, was passiert.", "aPic": "", "aId": 1 },
+      { "answer": "Ich versuche zuerst, meine Liebsten zu schützen.", "aPic": "", "aId": 2 },
+      { "answer": "Ich analysiere die Situation mit Logik.", "aPic": "", "aId": 3 },
+      { "answer": "Ich bleibe im Schatten und beobachte.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Pour vous, l'année 2026 rimera avec …",
-    "pic": "./testname/img/de_img/100_20d83fafc1a6481199125159af7cda3a.jpeg",
+    "question": "Für dich steht das Jahr 2026 unter dem Zeichen von …",
+    "pic": "./testname/img/de_img/09_24fc0f074b324a0587cfb8108c89eab3.jpeg",
     "answers": [
-      { "answer": "Conquête.", "aPic": "", "aId": 1 },
-      { "answer": "Sérénité.", "aPic": "", "aId": 2 },
-      { "answer": "Découverte.", "aPic": "", "aId": 3 },
-      { "answer": "Influence.", "aPic": "", "aId": 4 }
+      { "answer": "Eroberung.", "aPic": "", "aId": 1 },
+      { "answer": "Gelassenheit.", "aPic": "", "aId": 2 },
+      { "answer": "Entdeckung.", "aPic": "", "aId": 3 },
+      { "answer": "Einfluss.", "aPic": "", "aId": 4 }
     ]
   }
 ]
-
 ,
     "toAnswer": 10067
 };

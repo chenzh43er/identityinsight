@@ -1,6 +1,6 @@
 let quizData = {
-    "title": "Où fêterez-vous le réveillon 2026 à Poudlard ?",
-    "mainPic": "./testname/img/de_img/105_90016b03c8314c4e8e2dd789e258ea9f.jpeg",
+    "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?",
+    "mainPic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -13,83 +13,83 @@ let quizData = {
     ],
     "questions": [
   {
-    "question": "Quel est votre cocktail magique pour trinquer à minuit ?",
-    "pic": "./testname/img/de_img/106_0bc05bbfc77a4105b7be09c457f7cd92.jpeg",
+    "question": "Welcher magische Cocktail steht bei dir um Mitternacht auf dem Tisch?",
+    "pic": "./testname/img/de_img/15_6e0f6b4c91304ce58736dfcb38a344c5.jpeg",
     "answers": [
-      { "answer": "Un Whisky Pur Feu épicé.", "aPic": "", "aId": 1 },
-      { "answer": "Un Hydromel vieilli en fût.", "aPic": "", "aId": 2 },
-      { "answer": "Un Jus d'Oeillet pétillant.", "aPic": "", "aId": 3 },
-      { "answer": "Un vin de sureau mystérieux.", "aPic": "", "aId": 4 }
+      { "answer": "Ein würziger Feuerwhisky.", "aPic": "", "aId": 1 },
+      { "answer": "Ein im Fass gereifter Met.", "aPic": "", "aId": 2 },
+      { "answer": "Ein spritziger Nelkensaft.", "aPic": "", "aId": 3 },
+      { "answer": "Ein geheimnisvoller Holunderwein.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Vous trouvez une clé argentée dans votre botte de Noël. Elle …",
-    "pic": "./testname/img/de_img/107_3f8c8823746d498488929be82da1f0da.jpeg",
+    "question": "Du findest einen silbernen Schlüssel in deinem Weihnachtsstiefel. Was passiert?",
+    "pic": "./testname/img/de_img/16_2494189a7d2b405480cb54b1aa3929b4.jpeg",
     "answers": [
-      { "answer": "Chauffe brusquement dans ma main.", "aPic": "", "aId": 1 },
-      { "answer": "Se met à chanter une mélodie douce.", "aPic": "", "aId": 2 },
-      { "answer": "Devient transparente comme du verre.", "aPic": "", "aId": 3 },
-      { "answer": "Vibre dès que je m'approche d'une porte.", "aPic": "", "aId": 4 }
+      { "answer": "Er wird plötzlich heiß in deiner Hand.", "aPic": "", "aId": 1 },
+      { "answer": "Er beginnt, eine sanfte Melodie zu summen.", "aPic": "", "aId": 2 },
+      { "answer": "Er wird durchsichtig wie Glas.", "aPic": "", "aId": 3 },
+      { "answer": "Er vibriert, sobald du dich einer Tür näherst.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Votre humeur pour commencer cette nouvelle année ?",
-    "pic": "./testname/img/de_img/108_2a6e82794fae4f9db22aa20beb5695ba.jpeg",
+    "question": "Deine Stimmung, um das neue Jahr zu beginnen?",
+    "pic": "./testname/img/de_img/17_3bf65fa3919c4c2d858689f2d8356f19.jpeg",
     "answers": [
-      { "answer": "Déterminé et combatif.", "aPic": "", "aId": 1 },
-      { "answer": "Paisible et bienveillant.", "aPic": "", "aId": 2 },
-      { "answer": "Curieux et studieux.", "aPic": "", "aId": 3 },
-      { "answer": "Ambitieux et sélectif.", "aPic": "", "aId": 4 }
+      { "answer": "Entschlossen und kämpferisch.", "aPic": "", "aId": 1 },
+      { "answer": "Friedlich und wohlwollend.", "aPic": "", "aId": 2 },
+      { "answer": "Neugierig und wissbegierig.", "aPic": "", "aId": 3 },
+      { "answer": "Ehrgeizig und wählerisch.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel fantôme de Poudlard inviteriez-vous à votre table ?",
-    "pic": "./testname/img/de_img/109_d42c6844a6f641089aa8c39506d3ef32.jpeg",
+    "question": "Welchen Hogwarts-Geist würdest du zu deinem Tisch einladen?",
+    "pic": "./testname/img/de_img/18_eb7d7a0e1a7e4a69bfcfc433c2c97fca.jpeg",
     "answers": [
-      { "answer": "Sir Nicholas pour la bravoure.", "aPic": "", "aId": 1 },
-      { "answer": "Le Moine Gras pour la joie.", "aPic": "", "aId": 2 },
-      { "answer": "La Dame Grise pour le mystère.", "aPic": "", "aId": 3 },
-      { "answer": "Le Baron Sanglant pour la force.", "aPic": "", "aId": 4 }
+      { "answer": "Sir Nicholas – für seinen Mut.", "aPic": "", "aId": 1 },
+      { "answer": "Der Fette Mönch – für seine gute Laune.", "aPic": "", "aId": 2 },
+      { "answer": "Die Graue Dame – für ihr Geheimnis.", "aPic": "", "aId": 3 },
+      { "answer": "Der Blutige Baron – für seine Stärke.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Face au miroir du Riséd, que voyez-vous pour 2026 ?",
-    "pic": "./testname/img/de_img/110_9fdc1ebe9ab847959c22eec413f9965c.jpeg",
+    "question": "Wenn du in den Spiegel Nerhegeb blickst, was siehst du für 2026?",
+    "pic": "./testname/img/de_img/19_e0d69990c60445aa8801f4aa984b4009.jpeg",
     "answers": [
-      { "answer": "Moi, admiré par une foule immense.", "aPic": "", "aId": 1 },
-      { "answer": "Moi, entouré de ma famille unie.", "aPic": "", "aId": 2 },
-      { "answer": "Moi, découvrant un savoir perdu.", "aPic": "", "aId": 3 },
-      { "answer": "Moi, assis sur un trône de pouvoir.", "aPic": "", "aId": 4 }
+      { "answer": "Mich selbst, bewundert von einer großen Menge.", "aPic": "", "aId": 1 },
+      { "answer": "Mich, umgeben von meiner vereinten Familie.", "aPic": "", "aId": 2 },
+      { "answer": "Mich, wie ich verlorenes Wissen entdecke.", "aPic": "", "aId": 3 },
+      { "answer": "Mich, auf einem Thron der Macht sitzend.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Quel chemin empruntez-vous pour quitter la fête ?",
-    "pic": "./testname/img/de_img/111_d01d540306c34decbfc3adb9a47dd578.jpeg",
+    "question": "Welchen Weg nimmst du, um die Feier zu verlassen?",
+    "pic": "./testname/img/de_img/20_0947bf62131e4b15a730cb59a0044f20.jpeg",
     "answers": [
-      { "answer": "Les grands escaliers en mouvement.", "aPic": "", "aId": 1 },
-      { "answer": "Le chemin secret vers les cuisines.", "aPic": "", "aId": 2 },
-      { "answer": "L'escalier en colimaçon de la Tour.", "aPic": "", "aId": 3 },
-      { "answer": "Les couloirs silencieux des cachots.", "aPic": "", "aId": 4 }
+      { "answer": "Die sich bewegenden Treppen von Hogwarts.", "aPic": "", "aId": 1 },
+      { "answer": "Den geheimen Gang zu den Küchen.", "aPic": "", "aId": 2 },
+      { "answer": "Die Wendeltreppe im Turm.", "aPic": "", "aId": 3 },
+      { "answer": "Die stillen Gänge der Kerkern.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "Une créature magique bloque votre route. Vous …",
-    "pic": "./testname/img/de_img/112_0925d474a3f8442c934a6edf7183bb07.jpeg",
+    "question": "Eine magische Kreatur blockiert deinen Weg. Du …",
+    "pic": "./testname/img/de_img/21_7fd6850b136a4fa1bf6e4225143865a3.jpeg",
     "answers": [
-      { "answer": "Sortez votre baguette, prêt au duel.", "aPic": "", "aId": 1 },
-      { "answer": "Lui offrez une friandise magique.", "aPic": "", "aId": 2 },
-      { "answer": "Cherchez à comprendre son message.", "aPic": "", "aId": 3 },
-      { "answer": "L'intimidez d'un simple regard froid.", "aPic": "", "aId": 4 }
+      { "answer": "Ziehst deinen Zauberstab – bereit zum Duell.", "aPic": "", "aId": 1 },
+      { "answer": "Bietest ihr eine magische Süßigkeit an.", "aPic": "", "aId": 2 },
+      { "answer": "Versuchst, ihre Botschaft zu verstehen.", "aPic": "", "aId": 3 },
+      { "answer": "Einschüchterst sie mit einem kühlen Blick.", "aPic": "", "aId": 4 }
     ]
   },
   {
-    "question": "La couleur de votre aura en ce début d'année ?",
-    "pic": "./testname/img/de_img/113_f0864a94bf5540b3b5cdbc26a2f86a02.jpeg",
+    "question": "Welche Farbe hat deine Aura zu Beginn des neuen Jahres?",
+    "pic": "./testname/img/de_img/22_a8952b322eba49bab9cc5a7fc75864ec.jpeg",
     "answers": [
-      { "answer": "Rouge vif comme une braise.", "aPic": "", "aId": 1 },
-      { "answer": "Jaune miel, douce et chaude.", "aPic": "", "aId": 2 },
-      { "answer": "Bleu nuit, profonde et calme.", "aPic": "", "aId": 3 },
-      { "answer": "Vert émeraude, vive et froide.", "aPic": "", "aId": 4 }
+      { "answer": "Leuchtend rot wie eine Glut.", "aPic": "", "aId": 1 },
+      { "answer": "Honiggelb, warm und sanft.", "aPic": "", "aId": 2 },
+      { "answer": "Tiefblau, ruhig und klar.", "aPic": "", "aId": 3 },
+      { "answer": "Smaragdgrün, lebendig und kühl.", "aPic": "", "aId": 4 }
     ]
   }
 ]

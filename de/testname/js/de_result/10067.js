@@ -1,30 +1,38 @@
 const results = {
     1: {
-        "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?",
-        "resultTitle": "A L'Épée de Gryffindor",
-        "description": `2026 sera l'année de votre libération. Vous trouverez la force de briser vos chaînes et d'affronter vos peurs. Osez prendre la parole en public, votre voix sera entendue. 
+        "title": "Welches magisches Erbe erwartet dich im Jahr 2026?",
+        "resultTitle": "A – Das Schwert von Godric Gryffindor",
+        "description": `2026 wird das Jahr deiner Befreiung.
+Du findest die Kraft, deine Ketten zu sprengen und dich deinen Ängsten zu stellen.
+Wage es, deine Stimme zu erheben – man wird dir zuhören.
 `,
-        "mainPic": "./testname/img/de_img/101_f12a30dcb47341d1853acda857ba7dea.jpeg"
+        "mainPic": "./testname/img/de_img/10_8b19a03795604d0b924251ea3e9354c0.jpeg"
     },
     2: {
-        "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?",
-        "resultTitle": "B La Coupe de Helga Hufflepuff ",
-        "description": `Une année placée sous le signe de l'abondance et du coeur. Vous serez le pilier de votre entourage. Votre loyauté vous apportera une récompense inattendue.
+        "title": "Welches magisches Erbe erwartet dich im Jahr 2026?",
+        "resultTitle": "B – Der Pokal von Helga Hufflepuff",
+        "description": `Ein Jahr im Zeichen von Fülle und Herz.
+Du wirst der Fels in der Brandung für deine Freunde sein.
+Deine Loyalität bringt dir eine unerwartete Belohnung.
 `,
-        "mainPic": "./testname/img/de_img/102_cd57182666d44f77898c81026d505f24.jpeg"
+        "mainPic": "./testname/img/de_img/11_225ea987f970471f92423a21d9c8b59f.jpeg"
     },
     3: {
-        "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?",
-        "resultTitle": "C Le Diadème de Rowena Ravenclaw",
-        "description": `Votre esprit sera votre plus grande arme. 2026 sera une année de clarté intellectuelle absolue. Vous excellerez dans l'apprentissage de nouvelles compétences.
+        "title": "Welches magisches Erbe erwartet dich im Jahr 2026?",
+        "resultTitle": "C – Das Diadem von Rowena Ravenclaw",
+        "description": `Dein Geist ist deine größte Waffe.
+2026 wird ein Jahr glasklarer Erkenntnis und kluger Entscheidungen.
+Du wirst in allem, was du lernst, über dich hinauswachsen.
 `,
-        "mainPic": "./testname/img/de_img/103_05731deb1e56403bb3d054b1dc8b7e70.jpeg"
+        "mainPic": "./testname/img/de_img/12_e11aec449f4c4d75abc1eab2204695f1.jpeg"
     },
     4: {
-        "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?",
-        "resultTitle": "D Le Médaillon de Salazar Slytherin",
-        "description": `Vous allez naviguer avec ruse et ambition. 2026 est l'année où vous reprenez le contrôle. Ne révélez pas tous vos plans tout de suite pour garder l'avantage.
+        "title": "Welches magisches Erbe erwartet dich im Jahr 2026?",
+        "resultTitle": "D – Das Medaillon von Salazar Slytherin",
+        "description": `Mit List und Ehrgeiz steuerst du durch 2026.
+Dies ist das Jahr, in dem du wieder Kontrolle über dein Schicksal gewinnst.
+Behalte deine Pläne vorerst für dich – das wird dein Vorteil sein.
 `,
-        "mainPic": "./testname/img/de_img/104_92f176b7b34247fba756d3f00c4c896c.jpeg"
+        "mainPic": "./testname/img/de_img/13_97cb97def9f148949ed3fde03fe0dfea.jpeg"
     },
 };

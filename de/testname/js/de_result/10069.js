@@ -1,30 +1,39 @@
 const results = {
     1: {
-        "title": "Quel Patronus protégera votre année 2026 ?",
-        "resultTitle": "Le Phénix d'Argent",
-        "description": `Vous allez renaître. 2026 est l'année de votre transformation totale. Une opportunité de carrière ou un changement de vie radical vous attend dès le printemps.
+        "title": "Welcher Patronus wird dein Jahr 2026 beschützen?",
+        "resultTitle": "Der Silberne Phönix",
+        "description": `Du wirst neu geboren. 2026 ist das Jahr deiner völligen Transformation.
+Eine große berufliche Chance oder ein radikaler Lebenswandel erwartet dich schon im Frühling.
 `,
-        "mainPic": "./testname/img/de_img/127_2b1b6ae5bace441389190f73142702b2.png"
+        "mainPic": "./testname/img/de_img/36_f343945caf744c9c80c4949fb4b8e7c3.png"
     },
     2: {
-        "title": "Quel Patronus protégera votre année 2026 ?",
-        "resultTitle": "Le Cerf Royal",
-        "description": `Leader naturel et protecteur. En 2026, vous serez le guide de votre entourage. Vous devrez prendre des décisions importantes, faites confiance à votre droiture.
+        "title": "Welcher Patronus wird dein Jahr 2026 beschützen?",
+        "resultTitle": "Der Königliche Hirsch",
+        "description": `Ein natürlicher Anführer und Beschützer.
+Im Jahr 2026 wirst du die Führung übernehmen und dein Umfeld inspirieren.
+Du wirst wichtige Entscheidungen treffen – vertraue auf deine innere Stärke.
+
 `,
-        "mainPic": "./testname/img/de_img/128_a9f0708e49d641c58d89190097c92b7a.jpeg"
+        "mainPic": "./testname/img/de_img/37_3c838d84acd54f61ae0573fecfa6de77.jpeg"
     },
     3: {
-        "title": "Quel Patronus protégera votre année 2026 ?",
-        "resultTitle": "La Chouette de Cristal ",
-        "description": `Clairvoyance et sérénité. Vous naviguerez à travers les doutes sans vous perdre. Une excellente année pour les études ou tout projet demandant de la concentration.
+        "title": "Welcher Patronus wird dein Jahr 2026 beschützen?",
+        "resultTitle": "Die Kristalleule",
+        "description": `Klarsicht und Ruhe.
+Du bewegst dich sicher durch Zweifel und Chaos.
+2026 ist ideal für Studium, Meditation oder jedes Projekt, das Konzentration verlangt.
+
 `,
-        "mainPic": "./testname/img/de_img/129_7a2eeed2674944d987f1c31b2e03c1ad.jpeg"
+        "mainPic": "./testname/img/de_img/38_0d7c8d0aadb844aa81e0094348bca903.jpeg"
     },
     4: {
-        "title": "Quel Patronus protégera votre année 2026 ?",
-        "resultTitle": "Le Basilic d'Argent ",
-        "description": `Puissance et respect. Personne n'osera se mettre en travers de votre route. Vos ambitions matérielles seront favorisées, soyez impitoyable avec vos objectifs. 
+        "title": "Welcher Patronus wird dein Jahr 2026 beschützen?",
+        "resultTitle": "Der Silberne Basilisk",
+        "description": `Macht und Respekt begleiten dich.
+Niemand wird es wagen, sich dir in den Weg zu stellen.
+Deine Ambitionen werden 2026 belohnt – bleib entschlossen und kompromisslos.
 `,
-        "mainPic": "./testname/img/de_img/130_37fc109aa85e469ea03524e581347385.jpeg"
+        "mainPic": "./testname/img/de_img/39_300feb0387e74be2b694706573356c77.jpeg"
     },
 };
