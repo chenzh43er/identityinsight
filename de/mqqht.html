@@ -1785,7 +1785,7 @@
                     let utm_campaign = getQueryParam("campaign");
                     let testData = utm_campaignData[utm_campaign] || 0
 
-                    if(utm_campaign === "hog"){
+                    if(utm_campaign === "hog" || utm_campaign === "newyear"){
                         testData = utm_campaignData["hog_mt"] || 0
                     }
 
@@ -2232,7 +2232,7 @@
                     let testData = utm_campaignData[utm_campaign] || 0
 
 
-                    if(utm_campaign === "hog"){
+                    if(utm_campaign === "hog" || utm_campaign === "newyear" ){
                         testData = utm_campaignData["hog_rc"] || 0
                     }
 
