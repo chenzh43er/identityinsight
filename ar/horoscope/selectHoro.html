@@ -17,11 +17,26 @@
       base.href = '/sv/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/sv/horoscope/');
-    }else{
+    }else if(getLangFromPath() == "en"){
       const base = document.querySelector('base');
       base.href = '/en/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/en/horoscope/');
+    }else if(getLangFromPath() == "fr"){
+      const base = document.querySelector('base');
+      base.href = '/fr/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/fr/horoscope/');
+    }else if(getLangFromPath() == "no"){
+      const base = document.querySelector('base');
+      base.href = '/no/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/no/horoscope/');
+    }else if(getLangFromPath() == "nl"){
+      const base = document.querySelector('base');
+      base.href = '/nl/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/nl/horoscope/');
     }
 
   </script>
@@ -65,7 +80,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9MGKZV"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    <style>
+  <style>
 
     .divLinePa {
       margin: .5rem 0 !important;
@@ -205,15 +220,15 @@
 
 
 
-    </style>
-    <style>
+  </style>
+  <style>
 
-       /* ========== 通用样式 ========== */
-     nav {
-       position: relative;
-       z-index: 1000;
-       padding: 0px 30px
-     }
+    /* ========== 通用样式 ========== */
+    nav {
+      position: relative;
+      z-index: 1000;
+      padding: 0px 30px
+    }
 
     /* 桌面端：右对齐菜单 */
     nav ul {
@@ -361,24 +376,24 @@
 
 
     }
-    </style>
+  </style>
 
-    <style>
-       /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
-     #CybotCookiebotDialog {
-       position: fixed !important;
-       bottom: 0 !important;
-       left: 0 !important;
-       width: 100% !important;
-       max-width: 100% !important;
-       border: none !important;
-       border-top: 1px solid #ccc !important;
-       box-shadow: 0 -2px 5px rgba(0,0,0,0.1) !important;
-       text-align: center !important;
-       padding: 10px !important;
-       background-color: #f9f9f9 !important;
-       z-index: 10000 !important;
-     }
+  <style>
+    /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
+    #CybotCookiebotDialog {
+      position: fixed !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      border: none !important;
+      border-top: 1px solid #ccc !important;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1) !important;
+      text-align: center !important;
+      padding: 10px !important;
+      background-color: #f9f9f9 !important;
+      z-index: 10000 !important;
+    }
 
     /* 按钮样式 */
     #CybotCookiebotDialogBodyButtonDecline,
@@ -400,11 +415,11 @@
     ft-menu {
       display: none !important;
     }
-    </style>
-    <style>
-     #popular_btn {
-       border-radius: 0.5rem 0 0 0.5rem;
-     }
+  </style>
+  <style>
+    #popular_btn {
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
 
     .subBanner a {
       flex: 1;
@@ -559,285 +574,285 @@
         <div id = "pageLeftImg" style="text-align: center">
         </div>
         <div id = "pageLeftDetail" style="display: none">
-        <h1 class="page-tl" id = "horoPageTitle">
-          <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
-        </h1>
+          <h1 class="page-tl" id = "horoPageTitle">
+            <span class="page-tl-tag">Read Your <span class="special-tag">Daily</span> Horoscope</span>
+          </h1>
 
-        <div id="horo_1" class="mobile-margin">
-        </div>
+          <div id="horo_1" class="mobile-margin">
+          </div>
 
-        <div class="zodiac-for-ls" id = "zodiac-for-ls">
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/aries/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="aries" src="./img/aries.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Aries</h3>
-                <p class="zodiac-for-desc">Mar 21 - Apr 20</p>
+          <div class="zodiac-for-ls" id = "zodiac-for-ls">
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/aries/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="aries" src="./img/aries.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Aries</h3>
+                  <p class="zodiac-for-desc">Mar 21 - Apr 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/taurus/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="taurus" src="./img/taurus.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Taurus</h3>
-                <p class="zodiac-for-desc">Apr 21 - May 20</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/taurus/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="taurus" src="./img/taurus.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Taurus</h3>
+                  <p class="zodiac-for-desc">Apr 21 - May 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/gemini/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="gemini" src="./img/gemini.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Gemini</h3>
-                <p class="zodiac-for-desc">May 21 - Jun 20</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/gemini/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="gemini" src="./img/gemini.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Gemini</h3>
+                  <p class="zodiac-for-desc">May 21 - Jun 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/cancer/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="cancer" src="./img/cancer.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Cancer</h3>
-                <p class="zodiac-for-desc">Jun 21 - Jul 22</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/cancer/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="cancer" src="./img/cancer.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Cancer</h3>
+                  <p class="zodiac-for-desc">Jun 21 - Jul 22</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/leo/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="leo" src="./img/leo.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Leo</h3>
-                <p class="zodiac-for-desc">Jul 23 - Aug 22</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/leo/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="leo" src="./img/leo.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Leo</h3>
+                  <p class="zodiac-for-desc">Jul 23 - Aug 22</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/virgo/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="virgo" src="./img/virgo.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Virgo</h3>
-                <p class="zodiac-for-desc">Aug 23 - Sep 21</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/virgo/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="virgo" src="./img/virgo.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Virgo</h3>
+                  <p class="zodiac-for-desc">Aug 23 - Sep 21</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/libra/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="libra" src="./img/libra.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Libra</h3>
-                <p class="zodiac-for-desc">Sep 22 - Oct 20</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/libra/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="libra" src="./img/libra.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Libra</h3>
+                  <p class="zodiac-for-desc">Sep 22 - Oct 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/scorpio/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="scorpio" src="./img/scorpio.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Scorpio</h3>
-                <p class="zodiac-for-desc">Oct 21 - Nov 20</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/scorpio/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="scorpio" src="./img/scorpio.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Scorpio</h3>
+                  <p class="zodiac-for-desc">Oct 21 - Nov 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/sagittarius/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="sagittarius" src="./img/sagittarius.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Sagittarius</h3>
-                <p class="zodiac-for-desc">Nov 21 - Dec 21</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/sagittarius/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="sagittarius" src="./img/sagittarius.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Sagittarius</h3>
+                  <p class="zodiac-for-desc">Nov 21 - Dec 21</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/capricorn/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="capricorn" src="./img/capricorn.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Capricorn</h3>
-                <p class="zodiac-for-desc">Dec 22 - Jan 21</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/capricorn/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="capricorn" src="./img/capricorn.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Capricorn</h3>
+                  <p class="zodiac-for-desc">Dec 22 - Jan 21</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/aquarius/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="aquarius" src="./img/aquarius.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Aquarius</h3>
-                <p class="zodiac-for-desc">Jan 22 - Feb 18</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/aquarius/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="aquarius" src="./img/aquarius.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Aquarius</h3>
+                  <p class="zodiac-for-desc">Jan 22 - Feb 18</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
-          </div>
-          <div class="zodiac-for-item">
-            <a class="coverlink" href="/horoscope/daily/pisces/"></a>
-            <div class="zodiac-for-left">
-              <img class="zodiac-for-img" alt="pisces" src="./img/pisces.svg">
-              <div class="zodiac-for-info">
-                <h3 class="zodiac-for-tl">Pisces</h3>
-                <p class="zodiac-for-desc">Feb 19 - Mar 20</p>
+            <div class="zodiac-for-item">
+              <a class="coverlink" href="/horoscope/daily/pisces/"></a>
+              <div class="zodiac-for-left">
+                <img class="zodiac-for-img" alt="pisces" src="./img/pisces.svg">
+                <div class="zodiac-for-info">
+                  <h3 class="zodiac-for-tl">Pisces</h3>
+                  <p class="zodiac-for-desc">Feb 19 - Mar 20</p>
+                </div>
               </div>
+              <svg class="icon-zodiac-next">
+                <use xlink:href="#icon-next"></use>
+              </svg>
             </div>
-            <svg class="icon-zodiac-next">
-              <use xlink:href="#icon-next"></use>
-            </svg>
           </div>
-        </div>
 
-        <div id="horo_2" class="mobile-margin">
-        </div>
+          <div id="horo_2" class="mobile-margin">
+          </div>
 
-        <div id = "selectOrAQMessage">
-          <h3 class="astro-h3">Explore Horoscopes</h3>
-          <div class="zodiac-ex-ls">
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/daily/"></a>
+          <div id = "selectOrAQMessage">
+            <h3 class="astro-h3">Explore Horoscopes</h3>
+            <div class="zodiac-ex-ls">
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/daily/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-daily-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/weekly/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-weekly-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/monthly/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-monthly-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/yearly/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-yearly-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/zodiac-love/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-zodiac-love-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/love/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-love-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Love Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/health/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-health-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Health Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
+                </svg>
+              </div>
               <div class="zodiac-ex-info">
                 <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-daily-explore"></use>
+                  <use xlink:href="#icon-career-explore"></use>
                 </svg>
-                <h3 class="zodiac-ex-tl">Daily Horoscope</h3>
+                <h3 class="zodiac-ex-tl">Career Horoscope</h3>
               </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/weekly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-weekly-explore"></use>
+              <div class="zodiac-ex-item">
+                <a class="coverlink" href="/horoscope/sex/"></a>
+                <div class="zodiac-ex-info">
+                  <svg class="icon-ex-explore">
+                    <use xlink:href="#icon-sex-explore"></use>
+                  </svg>
+                  <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
+                </div>
+                <svg class="icon-ex-next">
+                  <use xlink:href="#icon-next"></use>
                 </svg>
-                <h3 class="zodiac-ex-tl">Weekly Horoscope</h3>
               </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/monthly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-monthly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Monthly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/yearly/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-yearly-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Yearly Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/zodiac-love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-zodiac-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Zodiac-love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/love/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-love-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Love Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/health/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-health-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Health Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
-            <div class="zodiac-ex-info">
-              <svg class="icon-ex-explore">
-                <use xlink:href="#icon-career-explore"></use>
-              </svg>
-              <h3 class="zodiac-ex-tl">Career Horoscope</h3>
-            </div>
-            <div class="zodiac-ex-item">
-              <a class="coverlink" href="/horoscope/sex/"></a>
-              <div class="zodiac-ex-info">
-                <svg class="icon-ex-explore">
-                  <use xlink:href="#icon-sex-explore"></use>
-                </svg>
-                <h3 class="zodiac-ex-tl">Sex Horoscope</h3>
-              </div>
-              <svg class="icon-ex-next">
-                <use xlink:href="#icon-next"></use>
-              </svg>
             </div>
           </div>
+          <div class="topic-pick" style="height: auto !important;">
+          </div>
         </div>
-        <div class="topic-pick" style="height: auto !important;">
-      </div>
-      </div>
       </div>
       <div class="pageright">
         <div class="new-quizzes" id="this_mt_right">
@@ -856,7 +871,7 @@
         </div>
       </div>
 
-  </div>
+    </div>
   </div>
 </main>
 </div>
@@ -996,8 +1011,14 @@
     dataDate = `./js/de/`
   } else if(getLangFromPath() == "sv"){
     dataDate = `./js/sv/`
-  } else {
+  } else if(getLangFromPath() == "en"){
     dataDate = `./js/en/`
+  }else if(getLangFromPath() == "fr"){
+    dataDate = `./js/fr/`
+  }else if(getLangFromPath() == "no"){
+    dataDate = `./js/no/`
+  }else if(getLangFromPath() == "nl"){
+    dataDate = `./js/nl/`
   }
 
   // day 对应 JS 文件映射
@@ -1094,31 +1115,115 @@
       observer.observe(indexadv_2);
 
       const zodiacNames = {
-        aries: { en: "Aries", de: "Widder", sv: "Vädur" },
-        taurus: { en: "Taurus", de: "Stier", sv: "Oxen" },
-        gemini: { en: "Gemini", de: "Zwillinge", sv: "Tvillingarna" },
-        cancer: { en: "Cancer", de: "Krebs", sv: "Kräftan" },
-        leo: { en: "Leo", de: "Löwe", sv: "Lejonet" },
-        virgo: { en: "Virgo", de: "Jungfrau", sv: "Jungfrun" },
-        libra: { en: "Libra", de: "Waage", sv: "Vågen" },
-        scorpio: { en: "Scorpio", de: "Skorpion", sv: "Skorpionen" },
-        sagittarius: { en: "Sagittarius", de: "Schütze", sv: "Skytten" },
-        capricorn: { en: "Capricorn", de: "Steinbock", sv: "Stenbocken" },
-        aquarius: { en: "Aquarius", de: "Wassermann", sv: "Vattumannen" },
-        pisces: { en: "Pisces", de: "Fische", sv: "Fiskarna" }
+        aries: {
+          en: "Aries",
+          de: "Widder",
+          sv: "Vädur",
+          no: "Væren",
+          nl: "Ram",
+          fr: "Bélier"
+        },
+        taurus: {
+          en: "Taurus",
+          de: "Stier",
+          sv: "Oxen",
+          no: "Tyren",
+          nl: "Stier",
+          fr: "Taureau"
+        },
+        gemini: {
+          en: "Gemini",
+          de: "Zwillinge",
+          sv: "Tvillingarna",
+          no: "Tvillingene",
+          nl: "Tweelingen",
+          fr: "Gémeaux"
+        },
+        cancer: {
+          en: "Cancer",
+          de: "Krebs",
+          sv: "Kräftan",
+          no: "Krepsen",
+          nl: "Kreeft",
+          fr: "Cancer"
+        },
+        leo: {
+          en: "Leo",
+          de: "Löwe",
+          sv: "Lejonet",
+          no: "Løven",
+          nl: "Leeuw",
+          fr: "Lion"
+        },
+        virgo: {
+          en: "Virgo",
+          de: "Jungfrau",
+          sv: "Jungfrun",
+          no: "Jomfruen",
+          nl: "Maagd",
+          fr: "Vierge"
+        },
+        libra: {
+          en: "Libra",
+          de: "Waage",
+          sv: "Vågen",
+          no: "Vekten",
+          nl: "Weegschaal",
+          fr: "Balance"
+        },
+        scorpio: {
+          en: "Scorpio",
+          de: "Skorpion",
+          sv: "Skorpionen",
+          no: "Skorpionen",
+          nl: "Schorpioen",
+          fr: "Scorpion"
+        },
+        sagittarius: {
+          en: "Sagittarius",
+          de: "Schütze",
+          sv: "Skytten",
+          no: "Skytten",
+          nl: "Boogschutter",
+          fr: "Sagittaire"
+        },
+        capricorn: {
+          en: "Capricorn",
+          de: "Steinbock",
+          sv: "Stenbocken",
+          no: "Steinbukken",
+          nl: "Steenbok",
+          fr: "Capricorne"
+        },
+        aquarius: {
+          en: "Aquarius",
+          de: "Wassermann",
+          sv: "Vattumannen",
+          no: "Vannmannen",
+          nl: "Waterman",
+          fr: "Verseau"
+        },
+        pisces: {
+          en: "Pisces",
+          de: "Fische",
+          sv: "Fiskarna",
+          no: "Fiskene",
+          nl: "Vissen",
+          fr: "Poissons"
+        }
       };
 
-      lang = getLangFromPath(); // "en" / "de" / "sv"
+
+      lang = getLangFromPath(); // en / de / sv / no / nl / fr
 
       document.querySelectorAll(".zodiac-for-item").forEach(item => {
-        const key = item.querySelector(".zodiac-for-img").alt; // 获取星座 key
+        const key = item.querySelector(".zodiac-for-img").alt; // zodiac key
         if (zodiacNames[key]) {
           item.querySelector(".zodiac-for-tl").innerText =
-                  lang === "de" ? zodiacNames[key].de :
-                          lang === "sv" ? zodiacNames[key].sv :
-                                  zodiacNames[key].en;
+                  zodiacNames[key][lang] || zodiacNames[key].en;
         }
       });
+
 
 
 
@@ -1126,13 +1231,22 @@
       if (cat === null || cat === "") {
 
         let horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
-        if(getLangFromPath() == "de"){
-          horoPageTitleStr = `WÄHLE DEIN TIERKREISZEICHEN, UM DEIN HOROSKOP ZU LESEN`
-        }else if(getLangFromPath() == "sv"){
-          horoPageTitleStr = `VÄLJ DITT STJÄRNTECKEN FÖR ATT LÄSA DITT HOROSKOP`
-        }else{
-          horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
+        if (getLangFromPath() == "de") {
+          horoPageTitleStr = "WÄHLE DEIN TIERKREISZEICHEN, UM DEIN HOROSKOP ZU LESEN";
+        } else if (getLangFromPath() == "sv") {
+          horoPageTitleStr = "VÄLJ DITT STJÄRNTECKEN FÖR ATT LÄSA DITT HOROSKOP";
+        } else if (getLangFromPath() == "no") {
+          horoPageTitleStr = "VELG DITT STJERNETEGN FOR Å LESE HOROSKOPET DITT";
+        } else if (getLangFromPath() == "nl") {
+          horoPageTitleStr = "KIES JE STERRENBEELD OM JE HOROSCOOP TE LEZEN";
+        } else if (getLangFromPath() == "fr") {
+          horoPageTitleStr = "CHOISIS TON SIGNE DU ZODIAQUE POUR LIRE TON HOROSCOPE";
+        } else if (getLangFromPath() == "en") {
+          horoPageTitleStr = "CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE";
+        } else {
+          horoPageTitleStr = "CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE";
         }
+
 
         document.getElementById("horoPageTitle").innerHTML = `
         <span class="page-tl-tag">${horoPageTitleStr}</span>
@@ -1272,7 +1386,199 @@
     </div>
   `;
 
-        } else {
+        } else if (getLangFromPath() == "no") {
+          // ---- 挪威语版本 ----
+          faqHTML = `
+<h3 class="astro-h3">Astrologi – Vanlige spørsmål</h3>
+<div class="faq-ls">
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hva betyr horoskop?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Et horoskop er en kort spådom for personer født under et bestemt stjernetegn,
+      basert på planetenes og stjernetegnenes posisjon ved fødselen.
+      Astrologer bruker dette for å tolke personlighet og fremtidige hendelser.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hvordan fungerer astrologi?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Astrologi bygger på troen på at stjerner og planeter påvirker liv og hendelser på jorden.
+      Horoskoper er den vestlige formen for astrologi og tolkes ut fra himmellegemenes plassering ved fødsel.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hva betyr stjernetegn?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Zodiaken er delt inn i tolv tegn langs solens bane.
+      Ordet kommer fra latin «Zodiacus», som betyr «dyrekretsen».
+      Tegnene deles inn i fire elementer: ild, jord, luft og vann.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hvordan finner jeg mitt stjernetegn?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Stjernetegnet ditt bestemmes av fødselsdatoen din.
+      For eksempel: 21. mars – 20. april er Væren, 21. april – 20. mai er Tyren.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hvordan kan jeg lese horoskopet mitt gratis på nett?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      På Astrologiez kan du lese gratis horoskoper skrevet av profesjonelle astrologer,
+      med daglige innsikter og kompatibilitetsanalyser.
+    </div>
+  </div>
+
+</div>
+`;
+
+        } else if (getLangFromPath() == "nl") {
+          // ---- 荷兰语版本 ----
+          faqHTML = `
+<h3 class="astro-h3">Astrologie FAQ</h3>
+<div class="faq-ls">
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Wat betekent een horoscoop?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Een horoscoop is een korte voorspelling voor mensen die onder een bepaald sterrenbeeld zijn geboren,
+      gebaseerd op de stand van planeten en sterren op het moment van geboorte.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hoe werkt astrologie?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Astrologie gaat uit van het idee dat sterren en planeten invloed hebben op het leven.
+      Horoscopen interpreteren de positie van hemellichamen bij de geboorte.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Wat betekent sterrenbeeld?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      De dierenriem bestaat uit twaalf sterrenbeelden langs de baan van de zon.
+      Ze zijn onderverdeeld in vier elementen: vuur, aarde, lucht en water.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hoe bepaal je je sterrenbeeld?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Je sterrenbeeld wordt bepaald door je geboortedatum.
+      Bijvoorbeeld: 21 maart – 20 april is Ram, 21 april – 20 mei is Stier.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Hoe kan ik gratis mijn horoscoop lezen?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Op Astrologiez kun je gratis horoscopen lezen met dagelijkse inzichten en astrologische adviezen.
+    </div>
+  </div>
+
+</div>
+`;
+
+        } else if (getLangFromPath() == "fr") {
+          // ---- 法语版本 ----
+          faqHTML = `
+<h3 class="astro-h3">FAQ Astrologie</h3>
+<div class="faq-ls">
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Que signifie l’horoscope ?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Un horoscope est une prévision basée sur la position des planètes et des signes du zodiaque
+      au moment de la naissance d’une personne.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Comment fonctionne l’astrologie ?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      L’astrologie repose sur la croyance que les astres influencent la vie humaine.
+      Les horoscopes interprètent la configuration céleste à la naissance.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Que signifie signe du zodiaque ?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Le zodiaque est divisé en douze signes le long de la trajectoire du soleil,
+      répartis en quatre éléments : feu, terre, air et eau.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Comment connaître son signe astrologique ?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Votre signe astrologique dépend de votre date de naissance.
+      Par exemple : 21 mars – 20 avril correspond au Bélier.
+    </div>
+  </div>
+
+  <div class="faq-item active">
+    <div class="faq-item-header">
+      <span>Comment lire son horoscope gratuitement en ligne ?</span>
+      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
+    </div>
+    <div class="faq-item-answer">
+      Sur Astrologiez, vous pouvez consulter gratuitement des horoscopes quotidiens rédigés par des astrologues.
+    </div>
+  </div>
+
+</div>
+`;
+
+        }else {
           // ---- 英文版本 ----
           faqHTML = `
     <h3 class="astro-h3">Astrology FAQs</h3>
@@ -1382,6 +1688,54 @@
           careerStr = "Karriärhoroskop";
           sexStr = "Sexhoroskop";
 
+        } else if (getLangFromPath() == "no") {
+          exploreTitle = "Utforsk horoskoper";
+          dailyStr = "Dagens horoskop";
+          weeklyStr = "Ukens horoskop";
+          monthlyStr = "Månedens horoskop";
+          yearlyStr = "Årshoroskop";
+          zodiacLoveStr = "Dyrekrets-kjærlighetshoroskop";
+          loveStr = "Kjærlighetshoroskop";
+          healthStr = "Helsehoroskop";
+          careerStr = "Karrierehoroskop";
+          sexStr = "Sexhoroskop";
+
+        } else if (getLangFromPath() == "nl") {
+          exploreTitle = "Ontdek horoscopen";
+          dailyStr = "Daghoroscoop";
+          weeklyStr = "Weekhoroscoop";
+          monthlyStr = "Maandhoroscoop";
+          yearlyStr = "Jaarhoroscoop";
+          zodiacLoveStr = "Dierenriem-liefdeshoroscoop";
+          loveStr = "Liefdeshoroscoop";
+          healthStr = "Gezondheidshoroscoop";
+          careerStr = "Carrièrehoroscoop";
+          sexStr = "Sekshoroscoop";
+
+        } else if (getLangFromPath() == "fr") {
+          exploreTitle = "Explorer les horoscopes";
+          dailyStr = "Horoscope du jour";
+          weeklyStr = "Horoscope de la semaine";
+          monthlyStr = "Horoscope du mois";
+          yearlyStr = "Horoscope annuel";
+          zodiacLoveStr = "Horoscope amour du zodiaque";
+          loveStr = "Horoscope amoureux";
+          healthStr = "Horoscope santé";
+          careerStr = "Horoscope carrière";
+          sexStr = "Horoscope sexe";
+
+        } else if (getLangFromPath() == "en") {
+          exploreTitle = "Explore Horoscopes";
+          dailyStr = "Daily Horoscope";
+          weeklyStr = "Weekly Horoscope";
+          monthlyStr = "Monthly Horoscope";
+          yearlyStr = "Yearly Horoscope";
+          zodiacLoveStr = "Zodiac-love Horoscope";
+          loveStr = "Love Horoscope";
+          healthStr = "Health Horoscope";
+          careerStr = "Career Horoscope";
+          sexStr = "Sex Horoscope";
+
         } else {
           exploreTitle = "Explore Horoscopes";
           dailyStr = "Daily Horoscope";
@@ -1394,6 +1748,7 @@
           careerStr = "Career Horoscope";
           sexStr = "Sex Horoscope";
         }
+
 
         document.getElementById("selectOrAQMessage").innerHTML = `
     <h3 class="astro-h3">${exploreTitle}</h3>
@@ -1506,6 +1861,8 @@
         mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
       } else if (langPage == "sv") {
         mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+      } else if (langPage == "nl") {
+        mt_data_url = "../testname/js/nl_most_test_data/Most Tested.js";
       } else {
         mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
       }
@@ -1586,6 +1943,8 @@
         }else if(langPage == "no"){
           item.url = "./404notFound.html?content=other"
         }else if(langPage == "sv"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "nl"){
           item.url = "./404notFound.html?content=other"
         }else{
           item.url = "./404notFound.html?content=other"
@@ -1820,6 +2179,8 @@
       document.getElementById("titleForRecMT").innerText="Mest Testede";
     }else if(langPage == "sv"){
       document.getElementById("titleForRecMT").innerText="Mest Testade";
+    }else if(langPage == "nl"){
+      document.getElementById("titleForRecMT").innerText="Mest Testade";
     }else{
       document.getElementById("titleForRecMT").innerText="Mest Testade";
     }
@@ -1875,6 +2236,9 @@
     }else if(langPage == "sv"){
       homedataJs = "../testname/js/sv/homedata.js";
       utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
+    }else if(langPage == "nl"){
+      homedataJs = "../testname/js/nl/homedata.js";
+      utm_campaign_js_url="../testname/js/nl/utm_campaign.js"
     }else{
       homedataJs = "../testname/js/en/homedata.js";
       utm_campaign_js_url="../testname/js/en/utm_campaign.js"

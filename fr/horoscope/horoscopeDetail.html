@@ -18,11 +18,26 @@
       base.href = '/sv/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/sv/horoscope/');
-    }else{
+    }else if(getLangFromPath() == "en"){
       const base = document.querySelector('base');
       base.href = '/en/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/en/horoscope/');
+    }else if(getLangFromPath() == "fr"){
+      const base = document.querySelector('base');
+      base.href = '/fr/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/fr/horoscope/');
+    }else if(getLangFromPath() == "no"){
+      const base = document.querySelector('base');
+      base.href = '/no/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/no/horoscope/');
+    }else if(getLangFromPath() == "nl"){
+      const base = document.querySelector('base');
+      base.href = '/nl/horoscope/'; // 绝对路径形式
+      // 或者使用相对路径
+      base.setAttribute('href', '/nl/horoscope/');
     }
 
   </script>
@@ -546,78 +561,78 @@
         <div id = "pageLeftImg" style="text-align: center">
         </div>
         <div id = "pageLeftDetail" style="display: none">
-        <div class="horopage-line" id = "horoPageTitle">
-          <img class="sign-pic-img" src="/public/static/images/horoscope/aries.png" alt="aries">
-          <div class="horopage-info">
-            <span class="horopage-tl-sub">Sex Horoscope</span>
-            <h1 class="horopage-tl">Aries</h1>
-          </div>
-          <div class="horopage-info" style="padding-right: 20px;text-align: right;">
-            2025
-          </div>
-        </div>
-        <h3 class="astro-h3" id="ratingMsg">Star Ratings</h3>
-
-        <div id = "horoAdv_1" class="mobile-margin">
-
-        </div>
-
-        <div class="horo-badges-ls">
-          <div class="horo-badges-item">
-            <div class="horo-badges-emoji">
-              <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-love.svg" alt="">
-              <span class="horo-emoji-name">LOVE</span>
+          <div class="horopage-line" id = "horoPageTitle">
+            <img class="sign-pic-img" src="/public/static/images/horoscope/aries.png" alt="aries">
+            <div class="horopage-info">
+              <span class="horopage-tl-sub">Sex Horoscope</span>
+              <h1 class="horopage-tl">Aries</h1>
             </div>
-            <ul>
-              <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
-          </div>
-          <div class="horo-badges-item">
-            <div class="horo-badges-emoji">
-              <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-career.svg" alt="">
-              <span class="horo-emoji-name">CAREER</span>
+            <div class="horopage-info" style="padding-right: 20px;text-align: right;">
+              2025
             </div>
-            <ul>
-              <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li>                            </ul>
           </div>
-          <div class="horo-badges-item">
-            <div class="horo-badges-emoji">
-              <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-mood.svg" alt="">
-              <span class="horo-emoji-name">MOOD</span>
+          <h3 class="astro-h3" id="ratingMsg">Star Ratings</h3>
+
+          <div id = "horoAdv_1" class="mobile-margin">
+
+          </div>
+
+          <div class="horo-badges-ls">
+            <div class="horo-badges-item">
+              <div class="horo-badges-emoji">
+                <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-love.svg" alt="">
+                <span class="horo-emoji-name">LOVE</span>
+              </div>
+              <ul>
+                <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
             </div>
-            <ul>
-              <li><span class="star star-full"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
-          </div>
-          <div class="horo-badges-item">
-            <div class="horo-badges-emoji">
-              <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-energy.svg" alt="">
-              <span class="horo-emoji-name">ENERGY</span>
+            <div class="horo-badges-item">
+              <div class="horo-badges-emoji">
+                <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-career.svg" alt="">
+                <span class="horo-emoji-name">CAREER</span>
+              </div>
+              <ul>
+                <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li>                            </ul>
             </div>
-            <ul>
-              <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li>                            </ul>
-          </div>
-          <div class="horo-badges-item">
-            <div class="horo-badges-emoji">
-              <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-health.svg" alt="">
-              <span class="horo-emoji-name">HEALTH</span>
+            <div class="horo-badges-item">
+              <div class="horo-badges-emoji">
+                <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-mood.svg" alt="">
+                <span class="horo-emoji-name">MOOD</span>
+              </div>
+              <ul>
+                <li><span class="star star-full"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
             </div>
-            <ul>
-              <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
+            <div class="horo-badges-item">
+              <div class="horo-badges-emoji">
+                <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-energy.svg" alt="">
+                <span class="horo-emoji-name">ENERGY</span>
+              </div>
+              <ul>
+                <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li>                            </ul>
+            </div>
+            <div class="horo-badges-item">
+              <div class="horo-badges-emoji">
+                <img class="horo-emoji-img" src="/public/static/images/horoscope/emoji-health.svg" alt="">
+                <span class="horo-emoji-name">HEALTH</span>
+              </div>
+              <ul>
+                <li><span class="star star-full"></span></li><li><span class="star star-full"></span></li><li><span class="star star-half"></span></li><li><span class="star star-empty"></span></li><li><span class="star star-empty"></span></li>                            </ul>
+            </div>
           </div>
-        </div>
 
-        <div id = "horoAdv_2" class="mobile-margin">
+          <div id = "horoAdv_2" class="mobile-margin">
 
-        </div>
+          </div>
 
-        <h3 class="astro-h3" id = "titleForMessage">Sex Horoscope For Aries</h3>
-        <div class="article-con" id = "messageForHoro">
-          <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
-        </div>
+          <h3 class="astro-h3" id = "titleForMessage">Sex Horoscope For Aries</h3>
+          <div class="article-con" id = "messageForHoro">
+            <p>Whirlwind romance is common for Aries. But once love begins, it usually lasts a lifetime. As long as there's enough spice and excitement to keep the blood flowing, the relationship will be strong and lasting. The fiery nature of Aries makes them eternally optimistic. While Aries likes to be creative when it comes to love, sexually, Aries doesn't like to be too complicated. Remember, it's all about being direct.</p>
+          </div>
 
-        <div id="horoAdv_3" class="mobile-margin">
-        </div>
+          <div id="horoAdv_3" class="mobile-margin">
+          </div>
 
-        <div id = "horo-today-ls">
+          <div id = "horo-today-ls">
             <div class="horo-today-ls">
               <a class="horo-today-item active" href="/horoscope/daily/aries/"><span class="horo-today-name">daily</span></a>
               <a class="horo-today-item " href="/horoscope/weekly/aries/"><span class="tab-trend-txt">weekly</span></a>
@@ -630,30 +645,30 @@
               <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">career</span></a>
               <a class="horo-today-item " href="/horoscope/yearly/aries/"><span class="tab-trend-txt">sex</span></a>
             </div>
-        </div>
-        <div class="share-social">
-          <div class="share-tl">Share today's fortune</div>
-          <div class="share-ls" id = "horoShare">
-            <div class="share-item share-item-facebook">
-              <a class="coverlink" href="https://www.facebook.com/sharer/sharer.php?u=https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
-              <svg class="icon-facebook">
-                <use xlink:href="#icon-share-facebook"></use>
-              </svg>
-            </div>
-            <div class="share-item share-item-twitter">
-              <a class="coverlink" href="https://twitter.com/share?url=https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
-              <svg class="icon-twitter">
-                <use xlink:href="#icon-share-twitter"></use>
-              </svg>
-            </div>
-            <div class="share-item share-item-line">
-              <a class="coverlink" href="https://line.me/R/msg/text/?https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
-              <svg class="icon-line">
-                <use xlink:href="#icon-share-line"></use>
-              </svg>
+          </div>
+          <div class="share-social">
+            <div class="share-tl">Share today's fortune</div>
+            <div class="share-ls" id = "horoShare">
+              <div class="share-item share-item-facebook">
+                <a class="coverlink" href="https://www.facebook.com/sharer/sharer.php?u=https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
+                <svg class="icon-facebook">
+                  <use xlink:href="#icon-share-facebook"></use>
+                </svg>
+              </div>
+              <div class="share-item share-item-twitter">
+                <a class="coverlink" href="https://twitter.com/share?url=https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
+                <svg class="icon-twitter">
+                  <use xlink:href="#icon-share-twitter"></use>
+                </svg>
+              </div>
+              <div class="share-item share-item-line">
+                <a class="coverlink" href="https://line.me/R/msg/text/?https://www.astrologiez.com/horoscope/sex/aries/" target="_blank"></a>
+                <svg class="icon-line">
+                  <use xlink:href="#icon-share-line"></use>
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -673,7 +688,7 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
   </div>
 </main>
 
@@ -813,8 +828,14 @@
     dataDate = `./js/de/`
   } else if(getLangFromPath() == "sv"){
     dataDate = `./js/sv/`
-  } else {
+  } else if(getLangFromPath() == "en"){
     dataDate = `./js/en/`
+  }else if(getLangFromPath() == "fr"){
+    dataDate = `./js/fr/`
+  }else if(getLangFromPath() == "no"){
+    dataDate = `./js/no/`
+  }else if(getLangFromPath() == "nl"){
+    dataDate = `./js/nl/`
   }
 
   // day 对应 JS 文件映射
@@ -955,9 +976,18 @@
         ratingMsg = "Sternebewertungen";
       } else if (getLangFromPath() == "sv") {
         ratingMsg = "Stjärnbetyg";
+      } else if (getLangFromPath() == "no") {
+        ratingMsg = "Stjernevurderinger";
+      } else if (getLangFromPath() == "nl") {
+        ratingMsg = "Sterbeoordelingen";
+      } else if (getLangFromPath() == "fr") {
+        ratingMsg = "Évaluations par étoiles";
+      } else if (getLangFromPath() == "en") {
+        ratingMsg = "Star Ratings";
       } else {
         ratingMsg = "Star Ratings";
       }
+
 
       document.getElementById("ratingMsg").innerText = ratingMsg;
 
@@ -1017,6 +1047,46 @@
         careerTab = "Karriär";
         sexTab = "Sex";
 
+      } else if (getLangFromPath() == "no") {
+        dailyTab = "Daglig";
+        weeklyTab = "Ukentlig";
+        monthlyTab = "Månedlig";
+        yearlyTab = "Årlig";
+        loveTab = "Kjærlighet";
+        healthTab = "Helse";
+        careerTab = "Karriere";
+        sexTab = "Sex";
+
+      } else if (getLangFromPath() == "nl") {
+        dailyTab = "Dagelijks";
+        weeklyTab = "Wekelijks";
+        monthlyTab = "Maandelijks";
+        yearlyTab = "Jaarlijks";
+        loveTab = "Liefde";
+        healthTab = "Gezondheid";
+        careerTab = "Carrière";
+        sexTab = "Seks";
+
+      } else if (getLangFromPath() == "fr") {
+        dailyTab = "Quotidien";
+        weeklyTab = "Hebdomadaire";
+        monthlyTab = "Mensuel";
+        yearlyTab = "Annuel";
+        loveTab = "Amour";
+        healthTab = "Santé";
+        careerTab = "Carrière";
+        sexTab = "Sexe";
+
+      } else if (getLangFromPath() == "en") {
+        dailyTab = "Daily";
+        weeklyTab = "Weekly";
+        monthlyTab = "Monthly";
+        yearlyTab = "Yearly";
+        loveTab = "Love";
+        healthTab = "Health";
+        careerTab = "Career";
+        sexTab = "Sex";
+
       } else {
         dailyTab = "Daily";
         weeklyTab = "Weekly";
@@ -1027,6 +1097,7 @@
         careerTab = "Career";
         sexTab = "Sex";
       }
+
 
       document.getElementById("horo-today-ls").innerHTML = `
     <div class="horo-today-ls">
@@ -1135,7 +1206,9 @@
         mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
       } else if (langPage == "sv") {
         mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-      } else {
+      }  else if (langPage == "nl") {
+        mt_data_url = "../testname/js/nl_most_test_data/Most Tested.js";
+      }else {
         mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
       }
 
@@ -1189,6 +1262,8 @@
         }else if(langPage == "no"){
           item.url = "./404notFound.html?content=other"
         }else if(langPage == "sv"){
+          item.url = "./404notFound.html?content=other"
+        }else if(langPage == "nl"){
           item.url = "./404notFound.html?content=other"
         }else{
           item.url = "./404notFound.html?content=other"
@@ -1515,6 +1590,9 @@
     }else if(langPage == "sv"){
       homedataJs = "../testname/js/sv/homedata.js";
       utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
+    }else if(langPage == "nl"){
+      homedataJs = "../testname/js/nl/homedata.js";
+      utm_campaign_js_url="../testname/js/nl/utm_campaign.js"
     }else{
       homedataJs = "../testname/js/en/homedata.js";
       utm_campaign_js_url="../testname/js/en/utm_campaign.js"
