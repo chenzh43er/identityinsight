@@ -46,11 +46,6 @@ const utm_campaignData = {
             "title": "How To Change Your Destiny By Wearing Gemstones According To Vedic Astrology?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
-            "pic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
-            "title": "What Does Your Birth Date Say About You?"
-        },
-        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
             "pic": "./testname/img/en_img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
             "title": "What Style Of Outfit Best Matches Your Zodiac?"
@@ -91,11 +86,6 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10054",
             "pic": "./testname/img/en_img/7afec457248ce0fd32bee3781884cf1f.gif",
             "title": "How To Change Your Destiny By Wearing Gemstones According To Vedic Astrology?"
-        },
-        {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
-            "pic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
-            "title": "What Does Your Birth Date Say About You?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
@@ -140,11 +130,6 @@ const utm_campaignData = {
             "title": "How To Change Your Destiny By Wearing Gemstones According To Vedic Astrology?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10055",
-            "pic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
-            "title": "What Does Your Birth Date Say About You?"
-        },
-        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10056",
             "pic": "./testname/img/en_img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
             "title": "What Style Of Outfit Best Matches Your Zodiac?"
@@ -170,11 +155,6 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10051",
             "pic": "./testname/img/en_img/30fd4a92bfb546301e80a7a89248c4a7.jpeg",
             "title": "What Fortune Cookies Say About Your Destiny?"
-        },
-        {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
-            "pic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
-            "title": "What Does Your Birth Date Say About You?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",

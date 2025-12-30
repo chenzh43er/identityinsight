@@ -40,11 +40,6 @@ const dataM = {
             "title": "What Fortune Cookies Say About Your Destiny?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10052",
-            "pic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
-            "title": "What Does Your Birth Date Say About You?"
-        },
-        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10053",
             "pic": "./testname/img/en_img/ba4e070cf69e263e8b26f6e44541b127.gif",
             "title": "Pick A Card And We'll Know Which Exact Zodiac Element You Belong To 100%! 🃏🔮"
