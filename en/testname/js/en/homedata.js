@@ -34,7 +34,8 @@ const dataPage = {
 		"pic": "https://identityinsight.org/testCommon4/img/en_img/dd1da2d2e2fa64494019288642c7d472.gif",
 		"title": "Get Your Cause Of Death In Your Previous Life Through Fingerprints"
 	}],
-	"theLatest": [{
+	"theLatest": [
+		{
 		"url": "https://identityinsight.org/en/test-page_en/?utm_content=10018",
 		"pic": "https://identityinsight.org/testCommon4/img/en_img/e0d1db9d3708f648d36306b668df9d86.gif",
 		"title": "Which Beat Saber Song Show Your Vibe?"
@@ -60,7 +61,8 @@ const dataPage = {
 			"title": "Discover God's Message Through AI: What Does It Say To You?"
 		}
 	],
-	"youMaylike": [{
+	"youMaylike": [
+		{
 		"url": "https://identityinsight.org/en/test-page_en/?utm_content=10023",
 		"pic": "https://identityinsight.org/testCommon4/img/en_img/759f115373891120964d14945775f483.gif",
 		"title": "Which Spring Break Movie Guy Is Your Soulmate?"
