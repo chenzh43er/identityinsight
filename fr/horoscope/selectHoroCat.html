@@ -17,11 +17,26 @@
             base.href = '/sv/horoscope/'; // 绝对路径形式
             // 或者使用相对路径
             base.setAttribute('href', '/sv/horoscope/');
-        }else{
+        }else if(getLangFromPath() == "en"){
             const base = document.querySelector('base');
             base.href = '/en/horoscope/'; // 绝对路径形式
             // 或者使用相对路径
             base.setAttribute('href', '/en/horoscope/');
+        }else if(getLangFromPath() == "fr"){
+            const base = document.querySelector('base');
+            base.href = '/fr/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/fr/horoscope/');
+        }else if(getLangFromPath() == "no"){
+            const base = document.querySelector('base');
+            base.href = '/no/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/no/horoscope/');
+        }else if(getLangFromPath() == "nl"){
+            const base = document.querySelector('base');
+            base.href = '/nl/horoscope/'; // 绝对路径形式
+            // 或者使用相对路径
+            base.setAttribute('href', '/nl/horoscope/');
         }
 
     </script>
@@ -849,8 +864,14 @@
         dataDate = `./js/de/`
     } else if(getLangFromPath() == "sv"){
         dataDate = `./js/sv/`
-    } else {
+    } else if(getLangFromPath() == "en"){
         dataDate = `./js/en/`
+    }else if(getLangFromPath() == "fr"){
+        dataDate = `./js/fr/`
+    }else if(getLangFromPath() == "no"){
+        dataDate = `./js/no/`
+    }else if(getLangFromPath() == "nl"){
+        dataDate = `./js/nl/`
     }
 
     // day 对应 JS 文件映射
@@ -914,6 +935,14 @@
                 descMsg = "Täglich, Wöchentlich und Monatlich";
             } else if (getLangFromPath() == "sv") {
                 descMsg = "Daglig, Veckovis och Månatlig";
+            } else if (getLangFromPath() == "no") {
+                descMsg = "Daglig, Ukentlig og Månedlig";
+            } else if (getLangFromPath() == "nl") {
+                descMsg = "Dagelijks, Wekelijks en Maandelijks";
+            } else if (getLangFromPath() == "fr") {
+                descMsg = "Quotidien, Hebdomadaire et Mensuel";
+            } else if (getLangFromPath() == "en") {
+                descMsg = "Daily, Weekly and Monthly";
             } else {
                 descMsg = "Daily, Weekly and Monthly";
             }
@@ -1156,6 +1185,8 @@
                 mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
             } else if (langPage == "sv") {
                 mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
+            } else if (langPage == "nl") {
+                mt_data_url = "../testname/js/nl_most_test_data/Most Tested.js";
             } else {
                 mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
             }
@@ -1227,7 +1258,9 @@
                     item.url = "./404notFound.html?content=other"
                 }else if(langPage == "sv"){
                     item.url = "./404notFound.html?content=other"
-                }else{
+                }else if(langPage == "nl"){
+                    item.url = "./404notFound.html?content=other"
+                }{
                     item.url = "./404notFound.html?content=other"
                 }
                 if (!isNull(utm_campaign)){
@@ -1455,6 +1488,8 @@
             document.getElementById("titleForRecMT").innerText="Mest Testede";
         }else if(langPage == "sv"){
             document.getElementById("titleForRecMT").innerText="Mest Testade";
+        }else if(langPage == "nl"){
+            document.getElementById("titleForRecMT").innerText="Mest Testade";
         }else{
             document.getElementById("titleForRecMT").innerText="Mest Testade";
         }
@@ -1510,6 +1545,9 @@
         }else if(langPage == "sv"){
             homedataJs = "../testname/js/sv/homedata.js";
             utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
+        }else if(langPage == "nl"){
+            homedataJs = "../testname/js/nl/homedata.js";
+            utm_campaign_js_url="../testname/js/nl/utm_campaign.js"
         }else{
             homedataJs = "../testname/js/en/homedata.js";
             utm_campaign_js_url="../testname/js/en/utm_campaign.js"
