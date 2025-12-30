@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     let indexHref = ""
     let home_str = ""
-    let toListCat12 = "list/horoscope"
+    let toListCat12 = "/en/list/horoscope"
 
     if(langPage == "fr"){
         home_str = "Acceuil"
