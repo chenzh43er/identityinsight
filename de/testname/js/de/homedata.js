@@ -251,7 +251,7 @@ const dataPage = {
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
 			"pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
-			"title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
+			"title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen? "
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100100",
