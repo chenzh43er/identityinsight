@@ -32,20 +32,24 @@ $(document).ready(function () {
 
     let indexHref = ""
     let home_str = ""
-    let toListCat12 = "list/horoscope"
+    let toListCat12 = "/en/list/horoscope"
 
     if(langPage == "fr"){
         home_str = "Acceuil"
         indexHref = "../list.html?"
+        toListCat12 = "/fr/list/horoscope"
     }else if(langPage == "es"){
         home_str = "Inicio"
         indexHref = "../list.html?"
+        toListCat12 = "/es/list/horoscope"
     }else if(langPage == "en"){
         home_str = "Home"
         indexHref = "../list.html?"
+        toListCat12 = "/en/list/horoscope"
     }else if(langPage == "pt"){
         home_str = "Início"
         indexHref = "../list.html?"
+        toListCat12 = "/pt/list/horoscope"
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
         indexHref = "../list.html?"; // 链接保持不变
@@ -53,16 +57,23 @@ $(document).ready(function () {
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
         indexHref = "../list.html?";
+        toListCat12 = "/ar/list/horoscope"
     }else if(langPage == "no"){
         home_str = "Hjem"
         indexHref = "../list.html?"
+        toListCat12 = "/no/list/horoscope"
     }else if(langPage == "jp") {
         home_str = "ホーム"
         indexHref = "../list.html?"
+        toListCat12 = "/jp/list/horoscope"
     }else if(langPage == "sv") {
         home_str = "Startsida"
         indexHref = "../list.html?"
         toListCat12 = "/sv/list/horoscope"
+    }else if(langPage == "nl") {
+        home_str = "Startsida"
+        indexHref = "../list.html?"
+        toListCat12 = "/nl/list/horoscope"
     }
     else{
         home_str = "الرئيسية";
