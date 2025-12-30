@@ -18,26 +18,11 @@
       base.href = '/sv/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/sv/horoscope/');
-    }else if(getLangFromPath() == "en"){
+    }else{
       const base = document.querySelector('base');
       base.href = '/en/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/en/horoscope/');
-    }else if(getLangFromPath() == "fr"){
-      const base = document.querySelector('base');
-      base.href = '/fr/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/fr/horoscope/');
-    }else if(getLangFromPath() == "no"){
-      const base = document.querySelector('base');
-      base.href = '/no/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/no/horoscope/');
-    }else if(getLangFromPath() == "nl"){
-      const base = document.querySelector('base');
-      base.href = '/nl/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/nl/horoscope/');
     }
 
   </script>
@@ -828,14 +813,8 @@
     dataDate = `./js/de/`
   } else if(getLangFromPath() == "sv"){
     dataDate = `./js/sv/`
-  } else if(getLangFromPath() == "en"){
+  } else {
     dataDate = `./js/en/`
-  }else if(getLangFromPath() == "fr"){
-    dataDate = `./js/fr/`
-  }else if(getLangFromPath() == "no"){
-    dataDate = `./js/no/`
-  }else if(getLangFromPath() == "nl"){
-    dataDate = `./js/nl/`
   }
 
   // day 对应 JS 文件映射
@@ -976,18 +955,9 @@
         ratingMsg = "Sternebewertungen";
       } else if (getLangFromPath() == "sv") {
         ratingMsg = "Stjärnbetyg";
-      } else if (getLangFromPath() == "no") {
-        ratingMsg = "Stjernevurderinger";
-      } else if (getLangFromPath() == "nl") {
-        ratingMsg = "Sterbeoordelingen";
-      } else if (getLangFromPath() == "fr") {
-        ratingMsg = "Évaluations par étoiles";
-      } else if (getLangFromPath() == "en") {
-        ratingMsg = "Star Ratings";
       } else {
         ratingMsg = "Star Ratings";
       }
-
 
       document.getElementById("ratingMsg").innerText = ratingMsg;
 
@@ -1047,46 +1017,6 @@
         careerTab = "Karriär";
         sexTab = "Sex";
 
-      } else if (getLangFromPath() == "no") {
-        dailyTab = "Daglig";
-        weeklyTab = "Ukentlig";
-        monthlyTab = "Månedlig";
-        yearlyTab = "Årlig";
-        loveTab = "Kjærlighet";
-        healthTab = "Helse";
-        careerTab = "Karriere";
-        sexTab = "Sex";
-
-      } else if (getLangFromPath() == "nl") {
-        dailyTab = "Dagelijks";
-        weeklyTab = "Wekelijks";
-        monthlyTab = "Maandelijks";
-        yearlyTab = "Jaarlijks";
-        loveTab = "Liefde";
-        healthTab = "Gezondheid";
-        careerTab = "Carrière";
-        sexTab = "Seks";
-
-      } else if (getLangFromPath() == "fr") {
-        dailyTab = "Quotidien";
-        weeklyTab = "Hebdomadaire";
-        monthlyTab = "Mensuel";
-        yearlyTab = "Annuel";
-        loveTab = "Amour";
-        healthTab = "Santé";
-        careerTab = "Carrière";
-        sexTab = "Sexe";
-
-      } else if (getLangFromPath() == "en") {
-        dailyTab = "Daily";
-        weeklyTab = "Weekly";
-        monthlyTab = "Monthly";
-        yearlyTab = "Yearly";
-        loveTab = "Love";
-        healthTab = "Health";
-        careerTab = "Career";
-        sexTab = "Sex";
-
       } else {
         dailyTab = "Daily";
         weeklyTab = "Weekly";
@@ -1097,7 +1027,6 @@
         careerTab = "Career";
         sexTab = "Sex";
       }
-
 
       document.getElementById("horo-today-ls").innerHTML = `
     <div class="horo-today-ls">
@@ -1206,9 +1135,7 @@
         mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
       } else if (langPage == "sv") {
         mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-      }  else if (langPage == "nl") {
-        mt_data_url = "../testname/js/nl_most_test_data/Most Tested.js";
-      }else {
+      } else {
         mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
       }
 
@@ -1262,8 +1189,6 @@
         }else if(langPage == "no"){
           item.url = "./404notFound.html?content=other"
         }else if(langPage == "sv"){
-          item.url = "./404notFound.html?content=other"
-        }else if(langPage == "nl"){
           item.url = "./404notFound.html?content=other"
         }else{
           item.url = "./404notFound.html?content=other"
@@ -1590,9 +1515,6 @@
     }else if(langPage == "sv"){
       homedataJs = "../testname/js/sv/homedata.js";
       utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
-    }else if(langPage == "nl"){
-      homedataJs = "../testname/js/nl/homedata.js";
-      utm_campaign_js_url="../testname/js/nl/utm_campaign.js"
     }else{
       homedataJs = "../testname/js/en/homedata.js";
       utm_campaign_js_url="../testname/js/en/utm_campaign.js"

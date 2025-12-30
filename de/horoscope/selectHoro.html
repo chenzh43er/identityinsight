@@ -22,21 +22,6 @@
       base.href = '/en/horoscope/'; // 绝对路径形式
       // 或者使用相对路径
       base.setAttribute('href', '/en/horoscope/');
-    }else if(getLangFromPath() == "fr"){
-      const base = document.querySelector('base');
-      base.href = '/fr/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/fr/horoscope/');
-    }else if(getLangFromPath() == "no"){
-      const base = document.querySelector('base');
-      base.href = '/no/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/no/horoscope/');
-    }else if(getLangFromPath() == "nl"){
-      const base = document.querySelector('base');
-      base.href = '/nl/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
-      base.setAttribute('href', '/nl/horoscope/');
     }
 
   </script>
@@ -1011,14 +996,8 @@
     dataDate = `./js/de/`
   } else if(getLangFromPath() == "sv"){
     dataDate = `./js/sv/`
-  } else if(getLangFromPath() == "en"){
+  } else {
     dataDate = `./js/en/`
-  }else if(getLangFromPath() == "fr"){
-    dataDate = `./js/fr/`
-  }else if(getLangFromPath() == "no"){
-    dataDate = `./js/no/`
-  }else if(getLangFromPath() == "nl"){
-    dataDate = `./js/nl/`
   }
 
   // day 对应 JS 文件映射
@@ -1115,115 +1094,31 @@
       observer.observe(indexadv_2);
 
       const zodiacNames = {
-        aries: {
-          en: "Aries",
-          de: "Widder",
-          sv: "Vädur",
-          no: "Væren",
-          nl: "Ram",
-          fr: "Bélier"
-        },
-        taurus: {
-          en: "Taurus",
-          de: "Stier",
-          sv: "Oxen",
-          no: "Tyren",
-          nl: "Stier",
-          fr: "Taureau"
-        },
-        gemini: {
-          en: "Gemini",
-          de: "Zwillinge",
-          sv: "Tvillingarna",
-          no: "Tvillingene",
-          nl: "Tweelingen",
-          fr: "Gémeaux"
-        },
-        cancer: {
-          en: "Cancer",
-          de: "Krebs",
-          sv: "Kräftan",
-          no: "Krepsen",
-          nl: "Kreeft",
-          fr: "Cancer"
-        },
-        leo: {
-          en: "Leo",
-          de: "Löwe",
-          sv: "Lejonet",
-          no: "Løven",
-          nl: "Leeuw",
-          fr: "Lion"
-        },
-        virgo: {
-          en: "Virgo",
-          de: "Jungfrau",
-          sv: "Jungfrun",
-          no: "Jomfruen",
-          nl: "Maagd",
-          fr: "Vierge"
-        },
-        libra: {
-          en: "Libra",
-          de: "Waage",
-          sv: "Vågen",
-          no: "Vekten",
-          nl: "Weegschaal",
-          fr: "Balance"
-        },
-        scorpio: {
-          en: "Scorpio",
-          de: "Skorpion",
-          sv: "Skorpionen",
-          no: "Skorpionen",
-          nl: "Schorpioen",
-          fr: "Scorpion"
-        },
-        sagittarius: {
-          en: "Sagittarius",
-          de: "Schütze",
-          sv: "Skytten",
-          no: "Skytten",
-          nl: "Boogschutter",
-          fr: "Sagittaire"
-        },
-        capricorn: {
-          en: "Capricorn",
-          de: "Steinbock",
-          sv: "Stenbocken",
-          no: "Steinbukken",
-          nl: "Steenbok",
-          fr: "Capricorne"
-        },
-        aquarius: {
-          en: "Aquarius",
-          de: "Wassermann",
-          sv: "Vattumannen",
-          no: "Vannmannen",
-          nl: "Waterman",
-          fr: "Verseau"
-        },
-        pisces: {
-          en: "Pisces",
-          de: "Fische",
-          sv: "Fiskarna",
-          no: "Fiskene",
-          nl: "Vissen",
-          fr: "Poissons"
-        }
+        aries: { en: "Aries", de: "Widder", sv: "Vädur" },
+        taurus: { en: "Taurus", de: "Stier", sv: "Oxen" },
+        gemini: { en: "Gemini", de: "Zwillinge", sv: "Tvillingarna" },
+        cancer: { en: "Cancer", de: "Krebs", sv: "Kräftan" },
+        leo: { en: "Leo", de: "Löwe", sv: "Lejonet" },
+        virgo: { en: "Virgo", de: "Jungfrau", sv: "Jungfrun" },
+        libra: { en: "Libra", de: "Waage", sv: "Vågen" },
+        scorpio: { en: "Scorpio", de: "Skorpion", sv: "Skorpionen" },
+        sagittarius: { en: "Sagittarius", de: "Schütze", sv: "Skytten" },
+        capricorn: { en: "Capricorn", de: "Steinbock", sv: "Stenbocken" },
+        aquarius: { en: "Aquarius", de: "Wassermann", sv: "Vattumannen" },
+        pisces: { en: "Pisces", de: "Fische", sv: "Fiskarna" }
       };
 
-
-      lang = getLangFromPath(); // en / de / sv / no / nl / fr
+      lang = getLangFromPath(); // "en" / "de" / "sv"
 
       document.querySelectorAll(".zodiac-for-item").forEach(item => {
-        const key = item.querySelector(".zodiac-for-img").alt; // zodiac key
+        const key = item.querySelector(".zodiac-for-img").alt; // 获取星座 key
         if (zodiacNames[key]) {
           item.querySelector(".zodiac-for-tl").innerText =
-                  zodiacNames[key][lang] || zodiacNames[key].en;
+                  lang === "de" ? zodiacNames[key].de :
+                          lang === "sv" ? zodiacNames[key].sv :
+                                  zodiacNames[key].en;
         }
       });
-
 
 
 
@@ -1231,22 +1126,13 @@
       if (cat === null || cat === "") {
 
         let horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
-        if (getLangFromPath() == "de") {
-          horoPageTitleStr = "WÄHLE DEIN TIERKREISZEICHEN, UM DEIN HOROSKOP ZU LESEN";
-        } else if (getLangFromPath() == "sv") {
-          horoPageTitleStr = "VÄLJ DITT STJÄRNTECKEN FÖR ATT LÄSA DITT HOROSKOP";
-        } else if (getLangFromPath() == "no") {
-          horoPageTitleStr = "VELG DITT STJERNETEGN FOR Å LESE HOROSKOPET DITT";
-        } else if (getLangFromPath() == "nl") {
-          horoPageTitleStr = "KIES JE STERRENBEELD OM JE HOROSCOOP TE LEZEN";
-        } else if (getLangFromPath() == "fr") {
-          horoPageTitleStr = "CHOISIS TON SIGNE DU ZODIAQUE POUR LIRE TON HOROSCOPE";
-        } else if (getLangFromPath() == "en") {
-          horoPageTitleStr = "CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE";
-        } else {
-          horoPageTitleStr = "CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE";
+        if(getLangFromPath() == "de"){
+          horoPageTitleStr = `WÄHLE DEIN TIERKREISZEICHEN, UM DEIN HOROSKOP ZU LESEN`
+        }else if(getLangFromPath() == "sv"){
+          horoPageTitleStr = `VÄLJ DITT STJÄRNTECKEN FÖR ATT LÄSA DITT HOROSKOP`
+        }else{
+          horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
         }
-
 
         document.getElementById("horoPageTitle").innerHTML = `
         <span class="page-tl-tag">${horoPageTitleStr}</span>
@@ -1386,199 +1272,7 @@
     </div>
   `;
 
-        } else if (getLangFromPath() == "no") {
-          // ---- 挪威语版本 ----
-          faqHTML = `
-<h3 class="astro-h3">Astrologi – Vanlige spørsmål</h3>
-<div class="faq-ls">
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hva betyr horoskop?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Et horoskop er en kort spådom for personer født under et bestemt stjernetegn,
-      basert på planetenes og stjernetegnenes posisjon ved fødselen.
-      Astrologer bruker dette for å tolke personlighet og fremtidige hendelser.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hvordan fungerer astrologi?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Astrologi bygger på troen på at stjerner og planeter påvirker liv og hendelser på jorden.
-      Horoskoper er den vestlige formen for astrologi og tolkes ut fra himmellegemenes plassering ved fødsel.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hva betyr stjernetegn?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Zodiaken er delt inn i tolv tegn langs solens bane.
-      Ordet kommer fra latin «Zodiacus», som betyr «dyrekretsen».
-      Tegnene deles inn i fire elementer: ild, jord, luft og vann.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hvordan finner jeg mitt stjernetegn?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Stjernetegnet ditt bestemmes av fødselsdatoen din.
-      For eksempel: 21. mars – 20. april er Væren, 21. april – 20. mai er Tyren.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hvordan kan jeg lese horoskopet mitt gratis på nett?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      På Astrologiez kan du lese gratis horoskoper skrevet av profesjonelle astrologer,
-      med daglige innsikter og kompatibilitetsanalyser.
-    </div>
-  </div>
-
-</div>
-`;
-
-        } else if (getLangFromPath() == "nl") {
-          // ---- 荷兰语版本 ----
-          faqHTML = `
-<h3 class="astro-h3">Astrologie FAQ</h3>
-<div class="faq-ls">
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Wat betekent een horoscoop?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Een horoscoop is een korte voorspelling voor mensen die onder een bepaald sterrenbeeld zijn geboren,
-      gebaseerd op de stand van planeten en sterren op het moment van geboorte.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hoe werkt astrologie?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Astrologie gaat uit van het idee dat sterren en planeten invloed hebben op het leven.
-      Horoscopen interpreteren de positie van hemellichamen bij de geboorte.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Wat betekent sterrenbeeld?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      De dierenriem bestaat uit twaalf sterrenbeelden langs de baan van de zon.
-      Ze zijn onderverdeeld in vier elementen: vuur, aarde, lucht en water.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hoe bepaal je je sterrenbeeld?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Je sterrenbeeld wordt bepaald door je geboortedatum.
-      Bijvoorbeeld: 21 maart – 20 april is Ram, 21 april – 20 mei is Stier.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Hoe kan ik gratis mijn horoscoop lezen?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Op Astrologiez kun je gratis horoscopen lezen met dagelijkse inzichten en astrologische adviezen.
-    </div>
-  </div>
-
-</div>
-`;
-
-        } else if (getLangFromPath() == "fr") {
-          // ---- 法语版本 ----
-          faqHTML = `
-<h3 class="astro-h3">FAQ Astrologie</h3>
-<div class="faq-ls">
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Que signifie l’horoscope ?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Un horoscope est une prévision basée sur la position des planètes et des signes du zodiaque
-      au moment de la naissance d’une personne.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Comment fonctionne l’astrologie ?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      L’astrologie repose sur la croyance que les astres influencent la vie humaine.
-      Les horoscopes interprètent la configuration céleste à la naissance.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Que signifie signe du zodiaque ?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Le zodiaque est divisé en douze signes le long de la trajectoire du soleil,
-      répartis en quatre éléments : feu, terre, air et eau.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Comment connaître son signe astrologique ?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Votre signe astrologique dépend de votre date de naissance.
-      Par exemple : 21 mars – 20 avril correspond au Bélier.
-    </div>
-  </div>
-
-  <div class="faq-item active">
-    <div class="faq-item-header">
-      <span>Comment lire son horoscope gratuitement en ligne ?</span>
-      <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
-    </div>
-    <div class="faq-item-answer">
-      Sur Astrologiez, vous pouvez consulter gratuitement des horoscopes quotidiens rédigés par des astrologues.
-    </div>
-  </div>
-
-</div>
-`;
-
-        }else {
+        } else {
           // ---- 英文版本 ----
           faqHTML = `
     <h3 class="astro-h3">Astrology FAQs</h3>
@@ -1688,54 +1382,6 @@
           careerStr = "Karriärhoroskop";
           sexStr = "Sexhoroskop";
 
-        } else if (getLangFromPath() == "no") {
-          exploreTitle = "Utforsk horoskoper";
-          dailyStr = "Dagens horoskop";
-          weeklyStr = "Ukens horoskop";
-          monthlyStr = "Månedens horoskop";
-          yearlyStr = "Årshoroskop";
-          zodiacLoveStr = "Dyrekrets-kjærlighetshoroskop";
-          loveStr = "Kjærlighetshoroskop";
-          healthStr = "Helsehoroskop";
-          careerStr = "Karrierehoroskop";
-          sexStr = "Sexhoroskop";
-
-        } else if (getLangFromPath() == "nl") {
-          exploreTitle = "Ontdek horoscopen";
-          dailyStr = "Daghoroscoop";
-          weeklyStr = "Weekhoroscoop";
-          monthlyStr = "Maandhoroscoop";
-          yearlyStr = "Jaarhoroscoop";
-          zodiacLoveStr = "Dierenriem-liefdeshoroscoop";
-          loveStr = "Liefdeshoroscoop";
-          healthStr = "Gezondheidshoroscoop";
-          careerStr = "Carrièrehoroscoop";
-          sexStr = "Sekshoroscoop";
-
-        } else if (getLangFromPath() == "fr") {
-          exploreTitle = "Explorer les horoscopes";
-          dailyStr = "Horoscope du jour";
-          weeklyStr = "Horoscope de la semaine";
-          monthlyStr = "Horoscope du mois";
-          yearlyStr = "Horoscope annuel";
-          zodiacLoveStr = "Horoscope amour du zodiaque";
-          loveStr = "Horoscope amoureux";
-          healthStr = "Horoscope santé";
-          careerStr = "Horoscope carrière";
-          sexStr = "Horoscope sexe";
-
-        } else if (getLangFromPath() == "en") {
-          exploreTitle = "Explore Horoscopes";
-          dailyStr = "Daily Horoscope";
-          weeklyStr = "Weekly Horoscope";
-          monthlyStr = "Monthly Horoscope";
-          yearlyStr = "Yearly Horoscope";
-          zodiacLoveStr = "Zodiac-love Horoscope";
-          loveStr = "Love Horoscope";
-          healthStr = "Health Horoscope";
-          careerStr = "Career Horoscope";
-          sexStr = "Sex Horoscope";
-
         } else {
           exploreTitle = "Explore Horoscopes";
           dailyStr = "Daily Horoscope";
@@ -1748,7 +1394,6 @@
           careerStr = "Career Horoscope";
           sexStr = "Sex Horoscope";
         }
-
 
         document.getElementById("selectOrAQMessage").innerHTML = `
     <h3 class="astro-h3">${exploreTitle}</h3>
@@ -1861,8 +1506,6 @@
         mt_data_url = "../testname/js/no_most_test_data/Most Tested.js";
       } else if (langPage == "sv") {
         mt_data_url = "../testname/js/sv_most_test_data/Most Tested.js";
-      } else if (langPage == "nl") {
-        mt_data_url = "../testname/js/nl_most_test_data/Most Tested.js";
       } else {
         mt_data_url = "../testname/js/en_most_test_data/Most Tested.js"
       }
@@ -1943,8 +1586,6 @@
         }else if(langPage == "no"){
           item.url = "./404notFound.html?content=other"
         }else if(langPage == "sv"){
-          item.url = "./404notFound.html?content=other"
-        }else if(langPage == "nl"){
           item.url = "./404notFound.html?content=other"
         }else{
           item.url = "./404notFound.html?content=other"
@@ -2179,8 +1820,6 @@
       document.getElementById("titleForRecMT").innerText="Mest Testede";
     }else if(langPage == "sv"){
       document.getElementById("titleForRecMT").innerText="Mest Testade";
-    }else if(langPage == "nl"){
-      document.getElementById("titleForRecMT").innerText="Mest Testade";
     }else{
       document.getElementById("titleForRecMT").innerText="Mest Testade";
     }
@@ -2236,9 +1875,6 @@
     }else if(langPage == "sv"){
       homedataJs = "../testname/js/sv/homedata.js";
       utm_campaign_js_url="../testname/js/sv/utm_campaign.js"
-    }else if(langPage == "nl"){
-      homedataJs = "../testname/js/nl/homedata.js";
-      utm_campaign_js_url="../testname/js/nl/utm_campaign.js"
     }else{
       homedataJs = "../testname/js/en/homedata.js";
       utm_campaign_js_url="../testname/js/en/utm_campaign.js"
