@@ -1,0 +1,320 @@
+function returnADV_Block(){
+    return `
+    <ins class="adsbygoogle"
+                             style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+                             data-ad-client="ca-pub-3481735481590354"
+                             data-ad-slot="7945649647"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>`
+}
+
+function returnADV_Block_test(){
+    return `
+    <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-3481735481590354"
+                             data-ad-slot="7945649647"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"
+                             data-adtest="on"></ins>`
+}
+
+function returnZhongxiangGuding(){
+    let advHtml = `
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3165596689"></ins>
+            `;
+    return advHtml;
+}
+//data-adtest="on" 复制该语句到为止为测试模式开启，删掉该语句则为正式广告
+
+function returnListAdv_1(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- list-1 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="7760254681"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnListAdv_2(){
+    return `<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- list-2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="6447173015"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnListAdv_3(){
+    return `<!-- list-3 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="9263465087"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnListAdv_4(){
+    return `<!-- list-4 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="6538913607"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnListAdv_5(){
+    return `<!-- list-5 -->
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3849231155"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnTestAdv_1(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="7543798111"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnTestAdv_2(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:250px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3912750264"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnTestAdv_3(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:250px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="5628915364"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnTestAdv_4(){
+    return `<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-4 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2599668591"></ins>`
+}
+
+function returnTestAdv_5(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- test-5 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2167141832"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnResultAdv_1(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="1286586926"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnResultAdv_2(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="5134091346"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnResultAdv_3(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:200px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2627347502"></ins>`
+}
+
+function returnResultAdv_4(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- result-4 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="8973505259"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnHarry_1(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- Harry_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="9839571462"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnHarry_2(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- Harry_2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="8462926521"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnLa_1(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- latest_adv1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="7836958147"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnLa_2(){
+    return `
+<div class="divLinePa"><div class="divLine"></div><span>---------------ADVERTISEMENT---------------</span></div>
+<!-- latest_adv2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="2901816928"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
+
+function returnHoro_1(){
+    return `
+    <!-- horo_1 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="4573341844"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoro_2(){
+    return `
+   <!-- horo_2 -->
+<ins class="adsbygoogle"
+     style="display:block;width: 100%;min-height: 250px;margin: 0 0 0 0 !important;min-width: 300px"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3356463096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroCat_1(){
+    return `
+<ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-3481735481590354"
+                     data-ad-slot="2083851826"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroCat_2(){
+    return `
+    <!-- horocat_2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="8515745840"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroDetail_1(){
+    return `
+    <!-- horodetail_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="6569891746"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroDetail_2(){
+    return `
+    <!-- horodetail_2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3923547104"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    `
+}
+
+function returnHoroDetail_3(){
+    return `
+    <!-- horodetail_3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3481735481590354"
+     data-ad-slot="3997367595"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>`
+}
