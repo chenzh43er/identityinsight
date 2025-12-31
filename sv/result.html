@@ -981,6 +981,8 @@
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "sv"){
                         item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "nl"){
+                        item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
                     }
@@ -1209,6 +1211,8 @@
                 document.getElementById("titleForRecMT").innerText="Mest Testet";
             }else if(langPage == "sv"){
                 document.getElementById("titleForRecMT").innerText="Mest Testade";
+            }else if(langPage == "nl"){
+                document.getElementById("titleForRecMT").innerText = "Meest getest";
             }else{
                 document.getElementById("titleForRecMT").innerText="Mest Testade";
             }
@@ -1346,6 +1350,9 @@
             }else if(langPage == "sv"){
                 homedataJs = "./testname/js/sv/homedata.js";
                 utm_campaign_js_url="./testname/js/sv/utm_campaign.js"
+            }else if(langPage == "nl"){
+                homedataJs = "./testname/js/nl/homedata.js";
+                utm_campaign_js_url="./testname/js/nl/utm_campaign.js"
             }else{
                 homedataJs = "./testname/js/fr/homedata.js";
                 utm_campaign_js_url="./testname/js/no/utm_campaign.js"
@@ -1429,6 +1436,8 @@
                 mt_data_url = "./testname/js/no_most_test_data/Most Tested.js";
             }else if(langPage == "sv"){
                 mt_data_url = "./testname/js/sv_most_test_data/Most Tested.js";
+            }else if(langPage == "nl"){
+                mt_data_url = "./testname/js/nl_most_test_data/Most Tested.js";
             }else{
                 mt_data_url = "./testname/js/no_most_test_data/Most Tested.js"
             }
@@ -1490,6 +1499,8 @@
                     }else if(langPage == "no"){
                         item.url = "./404notFound.html?content=other"
                     }else if(langPage == "sv"){
+                        item.url = "./404notFound.html?content=other"
+                    }else if(langPage == "nl"){
                         item.url = "./404notFound.html?content=other"
                     }else{
                         item.url = "./404notFound.html?content=other"
@@ -1749,6 +1760,8 @@
                 document.getElementById("titleForRec").innerText="ANBEFALTE QUIZER";
             }else if(langPage == "sv"){
                 document.getElementById("titleForRec").innerText="REKOMMENDERADE QUIZZAR";
+            }else if(langPage == "nl"){
+                document.getElementById("titleForRec").innerText = "Aanbevolen quizzen";
             }else{
                 document.getElementById("titleForRec").innerText="REKOMMENDERADE QUIZZAR";
             }
@@ -1789,6 +1802,9 @@
             }else if(langPage == "sv"){
                 homedataJs = "./testname/js/sv/homedata.js";
                 utm_campaign_js_url="./testname/js/sv/utm_campaign.js"
+            }else if(langPage == "nl"){
+                homedataJs = "./testname/js/nl/homedata.js";
+                utm_campaign_js_url="./testname/js/nl/utm_campaign.js"
             }else{
                 homedataJs = "./testname/js/sv/homedata.js";
                 utm_campaign_js_url="./testname/js/sv/utm_campaign.js"
@@ -1878,6 +1894,8 @@
                 rq_data_url = "./testname/js/no_recommend/recommend quizzes.js"
             }else if(langPage == "sv"){
                 rq_data_url = "./testname/js/sv_recommend/recommend quizzes.js"
+            }else if(langPage == "nl"){
+                rq_data_url = "./testname/js/nl_recommend/recommend quizzes.js"
             }else{
                 rq_data_url = "./testname/js/sv_recommend/recommend quizzes.js"
             }
@@ -1974,6 +1992,8 @@
                 result_url = "./testname/js/no_result/";
             }else if(lang == "sv"){
                 result_url = "./testname/js/sv_result/";
+            }else if(lang == "nl"){
+                result_url = "./testname/js/nl_result/";
             }else{
                 result_url = "./testname/js/sv_result/"
             }
@@ -2072,6 +2092,10 @@
                 home_str = "Återvänd till startsidan"
                 again_str = "Gör testet igen"
                 indexHref = "./list.html?"
+            }else if(langPage == "nl"){
+                home_str = "Terug naar de startpagina";
+                again_str = "Opnieuw testen";
+                indexHref = "./list.html?";
             }else{
                 home_str = "Återvänd till startsidan"
                 again_str = "Gör testet igen"

@@ -919,6 +919,8 @@
               item.url = "./404notFound.html?content=other"
             }else if(langPage == "sv"){
               item.url = "./404notFound.html?content=other"
+            }else if(langPage == "nl"){
+              item.url = "./404notFound.html?content=other"
             }else{
               item.url = "./404notFound.html?content=other"
             }
@@ -1494,6 +1496,13 @@
 
         document.getElementById("popular_btn_h2").innerText = "Mest Populära"
         document.getElementById("latest_btn_h2").innerText = "Senaste"
+      }else if(langPage == "nl"){
+        document.getElementById("title_mp").innerText = "Meest populair";
+        document.getElementById("title_lt").innerText = "De nieuwste";
+        document.getElementById("title_yml").innerText = "Misschien vind je dit leuk";
+
+        document.getElementById("popular_btn_h2").innerText = "Meest populair";
+        document.getElementById("latest_btn_h2").innerText = "De nieuwste";
       }
       else{
         document.getElementById("title_mp").innerText="Mest Populära";
@@ -1698,6 +1707,10 @@
         homedataJs = "./testname/js/sv/homedata.js";
         document.getElementById('nextPageButton').innerText = "nästa";
         utm_campaign_js_url="./testname/js/sv/utm_campaign.js"
+      }else if(langPage == "nl"){
+        homedataJs = "./testname/js/nl/homedata.js";
+        document.getElementById('nextPageButton').innerText = "Volgende";
+        utm_campaign_js_url = "./testname/js/nl/utm_campaign.js";
       }else{
         homedataJs = "./testname/js/sv/homedata.js";
         document.getElementById('nextPageButton').innerText = "nästa";
@@ -1746,6 +1759,8 @@
                   indexHref = "./list.html?"
                 }else if (langPage == "sv") {
                   indexHref = "./list.html?"
+                }else if (langPage == "nl") {
+                  indexHref = "./list.html?"
                 }else {
                   indexHref = "./list.html?"
                 }
@@ -1790,6 +1805,8 @@
               }else if (langPage == "no") {
                 indexHref = "./list.html?"
               }else if (langPage == "sv") {
+                indexHref = "./list.html?"
+              }else if (langPage == "nl") {
                 indexHref = "./list.html?"
               }else {
                 indexHref = "./list.html?"
