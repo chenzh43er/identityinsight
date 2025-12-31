@@ -69,7 +69,7 @@ $(document).ready(function () {
     }else if(langPage == "sv") {
         home_str = "Startsida"
         indexHref = "../list.html?"
-        toListCat12 = "/sv/list/horoscope"
+        toListCat12 = "/nl/list/horoscope"
     }else if(langPage == "nl") {
         home_str = "Startsida"
         indexHref = "../list.html?"
@@ -138,7 +138,7 @@ $(document).ready(function () {
     document.getElementById("menu_index_select2").innerText = "Harry Potter"
     document.getElementById("menu_index_select2").href=toListCat1
 
-    let lang = getLangFromPath(); // en / de / sv
+    let lang = getLangFromPath(); // en / de / nl
 
     let menuText = "Horoscope";
 
