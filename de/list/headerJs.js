@@ -59,6 +59,9 @@ $(document).ready(function () {
     }else if(langPage == "sv") {
         home_str = "Startsida"
         indexHref = "../list.html?"
+    }else if(langPage == "nl") {
+        home_str = "Home"
+        indexHref = "../list.html?"
     }
     else{
         home_str = "الرئيسية";
