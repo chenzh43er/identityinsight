@@ -6,7 +6,6 @@
             const pathSegments = window.location.pathname.split('/');
             return pathSegments[1]; // 假设语言代码总是在第一个路径段
         }
-
         if(getLangFromPath() == "de"){
             const base = document.querySelector('base');
             base.href = '/de/horoscope/'; // 绝对路径形式
@@ -865,7 +864,6 @@
     } else if(getLangFromPath() == "sv"){
         dataDate = `./js/sv/`
     } else if(getLangFromPath() == "en"){
-    } else {
         dataDate = `./js/en/`
     }else if(getLangFromPath() == "fr"){
         dataDate = `./js/fr/`
