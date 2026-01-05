@@ -1083,7 +1083,13 @@
       let lang = getLangFromPath()
 
       document.querySelectorAll('.zodiac-for-item').forEach(item => {
-        const name = item.querySelector('.zodiac-for-tl').textContent.trim();
+        
+        const name = item
+                .querySelector('.zodiac-for-tl')
+                ?.textContent
+                ?.trim()
+                ?.toLowerCase() || '';
+
         const link = item.querySelector('.coverlink');
         link.href = `/${lang}/horoscope/${name}?campaign=horo`;
       });
