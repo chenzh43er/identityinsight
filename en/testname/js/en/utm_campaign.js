@@ -275,241 +275,241 @@ const utm_campaignData = {
     "hog":[    {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
         "pic": "./testname/img/de_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
-        "title": "Welches Hogwarts-Fach wäre dein Lieblingsfach?"
+        "title": "Which Hogwarts subject would be your favorite?"
     },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
             "pic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
-            "title": "Wie würdest du Weihnachten in Hogwarts feiern?"
+            "title": "How would you celebrate Christmas at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
             "pic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
-            "title": "Welcher Zauber wird dein Jahr 2026 bestimmen?"
+            "title": "What magic will define your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
             "pic": "./testname/img/de_img/27_e7acb3424b68401db293a74c46316bc3.jpeg",
-            "title": "Welche Prophezeiung wartet 2026 auf dich?"
+            "title": "What prophecy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
             "pic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
-            "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?"
+            "title": "Which spell opens your 2026 year at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
             "pic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
-            "title": "Welches Hogwarts-Haus spiegelt dein Jahr 2026 wider?"
+            "title": "Which Hogwarts house reflects your 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
             "pic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
-            "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?"
+            "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
             "pic": "./testname/img/de_img/79_07a58fdfa2b4407b8f7d4d9721d576af.jpeg",
-            "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?"
+            "title": "What magical New Year's adventure would you experience at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
             "pic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
-            "title": "Welches magisches Erbe erwartet dich im Jahr 2026?"
+            "title": "What magical legacy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
             "pic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
-            "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?"
+            "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
             "pic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
-            "title": "Welcher Patronus wird dein Jahr 2026 beschützen?"
+            "title": "Which Patronus will protect your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
             "pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
-            "title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
+            "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?"
         }],
     "hog_main":[    {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
         "pic": "./testname/img/de_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
-        "title": "Welches Hogwarts-Fach wäre dein Lieblingsfach?"
+        "title": "Which Hogwarts subject would be your favorite?"
     },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
             "pic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
-            "title": "Wie würdest du Weihnachten in Hogwarts feiern?"
+            "title": "How would you celebrate Christmas at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
             "pic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
-            "title": "Welcher Zauber wird dein Jahr 2026 bestimmen?"
+            "title": "What magic will define your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
             "pic": "./testname/img/de_img/27_e7acb3424b68401db293a74c46316bc3.jpeg",
-            "title": "Welche Prophezeiung wartet 2026 auf dich?"
+            "title": "What prophecy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
             "pic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
-            "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?"
+            "title": "Which spell opens your 2026 year at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
             "pic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
-            "title": "Welches Hogwarts-Haus spiegelt dein Jahr 2026 wider?"
+            "title": "Which Hogwarts house reflects your 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
             "pic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
-            "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?"
+            "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
             "pic": "./testname/img/de_img/79_07a58fdfa2b4407b8f7d4d9721d576af.jpeg",
-            "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?"
+            "title": "What magical New Year's adventure would you experience at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
             "pic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
-            "title": "Welches magisches Erbe erwartet dich im Jahr 2026?"
+            "title": "What magical legacy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
             "pic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
-            "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?"
+            "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
             "pic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
-            "title": "Welcher Patronus wird dein Jahr 2026 beschützen?"
+            "title": "Which Patronus will protect your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
             "pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
-            "title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
+            "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?"
         }],
     "hog_rc":[    {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
         "pic": "./testname/img/de_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
-        "title": "Welches Hogwarts-Fach wäre dein Lieblingsfach?"
+        "title": "Which Hogwarts subject would be your favorite?"
     },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
             "pic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
-            "title": "Wie würdest du Weihnachten in Hogwarts feiern?"
+            "title": "How would you celebrate Christmas at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
             "pic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
-            "title": "Welcher Zauber wird dein Jahr 2026 bestimmen?"
+            "title": "What magic will define your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
             "pic": "./testname/img/de_img/27_e7acb3424b68401db293a74c46316bc3.jpeg",
-            "title": "Welche Prophezeiung wartet 2026 auf dich?"
+            "title": "What prophecy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
             "pic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
-            "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?"
+            "title": "Which spell opens your 2026 year at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
             "pic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
-            "title": "Welches Hogwarts-Haus spiegelt dein Jahr 2026 wider?"
+            "title": "Which Hogwarts house reflects your 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
             "pic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
-            "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?"
+            "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
             "pic": "./testname/img/de_img/79_07a58fdfa2b4407b8f7d4d9721d576af.jpeg",
-            "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?"
+            "title": "What magical New Year's adventure would you experience at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
             "pic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
-            "title": "Welches magisches Erbe erwartet dich im Jahr 2026?"
+            "title": "What magical legacy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
             "pic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
-            "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?"
+            "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
             "pic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
-            "title": "Welcher Patronus wird dein Jahr 2026 beschützen?"
+            "title": "Which Patronus will protect your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
             "pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
-            "title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
+            "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?"
         }],
     "hog_mt":[    {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10059",
         "pic": "./testname/img/de_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
-        "title": "Welches Hogwarts-Fach wäre dein Lieblingsfach?"
+        "title": "Which Hogwarts subject would be your favorite?"
     },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10060",
             "pic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
-            "title": "Wie würdest du Weihnachten in Hogwarts feiern?"
+            "title": "How would you celebrate Christmas at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
             "pic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
-            "title": "Welcher Zauber wird dein Jahr 2026 bestimmen?"
+            "title": "What magic will define your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
             "pic": "./testname/img/de_img/27_e7acb3424b68401db293a74c46316bc3.jpeg",
-            "title": "Welche Prophezeiung wartet 2026 auf dich?"
+            "title": "What prophecy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
             "pic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
-            "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?"
+            "title": "Which spell opens your 2026 year at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
             "pic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
-            "title": "Welches Hogwarts-Haus spiegelt dein Jahr 2026 wider?"
+            "title": "Which Hogwarts house reflects your 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
             "pic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
-            "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?"
+            "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
             "pic": "./testname/img/de_img/79_07a58fdfa2b4407b8f7d4d9721d576af.jpeg",
-            "title": "Welches magische Neujahrsabenteuer würdest du in Hogwarts erleben?"
+            "title": "What magical New Year's adventure would you experience at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
             "pic": "./testname/img/de_img/01_13d951a1d9e24e14bf2d496e82b68e56.jpeg",
-            "title": "Welches magisches Erbe erwartet dich im Jahr 2026?"
+            "title": "What magical legacy awaits you in 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
             "pic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
-            "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?"
+            "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
             "pic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
-            "title": "Welcher Patronus wird dein Jahr 2026 beschützen?"
+            "title": "Which Patronus will protect your year 2026?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
             "pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
-            "title": "Mit welchem Hogwarts-Charakter wirst du Silvester 2026 verbringen?"
+            "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?"
         }]
 };

@@ -1,30 +1,26 @@
 const results = {
-    1: {
-        "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?",
-        "resultTitle": "A – Die Gabe des Lichts 🪄",
-        "description": `Du bringst Hoffnung, wo Dunkelheit herrscht – dein Mut inspiriert andere.
-`,
+    "1": {
+        "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?",
+        "resultTitle": "A – The gift of light 🪄",
+        "description": "You bring hope where there is darkness - your courage inspires others.",
         "mainPic": "./testname/img/de_img/75_6ccdd20d41364ac6bc398a5077fe87cc.jpeg"
     },
-    2: {
-        "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?",
-        "resultTitle": "B – Die Gabe des Geistes 🌙",
-        "description": `Du verstehst Dinge, bevor sie geschehen. 2026 wird dein Jahr der Klarheit.
-`,
+    "2": {
+        "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?",
+        "resultTitle": "B – The Gift of the Spirit 🌙",
+        "description": "You understand things before they happen. 2026 will be your year of clarity.",
         "mainPic": "./testname/img/de_img/76_ed76780f084649918a49419a113f963c.jpeg"
     },
-    3: {
-        "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?",
-        "resultTitle": "C – Die Gabe der Worte 📜",
-        "description": `Deine Stärke liegt in Sprache, Wissen und Wahrheit – du veränderst mit Gedanken.
-`,
+    "3": {
+        "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?",
+        "resultTitle": "C – The gift of words 📜",
+        "description": "Your strength lies in language, knowledge and truth - you change with thoughts.",
         "mainPic": "./testname/img/de_img/77_fe4ab9705c1f43c5be6c50e263c6cbf5.jpeg"
     },
-    4: {
-        "title": "Welche geheime Gabe offenbart sich dir an Neujahr in Hogwarts?",
-        "resultTitle": "D – Die Gabe des Herzens 💖",
-        "description": `Du fühlst tiefer als jeder Zauber – Liebe ist deine stärkste Magie.
-`,
+    "4": {
+        "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?",
+        "resultTitle": "D – The gift of the heart 💖",
+        "description": "You feel deeper than any magic - love is your strongest magic.",
         "mainPic": "./testname/img/de_img/78_f5fb08b354bc40d995646c80ba54a62e.jpeg"
-    },
+    }
 };

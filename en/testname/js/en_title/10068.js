@@ -1,98 +1,225 @@
 let quizData = {
-    "title": "Wo wirst du Silvester 2026 in Hogwarts feiern?",
+    "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?",
     "mainPic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
     "thems": [
         "Harry Potter",
-        "Harry-Potter-Quiz",
+        "Harry Potter Quiz",
         "Hogwarts",
-        "Magie",
-        "Filme",
-        "Harry-Potter-Fans",
-        "Magische Welt",
+        "magic",
+        "Movies",
+        "Harry Potter fans",
+        "Magical world",
         "Potterheads"
     ],
     "questions": [
-  {
-    "question": "Welcher magische Cocktail steht bei dir um Mitternacht auf dem Tisch?",
-    "pic": "./testname/img/de_img/15_6e0f6b4c91304ce58736dfcb38a344c5.jpeg",
-    "answers": [
-      { "answer": "Ein würziger Feuerwhisky.", "aPic": "", "aId": 1 },
-      { "answer": "Ein im Fass gereifter Met.", "aPic": "", "aId": 2 },
-      { "answer": "Ein spritziger Nelkensaft.", "aPic": "", "aId": 3 },
-      { "answer": "Ein geheimnisvoller Holunderwein.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Du findest einen silbernen Schlüssel in deinem Weihnachtsstiefel. Was passiert?",
-    "pic": "./testname/img/de_img/16_2494189a7d2b405480cb54b1aa3929b4.jpeg",
-    "answers": [
-      { "answer": "Er wird plötzlich heiß in deiner Hand.", "aPic": "", "aId": 1 },
-      { "answer": "Er beginnt, eine sanfte Melodie zu summen.", "aPic": "", "aId": 2 },
-      { "answer": "Er wird durchsichtig wie Glas.", "aPic": "", "aId": 3 },
-      { "answer": "Er vibriert, sobald du dich einer Tür näherst.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Deine Stimmung, um das neue Jahr zu beginnen?",
-    "pic": "./testname/img/de_img/17_3bf65fa3919c4c2d858689f2d8356f19.jpeg",
-    "answers": [
-      { "answer": "Entschlossen und kämpferisch.", "aPic": "", "aId": 1 },
-      { "answer": "Friedlich und wohlwollend.", "aPic": "", "aId": 2 },
-      { "answer": "Neugierig und wissbegierig.", "aPic": "", "aId": 3 },
-      { "answer": "Ehrgeizig und wählerisch.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Welchen Hogwarts-Geist würdest du zu deinem Tisch einladen?",
-    "pic": "./testname/img/de_img/18_eb7d7a0e1a7e4a69bfcfc433c2c97fca.jpeg",
-    "answers": [
-      { "answer": "Sir Nicholas – für seinen Mut.", "aPic": "", "aId": 1 },
-      { "answer": "Der Fette Mönch – für seine gute Laune.", "aPic": "", "aId": 2 },
-      { "answer": "Die Graue Dame – für ihr Geheimnis.", "aPic": "", "aId": 3 },
-      { "answer": "Der Blutige Baron – für seine Stärke.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Wenn du in den Spiegel Nerhegeb blickst, was siehst du für 2026?",
-    "pic": "./testname/img/de_img/19_e0d69990c60445aa8801f4aa984b4009.jpeg",
-    "answers": [
-      { "answer": "Mich selbst, bewundert von einer großen Menge.", "aPic": "", "aId": 1 },
-      { "answer": "Mich, umgeben von meiner vereinten Familie.", "aPic": "", "aId": 2 },
-      { "answer": "Mich, wie ich verlorenes Wissen entdecke.", "aPic": "", "aId": 3 },
-      { "answer": "Mich, auf einem Thron der Macht sitzend.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Welchen Weg nimmst du, um die Feier zu verlassen?",
-    "pic": "./testname/img/de_img/20_0947bf62131e4b15a730cb59a0044f20.jpeg",
-    "answers": [
-      { "answer": "Die sich bewegenden Treppen von Hogwarts.", "aPic": "", "aId": 1 },
-      { "answer": "Den geheimen Gang zu den Küchen.", "aPic": "", "aId": 2 },
-      { "answer": "Die Wendeltreppe im Turm.", "aPic": "", "aId": 3 },
-      { "answer": "Die stillen Gänge der Kerkern.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Eine magische Kreatur blockiert deinen Weg. Du …",
-    "pic": "./testname/img/de_img/21_7fd6850b136a4fa1bf6e4225143865a3.jpeg",
-    "answers": [
-      { "answer": "Ziehst deinen Zauberstab – bereit zum Duell.", "aPic": "", "aId": 1 },
-      { "answer": "Bietest ihr eine magische Süßigkeit an.", "aPic": "", "aId": 2 },
-      { "answer": "Versuchst, ihre Botschaft zu verstehen.", "aPic": "", "aId": 3 },
-      { "answer": "Einschüchterst sie mit einem kühlen Blick.", "aPic": "", "aId": 4 }
-    ]
-  },
-  {
-    "question": "Welche Farbe hat deine Aura zu Beginn des neuen Jahres?",
-    "pic": "./testname/img/de_img/22_a8952b322eba49bab9cc5a7fc75864ec.jpeg",
-    "answers": [
-      { "answer": "Leuchtend rot wie eine Glut.", "aPic": "", "aId": 1 },
-      { "answer": "Honiggelb, warm und sanft.", "aPic": "", "aId": 2 },
-      { "answer": "Tiefblau, ruhig und klar.", "aPic": "", "aId": 3 },
-      { "answer": "Smaragdgrün, lebendig und kühl.", "aPic": "", "aId": 4 }
-    ]
-  }
-]
-,
+        {
+            "question": "What magical cocktail is on your table at midnight?",
+            "pic": "./testname/img/de_img/15_6e0f6b4c91304ce58736dfcb38a344c5.jpeg",
+            "answers": [
+                {
+                    "answer": "A spicy fire whiskey.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "A barrel-aged mead.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "A tangy clove juice.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "A mysterious elderberry wine.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "You find a silver key in your Christmas boot. What happens?",
+            "pic": "./testname/img/de_img/16_2494189a7d2b405480cb54b1aa3929b4.jpeg",
+            "answers": [
+                {
+                    "answer": "He suddenly becomes hot in your hand.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "He begins humming a gentle tune.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "He becomes transparent like glass.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "It vibrates as soon as you approach a door.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Your mood to start the new year?",
+            "pic": "./testname/img/de_img/17_3bf65fa3919c4c2d858689f2d8356f19.jpeg",
+            "answers": [
+                {
+                    "answer": "Determined and combative.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Peaceful and benevolent.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Curious and inquisitive.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Ambitious and selective.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Which Hogwarts spirit would you invite to your table?",
+            "pic": "./testname/img/de_img/18_eb7d7a0e1a7e4a69bfcfc433c2c97fca.jpeg",
+            "answers": [
+                {
+                    "answer": "Sir Nicholas – for his courage.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "The Fat Monk – for his good mood.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "The Gray Lady – for her secret.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "The Bloody Baron – for his strength.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "When you look into the Nerhegeb mirror, what do you see for 2026?",
+            "pic": "./testname/img/de_img/19_e0d69990c60445aa8801f4aa984b4009.jpeg",
+            "answers": [
+                {
+                    "answer": "Myself, admired by a large crowd.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Me, surrounded by my united family.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Me discovering lost knowledge.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Me, sitting on a throne of power.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "Which route do you take to leave the celebration?",
+            "pic": "./testname/img/de_img/20_0947bf62131e4b15a730cb59a0044f20.jpeg",
+            "answers": [
+                {
+                    "answer": "The moving stairs of Hogwarts.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "The secret passage to the kitchens.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "The spiral staircase in the tower.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "The quiet corridors of the dungeons.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "A magical creature is blocking your path. You...",
+            "pic": "./testname/img/de_img/21_7fd6850b136a4fa1bf6e4225143865a3.jpeg",
+            "answers": [
+                {
+                    "answer": "Draw your magic wand - ready to duel.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Offer her a magical candy.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Try to understand their message.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Intimidate her with a cold stare.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        },
+        {
+            "question": "What color is your aura at the start of the new year?",
+            "pic": "./testname/img/de_img/22_a8952b322eba49bab9cc5a7fc75864ec.jpeg",
+            "answers": [
+                {
+                    "answer": "Bright red like an ember.",
+                    "aPic": "",
+                    "aId": 1
+                },
+                {
+                    "answer": "Honey yellow, warm and gentle.",
+                    "aPic": "",
+                    "aId": 2
+                },
+                {
+                    "answer": "Deep blue, calm and clear.",
+                    "aPic": "",
+                    "aId": 3
+                },
+                {
+                    "answer": "Emerald green, vibrant and cool.",
+                    "aPic": "",
+                    "aId": 4
+                }
+            ]
+        }
+    ],
     "toAnswer": 10068
 };
