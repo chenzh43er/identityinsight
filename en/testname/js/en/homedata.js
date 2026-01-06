@@ -133,6 +133,91 @@ const dataPage = {
 	],
 	"allRecent":[
 		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100100",
+			"pic": "./testname/img/de_img/9657f53db40c7b368f76ec5ff0b2075e.gif",
+			"title": "Who was your lover in your previous life? Astrology tells you the answer!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100101",
+			"pic": "./testname/img/de_img/67ab9a66372b41ff80637d2f34775da7.gif",
+			"title": "What is your mental astrology?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100102",
+			"pic": "./testname/img/de_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+			"title": "Which Career Is Right For You According To Your Zodiac Sign?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100103",
+			"pic": "./testname/img/de_img/101e6d7b4a8cbe16e020ef4a6103e2b2.jpeg",
+			"title": "What kind of karma do you have?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100104",
+			"pic": "./testname/img/de_img/825852946811c237259322970ca7e8a5.jpeg",
+			"title": "How many people died on the same day as you?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100105",
+			"pic": "./testname/img/de_img/2dba8ea723b9a6b7a815b64a712c74ea.gif",
+			"title": "Unravel your lifelong health destiny through astrology!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100106",
+			"pic": "./testname/img/de_img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
+			"title": "Healthcare: Assess your health risks through astrology"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100107",
+			"pic": "./testname/img/de_img/53df6ab80eebbfec50562157fb1aab58.gif",
+			"title": "Make decisions related to your zodiac sign and get a fate prediction!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100108",
+			"pic": "./testname/img/de_img/39b596f2c024869bb393afc04c18e57a.gif",
+			"title": "What does your weekly horoscope say about your love life?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100109",
+			"pic": "./testname/img/de_img/5733f4c5286c61332b3a744289e4ab79.gif",
+			"title": "Who is your Perfect Zodiac Match at School? 💫🎒"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100110",
+			"pic": "./testname/img/de_img/bae4afa98f637f3006d68f45118399cb.gif",
+			"title": "We will reveal your age based on your fingerprint"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100111",
+			"pic": "./testname/img/de_img/8d0894da52c5e9b0a421f400d9b836ae.gif",
+			"title": "What is your lucky symbol of the day? Choose based on your zodiac sign!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100112",
+			"pic": "./testname/img/de_img/93f935ad434696438bcf8f31987b9c6b.gif",
+			"title": "What do your eyes reveal about your past life?"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100113",
+			"pic": "./testname/img/de_img/13bc72828b062229dd2750e3bafb47c4.gif",
+			"title": "Make decisions based on your zodiac sign and find out your soulmate's name!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100114",
+			"pic": "./testname/img/de_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+			"title": "The location of your birthmark will reveal your death in a past life!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100115",
+			"pic": "./testname/img/de_img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
+			"title": "What is your feminine archetype? Let's find out!"
+		},
+		{
+			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=100116",
+			"pic": "./testname/img/de_img/e20fc3b1d587ae4c0369b34f0d245ee5.gif",
+			"title": "Astrology reveals the cause of your death in the past life!"
+		},
+		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10048",
 			"pic": "./testname/img/en_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
 			"title": "What’s Your Football Level At VRFS?"
