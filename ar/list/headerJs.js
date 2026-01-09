@@ -31,6 +31,7 @@ $(document).ready(function () {
     let indexHref = ""
     let home_str = ""
     let toListCat12 = "./horoscope.html?"
+    let toListCat13 = "../list/throwback.html?"
 
     if(langPage == "fr"){
         home_str = "Acceuil"
@@ -123,6 +124,7 @@ $(document).ready(function () {
     document.getElementById("menu_index_select2").href=toListCat1
 
     let menuText = "Horoscope";
+    let throwbackStr = "Throwback"
 
     if (langPage === "de") {
         menuText = "Horoskop";
@@ -136,6 +138,9 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select3").innerText = menuText;
     document.getElementById("menu_index_select3").href=toListCat12
+
+    document.getElementById("menu_index_select4").innerText = throwbackStr;
+    document.getElementById("menu_index_select4").href=toListCat13
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
