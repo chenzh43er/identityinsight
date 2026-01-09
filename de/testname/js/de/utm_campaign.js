@@ -529,4 +529,59 @@ const utm_campaignData = {
             "title": "Gesundheitsfürsorge: Bewerten Sie Ihre Gesundheitsrisiken durch Astrologie"
         },
     ],
+    "film":[
+        {
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
+        "pic": "./testname/img/de_img/01_873b4e8b5495423ba5d48b479e2521fd.jpeg",
+        "title": "Bist du der Diamant der Saison oder Lady Whistledowns nächstes Opfer?"
+    },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10072",
+            "pic": "./testname/img/de_img/14_ac60527daa5b4e27890c5a9d4e95558a.jpeg",
+            "title": "Justus, Peter oder Bob? Welcher der \"Drei ???\" bist du wirklich?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10073",
+            "pic": "./testname/img/de_img/26_57b27542fa8246f682992c5d7bd262b7.jpeg",
+            "title": "In welcher Tatort-Stadt wärst du der perfekte Ermittler?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10074",
+            "pic": "./testname/img/de_img/39_7c465b9f561f40818dd791a1cfcf6a59.jpeg",
+            "title": "Vergangenheit, Gegenwart oder Zukunft: In welcher Epoche von \"Dark\" würdest du überleben?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
+            "pic": "./testname/img/de_img/52_5b43c4a69ce04bdb8a58d44791ec693e.jpeg",
+            "title": "Welches Haus würde über Westeros herrschen, wenn DU auf dem Thron säßest?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+            "pic": "./testname/img/de_img/65_e330653235e1437c9bb2c1937be2b112.jpeg",
+            "title": "Stranger Things Test: Würdest du im \"Upside Down\" überleben?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/de_img/78_81c73c808caf4f409ebc8fec242ba94a.jpeg",
+            "title": "Welcher Marvel-Held steckt in dir? Finde deinen Avenger-Zwilling!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/de_img/91_6faf33e7684644c5be6181cf40690f94.jpeg",
+            "title": "\"Friends\"-Quiz: Welcher der sechs Freunde bist du in deiner Clique"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/de_img/106_1a4e78b6fc19441e8044d68ad1a5dda3.jpeg",
+            "title": "Sheldon, Leonard oder Penny: Wer aus \"The Big Bang Theory\" bist du wirklich?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/de_img/118_289af450e192422088c288b1473f23d0.jpeg",
+            "title": "Wednesday-Test: Wie viel Wednesday Addams steckt wirklich in deiner Persönlichkeit?"
+        }],
+    "film_main":[],
+    "film_rc":[],
+    "film_mt":[],
+
 };
