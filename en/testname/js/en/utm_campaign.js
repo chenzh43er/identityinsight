@@ -516,7 +516,8 @@ const utm_campaignData = {
             "pic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
             "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?"
         }],
-    "throwback":[{
+    "throwback":[
+        {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
         "pic": "./testname/img/en_img/01_b158bcd6a30e4a42880095969d06750d.png",
         "title": "Only Real 90s Kids Can Identify 10/10 Of These Objects. Can You?"
@@ -540,5 +541,212 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
             "pic": "./testname/img/en_img/53_5bda334b7c154c569967072e23306b8c.png",
             "title": "If You Use These \"Outdated\" Slangs, You’re Officially Old."
-        }]
+        }],
+    "movie" : [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+            "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+            "title": "Which Game of Thrones House Do You Truly Belong To?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
+            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
+            "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
+            "title": "Who Is Your \"The Office\" Soulmate?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/en_img/52_3833cd63429b4a938a3456165f676b78.jpeg",
+            "title": "Which Marvel Avenger Is Actually Your Personality Twin?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
+            "pic": "./testname/img/en_img/65_b3e205a991284841b35f33220b1213d0.jpeg",
+            "title": "Which Grey’s Anatomy Doctor Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
+            "pic": "./testname/img/en_img/78_5b9450e9891e4f549e4b6b90fd0f65ae.jpeg",
+            "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed."
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/en_img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
+            "title": "Jedi or Sith: Which Side of the Force Are You On?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/en_img/104_e00709cb79e149dab8856fbe62355131.jpeg",
+            "title": "Are You a Lorelai or a Rory?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
+            "title": "Could You Actually Survive the Squid Game?"
+        }
+    ],
+    "movie_main": [
+        {
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+        "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+        "title": "Which Game of Thrones House Do You Truly Belong To?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
+            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
+            "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
+            "title": "Who Is Your \"The Office\" Soulmate?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/en_img/52_3833cd63429b4a938a3456165f676b78.jpeg",
+            "title": "Which Marvel Avenger Is Actually Your Personality Twin?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
+            "pic": "./testname/img/en_img/65_b3e205a991284841b35f33220b1213d0.jpeg",
+            "title": "Which Grey’s Anatomy Doctor Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
+            "pic": "./testname/img/en_img/78_5b9450e9891e4f549e4b6b90fd0f65ae.jpeg",
+            "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed."
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/en_img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
+            "title": "Jedi or Sith: Which Side of the Force Are You On?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/en_img/104_e00709cb79e149dab8856fbe62355131.jpeg",
+            "title": "Are You a Lorelai or a Rory?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
+            "title": "Could You Actually Survive the Squid Game?"
+        }],
+    "movie_rc": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+            "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+            "title": "Which Game of Thrones House Do You Truly Belong To?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
+            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
+            "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
+            "title": "Who Is Your \"The Office\" Soulmate?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/en_img/52_3833cd63429b4a938a3456165f676b78.jpeg",
+            "title": "Which Marvel Avenger Is Actually Your Personality Twin?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
+            "pic": "./testname/img/en_img/65_b3e205a991284841b35f33220b1213d0.jpeg",
+            "title": "Which Grey’s Anatomy Doctor Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
+            "pic": "./testname/img/en_img/78_5b9450e9891e4f549e4b6b90fd0f65ae.jpeg",
+            "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed."
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/en_img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
+            "title": "Jedi or Sith: Which Side of the Force Are You On?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/en_img/104_e00709cb79e149dab8856fbe62355131.jpeg",
+            "title": "Are You a Lorelai or a Rory?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
+            "title": "Could You Actually Survive the Squid Game?"
+        }
+    ],
+    "movie_mt": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+            "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+            "title": "Which Game of Thrones House Do You Truly Belong To?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
+            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
+            "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
+            "title": "Who Is Your \"The Office\" Soulmate?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/en_img/52_3833cd63429b4a938a3456165f676b78.jpeg",
+            "title": "Which Marvel Avenger Is Actually Your Personality Twin?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
+            "pic": "./testname/img/en_img/65_b3e205a991284841b35f33220b1213d0.jpeg",
+            "title": "Which Grey’s Anatomy Doctor Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
+            "pic": "./testname/img/en_img/78_5b9450e9891e4f549e4b6b90fd0f65ae.jpeg",
+            "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed."
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/en_img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
+            "title": "Jedi or Sith: Which Side of the Force Are You On?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/en_img/104_e00709cb79e149dab8856fbe62355131.jpeg",
+            "title": "Are You a Lorelai or a Rory?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
+            "title": "Could You Actually Survive the Squid Game?"
+        }
+    ],
 };
