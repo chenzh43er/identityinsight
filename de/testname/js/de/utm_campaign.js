@@ -529,7 +529,7 @@ const utm_campaignData = {
             "title": "Gesundheitsfürsorge: Bewerten Sie Ihre Gesundheitsrisiken durch Astrologie"
         },
     ],
-    "film":[
+    "movie":[
         {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
         "pic": "./testname/img/de_img/01_873b4e8b5495423ba5d48b479e2521fd.jpeg",
@@ -580,8 +580,8 @@ const utm_campaignData = {
             "pic": "./testname/img/de_img/118_289af450e192422088c288b1473f23d0.jpeg",
             "title": "Wednesday-Test: Wie viel Wednesday Addams steckt wirklich in deiner Persönlichkeit?"
         }],
-    "film_main":[],
-    "film_rc":[],
-    "film_mt":[],
+    "movie_main":[],
+    "movie_rc":[],
+    "movie_mt":[],
 
 };
