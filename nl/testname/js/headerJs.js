@@ -32,46 +32,58 @@ $(document).ready(function () {
 
     let indexHref = ""
     let home_str = ""
+    let movie_str = ""
 
     if(langPage == "fr"){
         home_str = "Acceuil"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "es"){
         home_str = "Inicio"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "en"){
         home_str = "Home"
         indexHref = "./list.html?"
+        movie_str = "Movie"
     }else if(langPage == "pt"){
         home_str = "Início"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "de"){
         home_str = "Startseite";   // 最常见、简洁
         indexHref = "./list.html?"; // 链接保持不变
+        movie_str = "Film"
     }else if(langPage == "ar"){
         home_str = "الرئيسية";
         indexHref = "./list.html?";
+        movie_str = "Film"
     }else if(langPage == "no"){
         home_str = "Hjem"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "jp") {
         home_str = "ホーム"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "sv") {
         home_str = "Startsida"
         indexHref = "./list.html?"
+        movie_str = "Film"
     }else if(langPage == "nl") {
         home_str = "Home";
         indexHref = "./list.html?";
-        indexHref = "./list.html?";
+        movie_str = "Film"
     }
     else{
         home_str = "الرئيسية";
         indexHref = "./list.html?";
+        movie_str = "Film"
     }
     let toListCat1 = "./list/harrypotter.html?"
     let toListCat12 = "./list/horoscope.html?"
     let toListCat13 = "./list/throwback.html?"
+    let toListCat14 = "./list/movie.html?"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
@@ -147,6 +159,9 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select4").innerText = throwbackStr;
     document.getElementById("menu_index_select4").href=toListCat13
+
+    document.getElementById("menu_index_select5").innerText = movie_str;
+    document.getElementById("menu_index_select5").href=toListCat14
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
