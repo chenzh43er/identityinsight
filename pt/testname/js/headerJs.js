@@ -71,6 +71,7 @@ $(document).ready(function () {
     }
     let toListCat1 = "./list/harrypotter.html?"
     let toListCat12 = "./list/horoscope.html?"
+    let toListCat13 = "./list/throwback.html?"
 
     if(!isNull(medium)){
         indexHref = indexHref + "&utm_medium=" +medium;
@@ -129,6 +130,7 @@ $(document).ready(function () {
     document.getElementById("menu_index_select2").href=toListCat1
 
     let menuText = "Horoscope";
+    let throwbackStr = "Throwback"
 
     if (langPage === "de") {
         menuText = "Horoskop";
@@ -142,6 +144,9 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select3").innerText = menuText;
     document.getElementById("menu_index_select3").href=toListCat12
+
+    document.getElementById("menu_index_select4").innerText = throwbackStr;
+    document.getElementById("menu_index_select4").href=toListCat13
 
     document.getElementById("picForUrlJump").href=indexHref
     window.addEventListener('load', () => {
