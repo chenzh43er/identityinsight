@@ -1089,7 +1089,7 @@
         page = Number(getQueryParam("page")) ;
         if(page==0){
 
-            let utm_campaign = "horo" ;
+            let utm_campaign = "Movie" ;
             let testData = utm_campaignData[utm_campaign]||0
 
             document.querySelector('.mostPopular').innerHTML = renderHomeData(testData,0,1,1,4);
@@ -1226,28 +1226,28 @@
     function initTitleIndex(){
         let langPage = getLangFromPath();
         if(langPage == "fr"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "es"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "pt"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "en"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Movie";
         }else if(langPage == "de"){
-            document.getElementById("title_mp").innerText = "Horoskop";
+            document.getElementById("title_mp").innerText = "Film";
         }else if(langPage == "ar"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "jp"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "no"){
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "sv"){
-            document.getElementById("title_mp").innerText="Horoskop";
+            document.getElementById("title_mp").innerText="Film";
         }else if(langPage == "nl"){
-            document.getElementById("title_mp").innerText="Horoskop";
+            document.getElementById("title_mp").innerText="Film";
         }
         else{
-            document.getElementById("title_mp").innerText="Horoscope";
+            document.getElementById("title_mp").innerText="Film";
         }
 
 
@@ -1515,7 +1515,7 @@
 
                 let testData = utm_campaignData[utm_campaign]||0
                 if(testData.length > 0){
-                    document.getElementById("title_mp").innerText="Harry Potter";
+                    document.getElementById("title_mp").innerText="Movie";
                 }
 
                 const paramLast = getReferrerParams();
