@@ -549,11 +549,6 @@ const utm_campaignData = {
             "title": "Which Game of Thrones House Do You Truly Belong To?"
         },
         {
-            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
-            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
-            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
-        },
-        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
             "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
             "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
@@ -562,6 +557,11 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
             "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
             "title": "Who Is Your \"The Office\" Soulmate?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
+            "pic": "./testname/img/en_img/14_cd1a97730a4d4af8a2aaf03a8f4c0b75.jpeg",
+            "title": "Vampire, Werewolf, or Witch: What Would You Be in Mystic Falls?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
@@ -749,4 +749,19 @@ const utm_campaignData = {
             "title": "Could You Actually Survive the Squid Game?"
         }
     ],
+    "Thrones":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+        "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+        "title": "Which Game of Thrones House Do You Truly Belong To?"
+    },
+    "Stranger":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+        "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
+        "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
+    },
+    "Office":{
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+        "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
+        "title": "Who Is Your \"The Office\" Soulmate?"
+    }
 };
