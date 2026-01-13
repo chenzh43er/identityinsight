@@ -189,7 +189,7 @@ $(document).ready(function () {
 
     document.getElementById("menu_index_select5").innerText = movie_str;
     document.getElementById("menu_index_select5").href=toListCat14
-    
+
     document.getElementById("menu_index_select6").innerText = quiz_str;
     document.getElementById("menu_index_select6").href=toListCat15
 
