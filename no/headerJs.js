@@ -13,19 +13,17 @@ $(document).ready(function () {
 
     let campaign =getQueryParam("campaign") ;
 
-    //let content =getQueryParam("content") ;
-
     let utm_campaign =getQueryParam("utm_campaign") ;
 
     let utm_keyword = getQueryParam("keyword") ;
 
     let utm_medium = getQueryParam("medium") ;
 
-    let utm_source = getQueryParam("source") ;
+    let source = getQueryParam("source") ;
 
     let country = getQueryParam("country")
 
-    let source = getQueryParam("utm_source")
+    let utm_source = getQueryParam("utm_source")
 
     let medium = getQueryParam("utm_medium")
 
@@ -91,13 +89,9 @@ $(document).ready(function () {
     }
 
     if(!isNull(source)){
-        indexHref = indexHref + "&utm_source=" +source;
-        toListCat1 = toListCat1 + "&utm_source=" +source;
+        indexHref = indexHref + "&source=" +source;
+        toListCat1 = toListCat1 + "&source=" +source;
     }
-
-    // if(!isNull(content)){
-    //     indexHref = indexHref + "&content=" +content;
-    // }
 
     if(!isNull(campaign)){
         indexHref = indexHref + "&campaign=" +campaign;
@@ -110,8 +104,8 @@ $(document).ready(function () {
     }
 
     if(!isNull(utm_source)){
-        indexHref = indexHref + "&source=" +utm_source;
-        toListCat1 = toListCat1+ "&source=" +utm_source;
+        indexHref = indexHref + "&utm_source=" +utm_source;
+        toListCat1 = toListCat1+ "&utm_source=" +utm_source;
     }
 
     if(!isNull(utm_keyword)){
