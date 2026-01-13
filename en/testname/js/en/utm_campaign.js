@@ -749,7 +749,8 @@ const utm_campaignData = {
             "title": "Could You Actually Survive the Squid Game?"
         }
     ],
-    "Thrones":[{
+    "Thrones":[
+        {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
         "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
         "title": "Which Game of Thrones House Do You Truly Belong To?"
@@ -774,7 +775,8 @@ const utm_campaignData = {
             "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
             "title": "Could You Actually Survive the Squid Game?"
         }],
-    "Stranger":[{
+    "Stranger":[
+        {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
         "pic": "./testname/img/en_img/26_8a8d9beb1a9346f08ea8beb8621a6c08.jpeg",
         "title": "Which \"Stranger Things\" Character Are You Based on Your Personality?"
@@ -799,7 +801,8 @@ const utm_campaignData = {
             "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
             "title": "Could You Actually Survive the Squid Game?"
         }],
-    "Office":[{
+    "Office":[
+        {
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
         "pic": "./testname/img/en_img/39_49e54113b732431bafc2111a052a0fcc.jpeg",
         "title": "Who Is Your \"The Office\" Soulmate?"
@@ -823,5 +826,59 @@ const utm_campaignData = {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
             "pic": "./testname/img/en_img/115_d7ebf4fd0fa443d1854aa0c4a9196633.jpeg",
             "title": "Could You Actually Survive the Squid Game?"
-        }]
+        }],
+    "90S":[
+        {
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
+        "pic": "./testname/img/en_img/01_b158bcd6a30e4a42880095969d06750d.png",
+        "title": "Only Real 90s Kids Can Identify 10/10 Of These Objects. Can You?"
+    },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10072",
+            "pic": "./testname/img/en_img/14_8ca6b01b4ef34a54aa4b3821fa8e2703.jpeg",
+            "title": "Does Your Aesthetic Scream Gen Z or Millennial?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10073",
+            "pic": "./testname/img/en_img/27_9cc568f92a8448298c7b2fb4b0b181bc.jpeg",
+            "title": "Pick Your Favorite Childhood Snacks And We’ll Guess Your Real Age!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10074",
+            "pic": "./testname/img/en_img/40_6e31e4bbf09c44d2aed5e69a06e3b623.png",
+            "title": "What Kind of Nostalgic Soul Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
+            "pic": "./testname/img/en_img/53_5bda334b7c154c569967072e23306b8c.png",
+            "title": "If You Use These \"Outdated\" Slangs, You’re Officially Old."
+        }],
+    "Snacks":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10073",
+            "pic": "./testname/img/en_img/27_9cc568f92a8448298c7b2fb4b0b181bc.jpeg",
+            "title": "Pick Your Favorite Childhood Snacks And We’ll Guess Your Real Age!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
+            "pic": "./testname/img/en_img/01_b158bcd6a30e4a42880095969d06750d.png",
+            "title": "Only Real 90s Kids Can Identify 10/10 Of These Objects. Can You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10072",
+            "pic": "./testname/img/en_img/14_8ca6b01b4ef34a54aa4b3821fa8e2703.jpeg",
+            "title": "Does Your Aesthetic Scream Gen Z or Millennial?"
+        },
+
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10074",
+            "pic": "./testname/img/en_img/40_6e31e4bbf09c44d2aed5e69a06e3b623.png",
+            "title": "What Kind of Nostalgic Soul Are You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
+            "pic": "./testname/img/en_img/53_5bda334b7c154c569967072e23306b8c.png",
+            "title": "If You Use These \"Outdated\" Slangs, You’re Officially Old."
+        }
+        ]
 };
