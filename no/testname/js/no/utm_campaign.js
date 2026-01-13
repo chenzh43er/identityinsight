@@ -575,4 +575,31 @@ const utm_campaignData = {
             "title": "Ta valg basert på stjernetegnet ditt og få din personlighetsanalyse!"
         }
     ],
+    "Quiz":[
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
+            "pic": "./testname/img/no_img/01_72961c58435948fcb66a55ee39102dc3.png",
+            "title": "Hvor i Norge kommer du egentlig fra? Vi gjetter din dialekt!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
+            "pic": "./testname/img/no_img/13_21a6404366f1480e837b09d956e388f0.jpeg",
+            "title": "Hvilken hytte-type er du egentlig? Finn din perfekte feriestil!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
+            "pic": "./testname/img/no_img/25_063a0f1f9d37479a9261cb3f25afd67d.jpeg",
+            "title": "Er du en ekte Minecraft-ekspert? Bare 5% klarer denne quizen!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
+            "pic": "./testname/img/no_img/37_13a7e1b765834d9bbecb4485f059fba6.jpeg",
+            "title": "Hvor «typisk norsk» er du egentlig? Ta testen og få svaret!"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
+            "pic": "./testname/img/no_img/49_f51ecfed285c44999dd4f86b3c637e28.jpeg",
+            "title": "Klarer du deg alene på fjellet? Test dine overlevelsesevner!"
+        }
+    ]
 };
