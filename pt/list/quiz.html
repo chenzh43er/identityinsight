@@ -1090,7 +1090,7 @@
         page = Number(getQueryParam("page")) ;
         if(page==0){
 
-            let utm_campaign = "movie" ;
+            let utm_campaign = "Quiz" ;
             let testData = utm_campaignData[utm_campaign]||0
 
             document.querySelector('.mostPopular').innerHTML = renderHomeData(testData,0,1,1,4);
@@ -1227,28 +1227,28 @@
     function initTitleIndex(){
         let langPage = getLangFromPath();
         if(langPage == "fr"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "es"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "pt"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "en"){
-            document.getElementById("title_mp").innerText="Movie";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "de"){
-            document.getElementById("title_mp").innerText = "Film";
+            document.getElementById("title_mp").innerText = "Quiz";
         }else if(langPage == "ar"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "jp"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "no"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "sv"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }else if(langPage == "nl"){
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }
         else{
-            document.getElementById("title_mp").innerText="Film";
+            document.getElementById("title_mp").innerText="Quiz";
         }
 
 
@@ -1516,7 +1516,7 @@
 
                 let testData = utm_campaignData[utm_campaign]||0
                 if(testData.length > 0){
-                    document.getElementById("title_mp").innerText="Movie";
+                    document.getElementById("title_mp").innerText="Quiz";
                 }
 
                 const paramLast = getReferrerParams();
