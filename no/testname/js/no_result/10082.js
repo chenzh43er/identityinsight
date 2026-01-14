@@ -22,7 +22,7 @@ og holder hodet kaldt.
 Fjellet er
 ditt andre hjem.
     `,
-    "mainPic": "./testname/img/en_img/58_4cb0b37158ae45d08e41710d1c078716.png"
+    "mainPic": "./testname/img/no_img/58_4cb0b37158ae45d08e41710d1c078716.png"
   },
   "2": {
     "title": "Klarer du deg alene på fjellet? Test dine overlevelsesevner!",
@@ -45,7 +45,7 @@ Les deg opp
 på kart og kompass,
 så blir du helt trygg!
     `,
-    "mainPic": "./testname/img/en_img/59_eb8446656a144ac69c859ea42883d196.jpeg"
+    "mainPic": "./testname/img/no_img/59_eb8446656a144ac69c859ea42883d196.jpeg"
   },
   "3": {
     "title": "Klarer du deg alene på fjellet? Test dine overlevelsesevner!",
@@ -67,7 +67,7 @@ i godt vær,
 eller gå med
 en erfaren guide!
     `,
-    "mainPic": "./testname/img/en_img/60_3a7964cbd6294346807b577cf8ec92f8.jpeg"
+    "mainPic": "./testname/img/no_img/60_3a7964cbd6294346807b577cf8ec92f8.jpeg"
   },
   "4": {
     "title": "Klarer du deg alene på fjellet? Test dine overlevelsesevner!",
@@ -90,6 +90,6 @@ Fortsett å gå tur —
 erfaring kommer
 med milene!
     `,
-    "mainPic": "./testname/img/en_img/57_b32d1c417bb64fe19723d3ddcbf8b6be.png"
+    "mainPic": "./testname/img/no_img/57_b32d1c417bb64fe19723d3ddcbf8b6be.png"
   }
 };
