@@ -601,5 +601,213 @@ const utm_campaignData = {
             "pic": "./testname/img/no_img/49_f51ecfed285c44999dd4f86b3c637e28.jpeg",
             "title": "Klarer du deg alene på fjellet? Test dine overlevelsesevner!"
         }
-    ]
+    ],
+    "movie" : [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/no_img/01_7c047c4abc71413289f445117ea1acf6.jpeg",
+            "title": "Hvilken karakter fra «SKAM» er din sjelevenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/no_img/14_8c9a19e220504447a4b58acca2ce22eb.jpeg",
+            "title": "Ville du overlevd en kveld med gjengen fra «Exit»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/no_img/25_76be1b4f460a4b6c800a5a8f50e6f0ee.jpeg",
+            "title": "Hvilket Galtvort-hus tilhører du egentlig?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/no_img/36_f88e22d7c0bc4708a511791d7499a2d8.jpeg",
+            "title": "Har du det som skal til for å vinne «71 grader nord»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/no_img/47_687d91c0174045f8b2faf3c5f2f099f0.jpeg",
+            "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
+            "pic": "./testname/img/no_img/58_322cc8cef7704b9bb8971fe27e9e9028.jpeg",
+            "title": "Hvilken norrøn guddom skjuler seg i deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
+            "pic": "./testname/img/no_img/69_ae79bc7bd1aa40a083894c1bec8c612b.jpeg",
+            "title": "Hvor lik er du egentlig Pørni i hverdagen?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
+            "pic": "./testname/img/no_img/80_9ad4f7f9e5a345d693f8ab48a915781a.jpeg",
+            "title": "Hvem av de seks vennene er du i din vennegjeng?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
+            "pic": "./testname/img/no_img/94_ea74bc0e233b49a991e5551c50f06ffa.jpeg",
+            "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
+            "pic": "./testname/img/no_img/106_088a5fe35f4345858d2e9a443723b64e.jpeg",
+            "title": "Hvilken viking-type er du? Finn din plass på skipet!"
+        }
+    ],
+    "movie_main": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/no_img/01_7c047c4abc71413289f445117ea1acf6.jpeg",
+            "title": "Hvilken karakter fra «SKAM» er din sjelevenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/no_img/14_8c9a19e220504447a4b58acca2ce22eb.jpeg",
+            "title": "Ville du overlevd en kveld med gjengen fra «Exit»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/no_img/25_76be1b4f460a4b6c800a5a8f50e6f0ee.jpeg",
+            "title": "Hvilket Galtvort-hus tilhører du egentlig?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/no_img/36_f88e22d7c0bc4708a511791d7499a2d8.jpeg",
+            "title": "Har du det som skal til for å vinne «71 grader nord»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/no_img/47_687d91c0174045f8b2faf3c5f2f099f0.jpeg",
+            "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
+            "pic": "./testname/img/no_img/58_322cc8cef7704b9bb8971fe27e9e9028.jpeg",
+            "title": "Hvilken norrøn guddom skjuler seg i deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
+            "pic": "./testname/img/no_img/69_ae79bc7bd1aa40a083894c1bec8c612b.jpeg",
+            "title": "Hvor lik er du egentlig Pørni i hverdagen?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
+            "pic": "./testname/img/no_img/80_9ad4f7f9e5a345d693f8ab48a915781a.jpeg",
+            "title": "Hvem av de seks vennene er du i din vennegjeng?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
+            "pic": "./testname/img/no_img/94_ea74bc0e233b49a991e5551c50f06ffa.jpeg",
+            "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
+            "pic": "./testname/img/no_img/106_088a5fe35f4345858d2e9a443723b64e.jpeg",
+            "title": "Hvilken viking-type er du? Finn din plass på skipet!"
+        }
+    ],
+    "movie_rc": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/no_img/01_7c047c4abc71413289f445117ea1acf6.jpeg",
+            "title": "Hvilken karakter fra «SKAM» er din sjelevenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/no_img/14_8c9a19e220504447a4b58acca2ce22eb.jpeg",
+            "title": "Ville du overlevd en kveld med gjengen fra «Exit»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/no_img/25_76be1b4f460a4b6c800a5a8f50e6f0ee.jpeg",
+            "title": "Hvilket Galtvort-hus tilhører du egentlig?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/no_img/36_f88e22d7c0bc4708a511791d7499a2d8.jpeg",
+            "title": "Har du det som skal til for å vinne «71 grader nord»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/no_img/47_687d91c0174045f8b2faf3c5f2f099f0.jpeg",
+            "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
+            "pic": "./testname/img/no_img/58_322cc8cef7704b9bb8971fe27e9e9028.jpeg",
+            "title": "Hvilken norrøn guddom skjuler seg i deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
+            "pic": "./testname/img/no_img/69_ae79bc7bd1aa40a083894c1bec8c612b.jpeg",
+            "title": "Hvor lik er du egentlig Pørni i hverdagen?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
+            "pic": "./testname/img/no_img/80_9ad4f7f9e5a345d693f8ab48a915781a.jpeg",
+            "title": "Hvem av de seks vennene er du i din vennegjeng?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
+            "pic": "./testname/img/no_img/94_ea74bc0e233b49a991e5551c50f06ffa.jpeg",
+            "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
+            "pic": "./testname/img/no_img/106_088a5fe35f4345858d2e9a443723b64e.jpeg",
+            "title": "Hvilken viking-type er du? Finn din plass på skipet!"
+        }
+    ],
+    "movie_mt": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
+            "pic": "./testname/img/no_img/01_7c047c4abc71413289f445117ea1acf6.jpeg",
+            "title": "Hvilken karakter fra «SKAM» er din sjelevenn?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
+            "pic": "./testname/img/no_img/14_8c9a19e220504447a4b58acca2ce22eb.jpeg",
+            "title": "Ville du overlevd en kveld med gjengen fra «Exit»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
+            "pic": "./testname/img/no_img/25_76be1b4f460a4b6c800a5a8f50e6f0ee.jpeg",
+            "title": "Hvilket Galtvort-hus tilhører du egentlig?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/no_img/36_f88e22d7c0bc4708a511791d7499a2d8.jpeg",
+            "title": "Har du det som skal til for å vinne «71 grader nord»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/no_img/47_687d91c0174045f8b2faf3c5f2f099f0.jpeg",
+            "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
+            "pic": "./testname/img/no_img/58_322cc8cef7704b9bb8971fe27e9e9028.jpeg",
+            "title": "Hvilken norrøn guddom skjuler seg i deg?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
+            "pic": "./testname/img/no_img/69_ae79bc7bd1aa40a083894c1bec8c612b.jpeg",
+            "title": "Hvor lik er du egentlig Pørni i hverdagen?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
+            "pic": "./testname/img/no_img/80_9ad4f7f9e5a345d693f8ab48a915781a.jpeg",
+            "title": "Hvem av de seks vennene er du i din vennegjeng?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
+            "pic": "./testname/img/no_img/94_ea74bc0e233b49a991e5551c50f06ffa.jpeg",
+            "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
+            "pic": "./testname/img/no_img/106_088a5fe35f4345858d2e9a443723b64e.jpeg",
+            "title": "Hvilken viking-type er du? Finn din plass på skipet!"
+        }
+    ],
 };
