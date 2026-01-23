@@ -544,6 +544,16 @@ const utm_campaignData = {
         }],
     "movie" : [
         {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/en_img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/en_img/13_21dbf58937da4e3e81986d713f5ab257.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
             "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
             "title": "Which Game of Thrones House Do You Truly Belong To?"
@@ -596,9 +606,19 @@ const utm_campaignData = {
     ],
     "movie_main": [
         {
-        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
-        "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
-        "title": "Which Game of Thrones House Do You Truly Belong To?"
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/en_img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/en_img/13_21dbf58937da4e3e81986d713f5ab257.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
+            "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
+            "title": "Which Game of Thrones House Do You Truly Belong To?"
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
@@ -646,6 +666,16 @@ const utm_campaignData = {
             "title": "Could You Actually Survive the Squid Game?"
         }],
     "movie_rc": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/en_img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/en_img/13_21dbf58937da4e3e81986d713f5ab257.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
             "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
@@ -698,6 +728,16 @@ const utm_campaignData = {
         }
     ],
     "movie_mt": [
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
+            "pic": "./testname/img/en_img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
+            "pic": "./testname/img/en_img/13_21dbf58937da4e3e81986d713f5ab257.jpeg",
+            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+        },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
             "pic": "./testname/img/en_img/01_5357e60560c946ec8ff4b50c69568d48.jpeg",
