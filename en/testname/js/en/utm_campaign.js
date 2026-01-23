@@ -920,5 +920,46 @@ const utm_campaignData = {
             "pic": "./testname/img/en_img/53_5bda334b7c154c569967072e23306b8c.png",
             "title": "If You Use These \"Outdated\" Slangs, You’re Officially Old."
         }
-        ]
+        ],
+    "Quiz":[
+        {
+        "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
+        "pic": "./testname/img/en_img/01_1c91db1a9cbf4ee6927b002b49f69e06.jpeg",
+        "title": "Are You the \"Main Character\" or Just an NPC in Other People’s Lives?"
+    },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
+            "pic": "./testname/img/en_img/13_64df383c925c4955a00e52d6f1a47bac.jpeg",
+            "title": "The 2026 \"Brain Rot\" Exam: How Out of Touch Are You with Gen Alpha Slang?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
+            "pic": "./testname/img/en_img/25_5289215a84fd4e919c0f3fdeeb241561.jpeg",
+            "title": "What Is Your Most Toxic \"Red Flag\" That Everyone Else Sees But You?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
+            "pic": "./testname/img/en_img/37_97b81b90d8d84895969a0f1c4de09f6b.jpeg",
+            "title": "What Kind of \"Villain Arc\" Are You Currently In?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
+            "pic": "./testname/img/en_img/49_6c3b1806865e42b3ab6bf201bd319b0f.jpeg",
+            "title": "Could You Survive a Week Without Your Phone? (The Results Are Brutal)."
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10093",
+            "pic": "./testname/img/en_img/61_08ef1629bb304d6e9f0e7b807404ecae.jpeg",
+            "title": "What Era of Your Life Are You Secretly In Right Now?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10094",
+            "pic": "./testname/img/en_img/72_ccf21a1319de44cd880eb0676e7be7c8.jpeg",
+            "title": "Which Viral Meme Era Defines Your Personality in 2026?"
+        },
+        {
+            "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10095",
+            "pic": "./testname/img/en_img/84_d8c6d49357a14335a56384fa0a58a44a.jpeg",
+            "title": "Are You a Main Character or Supporting NPC in Your Own Life?"
+        }]
 };
