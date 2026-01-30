@@ -674,7 +674,7 @@ const utm_campaignData = {
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
             "pic": "./testname/img/en_img/13_21dbf58937da4e3e81986d713f5ab257.jpeg",
-            "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀"
+            "title": "AI or Human? Only 1% of People Can Spot All 10 Deepfakes in This Quiz."
         },
         {
             "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",

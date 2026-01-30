@@ -74,6 +74,7 @@ let quizData = {
   },
   {
     "question": "When you leave a room, people…",
+    "pic": "",
     "answers": [
       { "answer": "Notice your absence immediately", "aPic": "", "aId": 1 },
       { "answer": "Notice eventually", "aPic": "", "aId": 2 },
