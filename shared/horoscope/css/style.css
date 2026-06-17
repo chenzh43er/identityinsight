@@ -5623,14 +5623,17 @@ input[type="search"]::-webkit-search-clear-button {
 
 .horo-badges-item .star-full {
     background: url(../svg/full-star.svg) center no-repeat;
+    background-size: 16px 16px;
 }
 
 .horo-badges-item .star-half {
     background: url(../svg/half-star.svg) center no-repeat;
+    background-size: 16px 16px;
 }
 
 .horo-badges-item .star-empty {
     background: url(../svg/empty-star.svg) center no-repeat;
+    background-size: 16px 16px;
 }
 
 .retake-quiz-ls {

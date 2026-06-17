@@ -6,7 +6,7 @@
 
 <head>
   <script>window.onscroll = null;</script>
-  <!-- 预加载关键资�?-->
+  <!-- 预加载关键资源-->
   <link rel="preload" href="/shared/css/one.css" as="style">
   <link rel="preload" href="/shared/css/common.css" as="style">
   <link rel="preload" href="/shared/js/jquery.min.js?V=20200214" as="script">
@@ -164,14 +164,14 @@
       padding: 0px 30px
     }
 
-    /* 桌面端：右对齐菜�?*/
+    /* 桌面端：右对齐菜单*/
     nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
       gap: 20px;
-      justify-content: flex-end; /* �?关键：右对齐 */
+      justify-content: flex-end; /* ★关键：右对齐 */
       align-items: center;
     }
 
@@ -213,7 +213,7 @@
       display: none;
     }
 
-    /* ========== 移动端样�?========== */
+    /* ========== 移动端样式========== */
     @media (max-width: 768px) {
 
       .home_tab {
@@ -285,11 +285,11 @@
         padding: 0;
         overflow-x: auto; /* 适应小屏横向滚动 */
         white-space: nowrap;
-        scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
+        scrollbar-width: none; /* 隐藏滚动条（Firefox）*/
       }
 
       .tempCatHref ul::-webkit-scrollbar {
-        display: none; /* 隐藏滚动条（Chrome/Safari�?*/
+        display: none; /* 隐藏滚动条（Chrome/Safari）*/
       }
 
       .tempCatHref li {
@@ -298,7 +298,7 @@
 
       .tempCatHref a {
         display: inline-block;
-        text-decoration: none; /* 去掉默认下划�?*/
+        text-decoration: none; /* 去掉默认下划线*/
         color: #000; /* 黑色文字 */
         font-weight: 600;
         padding: 1px 1px;
@@ -312,7 +312,7 @@
     }
   </style>
   <style>
-    /* 调整 Cookiebot 默认 banner 样式为底部横�?*/
+    /* 调整 Cookiebot 默认 banner 样式为底部横条*/
     #CybotCookiebotDialog {
       position: fixed !important;
       bottom: 0 !important;
@@ -438,14 +438,14 @@
       <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
            data-id="16a4503" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
           <div class="elementor-widget-container">
             <nav style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
               <!-- 汉堡按钮 -->
-              <button class="menu-toggle" id="menuToggle">�?/button>
+              <button class="menu-toggle" id="menuToggle">☰</button>
               <ul id="menu-1-20d443e">
                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -488,7 +488,7 @@
     <span id="title_lt"></span><img src="/testname/img/title_ornament_right.png" alt="" fetchpriority="high">
   </div>
 
-  <div class="result-container" style="text-align: center; /* 让文字居�?*/ justify-content: center; /* 水平居中 */
+  <div class="result-container" style="text-align: center; /* 让文字居中*/ justify-content: center; /* 水平居中 */
   align-items: center;    margin-left: 60px; /* 垂直居中 */">
     <img decoding="async"
          src=""
@@ -506,8 +506,8 @@
   </div>
 
   <div class="paginationNext">
-    <button id="prevPage">上一�?/button>
-    <button id="nextPage">下一�?/button>
+    <button id="prevPage">上一☰</button>
+    <button id="nextPage">下一☰</button>
   </div>
 
 <!--  <div id="indexadv_4" class = "mid_adv">-->
@@ -1136,7 +1136,7 @@
     }
 
     function isMobileByWidth() {
-      return window.innerWidth <= 768; // 你也可以设为 600�?80 等更严格的�?
+      return window.innerWidth <= 768; // 你也可以设为 600 – 80 等更严格的值
     }
 
     function returnAdvWord(){
@@ -1155,8 +1155,8 @@
       // 渲染数据
       document.querySelector('.youMayLike').innerHTML = renderHomeData(pageData, 1, 0, 0, 3);
 
-      // 更新分页状�?
-      //document.querySelector('.pagination-info').innerText = `�?${page} / ${totalPages} 页`;
+      // 更新分页状态
+      //document.querySelector('.pagination-info').innerText = `第${page} / ${totalPages} 页`;
     }
 
     function initHomeData() {
@@ -1215,14 +1215,14 @@
         const listAdv_2 = document.getElementById('listAdv_2')
 
 
-        // 获取 class �?my-img 的所有图�?
+        // 获取 class="my-img 的所有图片
         const images = document.querySelectorAll('.common_three_li_img');
         // 取前两个
         const firstTwo = Array.from(images).slice(0, 2);
 
         firstTwo.forEach((img, index) => {
           if (img.complete && img.naturalHeight !== 0) {
-            console.log(`�?{index + 1}张图片已加载完成（可能来自缓存）`);
+            console.log(`第${index + 1}张图片已加载完成（可能来自缓存）`);
             if (listAdv_2) {
               const observer = new IntersectionObserver((entries, obs) => {
                 entries.forEach(entry => {
@@ -1238,7 +1238,7 @@
             }
           } else {
             img.onload = () => {
-              console.log(`�?{index + 1}张图片现在加载完成`);
+              console.log(`第${index + 1}张图片现在加载完成`);
               if (listAdv_2) {
                 const observer = new IntersectionObserver((entries, obs) => {
                   entries.forEach(entry => {
@@ -1254,7 +1254,7 @@
               }
             };
             img.onerror = () => {
-              console.log(`�?{index + 1}张图片加载失败`);
+              console.log(`第${index + 1}张图片加载失败`);
             };
           }
         });
@@ -1265,7 +1265,7 @@
           currentPage++
         }
 
-        // ======== 翻页按钮事件（跳�?URL�?========
+        // ======== 翻页按钮事件（跳转 URL========
         document.getElementById('prevPage').addEventListener('click', () => {
           if (currentPage > 0) {
             window.location.href = `?page=${currentPage - 1}`;
@@ -1345,7 +1345,7 @@
     function lockScroll() {
       document.body.style.overflow = 'hidden';
       window.scrollTo(0, 0);
-      //status.textContent = '当前状态：页面滚动已锁�?;
+      //status.textContent = '当前状态：页面滚动已锁定;
       //status.className = 'status locked';
       //scrollIndicator.style.display = 'none';
     }
@@ -1353,7 +1353,7 @@
     // 解锁滚动函数
     function unlockScroll() {
       document.body.style.overflow = 'auto';
-      //status.textContent = '当前状态：页面滚动已解�?;
+      //status.textContent = '当前状态：页面滚动已解锁;
       //status.className = 'status unlocked';
       //scrollIndicator.style.display = 'flex';
     }
@@ -1404,11 +1404,11 @@
         document.getElementById("prevPage").innerText = "الصفحة السابقة";
         document.getElementById("nextPage").innerText = "الصفحة التالية";
       }else if(langPage == "jp"){
-        document.getElementById("title_lt").innerText="最�?;
-        document.getElementById("popular_btn_h2").innerText = "人気�?;
-        document.getElementById("latest_btn_h2").innerText = "最�?;
-        document.getElementById("prevPage").innerText = "前のペー�?;
-        document.getElementById("nextPage").innerText = "次のペー�?;
+        document.getElementById("title_lt").innerText="最新";
+        document.getElementById("popular_btn_h2").innerText = "人気順";
+        document.getElementById("latest_btn_h2").innerText = "最新";
+        document.getElementById("prevPage").innerText = "前のページ";
+        document.getElementById("nextPage").innerText = "次のページ";
       }else if(langPage == "no"){
         document.getElementById("title_lt").innerText="De Nyeste";
         document.getElementById("popular_btn_h2").innerText = "Mest Populære";
@@ -1527,14 +1527,14 @@
 
       script.onload = function () {
         //console.log(`${src} 加载完成`);
-        if (callback) callback(); // 加载完成后执行回调函�?
+        if (callback) callback(); // 加载完成后执行回调函数
       };
 
       script.onerror = function () {
         //console.error(`${src} 加载失败`);
       };
 
-      document.head.appendChild(script); // 插入�?`head` �?
+      document.head.appendChild(script); // 插入到`head` 中
     }
 
     function deleteCurrentPathCookies() {
@@ -1643,7 +1643,7 @@
       loadScript(homedataJs, function () {
         loadScript(utm_campaign_js_url, function () {
           deleteCurrentPathCookies();
-          // 初始化数�?
+          // 初始化数据
           initFunctionForPage();
 
           let utm_campaign = getQueryParam("campaign");
@@ -1754,7 +1754,7 @@
 
   toggle.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('active');
-    toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
+    toggle.textContent = isOpen ? '×' : '☰'; // 用字符切换：汉堡 ☰ X
   });
 </script>
 

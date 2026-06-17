@@ -1,7 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "identityinsight",
-  "account_id": "892acd09257ee1251aca55e5a6f9946e",
   "compatibility_date": "2025-03-26",
   "pages_build_output_dir": "."
 }

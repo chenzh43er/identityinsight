@@ -11,38 +11,38 @@
             return segment;
         }
     }
-    return pathSegments[1] || pathSegments[0] || 'sv';
+    return 'en';
 }
 
     if(getLangFromPath() == "de"){
       const base = document.querySelector('base');
       base.href = '/de/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/de/horoscope/');
     }else if(getLangFromPath() == "sv"){
       const base = document.querySelector('base');
       base.href = '/sv/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/sv/horoscope/');
     }else if(getLangFromPath() == "en"){
       const base = document.querySelector('base');
       base.href = '/en/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/en/horoscope/');
     }else if(getLangFromPath() == "fr"){
       const base = document.querySelector('base');
       base.href = '/fr/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/fr/horoscope/');
     }else if(getLangFromPath() == "no"){
       const base = document.querySelector('base');
       base.href = '/no/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/no/horoscope/');
     }else if(getLangFromPath() == "nl"){
       const base = document.querySelector('base');
       base.href = '/nl/horoscope/'; // 绝对路径形式
-      // 或者使用相对路�?
+      // 或者使用相对路径
       base.setAttribute('href', '/nl/horoscope/');
     }
 
@@ -68,14 +68,14 @@
   <link rel="preconnect" href="https://googleads.g.doubleclick.net">
   <link rel="preconnect" href="https://tpc.googlesyndication.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
-  <!-- 非关�?CSS 异步加载 -->
+  <!-- 非关键CSS 异步加载 -->
   <link rel="preload" href="/shared/horoscope/css/one.css" as="style" onload="this.rel='stylesheet'">
   <link rel="preload" href="/shared/horoscope/css/common.css" as="style" onload="this.rel='stylesheet'">
 
   <!-- Google Ads 异步加载 -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
-  <!-- 本地 JS 延迟加载，确保优先渲染内�?-->
+  <!-- 本地 JS 延迟加载，确保优先渲染内容-->
   <script src="/shared/horoscope/js/utlParam.js"></script>
 
 
@@ -232,14 +232,14 @@
       padding: 0px 30px
     }
 
-    /* 桌面端：右对齐菜�?*/
+    /* 桌面端：右对齐菜单*/
     nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
       gap: 20px;
-      justify-content: flex-end; /* �?关键：右对齐 */
+      justify-content: flex-end; /* ★关键：右对齐 */
       align-items: center;
     }
 
@@ -281,7 +281,7 @@
       display: none;
     }
 
-    /* ========== 移动端样�?========== */
+    /* ========== 移动端样式========== */
     @media (max-width: 768px) {
 
       .home_tab {
@@ -353,11 +353,11 @@
         padding: 0;
         overflow-x: auto; /* 适应小屏横向滚动 */
         white-space: nowrap;
-        scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
+        scrollbar-width: none; /* 隐藏滚动条（Firefox）*/
       }
 
       .tempCatHref ul::-webkit-scrollbar {
-        display: none; /* 隐藏滚动条（Chrome/Safari�?*/
+        display: none; /* 隐藏滚动条（Chrome/Safari）*/
       }
 
       .tempCatHref li {
@@ -366,7 +366,7 @@
 
       .tempCatHref a {
         display: inline-block;
-        text-decoration: none; /* 去掉默认下划�?*/
+        text-decoration: none; /* 去掉默认下划线*/
         color: #000; /* 黑色文字 */
         font-weight: 600;
         padding: 1px 1px;
@@ -380,7 +380,7 @@
     }
   </style>
   <style>
-    /* 调整 Cookiebot 默认 banner 样式为底部横�?*/
+    /* 调整 Cookiebot 默认 banner 样式为底部横条*/
     #CybotCookiebotDialog {
       position: fixed !important;
       bottom: 0 !important;
@@ -522,14 +522,14 @@
       <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
            data-id="16a4503" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
           <div class="elementor-widget-container">
             <nav style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
               <!-- 汉堡按钮 -->
-              <button class="menu-toggle" id="menuToggle">�?/button>
+              <button class="menu-toggle" id="menuToggle">☰</button>
               <ul id="menu-1-20d443e">
                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -556,14 +556,14 @@
                         </span>
         </a>
       </li>
-      �?
+      >
       <li>
         <a href="/horoscope/sex/">
                         <span>
                             Sex                        </span>
         </a>
       </li>
-      �?
+      >
       <li>
                     <span>
                         Aries                    </span>
@@ -829,6 +829,7 @@
   </section>
 </div>
 
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3db45fd8c8224471beb59f222bd93f27","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 <!-- perf:scripts -->
 <script src="/shared/js/google_adv.js"></script>
@@ -837,9 +838,9 @@
 <script src="/shared/horoscope/js/common.js"></script>
 <script>
 
-  // 获取今天的日�?
+  // 获取今天的日期
   const today = new Date();
-  const month = today.getMonth() + 1; // 月份�?0 开�?
+  const month = today.getMonth() + 1; // 月份从0 开始
   const day = today.getDate();
 
   let dataDate = `/shared/horoscope/js/sv/zodic.json.js`
@@ -859,40 +860,7 @@
   }
 
   // day 对应 JS 文件映射
-  const dayToJs = {
-    1: '3.js',
-    2: '3.js',
-    3: '3.js',
-    4: '4.js',
-    5: '4.js',
-    6: '6.js',
-    7: '7.js',
-    8: '8.js',
-    9: '9.js',
-    10: '9.js',
-    11: '11.js',
-    12: '11.js',
-    13: '3.js',
-    14: '14.js',
-    15: '15.js',
-    16: '16.js',
-    17: '16.js',
-    18: '3.js',
-    19: '3.js',
-    20: '3.js',
-    21: '21.js',
-    22: '3.js',
-    23: '3.js',
-    24: '3.js',
-    25: '3.js',
-    26: '3.js',
-    27: '3.js',
-    28: '3.js',
-    29: '3.js',
-    30: '3.js',
-    31: '3.js',
-  };
-  const scriptSrc = dayToJs[day] || '1.js';
+  const scriptSrc = `${day}.js`;
 
   dataDate = dataDate + scriptSrc
 
@@ -918,10 +886,10 @@
       // --- 2. 月份（英文）: November ---
       const monthLong = longMonths[now.getMonth()];
 
-      // --- 3. 年份�?025 ---
+      // --- 3. 年份：2025 ---
       const year = now.getFullYear();
 
-      // --- 4. 当前周范围（周日 - 周六�?---
+      // --- 4. 当前周范围（周日 - 周六）---
       const dayOfWeek = now.getDay(); // 0 表示周日
       const startOfWeek = new Date(now);
       startOfWeek.setDate(now.getDate() - dayOfWeek);
@@ -976,10 +944,27 @@
 
       const params = new URLSearchParams(window.location.search);
       const segments = window.location.pathname.split('/').filter(s => s !== '');
-      // segments = ["en", "horoscope", "Leo", "daily"]
+      const HORO_CATS = new Set(['daily','weekly','monthly','yearly','love','health','career','sex','zodiac-love']);
+      const horoscopeIdx = segments.indexOf('horoscope');
 
-      const horo = segments[2];   // "Leo"
-      let cat = segments[3];   // "daily"
+      let horo;
+      let cat;
+      if (horoscopeIdx >= 0) {
+        const a = segments[horoscopeIdx + 1] ?? '';
+        const b = segments[horoscopeIdx + 2] ?? '';
+        if (HORO_CATS.has(a.toLowerCase())) {
+          cat = a;
+          horo = b;
+        } else if (HORO_CATS.has(b.toLowerCase())) {
+          horo = a;
+          cat = b;
+        } else {
+          horo = a;
+          cat = b;
+        }
+      }
+      horo = horo.charAt(0).toUpperCase() + horo.slice(1).toLowerCase();
+      cat = cat.toLowerCase();
 
       // const horo = "Leo";   // "Leo"
       // const cat =  "daily";   // "daily"
@@ -1160,14 +1145,14 @@
                         </span>
         </a>
       </li>
-      �?
+      >
       <li>
         <a href="/${lang}/horoscope/${lowerFirst(cat)}/">
                         <span>
                             ${cat}                        </span>
         </a>
       </li>
-      �?
+      >
       <li>
                     <span>
                         ${horo}                    </span>
@@ -1233,7 +1218,7 @@
       }
 
       loadScript(mt_data_url, function () {
-        // 初始化数�?
+        // 初始化数据
         initHomeDataForMo();
       });
 
@@ -1500,7 +1485,7 @@
             return segment;
         }
     }
-    return pathSegments[1] || pathSegments[0] || 'sv';
+    return 'en';
 }
 
   function getQueryParam(name) {
@@ -1523,7 +1508,7 @@
     }else if(langPage == "ar"){
       document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
     }else if(langPage == "jp"){
-      document.getElementById("titleForRecMT").innerText = " 最も試され�?";
+      document.getElementById("titleForRecMT").innerText = " 最も試された";
     }else if(langPage == "no"){
       document.getElementById("titleForRecMT").innerText="Mest Testede";
     }else if(langPage == "sv"){
@@ -1574,14 +1559,14 @@
 
     script.onload = function () {
       //console.log(`${src} 加载完成`);
-      if (callback) callback(); // 加载完成后执行回调函�?
+      if (callback) callback(); // 加载完成后执行回调函数
     };
 
     script.onerror = function () {
       //console.error(`${src} 加载失败`);
     };
 
-    document.head.appendChild(script); // 插入�?`head` �?
+    document.head.appendChild(script); // 插入到`head` 中
   }
 
   function initHomeDataForMo() {
@@ -1644,12 +1629,12 @@
     return value === null;
   }
 
-  // �?渲染函数：把 JSON 数据填充�?HTML
+  // ★渲染函数：把 JSON 数据填充到 HTML
   function renderBadges(badges) {
     const items = document.querySelectorAll('.horo-badges-item');
 
     badges.forEach(badge => {
-      // 通过文本名称匹配对应�?DOM
+      // 通过文本名称匹配对应的 DOM
       let item = [...items].find(
               el => el.querySelector('.horo-emoji-name').textContent.trim() === badge.name
       );
@@ -1675,7 +1660,7 @@
   }
 
   function setActiveTab(type) {
-    // 移除所�?active
+    // 移除所有 active
     document.querySelectorAll('.horo-today-item').forEach(item => {
       item.classList.remove('active');
     });
@@ -1699,7 +1684,7 @@
 
   toggle.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('active');
-    toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
+        toggle.textContent = isOpen ? '×' : '☰'; // 用字符切换：汉堡 ☰ X
   });
 </script>
 

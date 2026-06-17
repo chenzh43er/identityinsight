@@ -29,7 +29,7 @@
             border-radius: 8px;
             padding: 40px;
             width: 300px;
-            margin-bottom: 30px; /* 让两部分之间有一些间�?*/
+            margin-bottom: 30px; /* 让两部分之间有一些间距*/
             background-color: #F6F6F6;
         }
 
@@ -75,14 +75,14 @@
             padding: 0px 30px
         }
 
-        /* 桌面端：右对齐菜�?*/
+        /* 桌面端：右对齐菜单*/
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
             gap: 20px;
-            justify-content: flex-end; /* �?关键：右对齐 */
+            justify-content: flex-end; /* ★关键：右对齐 */
             align-items: center;
         }
 
@@ -120,7 +120,7 @@
             display: none;
         }
 
-        /* ========== 移动端样�?========== */
+        /* ========== 移动端样式========== */
         @media (max-width: 768px) {
             .menu-toggle {
                 display: block;
@@ -187,11 +187,11 @@
                 padding: 0;
                 overflow-x: auto; /* 适应小屏横向滚动 */
                 white-space: nowrap;
-                scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
+                scrollbar-width: none; /* 隐藏滚动条（Firefox）*/
             }
 
             .tempCatHref ul::-webkit-scrollbar {
-                display: none; /* 隐藏滚动条（Chrome/Safari�?*/
+                display: none; /* 隐藏滚动条（Chrome/Safari）*/
             }
 
             .tempCatHref li {
@@ -200,7 +200,7 @@
 
             .tempCatHref a {
                 display: inline-block;
-                text-decoration: none; /* 去掉默认下划�?*/
+                text-decoration: none; /* 去掉默认下划线*/
                 color: #000; /* 黑色文字 */
                 font-weight: 600;
                 padding: 1px 1px;
@@ -265,14 +265,14 @@
             <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
                  data-id="16a4503" data-element_type="column">
                 <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
                     <div class="elementor-widget-container">
                         <nav style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
                             <!-- 汉堡按钮 -->
-                            <button class="menu-toggle" id="menuToggle">�?/button>
+                            <button class="menu-toggle" id="menuToggle">☰</button>
                             <ul id="menu-1-20d443e">
                                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -548,7 +548,7 @@
             const checkAdStatus = setInterval(() => {
                 if (adContainer.innerHTML.trim()) {
                     console.log(`广告容器 ${index + 1} 已加载广告`);
-                    clearInterval(checkAdStatus);  // 停止检�?
+                    clearInterval(checkAdStatus);  // 停止检测
                 } else {
                     console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
                     (adsbygoogle = window.adsbygoogle || []).push({});
@@ -566,7 +566,7 @@
 
     toggle.addEventListener('click', () => {
         const isOpen = menu.classList.toggle('active');
-        toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
+        toggle.textContent = isOpen ? '×' : '☰'; // 用字符切换：汉堡 ☰ X
     });
 </script>
 

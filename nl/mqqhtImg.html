@@ -24,7 +24,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/shared/img/icon/apple-touch-icon.png" />
   <link rel="manifest" href="/shared/img/icon/site.webmanifest" />
   <style>
-    /* 响应式样�?*/
+    /* 响应式样式*/
     .quiz_home-root {
       width: 100%;
       max-width: 1200px;
@@ -205,7 +205,7 @@
     /*}*/
 
     /*html * {*/
-    /*    transform: scaleX(-1);  !* 让子元素再翻转回来，避免文字反过�?*!*/
+    /*    transform: scaleX(-1);  !* 让子元素再翻转回来，避免文字反过来*!*/
     /*}*/
 
   </style>
@@ -257,14 +257,14 @@
       padding: 0px 30px
     }
 
-    /* 桌面端：右对齐菜�?*/
+    /* 桌面端：右对齐菜单*/
     nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
       gap: 20px;
-      justify-content: flex-end; /* �?关键：右对齐 */
+      justify-content: flex-end; /* ★关键：右对齐 */
       align-items: center;
     }
 
@@ -302,7 +302,7 @@
       display: none;
     }
 
-    /* ========== 移动端样�?========== */
+    /* ========== 移动端样式========== */
     @media (max-width: 768px) {
       .menu-toggle {
         display: block;
@@ -369,11 +369,11 @@
         padding: 0;
         overflow-x: auto; /* 适应小屏横向滚动 */
         white-space: nowrap;
-        scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
+        scrollbar-width: none; /* 隐藏滚动条（Firefox）*/
       }
 
       .tempCatHref ul::-webkit-scrollbar {
-        display: none; /* 隐藏滚动条（Chrome/Safari�?*/
+        display: none; /* 隐藏滚动条（Chrome/Safari）*/
       }
 
       .tempCatHref li {
@@ -382,7 +382,7 @@
 
       .tempCatHref a {
         display: inline-block;
-        text-decoration: none; /* 去掉默认下划�?*/
+        text-decoration: none; /* 去掉默认下划线*/
         color: #000; /* 黑色文字 */
         font-weight: 600;
         padding: 1px 1px;
@@ -435,14 +435,14 @@
       <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
            data-id="16a4503" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
           <div class="elementor-widget-container">
             <nav style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐*/
+          } /* 主轴左对齐*/">
               <!-- 汉堡按钮 -->
-              <button class="menu-toggle" id="menuToggle">�?/button>
+              <button class="menu-toggle" id="menuToggle">☰</button>
               <ul id="menu-1-20d443e">
                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -1118,9 +1118,9 @@
       }else if(langPage == "ar"){
         document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
       }else if(langPage == "jp"){
-        document.getElementById("titleForRecMT").innerText = " 最も試され�?";
+        document.getElementById("titleForRecMT").innerText = " 最も試された";
       }else{
-        document.getElementById("titleForRecMT").innerText = " 最も試され�?";
+        document.getElementById("titleForRecMT").innerText = " 最も試された";
       }
     }
 
@@ -1128,7 +1128,7 @@
       const viewportHeight = window.innerHeight; // 可视区域高度
       const pageHeight = document.documentElement.scrollHeight; // 整个页面高度
 
-      output.innerHTML = `可视区域高度: ${viewportHeight}px<br>页面总高�? ${pageHeight}px`;
+      output.innerHTML = `可视区域高度: ${viewportHeight}px<br>页面总高度 ${pageHeight}px`;
     }
 
     function loadScript(src, callback) {
@@ -1139,14 +1139,14 @@
 
       script.onload = function () {
         //console.log(`${src} 加载完成`);
-        if (callback) callback(); // 加载完成后执行回调函�?
+        if (callback) callback(); // 加载完成后执行回调函数
       };
 
       script.onerror = function () {
         //console.error(`${src} 加载失败`);
       };
 
-      document.head.appendChild(script); // 插入�?`head` �?
+      document.head.appendChild(script); // 插入到`head` 中
     }
 
     function updatePageHeight() {
@@ -1332,7 +1332,7 @@
 
 
       loadScript(mt_data_url, function () {
-        // 初始化数�?
+        // 初始化数据
         initHomeDataForMo();
       });
     });
@@ -1597,14 +1597,14 @@
 
       script.onload = function () {
         //console.log(`${src} 加载完成`);
-        if (callback) callback(); // 加载完成后执行回调函�?
+        if (callback) callback(); // 加载完成后执行回调函数
       };
 
       script.onerror = function () {
         //console.error(`${src} 加载失败`);
       }
 
-      document.head.appendChild(script); // 插入�?`head` �?
+      document.head.appendChild(script); // 插入到`head` 中
     }
 
     function initTitle(){
@@ -1666,7 +1666,7 @@
     // 页面加载完成后初始化
 
     $(document).ready( function () {
-      // 初始化数�?
+      // 初始化数据
       let langPage = getLangFromPath()
 
       let rq_data_url = "./testname/js/fr_recommend/recommend quizzes.js"
@@ -1688,7 +1688,7 @@
 
 
       loadScript(rq_data_url, function () {
-        // 初始化数�?
+        // 初始化数据
         initHomeDataForRQ();
       });
     });
@@ -1867,7 +1867,7 @@
                               </div>
                             </div>
 
-<!-- 隐藏的文件选择�?-->
+<!-- 隐藏的文件选择器-->
                           <input type="file" id="fileInput" accept="image/*" style="display:none">
 
                           <div id="thisSubmitButton" class="long_submit_all"
@@ -1895,14 +1895,14 @@
         fileInput.click();
       });
 
-      // 选择文件�?-> 模拟上传 -> 跳转页面
+      // 选择文件后-> 模拟上传 -> 跳转页面
       fileInput.addEventListener('change', () => {
         if (fileInput.files.length > 0) {
           const file = fileInput.files[0];
           console.log("已选择文件:", file.name);
 
-          // 这里可以�?Ajax 上传逻辑
-          // 模拟上传成功后跳�?
+          // 这里可以用 Ajax 上传逻辑
+          // 模拟上传成功后跳转
           setTimeout(() => {
 
             const currentUrl = window.location.href;
@@ -1912,7 +1912,7 @@
             localStorage.setItem('titleid', quizData.toAnswer);
             localStorage.setItem('mqqhtmlLink',currentUrl)
 
-            window.location.href = indexHref; // 上传完成后跳转页�?
+            window.location.href = indexHref; // 上传完成后跳转页面
           }, 800);
         }
       });
@@ -1928,7 +1928,7 @@
 
   toggle.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('active');
-    toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
+    toggle.textContent = isOpen ? '×' : '☰'; // 用字符切换：汉堡 ☰ X
   });
 </script>
 

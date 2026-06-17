@@ -5,3 +5,7 @@ account_id = "892acd09257ee1251aca55e5a6f9946e"
 
 [vars]
 LOCAL_DEV = "true"
+
+[assets]
+directory = ".."
+binding = "ASSETS"

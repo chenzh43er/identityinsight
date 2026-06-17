@@ -7,10 +7,6 @@
     <link rel="preconnect" href="https://tpc.googlesyndication.com">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="preconnect" href="https://consent.cookiebot.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
     <title>identityinsight</title>
     <style>
         .index_container {
@@ -29,7 +25,7 @@
             border-radius: 8px;
             padding: 40px;
             width: 300px;
-            margin-bottom: 30px; /* 让两部分之间有一些间�?*/
+            margin-bottom: 30px; /* 让两部分之间有一些间隔 */
             background-color: #F6F6F6;
         }
 
@@ -75,14 +71,14 @@
             padding: 0px 30px
         }
 
-        /* 桌面端：右对齐菜�?*/
+        /* 桌面端：右对齐菜单 */
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
             gap: 20px;
-            justify-content: flex-end; /* �?关键：右对齐 */
+            justify-content: flex-end; /* ← 关键：右对齐 */
             align-items: center;
         }
 
@@ -120,7 +116,7 @@
             display: none;
         }
 
-        /* ========== 移动端样�?========== */
+        /* ========== 移动端样式 ========== */
         @media (max-width: 768px) {
             .menu-toggle {
                 display: block;
@@ -187,11 +183,11 @@
                 padding: 0;
                 overflow-x: auto; /* 适应小屏横向滚动 */
                 white-space: nowrap;
-                scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
+                scrollbar-width: none; /* 隐藏滚动条（Firefox） */
             }
 
             .tempCatHref ul::-webkit-scrollbar {
-                display: none; /* 隐藏滚动条（Chrome/Safari�?*/
+                display: none; /* 隐藏滚动条（Chrome/Safari） */
             }
 
             .tempCatHref li {
@@ -200,7 +196,7 @@
 
             .tempCatHref a {
                 display: inline-block;
-                text-decoration: none; /* 去掉默认下划�?*/
+                text-decoration: none; /* 去掉默认下划线 */
                 color: #000; /* 黑色文字 */
                 font-weight: 600;
                 padding: 1px 1px;
@@ -213,18 +209,22 @@
 
         }
     </style>
-    <link rel="stylesheet" href="/shared/css/one.css">
+    <link rel="stylesheet" href="./testname/css/one.css">
+    <script src="./testname/js/jquery.min.js?V=20200214"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
             crossorigin="anonymous"></script>
-<!--    -->
-    <link rel="icon" type="image/png" href="/shared/img/icon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/shared/img/icon/favicon.svg" />
-    <link rel="shortcut icon" href="/shared/img/icon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/shared/img/icon/apple-touch-icon.png" />
-    <link rel="manifest" href="/shared/img/icon/site.webmanifest" />
+<!--    <script src="./testname/js/googlePath.js"></script>-->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript"></script>
+    <script src="./testname/js/google_adv.js"></script>
+
+    <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
+    <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
+    <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
 
     <!-- Google Tag Manager -->
-    <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -255,7 +255,7 @@
                             <meta charset="UTF-8">
                             <title>Title</title>
                             <a href="" id="picForUrlJump">
-                                <img src="/testname/img/title.png" fetchpriority="high" decoding="async">
+                                <img src="./testname//img/title.png">
                             </a>
 
                         </div>
@@ -265,14 +265,14 @@
             <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
                  data-id="16a4503" data-element_type="column">
                 <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
                     <div class="elementor-widget-container">
                         <nav style="  display: flex;
-                justify-content: flex-end; /* 右对�?*/
-          } /* 主轴左对�?*/">
+                justify-content: flex-end; /* 右对齐 */
+          } /* 主轴左对齐 */">
                             <!-- 汉堡按钮 -->
-                            <button class="menu-toggle" id="menuToggle">�?/button>
+                            <button class="menu-toggle" id="menuToggle">☰</button>
                             <ul id="menu-1-20d443e">
                                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -452,21 +452,11 @@
     </section>
 </div>
 
-<!-- perf:scripts -->
-<script src="/shared/js/jquery.min.js?V=20200214"></script>
-<script src="/shared/js/google_adv.js"></script>
-<script defer id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b32241f-dd52-4e1f-bce5-39e2c80b7a53" data-blockingmode="auto" type="text/javascript"></script>
 <script id="index_main_js">
     function getLangFromPath() {
-    const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
-    const pathSegments = window.location.pathname.split('/').filter(Boolean);
-    for (const segment of pathSegments) {
-        if (LANG_CODES.includes(segment)) {
-            return segment;
-        }
+        const pathSegments = window.location.pathname.split('/');
+        return pathSegments[1]; // 假设语言代码总是在第一个路径段
     }
-    return pathSegments[1] || pathSegments[0] || 'sv';
-}
 
     $(document).ready(function () {
         let utm_campaign =getQueryParam("utm_campaign") ;
@@ -548,7 +538,7 @@
             const checkAdStatus = setInterval(() => {
                 if (adContainer.innerHTML.trim()) {
                     console.log(`广告容器 ${index + 1} 已加载广告`);
-                    clearInterval(checkAdStatus);  // 停止检�?
+                    clearInterval(checkAdStatus);  // 停止检查
                 } else {
                     console.log(`广告容器 ${index + 1} 尚未加载广告，重新加载`);
                     (adsbygoogle = window.adsbygoogle || []).push({});
@@ -566,11 +556,11 @@
 
     toggle.addEventListener('click', () => {
         const isOpen = menu.classList.toggle('active');
-        toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
+        toggle.textContent = isOpen ? '×' : '☰'; // ← 用字符切换：汉堡 ↔ X
     });
 </script>
 
-<script defer src="/shared/js/footJs.js"></script>
-<script defer src="/shared/js/header.js"></script>
+<script src="./testname/js/footJs.js"></script>
+<script src="headerJs.js"></script>
 </body>
 </html>

@@ -71,6 +71,11 @@ function setupSharedAssets() {
   copyDir(path.join(base, 'horoscope/js'), path.join(SHARED, 'horoscope/js'));
   copyDir(path.join(base, 'horoscope/css'), path.join(SHARED, 'horoscope/css'));
 
+  const starSvgDir = path.join(base, 'horoscope/svg');
+  if (fs.existsSync(starSvgDir)) {
+    copyDir(starSvgDir, path.join(SHARED, 'horoscope/svg'));
+  }
+
   const iconSrc = path.join(ROOT, 'testname', 'img', 'icon');
   if (fs.existsSync(iconSrc)) {
     copyDir(iconSrc, path.join(SHARED, 'img/icon'));
@@ -136,6 +141,11 @@ function rewriteContent(content, ctx) {
     out = out.replace(/src="\.\/js\/headerJs\.js"/g, 'src="/shared/js/header.horoscope.js"');
     out = out.replace(/`\.\/js\//g, '`/shared/horoscope/js/');
     out = out.replace(/'\.\/js\//g, "'/shared/horoscope/js/");
+    out = out.replace(/src="\.\/img\//g, 'src="/horoscope/img/');
+    out = out.replace(/src='\.\/img\//g, "src='/horoscope/img/");
+    out = out.replace(/`\.\/img\//g, '`/horoscope/img/');
+    out = out.replace(/src="(?:\.\.\/)+testname\/\/img\//g, 'src="/testname/img/');
+    out = out.replace(/src="(?:\.\.\/)+testname\/img\//g, 'src="/testname/img/');
   }
 
   const headerTarget = headerJsPath(ctx.pageType);
