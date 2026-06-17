@@ -2,8 +2,12 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>Results 生成器</title>
+  <title>Results 生成�?/title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://consent.cookiebot.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -46,12 +50,12 @@
 </head>
 <body>
 
-<h1>Results 生成器</h1>
+<h1>Results 生成�?/h1>
 
 <div id="resultsContainer"></div>
-<button id="addResultBtn">＋ 添加结果项</button>
+<button id="addResultBtn">�?添加结果�?/button>
 
-<h2>生成的 JS</h2>
+<h2>生成�?JS</h2>
 <textarea id="output" readonly></textarea><br>
 <button id="generateBtn">生成 results</button>
 <button id="copyBtn" class="secondary">复制到剪贴板</button>
@@ -61,7 +65,7 @@
   const container = document.getElementById("resultsContainer");
   const output = document.getElementById("output");
 
-  // 添加结果项
+  // 添加结果�?
   function addResult(data = null) {
     const idx = container.children.length + 1;
     const div = document.createElement("div");
@@ -76,7 +80,7 @@
       <textarea class="rDescription" placeholder="结果描述...">${data?.description || ''}</textarea>
       <label>主图 (mainPic)</label>
       <input class="rMainPic" placeholder="图片URL或文件名" value="${data?.mainPic || ''}">
-      <button class="removeR secondary">删除此结果</button>
+      <button class="removeR secondary">删除此结�?/button>
     `;
     div.querySelector(".removeR").addEventListener("click", () => div.remove());
     container.appendChild(div);

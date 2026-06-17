@@ -2,8 +2,12 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>QuizData 生成器（aId 自动增长）</title>
+  <title>QuizData 生成器（aId 自动增长�?/title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://consent.cookiebot.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -47,22 +51,22 @@
 </head>
 <body>
 
-<h1>QuizData 生成器（aId 自动增长）</h1>
+<h1>QuizData 生成器（aId 自动增长�?/h1>
 
 <label>标题 (title)</label>
-<input id="titleInput" placeholder="请输入 quiz 标题" />
+<input id="titleInput" placeholder="请输�?quiz 标题" />
 
 <label>主图文件名或 URL (mainPic)</label>
-<input id="mainPicInput" placeholder="例如：main.jpg 或 https://..." />
+<input id="mainPicInput" placeholder="例如：main.jpg �?https://..." />
 
 <label>主题标签 (thems，用逗号分隔)</label>
 <input id="themsInput" placeholder="例如：Chat, Personnalité, VR" />
 
 <h2>问题列表</h2>
 <div id="questionsContainer"></div>
-<button id="addQuestionBtn">＋ 添加问题</button>
+<button id="addQuestionBtn">�?添加问题</button>
 
-<h2>生成的 quizData JS</h2>
+<h2>生成�?quizData JS</h2>
 <textarea id="output" readonly></textarea><br>
 <button id="generateBtn">生成 quizData</button>
 <button id="copyBtn" class="secondary">复制到剪贴板</button>
@@ -72,7 +76,7 @@
   const container = document.getElementById("questionsContainer");
   const output = document.getElementById("output");
 
-  // 添加新问题
+  // 添加新问�?
   function addQuestion(data = null) {
     const qDiv = document.createElement("div");
     qDiv.className = "question";
@@ -81,13 +85,13 @@
       <label>问题文本 (question)</label>
       <input class="qText" placeholder="输入题目" value="${data?.question || ''}">
       <label>题目图片文件名或 URL (pic)</label>
-      <input class="qPic" placeholder="pic.jpg 或 https://..." value="${data?.pic || ''}">
+      <input class="qPic" placeholder="pic.jpg �?https://..." value="${data?.pic || ''}">
       <div class="answers">
         <h4>答案选项</h4>
         <div class="answersContainer"></div>
-        <button class="addAnswerBtn" type="button">＋ 添加答案</button>
+        <button class="addAnswerBtn" type="button">�?添加答案</button>
       </div>
-      <button class="removeQ secondary" type="button">删除此问题</button>
+      <button class="removeQ secondary" type="button">删除此问�?/button>
     `;
 
     const answersContainer = qDiv.querySelector(".answersContainer");
@@ -98,7 +102,7 @@
       qDiv.remove();
     });
 
-    // 如果有预置答案
+    // 如果有预置答�?
     if (data?.answers) {
       data.answers.forEach(ans => addAnswer(answersContainer, ans));
     }
@@ -106,7 +110,7 @@
     container.appendChild(qDiv);
   }
 
-  // 自动获取下一个 aId
+  // 自动获取下一�?aId
   function getNextAId(answersContainer) {
     const existing = [...answersContainer.querySelectorAll(".aId")].map(
             i => Number(i.value) || 0
@@ -123,7 +127,7 @@
       <label>答案文本 (answer)</label>
       <input class="aText" placeholder="输入答案" value="${data?.answer || ''}">
       <label>答案图片 (aPic，可留空)</label>
-      <input class="aPic" placeholder="a.jpg 或 https://..." value="${data?.aPic || ''}">
+      <input class="aPic" placeholder="a.jpg �?https://..." value="${data?.aPic || ''}">
       <label>答案ID (aId)</label>
       <input type="number" class="aId" value="${nextId}" readonly style="background:#f9f9f9;">
       <button class="removeA secondary" type="button">删除答案</button>
@@ -183,13 +187,13 @@
     a.click();
   });
 
-  // 默认添加一个示例问题
+  // 默认添加一个示例问�?
   addQuestion({
     question: "示例问题：你最喜欢的动物？",
     pic: "example.jpg",
     answers: [
-      { answer: "猫", aPic: "", aId: 1 },
-      { answer: "狗", aPic: "", aId: 2 }
+      { answer: "�?, aPic: "", aId: 1 },
+      { answer: "�?, aPic: "", aId: 2 }
     ]
   });
 </script>

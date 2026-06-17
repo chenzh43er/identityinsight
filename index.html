@@ -4,6 +4,10 @@
     <script>window.onscroll = null;</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://consent.cookiebot.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
     <title>identityinsight</title>
     <style>
         .index_container {
@@ -61,12 +65,8 @@
 
     </style>
     <link rel="stylesheet" href="./testname/css/one.css">
-    <script src="./testname/js/jquery.min.js?V=20200214"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354"
             crossorigin="anonymous"></script>
-    <script src="./testname/js/google_adv.js"></script>
-    <script src="./testname/js/googlePath.js"></script>
-
     <link rel="icon" type="image/png" href="/testname/img/icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/testname/img/icon/favicon.svg" />
     <link rel="shortcut icon" href="/testname/img/icon/favicon.ico" />
@@ -74,7 +74,7 @@
     <link rel="manifest" href="/testname/img/icon/site.webmanifest" />
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -105,7 +105,7 @@
                             <meta charset="UTF-8">
                             <title>Title</title>
                             <a href="" id="picForUrlJump">
-                                <img src="/testname/img/title.png">
+                                <img src="/testname/img/title.png" fetchpriority="high" decoding="async">
                             </a>
 
                         </div>
@@ -305,6 +305,10 @@
     </section>
 </div>
 
+<!-- perf:scripts -->
+<script src="./testname/js/jquery.min.js?V=20200214"></script>
+<script src="./testname/js/google_adv.js"></script>
+<script src="./testname/js/googlePath.js"></script>
 <script id="index_main_js">
     function getLangFromPath() {
     const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
@@ -423,7 +427,7 @@
 
 
 </script>
-<script src="./testname/js/footJs.js"></script>
-<script src="./testname/js/headerJs.js"></script>
+<script defer src="./testname/js/footJs.js"></script>
+<script defer src="./testname/js/headerJs.js"></script>
 </body>
 </html>

@@ -16,38 +16,42 @@
     if(getLangFromPath() == "de"){
       const base = document.querySelector('base');
       base.href = '/de/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/de/horoscope/');
     }else if(getLangFromPath() == "sv"){
       const base = document.querySelector('base');
       base.href = '/sv/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/sv/horoscope/');
     }else if(getLangFromPath() == "en"){
       const base = document.querySelector('base');
       base.href = '/en/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/en/horoscope/');
     }else if(getLangFromPath() == "fr"){
       const base = document.querySelector('base');
       base.href = '/fr/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/fr/horoscope/');
     }else if(getLangFromPath() == "no"){
       const base = document.querySelector('base');
       base.href = '/no/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/no/horoscope/');
     }else if(getLangFromPath() == "nl"){
       const base = document.querySelector('base');
       base.href = '/nl/horoscope/'; // 绝对路径形式
-      // 或者使用相对路径
+      // 或者使用相对路�?
       base.setAttribute('href', '/nl/horoscope/');
     }
 
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://consent.cookiebot.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
   <title>HOROSCOPES</title>
 
   <!-- 预连接关键第三方域名 -->
@@ -55,11 +59,11 @@
   <link rel="preconnect" href="https://googleads.g.doubleclick.net">
   <link rel="preconnect" href="https://tpc.googlesyndication.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
-  <!-- 关键 CSS：优先加载 -->
+  <!-- 关键 CSS：优先加�?-->
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
-  <!-- 非关键 CSS：异步加载，减少阻塞 -->
+  <!-- 非关�?CSS：异步加载，减少阻塞 -->
   <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
   <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
 
@@ -68,10 +72,6 @@
 
 
   <!-- 将阻塞页面渲染的 script 改为 defer -->
-  <script src="../testname/js/google_adv.js"></script>
-  <script src="../testname/js/common.js"></script>
-  <script src="../testname/js/jquery.min.js?V=20200214"></script>
-  <script src="./js/common.js"></script>
   <script src="./js/utlParam.js"></script>
 
   <!-- Google Tag Manager -->
@@ -236,14 +236,14 @@
       padding: 0px 30px
     }
 
-    /* 桌面端：右对齐菜单 */
+    /* 桌面端：右对齐菜�?*/
     nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
       gap: 20px;
-      justify-content: flex-end; /* ← 关键：右对齐 */
+      justify-content: flex-end; /* �?关键：右对齐 */
       align-items: center;
     }
 
@@ -285,7 +285,7 @@
       display: none;
     }
 
-    /* ========== 移动端样式 ========== */
+    /* ========== 移动端样�?========== */
     @media (max-width: 768px) {
 
       .home_tab {
@@ -357,11 +357,11 @@
         padding: 0;
         overflow-x: auto; /* 适应小屏横向滚动 */
         white-space: nowrap;
-        scrollbar-width: none; /* 隐藏滚动条（Firefox） */
+        scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
       }
 
       .tempCatHref ul::-webkit-scrollbar {
-        display: none; /* 隐藏滚动条（Chrome/Safari） */
+        display: none; /* 隐藏滚动条（Chrome/Safari�?*/
       }
 
       .tempCatHref li {
@@ -370,7 +370,7 @@
 
       .tempCatHref a {
         display: inline-block;
-        text-decoration: none; /* 去掉默认下划线 */
+        text-decoration: none; /* 去掉默认下划�?*/
         color: #000; /* 黑色文字 */
         font-weight: 600;
         padding: 1px 1px;
@@ -385,7 +385,7 @@
   </style>
 
   <style>
-    /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
+    /* 调整 Cookiebot 默认 banner 样式为底部横�?*/
     #CybotCookiebotDialog {
       position: fixed !important;
       bottom: 0 !important;
@@ -487,7 +487,7 @@
               <meta charset="UTF-8">
               <title>Title</title>
               <a href="" id="picForUrlJump">
-                <img src="/testname/img/title.png">
+                <img src="/testname/img/title.png" fetchpriority="high" decoding="async">
               </a>
 
             </div>
@@ -497,14 +497,14 @@
       <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
            data-id="16a4503" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对齐 */
-          } /* 主轴左对齐 */">
+                justify-content: flex-end; /* 右对�?*/
+          } /* 主轴左对�?*/">
           <div class="elementor-widget-container">
             <nav style="  display: flex;
-                justify-content: flex-end; /* 右对齐 */
-          } /* 主轴左对齐 */">
+                justify-content: flex-end; /* 右对�?*/
+          } /* 主轴左对�?*/">
               <!-- 汉堡按钮 -->
-              <button class="menu-toggle" id="menuToggle">☰</button>
+              <button class="menu-toggle" id="menuToggle">�?/button>
               <ul id="menu-1-20d443e">
                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -1007,11 +1007,16 @@
 </div>
 </body>
 
+<!-- perf:scripts -->
+<script src="../testname/js/google_adv.js"></script>
+<script src="../testname/js/common.js"></script>
+<script src="../testname/js/jquery.min.js?V=20200214"></script>
+<script src="./js/common.js"></script>
 <script>
 
-  // 获取今天的日期
+  // 获取今天的日�?
   const today = new Date();
-  const month = today.getMonth() + 1; // 月份从 0 开始
+  const month = today.getMonth() + 1; // 月份�?0 开�?
   const day = today.getDate();
 
   let dataDate = `./js/sv/zodic.json.js`
@@ -1236,7 +1241,7 @@
 
 
 
-      // 方法1：判断是否为 null 或空字符串
+      // 方法1：判断是否为 null 或空字符�?
       if (cat === null || cat === "") {
 
         let horoPageTitleStr = `CHOOSE YOUR ZODIAC SIGN TO READ YOUR HOROSCOPE`
@@ -1301,8 +1306,8 @@
           <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
         </div>
         <div class="faq-item-answer">
-          Der „Zodiak“ bezeichnet die in zwölf Abschnitte aufgeteilte Himmelsbahn der Sonne.
-          Das Wort stammt aus dem Lateinischen „Zodiacus“, was „Kreis der Tiere“ bedeutet.
+          Der „Zodiak�?bezeichnet die in zwölf Abschnitte aufgeteilte Himmelsbahn der Sonne.
+          Das Wort stammt aus dem Lateinischen „Zodiacus�? was „Kreis der Tiere�?bedeutet.
           Diese zwölf Zeichen werden außerdem in vier Elemente eingeteilt: Feuer, Erde, Luft und Wasser.
         </div>
       </div>
@@ -1314,7 +1319,7 @@
         </div>
         <div class="faq-item-answer">
           Dein Sternzeichen wird durch dein Geburtsdatum bestimmt.
-          Zum Beispiel: 21. März – 20. April ist Widder, 21. April – 20. Mai ist Stier, usw.
+          Zum Beispiel: 21. März �?20. April ist Widder, 21. April �?20. Mai ist Stier, usw.
         </div>
       </div>
 
@@ -1333,7 +1338,7 @@
   `;
 
         } else if (getLangFromPath() == "sv") {
-          // ---- 瑞典语版本 ----
+          // ---- 瑞典语版�?----
           faqHTML = `
     <h3 class="astro-h3">Astrologi FAQ</h3>
     <div class="faq-ls">
@@ -1365,8 +1370,8 @@
           <svg class="icon-faq"><use xlink:href="#icon-faq"></use></svg>
         </div>
         <div class="faq-item-answer">
-          ”Zodiaken” är den tolvdelade himmelszonen längs solens bana.
-          Ordet kommer från latinets ”Zodiacus”, som betyder ”djurskretsen”.
+          ”Zodiaken�?är den tolvdelade himmelszonen längs solens bana.
+          Ordet kommer från latinets ”Zodiacus�? som betyder ”djurskretsen�?
           De tolv tecknen är indelade i fyra element: eld, jord, luft och vatten.
         </div>
       </div>
@@ -1378,7 +1383,7 @@
         </div>
         <div class="faq-item-answer">
           Ditt stjärntecken bestäms av vilket datum du är född.
-          Till exempel: 21 mars – 20 april är Vädur, 21 april – 20 maj är Oxen, och så vidare.
+          Till exempel: 21 mars �?20 april är Vädur, 21 april �?20 maj är Oxen, och så vidare.
         </div>
       </div>
 
@@ -1396,9 +1401,9 @@
   `;
 
         } else if (getLangFromPath() == "no") {
-          // ---- 挪威语版本 ----
+          // ---- 挪威语版�?----
           faqHTML = `
-<h3 class="astro-h3">Astrologi – Vanlige spørsmål</h3>
+<h3 class="astro-h3">Astrologi �?Vanlige spørsmål</h3>
 <div class="faq-ls">
 
   <div class="faq-item active">
@@ -1443,7 +1448,7 @@
     </div>
     <div class="faq-item-answer">
       Stjernetegnet ditt bestemmes av fødselsdatoen din.
-      For eksempel: 21. mars – 20. april er Væren, 21. april – 20. mai er Tyren.
+      For eksempel: 21. mars �?20. april er Væren, 21. april �?20. mai er Tyren.
     </div>
   </div>
 
@@ -1462,7 +1467,7 @@
 `;
 
         } else if (getLangFromPath() == "nl") {
-          // ---- 荷兰语版本 ----
+          // ---- 荷兰语版�?----
           faqHTML = `
 <h3 class="astro-h3">Astrologie FAQ</h3>
 <div class="faq-ls">
@@ -1507,7 +1512,7 @@
     </div>
     <div class="faq-item-answer">
       Je sterrenbeeld wordt bepaald door je geboortedatum.
-      Bijvoorbeeld: 21 maart – 20 april is Ram, 21 april – 20 mei is Stier.
+      Bijvoorbeeld: 21 maart �?20 april is Ram, 21 april �?20 mei is Stier.
     </div>
   </div>
 
@@ -1570,7 +1575,7 @@
     </div>
     <div class="faq-item-answer">
       Votre signe astrologique dépend de votre date de naissance.
-      Par exemple : 21 mars – 20 avril correspond au Bélier.
+      Par exemple : 21 mars �?20 avril correspond au Bélier.
     </div>
   </div>
 
@@ -1622,7 +1627,7 @@
         </div>
         <div class="faq-item-answer">
           The "Zodiac" is the twelve-division celestial belt along the Sun’s path.
-          The term comes from Latin “Zodiacus,” meaning “circle of animals.”
+          The term comes from Latin “Zodiacus,�?meaning “circle of animals.�?
           These signs are grouped into four elements: Fire, Earth, Air, and Water.
         </div>
       </div>
@@ -1634,7 +1639,7 @@
         </div>
         <div class="faq-item-answer">
           Your Zodiac Sign is determined by your date of birth.
-          For example: March 21 – April 20 is Aries, April 21 – May 20 is Taurus, and so on.
+          For example: March 21 �?April 20 is Aries, April 21 �?May 20 is Taurus, and so on.
         </div>
       </div>
 
@@ -1877,7 +1882,7 @@
       }
 
       loadScript(mt_data_url, function () {
-        // 初始化数据
+        // 初始化数�?
         initHomeDataForMo();
       });
 
@@ -2195,7 +2200,7 @@
     }else if(langPage == "ar"){
       document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
     }else if(langPage == "jp"){
-      document.getElementById("titleForRecMT").innerText = " 最も試される ";
+      document.getElementById("titleForRecMT").innerText = " 最も試され�?";
     }else if(langPage == "no"){
       document.getElementById("titleForRecMT").innerText="Mest Testede";
     }else if(langPage == "sv"){
@@ -2215,19 +2220,19 @@
 
     script.onload = function () {
       //console.log(`${src} 加载完成`);
-      if (callback) callback(); // 加载完成后执行回调函数
+      if (callback) callback(); // 加载完成后执行回调函�?
     };
 
     script.onerror = function () {
       //console.error(`${src} 加载失败`);
     };
 
-    document.head.appendChild(script); // 插入到 `head` 中
+    document.head.appendChild(script); // 插入�?`head` �?
   }
 
   function initHomeDataForMo() {
     // 渲染首页数据
-    let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+    let homedataJs = "../testname/js/fr/homedata.js";
     let utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
     let langPage = getLangFromPath()
     if(langPage == "fr"){
@@ -2288,8 +2293,8 @@
 
 </script>
 
-<script src="./js/footJs.js" async></script>
-<script src="./js/headerJs.js" async></script>
+<script defer src="./js/footJs.js"></script>
+<script defer src="./js/headerJs.js"></script>
 
 <script>
   const toggle = document.getElementById('menuToggle');
@@ -2297,7 +2302,7 @@
 
   toggle.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('active');
-    toggle.textContent = isOpen ? '×' : '☰'; // ← 用字符切换：汉堡 ↔ X
+    toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
   });
 </script>
 

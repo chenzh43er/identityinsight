@@ -15,38 +15,42 @@
         if(getLangFromPath() == "de"){
             const base = document.querySelector('base');
             base.href = '/de/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/de/horoscope/');
         }else if(getLangFromPath() == "sv"){
             const base = document.querySelector('base');
             base.href = '/sv/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/sv/horoscope/');
         }else if(getLangFromPath() == "en"){
             const base = document.querySelector('base');
             base.href = '/en/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/en/horoscope/');
         }else if(getLangFromPath() == "fr"){
             const base = document.querySelector('base');
             base.href = '/fr/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/fr/horoscope/');
         }else if(getLangFromPath() == "no"){
             const base = document.querySelector('base');
             base.href = '/no/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/no/horoscope/');
         }else if(getLangFromPath() == "nl"){
             const base = document.querySelector('base');
             base.href = '/nl/horoscope/'; // 绝对路径形式
-            // 或者使用相对路径
+            // 或者使用相对路�?
             base.setAttribute('href', '/nl/horoscope/');
         }
 
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://consent.cookiebot.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://consent.cookiebot.com">
     <title>HOROSCOPES - https://identityinsight.org/</title>
 
     <!-- 预连接关键第三方域名 -->
@@ -58,14 +62,14 @@
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- 非关键 CSS：异步加载，不阻塞页面 -->
+    <!-- 非关�?CSS：异步加载，不阻塞页�?-->
     <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
 
     <!-- Google Ads 异步加载 -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
-    <!-- 所有 JS：使用 defer，避免阻塞渲染 -->
+    <!-- 所�?JS：使�?defer，避免阻塞渲�?-->
     <script src="../testname/js/google_adv.js"></script>
     <script src="../testname/js/common.js"></script>
     <script src="../testname/js/jquery.min.js?V=20200214"></script>
@@ -224,14 +228,14 @@
             padding: 0px 30px
         }
 
-        /* 桌面端：右对齐菜单 */
+        /* 桌面端：右对齐菜�?*/
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
             gap: 20px;
-            justify-content: flex-end; /* ← 关键：右对齐 */
+            justify-content: flex-end; /* �?关键：右对齐 */
             align-items: center;
         }
 
@@ -273,7 +277,7 @@
             display: none;
         }
 
-        /* ========== 移动端样式 ========== */
+        /* ========== 移动端样�?========== */
         @media (max-width: 768px) {
 
             .home_tab {
@@ -345,11 +349,11 @@
                 padding: 0;
                 overflow-x: auto; /* 适应小屏横向滚动 */
                 white-space: nowrap;
-                scrollbar-width: none; /* 隐藏滚动条（Firefox） */
+                scrollbar-width: none; /* 隐藏滚动条（Firefox�?*/
             }
 
             .tempCatHref ul::-webkit-scrollbar {
-                display: none; /* 隐藏滚动条（Chrome/Safari） */
+                display: none; /* 隐藏滚动条（Chrome/Safari�?*/
             }
 
             .tempCatHref li {
@@ -358,7 +362,7 @@
 
             .tempCatHref a {
                 display: inline-block;
-                text-decoration: none; /* 去掉默认下划线 */
+                text-decoration: none; /* 去掉默认下划�?*/
                 color: #000; /* 黑色文字 */
                 font-weight: 600;
                 padding: 1px 1px;
@@ -372,7 +376,7 @@
         }
     </style>
     <style>
-        /* 调整 Cookiebot 默认 banner 样式为底部横幅 */
+        /* 调整 Cookiebot 默认 banner 样式为底部横�?*/
         #CybotCookiebotDialog {
             position: fixed !important;
             bottom: 0 !important;
@@ -538,7 +542,7 @@
                             <meta charset="UTF-8">
                             <title>Title</title>
                             <a href="" id="picForUrlJump">
-                                <img src="/testname/img/title.png">
+                                <img src="/testname/img/title.png" fetchpriority="high" decoding="async">
                             </a>
 
                         </div>
@@ -548,14 +552,14 @@
             <div class="elementor-column elementor-col-94 elementor-top-column elementor-element elementor-element-16a4503"
                  data-id="16a4503" data-element_type="column">
                 <div class="elementor-widget-wrap elementor-element-populated" style="  display: flex;
-                justify-content: flex-end; /* 右对齐 */
-          } /* 主轴左对齐 */">
+                justify-content: flex-end; /* 右对�?*/
+          } /* 主轴左对�?*/">
                     <div class="elementor-widget-container">
                         <nav style="  display: flex;
-                justify-content: flex-end; /* 右对齐 */
-          } /* 主轴左对齐 */">
+                justify-content: flex-end; /* 右对�?*/
+          } /* 主轴左对�?*/">
                             <!-- 汉堡按钮 -->
-                            <button class="menu-toggle" id="menuToggle">☰</button>
+                            <button class="menu-toggle" id="menuToggle">�?/button>
                             <ul id="menu-1-20d443e">
                                 <li><a href="#" id="menu_index_select1" class="selectNav"></a></li>
                                 <li><a href="#" id="menu_index_select2" class="selectNav"></a></li>
@@ -582,7 +586,7 @@
                         </span>
                 </a>
             </li>
-            ›
+            �?
             <li>
                 <a href="/horoscope/">
                         <span>
@@ -590,7 +594,7 @@
                         </span>
                 </a>
             </li>
-            ›
+            �?
             <li>
                     <span>
                         Aries                    </span>
@@ -861,9 +865,9 @@
 
 <script>
 
-    // 获取今天的日期
+    // 获取今天的日�?
     const today = new Date();
-    const month = today.getMonth() + 1; // 月份从 0 开始
+    const month = today.getMonth() + 1; // 月份�?0 开�?
     const day = today.getDate();
 
     let dataDate = `./js/sv/zodic.json.js`
@@ -980,10 +984,10 @@
             // --- 2. 月份（英文）: November ---
             const monthLong = longMonths[now.getMonth()];
 
-            // --- 3. 年份：2025 ---
+            // --- 3. 年份�?025 ---
             const year = now.getFullYear();
 
-            // --- 4. 当前周范围（周日 - 周六） ---
+            // --- 4. 当前周范围（周日 - 周六�?---
             const dayOfWeek = now.getDay(); // 0 表示周日
             const startOfWeek = new Date(now);
             startOfWeek.setDate(now.getDate() - dayOfWeek);
@@ -1005,14 +1009,14 @@
                         </span>
         </a>
       </li>
-      ›
+      �?
       <li>
         <a href="/${lang}/horoscope/${horo}/">
                         <span>
                             ${horo}                        </span>
         </a>
       </li>
-      ›
+      �?
       <li>
                     <span>
                         ${horo}                    </span>
@@ -1200,7 +1204,7 @@
             }
 
             loadScript(mt_data_url, function () {
-                // 初始化数据
+                // 初始化数�?
                 initHomeDataForMo();
             });
 
@@ -1497,7 +1501,7 @@
         }else if(langPage == "ar"){
             document.getElementById("titleForRecMT").innerText = "الأكثر اختبارًا";
         }else if(langPage == "jp"){
-            document.getElementById("titleForRecMT").innerText = " 最も試される ";
+            document.getElementById("titleForRecMT").innerText = " 最も試され�?";
         }else if(langPage == "no"){
             document.getElementById("titleForRecMT").innerText="Mest Testede";
         }else if(langPage == "sv"){
@@ -1517,19 +1521,19 @@
 
         script.onload = function () {
             //console.log(`${src} 加载完成`);
-            if (callback) callback(); // 加载完成后执行回调函数
+            if (callback) callback(); // 加载完成后执行回调函�?
         };
 
         script.onerror = function () {
             //console.error(`${src} 加载失败`);
         };
 
-        document.head.appendChild(script); // 插入到 `head` 中
+        document.head.appendChild(script); // 插入�?`head` �?
     }
 
     function initHomeDataForMo() {
         // 渲染首页数据
-        let homedataJs = "https://min1-b8s.pages.dev/public/js/fr/homedata.js";
+        let homedataJs = "../testname/js/fr/homedata.js";
         let utm_campaign_js_url="../testname/js/fr/utm_campaign.js"
         let langPage = getLangFromPath()
         if(langPage == "fr"){
@@ -1611,15 +1615,15 @@
 
 </script>
 
-<script src="./js/footJs.js" async></script>
-<script src="./js/headerJs.js" async></script>
+<script defer src="./js/footJs.js"></script>
+<script defer src="./js/headerJs.js"></script>
 <script>
     const toggle = document.getElementById('menuToggle');
     const menu = document.getElementById('menu-1-20d443e');
 
     toggle.addEventListener('click', () => {
         const isOpen = menu.classList.toggle('active');
-        toggle.textContent = isOpen ? '×' : '☰'; // ← 用字符切换：汉堡 ↔ X
+        toggle.textContent = isOpen ? '×' : '�?; // �?用字符切换：汉堡 �?X
     });
 </script>
 

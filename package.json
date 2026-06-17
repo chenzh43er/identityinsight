@@ -2,6 +2,8 @@
   "name": "identityinsight",
   "private": true,
   "scripts": {
+    "optimize:loading": "node scripts/optimize-loading.js",
+    "optimize:cdn": "node scripts/localize-cdn.js",
     "deploy:pages": "wrangler pages deploy . --project-name=identityinsight --commit-dirty=true",
     "deploy:worker": "wrangler deploy --config worker/wrangler.toml",
     "dev:worker": "node worker/scripts/local-dev.mjs",
