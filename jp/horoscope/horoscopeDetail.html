@@ -61,7 +61,7 @@
   <link rel="dns-prefetch" href="https://consent.cookiebot.com">
   <title>HOROSCOPES - https://identityinsight.org/</title>
   <!-- 关键 CSS 优先加载 -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="/shared/horoscope/css/style.css">
 
   <!-- 预连接关键第三方域名 -->
   <link rel="preconnect" href="https://pagead2.googlesyndication.com">
@@ -69,14 +69,14 @@
   <link rel="preconnect" href="https://tpc.googlesyndication.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- 非关�?CSS 异步加载 -->
-  <link rel="preload" href="./css/one.css" as="style" onload="this.rel='stylesheet'">
-  <link rel="preload" href="./css/common.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="/shared/horoscope/css/one.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="/shared/horoscope/css/common.css" as="style" onload="this.rel='stylesheet'">
 
   <!-- Google Ads 异步加载 -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481735481590354" crossorigin="anonymous"></script>
 
   <!-- 本地 JS 延迟加载，确保优先渲染内�?-->
-  <script src="./js/utlParam.js"></script>
+  <script src="/shared/horoscope/js/utlParam.js"></script>
 
 
   <!-- Google Tag Manager -->
@@ -831,10 +831,10 @@
 
 </body>
 <!-- perf:scripts -->
-<script src="../testname/js/google_adv.js"></script>
-<script src="../testname/js/common.js"></script>
-<script src="../testname/js/jquery.min.js?V=20200214"></script>
-<script src="./js/common.js"></script>
+<script src="/shared/js/google_adv.i18n.js"></script>
+<script src="/shared/js/common.js"></script>
+<script src="/shared/js/jquery.min.js?V=20200214"></script>
+<script src="/shared/horoscope/js/common.js"></script>
 <script>
 
   // 获取今天的日�?
@@ -842,20 +842,20 @@
   const month = today.getMonth() + 1; // 月份�?0 开�?
   const day = today.getDate();
 
-  let dataDate = `./js/sv/zodic.json.js`
+  let dataDate = `/shared/horoscope/js/sv/zodic.json.js`
 
   if (getLangFromPath() == "de") {
-    dataDate = `./js/de/`
+    dataDate = `/shared/horoscope/js/de/`
   } else if(getLangFromPath() == "sv"){
-    dataDate = `./js/sv/`
+    dataDate = `/shared/horoscope/js/sv/`
   } else if(getLangFromPath() == "en"){
-    dataDate = `./js/en/`
+    dataDate = `/shared/horoscope/js/en/`
   }else if(getLangFromPath() == "fr"){
-    dataDate = `./js/fr/`
+    dataDate = `/shared/horoscope/js/fr/`
   }else if(getLangFromPath() == "no"){
-    dataDate = `./js/no/`
+    dataDate = `/shared/horoscope/js/no/`
   }else if(getLangFromPath() == "nl"){
-    dataDate = `./js/nl/`
+    dataDate = `/shared/horoscope/js/nl/`
   }
 
   // day 对应 JS 文件映射
@@ -1691,8 +1691,8 @@
 
 </script>
 
-<script defer src="./js/footJs.js"></script>
-<script defer src="./js/headerJs.js"></script>
+<script defer src="/shared/js/footJs.jp.js"></script>
+<script defer src="/shared/js/header.horoscope.js"></script>
 <script>
   const toggle = document.getElementById('menuToggle');
   const menu = document.getElementById('menu-1-20d443e');

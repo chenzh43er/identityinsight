@@ -1,4 +1,7 @@
 # Long-term cache for static assets (Cloudflare Pages)
+/shared/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /*.js
   Cache-Control: public, max-age=31536000, immutable
 
