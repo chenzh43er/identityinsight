@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvor «typisk norsk» er du egentlig? Ta testen og få svaret!",
-    "mainPic": "./testname/img/no_img/37_13a7e1b765834d9bbecb4485f059fba6.jpeg",
+    "mainPic": "/testname/img/37_13a7e1b765834d9bbecb4485f059fba6.jpeg",
     "thems": [
         "test",
         "exam",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
   {
     "question": "Du står på bussholdeplassen og det er allerede én person der. Hvor stiller du deg?",
-    "pic": "./testname/img/no_img/39_8c32fe1994ac4026a95b37af25ce77dc.jpeg",
+    "pic": "/testname/img/39_8c32fe1994ac4026a95b37af25ce77dc.jpeg",
     "answers": [
       { "answer": "Minst to meter unna. Vi trenger alle vår \"personal space\".", "aPic": "", "aId": 1 },
       { "answer": "Rett ved siden av, for å kanskje starte en samtale.", "aPic": "", "aId": 2 },
@@ -21,7 +21,7 @@ let quizData = {
   },
   {
     "question": "Det er søndag og det pøsregner ute. Hva gjør du?",
-    "pic": "./testname/img/no_img/40_8debbd1e44114b2f8beb0fd7b4d4dd6f.jpeg",
+    "pic": "/testname/img/40_8debbd1e44114b2f8beb0fd7b4d4dd6f.jpeg",
     "answers": [
       { "answer": "Tar på meg regntøy og går på tur. \"Det finnes ikke dårlig vær, bare dårlige klær!\"", "aPic": "", "aId": 1 },
       { "answer": "Blir inne med en god bok og fyrer i peisen.", "aPic": "", "aId": 2 },
@@ -31,7 +31,7 @@ let quizData = {
   },
   {
     "question": "Hva er den ultimate nisten (matpakken) når du skal på tur?",
-    "pic": "./testname/img/no_img/41_b1b98737022c4757923af4717c234f30.jpeg",
+    "pic": "/testname/img/41_b1b98737022c4757923af4717c234f30.jpeg",
     "answers": [
       { "answer": "To skiver grovbrød med brunost og en appelsin.", "aPic": "", "aId": 1 },
       { "answer": "En fancy salat eller en sandwich fra kafé.", "aPic": "", "aId": 2 },
@@ -41,7 +41,7 @@ let quizData = {
   },
   {
     "question": "Det er fredag kveld! Hva står på middagsbordet?",
-    "pic": "./testname/img/no_img/42_b2270a56f5a54145bd57e3aa5a170f1d.jpeg",
+    "pic": "/testname/img/42_b2270a56f5a54145bd57e3aa5a170f1d.jpeg",
     "answers": [
       { "answer": "Taco! Det er jo \"fredagstaco\".", "aPic": "", "aId": 1 },
       { "answer": "Pizza Grandiosa (den uoffisielle nasjonalretten).", "aPic": "", "aId": 2 },
@@ -51,7 +51,7 @@ let quizData = {
   },
   {
     "question": "Hvordan reagerer du hvis en fremmed begynner å snakke til deg på trikken?",
-    "pic": "./testname/img/no_img/43_4cbe03077e4745efbbf7cbeff100a109.jpeg",
+    "pic": "/testname/img/43_4cbe03077e4745efbbf7cbeff100a109.jpeg",
     "answers": [
       { "answer": "Blir stiv i maska og svarer kort. Hva vil denne personen meg?", "aPic": "", "aId": 1 },
       { "answer": "Smiler høflig, men ser raskt ned i mobilen igjen.", "aPic": "", "aId": 2 },
@@ -61,7 +61,7 @@ let quizData = {
   },
   {
     "question": "Hva er din drømmeferie?",
-    "pic": "./testname/img/no_img/44_c2fac87ac2f84654862950f7f7177727.png",
+    "pic": "/testname/img/44_c2fac87ac2f84654862950f7f7177727.png",
     "answers": [
       { "answer": "En uke på en hytte uten strøm og vann, langt inne på fjellet.", "aPic": "", "aId": 1 },
       { "answer": "Storbyferie i London, Paris eller New York.", "aPic": "", "aId": 2 },
@@ -71,7 +71,7 @@ let quizData = {
   },
   {
     "question": "Hva betyr \"dugnad\" for deg?",
-    "pic": "./testname/img/no_img/44_c2fac87ac2f84654862950f7f7177727.png",
+    "pic": "/testname/img/44_c2fac87ac2f84654862950f7f7177727.png",
     "answers": [
       { "answer": "En hellig tradisjon der man jobber sammen for fellesskapet (og spiser vafler etterpå).", "aPic": "", "aId": 1 },
       { "answer": "Noe jeg føler jeg må være med på, men egentlig vil unngå.", "aPic": "", "aId": 2 },

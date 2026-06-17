@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Hogwarts character will you spend New Year's Eve 2026 with?",
-    "mainPic": "./testname/img/de_img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
+    "mainPic": "/testname/img/40_67b55eec16484f649fbc089313b7b49f.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "What kind of evening do you prefer to start 2026?",
-            "pic": "./testname/img/de_img/41_fb400cac11754478a4e98501de580ebc.jpeg",
+            "pic": "/testname/img/41_fb400cac11754478a4e98501de580ebc.jpeg",
             "answers": [
                 {
                     "answer": "A spontaneous adventure under the invisibility cloak.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Which word best describes 2026 for you?",
-            "pic": "./testname/img/de_img/42_b971d9ca949d4661abf42f73ec45f1c5.jpeg",
+            "pic": "/testname/img/42_b971d9ca949d4661abf42f73ec45f1c5.jpeg",
             "answers": [
                 {
                     "answer": "Action.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "What magical gift would you give your best friend?",
-            "pic": "./testname/img/de_img/43_e3bd54ae7416409fa965ecc46f0bf526.jpeg",
+            "pic": "/testname/img/43_e3bd54ae7416409fa965ecc46f0bf526.jpeg",
             "answers": [
                 {
                     "answer": "A protective artifact for his coming challenges.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "How would you react if you encountered a Dementor on New Year's Eve?",
-            "pic": "./testname/img/de_img/44_8fe981a26c64457b9cbf4e91941f7dfa.jpeg",
+            "pic": "/testname/img/44_8fe981a26c64457b9cbf4e91941f7dfa.jpeg",
             "answers": [
                 {
                     "answer": "I immediately cast a Patronus to protect everyone.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Which subject would you most like to repeat on January 1st?",
-            "pic": "./testname/img/de_img/45_a4fcef494c854d9a86f6aa19e4bd3d05.jpeg",
+            "pic": "/testname/img/45_a4fcef494c854d9a86f6aa19e4bd3d05.jpeg",
             "answers": [
                 {
                     "answer": "Defense Against the Dark Arts.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "What is your greatest strength in a group?",
-            "pic": "./testname/img/de_img/46_e515e877645c41b1a203307a331b50c9.jpeg",
+            "pic": "/testname/img/46_e515e877645c41b1a203307a331b50c9.jpeg",
             "answers": [
                 {
                     "answer": "My courage in the face of danger.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Which Hogwarts secret would you like to discover in 2026?",
-            "pic": "./testname/img/de_img/47_664a22e351644319a75cc8193c693ed6.jpeg",
+            "pic": "/testname/img/47_664a22e351644319a75cc8193c693ed6.jpeg",
             "answers": [
                 {
                     "answer": "The secret passage to Hogsmeade.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "What magical drink would you serve your guests at midnight?",
-            "pic": "./testname/img/de_img/48_023d7b38fcdd41c69f54ff53096ad250.jpeg",
+            "pic": "/testname/img/48_023d7b38fcdd41c69f54ff53096ad250.jpeg",
             "answers": [
                 {
                     "answer": "A warm butterbeer.",

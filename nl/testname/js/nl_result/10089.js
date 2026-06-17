@@ -20,7 +20,7 @@ Anderen kijken naar je op —
 soms met bewondering,
 soms met jaloezie.
     `,
-    "mainPic": "./testname/img/nl_img/21_ef3df131800b4132a7f0c78bfc10f526.jpeg"
+    "mainPic": "/testname/img/21_ef3df131800b4132a7f0c78bfc10f526.jpeg"
   },
   "2": {
     "title": "Ben jij de Diamant van het seizoen of het mikpunt van Lady Whistledown?",
@@ -41,7 +41,7 @@ Lady Whistledown
 zou je respecteren —
 en misschien zelfs vrezen.
     `,
-    "mainPic": "./testname/img/nl_img/22_7ffa1bc5f9f040cda6cba1c1528cbd70.jpeg"
+    "mainPic": "/testname/img/22_7ffa1bc5f9f040cda6cba1c1528cbd70.jpeg"
   },
   "3": {
     "title": "Ben jij de Diamant van het seizoen of het mikpunt van Lady Whistledown?",
@@ -61,7 +61,7 @@ In een wereld
 vol maskers
 ben jij verfrissend echt.
     `,
-    "mainPic": "./testname/img/nl_img/23_daf6d2e69c334b7f842bc34472e47611.jpeg"
+    "mainPic": "/testname/img/23_daf6d2e69c334b7f842bc34472e47611.jpeg"
   },
   "4": {
     "title": "Ben jij de Diamant van het seizoen of het mikpunt van Lady Whistledown?",
@@ -82,6 +82,6 @@ Lady Whistledown
 zou je naam vaker noemen
 dan je lief is.
     `,
-    "mainPic": "./testname/img/nl_img/24_f2648cdb6a92416890dcc4d455eedbea.jpeg"
+    "mainPic": "/testname/img/24_f2648cdb6a92416890dcc4d455eedbea.jpeg"
   }
 };

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel dieu mythique vous a béni ?",
-    "mainPic": "./testname/img/fr_img/2ae7524f7b028c8635a4f71decffc8cd.gif",
+    "mainPic": "/testname/img/2ae7524f7b028c8635a4f71decffc8cd.gif",
     "thems": [
         "Horoscope",
         "Arabe",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle caractéristique vous définit le plus?",
-            "pic": "./testname/img/fr_img/54c5256261359408f1d83f7ba2f2e37b.jpg",
+            "pic": "/testname/img/54c5256261359408f1d83f7ba2f2e37b.jpg",
             "answers": [
                 {
                     "answer": "Sagesse",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quelle ancienne civilisation vous fascine le plus ?",
-            "pic": "./testname/img/fr_img/20d223300b3500df20f85a7ee4152b63.jpg",
+            "pic": "/testname/img/20d223300b3500df20f85a7ee4152b63.jpg",
             "answers": [
                 {
                     "answer": "Mésopotamienne",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Si vous pouviez posséder un pouvoir divin, lequel serait-ce?",
-            "pic": "./testname/img/fr_img/e3b68c532993f27ff22db1d88f88c65b.jpg",
+            "pic": "/testname/img/e3b68c532993f27ff22db1d88f88c65b.jpg",
             "answers": [
                 {
                     "answer": "Le contrôle du destin",
@@ -94,22 +94,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Temple de Baalbek",
-                    "aPic": "./testname/img/fr_img/82f2aca56d609d2755fe011ecf5838df.jpeg",
+                    "aPic": "/testname/img/82f2aca56d609d2755fe011ecf5838df.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "Pyramides de Gizeh",
-                    "aPic": "./testname/img/fr_img/f0cc0a225cbc84257ad6bff75ac58926.jpeg",
+                    "aPic": "/testname/img/f0cc0a225cbc84257ad6bff75ac58926.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "Ruines de Pétra",
-                    "aPic": "./testname/img/fr_img/7e51dea8de9276c4d5a1d9e1600650bf.jpeg",
+                    "aPic": "/testname/img/7e51dea8de9276c4d5a1d9e1600650bf.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "Kaaba (ère préislamique)",
-                    "aPic": "./testname/img/fr_img/sr_174337038667e9b89290ccc.jpg",
+                    "aPic": "/testname/img/sr_174337038667e9b89290ccc.jpg",
                     "aId": 4
                 }
             ]

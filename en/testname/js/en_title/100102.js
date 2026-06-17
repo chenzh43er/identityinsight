@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Career Is Right For You According To Your Zodiac Sign?",
-    "mainPic": "./testname/img/de_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+    "mainPic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
     "thems": [
         "Zodiac",
         "horoscope",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Teacher Simulator Quiz: Wat voor soort leraar ben jij?",
-    "mainPic": "./testname/img/nl_img/0187075c11d43390c74be10eb88bfddd.gif",
+    "mainPic": "/testname/img/0187075c11d43390c74be10eb88bfddd.gif",
     "thems": [
         "Spellen",
         "Leraar",

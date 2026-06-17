@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Gesundheitsfürsorge: Bewerten Sie Ihre Gesundheitsrisiken durch Astrologie",
-    "mainPic": "./testname/img/de_img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
+    "mainPic": "/testname/img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
     "thems": [
         "Horoskop",
         "Tierkreis",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wählen Sie Ihr Sternzeichen",
-            "pic": "./testname/img/de_img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
+            "pic": "/testname/img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welchem Element ist Ihr Sternzeichen zugeordnet?",
-            "pic": "./testname/img/de_img/6e8149aae60d71c17b411867d54e5f77.png",
+            "pic": "/testname/img/6e8149aae60d71c17b411867d54e5f77.png",
             "answers": [
                 {
                     "answer": "Luft",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Was ist Ihr Aszendent?",
-            "pic": "./testname/img/de_img/ded07406345df47d69fe38ebca7c6a93.png",
+            "pic": "/testname/img/ded07406345df47d69fe38ebca7c6a93.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welcher Planet regiert Ihr Sternzeichen?",
-            "pic": "./testname/img/de_img/8863733fdf9873417bc91371f38fca82.png",
+            "pic": "/testname/img/8863733fdf9873417bc91371f38fca82.png",
             "answers": [
                 {
                     "answer": "Mars",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie schließlich Ihr Mondzeichen",
-            "pic": "./testname/img/de_img/a88a842d26f473da71b432733b80036c.png",
+            "pic": "/testname/img/a88a842d26f473da71b432733b80036c.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",

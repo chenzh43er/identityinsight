@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Was verraten deine Augen über dein vergangenes Leben?",
-    "mainPic": "./testname/img/de_img/93f935ad434696438bcf8f31987b9c6b.gif",
+    "mainPic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
     "thems": [
         "Augen",
         "Vergangenes Leben",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welche Farbe beschreibt dein inneres Auge am besten?",
-            "pic": "./testname/img/de_img/38a6d30ec16dbe2971d59f9b4f514dca.png",
+            "pic": "/testname/img/38a6d30ec16dbe2971d59f9b4f514dca.png",
             "answers": [
                 {
                     "answer": "Smaragdgrün",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wo spüren Sie oft eine geheimnisvolle Anziehungskraft?",
-            "pic": "./testname/img/de_img/96a19b4012600147e51275e57d74bd44.png",
+            "pic": "/testname/img/96a19b4012600147e51275e57d74bd44.png",
             "answers": [
                 {
                     "answer": "Geheimnisvoller Wald",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Ein Fremder schaut Ihnen in die Augen und beginnt plötzlich zu weinen. Warum?",
-            "pic": "./testname/img/de_img/ed382eff77e42b971a769276b05d6420.png",
+            "pic": "/testname/img/ed382eff77e42b971a769276b05d6420.png",
             "answers": [
                 {
                     "answer": "Sie erinnern sich an etwas, das sie für verloren hielten",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "In deiner tiefsten Vorstellung, wo lebst du?",
-            "pic": "./testname/img/de_img/63014b84f9fcc69413d1be46712cef1f.png",
+            "pic": "/testname/img/63014b84f9fcc69413d1be46712cef1f.png",
             "answers": [
                 {
                     "answer": "Eine Karawane aus Farben",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Wähle ein Objekt aus deinem vorgestellten früheren Leben, das du jetzt mit dir tragen möchtest",
-            "pic": "./testname/img/de_img/f17aea0287e3495fb80efe51d31404bf.png",
+            "pic": "/testname/img/f17aea0287e3495fb80efe51d31404bf.png",
             "answers": [
                 {
                     "answer": "Eine Silbermünze",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Welche Tieraugen finden Sie am attraktivsten?",
-            "pic": "./testname/img/de_img/65dbfd65506bbd2442b49ff76b63fc34.png",
+            "pic": "/testname/img/65dbfd65506bbd2442b49ff76b63fc34.png",
             "answers": [
                 {
                     "answer": "Eule",

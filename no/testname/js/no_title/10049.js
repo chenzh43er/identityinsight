@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Maîtriserais-tu les Forces du Mal ?",
-    "mainPic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+    "mainPic": "/testname/img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-Quiz", "Galtvort", "Magi", "Film", "Harry-Potter-fans", "Magiske verden", "Potterheads"],
     "questions": [
         {
             "question": "Hva fascinerer deg mest med svart magi?",
-            "pic": "./testname/img/fr_img/05_009c6355-358e-429d-af6d-3f07c0edce4f.jpeg",
+            "pic": "/testname/img/05_009c6355-358e-429d-af6d-3f07c0edce4f.jpeg",
             "answers": [
                 {
                     "answer": "Kraften",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Du oppdager en forbudt bok... hva gjør du?",
-            "pic": "./testname/img/fr_img/04_b39e4058-118f-47cb-bf56-e7cc92c9cca7.jpeg",
+            "pic": "/testname/img/04_b39e4058-118f-47cb-bf56-e7cc92c9cca7.jpeg",
             "answers": [
                 {
                     "answer": "Du leser den umiddelbart.",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvis noen forråder deg...",
-            "pic": "./testname/img/fr_img/03_3f663c24-6c4e-4910-9693-5ad7b1ac9a52.jpeg",
+            "pic": "/testname/img/03_3f663c24-6c4e-4910-9693-5ad7b1ac9a52.jpeg",
             "answers": [
                  {
                     "answer": "Du bryter all kontakt.",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvis du kunne brygge en trylledrikk, ville det vært...",
-            "pic": "./testname/img/fr_img/02_dbf67d8f-1216-49a5-b861-42ea4ca3a96a.jpeg",
+            "pic": "/testname/img/02_dbf67d8f-1216-49a5-b861-42ea4ca3a96a.jpeg",
             "answers": [
                 {
                     "answer": "En trylledrikk av sannhet",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hvis noen truer deg, reagerer du...",
-            "pic": "./testname/img/fr_img/01_5efc3c54-73a5-497f-b195-5f5e5d110d3b.jpeg",
+            "pic": "/testname/img/01_5efc3c54-73a5-497f-b195-5f5e5d110d3b.jpeg",
             "answers": [
                 {
                     "answer": "Med diplomati",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hva er din største indre konflikt?",
-            "pic": "./testname/img/fr_img/12_7de194d0-6507-49f5-bee2-94b20c325374.webp",
+            "pic": "/testname/img/12_7de194d0-6507-49f5-bee2-94b20c325374.webp",
             "answers": [
                 {
                     "answer": "Makt eller moral",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Hvis du hadde en uklar gave, ville du...",
-            "pic": "./testname/img/fr_img/11_b460e1da-7c26-44e4-ae7c-1628150ac32f.jpeg",
+            "pic": "/testname/img/11_b460e1da-7c26-44e4-ae7c-1628150ac32f.jpeg",
             "answers": [
                 {
                     "answer": "ville skjule det",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Hvis du var en mørk trollmann, ville navnet ditt vært...",
-            "pic": "./testname/img/fr_img/10_3efb83dc-eab7-4fea-957a-15215ac04e05.jpeg",
+            "pic": "/testname/img/10_3efb83dc-eab7-4fea-957a-15215ac04e05.jpeg",
             "answers": [
                 {
                     "answer": "Skyggen",

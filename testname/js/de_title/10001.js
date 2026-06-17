@@ -1,6 +1,6 @@
 let quizData = {
     "title": "In welchem Alter werden Sie heiraten?",
-    "mainPic": "./testname/img/de_img/06944b47fba1e1cd3d6dab2e672248f2.gif",
+    "mainPic": "/testname/img/06944b47fba1e1cd3d6dab2e672248f2.gif",
     "thems": [
         "ÜberSie",
         "Persönlichkeit",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie fühlst du dich gerade in Bezug auf die Ehe?",
-            "pic": "./testname/img/de_img/5fc4dd652559e89a36abc6a288d39bbc.jpg",
+            "pic": "/testname/img/5fc4dd652559e89a36abc6a288d39bbc.jpg",
             "answers": [
                 {
                     "answer": "Ich kann es kaum erwarten, bring es her!",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Wie ist die Atmosphäre Ihrer Traumhochzeit?",
-            "pic": "./testname/img/de_img/af0de9b63006d65b2997d81738d8cd94.jpg",
+            "pic": "/testname/img/af0de9b63006d65b2997d81738d8cd94.jpg",
             "answers": [
                 {
                     "answer": "Ein großes Ereignis mit all meinen Lieben",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wie gehst du an langfristige Beziehungen heran?",
-            "pic": "./testname/img/de_img/5dd3c64ac8f5a4ccc94e5afbc90e7beb.jpg",
+            "pic": "/testname/img/5dd3c64ac8f5a4ccc94e5afbc90e7beb.jpg",
             "answers": [
                 {
                     "answer": "Voll dabei, ich bin für die lange Strecke bereit",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Was beschreibt am besten Ihre beruflichen oder persönlichen Ziele?",
-            "pic": "./testname/img/de_img/0862a57cba8f6d4ab8f4ab2c1806a75d.jpg",
+            "pic": "/testname/img/0862a57cba8f6d4ab8f4ab2c1806a75d.jpg",
             "answers": [
                 {
                     "answer": "Sich niederzulassen ist meine oberste Priorität",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Wie stellst du dir dein Leben in 10 Jahren vor?",
-            "pic": "./testname/img/de_img/5f02a4eea04ee14ad3cb97575a0cc807.jpg",
+            "pic": "/testname/img/5f02a4eea04ee14ad3cb97575a0cc807.jpg",
             "answers": [
                 {
                     "answer": "Verheiratet mit Kindern und einem gemütlichen Zuhause",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine größte Angst in Beziehungen?",
-            "pic": "./testname/img/de_img/e61c548fdb9174c0d3688e4232676103.jpg",
+            "pic": "/testname/img/e61c548fdb9174c0d3688e4232676103.jpg",
             "answers": [
                 {
                     "answer": "Den Richtigen nicht rechtzeitig zu finden",

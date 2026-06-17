@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken karakter er du i Demon Slayer: Infinity Castle?",
-    "mainPic": "./testname/img/no_img/f8577e95c27a7403c2bdfbb099124426.gif",
+    "mainPic": "/testname/img/f8577e95c27a7403c2bdfbb099124426.gif",
     "thems": [
         "Anime",
         "DemonSlayer",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva verdsetter du mest i dine forhold til andre?",
-            "pic": "./testname/img/no_img/561b7784f142d66d73d1ffab9c188777.png",
+            "pic": "/testname/img/561b7784f142d66d73d1ffab9c188777.png",
             "answers": [
                 {
                     "answer": "Lojalitet",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hvilken \"åndedrettsstil\" filosofi resonerer mest med deg?",
-            "pic": "./testname/img/no_img/8ab676f1e0a0cca97d840f102dbbdff3.png",
+            "pic": "/testname/img/8ab676f1e0a0cca97d840f102dbbdff3.png",
             "answers": [
                 {
                     "answer": "En mild, allsidig flyt",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hvilken egenskap ved en Demon Slayer identifiserer du deg med?",
-            "pic": "./testname/img/no_img/5ddae296b60e4a3bb217250c1266339f.png",
+            "pic": "/testname/img/5ddae296b60e4a3bb217250c1266339f.png",
             "answers": [
                 {
                     "answer": "Uforbeholden godhet",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Hvilken kampstil ville du heller hatt?",
-            "pic": "./testname/img/no_img/b94660f1c72ae1f83f04c4f6263b0fe2.png",
+            "pic": "/testname/img/b94660f1c72ae1f83f04c4f6263b0fe2.png",
             "answers": [
                 {
                     "answer": "Toslåingsangriper",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Velg ett av disse sitatene fra Demon Slayer",
-            "pic": "./testname/img/no_img/c4721bfa8859360ac7e3555b537bc94e.png",
+            "pic": "/testname/img/c4721bfa8859360ac7e3555b537bc94e.png",
             "answers": [
                 {
                     "answer": "Sett hjertet ditt i brann, gå utover dine grenser!",

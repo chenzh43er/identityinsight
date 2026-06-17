@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vilken Harry Potter-huvudkaraktär är du?",
-    "mainPic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+    "mainPic": "/testname/img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
             "question": "När du först anländer till Hogwarts, vad känner du?",
-            "pic": "./testname/img/fr_img/oA1fO1kK0e.jpg",
+            "pic": "/testname/img/oA1fO1kK0e.jpg",
             "answers": [
                 {
                     "answer": "Spänning och förundran",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Vilket karaktärsdrag definierar dig bäst?",
-            "pic": "./testname/img/fr_img/pH0hR1eI3a.jpg",
+            "pic": "/testname/img/pH0hR1eI3a.jpg",
             "answers": [
                 {
                     "answer": "Modig",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vad gör du när du ställs inför orättvisa?",
-            "pic": "./testname/img/fr_img/fA3eV5bB2i.jpg",
+            "pic": "/testname/img/fA3eV5bB2i.jpg",
             "answers": [
                 {
                     "answer": "Du står upp och slåss",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "När du får ett kraftfullt magiskt föremål, vad gör du?",
-            "pic": "./testname/img/fr_img/cA2aD3aA0f.jpg",
+            "pic": "/testname/img/cA2aD3aA0f.jpg",
             "answers": [
                 {
                     "answer": "Du använder den för att försvara andra",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vilken kontakt har du med dina vänner?",
-            "pic": "./testname/img/fr_img/bD2cA2cC0e.jpg",
+            "pic": "/testname/img/bD2cA2cC0e.jpg",
             "answers": [
                 {
                     "answer": "Du är deras naturliga ledare",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Ditt idealiska bekanta djur skulle vara:",
-            "pic": "./testname/img/fr_img/oF5hD0hA8bS.jpg",
+            "pic": "/testname/img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Uggla",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Ditt favoritögonblick på slottet skulle vara:",
-            "pic": "./testname/img/fr_img/dK2eR5aK0h.png",
+            "pic": "/testname/img/dK2eR5aK0h.png",
             "answers": [
                 {
                     "answer": "Quidditch-matchen",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Om du fick välja ett magiskt motto, vad skulle du välja?",
-            "pic": "./testname/img/fr_img/dC1kB0uF4q.jpg",
+            "pic": "/testname/img/dC1kB0uF4q.jpg",
             "answers": [
                 {
                     "answer": "”Mod framför allt”",

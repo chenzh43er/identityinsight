@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Faites des choix liés à votre signe du zodiaque et découvrez le nom de votre âme sœur !",
-    "mainPic": "./testname/img/fr_img/13bc72828b062229dd2750e3bafb47c4.gif",
+    "mainPic": "/testname/img/13bc72828b062229dd2750e3bafb47c4.gif",
     "thems": [
         "Horoscope",
         "Zodiaque",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel est votre signe du zodiaque?",
-            "pic": "./testname/img/fr_img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
+            "pic": "/testname/img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
             "answers": [
                 {
                     "answer": "Gémeaux, Balance, Verseau",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "À quel élément appartient votre signe du zodiaque ?",
-            "pic": "./testname/img/fr_img/b8b8afb12370def491f994c2a7ad93c4.png",
+            "pic": "/testname/img/b8b8afb12370def491f994c2a7ad93c4.png",
             "answers": [
                 {
                     "answer": "Air",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Laquelle de ces planètes a le plus d'influence sur votre signe du zodiaque ?",
-            "pic": "./testname/img/fr_img/ed65d96819faccd9362fb0cfaca1f1d4.png",
+            "pic": "/testname/img/ed65d96819faccd9362fb0cfaca1f1d4.png",
             "answers": [
                 {
                     "answer": "Lune ou Soleil",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre signe ascendant?",
-            "pic": "./testname/img/fr_img/435de43e8404ec350d0ffe5fa41839b8.png",
+            "pic": "/testname/img/435de43e8404ec350d0ffe5fa41839b8.png",
             "answers": [
                 {
                     "answer": "Gémeaux, Balance, Verseau",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "À quel point croyez-vous en votre signe du zodiaque?",
-            "pic": "./testname/img/fr_img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
+            "pic": "/testname/img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
             "answers": [
                 {
                     "answer": "Complètement, il me définit.",

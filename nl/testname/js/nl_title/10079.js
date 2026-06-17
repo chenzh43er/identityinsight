@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat zijn jouw jeugdtrauma's?",
-    "mainPic": "./testname/img/nl_img/28522b496631010237b20cfbf8d948d6.jpeg",
+    "mainPic": "/testname/img/28522b496631010237b20cfbf8d948d6.jpeg",
     "thems": [
         "Trauma",
         "Jeugd",

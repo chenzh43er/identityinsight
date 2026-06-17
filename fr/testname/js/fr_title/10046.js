@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel personnage principal de Harry Potter êtes-vous ?",
-    "mainPic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+    "mainPic": "/testname/img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quand vous arrivez pour la première fois à Poudlard, que ressentez-vous ?",
-            "pic": "./testname/img/fr_img/oA1fO1kK0e.jpg",
+            "pic": "/testname/img/oA1fO1kK0e.jpg",
             "answers": [
                 {
                     "answer": "Excitation et émerveillement",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Quel trait de caractère te définit le mieux ?",
-            "pic": "./testname/img/fr_img/pH0hR1eI3a.jpg",
+            "pic": "/testname/img/pH0hR1eI3a.jpg",
             "answers": [
                 {
                     "answer": "Courageux(se)",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Face à une injustice, tu fais quoi ?",
-            "pic": "./testname/img/fr_img/fA3eV5bB2i.jpg",
+            "pic": "/testname/img/fA3eV5bB2i.jpg",
             "answers": [
                 {
                     "answer": "Tu te lèves et tu combats",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Quand on te donne un objet magique puissant, tu fais quoi ?",
-            "pic": "./testname/img/fr_img/cA2aD3aA0f.jpg",
+            "pic": "/testname/img/cA2aD3aA0f.jpg",
             "answers": [
                 {
                     "answer": "Tu l’utilises pour défendre les autres",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Quel lien as-tu avec tes amis ?",
-            "pic": "./testname/img/fr_img/bD2cA2cC0e.jpg",
+            "pic": "/testname/img/bD2cA2cC0e.jpg",
             "answers": [
                 {
                     "answer": "Tu es leur chef naturel",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Ton animal familiar idéal serait :",
-            "pic": "./testname/img/fr_img/oF5hD0hA8bS.jpg",
+            "pic": "/testname/img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Hibou",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Ton moment préféré au château serait :",
-            "pic": "./testname/img/fr_img/dK2eR5aK0h.png",
+            "pic": "/testname/img/dK2eR5aK0h.png",
             "answers": [
                 {
                     "answer": "Le match de Quidditch",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Si tu devais choisir une devise magique, que choisiras-tu ?",
-            "pic": "./testname/img/fr_img/dC1kB0uF4q.jpg",
+            "pic": "/testname/img/dC1kB0uF4q.jpg",
             "answers": [
                 {
                     "answer": "« Le courage avant tout »",

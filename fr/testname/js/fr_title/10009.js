@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qui aura une relation secrète avec vous?",
-    "mainPic": "./testname/img/fr_img/6af843c64931a033ad3bde07e8be0e58.gif",
+    "mainPic": "/testname/img/6af843c64931a033ad3bde07e8be0e58.gif",
     "thems": [
         "Amour",
         "Couples",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Si vous pouviez choisir une activité pour une journée ensemble, laquelle choisiriez-vous ?",
-            "pic": "./testname/img/fr_img/36cecf71f20caeac88a8dbe785121137.jpg",
+            "pic": "/testname/img/36cecf71f20caeac88a8dbe785121137.jpg",
             "answers": [
                 {
                     "answer": "Aller dans un café pour parler de tout",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quel genre de surprise vous rendrait le plus heureux?",
-            "pic": "./testname/img/fr_img/ab95ce85d3983119a01b16231f517da0.jpg",
+            "pic": "/testname/img/ab95ce85d3983119a01b16231f517da0.jpg",
             "answers": [
                 {
                     "answer": "Un message sincère à un moment inattendu",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Comment vous décririez-vous dans une relation secrète ?",
-            "pic": "./testname/img/fr_img/09c508179e4cdddd56fe105f2cfd7490.jpg",
+            "pic": "/testname/img/09c508179e4cdddd56fe105f2cfd7490.jpg",
             "answers": [
                 {
                     "answer": "Loyal et toujours prêt à écouter",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Qu'est-ce qui vous attire le plus chez une personne?",
-            "pic": "./testname/img/fr_img/6033dbe2ff5c5b8acbd0b4b5643fe04c.jpg",
+            "pic": "/testname/img/6033dbe2ff5c5b8acbd0b4b5643fe04c.jpg",
             "answers": [
                 {
                     "answer": "Proximité et confiance",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quand vous pensez à l'amour, quelle image vous vient à l'esprit?",
-            "pic": "./testname/img/fr_img/11158d920cab614f9666f4c29bcaaa7b.jpg",
+            "pic": "/testname/img/11158d920cab614f9666f4c29bcaaa7b.jpg",
             "answers": [
                 {
                     "answer": "Un café rempli de rires et de secrets partagés",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Si vous pouviez choisir un endroit pour un rendez-vous secret, où serait-ce?",
-            "pic": "./testname/img/fr_img/f7ef1a43279a47340fb703bb41c71962.jpg",
+            "pic": "/testname/img/f7ef1a43279a47340fb703bb41c71962.jpg",
             "answers": [
                 {
                     "answer": "Dans un endroit calme où nous pouvons parler sans interruptions",

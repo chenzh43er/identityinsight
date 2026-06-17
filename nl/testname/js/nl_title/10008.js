@@ -1,6 +1,6 @@
 let quizData = {
     "title": "We zullen uw leeftijd onthullen op basis van uw vingerafdruk",
-    "mainPic": "./testname/img/nl_img/bae4afa98f637f3006d68f45118399cb.gif",
+    "mainPic": "/testname/img/bae4afa98f637f3006d68f45118399cb.gif",
     "thems": [
         "Leeftijd",
         "Horoscoop",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welk patroon valt je op in je vingerafdruk?",
-            "pic": "./testname/img/nl_img/2760055d3d3c682c515edc27639a337b.jpg",
+            "pic": "/testname/img/2760055d3d3c682c515edc27639a337b.jpg",
             "answers": [
                 {
                     "answer": "Lus",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hoe diep zijn je vingerafdrukken?",
-            "pic": "./testname/img/nl_img/1804d2ad3c88eb40079f2055830786c9.jpg",
+            "pic": "/testname/img/1804d2ad3c88eb40079f2055830786c9.jpg",
             "answers": [
                 {
                     "answer": "Licht",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hoe breed zijn de ruimtes tussen de lijnen?",
-            "pic": "./testname/img/nl_img/c401a26455c2e88e1a4f857c19f0dc58.jpg",
+            "pic": "/testname/img/c401a26455c2e88e1a4f857c19f0dc58.jpg",
             "answers": [
                 {
                     "answer": "Nauw",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Hoe voelt de huid van je vingertoppen aan?",
-            "pic": "./testname/img/nl_img/d76473ed6525cba58bc3275d67c79147.jpg",
+            "pic": "/testname/img/d76473ed6525cba58bc3275d67c79147.jpg",
             "answers": [
                 {
                     "answer": "Glad",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Hoe snel zweten je vingertoppen?",
-            "pic": "./testname/img/nl_img/1caf7794f67156b7ae67f7a19de7acbc.jpg",
+            "pic": "/testname/img/1caf7794f67156b7ae67f7a19de7acbc.jpg",
             "answers": [
                 {
                     "answer": "Nooit",

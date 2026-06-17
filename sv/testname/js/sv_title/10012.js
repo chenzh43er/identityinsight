@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken Disneyprinsessas magi skulle hjälpa dig att klara dina prov? 🏰✏️",
-    "mainPic": "./testname/img/sv_img/a09f623108e4d67071c2ec573f6cf567.gif",
+    "mainPic": "/testname/img/a09f623108e4d67071c2ec573f6cf567.gif",
     "thems": [
         "Disney",
         "Disneykaraktärer",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur förbereder du dig inför ett prov?",
-            "pic": "./testname/img/sv_img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
+            "pic": "/testname/img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
             "answers": [
                 {
                     "answer": "Jag går och lägger mig tidigt och vilar mycket",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Vilken typ av klasskamrater föredrar du?",
-            "pic": "./testname/img/sv_img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
+            "pic": "/testname/img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
             "answers": [
                 {
                     "answer": "De som är lugna och inte skapar för mycket drama",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle du göra om du inte förstod något under ett prov?",
-            "pic": "./testname/img/sv_img/3030ba9228e90626b27846223b0057ad.jpg",
+            "pic": "/testname/img/3030ba9228e90626b27846223b0057ad.jpg",
             "answers": [
                 {
                     "answer": "Jag fokuserar på mitt välbefinnande och försöker hålla mig lugn för att ge mitt bästa",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hur vill du ha hjälp under ett prov?",
-            "pic": "./testname/img/sv_img/a42f81def46f99e6d30e023381ce181f.jpg",
+            "pic": "/testname/img/a42f81def46f99e6d30e023381ce181f.jpg",
             "answers": [
                 {
                     "answer": "Med lugn och tålamod, utan press",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle du göra om du inte kan plugga mycket innan tentan?",
-            "pic": "./testname/img/sv_img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
+            "pic": "/testname/img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
             "answers": [
                 {
                     "answer": "Jag oroar mig inte, jag litar på att det jag kan är tillräckligt",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Vad är din studieteknik?",
-            "pic": "./testname/img/sv_img/856d58c236fe47e0c4f796be7d1224e9.jpg",
+            "pic": "/testname/img/856d58c236fe47e0c4f796be7d1224e9.jpg",
             "answers": [
                 {
                     "answer": "Läsa och granska utan stress, alltid lugnt",

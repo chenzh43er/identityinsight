@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Disney-prinsesse sin magi hjelper deg med å bestå eksamenene dine? 🏰✏️",
-    "mainPic": "./testname/img/no_img/a09f623108e4d67071c2ec573f6cf567.gif",
+    "mainPic": "/testname/img/a09f623108e4d67071c2ec573f6cf567.gif",
     "thems": [
         "Disney",
         "DisneyFigurer",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvordan forbereder du deg før en eksamen?",
-            "pic": "./testname/img/no_img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
+            "pic": "/testname/img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
             "answers": [
                 {
                     "answer": "Jeg legger meg tidlig og får mye hvile",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hva slags klassekamerater foretrekker du?",
-            "pic": "./testname/img/no_img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
+            "pic": "/testname/img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
             "answers": [
                 {
                     "answer": "De som er rolige og ikke skaper for mye drama",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hva ville du gjort hvis du ikke forstår noe under en eksamen?",
-            "pic": "./testname/img/no_img/3030ba9228e90626b27846223b0057ad.jpg",
+            "pic": "/testname/img/3030ba9228e90626b27846223b0057ad.jpg",
             "answers": [
                 {
                     "answer": "Jeg fokuserer på mitt velvære og prøver å holde meg rolig for å yte mitt beste",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hvordan ønsker du å bli hjulpet under en eksamen?",
-            "pic": "./testname/img/no_img/a42f81def46f99e6d30e023381ce181f.jpg",
+            "pic": "/testname/img/a42f81def46f99e6d30e023381ce181f.jpg",
             "answers": [
                 {
                     "answer": "Med ro og tålmodighet, uten press",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Hva ville du gjort hvis du ikke kan studere mye før eksamen?",
-            "pic": "./testname/img/no_img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
+            "pic": "/testname/img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
             "answers": [
                 {
                     "answer": "Jeg bekymrer meg ikke, jeg stoler på at det jeg vet er nok",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hva er studiemetoden din?",
-            "pic": "./testname/img/no_img/856d58c236fe47e0c4f796be7d1224e9.jpg",
+            "pic": "/testname/img/856d58c236fe47e0c4f796be7d1224e9.jpg",
             "answers": [
                 {
                     "answer": "Les og vurder uten stress, alltid rolig",

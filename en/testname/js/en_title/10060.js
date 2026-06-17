@@ -1,6 +1,6 @@
 let quizData = {
     "title": "How would you celebrate Christmas at Hogwarts?",
-    "mainPic": "./testname/img/de_img/01_94961383f75d489e959de175383c047b.jpeg",
+    "mainPic": "/testname/img/01_94961383f75d489e959de175383c047b.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "When you wake up in the morning on Christmas, the first thing you see is...",
-            "pic": "./testname/img/de_img/02_7591242516d94455b814d472884cd92b.jpeg",
+            "pic": "/testname/img/02_7591242516d94455b814d472884cd92b.jpeg",
             "answers": [
                 {
                     "answer": "The snow on the window sills.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Your favorite scent for Christmas would be...",
-            "pic": "./testname/img/de_img/03_f27e7c7a539846448ff6a009ef5bd990.jpeg",
+            "pic": "/testname/img/03_f27e7c7a539846448ff6a009ef5bd990.jpeg",
             "answers": [
                 {
                     "answer": "Fresh pine needles.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Your Christmas outfit at Hogwarts:",
-            "pic": "./testname/img/de_img/04_71f1ce0414314d769bb0346aebc35528.jpeg",
+            "pic": "/testname/img/04_71f1ce0414314d769bb0346aebc35528.jpeg",
             "answers": [
                 {
                     "answer": "A red cape with gold stitching.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Your perfect Christmas present would be...",
-            "pic": "./testname/img/de_img/05_4dd7b6a7e91e464ab48e14eb5dbd1b5e.jpeg",
+            "pic": "/testname/img/05_4dd7b6a7e91e464ab48e14eb5dbd1b5e.jpeg",
             "answers": [
                 {
                     "answer": "A new magic wand.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "What are you doing at Christmas in the Great Hall?",
-            "pic": "./testname/img/de_img/06_0a14d354f8134b71a25778d04cd6c075.jpeg",
+            "pic": "/testname/img/06_0a14d354f8134b71a25778d04cd6c075.jpeg",
             "answers": [
                 {
                     "answer": "Dance.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Your favorite place at Hogwarts at Christmas:",
-            "pic": "./testname/img/de_img/07_a5e110c89714481bb46023ee373cc022.jpeg",
+            "pic": "/testname/img/07_a5e110c89714481bb46023ee373cc022.jpeg",
             "answers": [
                 {
                     "answer": "The Great Hall.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Who would you celebrate Christmas with?",
-            "pic": "./testname/img/de_img/08_d840f79bfaab4db88977a8a4ec7b8806.jpeg",
+            "pic": "/testname/img/08_d840f79bfaab4db88977a8a4ec7b8806.jpeg",
             "answers": [
                 {
                     "answer": "Harry, Ron and Hermione.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Your Christmas magic spell?",
-            "pic": "./testname/img/de_img/09_5e452fff1919439cb36ee2793bc14677.jpeg",
+            "pic": "/testname/img/09_5e452fff1919439cb36ee2793bc14677.jpeg",
             "answers": [
                 {
                     "answer": "Lumos Festivus! – for light and joy.",

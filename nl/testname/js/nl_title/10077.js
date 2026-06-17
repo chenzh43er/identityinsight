@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hoe Zien Mannen Jou?",
-    "mainPic": "./testname/img/nl_img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
+    "mainPic": "/testname/img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
     "thems": [
         "Liefde",
         "Mannen",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is de voornaamste reden waarom je een man in je leven zou willen hebben?",
-            "pic": "./testname/img/nl_img/838b2dc05d03654b0eafeddccd67f79f.png",
+            "pic": "/testname/img/838b2dc05d03654b0eafeddccd67f79f.png",
             "answers": [
                 {
                     "answer": "Om motivatie te hebben",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Waar praat je meestal over met mannen?",
-            "pic": "./testname/img/nl_img/de04cb4a13fab4f1983d52467941944d.png",
+            "pic": "/testname/img/de04cb4a13fab4f1983d52467941944d.png",
             "answers": [
                 {
                     "answer": "Carrièredoelen of filosofische ideeën",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Geniet je ervan om gesprekken met mannen te hebben?",
-            "pic": "./testname/img/nl_img/4d843860293e53f488d8cc5fabf3dcf2.png",
+            "pic": "/testname/img/4d843860293e53f488d8cc5fabf3dcf2.png",
             "answers": [
                 {
                     "answer": "Absoluut!",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Welke eigenschap vind je aantrekkelijker in een man?",
-            "pic": "./testname/img/nl_img/23925f9688a4076f0f5847ee4a2169df.png",
+            "pic": "/testname/img/23925f9688a4076f0f5847ee4a2169df.png",
             "answers": [
                 {
                     "answer": "Zijn professionele succes",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Hoe kleed je je meestal in het dagelijks leven?",
-            "pic": "./testname/img/nl_img/8cb16687bc2dc2c5837f8edbadf00d4b.png",
+            "pic": "/testname/img/8cb16687bc2dc2c5837f8edbadf00d4b.png",
             "answers": [
                 {
                     "answer": "Op maat gemaakt, krachtig en onberispelijk scherp",

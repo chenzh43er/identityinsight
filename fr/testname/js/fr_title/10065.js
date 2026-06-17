@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Prendre Soin de la Santé : Évaluez Vos Risques de Santé à Travers l'Astrologie",
-    "mainPic": "./testname/img/fr_img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
+    "mainPic": "/testname/img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
     "thems": [
         "Horoscope",
         "Zodiaque",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Sélectionnez votre signe astrologique",
-            "pic": "./testname/img/fr_img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
+            "pic": "/testname/img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
             "answers": [
                 {
                     "answer": "Gémeaux, Balance, Verseau",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quel élément est associé à votre signe du zodiaque ?",
-            "pic": "./testname/img/fr_img/6e8149aae60d71c17b411867d54e5f77.png",
+            "pic": "/testname/img/6e8149aae60d71c17b411867d54e5f77.png",
             "answers": [
                 {
                     "answer": "Air",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre signe ascendant ?",
-            "pic": "./testname/img/fr_img/ded07406345df47d69fe38ebca7c6a93.png",
+            "pic": "/testname/img/ded07406345df47d69fe38ebca7c6a93.png",
             "answers": [
                 {
                     "answer": "Gémeaux, Balance, Verseau",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Quelle planète gouverne votre signe astrologique?",
-            "pic": "./testname/img/fr_img/8863733fdf9873417bc91371f38fca82.png",
+            "pic": "/testname/img/8863733fdf9873417bc91371f38fca82.png",
             "answers": [
                 {
                     "answer": "Mars",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Enfin, choisissez votre signe lunaire",
-            "pic": "./testname/img/fr_img/a88a842d26f473da71b432733b80036c.png",
+            "pic": "/testname/img/a88a842d26f473da71b432733b80036c.png",
             "answers": [
                 {
                     "answer": "Gémeaux, Balance, Verseau",

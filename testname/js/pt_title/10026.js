@@ -1,6 +1,6 @@
 let quizData = {
     "title": "O Que a Sua Impressão Digital Revela Sobre o Nome do Seu Alma Gêmea?",
-    "mainPic": "./testname/img/pt_img/af609e6c39e7382a63fe7001b30d5f5f.gif",
+    "mainPic": "/testname/img/af609e6c39e7382a63fe7001b30d5f5f.gif",
     "thems": [
         "Alma gêmea",
         "Iniciais",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "A que forma suas impressões digitais se assemelham mais?",
-            "pic": "./testname/img/pt_img/43092bcc767c56fb363f0caf5c8f0d81.png",
+            "pic": "/testname/img/43092bcc767c56fb363f0caf5c8f0d81.png",
             "answers": [
                 {
                     "answer": "Espirais e voltas",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Qual destes elementos ressoa mais com você?",
-            "pic": "./testname/img/pt_img/0ec621493e5feeca8f8ac7359b073118.png",
+            "pic": "/testname/img/0ec621493e5feeca8f8ac7359b073118.png",
             "answers": [
                 {
                     "answer": "Fogo",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Que tipo de energia você emite nos relacionamentos?",
-            "pic": "./testname/img/pt_img/e98a21aeef5d4b1a86c9fdaf26055bc4.png",
+            "pic": "/testname/img/e98a21aeef5d4b1a86c9fdaf26055bc4.png",
             "answers": [
                 {
                     "answer": "Apaixonado",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Com qual criatura mítica você se sente conectado?",
-            "pic": "./testname/img/pt_img/87517a0417c2fd7ebdd23e8b660b6e5b.png",
+            "pic": "/testname/img/87517a0417c2fd7ebdd23e8b660b6e5b.png",
             "answers": [
                 {
                     "answer": "Dragão",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Qual é o seu encontro ideal?",
-            "pic": "./testname/img/pt_img/a96fa372cb02aa22cdef1017f687ab46.png",
+            "pic": "/testname/img/a96fa372cb02aa22cdef1017f687ab46.png",
             "answers": [
                 {
                     "answer": "Um jantar aconchegante à luz de velas",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Se você tivesse um poder secreto, qual seria?",
-            "pic": "./testname/img/pt_img/e704393d9524af1968b11789f2b9ed00.png",
+            "pic": "/testname/img/e704393d9524af1968b11789f2b9ed00.png",
             "answers": [
                 {
                     "answer": "Telepatia",

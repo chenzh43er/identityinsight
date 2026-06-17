@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Reinkarnasjon Er Du I Nå?",
-    "mainPic": "./testname/img/no_img/fac405620d97740b238099e3c19cd24f.gif",
+    "mainPic": "/testname/img/fac405620d97740b238099e3c19cd24f.gif",
     "thems": [
         "Reinkarnasjon",
         "Horoskop",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvilket dyr føler du deg mest knyttet til?",
-            "pic": "./testname/img/no_img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
+            "pic": "/testname/img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
             "answers": [
                 {
                     "answer": "Ugle",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hvilket element matcher energien din?",
-            "pic": "./testname/img/no_img/4205267fdcef2f1af7a72f331d050e09.png",
+            "pic": "/testname/img/4205267fdcef2f1af7a72f331d050e09.png",
             "answers": [
                 {
                     "answer": "Røyk",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Velg et symbol:",
-            "pic": "./testname/img/no_img/0d2acafe1d6443cc8eba33c4176baf12.png",
+            "pic": "/testname/img/0d2acafe1d6443cc8eba33c4176baf12.png",
             "answers": [
                 {
                     "answer": "Tre",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hva får deg til å føle deg virkelig levende?",
-            "pic": "./testname/img/no_img/0cac79cb42171da77ea175de460e89e1.png",
+            "pic": "/testname/img/0cac79cb42171da77ea175de460e89e1.png",
             "answers": [
                 {
                     "answer": "Lyden av blader som rasler i vinden",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt forhold til tiden?",
-            "pic": "./testname/img/no_img/a59cca5c7dcef266d5abbcdf5c35f948.png",
+            "pic": "/testname/img/a59cca5c7dcef266d5abbcdf5c35f948.png",
             "answers": [
                 {
                     "answer": "Det er et puslespill jeg vil løse",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hva lengter du mest etter?",
-            "pic": "./testname/img/no_img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
+            "pic": "/testname/img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
             "answers": [
                 {
                     "answer": "Harmoni",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هو اسم حبك الأول؟",
-    "mainPic": "./testname/img/ar_img/ce6899b47f5410a4c6aec4531bab61d1.gif",
+    "mainPic": "/testname/img/ce6899b47f5410a4c6aec4531bab61d1.gif",
     "thems": [
         "حب",
         "الحب الأول",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما الصفات التي يجب أن يمتلكها الشخص لكي تنال إعجابك؟",
-            "pic": "./testname/img/ar_img/f3942db32059ddde4c6412743030b1e3.png",
+            "pic": "/testname/img/f3942db32059ddde4c6412743030b1e3.png",
             "answers": [
                 {
                     "answer": "الطموح",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "أي من هذه الأوصاف تصف أفضل طريقة تقاربك للحب؟",
-            "pic": "./testname/img/ar_img/dd88ab5422957ea5a31de093e9561be4.png",
+            "pic": "/testname/img/dd88ab5422957ea5a31de093e9561be4.png",
             "answers": [
                 {
                     "answer": "مغامرة عاصفة",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ما هي لغة حبك؟",
-            "pic": "./testname/img/ar_img/3a0bdc240bf5fd06e60d1bef3be967dd.png",
+            "pic": "/testname/img/3a0bdc240bf5fd06e60d1bef3be967dd.png",
             "answers": [
                 {
                     "answer": "كلمات التأكيد",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "ما هو نوع موعدك المثالي؟",
-            "pic": "./testname/img/ar_img/281423dcb77a139f41bf0c5bf7e155a9.png",
+            "pic": "/testname/img/281423dcb77a139f41bf0c5bf7e155a9.png",
             "answers": [
                 {
                     "answer": "رحلة بالسيارة إلى مكان غير معروف",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "إلى أي نوع من الشركاء تجذبك أكثر؟",
-            "pic": "./testname/img/ar_img/9327c67c756e9d9dbaaa31e054e23497.png",
+            "pic": "/testname/img/9327c67c756e9d9dbaaa31e054e23497.png",
             "answers": [
                 {
                     "answer": "شخص يتحداني",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat zegt je wekelijkse horoscoop over je liefdesleven?",
-    "mainPic": "./testname/img/nl_img/39b596f2c024869bb393afc04c18e57a.gif",
+    "mainPic": "/testname/img/39b596f2c024869bb393afc04c18e57a.gif",
     "thems": [
         "Horoscoop",
         "Liefdesleven",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is jouw sterrenbeeld?",
-            "pic": "./testname/img/nl_img/93efd214cf5e7e42a4d46fc2bff1699a.png",
+            "pic": "/testname/img/93efd214cf5e7e42a4d46fc2bff1699a.png",
             "answers": [
                 {
                     "answer": "♈ Ram / ♌ Leeuw / ♐ Boogschutter",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Hoe Zou Je Jouw Manier van Houden Beschrijven?",
-            "pic": "./testname/img/nl_img/143d9cab9cbf079ffc93096e50b994e3.png",
+            "pic": "/testname/img/143d9cab9cbf079ffc93096e50b994e3.png",
             "answers": [
                 {
                     "answer": "Romantisch en attent",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Als je liefdesleven deze week een emoji had, welke zou dat dan zijn?",
-            "pic": "./testname/img/nl_img/0bfc257e9f9022380e922c30956150cf.jpeg",
+            "pic": "/testname/img/0bfc257e9f9022380e922c30956150cf.jpeg",
             "answers": [
                 {
                     "answer": "❤️",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Wat zou je doen als je deze week een bericht van je crush kreeg?",
-            "pic": "./testname/img/nl_img/b7c579a6271e99d53754b82415b3a6b3.jpg",
+            "pic": "/testname/img/b7c579a6271e99d53754b82415b3a6b3.jpg",
             "answers": [
                 {
                     "answer": "Onmiddellijk antwoorden",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Welke planeet past deze week bij jouw energie?",
-            "pic": "./testname/img/nl_img/4ad93aa4655e06748f658f788738d19d.jpg",
+            "pic": "/testname/img/4ad93aa4655e06748f658f788738d19d.jpg",
             "answers": [
                 {
                     "answer": "Venus",

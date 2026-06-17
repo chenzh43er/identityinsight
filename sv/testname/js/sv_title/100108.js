@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Ditt livskarta | Upptäck din framtid med denna session av handläsning 🔮🤛",
-    "mainPic": "./testname/img/sv_img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
+    "mainPic": "/testname/img/e932f58dd7a0af6e67dfd4d65372ecec.gif",
     "thems": [
         "Framtid",
         "Prediktion",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Välj din handflatform!",
-            "pic": "./testname/img/sv_img/60788134ede413c9b32e7067a01d38e2.jpg",
+            "pic": "/testname/img/60788134ede413c9b32e7067a01d38e2.jpg",
             "answers": [
                 {
                     "answer": "A: Kvadratisk handflata och långa fingrar",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Välj förhållandet mellan pekfinger och ringfinger!",
-            "pic": "./testname/img/sv_img/701f4d10173aeedef924dc9644b71f67.jpg",
+            "pic": "/testname/img/701f4d10173aeedef924dc9644b71f67.jpg",
             "answers": [
                 {
                     "answer": "A: Pekfinger är längre än ringfinger",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Åt vilket håll böjer sig ditt långfinger?",
-            "pic": "./testname/img/sv_img/212f78c9c409a111bf524376a231a586.jpg",
+            "pic": "/testname/img/212f78c9c409a111bf524376a231a586.jpg",
             "answers": [
                 {
                     "answer": "A: Mot pekfingret",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Åt vilket håll lutar ditt lillfinger?",
-            "pic": "./testname/img/sv_img/ffb166b3abd8f4ee9f27a2ca751dc4a6.jpg",
+            "pic": "/testname/img/ffb166b3abd8f4ee9f27a2ca751dc4a6.jpg",
             "answers": [
                 {
                     "answer": "A: Mot ringfingret",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Hur ser din tumme ut?",
-            "pic": "./testname/img/sv_img/7abc7c10e12563b909864de6aae16862.jpg",
+            "pic": "/testname/img/7abc7c10e12563b909864de6aae16862.jpg",
             "answers": [
                 {
                     "answer": "A: Förlängd",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "Hur markerade är linjerna på din handflata?",
-            "pic": "./testname/img/sv_img/71a69d3b14502d18e8d2114f2f5fd376.jpg",
+            "pic": "/testname/img/71a69d3b14502d18e8d2114f2f5fd376.jpg",
             "answers": [
                 {
                     "answer": "A: De är synligt markerade",

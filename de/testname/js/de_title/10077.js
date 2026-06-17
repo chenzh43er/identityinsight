@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Marvel-Held steckt in dir? Finde deinen Avenger-Zwilling!",
-    "mainPic": "./testname/img/de_img/78_81c73c808caf4f409ebc8fec242ba94a.jpeg",
+    "mainPic": "/testname/img/78_81c73c808caf4f409ebc8fec242ba94a.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Wie reagierst du in einer Gefahrensituation?",
-    "pic": "./testname/img/de_img/79_45f30fb3cd434b06b65720c30836a849.jpeg",
+    "pic": "/testname/img/79_45f30fb3cd434b06b65720c30836a849.jpeg",
     "answers": [
       { "answer": "Ruhig analysieren und einen Plan erstellen", "aPic": "", "aId": 1 },
       { "answer": "Sofort handeln, ohne zu zögern", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Was treibt dich am meisten an?",
-    "pic": "./testname/img/de_img/80_1e257e47bea14e45b7d98f969f11006d.jpeg",
+    "pic": "/testname/img/80_1e257e47bea14e45b7d98f969f11006d.jpeg",
     "answers": [
       { "answer": "Wissen und Technologie", "aPic": "", "aId": 1 },
       { "answer": "Gerechtigkeit und Pflichtgefühl", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Welche Eigenschaft beschreibt dich am besten?",
-    "pic": "./testname/img/de_img/81_7b2721d3bf4e47dabaa868d098677360.jpeg",
+    "pic": "/testname/img/81_7b2721d3bf4e47dabaa868d098677360.jpeg",
     "answers": [
       { "answer": "Intelligent & strategisch", "aPic": "", "aId": 1 },
       { "answer": "Mutig & entschlossen", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Was würdest du in einer Krise zuerst tun?",
-    "pic": "./testname/img/de_img/82_23a5a7c7195d4a26b268082aaf82333a.jpeg",
+    "pic": "/testname/img/82_23a5a7c7195d4a26b268082aaf82333a.jpeg",
     "answers": [
       { "answer": "Eine clevere Lösung finden", "aPic": "", "aId": 1 },
       { "answer": "Die Frontlinie übernehmen", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Welche Waffe passt am besten zu dir?",
-    "pic": "./testname/img/de_img/83_7f99e2e8d8a94a168c87ab50525534b0.jpeg",
+    "pic": "/testname/img/83_7f99e2e8d8a94a168c87ab50525534b0.jpeg",
     "answers": [
       { "answer": "High-Tech Rüstung & Gadgets", "aPic": "", "aId": 1 },
       { "answer": "Schild & Nahkampf", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Wie würdest du dich in einem Team verhalten?",
-    "pic": "./testname/img/de_img/84_44c2a64ed324486fbfd7fdd75e46760c.jpeg",
+    "pic": "/testname/img/84_44c2a64ed324486fbfd7fdd75e46760c.jpeg",
     "answers": [
       { "answer": "Ideen einbringen, Probleme lösen", "aPic": "", "aId": 1 },
       { "answer": "Verantwortung übernehmen, Anführer sein", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Welche Herausforderung reizt dich am meisten?",
-    "pic": "./testname/img/de_img/85_e8927026a3fc4d3b848776d003c2f6c8.jpeg",
+    "pic": "/testname/img/85_e8927026a3fc4d3b848776d003c2f6c8.jpeg",
     "answers": [
       { "answer": "Technologie- oder Wissensprobleme", "aPic": "", "aId": 1 },
       { "answer": "Körperliche Gefahr & Kämpfe", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Dein Motto in Extremsituationen:",
-    "pic": "./testname/img/de_img/86_1a14bf23c8ea4ca9b491ff600a48eec6.jpeg",
+    "pic": "/testname/img/86_1a14bf23c8ea4ca9b491ff600a48eec6.jpeg",
     "answers": [
       { "answer": "„Mit klugem Kopf gewinnt man alles.“", "aPic": "", "aId": 1 },
       { "answer": "„Ehre, Mut und Gerechtigkeit leiten mich.“", "aPic": "", "aId": 2 },

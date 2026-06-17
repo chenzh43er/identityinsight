@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Who was your lover in your previous life? Astrology tells you the answer!",
-    "mainPic": "./testname/img/de_img/9657f53db40c7b368f76ec5ff0b2075e.gif",
+    "mainPic": "/testname/img/9657f53db40c7b368f76ec5ff0b2075e.gif",
     "thems": [
         "astrology",
         "horoscope",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "What is your astrological sign and element?",
-            "pic": "./testname/img/de_img/e190d577461e77e536ead2d039c6bedf.png",
+            "pic": "/testname/img/e190d577461e77e536ead2d039c6bedf.png",
             "answers": [
                 {
                     "answer": "Air (Gemini, Libra, Aquarius)",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "What is your moon sign?",
-            "pic": "./testname/img/de_img/c4aff5712a8706d2685829a38dc66c76.png",
+            "pic": "/testname/img/c4aff5712a8706d2685829a38dc66c76.png",
             "answers": [
                 {
                     "answer": "Gemini, Libra, Aquarius",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Which zodiac sign are you most compatible with?",
-            "pic": "./testname/img/de_img/cac930b8afa230596434c05fbb2674da.png",
+            "pic": "/testname/img/cac930b8afa230596434c05fbb2674da.png",
             "answers": [
                 {
                     "answer": "Gemini, Libra, Aquarius",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Which planet rules your zodiac sign?",
-            "pic": "./testname/img/de_img/ff327597e370afb4e32ee8b3d920f5a4.png",
+            "pic": "/testname/img/ff327597e370afb4e32ee8b3d920f5a4.png",
             "answers": [
                 {
                     "answer": "Saturn",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Which personality trait matches your zodiac sign?",
-            "pic": "./testname/img/de_img/e45dca38af53cf4fa89f0da2e590ea36.png",
+            "pic": "/testname/img/e45dca38af53cf4fa89f0da2e590ea36.png",
             "answers": [
                 {
                     "answer": "Intellectual, funny and social",

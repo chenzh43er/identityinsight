@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هي سحر أميرة ديزني التي ستساعدك في اجتياز امتحاناتك؟ 🏰✏️",
-    "mainPic": "./testname/img/ar_img/a09f623108e4d67071c2ec573f6cf567.gif",
+    "mainPic": "/testname/img/a09f623108e4d67071c2ec573f6cf567.gif",
     "thems": [
         "ديزني",
         "شخصيات ديزني",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "كيف تستعد قبل الامتحان؟",
-            "pic": "./testname/img/ar_img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
+            "pic": "/testname/img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
             "answers": [
                 {
                     "answer": "أذهب إلى الفراش مبكرًا وأحصل على قسط وافر من الراحة",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "ما نوع الزملاء الذين تفضلهم؟",
-            "pic": "./testname/img/ar_img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
+            "pic": "/testname/img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
             "answers": [
                 {
                     "answer": "أولئك الذين هم هادئون ولا يثرون الكثير من الدراما",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ماذا تفعل إذا لم تفهم شيئًا أثناء الامتحان؟",
-            "pic": "./testname/img/ar_img/3030ba9228e90626b27846223b0057ad.jpg",
+            "pic": "/testname/img/3030ba9228e90626b27846223b0057ad.jpg",
             "answers": [
                 {
                     "answer": "أركز على رفاهيتي وأحاول البقاء هادئًا لأقدّم أفضل ما لدي",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "كيف تود أن تُساعد أثناء الامتحان؟",
-            "pic": "./testname/img/ar_img/a42f81def46f99e6d30e023381ce181f.jpg",
+            "pic": "/testname/img/a42f81def46f99e6d30e023381ce181f.jpg",
             "answers": [
                 {
                     "answer": "بالهدوء والصبر، دون ضغط",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "ماذا ستفعل إذا لم تتمكن من الدراسة كثيراً قبل الامتحان؟",
-            "pic": "./testname/img/ar_img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
+            "pic": "/testname/img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
             "answers": [
                 {
                     "answer": "لا أقلق، أثق أن ما أعرفه يكفي",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "ما هي استراتيجيتك في الدراسة؟",
-            "pic": "./testname/img/ar_img/856d58c236fe47e0c4f796be7d1224e9.jpg",
+            "pic": "/testname/img/856d58c236fe47e0c4f796be7d1224e9.jpg",
             "answers": [
                 {
                     "answer": "أقرأ وأراجع بدون توتر، دائمًا بهدوء",

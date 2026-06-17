@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Horoscope Quiz: Will We Get Back Together?",
-    "mainPic": "./testname/img/en_img/54cbd9de8d9ef4729b409ef363c181c0.gif",
+    "mainPic": "/testname/img/54cbd9de8d9ef4729b409ef363c181c0.gif",
     "thems": [
         "Lover",
         "Couple",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "What’s your zodiac sign?",
-            "pic": "./testname/img/en_img/5343ffb810a920074031e6e332764c75.png",
+            "pic": "/testname/img/5343ffb810a920074031e6e332764c75.png",
             "answers": [
                 {
                     "answer": "Fire sign",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "How did the breakup happen?",
-            "pic": "./testname/img/en_img/4a2c401018872241fd2b150e8f955e18.png",
+            "pic": "/testname/img/4a2c401018872241fd2b150e8f955e18.png",
             "answers": [
                 {
                     "answer": "A huge fight",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "What’s your gut feeling when you think of them?",
-            "pic": "./testname/img/en_img/a689bb6996fc6d123ebfb0fbb6bce5b3.png",
+            "pic": "/testname/img/a689bb6996fc6d123ebfb0fbb6bce5b3.png",
             "answers": [
                 {
                     "answer": "They still love me",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "How do you usually deal with heartbreak?",
-            "pic": "./testname/img/en_img/61f782a259fcbfebf12b2ab87d3d1eea.png",
+            "pic": "/testname/img/61f782a259fcbfebf12b2ab87d3d1eea.png",
             "answers": [
                 {
                     "answer": "Channel it into a glow-up",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "If they texted you “Hey,” right now, what would you do?",
-            "pic": "./testname/img/en_img/9c76c42cd004c565bf481820144f7856.png",
+            "pic": "/testname/img/9c76c42cd004c565bf481820144f7856.png",
             "answers": [
                 {
                     "answer": "Text them back instantly",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "What’s your ideal romantic outcome?",
-            "pic": "./testname/img/en_img/a281f6fb875667f934d7ff8fa3b5b69d.png",
+            "pic": "/testname/img/a281f6fb875667f934d7ff8fa3b5b69d.png",
             "answers": [
                 {
                     "answer": "A passionate reunion and second chance",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "Do you stalk them on social media?",
-            "pic": "./testname/img/en_img/1dbc687419f9282708ec65346aaeb8e0.png",
+            "pic": "/testname/img/1dbc687419f9282708ec65346aaeb8e0.png",
             "answers": [
                 {
                     "answer": "Yes",

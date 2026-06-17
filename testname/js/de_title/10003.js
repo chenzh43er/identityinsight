@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Erkenne, welche Geister um dich herum sind?",
-    "mainPic": "./testname/img/de_img/2a906ede496d848f48c940de58e1792a.gif",
+    "mainPic": "/testname/img/2a906ede496d848f48c940de58e1792a.gif",
     "thems": [
         "Geist",
         "Persönlichkeit",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie fühlen Sie sich in einem leeren Raum?",
-            "pic": "./testname/img/de_img/7a51bd216c126eb37c9a832828f5845e.jpg",
+            "pic": "/testname/img/7a51bd216c126eb37c9a832828f5845e.jpg",
             "answers": [
                 {
                     "answer": "Ruhig",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welche Geräusche hören Sie oft nachts?",
-            "pic": "./testname/img/de_img/77b5c369760618947a3bd3955a6d8a9c.jpg",
+            "pic": "/testname/img/77b5c369760618947a3bd3955a6d8a9c.jpg",
             "answers": [
                 {
                     "answer": "Nichts",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wie reagieren Haustiere, wenn sie bei Ihnen sind?",
-            "pic": "./testname/img/de_img/c6971dfbfac81813e8cbba4af0666167.jpg",
+            "pic": "/testname/img/c6971dfbfac81813e8cbba4af0666167.jpg",
             "answers": [
                 {
                     "answer": "Entspannt",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Was fällt Ihnen auf alten Fotos auf?",
-            "pic": "./testname/img/de_img/3f60377715e0c9be240bd116a1d89962.jpg",
+            "pic": "/testname/img/3f60377715e0c9be240bd116a1d89962.jpg",
             "answers": [
                 {
                     "answer": "Lächeln",

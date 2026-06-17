@@ -1,6 +1,6 @@
 let quizData = {
     "title": "君はどの『ソロ生活』のキャラクター？",
-    "mainPic": "./testname/img/jp_img/28bbd8689d5b3d9f2fa4ef84a66801ea.gif",
+    "mainPic": "/testname/img/28bbd8689d5b3d9f2fa4ef84a66801ea.gif",
     "thems": [
         "ソロレベリング",
         "キャラクター",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "スキルが非常に少ない低レベルのハンターだったらどうしますか？",
-            "pic": "./testname/img/jp_img/52e55156b85f8041fdc906169afd31e9.png",
+            "pic": "/testname/img/52e55156b85f8041fdc906169afd31e9.png",
             "answers": [
                 {
                     "answer": "一人で訓練する",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "危険なダンジョンをどのように扱いますか？",
-            "pic": "./testname/img/jp_img/b781be023e48e212b2fb2443ca9dea2e.png",
+            "pic": "/testname/img/b781be023e48e212b2fb2443ca9dea2e.png",
             "answers": [
                 {
                     "answer": "最初に入る",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "ハンターとして戦う動機は何ですか？",
-            "pic": "./testname/img/jp_img/e592402db3dc5ab1b89098f0cedf8bf8.png",
+            "pic": "/testname/img/e592402db3dc5ab1b89098f0cedf8bf8.png",
             "answers": [
                 {
                     "answer": "自分を高めるため",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "もし突然強いモンスターが現れたらどうしますか？",
-            "pic": "./testname/img/jp_img/9dbb6f66890defade764c1b7ad474a15.png",
+            "pic": "/testname/img/9dbb6f66890defade764c1b7ad474a15.png",
             "answers": [
                 {
                     "answer": "今戦う",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quelles sont mes surprises d'avril ?",
-    "mainPic": "./testname/img/fr_img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
+    "mainPic": "/testname/img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
     "thems": [
         "Avril",
         "Surprise",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Votre plan de week-end idéal ?",
-            "pic": "./testname/img/fr_img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
+            "pic": "/testname/img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
             "answers": [
                 {
                     "answer": "Netflix paresseux",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Votre ambiance de texto ?",
-            "pic": "./testname/img/fr_img/46835ed416df5d821f939248b678dafd.jpg",
+            "pic": "/testname/img/46835ed416df5d821f939248b678dafd.jpg",
             "answers": [
                 {
                     "answer": "Reine d'un mot",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Comment montrez-vous l'amour ?",
-            "pic": "./testname/img/fr_img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
+            "pic": "/testname/img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
             "answers": [
                 {
                     "answer": "Toujours des cadeaux",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Votre tenue typique?",
-            "pic": "./testname/img/fr_img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
+            "pic": "/testname/img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
             "answers": [
                 {
                     "answer": "Style de rue",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "À quel point votre chambre est-elle en désordre ?",
-            "pic": "./testname/img/fr_img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
+            "pic": "/testname/img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
             "answers": [
                 {
                     "answer": "Zen total",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Misofobi, ordningssinne eller kontroll? Vilken typ av OCD har du?",
-    "mainPic": "./testname/img/sv_img/01d2e8d26910b11137a5be94d5661940.gif",
+    "mainPic": "/testname/img/01d2e8d26910b11137a5be94d5661940.gif",
     "thems": [
         "Personlighet",
         "Psykologi",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad är din första tanke när du rör vid ett dörrhandtag i offentliga miljöer?",
-            "pic": "./testname/img/sv_img/168bda060a8aa90721039c0901ea0888.jpg",
+            "pic": "/testname/img/168bda060a8aa90721039c0901ea0888.jpg",
             "answers": [
                 {
                     "answer": "Bakterier överallt",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hur känner du dig om ditt skrivbord inte är perfekt organiserat?",
-            "pic": "./testname/img/sv_img/ef5774fd8b8382378163a44e86a7f492.jpg",
+            "pic": "/testname/img/ef5774fd8b8382378163a44e86a7f492.jpg",
             "answers": [
                 {
                     "answer": "Kan inte fokusera",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Innan du somnar, vilken vana brukar du ofta göra?",
-            "pic": "./testname/img/sv_img/89cd8c9da30b181b8dfad35414aa1dc3.jpg",
+            "pic": "/testname/img/89cd8c9da30b181b8dfad35414aa1dc3.jpg",
             "answers": [
                 {
                     "answer": "Kontrollera lås",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Du spiller ut lite vatten på golvet. Vad är din reaktion?",
-            "pic": "./testname/img/sv_img/e9419eebbb391df1f4fbbeba09f66ba8.jpg",
+            "pic": "/testname/img/e9419eebbb391df1f4fbbeba09f66ba8.jpg",
             "answers": [
                 {
                     "answer": "Städa genast",

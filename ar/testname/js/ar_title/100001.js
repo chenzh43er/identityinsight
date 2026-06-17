@@ -1,6 +1,6 @@
 let quizData = {
     "title": "كيف ستبدو عندما تصل إلى 60 عامًا؟",
-    "mainPic": "./testname/img/ar_img/6180e29740ebc.gif",
+    "mainPic": "/testname/img/6180e29740ebc.gif",
     "message":"\n" +
         "\n" +
         "يرجى تحميل صورة شخصية واضح بها الوجه بالكامل، بصيغة جيه أو جيه بي جي أو بي ان جي فقط\n" +

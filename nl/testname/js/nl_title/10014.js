@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat onthullen jouw ogen over je vorige leven?",
-    "mainPic": "./testname/img/nl_img/93f935ad434696438bcf8f31987b9c6b.gif",
+    "mainPic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
     "thems": [
         "Ogen",
         "Vorigeleven",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welke kleur beschrijft het beste je innerlijke oog?",
-            "pic": "./testname/img/nl_img/38a6d30ec16dbe2971d59f9b4f514dca.png",
+            "pic": "/testname/img/38a6d30ec16dbe2971d59f9b4f514dca.png",
             "answers": [
                 {
                     "answer": "Smaragdgroen",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Waar voel je vaak een mysterieuze aantrekkingskracht?",
-            "pic": "./testname/img/nl_img/96a19b4012600147e51275e57d74bd44.png",
+            "pic": "/testname/img/96a19b4012600147e51275e57d74bd44.png",
             "answers": [
                 {
                     "answer": "Mysterieus bos",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Een vreemdeling kijkt in je ogen en begint plotseling te huilen. Waarom?",
-            "pic": "./testname/img/nl_img/ed382eff77e42b971a769276b05d6420.png",
+            "pic": "/testname/img/ed382eff77e42b971a769276b05d6420.png",
             "answers": [
                 {
                     "answer": "Ze herinneren zich iets dat ze dachten kwijt te zijn",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Waar woon je in je diepste verbeelding?",
-            "pic": "./testname/img/nl_img/63014b84f9fcc69413d1be46712cef1f.png",
+            "pic": "/testname/img/63014b84f9fcc69413d1be46712cef1f.png",
             "answers": [
                 {
                     "answer": "Een karavaan van kleuren",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Kies een voorwerp uit je ingebeelde vorige leven om nu bij je te dragen",
-            "pic": "./testname/img/nl_img/f17aea0287e3495fb80efe51d31404bf.png",
+            "pic": "/testname/img/f17aea0287e3495fb80efe51d31404bf.png",
             "answers": [
                 {
                     "answer": "Een zilveren munt",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Welke dierlijke ogen vind je het aantrekkelijkst?",
-            "pic": "./testname/img/nl_img/65dbfd65506bbd2442b49ff76b63fc34.png",
+            "pic": "/testname/img/65dbfd65506bbd2442b49ff76b63fc34.png",
             "answers": [
                 {
                     "answer": "Uil",

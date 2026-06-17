@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vad var orsaken till din död i ditt tidigare liv?",
-    "mainPic": "./testname/img/sv_img/0c489b861c1db124dfb92ea8bfe12735.gif",
+    "mainPic": "/testname/img/0c489b861c1db124dfb92ea8bfe12735.gif",
     "thems": [
         "Andlighet",
         "Tidigare liv",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vilken av dessa miljöer känner du dig mest kopplad till?",
-            "pic": "./testname/img/sv_img/6b172fc3d6958279cd3bd46a8513db89.png",
+            "pic": "/testname/img/6b172fc3d6958279cd3bd46a8513db89.png",
             "answers": [
                 {
                     "answer": "Naturlandskap",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Hur andlig är du?",
-            "pic": "./testname/img/sv_img/1288b5a4451138f14dd68efd34eac6e9.png",
+            "pic": "/testname/img/1288b5a4451138f14dd68efd34eac6e9.png",
             "answers": [
                 {
                     "answer": "Mycket andlig",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Vad är din roll i en grupp vänner?",
-            "pic": "./testname/img/sv_img/3b82b3aa2fe16c6b2229e1b5fdf981ba.png",
+            "pic": "/testname/img/3b82b3aa2fe16c6b2229e1b5fdf981ba.png",
             "answers": [
                 {
                     "answer": "Utforskaren",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Vilken tidsperiod i historien tycker du är mest intressant?",
-            "pic": "./testname/img/sv_img/e0aa284aa3495a57950efbf9d25c1fb6.png",
+            "pic": "/testname/img/e0aa284aa3495a57950efbf9d25c1fb6.png",
             "answers": [
                 {
                     "answer": "Antika civilisationer",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Vad är viktigast för dig i ditt nuvarande liv?",
-            "pic": "./testname/img/sv_img/e932b22e4228523f10b5a3066cefda6d.png",
+            "pic": "/testname/img/e932b22e4228523f10b5a3066cefda6d.png",
             "answers": [
                 {
                     "answer": "Frihet",

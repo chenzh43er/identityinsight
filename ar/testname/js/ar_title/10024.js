@@ -1,6 +1,6 @@
 let quizData = {
     "title": "صمم شخصيتك الكرتونية في محاكي مدرسة ساكورا لإيجاد جمالك الداخلي!",
-    "mainPic": "./testname/img/ar_img/740c44d1245c04b8242adf896bf1e455.jpeg",
+    "mainPic": "/testname/img/740c44d1245c04b8242adf896bf1e455.jpeg",
     "thems": [
         "لعبة",
         "اختبار الألعاب",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "اختر تسريحة شعر لشخصيتك:",
-            "pic": "./testname/img/ar_img/27c27bb485bdea2b1a3cb9797227e129.jpg",
+            "pic": "/testname/img/27c27bb485bdea2b1a3cb9797227e129.jpg",
             "answers": [
                 {
                     "answer": "طويلة مثل أميرة الحكايات الخيالية",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "ما هو نمط زي شخصيتك؟",
-            "pic": "./testname/img/ar_img/e65f65ca9c9eec9983aa18a3bdbbf27d.jpg",
+            "pic": "/testname/img/e65f65ca9c9eec9983aa18a3bdbbf27d.jpg",
             "answers": [
                 {
                     "answer": "فستان ذو طابع سحري وفانتازيا",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "اختر قوة خارقة لشخصيتك:",
-            "pic": "./testname/img/ar_img/3d3f72063628d539e56baacf7ebe5e7e.jpg",
+            "pic": "/testname/img/3d3f72063628d539e56baacf7ebe5e7e.jpg",
             "answers": [
                 {
                     "answer": "العلاج والحماية لأحبابك",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "الملحق الذي ستستعين به هو:",
-            "pic": "./testname/img/ar_img/09894ec896f38c648ef04e008fc5cd1c.jpg",
+            "pic": "/testname/img/09894ec896f38c648ef04e008fc5cd1c.jpg",
             "answers": [
                 {
                     "answer": "عقد سحري يضيء",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "مكان تعليق حلم شخصيتك هو:",
-            "pic": "./testname/img/ar_img/409eeaf9552cdea63c7f414ffd56e8a5.jpg",
+            "pic": "/testname/img/409eeaf9552cdea63c7f414ffd56e8a5.jpg",
             "answers": [
                 {
                     "answer": "حديقة هادئة مليئة بالزهور",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "من هو مصدر الإلهام النهائي لشخصية الرسوم المتحركة الخاصة بك؟",
-            "pic": "./testname/img/ar_img/cc7491d4f1e17f7a5c1eb90ba86aaa64.jpg",
+            "pic": "/testname/img/cc7491d4f1e17f7a5c1eb90ba86aaa64.jpg",
             "answers": [
                 {
                     "answer": "يور فورجر - قاتلة وأنيقة",

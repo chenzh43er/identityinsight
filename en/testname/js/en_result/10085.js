@@ -17,7 +17,7 @@ but beware:
 overthinking can slow you down
 when speed matters most.
     `,
-    "mainPic": "./testname/img/en_img/124_afcc7a2429424b699a2a2043a0ae8d07.webp"
+    "mainPic": "/testname/img/124_afcc7a2429424b699a2a2043a0ae8d07.webp"
   },
   "2": {
     "title": "Could You Actually Survive the Squid Game?",
@@ -36,7 +36,7 @@ your biggest challenge
 is knowing when
 to protect yourself first.
     `,
-    "mainPic": "./testname/img/en_img/125_ddc1855aa97f4e8880bb3b746839519a.jpeg"
+    "mainPic": "/testname/img/125_ddc1855aa97f4e8880bb3b746839519a.jpeg"
   },
   "3": {
     "title": "Could You Actually Survive the Squid Game?",
@@ -56,7 +56,7 @@ you could go far,
 but the cost
 might be your conscience.
     `,
-    "mainPic": "./testname/img/en_img/126_720d6222ebf944e2ad0d6d6dcbc30057.png"
+    "mainPic": "/testname/img/126_720d6222ebf944e2ad0d6d6dcbc30057.png"
   },
   "4": {
     "title": "Could You Actually Survive the Squid Game?",
@@ -75,6 +75,6 @@ but without strategy,
 luck plays a bigger role
 in your survival.
     `,
-    "mainPic": "./testname/img/en_img/127_980719cedc9f46aaac9556815f722d80.jpeg"
+    "mainPic": "/testname/img/127_980719cedc9f46aaac9556815f722d80.jpeg"
   }
 };

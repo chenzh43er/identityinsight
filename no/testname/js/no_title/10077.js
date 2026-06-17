@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Ta valg basert på stjernetegnet ditt og få din personlighetsanalyse!",
-    "mainPic": "./testname/img/no_img/1dd9ac2619cb0b137ba5184393a444af.gif",
+    "mainPic": "/testname/img/1dd9ac2619cb0b137ba5184393a444af.gif",
     "thems": [
         "Horoskop",
         "Stjernetegn",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva er ditt stjernetegn?",
-            "pic": "./testname/img/no_img/b500c393321f8d37361e6c442e3edc54.png",
+            "pic": "/testname/img/b500c393321f8d37361e6c442e3edc54.png",
             "answers": [
                 {
                     "answer": "Tvillingene, Vekten, Vannmannen",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "I tillegg til stjernetegnet ditt, fortell oss din nøyaktige fødselsmåned",
-            "pic": "./testname/img/no_img/bf60f6ddc094917d029720d7542a1c95.png",
+            "pic": "/testname/img/bf60f6ddc094917d029720d7542a1c95.png",
             "answers": [
                 {
                     "answer": "Januar, Februar, Mars",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt stjernetegns element?",
-            "pic": "./testname/img/no_img/8fc285a628b872b73b9fbc258725b6cb.png",
+            "pic": "/testname/img/8fc285a628b872b73b9fbc258725b6cb.png",
             "answers": [
                 {
                     "answer": "Luft",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Velg et av disse tarotkortene",
-            "pic": "./testname/img/no_img/b693c35960bf98cb83ddf27ef62a242f.png",
+            "pic": "/testname/img/b693c35960bf98cb83ddf27ef62a242f.png",
             "answers": [
                 {
                     "answer": "1",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Hvordan håndterer du konflikter i forhold ifølge stjernetegnet ditt?",
-            "pic": "./testname/img/no_img/a2860f1360a4dd19ed13ef6e71ac024f.png",
+            "pic": "/testname/img/a2860f1360a4dd19ed13ef6e71ac024f.png",
             "answers": [
                 {
                     "answer": "Direkte og seriøst",

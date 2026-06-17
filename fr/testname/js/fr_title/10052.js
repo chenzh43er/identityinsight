@@ -1,6 +1,6 @@
 let quizData = {
     "title": "✨ Quelle face cachée de ta magie Poudlard révélerait-elle ?",
-    "mainPic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+    "mainPic": "/testname/img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quand tu entres à Poudlard, tu te sens…",
-            "pic": "./testname/img/fr_img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
+            "pic": "/testname/img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
             "answers": [
                 {
                     "answer": "Comme chez toi",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Quelle qualité apprécies-tu le plus ?",
-            "pic": "./testname/img/fr_img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
+            "pic": "/testname/img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
             "answers": [
                 {
                     "answer": "Le courage",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Quel serait ton endroit préféré à Poudlard ?",
-            "pic": "./testname/img/fr_img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
+            "pic": "/testname/img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
             "answers": [
                   {
                         "answer": "La tour de Gryffondor",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Comment réagis-tu face à un défi ?",
-            "pic": "./testname/img/fr_img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
+            "pic": "/testname/img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
             "answers": [
                 {
                     "answer": "Je l’affronte sans hésiter",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Quelle capacité magique aimerais-tu maîtriser ?",
-            "pic": "./testname/img/fr_img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
+            "pic": "/testname/img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
             "answers": [
                   {
                         "answer": "Le transplanage",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Qu’est-ce qui te pousse à devenir plus fort(e) ?",
-            "pic": "./testname/img/fr_img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
+            "pic": "/testname/img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
             "answers": [
                 {
                     "answer": "Le désir de protéger",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Quelle serait ta plus grande faiblesse ?",
-            "pic": "./testname/img/fr_img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
+            "pic": "/testname/img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
             "answers": [
                  {
     "answer": "Agir trop impulsivement",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Quand tu contemples ton destin, tu vois…",
-            "pic": "./testname/img/fr_img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
+            "pic": "/testname/img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
             "answers": [
                   {
                     "answer": "La lumière",

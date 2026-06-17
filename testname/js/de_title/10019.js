@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Schalte den Tierladen in der Avatar-Welt frei und werde ein Profi-Gamer",
-    "mainPic": "./testname/img/de_img/5ade7e947f85f9d69f19382ae990a3a2.gif",
+    "mainPic": "/testname/img/5ade7e947f85f9d69f19382ae990a3a2.gif",
     "thems": [
         "Kinder",
         "Jugendliche",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Êtes-vous plus une fille de Poudlard ou une fille d'Oz ?",
-    "mainPic": "./testname/img/fr_img/b677afdd76e0057cd2df6f074beb2817.gif",
+    "mainPic": "/testname/img/b677afdd76e0057cd2df6f074beb2817.gif",
     "thems": [
         "Harry Potter",
         "Wicked",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Si vous pouviez apprendre quelque chose de magique, que serait-ce ?",
-            "pic": "./testname/img/fr_img/7f31f227c36a830b34c5a88a74ba6d48.png",
+            "pic": "/testname/img/7f31f227c36a830b34c5a88a74ba6d48.png",
             "answers": [
                 {
                     "answer": "Sorts et charmes",
@@ -40,19 +40,19 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/fr_img/sr_17336650836755a13bd441c.jpg",
+                    "aPic": "/testname/img/sr_17336650836755a13bd441c.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/fr_img/sr_17336651496755a17d67597.jpg",
+                    "aPic": "/testname/img/sr_17336651496755a17d67597.jpg",
                     "aId": 2
                 }
             ]
         },
         {
             "question": "Quelle est votre tenue d'aventure idéale ?",
-            "pic": "./testname/img/fr_img/3f9a61cd93650f8b664b3903e00b2900.png",
+            "pic": "/testname/img/3f9a61cd93650f8b664b3903e00b2900.png",
             "answers": [
                 {
                     "answer": "Une robe de sorcier",
@@ -78,7 +78,7 @@ let quizData = {
         },
         {
             "question": "Quel est le meilleur moyen de voyager ?",
-            "pic": "./testname/img/fr_img/3907d92260592e371432a7e37580f126.png",
+            "pic": "/testname/img/3907d92260592e371432a7e37580f126.png",
             "answers": [
                 {
                     "answer": "En balai",
@@ -108,12 +108,12 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/fr_img/sr_17336656146755a34e7ab0c.jpg",
+                    "aPic": "/testname/img/sr_17336656146755a34e7ab0c.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/fr_img/sr_17336657196755a3b72d429.jpg",
+                    "aPic": "/testname/img/sr_17336657196755a3b72d429.jpg",
                     "aId": 2
                 }
             ]

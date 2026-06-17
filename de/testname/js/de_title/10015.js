@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie hoch ist Ihr Schulbeginn-Angstlevel?",
-    "mainPic": "./testname/img/de_img/e759b098955c4ed6f52e2c116597a767.gif",
+    "mainPic": "/testname/img/e759b098955c4ed6f52e2c116597a767.gif",
     "thems": [
         "ZurückZurSchule",
         "Angst",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie fühlst du dich normalerweise in der Nacht bevor die Schule beginnt?",
-            "pic": "./testname/img/de_img/3deda455d52c5af70ffbdcf4b10cacd2.png",
+            "pic": "/testname/img/3deda455d52c5af70ffbdcf4b10cacd2.png",
             "answers": [
                 {
                     "answer": "Völlig entspannt",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein erster Gedanke, wenn du hörst, dass du einen neuen Lehrer hast?",
-            "pic": "./testname/img/de_img/16b5ecc6a79cb6fea00ffeb0a4ed2604.png",
+            "pic": "/testname/img/16b5ecc6a79cb6fea00ffeb0a4ed2604.png",
             "answers": [
                 {
                     "answer": "„Toll, kann es kaum erwarten, von ihnen zu lernen!“",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wie entscheiden Sie sich für Ihr Outfit am ersten Tag?",
-            "pic": "./testname/img/de_img/7d619703e9c602115eae47fe619499ff.png",
+            "pic": "/testname/img/7d619703e9c602115eae47fe619499ff.png",
             "answers": [
                 {
                     "answer": "Mindestens eine Woche im Voraus entscheiden",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wie sicher sind Sie, dass Sie sich an die Kombination Ihres Schließfachs erinnern?",
-            "pic": "./testname/img/de_img/501e8af26f9756214b6d07c1b548ffe8.png",
+            "pic": "/testname/img/501e8af26f9756214b6d07c1b548ffe8.png",
             "answers": [
                 {
                     "answer": "100% sicher, dass ich es nicht vergesse",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Was ist Ihre Reaktion, wenn Sie am ersten Tag \"Hausaufgaben\" hören?",
-            "pic": "./testname/img/de_img/c930f9a77e32e9203f04d2b8956b2e7a.png",
+            "pic": "/testname/img/c930f9a77e32e9203f04d2b8956b2e7a.png",
             "answers": [
                 {
                     "answer": "Na dann los!",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Wie fühlen Sie sich, wenn Sie Ihre Klassenkameraden nach den Sommerferien wiedersehen?",
-            "pic": "./testname/img/de_img/dc4dbdb5a75b0324e78da3b18fdc5249.png",
+            "pic": "/testname/img/dc4dbdb5a75b0324e78da3b18fdc5249.png",
             "answers": [
                 {
                     "answer": "Freue mich, auf den neuesten Stand zu kommen",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Der Ort Ihres Muttermals wird Ihren Tod in einem früheren Leben enthüllen!",
-    "mainPic": "./testname/img/de_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+    "mainPic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
     "thems": [
         "Tod",
         "Muttermal",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wo befindet sich Ihr Muttermal?",
-            "pic": "./testname/img/de_img/2dd44d549f230bfd92d6dda275306d69.jpg",
+            "pic": "/testname/img/2dd44d549f230bfd92d6dda275306d69.jpg",
             "answers": [
                 {
                     "answer": "Hals",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welche Form hat Ihr Muttermal?",
-            "pic": "./testname/img/de_img/ace14742239cf93a65304a6d16c84e99.jpg",
+            "pic": "/testname/img/ace14742239cf93a65304a6d16c84e99.jpg",
             "answers": [
                 {
                     "answer": "Rund",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "الحلاقة والأشياء - ما هو أسلوبك في الاهتمام بالمظهر؟",
-    "mainPic": "./testname/img/ar_img/1e48aecee8711aee25b74dba66fe1c72.jpeg",
+    "mainPic": "/testname/img/1e48aecee8711aee25b74dba66fe1c72.jpeg",
     "thems": [
         "لعبة",
         "حلاقة",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "كم مرة تحلق؟",
-            "pic": "./testname/img/ar_img/5a22930bb50d32480a873afdccfc3690.jpg",
+            "pic": "/testname/img/5a22930bb50d32480a873afdccfc3690.jpg",
             "answers": [
                 {
                     "answer": "يوميًا",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "ما هي أداة العناية المفضلة لديك؟",
-            "pic": "./testname/img/ar_img/f1db7fc92916f4e5c13ee5c6d109ea33.jpg",
+            "pic": "/testname/img/f1db7fc92916f4e5c13ee5c6d109ea33.jpg",
             "answers": [
                 {
                     "answer": "شفرة",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "ما هو أسلوب لحيتك المفضل؟",
-            "pic": "./testname/img/ar_img/6edd39d9f848715aebf13921770b76c9.jpg",
+            "pic": "/testname/img/6edd39d9f848715aebf13921770b76c9.jpg",
             "answers": [
                 {
                     "answer": "حلاقة نظيفة",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "ما رأيك في منتجات العناية؟",
-            "pic": "./testname/img/ar_img/e4528c917eb725886b433d76a6256d63.jpg",
+            "pic": "/testname/img/e4528c917eb725886b433d76a6256d63.jpg",
             "answers": [
                 {
                     "answer": "أحبها - أحضر الزيوت والكريمات.",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "كيف تستعد لحدث كبير؟",
-            "pic": "./testname/img/ar_img/5be84689ff9969224f81b97e09a56afb.jpg",
+            "pic": "/testname/img/5be84689ff9969224f81b97e09a56afb.jpg",
             "answers": [
                 {
                     "answer": "جلسة تنظيف كاملة من الرأس إلى القدم.",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "ما هو شعارك في العناية الشخصية؟",
-            "pic": "./testname/img/ar_img/625ec6f65c1dc7a0eb0568d8cff15ae5.jpg",
+            "pic": "/testname/img/625ec6f65c1dc7a0eb0568d8cff15ae5.jpg",
             "answers": [
                 {
                     "answer": "كن أنيقًا، تشعر بالأناقة.",

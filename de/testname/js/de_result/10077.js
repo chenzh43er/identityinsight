@@ -8,7 +8,7 @@ Mit deinem Einfallsreichtum und High-Tech-Ausrüstung
 bist du auf jede Gefahr vorbereitet.
 Du bist der perfekte Kopf im Team.
     `,
-    "mainPic": "./testname/img/de_img/87_91530600187c49408db4397d54932e3f.jpeg"
+    "mainPic": "/testname/img/87_91530600187c49408db4397d54932e3f.jpeg"
   },
   "2": {
     "title": "Welcher Marvel-Held steckt in dir? Finde deinen Avenger-Zwilling!",
@@ -19,7 +19,7 @@ Du stellst dich jeder Herausforderung
 und bist bereit, alles zu geben,
 um andere zu schützen.
     `,
-    "mainPic": "./testname/img/de_img/88_7ce956ac290646918d85d5ba7102b261.jpeg"
+    "mainPic": "/testname/img/88_7ce956ac290646918d85d5ba7102b261.jpeg"
   },
   "3": {
     "title": "Welcher Marvel-Held steckt in dir? Finde deinen Avenger-Zwilling!",
@@ -30,7 +30,7 @@ Du koordinierst, unterstützt
 und stellst sicher, dass Missionen
 erfolgreich abgeschlossen werden.
     `,
-    "mainPic": "./testname/img/de_img/89_3fb29620489749c498db103612efd4ce.jpeg"
+    "mainPic": "/testname/img/89_3fb29620489749c498db103612efd4ce.jpeg"
   },
   "4": {
     "title": "Welcher Marvel-Held steckt in dir? Finde deinen Avenger-Zwilling!",
@@ -41,6 +41,6 @@ Du nutzt Geschwindigkeit, Akrobatik
 und Einfallsreichtum, um jede Gefahr zu meistern –
 immer mit einem Augenzwinkern.
     `,
-    "mainPic": "./testname/img/de_img/90_f4a7ddfdafe84b5d86358acebaf1da9a.jpeg"
+    "mainPic": "/testname/img/90_f4a7ddfdafe84b5d86358acebaf1da9a.jpeg"
   }
 };

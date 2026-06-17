@@ -1,6 +1,6 @@
 let quizData = {
     "title": "هل أنا مخلص أم لاعب؟ 💔🔒",
-    "mainPic": "./testname/img/ar_img/cc61100b6142456ed68cb2222fcfb8c2.gif",
+    "mainPic": "/testname/img/cc61100b6142456ed68cb2222fcfb8c2.gif",
     "thems": [
         "رومانسية",
         "علاقات",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "ماذا تفعل عندما ترى الشخص الذي يعجبك يتحدث مع شخص آخر؟",
-            "pic": "./testname/img/ar_img/9be29af140fb60bbb83679e26dc5ff68.jpg",
+            "pic": "/testname/img/9be29af140fb60bbb83679e26dc5ff68.jpg",
             "answers": [
                 {
                     "answer": "لا شيء، أنا أثق بهم.",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "كم مرة تتحقق من قصص إعجابك؟",
-            "pic": "./testname/img/ar_img/263f9507e0ae8b1b75e3e45ca5829366.jpg",
+            "pic": "/testname/img/263f9507e0ae8b1b75e3e45ca5829366.jpg",
             "answers": [
                 {
                     "answer": "دائمًا، لا أريد أن أفوت أي شيء!",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "كيف تتفاعل عندما تتلقى إطراء؟",
-            "pic": "./testname/img/ar_img/611373775e93b7bc81c849bff92d007e.jpg",
+            "pic": "/testname/img/611373775e93b7bc81c849bff92d007e.jpg",
             "answers": [
                 {
                     "answer": "أشكرهم وأعطيهم إطراء في المقابل.",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "إذا تمت دعوتك للخروج ولكن لديك خطط بالفعل مع الأصدقاء، ماذا تفعل؟",
-            "pic": "./testname/img/ar_img/c64d6cdc9c7d5837481c4097790b6c85.jpg",
+            "pic": "/testname/img/c64d6cdc9c7d5837481c4097790b6c85.jpg",
             "answers": [
                 {
                     "answer": "أشرح وأقترح موعدًا آخر.",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "عندما تحب شخصاً، كيف تظهر ذلك؟",
-            "pic": "./testname/img/ar_img/24a68dee3e7eacf597db6603f7dabe35.jpg",
+            "pic": "/testname/img/24a68dee3e7eacf597db6603f7dabe35.jpg",
             "answers": [
                 {
                     "answer": "أكون شديد الانتباه ودائماً موجود.",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "ما مدى سرعة استجابتك للرسائل؟",
-            "pic": "./testname/img/ar_img/4d2a414f29e01403ff2a50e6a46b6e63.jpg",
+            "pic": "/testname/img/4d2a414f29e01403ff2a50e6a46b6e63.jpg",
             "answers": [
                 {
                     "answer": "فورًا، لا أستطيع الانتظار.",

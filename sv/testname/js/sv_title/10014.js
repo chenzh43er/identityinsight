@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilka KPOP Demon Hunters är du i Miraculous Ladybug?",
-    "mainPic": "./testname/img/sv_img/b971cf35daa9df392256d8ddfcbda2ae.gif",
+    "mainPic": "/testname/img/b971cf35daa9df392256d8ddfcbda2ae.gif",
     "thems": [
         "Kpop Demon Hunters",
         "Miraculous Ladybug",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad är din starkaste egenskap?",
-            "pic": "./testname/img/sv_img/28b00834b8b0b02e6bdb466a855dff64.png",
+            "pic": "/testname/img/28b00834b8b0b02e6bdb466a855dff64.png",
             "answers": [
                 {
                     "answer": "Passion",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Vilken skulle vara din favoritkampstil i en Mirakulös värld?",
-            "pic": "./testname/img/sv_img/375da05db6534bd088d9812ef507a967.png",
+            "pic": "/testname/img/375da05db6534bd088d9812ef507a967.png",
             "answers": [
                 {
                     "answer": "Balanserad",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Om du hade en mirakulös kraft, vilken skulle det vara?",
-            "pic": "./testname/img/sv_img/5851a93f934105f069e80166714d2d9e.png",
+            "pic": "/testname/img/5851a93f934105f069e80166714d2d9e.png",
             "answers": [
                 {
                     "answer": "Ljus",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hur brukar du hantera konflikter?",
-            "pic": "./testname/img/sv_img/c48492441329ea5713dc207a9232b561.png",
+            "pic": "/testname/img/c48492441329ea5713dc207a9232b561.png",
             "answers": [
                 {
                     "answer": "Försök lösa saker fredligt",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Vad skrämmer dig mest?",
-            "pic": "./testname/img/sv_img/431c7c030378aec93fb101fcf494e95b.png",
+            "pic": "/testname/img/431c7c030378aec93fb101fcf494e95b.png",
             "answers": [
                 {
                     "answer": "Att förlora dem du bryr dig om",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle vara ditt mål i en slutlig uppgörelse?",
-            "pic": "./testname/img/sv_img/406598b78c2785da71d0d8eb08b78eb7.png",
+            "pic": "/testname/img/406598b78c2785da71d0d8eb08b78eb7.png",
             "answers": [
                 {
                     "answer": "Att skydda alla och återställa balansen",

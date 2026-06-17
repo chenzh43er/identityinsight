@@ -6,27 +6,27 @@ const utm_campaignData = {
     },
     "football": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10045",
-        "pic":"./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+        "pic":"/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
         "title":"¿Cuál es tu nivel de fútbol en VRFS?"
     },
     "roblox": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10046",
-        "pic":"./testname/img/es_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+        "pic":"/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
         "title":"¿Qué Avatar de Roblox Coincide con tu Vibe?"
     },
     "music": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10047",
-        "pic":"./testname/img/es_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+        "pic":"/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
         "title":"¿Qué Volúmenes De Música De Sprunki Incredibox Reflejan Tu Lado Interior?"
     },
     "Hogwarts":{
         "url": "https://identityinsight.org/fr/test-page_es/?utm_content=10048",
-        "pic": "./testname/img/es_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+        "pic": "/testname/img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
         "title": "¿Qué Casa de Hogwarts Te Conviene Más?"
     },
     "intelectual":{
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10049",
-        "pic": "./testname/img/es_img/7a3cd5b4f20e976e6c50e11563f1af9a.gif",
+        "pic": "/testname/img/7a3cd5b4f20e976e6c50e11563f1af9a.gif",
         "title": "Si puedes responder estas 10 preguntas, ¡tienes un coeficiente intelectual superior a 160!"
     }
 };

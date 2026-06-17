@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hvor mye kjenner du Harry Potter?",
-    "mainPic": "./testname/img/fr_img/334c6206304c2b879070f3e04145e218.gif",
+    "mainPic": "/testname/img/334c6206304c2b879070f3e04145e218.gif",
     "thems": ["Harry Potter", "Harry Potter Quiz", "Galtvort", "Magi", "Filmer", "Harry Potter-fans", "magisk verden", "Potterheads"],
     "questions": [
         {
             "question": "Hva heter Ron Weasleys kjæledyr?",
-            "pic": "./testname/img/fr_img/bb776131d39d84220c9a2b999bfc251f.jpeg",
+            "pic": "/testname/img/bb776131d39d84220c9a2b999bfc251f.jpeg",
             "answers": [
                 {
                     "answer": "Scabbers",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hvilken trollformel bruker Harry for å avvæpne noen?",
-            "pic": "./testname/img/fr_img/aa9fddea95128a6f74da195b7bfa074f.jpeg",
+            "pic": "/testname/img/aa9fddea95128a6f74da195b7bfa074f.jpeg",
             "answers": [
                 {
                     "answer": "Wingardium Leviosa",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvordan smaker smørøl?",
-            "pic": "./testname/img/fr_img/41279df4f24ad6430b1c6b7f47140d28.jpeg",
+            "pic": "/testname/img/41279df4f24ad6430b1c6b7f47140d28.jpeg",
             "answers": [
                 {
                     "answer": "Mynte",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvem blir professor i forsvar mot mørke kunst i Prisoner of Azkaban?",
-            "pic": "./testname/img/fr_img/79673ccea9f77d87c6b24f005cbabc9a.jpeg",
+            "pic": "/testname/img/79673ccea9f77d87c6b24f005cbabc9a.jpeg",
             "answers": [
                 {
                     "answer": "Gilderoy Lockhart",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hva betyr \"Patronus\" de Harry Potter ?",
-            "pic": "./testname/img/fr_img/e63db850f45c711261ec211846ec11b2.jpeg",
+            "pic": "/testname/img/e63db850f45c711261ec211846ec11b2.jpeg",
             "answers": [
                 {
                     "answer": "Beskytter mot forbannelser",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hvem er sjefen for Gryffindor-huset?",
-            "pic": "./testname/img/fr_img/da462d22ddd90068a087aed1eeee52cc.jpeg",
+            "pic": "/testname/img/da462d22ddd90068a087aed1eeee52cc.jpeg",
             "answers": [
                 {
                     "answer": "Minerva McGonagall",

@@ -16,7 +16,7 @@ const utm_campaignData = {
     },
     "music":{
         "url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10024",
-        "pic": "./testname/img/fr_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+        "pic": "/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
         "title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?"
     }
 };

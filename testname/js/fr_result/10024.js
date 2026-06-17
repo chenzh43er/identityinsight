@@ -9,6 +9,6 @@ const results = {
         "title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?",
         "resultTitle": "Volume Élevé",
         "description": "Vous êtes plein d'énergie, apportant toujours du dynamisme et de l'excitation partout où vous allez. Votre monde intérieur est bruyant, vibrant et plein de vie—jamais peur de se démarquer!",
-        "mainPic": "./testname/img/fr_img/188690745edd06166eb6f2b2a24f3b04.gif"
+        "mainPic": "/testname/img/188690745edd06166eb6f2b2a24f3b04.gif"
     }
 };

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Who is your Perfect Zodiac Match at School? 💫🎒",
-    "mainPic": "./testname/img/de_img/5733f4c5286c61332b3a744289e4ab79.gif",
+    "mainPic": "/testname/img/5733f4c5286c61332b3a744289e4ab79.gif",
     "thems": [
         "Love",
         "romance",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "What would be your ideal place to study?",
-            "pic": "./testname/img/de_img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
+            "pic": "/testname/img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
             "answers": [
                 {
                     "answer": "In the park, enjoying the sun",
@@ -42,7 +42,7 @@ let quizData = {
         },
         {
             "question": "If you had to choose one snack to study with, what would it be?",
-            "pic": "./testname/img/de_img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
+            "pic": "/testname/img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
             "answers": [
                 {
                     "answer": "Potato chips, I need energy!",
@@ -68,7 +68,7 @@ let quizData = {
         },
         {
             "question": "What type of music motivates you to learn?",
-            "pic": "./testname/img/de_img/a3d33aac551d8e726e0cbb971694465c.jpg",
+            "pic": "/testname/img/a3d33aac551d8e726e0cbb971694465c.jpg",
             "answers": [
                 {
                     "answer": "Powerful rock to have energy!",
@@ -94,7 +94,7 @@ let quizData = {
         },
         {
             "question": "What is your favorite subject at school?",
-            "pic": "./testname/img/de_img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
+            "pic": "/testname/img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
             "answers": [
                 {
                     "answer": "Physical education, I love moving!",
@@ -120,7 +120,7 @@ let quizData = {
         },
         {
             "question": "How would you describe yourself in one word?",
-            "pic": "./testname/img/de_img/410039c2dca9caa3663e60daef08aece.jpg",
+            "pic": "/testname/img/410039c2dca9caa3663e60daef08aece.jpg",
             "answers": [
                 {
                     "answer": "Passionate",
@@ -146,7 +146,7 @@ let quizData = {
         },
         {
             "question": "What do you do when you're stressed before an exam?",
-            "pic": "./testname/img/de_img/f3990bda1122727f78a00d38a71252b6.jpg",
+            "pic": "/testname/img/f3990bda1122727f78a00d38a71252b6.jpg",
             "answers": [
                 {
                     "answer": "I exercise to release energy",

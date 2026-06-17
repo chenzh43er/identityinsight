@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Dónde renaceré en mi próxima vida?",
-    "mainPic": "./testname/img/es_img/b6a20644ba06f504cfb1856dd5ab0519.jpeg",
+    "mainPic": "/testname/img/b6a20644ba06f504cfb1856dd5ab0519.jpeg",
     "thems": [
         "Renacimiento",
         "Renacer",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cómo te sientes acerca de las reglas y tradiciones?",
-            "pic": "./testname/img/es_img/051f0b063bc83cbeaea52f7fce81875b.jpg",
+            "pic": "/testname/img/051f0b063bc83cbeaea52f7fce81875b.jpg",
             "answers": [
                 {
                     "answer": "Respétalas",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "¿Qué deseas secretamente en la vida?",
-            "pic": "./testname/img/es_img/4ec5ba9ee4a2e858412283bfb7c03b14.jpg",
+            "pic": "/testname/img/4ec5ba9ee4a2e858412283bfb7c03b14.jpg",
             "answers": [
                 {
                     "answer": "Amor eterno",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es tu mayor objetivo personal?",
-            "pic": "./testname/img/es_img/f1a386d5a8e1d5bf3cc8320cf3e5d844.jpg",
+            "pic": "/testname/img/f1a386d5a8e1d5bf3cc8320cf3e5d844.jpg",
             "answers": [
                 {
                     "answer": "Ayudar a otros",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tipo de lugares calman más tu alma?",
-            "pic": "./testname/img/es_img/fdca9df74cab95773309f6ca74987b7d.jpg",
+            "pic": "/testname/img/fdca9df74cab95773309f6ca74987b7d.jpg",
             "answers": [
                 {
                     "answer": "Cumbres de montañas",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo enfrentas las épocas difíciles generalmente?",
-            "pic": "./testname/img/es_img/4d17790a5ade3ac8c0af642933c96afc.jpg",
+            "pic": "/testname/img/4d17790a5ade3ac8c0af642933c96afc.jpg",
             "answers": [
                 {
                     "answer": "Mantener la calma",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual Legume Você É Baseado na Sua Impressão Digital?",
-    "mainPic": "./testname/img/pt_img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
+    "mainPic": "/testname/img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
     "thems": [
         "Personalidade",
         "Legumes",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Como você geralmente lida com situações estressantes?",
-            "pic": "./testname/img/pt_img/36b0411f77ebae0ccbf493ffb9a06e39.png",
+            "pic": "/testname/img/36b0411f77ebae0ccbf493ffb9a06e39.png",
             "answers": [
                 {
                     "answer": "Enfrento de frente",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Como seus amigos descreveriam sua energia?",
-            "pic": "./testname/img/pt_img/1055807375a20c2f878060cdac44b537.png",
+            "pic": "/testname/img/1055807375a20c2f878060cdac44b537.png",
             "answers": [
                 {
                     "answer": "Quente e acolhedora",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Como você aborda novos desafios?",
-            "pic": "./testname/img/pt_img/d772522b50a7860478989bc3513a53c7.png",
+            "pic": "/testname/img/d772522b50a7860478989bc3513a53c7.png",
             "answers": [
                 {
                     "answer": "Entro de cabeça, pronto para dar tudo de mim",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Que tipo de música você prefere?",
-            "pic": "./testname/img/pt_img/a7249e490de6bd012bb09dbdbcb728e8.png",
+            "pic": "/testname/img/a7249e490de6bd012bb09dbdbcb728e8.png",
             "answers": [
                 {
                     "answer": "Batidas de alta energia",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Qual palavra melhor descreve seu estilo?",
-            "pic": "./testname/img/pt_img/c5b711ed523222a1f74280f4b54deefe.png",
+            "pic": "/testname/img/c5b711ed523222a1f74280f4b54deefe.png",
             "answers": [
                 {
                     "answer": "Ousado e confiante",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Como você lida com a mudança?",
-            "pic": "./testname/img/pt_img/0debce6975c8fc8f24fa1f61de808b6b.png",
+            "pic": "/testname/img/0debce6975c8fc8f24fa1f61de808b6b.png",
             "answers": [
                 {
                     "answer": "Encare de frente",

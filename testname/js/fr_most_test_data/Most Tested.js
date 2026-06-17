@@ -17,11 +17,11 @@ const dataM = {
 		"title":"Quel personnage de Nezha 2 êtes-vous ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
-		"pic":"./testname/img/fr_img/590b599488fbd216084fed55fd4a66f3.gif",
+		"pic":"/testname/img/590b599488fbd216084fed55fd4a66f3.gif",
 		"title":"Quelle est l'initiale du nom de votre coup de cœur ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-		"pic":"./testname/img/fr_img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
+		"pic":"/testname/img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
 		"title":"Quel héros Marvel reflète vos bons et mauvais traits de caractère ? "
 	}]
 }

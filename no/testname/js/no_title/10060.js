@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Er du Elsa eller Anna? (Basert på hvordan du takler stress) ",
-    "mainPic": "./testname/img/no_img/01_e3fa10b7-c2db-4ecd-8b65-e01506cbcc30.png",
+    "mainPic": "/testname/img/01_e3fa10b7-c2db-4ecd-8b65-e01506cbcc30.png",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
   {
   "question": "Det er fredag kveld, men det sosiale batteriet ditt er helt tomt. Hva gjør du?",
-  "pic": "./testname/img/no_img/02_f9bfc47c-18cf-418c-9223-eb4da35cb3d6.png",
+  "pic": "/testname/img/02_f9bfc47c-18cf-418c-9223-eb4da35cb3d6.png",
   "answers": [
     {
       "answer": "Låser døra, tar på pysjamas og ignorerer verden. Mitt eget lille ispalass!",
@@ -31,7 +31,7 @@ let quizData = {
 },
         {
   "question": "Du våkner og ser at det er snøstorm og kaos ute. Din første tanke?",
-  "pic": "./testname/img/no_img/03_14509ee7-e168-4724-bfb9-d4de546c73f0.png",
+  "pic": "/testname/img/03_14509ee7-e168-4724-bfb9-d4de546c73f0.png",
   "answers": [
     {
       "answer": "\"The cold never bothered me anyway.\" Jeg går til bussen som vanlig.",
@@ -57,7 +57,7 @@ let quizData = {
 },
         {
   "question": "Du gjør en stor feil foran mange mennesker (f.eks. tryner på isen). Hva gjør du?",
-  "pic": "./testname/img/no_img/04_d8fd136d-ea67-48f6-a9ca-75468f77d667.png",
+  "pic": "/testname/img/04_d8fd136d-ea67-48f6-a9ca-75468f77d667.png",
   "answers": [
     {
       "answer": "Reiser meg opp, ler høyt og sier \"Oops!\".",
@@ -83,7 +83,7 @@ let quizData = {
 },
         {
   "question": "Noen banker på døra di uanmeldt. Hva er din reaksjon?",
-  "pic": "./testname/img/no_img/05_3e06ee43-1bab-466b-83a9-d7342c59b42e.jpeg",
+  "pic": "/testname/img/05_3e06ee43-1bab-466b-83a9-d7342c59b42e.jpeg",
   "answers": [
     {
       "answer": "\"Gå vekk, Anna!\" (Jeg åpner IKKE).",
@@ -109,7 +109,7 @@ let quizData = {
 },
         {
   "question": "Når du er skikkelig stressa over et problem, hvordan løser du det?",
-  "pic": "./testname/img/no_img/06_deb5b68d-62a4-4b92-a9ea-ee2e0e13ff6f.png",
+  "pic": "/testname/img/06_deb5b68d-62a4-4b92-a9ea-ee2e0e13ff6f.png",
   "answers": [
     {
       "answer": "Jeg overtenker alt og stenger alle følelser inne.",
@@ -135,7 +135,7 @@ let quizData = {
 },
 {
   "question": "Hva er din største 'Red Flag' (svakhet) i et forhold?",
-  "pic": "./testname/img/no_img/07_ce3c3433-9628-4b73-9b5c-1a2553a0eab2.png",
+  "pic": "/testname/img/07_ce3c3433-9628-4b73-9b5c-1a2553a0eab2.png",
   "answers": [
     {
       "answer": "Jeg forelsker meg altfor fort i feil person.",
@@ -161,7 +161,7 @@ let quizData = {
 },
 {
   "question": "Til slutt, hvordan ville drømmehelgen din vært?",
-  "pic": "./testname/img/no_img/08_2eaedf32-041c-4fd1-ad28-b87fd14eadf5.png",
+  "pic": "/testname/img/08_2eaedf32-041c-4fd1-ad28-b87fd14eadf5.png",
   "answers": [
     {
       "answer": "En hytte på fjellet, helt alene (eller med katt), med en god bok.",

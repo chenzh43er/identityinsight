@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Månetest|Er du kompatibel med partneren din?",
-    "mainPic": "./testname/img/no_img/0f213fa34fb9cbf22db7bdca3cac56b5.gif",
+    "mainPic": "/testname/img/0f213fa34fb9cbf22db7bdca3cac56b5.gif",
     "thems": [
         "Månetest",
         "Kompatibilitetstest",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvordan løser du krangler?",
-            "pic": "./testname/img/no_img/373eecd2b53d19c6546557b00c648906.jpg",
+            "pic": "/testname/img/373eecd2b53d19c6546557b00c648906.jpg",
             "answers": [
                 {
                     "answer": "Hold deg rolig",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt kjærlighetsspråk?",
-            "pic": "./testname/img/no_img/26995ab634efabccb8deb529344ad34e.jpg",
+            "pic": "/testname/img/26995ab634efabccb8deb529344ad34e.jpg",
             "answers": [
                 {
                     "answer": "Kun ord",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hvor ofte kobler du deg følelsesmessig?",
-            "pic": "./testname/img/no_img/45ec04c7553c25fdda04c558bd12ea54.jpg",
+            "pic": "/testname/img/45ec04c7553c25fdda04c558bd12ea54.jpg",
             "answers": [
                 {
                     "answer": "Hver dag",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Hvordan planlegger du fremtiden din?",
-            "pic": "./testname/img/no_img/cd8f80a2ac96b4c9aff3e988f4058379.jpg",
+            "pic": "/testname/img/cd8f80a2ac96b4c9aff3e988f4058379.jpg",
             "answers": [
                 {
                     "answer": "Alltid sammen",

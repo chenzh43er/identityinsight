@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたはどのワンパンマンのキャラクターですか？",
-    "mainPic": "./testname/img/jp_img/332d9bfe7401813405d03eedd24bf253.jpeg",
+    "mainPic": "/testname/img/332d9bfe7401813405d03eedd24bf253.jpeg",
     "thems": [
         "ワンパンマン",
         "アニメ",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "人生での主なモチベーションは何ですか？",
-            "pic": "./testname/img/jp_img/c321e667f7a5afdbae71cde3d8c555cb.png",
+            "pic": "/testname/img/c321e667f7a5afdbae71cde3d8c555cb.png",
             "answers": [
                 {
                     "answer": "本当にスリリングなものを求めること",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "理想的な週末はどのように見えますか？",
-            "pic": "./testname/img/jp_img/241e91cae26ed96d459f770bfbb63352.png",
+            "pic": "/testname/img/241e91cae26ed96d459f770bfbb63352.png",
             "answers": [
                 {
                     "answer": "テレビゲームをする",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "グループプロジェクトであなたはどの役？",
-            "pic": "./testname/img/jp_img/ffaca3b1eb148602bb9222fc0372e0ad.png",
+            "pic": "/testname/img/ffaca3b1eb148602bb9222fc0372e0ad.png",
             "answers": [
                 {
                     "answer": "すべてを土壇場で終わらせるが、見事に仕上げる",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "敵をどのように扱いますか？",
-            "pic": "./testname/img/jp_img/78ac0077239258f62f6276596a55e4c7.png",
+            "pic": "/testname/img/78ac0077239258f62f6276596a55e4c7.png",
             "answers": [
                 {
                     "answer": "退屈しながら",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "認識と名声についてどう思いますか？",
-            "pic": "./testname/img/jp_img/91c053159cfb0f9bb5f5c149b244fec1.png",
+            "pic": "/testname/img/91c053159cfb0f9bb5f5c149b244fec1.png",
             "answers": [
                 {
                     "answer": "全く気にしない",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "あなたの戦闘スタイルは何ですか？",
-            "pic": "./testname/img/jp_img/0a1cd519bc31cac93d05ffc685a9a0f1.png",
+            "pic": "/testname/img/0a1cd519bc31cac93d05ffc685a9a0f1.png",
             "answers": [
                 {
                     "answer": "カジュアルだがものすごく強力",

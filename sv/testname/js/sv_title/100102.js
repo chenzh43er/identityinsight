@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vem är din perfekta matchning i zodiaken på skolan? 💫🎒",
-    "mainPic": "./testname/img/sv_img/5733f4c5286c61332b3a744289e4ab79.gif",
+    "mainPic": "/testname/img/5733f4c5286c61332b3a744289e4ab79.gif",
     "thems": [
         "Kärlek",
         "Romantik",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad skulle vara din ideala plats att studera?",
-            "pic": "./testname/img/sv_img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
+            "pic": "/testname/img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
             "answers": [
                 {
                     "answer": "I parken, njuter av solen",
@@ -42,7 +42,7 @@ let quizData = {
         },
         {
             "question": "Om du var tvungen att välja ett mellanmål för studier, vad skulle det vara?",
-            "pic": "./testname/img/sv_img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
+            "pic": "/testname/img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
             "answers": [
                 {
                     "answer": "Potatischips, jag behöver energi!",
@@ -68,7 +68,7 @@ let quizData = {
         },
         {
             "question": "Vilken typ av musik motiverar dig att studera?",
-            "pic": "./testname/img/sv_img/a3d33aac551d8e726e0cbb971694465c.jpg",
+            "pic": "/testname/img/a3d33aac551d8e726e0cbb971694465c.jpg",
             "answers": [
                 {
                     "answer": "Kraftfull rock, för att få energi!",
@@ -94,7 +94,7 @@ let quizData = {
         },
         {
             "question": "Vad är ditt favoritämne i skolan?",
-            "pic": "./testname/img/sv_img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
+            "pic": "/testname/img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
             "answers": [
                 {
                     "answer": "Idrott, jag älskar att röra på mig!",
@@ -120,7 +120,7 @@ let quizData = {
         },
         {
             "question": "Hur skulle du beskriva dig själv med ett ord?",
-            "pic": "./testname/img/sv_img/410039c2dca9caa3663e60daef08aece.jpg",
+            "pic": "/testname/img/410039c2dca9caa3663e60daef08aece.jpg",
             "answers": [
                 {
                     "answer": "Passionerad",
@@ -146,7 +146,7 @@ let quizData = {
         },
         {
             "question": "Vad gör du när du är stressad inför ett prov?",
-            "pic": "./testname/img/sv_img/f3990bda1122727f78a00d38a71252b6.jpg",
+            "pic": "/testname/img/f3990bda1122727f78a00d38a71252b6.jpg",
             "answers": [
                 {
                     "answer": "Jag tränar för att frigöra energi",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Är du en vakt eller en fånge i Roblox Prison Life?",
-    "mainPic": "./testname/img/sv_img/f1c262270db4e7814fb4120263981a1f.gif",
+    "mainPic": "/testname/img/f1c262270db4e7814fb4120263981a1f.gif",
     "thems": [
         "Spel",
         "Roblox",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Du har precis dykt upp på fängelsegården. Vad är det första du gör?",
-            "pic": "./testname/img/sv_img/e8a8e17f94edb10ec9410d2700013f3d.jpg",
+            "pic": "/testname/img/e8a8e17f94edb10ec9410d2700013f3d.jpg",
             "answers": [
                 {
                     "answer": "Patrullera området",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Ett slagsmål bryter ut i matsalen. Vad gör du?",
-            "pic": "./testname/img/sv_img/c10f6d6a7f1ee1516294b9ac2091e44d.jpg",
+            "pic": "/testname/img/c10f6d6a7f1ee1516294b9ac2091e44d.jpg",
             "answers": [
                 {
                     "answer": "Använd elpistol",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Du hittar ett nyckelkort liggande på marken. Vad är din reaktion?",
-            "pic": "./testname/img/sv_img/29f8ca9bdb2c4ae799e014c3adec8775.jpg",
+            "pic": "/testname/img/29f8ca9bdb2c4ae799e014c3adec8775.jpg",
             "answers": [
                 {
                     "answer": "Lämna tillbaka det",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Utanför fängelset ser du en förrymd spelare. Vad gör du?",
-            "pic": "./testname/img/sv_img/754d00d106f8e581b6d13106ca2b42e5.jpg",
+            "pic": "/testname/img/754d00d106f8e581b6d13106ca2b42e5.jpg",
             "answers": [
                 {
                     "answer": "Arrestera dem",

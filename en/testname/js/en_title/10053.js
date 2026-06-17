@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Pick A Card And We'll Know Which Exact Zodiac Element You Belong To 100%! 🃏🔮",
-    "mainPic": "./testname/img/en_img/ba4e070cf69e263e8b26f6e44541b127.gif",
+    "mainPic": "/testname/img/ba4e070cf69e263e8b26f6e44541b127.gif",
     "thems": [
         "Zodiac",
         "Tarot",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Choose a Major Arcanum!",
-            "pic": "./testname/img/en_img/1772e7d3d788e39ce4e7fcbfffbc8477.jpg",
+            "pic": "/testname/img/1772e7d3d788e39ce4e7fcbfffbc8477.jpg",
             "answers": [
                 {
                     "answer": "A: Temperance",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Which of these cards resonates with you?",
-            "pic": "./testname/img/en_img/f38e729520f9f420849d7a423b44e093.jpg",
+            "pic": "/testname/img/f38e729520f9f420849d7a423b44e093.jpg",
             "answers": [
                 {
                     "answer": "A: The Emperor",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Choose the card that your intuition dictates!",
-            "pic": "./testname/img/en_img/4b89bb9ba446ceefdb8ea1ca066073ee.jpg",
+            "pic": "/testname/img/4b89bb9ba446ceefdb8ea1ca066073ee.jpg",
             "answers": [
                 {
                     "answer": "A: The force",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Choose a minor arcane!",
-            "pic": "./testname/img/en_img/ee0538fe8143342b2d74ae4491672c0d.jpg",
+            "pic": "/testname/img/ee0538fe8143342b2d74ae4491672c0d.jpg",
             "answers": [
                 {
                     "answer": "A: Ace of Spades",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Which minor arcane resonates with your emotions?",
-            "pic": "./testname/img/en_img/130323e25a66ab74d6130a7c68d4088a.jpg",
+            "pic": "/testname/img/130323e25a66ab74d6130a7c68d4088a.jpg",
             "answers": [
                 {
                     "answer": "A: Three of Cups",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Which minor arcane resonates with your spirit?",
-            "pic": "./testname/img/en_img/09fe1226af63eeee66d89fbfc4e7d0a2.jpg",
+            "pic": "/testname/img/09fe1226af63eeee66d89fbfc4e7d0a2.jpg",
             "answers": [
                 {
                     "answer": "A: Two of swords",

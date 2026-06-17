@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quelle matière de Poudlard serait ta préférée ?",
-    "mainPic": "./testname/img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
+    "mainPic": "/testname/img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
   "question": "Quel type de cours t’attire le plus ?",
-  "pic": "./testname/img/fr_img/67_70383949-f131-44f1-862e-390550910234.jpeg",
+  "pic": "/testname/img/67_70383949-f131-44f1-862e-390550910234.jpeg",
   "answers": [
     {
       "answer": "Pratique et plein d’action",
@@ -40,7 +40,7 @@ let quizData = {
 },
 {
   "question": "Si tu étais professeur, tu…",
-  "pic": "./testname/img/fr_img/68_4fc176dd-8814-4869-aaf2-49bcef4fd5ac.jpeg",
+  "pic": "/testname/img/68_4fc176dd-8814-4869-aaf2-49bcef4fd5ac.jpeg",
   "answers": [
     {
       "answer": "Mettrais tes élèves au défi",
@@ -66,7 +66,7 @@ let quizData = {
 },
 {
   "question": "Qu’est-ce qui te fascine le plus dans la magie ?",
-  "pic": "./testname/img/fr_img/69_faaa3bc5-4839-424e-b18a-f7079281236a.jpeg",
+  "pic": "/testname/img/69_faaa3bc5-4839-424e-b18a-f7079281236a.jpeg",
   "answers": [
     {
       "answer": "Sa puissance",
@@ -92,7 +92,7 @@ let quizData = {
 },
 {
   "question": "Quelle matière aimerais-tu apprendre en priorité ?",
-  "pic": "./testname/img/fr_img/70_23c80fca-5ad6-4547-bdd1-ff692f3efea6.jpeg",
+  "pic": "/testname/img/70_23c80fca-5ad6-4547-bdd1-ff692f3efea6.jpeg",
   "answers": [
     {
       "answer": "Défense contre les forces du mal",
@@ -118,7 +118,7 @@ let quizData = {
 },
         {
   "question": "Comment réagis-tu face à une erreur ?",
-  "pic": "./testname/img/fr_img/71_47ccca07-ad53-40d3-8db9-54ad2e0a0c77.png",
+  "pic": "/testname/img/71_47ccca07-ad53-40d3-8db9-54ad2e0a0c77.png",
   "answers": [
     {
       "answer": "Je la corrige immédiatement",
@@ -144,7 +144,7 @@ let quizData = {
 },
 {
   "question": "Quel environnement t’inspire le plus ?",
-  "pic": "./testname/img/fr_img/72_53ca7b58-a2b2-4d50-a593-d6b7c255207c.jpeg",
+  "pic": "/testname/img/72_53ca7b58-a2b2-4d50-a593-d6b7c255207c.jpeg",
   "answers": [
     {
       "answer": "Une chambre secrète",
@@ -170,7 +170,7 @@ let quizData = {
 },
 {
   "question": "Quel mot te décrit le mieux ?",
-  "pic": "./testname/img/fr_img/73_f2d179c4-61ee-491a-b3ba-10d5ed7cd2d9.jpeg",
+  "pic": "/testname/img/73_f2d179c4-61ee-491a-b3ba-10d5ed7cd2d9.jpeg",
   "answers": [
      {
       "answer": "Déterminé(e)",
@@ -196,7 +196,7 @@ let quizData = {
 },
 {
   "question": " Si tu étais à Poudlard, tu serais connu(e) pour…",
-  "pic": "./testname/img/fr_img/74_f3259317-d108-460b-a594-8c2433d2f698.jpeg",
+  "pic": "/testname/img/74_f3259317-d108-460b-a594-8c2433d2f698.jpeg",
   "answers": [
     {
       "answer": "Ton courage",

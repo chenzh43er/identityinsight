@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたはどのカプチンカオスのアーキタイプですか？",
-    "mainPic": "./testname/img/jp_img/b6124b5d49ca37d5996bf8501f26da40.gif",
+    "mainPic": "/testname/img/b6124b5d49ca37d5996bf8501f26da40.gif",
     "thems": [
         "カプチン",
         "アーキタイプ",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "デイブが追いかけてくるとき、どう反応しますか？",
-            "pic": "./testname/img/jp_img/fff7ec542864dd2a9e266d7bd0049e8c.jpg",
+            "pic": "/testname/img/fff7ec542864dd2a9e266d7bd0049e8c.jpg",
             "answers": [
                 {
                     "answer": "走って叫ぶ",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "お気に入りのゲーム内アクティビティは何ですか？",
-            "pic": "./testname/img/jp_img/2abf5775a6c9e8379a37e67a0795c494.jpg",
+            "pic": "/testname/img/2abf5775a6c9e8379a37e67a0795c494.jpg",
             "answers": [
                 {
                     "answer": "ホラーモード",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ゲーム内で困難な状況をどのようにして逃れますか？",
-            "pic": "./testname/img/jp_img/ea8f37a8f0db3bc53a4724aa0507bfc3.jpg",
+            "pic": "/testname/img/ea8f37a8f0db3bc53a4724aa0507bfc3.jpg",
             "answers": [
                 {
                     "answer": "壁登り",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "あなたの典型的なプレイスタイルは何ですか？",
-            "pic": "./testname/img/jp_img/e18d0943e6e00e4de26e9830fd4830ce.jpg",
+            "pic": "/testname/img/e18d0943e6e00e4de26e9830fd4830ce.jpg",
             "answers": [
                 {
                     "answer": "カオスモンキー",

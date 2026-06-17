@@ -1,6 +1,6 @@
 let quizData = {
     "title": "イカゲーム3を生き残れるか？",
-    "mainPic": "./testname/img/jp_img/d1589d2822bb5f96f107d2d3ec5036a0.gif",
+    "mainPic": "/testname/img/d1589d2822bb5f96f107d2d3ec5036a0.gif",
     "thems": [
         "イカゲーム",
         "サバイバル",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "イカゲーム3をどうやって生き残るか？",
-            "pic": "./testname/img/jp_img/4f4db88b2b7c8cd779db68d0c7567c12.png",
+            "pic": "/testname/img/4f4db88b2b7c8cd779db68d0c7567c12.png",
             "answers": [
                 {
                     "answer": "ルールを守る",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "信頼が鍵となるゲームで、あなたは誰とチームを組みますか？",
-            "pic": "./testname/img/jp_img/0d246d6fe258c2004cb0614d250c37c0.png",
+            "pic": "/testname/img/0d246d6fe258c2004cb0614d250c37c0.png",
             "answers": [
                 {
                     "answer": "よく知っている人。",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "警備員があなたに不正をする機会を提供します。あなたはどうしますか？",
-            "pic": "./testname/img/jp_img/3bdb420f53f95ceed88c0d5207a96b5c.png",
+            "pic": "/testname/img/3bdb420f53f95ceed88c0d5207a96b5c.png",
             "answers": [
                 {
                     "answer": "それを受け入れる",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "サバイバルゲームでの残り時間が少ない場合はどうしますか？",
-            "pic": "./testname/img/jp_img/ab7b4bc015231cdfe39405b54378f9aa.jpeg",
+            "pic": "/testname/img/ab7b4bc015231cdfe39405b54378f9aa.jpeg",
             "answers": [
                 {
                     "answer": "急いで終える",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "2つのリスクのある道の間で何を選択しますか？",
-            "pic": "./testname/img/jp_img/9bff6ea0f54350ad555cefadf8821468.png",
+            "pic": "/testname/img/9bff6ea0f54350ad555cefadf8821468.png",
             "answers": [
                 {
                     "answer": "誰かのリードに従う",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "イカゲーム3で勝つための主な戦略は何ですか？",
-            "pic": "./testname/img/jp_img/3ca092db6007d72a1aa1acb681c545d1.jpeg",
+            "pic": "/testname/img/3ca092db6007d72a1aa1acb681c545d1.jpeg",
             "answers": [
                 {
                     "answer": "競争的",

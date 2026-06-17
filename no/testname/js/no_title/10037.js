@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Welchem Hogwarts-Professor ähneln Sie am meisten?",
-    "mainPic": "./testname/img/de_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+    "mainPic": "/testname/img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
     "thems": ["Harry Potter", "Galtvort-professorer", "Harry Potter Quiz", "Galtvort", "Harry Potter-karakter", "Galtvort-trivia", "Magi", "Lieblings-Hogwarts-Professor", "Film", "Charaktere", "Personlig beskrivelse"],
     "questions": [
         {
             "question": "Wenn du einen Zauberstab bekommst, ist das Erste, was du tust...",
-            "pic": "./testname/img/de_img/d1b86b3225f4b092e382287328027703.jpg",
+            "pic": "/testname/img/d1b86b3225f4b092e382287328027703.jpg",
             "answers": [
                 {
                     "answer": "Einen Trank vorbereiten, um zu beeindrucken",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Welches Emoji representerer hva som er best i verden?",
-            "pic": "./testname/img/de_img/78b73f6a54d0015bed411badca29015b.jpg",
+            "pic": "/testname/img/78b73f6a54d0015bed411badca29015b.jpg",
             "answers": [
                 {
                     "answer": "🖤",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Wenn du eine Klasse in Galtvort unterrichten müsstest, würdest du wählen …",
-            "pic": "./testname/img/de_img/52920f01e1eb6661be18385e9322dbcc.jpg",
+            "pic": "/testname/img/52920f01e1eb6661be18385e9322dbcc.jpg",
             "answers": [
                 {
                     "answer": "Tränke, naturlig. Es ist eine ernstafte Kunst.",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Var Welcher Ort i Galtvort en favoritt?",
-            "pic": "./testname/img/de_img/de88a7f8b9341f97cbe9cf9cb71157b9.jpg",
+            "pic": "/testname/img/de88a7f8b9341f97cbe9cf9cb71157b9.jpg",
             "answers": [
                 {
                     "answer": "Die Kerker",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Wenn Sie ein Zauberspruch wären, wären Sie...",
-            "pic": "./testname/img/de_img/07a803696629cbd850bce3202aa56140.jpg",
+            "pic": "/testname/img/07a803696629cbd850bce3202aa56140.jpg",
             "answers": [
                 {
                     "answer": "Sectumsempra (beeindruckend, aber nützlich)",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Var det en Typ School waren (eller wären Sie) på Galtvort?",
-            "pic": "./testname/img/de_img/54e0178cd4cc14aefe4c4d7c53409cd5.jpg",
+            "pic": "/testname/img/54e0178cd4cc14aefe4c4d7c53409cd5.jpg",
             "answers": [
                 {
                     "answer": "Der Zurückhaltende, aber mit den besten Noten en Zaubertränke.",

@@ -23,7 +23,7 @@ handler like mye
 om integritet
 som ferdigheter.
     `,
-    "mainPic": "./testname/img/no_img/54_9be0020f22844f1f834871aaca3ede3a.jpeg"
+    "mainPic": "/testname/img/54_9be0020f22844f1f834871aaca3ede3a.jpeg"
   },
   "2": {
     "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?",
@@ -46,7 +46,7 @@ Ambisjonen din
 er ikke egoistisk,
 den er målrettet.
     `,
-    "mainPic": "./testname/img/no_img/55_62d54832c1af479d837a7d07e4b18b28.jpeg"
+    "mainPic": "/testname/img/55_62d54832c1af479d837a7d07e4b18b28.jpeg"
   },
   "3": {
     "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?",
@@ -71,7 +71,7 @@ i balansen
 mellom hjerte
 og disiplin.
     `,
-    "mainPic": "./testname/img/no_img/56_e829231bf35640e3a80155b21d5d1474.jpeg"
+    "mainPic": "/testname/img/56_e829231bf35640e3a80155b21d5d1474.jpeg"
   },
   "4": {
     "title": "Hvilken kirurg fra «Grey's Anatomy» er din profesjonelle tvilling?",
@@ -95,6 +95,6 @@ profesjonell identitet
 tett knyttet
 til lidenskap.
     `,
-    "mainPic": "./testname/img/no_img/57_a3131b21a29d4b09b8ec5c6ca17c1bc1.jpeg"
+    "mainPic": "/testname/img/57_a3131b21a29d4b09b8ec5c6ca17c1bc1.jpeg"
   }
 };

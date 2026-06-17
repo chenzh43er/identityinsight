@@ -19,7 +19,7 @@ Gratulerer —
 du er 100 %
 typisk norsk!
     `,
-    "mainPic": "./testname/img/no_img/45_1304fe47177b4b828029960ea87ea589.png"
+    "mainPic": "/testname/img/45_1304fe47177b4b828029960ea87ea589.png"
   },
   "2": {
     "title": "Hvor «typisk norsk» er du egentlig? Ta testen og få svaret!",
@@ -41,7 +41,7 @@ i nærheten.
 Du er en perfekt blanding
 av fjell og by!
     `,
-    "mainPic": "./testname/img/no_img/46_6b84af767ef9410fb103f6798d1d6e35.jpeg"
+    "mainPic": "/testname/img/46_6b84af767ef9410fb103f6798d1d6e35.jpeg"
   },
   "3": {
     "title": "Hvor «typisk norsk» er du egentlig? Ta testen og få svaret!",
@@ -63,7 +63,7 @@ Du bringer litt
 etterlengtet varme
 til kalde Norge!
     `,
-    "mainPic": "./testname/img/no_img/47_b74e4160c0774ae686f2d150619ad01a.jpeg"
+    "mainPic": "/testname/img/47_b74e4160c0774ae686f2d150619ad01a.jpeg"
   },
   "4": {
     "title": "Hvor «typisk norsk» er du egentlig? Ta testen og få svaret!",
@@ -84,6 +84,6 @@ Men det er helt greit —
 vi trenger litt variasjon
 her i nord også!
     `,
-    "mainPic": "./testname/img/no_img/48_c8cf0a4ea3ae433e872f2e11f81bd20a.jpeg"
+    "mainPic": "/testname/img/48_c8cf0a4ea3ae433e872f2e11f81bd20a.jpeg"
   }
 };

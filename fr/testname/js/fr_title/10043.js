@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Êtes-vous *éligible* pour un certificat officiel de Poudlard ?",
-    "mainPic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
+    "mainPic": "/testname/img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
     "thems": [
         "Harry Potter",
         "Poudlard",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "En combien de maisons Poudlard est-il divisé ?",
-            "pic": "./testname/img/fr_img/5d335f21574eb95f56a1a6dc639d7ac7.png",
+            "pic": "/testname/img/5d335f21574eb95f56a1a6dc639d7ac7.png",
             "answers": [
                 {
                     "answer": "2 maisons",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quel est la devise de Poudlard ?",
-            "pic": "./testname/img/fr_img/d552940a0bbf9b039104d691016c7914.png",
+            "pic": "/testname/img/d552940a0bbf9b039104d691016c7914.png",
             "answers": [
                 {
                     "answer": "La connaissance est la plus grande magie de toutes.",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Lequel de ceux-ci n'est PAS un enseignant ou professeur à Poudlard ?",
-            "pic": "./testname/img/fr_img/0a07564af0a5ec054cfe9aaebd68b550.png",
+            "pic": "/testname/img/0a07564af0a5ec054cfe9aaebd68b550.png",
             "answers": [
                 {
                     "answer": "Severus Snape",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Quelle créature magique garde l'entrée du bureau de Dumbledore ?",
-            "pic": "./testname/img/fr_img/7e754dabee546aa20c78ac380f048bdb.png",
+            "pic": "/testname/img/7e754dabee546aa20c78ac380f048bdb.png",
             "answers": [
                 {
                     "answer": "Griffon",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quel est le nom de la carte magique où vous pouvez voir la disposition complète du château de Poudlard ?",
-            "pic": "./testname/img/fr_img/ce41963f00a6135f174bf1312efad53a.png",
+            "pic": "/testname/img/ce41963f00a6135f174bf1312efad53a.png",
             "answers": [
                 {
                     "answer": "Carte du Maraudeur",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Quel charme est utilisé pour invoquer des objets ?",
-            "pic": "./testname/img/fr_img/d1f1ee8a8f05c715d30bf3240b810c82.png",
+            "pic": "/testname/img/d1f1ee8a8f05c715d30bf3240b810c82.png",
             "answers": [
                 {
                     "answer": "Expelliarmus",

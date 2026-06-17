@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken Disney Bröllopsklänning Fångar Din Sanna Essens? 👰✨",
-    "mainPic": "./testname/img/sv_img/532332b5bd731ee705a821a8270c0ed5.gif",
+    "mainPic": "/testname/img/532332b5bd731ee705a821a8270c0ed5.gif",
     "thems": [
         "Bröllopsklänningar",
         "Brudar",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vilket tillbehör är ett måste i din look?",
-            "pic": "./testname/img/sv_img/2c4e73cc3afa3e15837c280abda6a982.jpg",
+            "pic": "/testname/img/2c4e73cc3afa3e15837c280abda6a982.jpg",
             "answers": [
                 {
                     "answer": "Smycken med en exotisk touch",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Vilken färg föredrar du på din brudklänning?",
-            "pic": "./testname/img/sv_img/d0d9a7a2e47d7215882c94847a8fd7cb.jpg",
+            "pic": "/testname/img/d0d9a7a2e47d7215882c94847a8fd7cb.jpg",
             "answers": [
                 {
                     "answer": "A. Turkos",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle vara temat för ditt bröllop?",
-            "pic": "./testname/img/sv_img/c89ae9cb0e1e014814b85c71e6680f37.jpg",
+            "pic": "/testname/img/c89ae9cb0e1e014814b85c71e6680f37.jpg",
             "answers": [
                 {
                     "answer": "En saga i öknen",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Vilken är din favoritblomma för buketten?",
-            "pic": "./testname/img/sv_img/bba4617af031b319501e5144d1bf3daf.jpg",
+            "pic": "/testname/img/bba4617af031b319501e5144d1bf3daf.jpg",
             "answers": [
                 {
                     "answer": "A. Exotiska liljor",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Vilken typ av bröllopstårta skulle du välja?",
-            "pic": "./testname/img/sv_img/e5d60d4410fab7cc9f87b9c761d9c4bb.jpg",
+            "pic": "/testname/img/e5d60d4410fab7cc9f87b9c761d9c4bb.jpg",
             "answers": [
                 {
                     "answer": "En tårta med exotiska smaker",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hur skulle du beskriva din personlighet?",
-            "pic": "./testname/img/sv_img/51acd467e79f0a7ede36fdce8ab69857.jpg",
+            "pic": "/testname/img/51acd467e79f0a7ede36fdce8ab69857.jpg",
             "answers": [
                 {
                     "answer": "Äventyrlig och fri",

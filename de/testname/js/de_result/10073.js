@@ -9,7 +9,7 @@ Für dich zählen Fakten, Ordnung und Verantwortung.
 Auch unter Druck behältst du einen klaren Kopf und verlierst nie den Überblick.
 In komplexen Fällen bist du derjenige, dem man vertraut.
     `,
-    "mainPic": "./testname/img/de_img/35_1884aa95748a4d96966612ecfc0de032.jpeg"
+    "mainPic": "/testname/img/35_1884aa95748a4d96966612ecfc0de032.jpeg"
   },
   "2": {
     "title": "In welcher Tatort-Stadt wärst du der perfekte Ermittler?",
@@ -21,7 +21,7 @@ Du willst verstehen, warum jemand handelt, nicht nur was passiert ist.
 Deine Stärke ist Empathie – und genau das bringt dich oft näher an die Wahrheit
 als jede Akte.
     `,
-    "mainPic": "./testname/img/de_img/36_3f5c27f8b3a042b5892fd6026fa0a9f5.jpeg"
+    "mainPic": "/testname/img/36_3f5c27f8b3a042b5892fd6026fa0a9f5.jpeg"
   },
   "3": {
     "title": "In welcher Tatort-Stadt wärst du der perfekte Ermittler?",
@@ -33,7 +33,7 @@ und akzeptierst keine einfachen Antworten.
 Grauzonen schrecken dich nicht ab – im Gegenteil.
 Du willst die Wahrheit, auch wenn sie wehtut.
     `,
-    "mainPic": "./testname/img/de_img/37_11beeb45bab94c218e4b2f0803a2d328.jpeg"
+    "mainPic": "/testname/img/37_11beeb45bab94c218e4b2f0803a2d328.jpeg"
   },
   "4": {
     "title": "In welcher Tatort-Stadt wärst du der perfekte Ermittler?",
@@ -46,6 +46,6 @@ Mit Intelligenz, Geduld und einem feinen Sinn für Details
 kommst du der Wahrheit Schritt für Schritt näher –
 oft schneller als alle anderen.
     `,
-    "mainPic": "./testname/img/de_img/38_dda9509687974df09ad56e2e107e0b26.jpeg"
+    "mainPic": "/testname/img/38_dda9509687974df09ad56e2e107e0b26.jpeg"
   }
 };

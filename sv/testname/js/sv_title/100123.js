@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Fatta beslut baserat på ditt stjärntecken och få en ödesförutsägelse!",
-    "mainPic": "./testname/img/sv_img/53df6ab80eebbfec50562157fb1aab58.gif",
+    "mainPic": "/testname/img/53df6ab80eebbfec50562157fb1aab58.gif",
     "thems": [
         "Horoskop",
         "Födelsediagram",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Was ist dein weiblicher Archetyp? Finden wir es heraus!",
-    "mainPic": "./testname/img/de_img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
+    "mainPic": "/testname/img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
     "thems": [
         "Weiblich",
         "Archetyp",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist dein Sternzeichen?",
-            "pic": "./testname/img/de_img/8d22f350ce990e451fc4879c9e442e3a.png",
+            "pic": "/testname/img/8d22f350ce990e451fc4879c9e442e3a.png",
             "answers": [
                 {
                     "answer": "Luft (Zwillinge, Waage, Wassermann)",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein Geburtsmonat?",
-            "pic": "./testname/img/de_img/17c5d0ecd66b6ea9c03249591568a746.png",
+            "pic": "/testname/img/17c5d0ecd66b6ea9c03249591568a746.png",
             "answers": [
                 {
                     "answer": "Januar, Februar, März",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Welche Adjektive beschreiben am besten Ihre Persönlichkeit?",
-            "pic": "./testname/img/de_img/44c3b65ed5cfcb4f6cca5fa3ad0e31ca.png",
+            "pic": "/testname/img/44c3b65ed5cfcb4f6cca5fa3ad0e31ca.png",
             "answers": [
                 {
                     "answer": "Trendy und jugendlich",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Was ist Ihrer Meinung nach das Wichtigste im Leben?",
-            "pic": "./testname/img/de_img/868f6c5560122fb4e5106d7cafba60af.png",
+            "pic": "/testname/img/868f6c5560122fb4e5106d7cafba60af.png",
             "answers": [
                 {
                     "answer": "Intimität und Liebe",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Welche Aktivität genießen Sie am meisten?",
-            "pic": "./testname/img/de_img/f588a70c7a5e6bf16c854d622116ce80.png",
+            "pic": "/testname/img/f588a70c7a5e6bf16c854d622116ce80.png",
             "answers": [
                 {
                     "answer": "Kunst schaffen",

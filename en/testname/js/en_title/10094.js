@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Viral Meme Era Defines Your Personality in 2026?",
-    "mainPic": "./testname/img/en_img/72_ccf21a1319de44cd880eb0676e7be7c8.jpeg",
+    "mainPic": "/testname/img/72_ccf21a1319de44cd880eb0676e7be7c8.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "When someone says “Skibidi bop yes yes yes,” your reaction is…",
-    "pic": "./testname/img/en_img/73_ba44308eafcb4e359cf8d6837c38b12a.jpeg",
+    "pic": "/testname/img/73_ba44308eafcb4e359cf8d6837c38b12a.jpeg",
     "answers": [
       { "answer": "I immediately dance along", "aPic": "", "aId": 1 },
       { "answer": "I nod but don’t know the full trend", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "You hear someone call themselves a “Sigma” — you think…",
-    "pic": "./testname/img/en_img/74_1d28e6a8518a4042b18c28df5daccee5.jpeg",
+    "pic": "/testname/img/74_1d28e6a8518a4042b18c28df5daccee5.jpeg",
     "answers": [
       { "answer": "I know exactly the full meme", "aPic": "", "aId": 1 },
       { "answer": "I’ve heard it but unsure meaning", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "You see a TikTok with “Ohio” text overlay — you…",
-    "pic": "./testname/img/en_img/75_726947db26ac431cb3ef62cc0b151beb.webp",
+    "pic": "/testname/img/75_726947db26ac431cb3ef62cc0b151beb.webp",
     "answers": [
       { "answer": "Laugh because I know the inside joke", "aPic": "", "aId": 1 },
       { "answer": "Watch it confused but interested", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Someone sends you a sound labeled “Main Character Energy.” You…",
-    "pic": "./testname/img/en_img/76_badf531479d1489a9e54e04259e4df0f.jpeg",
+    "pic": "/testname/img/76_badf531479d1489a9e54e04259e4df0f.jpeg",
     "answers": [
       { "answer": "Absolutely use it as my status", "aPic": "", "aId": 1 },
       { "answer": "Save it for later", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "What’s your Gen Z/Alpha slang comfort level?",
-    "pic": "./testname/img/en_img/77_e67bce690fa442459175c37286211b0e.jpeg",
+    "pic": "/testname/img/77_e67bce690fa442459175c37286211b0e.jpeg",
     "answers": [
       { "answer": "I know all the newest words", "aPic": "", "aId": 1 },
       { "answer": "I know some, ask for definitions", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "If someone says “no cap” during a Zoom call, you…",
-    "pic": "./testname/img/en_img/78_16593e49b88a4e2d8e1d1a22e8770427.jpeg",
+    "pic": "/testname/img/78_16593e49b88a4e2d8e1d1a22e8770427.jpeg",
     "answers": [
       { "answer": "Respond with “no cap” back", "aPic": "", "aId": 1 },
       { "answer": "Smile awkwardly", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "You see a meme labeled “I’m a ghost” — you think…",
-    "pic": "./testname/img/en_img/79_4b31e38a212b441f97881de37bce99a1.jpeg",
+    "pic": "/testname/img/79_4b31e38a212b441f97881de37bce99a1.jpeg",
     "answers": [
       { "answer": "Classic — relate hard", "aPic": "", "aId": 1 },
       { "answer": "Funny but weird", "aPic": "", "aId": 2 },

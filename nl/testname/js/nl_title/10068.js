@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Test je Disney-nationaliteit",
-    "mainPic": "./testname/img/nl_img/9645d9f2c83a97881422cd2352b203d5.gif",
+    "mainPic": "/testname/img/9645d9f2c83a97881422cd2352b203d5.gif",
     "thems": [
         "Disney",
         "Nationaliteit",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welke Disney-omgeving voelt het meest als thuis?",
-            "pic": "./testname/img/nl_img/b7a7589f260fbab657b6fb3bc79bac0f.jpg",
+            "pic": "/testname/img/b7a7589f260fbab657b6fb3bc79bac0f.jpg",
             "answers": [
                 {
                     "answer": "Betoverd kasteel",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Wat is de sfeer van je favoriete Disney-film?",
-            "pic": "./testname/img/nl_img/59cfd6bff6a74a422fc7d9592557d314.jpg",
+            "pic": "/testname/img/59cfd6bff6a74a422fc7d9592557d314.jpg",
             "answers": [
                 {
                     "answer": "Episch avontuur",
@@ -92,22 +92,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Geest",
-                    "aPic": "./testname/img/nl_img/sr_17663204846947e96400c9e.jpg",
+                    "aPic": "/testname/img/sr_17663204846947e96400c9e.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Pascal",
-                    "aPic": "./testname/img/nl_img/sr_17663212796947ec7f21caa.jpg",
+                    "aPic": "/testname/img/sr_17663212796947ec7f21caa.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "Mushu",
-                    "aPic": "./testname/img/nl_img/sr_17663212686947ec7410ec7.jpg",
+                    "aPic": "/testname/img/sr_17663212686947ec7410ec7.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "Botje",
-                    "aPic": "./testname/img/nl_img/sr_17663213686947ecd882250.jpg",
+                    "aPic": "/testname/img/sr_17663213686947ecd882250.jpg",
                     "aId": 4
                 }
             ]

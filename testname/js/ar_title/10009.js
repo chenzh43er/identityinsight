@@ -1,6 +1,6 @@
 let quizData = {
     "title": "اختبار التوتر | هل أنا متوتر أم مكتئب؟",
-    "mainPic": "./testname/img/ar_img/22d3620475e3a6524cabd6ce0ec3562c.gif",
+    "mainPic": "/testname/img/22d3620475e3a6524cabd6ce0ec3562c.gif",
     "thems": [
         "مضغوط",
         "مكتئب",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "كيف تشعر عندما تستيقظ في الصباح؟",
-            "pic": "./testname/img/ar_img/53c23602e2de0c195a5260eef30da147.jpg",
+            "pic": "/testname/img/53c23602e2de0c195a5260eef30da147.jpg",
             "answers": [
                 {
                     "answer": "مرهق",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "ما الذي يصف مزاجك في معظم الأوقات بشكل أفضل؟",
-            "pic": "./testname/img/ar_img/c6fd6702bbca202f1a08c9e7d9819898.jpg",
+            "pic": "/testname/img/c6fd6702bbca202f1a08c9e7d9819898.jpg",
             "answers": [
                 {
                     "answer": "يائس",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "كيف تتفاعل مع التفاعلات الاجتماعية؟",
-            "pic": "./testname/img/ar_img/a05cbe8771128f0ed23e51e4d9f11fc8.jpg",
+            "pic": "/testname/img/a05cbe8771128f0ed23e51e4d9f11fc8.jpg",
             "answers": [
                 {
                     "answer": "تجنبها",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "كيف تنام في الليل؟",
-            "pic": "./testname/img/ar_img/ad5981ce452b3f5ca16f70450f7facdc.jpg",
+            "pic": "/testname/img/ad5981ce452b3f5ca16f70450f7facdc.jpg",
             "answers": [
                 {
                     "answer": "لا أستطيع النوم إطلاقًا",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "كيف تتعامل مع التحديات اليومية؟",
-            "pic": "./testname/img/ar_img/695f0cc875f7a380bd1b179f6c58dbbe.jpg",
+            "pic": "/testname/img/695f0cc875f7a380bd1b179f6c58dbbe.jpg",
             "answers": [
                 {
                     "answer": "مغمر",

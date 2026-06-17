@@ -24,7 +24,7 @@ is timing —
 en weten
 wanneer je niets zegt.
     `,
-    "mainPic": "./testname/img/nl_img/33_a4e0c86235b9424ead89a03c8bb77372.jpeg"
+    "mainPic": "/testname/img/33_a4e0c86235b9424ead89a03c8bb77372.jpeg"
   },
   "2": {
     "title": "Verrader of Getrouwe: Wat zou jouw rol zijn in De Verraders?",
@@ -46,7 +46,7 @@ prik jij sneller
 door maskers heen
 dan de meeste anderen.
     `,
-    "mainPic": "./testname/img/nl_img/34_24094b8f4afd4903be8bd2a2fe40dd64.jpeg"
+    "mainPic": "/testname/img/34_24094b8f4afd4903be8bd2a2fe40dd64.jpeg"
   },
   "3": {
     "title": "Verrader of Getrouwe: Wat zou jouw rol zijn in De Verraders?",
@@ -68,7 +68,7 @@ iets wat in dit spel
 vaak net zo belangrijk is
 als strategie.
     `,
-    "mainPic": "./testname/img/nl_img/35_b33a1188ee7a4daeb65b5611d8cbee4d.jpeg"
+    "mainPic": "/testname/img/35_b33a1188ee7a4daeb65b5611d8cbee4d.jpeg"
   },
   "4": {
     "title": "Verrader of Getrouwe: Wat zou jouw rol zijn in De Verraders?",
@@ -91,6 +91,6 @@ luisteren mensen.
 Jouw kracht
 zit in subtiliteit.
     `,
-    "mainPic": "./testname/img/nl_img/36_f4b5cbc4d8d642a1a1cb368ec3cd1da9.webp"
+    "mainPic": "/testname/img/36_f4b5cbc4d8d642a1a1cb368ec3cd1da9.webp"
   }
 };

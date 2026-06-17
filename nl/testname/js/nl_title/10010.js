@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat is jouw vrouwelijke archetype? Laten we het uitvinden!",
-    "mainPic": "./testname/img/nl_img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
+    "mainPic": "/testname/img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
     "thems": [
         "Vrouw",
         "Archetype",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is jouw sterrenbeeld?",
-            "pic": "./testname/img/nl_img/8d22f350ce990e451fc4879c9e442e3a.png",
+            "pic": "/testname/img/8d22f350ce990e451fc4879c9e442e3a.png",
             "answers": [
                 {
                     "answer": "Lucht (Tweelingen, Weegschaal, Waterman)",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Wat is jouw geboortemaand?",
-            "pic": "./testname/img/nl_img/17c5d0ecd66b6ea9c03249591568a746.png",
+            "pic": "/testname/img/17c5d0ecd66b6ea9c03249591568a746.png",
             "answers": [
                 {
                     "answer": "Januari, Februari, Maart",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Welke bijvoeglijke naamwoorden beschrijven het beste jouw persoonlijkheid?",
-            "pic": "./testname/img/nl_img/44c3b65ed5cfcb4f6cca5fa3ad0e31ca.png",
+            "pic": "/testname/img/44c3b65ed5cfcb4f6cca5fa3ad0e31ca.png",
             "answers": [
                 {
                     "answer": "Trendy en jeugdig",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Wat is volgens jou het belangrijkste in het leven?",
-            "pic": "./testname/img/nl_img/868f6c5560122fb4e5106d7cafba60af.png",
+            "pic": "/testname/img/868f6c5560122fb4e5106d7cafba60af.png",
             "answers": [
                 {
                     "answer": "Intimiteit en liefde",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Welke activiteit vind je het leukst?",
-            "pic": "./testname/img/nl_img/f588a70c7a5e6bf16c854d622116ce80.png",
+            "pic": "/testname/img/f588a70c7a5e6bf16c854d622116ce80.png",
             "answers": [
                 {
                     "answer": "Kunst maken",

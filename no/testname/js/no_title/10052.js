@@ -1,11 +1,11 @@
 let quizData = {
     "title": "✨ Hvilken skjult side av magien din ville Galtvort avsløre?",
-    "mainPic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+    "mainPic": "/testname/img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-Quiz", "Galtvort", "Magi", "Film", "Harry-Potter-fans", "Magiske verden", "Potterheads"],
     "questions": [
         {
             "question": "Når du går inn på Galtvort, føler du...",
-            "pic": "./testname/img/fr_img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
+            "pic": "/testname/img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
             "answers": [
                 {
                     "answer": "Som hjemme",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hvilken kvalitet setter du mest pris på?",
-            "pic": "./testname/img/fr_img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
+            "pic": "/testname/img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
             "answers": [
                 {
                     "answer": "Mot",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hva ville vært ditt favorittsted på Galtvort?",
-            "pic": "./testname/img/fr_img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
+            "pic": "/testname/img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
             "answers": [
                   {
                         "answer": "Gryffindor-tårnet",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvordan reagerer du på en utfordring?",
-            "pic": "./testname/img/fr_img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
+            "pic": "/testname/img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
             "answers": [
                 {
                     "answer": "Jeg møter det uten å nøle",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hvilken magisk evne vil du mestre?",
-            "pic": "./testname/img/fr_img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
+            "pic": "/testname/img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
             "answers": [
                   {
                         "answer": "Disapparat",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hva driver deg til å bli sterkere?",
-            "pic": "./testname/img/fr_img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
+            "pic": "/testname/img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
             "answers": [
                 {
                     "answer": "Ønsket om å beskytte",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Hva ville være din største svakhet?",
-            "pic": "./testname/img/fr_img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
+            "pic": "/testname/img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
             "answers": [
                  {
     "answer": "Opptrer for impulsivt",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Når du tenker på din skjebne, ser du...",
-            "pic": "./testname/img/fr_img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
+            "pic": "/testname/img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
             "answers": [
                   {
                     "answer": "Lyset",

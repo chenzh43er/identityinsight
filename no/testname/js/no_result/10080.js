@@ -17,7 +17,7 @@ Ta en tur i gruvene,
 skaff deg bedre utstyr
 og prøv igjen!
     `,
-    "mainPic": "./testname/img/no_img/33_c224681bf79147669fd47f1aac8e64e7.jpeg"
+    "mainPic": "/testname/img/33_c224681bf79147669fd47f1aac8e64e7.jpeg"
   },
   "2": {
     "title": "Er du en ekte Minecraft-ekspert? Bare 5% klarer denne quizen!",
@@ -37,7 +37,7 @@ på de sjeldneste skattene.
 
 Solid innsats!
     `,
-    "mainPic": "./testname/img/no_img/34_0b84ce80f56043b5b45c2b13c4dc522b.jpeg"
+    "mainPic": "/testname/img/34_0b84ce80f56043b5b45c2b13c4dc522b.jpeg"
   },
   "3": {
     "title": "Er du en ekte Minecraft-ekspert? Bare 5% klarer denne quizen!",
@@ -59,7 +59,7 @@ når avanserte bygg
 eller maskiner
 skal på plass.
     `,
-    "mainPic": "./testname/img/no_img/35_966d5fc253f643d0874d251c57bf3fee.jpeg"
+    "mainPic": "/testname/img/35_966d5fc253f643d0874d251c57bf3fee.jpeg"
   },
   "4": {
     "title": "Er du en ekte Minecraft-ekspert? Bare 5% klarer denne quizen!",
@@ -81,6 +81,6 @@ som faktisk kan
 kalle seg
 en ekte ekspert.
     `,
-    "mainPic": "./testname/img/no_img/36_af497b42c497488a9119b7f2ef61e701.jpeg"
+    "mainPic": "/testname/img/36_af497b42c497488a9119b7f2ef61e701.jpeg"
   }
 };

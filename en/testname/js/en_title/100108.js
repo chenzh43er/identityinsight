@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What does your weekly horoscope say about your love life?",
-    "mainPic": "./testname/img/de_img/39b596f2c024869bb393afc04c18e57a.gif",
+    "mainPic": "/testname/img/39b596f2c024869bb393afc04c18e57a.gif",
     "thems": [
         "horoscope",
         "love life",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "What is your zodiac sign?",
-            "pic": "./testname/img/de_img/93efd214cf5e7e42a4d46fc2bff1699a.png",
+            "pic": "/testname/img/93efd214cf5e7e42a4d46fc2bff1699a.png",
             "answers": [
                 {
                     "answer": "♈ Aries / ♌ Leo / ♐ Sagittarius",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "How would you describe your way of loving?",
-            "pic": "./testname/img/de_img/143d9cab9cbf079ffc93096e50b994e3.png",
+            "pic": "/testname/img/143d9cab9cbf079ffc93096e50b994e3.png",
             "answers": [
                 {
                     "answer": "Romantic and thoughtful",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "If your love life had an emoji this week, what would it be?",
-            "pic": "./testname/img/de_img/0bfc257e9f9022380e922c30956150cf.jpeg",
+            "pic": "/testname/img/0bfc257e9f9022380e922c30956150cf.jpeg",
             "answers": [
                 {
                     "answer": "❤️",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "What would you do if you got a text from your crush this week?",
-            "pic": "./testname/img/de_img/b7c579a6271e99d53754b82415b3a6b3.jpg",
+            "pic": "/testname/img/b7c579a6271e99d53754b82415b3a6b3.jpg",
             "answers": [
                 {
                     "answer": "Reply immediately",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Which planet matches your energy this week?",
-            "pic": "./testname/img/de_img/4ad93aa4655e06748f658f788738d19d.jpg",
+            "pic": "/testname/img/4ad93aa4655e06748f658f788738d19d.jpg",
             "answers": [
                 {
                     "answer": "Venus",

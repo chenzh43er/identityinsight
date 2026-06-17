@@ -6,17 +6,17 @@ const utm_campaignData = {
     },
     "football": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10045",
-        "pic":"./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+        "pic":"/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
         "title":"¿Cuál es tu nivel de fútbol en VRFS?"
     },
     "roblox": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10046",
-        "pic":"./testname/img/es_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+        "pic":"/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
         "title":"¿Qué Avatar de Roblox Coincide con tu Vibe?"
     },
     "music": {
         "url":"https://identityinsight.org/es/test-page_es/?utm_content=10047",
-        "pic":"./testname/img/es_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+        "pic":"/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
         "title":"¿Qué Volúmenes De Música De Sprunki Incredibox Reflejan Tu Lado Interior?"
     }
 };

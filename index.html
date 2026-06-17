@@ -67,11 +67,11 @@
     <script src="./testname/js/google_adv.js"></script>
     <script src="./testname/js/googlePath.js"></script>
 
-    <link rel="icon" type="image/png" href="./testname/img/icon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./testname/img/icon/favicon.svg" />
-    <link rel="shortcut icon" href="./testname/img/icon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./testname/img/icon/apple-touch-icon.png" />
-    <link rel="manifest" href="./testname/img/icon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="/testname/img/icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/testname/img/icon/favicon.svg" />
+    <link rel="shortcut icon" href="/testname/img/icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/testname/img/icon/apple-touch-icon.png" />
+    <link rel="manifest" href="/testname/img/icon/site.webmanifest" />
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -105,7 +105,7 @@
                             <meta charset="UTF-8">
                             <title>Title</title>
                             <a href="" id="picForUrlJump">
-                                <img src="./testname//img/title.png">
+                                <img src="/testname/img/title.png">
                             </a>
 
                         </div>
@@ -307,9 +307,15 @@
 
 <script id="index_main_js">
     function getLangFromPath() {
-        const pathSegments = window.location.pathname.split('/');
-        return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    for (const segment of pathSegments) {
+        if (LANG_CODES.includes(segment)) {
+            return segment;
+        }
     }
+    return pathSegments[1] || pathSegments[0] || 'sv';
+}
 
     $(document).ready(function () {
         let utm_campaign =getQueryParam("utm_campaign") ;

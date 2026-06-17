@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hva er sjelens element? Oppdag det nå!",
-    "mainPic": "./testname/img/no_img/68ccf7ef8a5158b47ceaf5b512cb9989.gif",
+    "mainPic": "/testname/img/68ccf7ef8a5158b47ceaf5b512cb9989.gif",
     "thems": [
         "Sjelevenner",
         "MorsomQuiz",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva er din ideelle måte å tilbringe en helg på?",
-            "pic": "./testname/img/no_img/6731980171f591bdacb22133c756774f.jpg",
+            "pic": "/testname/img/6731980171f591bdacb22133c756774f.jpg",
             "answers": [
                 {
                     "answer": "Fotturer i naturen",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hvordan håndterer du vanligvis stress?",
-            "pic": "./testname/img/no_img/9209b63e6b05247002856fdb24b6158a.png",
+            "pic": "/testname/img/9209b63e6b05247002856fdb24b6158a.png",
             "answers": [
                 {
                     "answer": "Mediterer utendørs",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hvilke av disse egenskapene verdsetter du mest hos en partner?",
-            "pic": "./testname/img/no_img/fdab42e3386f8a26b382557ee2a63fa6.png",
+            "pic": "/testname/img/fdab42e3386f8a26b382557ee2a63fa6.png",
             "answers": [
                 {
                     "answer": "Lojalitet og stabilitet",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hvordan vil venner beskrive din personlighet?",
-            "pic": "./testname/img/no_img/3154e1520647c9e9229721f7bd1f7bce.jpg",
+            "pic": "/testname/img/3154e1520647c9e9229721f7bd1f7bce.jpg",
             "answers": [
                 {
                     "answer": "Pålitelig og jordnær",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Hva motiverer deg mest?",
-            "pic": "./testname/img/no_img/7d351adfb8553ee04af00bb407192804.jpg",
+            "pic": "/testname/img/7d351adfb8553ee04af00bb407192804.jpg",
             "answers": [
                 {
                     "answer": "Bygge noe varig",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hvis du kunne ha en superkraft, hva ville det vært?",
-            "pic": "./testname/img/no_img/1f9b961584362376bfc0f9853adbb269.jpg",
+            "pic": "/testname/img/1f9b961584362376bfc0f9853adbb269.jpg",
             "answers": [
                 {
                     "answer": "Telekinesis (flytte objekter)",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "Hvilken setting synes du er mest tiltalende?",
-            "pic": "./testname/img/no_img/8c86db7e67e7c2fa7f1ba9bd3832b118.png",
+            "pic": "/testname/img/8c86db7e67e7c2fa7f1ba9bd3832b118.png",
             "answers": [
                 {
                     "answer": "En rolig skog",
@@ -194,7 +194,7 @@ let quizData = {
         },
         {
             "question": "Hva er din favoritt komfortmat?",
-            "pic": "./testname/img/no_img/bbd5795530ad9fb90389d71e40e1d0f0.jpg",
+            "pic": "/testname/img/bbd5795530ad9fb90389d71e40e1d0f0.jpg",
             "answers": [
                 {
                     "answer": "Kraftig gryterett",

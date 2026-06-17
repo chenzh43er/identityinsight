@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel est votre Patronus? Découvrez-le maintenant!",
-    "mainPic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
+    "mainPic": "/testname/img/ace397c48efa2482f39e547105d095f1.jpeg",
     "thems": [
         "Patronus",
         "Harry Potter",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel environnement vous fait vous sentir le plus en paix?",
-            "pic": "./testname/img/fr_img/02b90827ff2fb5611798d21f6921199f.png",
+            "pic": "/testname/img/02b90827ff2fb5611798d21f6921199f.png",
             "answers": [
                 {
                     "answer": "Une forêt calme, entourée par la nature",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Comment gérez-vous les défis?",
-            "pic": "./testname/img/fr_img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
+            "pic": "/testname/img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
             "answers": [
                 {
                     "answer": "Rester calme et aborder avec patience",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Qu'est-ce que vos amis admirent le plus chez vous?",
-            "pic": "./testname/img/fr_img/06a300d161f778bf13a5930e8df4bf8a.png",
+            "pic": "/testname/img/06a300d161f778bf13a5930e8df4bf8a.png",
             "answers": [
                 {
                     "answer": "Votre loyauté et soutien",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Quel passe-temps vous attire le plus ?",
-            "pic": "./testname/img/fr_img/cee5af3bc3d7f41b1d09239eec6efad1.png",
+            "pic": "/testname/img/cee5af3bc3d7f41b1d09239eec6efad1.png",
             "answers": [
                 {
                     "answer": "Randonnée",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Comment réagissez-vous en groupe ?",
-            "pic": "./testname/img/fr_img/0d81cdc25e83a2de49bbddf69bcad834.png",
+            "pic": "/testname/img/0d81cdc25e83a2de49bbddf69bcad834.png",
             "answers": [
                 {
                     "answer": "Vous êtes la personne fiable",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Quel mot vous décrit le mieux ?",
-            "pic": "./testname/img/fr_img/0174342c1cb77af3af0fd1103526f278.png",
+            "pic": "/testname/img/0174342c1cb77af3af0fd1103526f278.png",
             "answers": [
                 {
                     "answer": "Attentionné",

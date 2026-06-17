@@ -1,6 +1,6 @@
 let quizData = {
     "title": "インサイド・ヘッド2でのあなたの感情は？",
-    "mainPic": "./testname/img/jp_img/907c279d8858b0d6053bfb83543570a1.jpeg",
+    "mainPic": "/testname/img/907c279d8858b0d6053bfb83543570a1.jpeg",
     "thems": [
         "インサイド・ヘッド2",
         "インサイド・ヘッド",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "課題に直面したとき、最初の反応は何ですか？",
-            "pic": "./testname/img/jp_img/29d3944712ed529f1cdd77022a97f096.png",
+            "pic": "/testname/img/29d3944712ed529f1cdd77022a97f096.png",
             "answers": [
                 {
                     "answer": "a) 真っ先に飛び込んで真っ向から取り組む。",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "どの活動が最も喜びをもたらしますか？",
-            "pic": "./testname/img/jp_img/0a2ba197e4c2fe9244a2bd97edc359c8.png",
+            "pic": "/testname/img/0a2ba197e4c2fe9244a2bd97edc359c8.png",
             "answers": [
                 {
                     "answer": "a) 友達と遊んで楽しむこと！",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "友人との対立をどう処理しますか？",
-            "pic": "./testname/img/jp_img/0f366bf4b55f3a1edd5c933622f3c7dc.png",
+            "pic": "/testname/img/0f366bf4b55f3a1edd5c933622f3c7dc.png",
             "answers": [
                 {
                     "answer": "a) 直接問題に立ち向かい、解決しようとする。",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "あなたの好きな季節は：",
-            "pic": "./testname/img/jp_img/9a1b9a22835888c73569eb8ce913cfbf.png",
+            "pic": "/testname/img/9a1b9a22835888c73569eb8ce913cfbf.png",
             "answers": [
                 {
                     "answer": "a) 夏 - 太陽と冒険を楽しもう！",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "ストレスにどう対処しますか？",
-            "pic": "./testname/img/jp_img/1705e7e7ddfd5fe3af541e31e51e12b2.png",
+            "pic": "/testname/img/1705e7e7ddfd5fe3af541e31e51e12b2.png",
             "answers": [
                 {
                     "answer": "a) ストレスの原因を克服するために一生懸命働き、前進し続ける。",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "あなたの理想の休暇先は：",
-            "pic": "./testname/img/jp_img/eb5889e3fff51ff48673df4fe6ea9721.png",
+            "pic": "/testname/img/eb5889e3fff51ff48673df4fe6ea9721.png",
             "answers": [
                 {
                     "answer": "a) 活気に満ちたエキサイティングな都市。",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "あなたはどのようにして創造的に自己表現をしますか？",
-            "pic": "./testname/img/jp_img/134f3e01f53d11168858637d31915d1e.png",
+            "pic": "/testname/img/134f3e01f53d11168858637d31915d1e.png",
             "answers": [
                 {
                     "answer": "a) パフォーマンスを通じて - 歌う、演技する、または踊る。",

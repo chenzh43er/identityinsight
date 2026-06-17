@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vad avslöjar dina ögon om ditt tidigare liv?",
-    "mainPic": "./testname/img/sv_img/93f935ad434696438bcf8f31987b9c6b.gif",
+    "mainPic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
     "thems": [
         "Ögon",
         "Tidigare liv",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vilken färg beskriver bäst ditt inre öga?",
-            "pic": "./testname/img/sv_img/38a6d30ec16dbe2971d59f9b4f514dca.png",
+            "pic": "/testname/img/38a6d30ec16dbe2971d59f9b4f514dca.png",
             "answers": [
                 {
                     "answer": "Smaragdgrön",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Var känner du ofta en mystisk dragning?",
-            "pic": "./testname/img/sv_img/96a19b4012600147e51275e57d74bd44.png",
+            "pic": "/testname/img/96a19b4012600147e51275e57d74bd44.png",
             "answers": [
                 {
                     "answer": "Mysterisk skog",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "En främling tittar in i dina ögon och börjar plötsligt gråta. Varför?",
-            "pic": "./testname/img/sv_img/ed382eff77e42b971a769276b05d6420.png",
+            "pic": "/testname/img/ed382eff77e42b971a769276b05d6420.png",
             "answers": [
                 {
                     "answer": "De minns något de trodde var förlorat",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "I din djupaste fantasi, var bor du?",
-            "pic": "./testname/img/sv_img/63014b84f9fcc69413d1be46712cef1f.png",
+            "pic": "/testname/img/63014b84f9fcc69413d1be46712cef1f.png",
             "answers": [
                 {
                     "answer": "En karavan av färger",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Välj ett föremål från ditt föreställda tidigare liv att ha med dig nu",
-            "pic": "./testname/img/sv_img/f17aea0287e3495fb80efe51d31404bf.png",
+            "pic": "/testname/img/f17aea0287e3495fb80efe51d31404bf.png",
             "answers": [
                 {
                     "answer": "Ett silvermynt",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Vilket djurs ögon är mest attraktiva för dig?",
-            "pic": "./testname/img/sv_img/65dbfd65506bbd2442b49ff76b63fc34.png",
+            "pic": "/testname/img/65dbfd65506bbd2442b49ff76b63fc34.png",
             "answers": [
                 {
                     "answer": "Uggla",

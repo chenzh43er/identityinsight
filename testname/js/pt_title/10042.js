@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual Deus Mítico Te Abençoou?",
-    "mainPic": "./testname/img/pt_img/2ae7524f7b028c8635a4f71decffc8cd.gif",
+    "mainPic": "/testname/img/2ae7524f7b028c8635a4f71decffc8cd.gif",
     "thems": [
         "Horóscopo",
         "Árabe",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Qual característica te define mais?",
-            "pic": "./testname/img/pt_img/54c5256261359408f1d83f7ba2f2e37b.jpg",
+            "pic": "/testname/img/54c5256261359408f1d83f7ba2f2e37b.jpg",
             "answers": [
                 {
                     "answer": "Sabedoria",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Qual civilização antiga mais te fascina?",
-            "pic": "./testname/img/pt_img/20d223300b3500df20f85a7ee4152b63.jpg",
+            "pic": "/testname/img/20d223300b3500df20f85a7ee4152b63.jpg",
             "answers": [
                 {
                     "answer": "Mesopotâmica",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Se você pudesse possuir um poder divino, qual seria?",
-            "pic": "./testname/img/pt_img/e3b68c532993f27ff22db1d88f88c65b.jpg",
+            "pic": "/testname/img/e3b68c532993f27ff22db1d88f88c65b.jpg",
             "answers": [
                 {
                     "answer": "Controle sobre o destino",
@@ -94,22 +94,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Templo de Baalbek",
-                    "aPic": "./testname/img/pt_img/82f2aca56d609d2755fe011ecf5838df.jpeg",
+                    "aPic": "/testname/img/82f2aca56d609d2755fe011ecf5838df.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "Pirâmides de Gizé",
-                    "aPic": "./testname/img/pt_img/f0cc0a225cbc84257ad6bff75ac58926.jpeg",
+                    "aPic": "/testname/img/f0cc0a225cbc84257ad6bff75ac58926.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "Ruínas de Petra",
-                    "aPic": "./testname/img/pt_img/7e51dea8de9276c4d5a1d9e1600650bf.jpeg",
+                    "aPic": "/testname/img/7e51dea8de9276c4d5a1d9e1600650bf.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "Caaba (era pré-islâmica)",
-                    "aPic": "./testname/img/pt_img/sr_174337038667e9b89290ccc.jpg",
+                    "aPic": "/testname/img/sr_174337038667e9b89290ccc.jpg",
                     "aId": 4
                 }
             ]

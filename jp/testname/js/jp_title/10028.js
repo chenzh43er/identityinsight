@@ -1,6 +1,6 @@
 let quizData = {
     "title": "フォートナイトでどのイカゲームのスキンですか？",
-    "mainPic": "./testname/img/jp_img/a246afc0181b8e909eab5b53771ebcbf.gif",
+    "mainPic": "/testname/img/a246afc0181b8e909eab5b53771ebcbf.gif",
     "thems": [
         "ゲーム",
         "イカゲーム",
@@ -15,29 +15,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "ビー玉",
-                    "aPic": "./testname/img/jp_img/207fbe285d92bb594d6da9632e92f4c1.jpeg",
+                    "aPic": "/testname/img/207fbe285d92bb594d6da9632e92f4c1.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "綱引き",
-                    "aPic": "./testname/img/jp_img/9ff81431e8fdc1a4b76166f42e1730c5.jpeg",
+                    "aPic": "/testname/img/9ff81431e8fdc1a4b76166f42e1730c5.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "ハニカム",
-                    "aPic": "./testname/img/jp_img/694af52fcfd71502024797013e450b0b.jpeg",
+                    "aPic": "/testname/img/694af52fcfd71502024797013e450b0b.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "赤信号",
-                    "aPic": "./testname/img/jp_img/08f588fa11b303fb03a1af6d542e1008.jpeg",
+                    "aPic": "/testname/img/08f588fa11b303fb03a1af6d542e1008.jpeg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "イカゲームでのあなたの戦略は？",
-            "pic": "./testname/img/jp_img/c46dd7747fa4ab142a438c09ff69bca0.jpg",
+            "pic": "/testname/img/c46dd7747fa4ab142a438c09ff69bca0.jpg",
             "answers": [
                 {
                     "answer": "信頼",
@@ -67,29 +67,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "円",
-                    "aPic": "./testname/img/jp_img/2050a1865b207cf20fd1e44be6e44ec2.jpeg",
+                    "aPic": "/testname/img/2050a1865b207cf20fd1e44be6e44ec2.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "四角",
-                    "aPic": "./testname/img/jp_img/5708507e0b9576d62d303e4dd83d7341.jpeg",
+                    "aPic": "/testname/img/5708507e0b9576d62d303e4dd83d7341.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "三角",
-                    "aPic": "./testname/img/jp_img/02320700caac83ed92ab6c6d11351096.jpeg",
+                    "aPic": "/testname/img/02320700caac83ed92ab6c6d11351096.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "管理者のマスク",
-                    "aPic": "./testname/img/jp_img/fcc5f4ef7d1514588049c84fc60fa101.jpeg",
+                    "aPic": "/testname/img/fcc5f4ef7d1514588049c84fc60fa101.jpeg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "あなたのフォートナイトの雰囲気を選んでください。",
-            "pic": "./testname/img/jp_img/b23fa31feb45d04c1aba881328688c6f.jpg",
+            "pic": "/testname/img/b23fa31feb45d04c1aba881328688c6f.jpg",
             "answers": [
                 {
                     "answer": "ステルス",

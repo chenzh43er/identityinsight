@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Robloxでどんな庭を作りますか？",
-    "mainPic": "./testname/img/jp_img/6a03fa96e13b79bd2663905ea35412cd.gif",
+    "mainPic": "/testname/img/6a03fa96e13b79bd2663905ea35412cd.gif",
     "thems": [
         "Roblox",
         "ゲーム",

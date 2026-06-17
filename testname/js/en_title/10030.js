@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Decrypt Your Fingerprint And Find The Destined Person!",
-    "mainPic": "./testname/img/en_img/426cab652f6676da60366c298d9041c9.gif",
+    "mainPic": "/testname/img/426cab652f6676da60366c298d9041c9.gif",
     "thems": [
         "Fingerprints",
         "Destiny",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "What type of lines predominates in your fingerprint?",
-            "pic": "./testname/img/en_img/737aeaa98720579aa5dd59fce60f165a.png",
+            "pic": "/testname/img/737aeaa98720579aa5dd59fce60f165a.png",
             "answers": [
                 {
                     "answer": "Lines",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Which of these fingerprints patterns matches with yours?",
-            "pic": "./testname/img/en_img/208e5a9126d4e6898baf96305bceeb74.png",
+            "pic": "/testname/img/208e5a9126d4e6898baf96305bceeb74.png",
             "answers": [
                 {
                     "answer": "1",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Does your fingerprint have any minutiae, like dots, bifurcation, ridge ending, etc.?",
-            "pic": "./testname/img/en_img/ce04a2e80211c080bf41c17f6479792c.png",
+            "pic": "/testname/img/ce04a2e80211c080bf41c17f6479792c.png",
             "answers": [
                 {
                     "answer": "Yes, a lot of them",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Look at your fingerprint, how would you generally describe it?",
-            "pic": "./testname/img/en_img/7948b002fbceae0624142f5e6810232f.png",
+            "pic": "/testname/img/7948b002fbceae0624142f5e6810232f.png",
             "answers": [
                 {
                     "answer": "Mostly run parallel and gently curve",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "How rare do you think your fingerprints are?",
-            "pic": "./testname/img/en_img/35b6a3687cf8c84a5cbb12b3623b8129.png",
+            "pic": "/testname/img/35b6a3687cf8c84a5cbb12b3623b8129.png",
             "answers": [
                 {
                     "answer": "Pretty common",

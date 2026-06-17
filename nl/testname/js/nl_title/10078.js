@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat voor soort hoofdpijn ervaart u?",
-    "mainPic": "./testname/img/nl_img/f604bd6ba834e47d78de61ee15210922.gif",
+    "mainPic": "/testname/img/f604bd6ba834e47d78de61ee15210922.gif",
     "thems": [
         "Gezond",
         "Hoofdpijn",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Waar zit uw pijn?",
-            "pic": "./testname/img/nl_img/9a40997b9f9efcb490c08365245a9c63.png",
+            "pic": "/testname/img/9a40997b9f9efcb490c08365245a9c63.png",
             "answers": [
                 {
                     "answer": "Aan één kant van mijn hoofd",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Hoe zou u de pijn omschrijven?",
-            "pic": "./testname/img/nl_img/eecd98636782850477d70a2832e7a41a.png",
+            "pic": "/testname/img/eecd98636782850477d70a2832e7a41a.png",
             "answers": [
                 {
                     "answer": "Pulserende, bonzende pijn",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Hoelang duurt uw hoofdpijn?",
-            "pic": "./testname/img/nl_img/6c01be42159794bd93bcb97bbfce1844.png",
+            "pic": "/testname/img/6c01be42159794bd93bcb97bbfce1844.png",
             "answers": [
                 {
                     "answer": "15 tot 30 minuten",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hoe intens zou u uw hoofdpijn beschrijven?",
-            "pic": "./testname/img/nl_img/b7f6fe856e1f5a37deadac81467b903b.png",
+            "pic": "/testname/img/b7f6fe856e1f5a37deadac81467b903b.png",
             "answers": [
                 {
                     "answer": "Mild",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Hoe vaak heeft u hoofdpijn?",
-            "pic": "./testname/img/nl_img/3315de7c3c1dce0c94a29a3fed59cb99.png",
+            "pic": "/testname/img/3315de7c3c1dce0c94a29a3fed59cb99.png",
             "answers": [
                 {
                     "answer": "Zelden",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Obtén la causa de muerte en tu vida anterior a través de las huellas digitales",
-    "mainPic": "./testname/img/es_img/dd1da2d2e2fa64494019288642c7d472.gif",
+    "mainPic": "/testname/img/dd1da2d2e2fa64494019288642c7d472.gif",
     "thems": [
         "Huellas dactilares",
         "Vida Pasada",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Elige el patrón de huella digital más común en tus manos:",
-            "pic": "./testname/img/es_img/fea2485186ab2872a2452abc1867c214.png",
+            "pic": "/testname/img/fea2485186ab2872a2452abc1867c214.png",
             "answers": [
                 {
                     "answer": "Espiral",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Describe la forma general o el flujo de las líneas en uno de tus dedos",
-            "pic": "./testname/img/es_img/0f2677f1b689d508bb89a532698f656a.png",
+            "pic": "/testname/img/0f2677f1b689d508bb89a532698f656a.png",
             "answers": [
                 {
                     "answer": "Arremolinado",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "¿Las huellas dactilares de tu mano izquierda se ven exactamente iguales a las de tu mano derecha?",
-            "pic": "./testname/img/es_img/abad14c3a84e83f9f578122170e952b8.png",
+            "pic": "/testname/img/abad14c3a84e83f9f578122170e952b8.png",
             "answers": [
                 {
                     "answer": "No, no exactamente",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "¿Crees que tus huellas dactilares son muy claras y definidas, o más sutiles?",
-            "pic": "./testname/img/es_img/2d2b94a8afccdf71de669899230cc7ed.png",
+            "pic": "/testname/img/2d2b94a8afccdf71de669899230cc7ed.png",
             "answers": [
                 {
                     "answer": "Bastante claras",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "¿Tu huella digital tiene alguno de estos detalles especiales?",
-            "pic": "./testname/img/es_img/38a7546743ee2e8c4afcef0a101d2423.png",
+            "pic": "/testname/img/38a7546743ee2e8c4afcef0a101d2423.png",
             "answers": [
                 {
                     "answer": "Cruzamiento o núcleo",

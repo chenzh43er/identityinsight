@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilket Saja Boys-medlem er din ideelle match?",
-    "mainPic": "./testname/img/no_img/f8bffc8bddd8f58e246eafa5126387ca.gif",
+    "mainPic": "/testname/img/f8bffc8bddd8f58e246eafa5126387ca.gif",
     "thems": [
         "Kpop",
         "KpopDemonHunter",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva er din drømme datekveld?",
-            "pic": "./testname/img/no_img/6ea54d2dd7da965d6ccd1e56c4cdcc7e.png",
+            "pic": "/testname/img/6ea54d2dd7da965d6ccd1e56c4cdcc7e.png",
             "answers": [
                 {
                     "answer": "En koselig kaffebar, prate i flere timer",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hvilken type meldingsstil liker du?",
-            "pic": "./testname/img/no_img/1bf293981a3fe37eee4ec8bfc524ea6a.png",
+            "pic": "/testname/img/1bf293981a3fe37eee4ec8bfc524ea6a.png",
             "answers": [
                 {
                     "answer": "Ettertenksom og poetisk",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Velg en vibe for din fremtidige kjæreste",
-            "pic": "./testname/img/no_img/ca80c8d5cc9f737270f10f2b6f141204.png",
+            "pic": "/testname/img/ca80c8d5cc9f737270f10f2b6f141204.png",
             "answers": [
                 {
                     "answer": "Myk stemme",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hva er kjærlighetsspråket ditt?",
-            "pic": "./testname/img/no_img/503aa10a6521bcdf67b358cc6b67f89a.png",
+            "pic": "/testname/img/503aa10a6521bcdf67b358cc6b67f89a.png",
             "answers": [
                 {
                     "answer": "Bekreftende ord",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Hva får hjertet ditt til å slå raskere?",
-            "pic": "./testname/img/no_img/48f504e0ccc3483c7faf8c9807effcb2.png",
+            "pic": "/testname/img/48f504e0ccc3483c7faf8c9807effcb2.png",
             "answers": [
                 {
                     "answer": "Et mykt blikk som drøyer for lenge",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hvilken Kpop-idol er din ultimate favoritt?",
-            "pic": "./testname/img/no_img/a02dc0ee4473c865aea163f03528ad43.png",
+            "pic": "/testname/img/a02dc0ee4473c865aea163f03528ad43.png",
             "answers": [
                 {
                     "answer": "Jimin",

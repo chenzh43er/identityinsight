@@ -1,6 +1,6 @@
 let quizData = {
     "title": "私たちは「My Hero Academia S7」のあなたの双子を見つけました！ 誰であるかを見る準備はできていますか？",
-    "mainPic": "./testname/img/jp_img/7245e30d6476788d05fa94fbf7e0b7ab.gif",
+    "mainPic": "/testname/img/7245e30d6476788d05fa94fbf7e0b7ab.gif",
     "thems": [
         "マイヒーローアカデミア",
         "マイヒーローアカデミアS7",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "どの超能力を持つことが好ましいですか？",
-            "pic": "./testname/img/jp_img/63cb429d821d338904389e58b1b04d70.png",
+            "pic": "/testname/img/63cb429d821d338904389e58b1b04d70.png",
             "answers": [
                 {
                     "answer": "超人的な力",
@@ -40,29 +40,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "ステイン",
-                    "aPic": "./testname/img/jp_img/sr_171027215065f0ae96c1bce.jpg",
+                    "aPic": "/testname/img/sr_171027215065f0ae96c1bce.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "オールマイト",
-                    "aPic": "./testname/img/jp_img/sr_171027220465f0aecc36c69.jpg",
+                    "aPic": "/testname/img/sr_171027220465f0aecc36c69.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "オーバーホール",
-                    "aPic": "./testname/img/jp_img/c2b743eceb81c1d7e063633b4f5a70a2.png",
+                    "aPic": "/testname/img/c2b743eceb81c1d7e063633b4f5a70a2.png",
                     "aId": 3
                 },
                 {
                     "answer": "ジェントル・クリミナル",
-                    "aPic": "./testname/img/jp_img/6110e49007285b532f5504ced1012d9d.png",
+                    "aPic": "/testname/img/6110e49007285b532f5504ced1012d9d.png",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "どの単語があなたの強みをよりよく表していますか？",
-            "pic": "./testname/img/jp_img/b8ce071b5253f1a3e5004e959aaec525.jpeg",
+            "pic": "/testname/img/b8ce071b5253f1a3e5004e959aaec525.jpeg",
             "answers": [
                 {
                     "answer": "決定的な",
@@ -92,29 +92,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "U.A. 高校",
-                    "aPic": "./testname/img/jp_img/2120b14fe29e7e3703ec963a507287c2.png",
+                    "aPic": "/testname/img/2120b14fe29e7e3703ec963a507287c2.png",
                     "aId": 1
                 },
                 {
                     "answer": "Shiketsu 高校",
-                    "aPic": "./testname/img/jp_img/sr_171027264065f0b0808e896.jpg",
+                    "aPic": "/testname/img/sr_171027264065f0b0808e896.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "Ketsubutsu 学院",
-                    "aPic": "./testname/img/jp_img/7622e35ade0b4c1adb578e4f59d4ed0a.png",
+                    "aPic": "/testname/img/7622e35ade0b4c1adb578e4f59d4ed0a.png",
                     "aId": 3
                 },
                 {
                     "answer": "Seiai 学院",
-                    "aPic": "./testname/img/jp_img/sr_171027266465f0b098059dc.jpg",
+                    "aPic": "/testname/img/sr_171027266465f0b098059dc.jpg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "なぜあなたはヒーローになるのですか？",
-            "pic": "./testname/img/jp_img/e141cf538dbd071c744506acd0618e43.png",
+            "pic": "/testname/img/e141cf538dbd071c744506acd0618e43.png",
             "answers": [
                 {
                     "answer": "命を救うため",

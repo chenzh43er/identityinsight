@@ -1,19 +1,19 @@
 const dataR = {
     "recommend":[{
         "url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10004",
-        "pic":"./testname/img/pt_img/904b585caba8ef47d1ea92b039bb8575.gif",
+        "pic":"/testname/img/904b585caba8ef47d1ea92b039bb8575.gif",
         "title":"Quantas pessoas estão apaixonadas por você na escola?"
     },{
         "url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10005",
-        "pic":"./testname/img/pt_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
+        "pic":"/testname/img/7493626ca93012f6fbf2a3e2e94b9167.gif",
         "title":"O Que a Sua Posição de Dormir Revela Sobre a Sua Vida Amorosa? 💞🌙 "
     },{
         "url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10006",
-        "pic":"./testname/img/pt_img/735a575acde713df117f43d8defde53b.gif",
+        "pic":"/testname/img/735a575acde713df117f43d8defde53b.gif",
         "title":"Qual princesa da Disney é você? "
     },{
         "url":"https://identityinsight.org/pt/test-page_pt/?utm_content=10007",
-        "pic":"./testname/img/pt_img/594af3246ee1a672d5973d3744b6af0f.gif",
+        "pic":"/testname/img/594af3246ee1a672d5973d3744b6af0f.gif",
         "title":"Qual Herói Combina com Suas Habilidades em Marvel Rivals? "
     },{
         "url": "https://identityinsight.org/pt/test-page_pt/?utm_content=10023",

@@ -13,7 +13,7 @@ empathy, and resilience.
 Challenges strengthen you,
 and you inspire others through action.
     `,
-    "mainPic": "./testname/img/en_img/74_8533f5a7a7884fb296e0f617d9aee467.jpeg"
+    "mainPic": "/testname/img/74_8533f5a7a7884fb296e0f617d9aee467.jpeg"
   },
   "2": {
     "title": "Which Grey’s Anatomy Doctor Are You?",
@@ -27,7 +27,7 @@ your drive pushes boundaries.
 You’re not afraid to compete
 and always aim for excellence.
     `,
-    "mainPic": "./testname/img/en_img/75_f0454ffa74d24d5594156b99c119e992.jpeg"
+    "mainPic": "/testname/img/75_f0454ffa74d24d5594156b99c119e992.jpeg"
   },
   "3": {
     "title": "Which Grey’s Anatomy Doctor Are You?",
@@ -43,7 +43,7 @@ a deeply loyal heart.
 You stand by loved ones
 and act when it matters most.
     `,
-    "mainPic": "./testname/img/en_img/76_faa4b72ea4b845c399c632eb6a9ea877.jpeg"
+    "mainPic": "/testname/img/76_faa4b72ea4b845c399c632eb6a9ea877.jpeg"
   },
   "4": {
     "title": "Which Grey’s Anatomy Doctor Are You?",
@@ -58,6 +58,6 @@ you combine strictness with care.
 You push people to be their best
 while maintaining high standards.
     `,
-    "mainPic": "./testname/img/en_img/77_abff93b65551408bbd6f2e1f3f52c7b6.webp"
+    "mainPic": "/testname/img/77_abff93b65551408bbd6f2e1f3f52c7b6.webp"
   }
 };

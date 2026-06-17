@@ -1,6 +1,6 @@
 let quizData = {
     "title": "عاشق أم محارب؟ اكتشف ذاتك الحقيقية في الحب ❤️⚔️",
-    "mainPic": "./testname/img/ar_img/07fc6eb956681ea75f76aae2205cf14f.gif",
+    "mainPic": "/testname/img/07fc6eb956681ea75f76aae2205cf14f.gif",
     "thems": [
         "علاقات",
         "حب",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "كيف تُظهر حبك؟",
-            "pic": "./testname/img/ar_img/a35ebb8b9af68a70210daf92c0eea4aa.jpg",
+            "pic": "/testname/img/a35ebb8b9af68a70210daf92c0eea4aa.jpg",
             "answers": [
                 {
                     "answer": "بالعناق والكلمات الطيبة",
@@ -32,7 +32,7 @@ let quizData = {
         },
         {
             "question": "ما الذي يجذبك أكثر في الشخص؟",
-            "pic": "./testname/img/ar_img/2c03b36dd77f9bc1aad5d4574ed63638.jpg",
+            "pic": "/testname/img/2c03b36dd77f9bc1aad5d4574ed63638.jpg",
             "answers": [
                 {
                     "answer": "لطفهم وحنانهم",
@@ -48,7 +48,7 @@ let quizData = {
         },
         {
             "question": "كيف تتعامل مع الخلاف؟",
-            "pic": "./testname/img/ar_img/9272320405a34a921f12d7a811e6f3e0.jpg",
+            "pic": "/testname/img/9272320405a34a921f12d7a811e6f3e0.jpg",
             "answers": [
                 {
                     "answer": "أحاول حله بشكل سلمي",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "كيف تشعر حيال المفاجآت الرومانسية؟",
-            "pic": "./testname/img/ar_img/a3f59c5ccc00be9d400589120f7bb7ed.jpg",
+            "pic": "/testname/img/a3f59c5ccc00be9d400589120f7bb7ed.jpg",
             "answers": [
                 {
                     "answer": "أحبها وأحاول دائمًا تنظيم بعضها",
@@ -80,7 +80,7 @@ let quizData = {
         },
         {
             "question": "ماذا تفعل أولاً بعد شجار مع شريكك؟",
-            "pic": "./testname/img/ar_img/64482cd8324ae7e294701899074cac83.jpg",
+            "pic": "/testname/img/64482cd8324ae7e294701899074cac83.jpg",
             "answers": [
                 {
                     "answer": "أعتذر وأحاول صنع السلام",
@@ -96,7 +96,7 @@ let quizData = {
         },
         {
             "question": "ما رأيك في الهدايا؟",
-            "pic": "./testname/img/ar_img/2a7d4a949d567ea9be07b59d6f5c9dd5.jpg",
+            "pic": "/testname/img/2a7d4a949d567ea9be07b59d6f5c9dd5.jpg",
             "answers": [
                 {
                     "answer": "أفضل الهدايا هي التي تأتي من القلب",
@@ -112,7 +112,7 @@ let quizData = {
         },
         {
             "question": "ماذا تفضل في موعد؟",
-            "pic": "./testname/img/ar_img/203edf0e31eb8b50de07da165d0ca9e7.jpg",
+            "pic": "/testname/img/203edf0e31eb8b50de07da165d0ca9e7.jpg",
             "answers": [
                 {
                     "answer": "عشاء رومانسي تحت النجوم",
@@ -128,7 +128,7 @@ let quizData = {
         },
         {
             "question": "كيف يصفك أصدقاؤك؟",
-            "pic": "./testname/img/ar_img/a21763e19db07c8a49c3b8d59dd0329d.jpg",
+            "pic": "/testname/img/a21763e19db07c8a49c3b8d59dd0329d.jpg",
             "answers": [
                 {
                     "answer": "كشخص محب ومتفاهم للغاية",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual Animal Reflete a Personalidade da Sua Impressão Digital?",
-    "mainPic": "./testname/img/pt_img/f3265065e4560dbb589996c7b249f3d9.gif",
+    "mainPic": "/testname/img/f3265065e4560dbb589996c7b249f3d9.gif",
     "thems": [
         "Animais",
         "Tendências",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Como você lida com desafios?",
-            "pic": "./testname/img/pt_img/608e9bc07a61ad83cdbff3770a57e45a.png",
+            "pic": "/testname/img/608e9bc07a61ad83cdbff3770a57e45a.png",
             "answers": [
                 {
                     "answer": "Enfrente-os de frente",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Qual é o seu estilo social?",
-            "pic": "./testname/img/pt_img/3a3e86d6943e1932ef047094a2a6d2ae.png",
+            "pic": "/testname/img/3a3e86d6943e1932ef047094a2a6d2ae.png",
             "answers": [
                 {
                     "answer": "Líder",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "O que você acha que suas impressões digitais dizem sobre sua personalidade?",
-            "pic": "./testname/img/pt_img/b32897a5d5a45fc52f2b1a43a5bfa5e3.png",
+            "pic": "/testname/img/b32897a5d5a45fc52f2b1a43a5bfa5e3.png",
             "answers": [
                 {
                     "answer": "Determinado",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Se você pudesse escolher um padrão de impressão digital diferente, qual escolheria?",
-            "pic": "./testname/img/pt_img/76b4933f881e81f6aa315c4af325c60a.png",
+            "pic": "/testname/img/76b4933f881e81f6aa315c4af325c60a.png",
             "answers": [
                 {
                     "answer": "Um padrão de espiral",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Qual é o seu ambiente ideal?",
-            "pic": "./testname/img/pt_img/c238ad4304ea16aa057a492f7d89f4d0.png",
+            "pic": "/testname/img/c238ad4304ea16aa057a492f7d89f4d0.png",
             "answers": [
                 {
                     "answer": "Uma floresta",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Você acha que sua impressão digital corresponde ao seu caráter interior?",
-            "pic": "./testname/img/pt_img/4a1f491bfaadfad7618ccd7b61dc063e.png",
+            "pic": "/testname/img/4a1f491bfaadfad7618ccd7b61dc063e.png",
             "answers": [
                 {
                     "answer": "Sim",

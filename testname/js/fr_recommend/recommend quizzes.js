@@ -17,23 +17,23 @@ const dataR = {
 		"title":"Quel personnage de Nezha 2 êtes-vous ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
-		"pic":"./testname/img/fr_img/590b599488fbd216084fed55fd4a66f3.gif",
+		"pic":"/testname/img/590b599488fbd216084fed55fd4a66f3.gif",
 		"title":"Quelle est l'initiale du nom de votre coup de cœur ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-		"pic":"./testname/img/fr_img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
+		"pic":"/testname/img/951b17d04b8d781a2c33eb9f6d3f3c30.gif",
 		"title":"Quel héros Marvel reflète vos bons et mauvais traits de caractère ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
-		"pic":"./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
+		"pic":"/testname/img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
 		"title":"Quel est votre coup de cœur masculin de Marvel ? "
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10007",
-		"pic":"./testname/img/fr_img/23c5ae8244c5f838ac6df53605f25c35.gif",
+		"pic":"/testname/img/23c5ae8244c5f838ac6df53605f25c35.gif",
 		"title":"Quel animatronique de Five Nights At Freddy's seriez-vous dans Toca Life?"
 	},{
 		"url":"https://identityinsight.org/fr/test-page_fr/?utm_content=10009",
-		"pic":"./testname/img/fr_img/6af843c64931a033ad3bde07e8be0e58.gif",
+		"pic":"/testname/img/6af843c64931a033ad3bde07e8be0e58.gif",
 		"title":"Qui aura une relation secrète avec vous?"
 	}]
 }

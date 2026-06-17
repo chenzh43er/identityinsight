@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Zauberspruch öffnet dein Jahr 2026 in Hogwarts?",
-    "mainPic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
+    "mainPic": "/testname/img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Wenn du das neue Jahr mit einem Zauberspruch starten könntest, wäre es …",
-    "pic": "./testname/img/de_img/41_8076de088d7348f09c619d0f63aebef1.jpeg",
+    "pic": "/testname/img/41_8076de088d7348f09c619d0f63aebef1.jpeg",
     "answers": [
       { "answer": "Lumos – Ich will Licht und Klarheit.", "aPic": "", "aId": 1 },
       { "answer": "Reparo – Ich will heilen, was zerbrochen ist.", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Was willst du 2026 unbedingt hinter dir lassen?",
-    "pic": "./testname/img/de_img/42_c5ffcc32a6c24037a87082438c983224.jpeg",
+    "pic": "/testname/img/42_c5ffcc32a6c24037a87082438c983224.jpeg",
     "answers": [
       { "answer": "Zweifel.", "aPic": "", "aId": 1 },
       { "answer": "Traurige Erinnerungen.", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Wo würdest du den ersten Tag des Jahres verbringen?",
-    "pic": "./testname/img/de_img/43_612ca47b54044939ba03f5d9e9727dad.jpeg",
+    "pic": "/testname/img/43_612ca47b54044939ba03f5d9e9727dad.jpeg",
     "answers": [
       { "answer": "In der Großen Halle bei Butterbier und Kerzenlicht.", "aPic": "", "aId": 1 },
       { "answer": "Auf dem Astronomieturm mit Blick auf die Sterne.", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Was motiviert dich im neuen Jahr?",
-    "pic": "./testname/img/de_img/44_abe126316b33470bb068b03ba3b5f1c3.jpeg",
+    "pic": "/testname/img/44_abe126316b33470bb068b03ba3b5f1c3.jpeg",
     "answers": [
       { "answer": "Mut.", "aPic": "", "aId": 1 },
       { "answer": "Hoffnung.", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Dein größter Wunsch für 2026?",
-    "pic": "./testname/img/de_img/45_8f9fdfdb2b3d4157904be5ffe0b65fe5.jpeg",
+    "pic": "/testname/img/45_8f9fdfdb2b3d4157904be5ffe0b65fe5.jpeg",
     "answers": [
       { "answer": "Etwas Neues wagen.", "aPic": "", "aId": 1 },
       { "answer": "Jemanden finden, der mich versteht.", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Dein Patronus wäre dieses Jahr …",
-    "pic": "./testname/img/de_img/46_d027d4f273004b52931b9149beb15143.jpeg",
+    "pic": "/testname/img/46_d027d4f273004b52931b9149beb15143.jpeg",
     "answers": [
       { "answer": "Ein Löwe.", "aPic": "", "aId": 1 },
       { "answer": "Ein Phönix.", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Wenn du dich in Hogwarts neu einschreiben könntest, würdest du …",
-    "pic": "./testname/img/de_img/47_d06d75c398214b8faea32f2d0ded2b73.jpeg",
+    "pic": "/testname/img/47_d06d75c398214b8faea32f2d0ded2b73.jpeg",
     "answers": [
       { "answer": "Alles riskieren, um etwas zu verändern.", "aPic": "", "aId": 1 },
       { "answer": "Alte Freundschaften wiederfinden.", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Welche Jahresenergie beschreibt dich?",
-    "pic": "./testname/img/de_img/48_87e99c00b12d4660ab4fbb61fe35ea53.jpeg",
+    "pic": "/testname/img/48_87e99c00b12d4660ab4fbb61fe35ea53.jpeg",
     "answers": [
       { "answer": "Feuer – Leidenschaft.", "aPic": "", "aId": 1 },
       { "answer": "Wasser – Emotion.", "aPic": "", "aId": 2 },

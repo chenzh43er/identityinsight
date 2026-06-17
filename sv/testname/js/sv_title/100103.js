@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken typ av livsmanus är gömt på din födelsedag?",
-    "mainPic": "./testname/img/sv_img/33df5d5851de316b949deee8ad45bdde.gif",
+    "mainPic": "/testname/img/33df5d5851de316b949deee8ad45bdde.gif",
     "thems": [
         "Horoskop",
         "Födelsedag",
@@ -16,29 +16,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Halvmåne",
-                    "aPic": "./testname/img/sv_img/2c3dd28af1f2f85cc03459d77c4e0883.jpeg",
+                    "aPic": "/testname/img/2c3dd28af1f2f85cc03459d77c4e0883.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "Falk",
-                    "aPic": "./testname/img/sv_img/6f4fe5f133480bc15e9a319bcc3d7487.jpeg",
+                    "aPic": "/testname/img/6f4fe5f133480bc15e9a319bcc3d7487.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "Palmträd",
-                    "aPic": "./testname/img/sv_img/e3d3e499182aa6112366b803a80bf384.jpeg",
+                    "aPic": "/testname/img/e3d3e499182aa6112366b803a80bf384.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "Sanddyn",
-                    "aPic": "./testname/img/sv_img/3a8dad676bcc54e25d434ce7ddcacba0.jpeg",
+                    "aPic": "/testname/img/3a8dad676bcc54e25d434ce7ddcacba0.jpeg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Vilken månad fyller du år?",
-            "pic": "./testname/img/sv_img/05c618dfa95825b4404e7708d81405d1.jpg",
+            "pic": "/testname/img/05c618dfa95825b4404e7708d81405d1.jpg",
             "answers": [
                 {
                     "answer": "Jan, Feb, Mar",
@@ -68,19 +68,19 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Träff med vänner",
-                    "aPic": "./testname/img/sv_img/248734dbf77a345ee5bbcf5aa5a573f2.jpeg",
+                    "aPic": "/testname/img/248734dbf77a345ee5bbcf5aa5a573f2.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "Drift med bilar",
-                    "aPic": "./testname/img/sv_img/b2b0ccb97bdadb58196dbea837cb6dc0.jpeg",
+                    "aPic": "/testname/img/b2b0ccb97bdadb58196dbea837cb6dc0.jpeg",
                     "aId": 2
                 }
             ]
         },
         {
             "question": "Vad tror du är din starkaste egenskap?",
-            "pic": "./testname/img/sv_img/c0929c533001a739d3079914bda439ab.jpg",
+            "pic": "/testname/img/c0929c533001a739d3079914bda439ab.jpg",
             "answers": [
                 {
                     "answer": "Lojalitet",

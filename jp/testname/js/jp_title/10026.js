@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ソニック3のどの戦士があなたに最も適していますか？ 🚀💎",
-    "mainPic": "./testname/img/jp_img/ff268009224aeaeb6782fd235bde71c3.gif",
+    "mainPic": "/testname/img/ff268009224aeaeb6782fd235bde71c3.gif",
     "thems": [
         "ソニック",
         "ソニック3",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "これらの色のうち、最もあなたを表すものはどれですか？",
-            "pic": "./testname/img/jp_img/2c22d2313a73a7d1cdc32f573df2c700.jpg",
+            "pic": "/testname/img/2c22d2313a73a7d1cdc32f573df2c700.jpg",
             "answers": [
                 {
                     "answer": "A. 青",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "もしスーパーパワーを持てるとしたら、どれを選びますか？",
-            "pic": "./testname/img/jp_img/82fda468ebbc14479504ffe9a062990f.jpg",
+            "pic": "/testname/img/82fda468ebbc14479504ffe9a062990f.jpg",
             "answers": [
                 {
                     "answer": "光の速さで走る",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "自由な時間をどのように過ごしたいですか？",
-            "pic": "./testname/img/jp_img/10702a224db3c60fc9b420b82f9ada78.jpg",
+            "pic": "/testname/img/10702a224db3c60fc9b420b82f9ada78.jpg",
             "answers": [
                 {
                     "answer": "A. エキサイティングな冒険に出かける",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "どのタイプの映画を最も楽しめますか？",
-            "pic": "./testname/img/jp_img/1188b66ed5dfbc99f43952e205fdd9e2.jpg",
+            "pic": "/testname/img/1188b66ed5dfbc99f43952e205fdd9e2.jpg",
             "answers": [
                 {
                     "answer": "アクション満載でアドレナリンが出る",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "冒険の日に好きな食べ物は何ですか？",
-            "pic": "./testname/img/jp_img/d971e315e96334c52bc104fd5098a271.jpg",
+            "pic": "/testname/img/d971e315e96334c52bc104fd5098a271.jpg",
             "answers": [
                 {
                     "answer": "A. ハンバーガー",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "ソニックスタイルの冒険で理想の仲間は誰？",
-            "pic": "./testname/img/jp_img/238ddde0ee29809caf41da37077d2e06.jpg",
+            "pic": "/testname/img/238ddde0ee29809caf41da37077d2e06.jpg",
             "answers": [
                 {
                     "answer": "いつでも走って探検する準備ができている人",

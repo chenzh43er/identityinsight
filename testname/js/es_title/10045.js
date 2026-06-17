@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Cuál es tu nivel de fútbol en VRFS?",
-    "mainPic": "./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+    "mainPic": "/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
     "thems": [
         "Juegos",
         "Videojuegos",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Primero, ¿cómo describirías tus habilidades futbolísticas en la vida real?",
-            "pic": "./testname/img/es_img/23061c322ace880fddb231605535a89e.png",
+            "pic": "/testname/img/23061c322ace880fddb231605535a89e.png",
             "answers": [
                 {
                     "answer": "Genial, pertenezco a un equipo de fútbol",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "¿Qué crees que es tu mejor cualidad futbolística?",
-            "pic": "./testname/img/es_img/4711f76df022869e8a89aa518eeaba01.png",
+            "pic": "/testname/img/4711f76df022869e8a89aa518eeaba01.png",
             "answers": [
                 {
                     "answer": "Velocidad",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es tu posición favorita para jugar al fútbol?",
-            "pic": "./testname/img/es_img/93c3214ce89c7a3dbde204e1104447d0.png",
+            "pic": "/testname/img/93c3214ce89c7a3dbde204e1104447d0.png",
             "answers": [
                 {
                     "answer": "Delantero",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tan bueno eres en los juegos de realidad virtual?",
-            "pic": "./testname/img/es_img/f3b54da19743eccaf56c05da9605fc7e.png",
+            "pic": "/testname/img/f3b54da19743eccaf56c05da9605fc7e.png",
             "answers": [
                 {
                     "answer": "Soy un experto veterano",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "¿Con qué frecuencia ves partidos de fútbol?",
-            "pic": "./testname/img/es_img/51999435b9fe98644882655a5c4aad68.png",
+            "pic": "/testname/img/51999435b9fe98644882655a5c4aad68.png",
             "answers": [
                 {
                     "answer": "Frecuentemente",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tan competitivo crees que eres?",
-            "pic": "./testname/img/es_img/f541d1a4931e9e8f3421da32dbbece0c.png",
+            "pic": "/testname/img/f541d1a4931e9e8f3421da32dbbece0c.png",
             "answers": [
                 {
                     "answer": "Extremadamente competitivo",

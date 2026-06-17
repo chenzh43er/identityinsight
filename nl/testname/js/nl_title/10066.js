@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Baby Yellow VR Quiz: Hoe Lang Zou Jij Overleven?",
-    "mainPic": "./testname/img/nl_img/050d72d03541da9c20a26f8604189359.gif",
+    "mainPic": "/testname/img/050d72d03541da9c20a26f8604189359.gif",
     "thems": [
         "Spellen",
         "Baby Yellow",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "De baby begint stil te staren. Wat doe je?",
-            "pic": "./testname/img/nl_img/88ec6c0cd282909ab6fc4729244042f8.jpg",
+            "pic": "/testname/img/88ec6c0cd282909ab6fc4729244042f8.jpg",
             "answers": [
                 {
                     "answer": "Weglopen",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Lichten gaan plotseling uit. Jouw reactie?",
-            "pic": "./testname/img/nl_img/18be0da2f6416b774259de16fabbd951.jpg",
+            "pic": "/testname/img/18be0da2f6416b774259de16fabbd951.jpg",
             "answers": [
                 {
                     "answer": "Paniek onmiddellijk",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "De baby verdwijnt uit de wieg.",
-            "pic": "./testname/img/nl_img/f2c196cb6728f8352a8c110322480988.jpg",
+            "pic": "/testname/img/f2c196cb6728f8352a8c110322480988.jpg",
             "answers": [
                 {
                     "answer": "Verstop snel",

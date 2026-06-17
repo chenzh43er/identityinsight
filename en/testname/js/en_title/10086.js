@@ -1,6 +1,6 @@
 let quizData = {
     "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀",
-    "mainPic": "./testname/img/en_img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
+    "mainPic": "/testname/img/01_9c6e81a49a0048a1a5f246f821a103bc.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "The air turns freezing, and the world is covered in grey ash. You hear a wet, guttural growl behind you. What is your first move?",
-    "pic": "./testname/img/en_img/02_844d6e6e0f4143c8a680fd81af9d135c.jpeg",
+    "pic": "/testname/img/02_844d6e6e0f4143c8a680fd81af9d135c.jpeg",
     "answers": [
       { "answer": "Freeze and scream. Maybe someone will hear me?", "aPic": "", "aId": 1 },
       { "answer": "Sprint in the opposite direction without looking back.", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "You hear a grandfather clock chiming in the distance. Suddenly, your darkest, most shameful secret starts playing in your head like a movie. How do you break the spell?",
-    "pic": "./testname/img/en_img/03_b0003f95f29a4e35ba5ab427e15387a2.jpeg",
+    "pic": "/testname/img/03_b0003f95f29a4e35ba5ab427e15387a2.jpeg",
     "answers": [
       { "answer": "I can’t. I start crying and accept my fate.", "aPic": "", "aId": 1 },
       { "answer": "I start humming my favorite \"comfort character\" song as loud as possible.", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "You find an abandoned Hawkins PD truck. You can only grab ONE item before the vines start crawling toward you. What is it?",
-    "pic": "./testname/img/en_img/04_e33da9ef61214e0b82f0c4a5f3712d80.png",
+    "pic": "/testname/img/04_e33da9ef61214e0b82f0c4a5f3712d80.png",
     "answers": [
       { "answer": "A half-empty box of donuts. (I’m going out happy).", "aPic": "", "aId": 1 },
       { "answer": "A heavy-duty flashlight with extra batteries.", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "A Demogorgon is sniffing the air just 10 feet away from your hiding spot. Your phone suddenly starts vibrating in your pocket. What do you do?",
-    "pic": "./testname/img/en_img/05_93175b6f715c4c5ebb0e6be43387273a.jpeg",
+    "pic": "/testname/img/05_93175b6f715c4c5ebb0e6be43387273a.jpeg",
     "answers": [
       { "answer": "Answer it. Maybe it’s Eleven calling to save me?!", "aPic": "", "aId": 1 },
       { "answer": "Smash the phone immediately against a rock to stop the noise.", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "The vines are everywhere, and they seem to be sentient. You’re trapped in a hallway where the floor is pulsing. How do you cross?",
-    "pic": "./testname/img/en_img/06_2abface99d5840e6ba19909bef8c46fd.png",
+    "pic": "/testname/img/06_2abface99d5840e6ba19909bef8c46fd.png",
     "answers": [
       { "answer": "Try to run across as fast as possible.", "aPic": "", "aId": 1 },
       { "answer": "Use the furniture to stay off the ground entirely.", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "You see a version of your best friend calling for help in the fog, but their eyes look wrong. They beg you to come closer. Your move?",
-    "pic": "./testname/img/en_img/07_fe9af5590c5d4f598dd8f049b1fdb029.jpeg",
+    "pic": "/testname/img/07_fe9af5590c5d4f598dd8f049b1fdb029.jpeg",
     "answers": [
       { "answer": "Run to them! I can't leave my bestie behind.", "aPic": "", "aId": 1 },
       { "answer": "Ask them a secret question only the real them would know.", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "You see the portal back to the real world, but it’s closing fast. A pack of Demodogs is closing in. To make it, you have to leave your heavy gear behind. Do you jump?",
-    "pic": "./testname/img/en_img/08_1f2d2444f53e408ea4f7a90ab5fccd58.jpeg",
+    "pic": "/testname/img/08_1f2d2444f53e408ea4f7a90ab5fccd58.jpeg",
     "answers": [
       { "answer": "No, I’d rather stay and fight like a hero.", "aPic": "", "aId": 1 },
       { "answer": "I dive through headfirst—equipment is replaceable, my life isn't.", "aPic": "", "aId": 2 },

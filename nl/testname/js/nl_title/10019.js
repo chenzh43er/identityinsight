@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Jouw sterrenbeeld element onthult je verborgen persoonlijkheid!",
-    "mainPic": "./testname/img/nl_img/5478e1b626df602ce1a61b301d455819.gif",
+    "mainPic": "/testname/img/5478e1b626df602ce1a61b301d455819.gif",
     "thems": [
         "Horoscoop",
         "Zodiak",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is jouw sterrenbeeld?",
-            "pic": "./testname/img/nl_img/dcac8e9e36f1e221ec12c3dd3b8d4401.png",
+            "pic": "/testname/img/dcac8e9e36f1e221ec12c3dd3b8d4401.png",
             "answers": [
                 {
                     "answer": "Tweelingen, Weegschaal, Waterman",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wat is je astrologisch element?",
-            "pic": "./testname/img/nl_img/9294105da81395503ea689fea9415e0e.png",
+            "pic": "/testname/img/9294105da81395503ea689fea9415e0e.png",
             "answers": [
                 {
                     "answer": "Lucht",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Welke van deze eigenschappen resoneert met jou en je sterrenbeeld?",
-            "pic": "./testname/img/nl_img/d3e8b7144ad10fec30c6e2bbe93d6c5f.png",
+            "pic": "/testname/img/d3e8b7144ad10fec30c6e2bbe93d6c5f.png",
             "answers": [
                 {
                     "answer": "Krachtig, creatief en grappig",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "In welke maand van het jaar ben je jarig?",
-            "pic": "./testname/img/nl_img/42afc6e357ce367a9fb8cef63e0d4dbb.png",
+            "pic": "/testname/img/42afc6e357ce367a9fb8cef63e0d4dbb.png",
             "answers": [
                 {
                     "answer": "Januari, Februari, Maart",

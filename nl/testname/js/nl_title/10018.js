@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Word ik beroemd? Je horoscoop heeft het antwoord",
-    "mainPic": "./testname/img/nl_img/0ad5a8121adf71fdf63568d8759baba5.gif",
+    "mainPic": "/testname/img/0ad5a8121adf71fdf63568d8759baba5.gif",
     "thems": [
         "Horoscoop",
         "Dierenriem",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Selecteer je horoscoop:",
-            "pic": "./testname/img/nl_img/dac97a189eee6c49cd9f1bc0cde079b3.png",
+            "pic": "/testname/img/dac97a189eee6c49cd9f1bc0cde079b3.png",
             "answers": [
                 {
                     "answer": "Tweelingen, Weegschaal, Waterman",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Tot welk dierenriemelement behoort je horoscoop?",
-            "pic": "./testname/img/nl_img/cfbb71ca45da62332f7faab25945d5db.png",
+            "pic": "/testname/img/cfbb71ca45da62332f7faab25945d5db.png",
             "answers": [
                 {
                     "answer": "Lucht",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "In welke maand ben je geboren?",
-            "pic": "./testname/img/nl_img/4ec46359a9a9069701ca9e84614e4672.png",
+            "pic": "/testname/img/4ec46359a9a9069701ca9e84614e4672.png",
             "answers": [
                 {
                     "answer": "Januari, Februari, Maart",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Welke planeet regeert jouw sterrenbeeld het meest?",
-            "pic": "./testname/img/nl_img/e7e05ad137803e2adabe191f4b6eadef.png",
+            "pic": "/testname/img/e7e05ad137803e2adabe191f4b6eadef.png",
             "answers": [
                 {
                     "answer": "Mars",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Tot welk astrologisch huis behoor je?",
-            "pic": "./testname/img/nl_img/0ad02957c51a7e1770ff869c4ab5ee3c.png",
+            "pic": "/testname/img/0ad02957c51a7e1770ff869c4ab5ee3c.png",
             "answers": [
                 {
                     "answer": "1e, 2e of 3e Huis",

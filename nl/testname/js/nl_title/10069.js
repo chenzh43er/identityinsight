@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat is de naam van je crush als emoji?",
-    "mainPic": "./testname/img/nl_img/e0e35df07f07cc35431e5c19ab1876a0.gif",
+    "mainPic": "/testname/img/e0e35df07f07cc35431e5c19ab1876a0.gif",
     "thems": [
         "Crush",
         "Trending",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hoe voel je je meestal als je je crush ziet?",
-            "pic": "./testname/img/nl_img/a07e5683930dbffa525417fe3f228e0a.png",
+            "pic": "/testname/img/a07e5683930dbffa525417fe3f228e0a.png",
             "answers": [
                 {
                     "answer": "Nerveus maar opgewonden",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wat viel je als eerste op aan hen?",
-            "pic": "./testname/img/nl_img/8fe85443bfccea497286247791d26e8f.png",
+            "pic": "/testname/img/8fe85443bfccea497286247791d26e8f.png",
             "answers": [
                 {
                     "answer": "Glimlach",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Als ze je eerst sms'en, wat zou je reactie zijn?",
-            "pic": "./testname/img/nl_img/aaee7e1aeb58b5a303aaba4885ccf503.png",
+            "pic": "/testname/img/aaee7e1aeb58b5a303aaba4885ccf503.png",
             "answers": [
                 {
                     "answer": "Je leest het bericht opnieuw voordat je antwoordt",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Welke eigenschap trekt je het meest aan?",
-            "pic": "./testname/img/nl_img/08b1ef1677ad37bbbfc75af37577f5ac.png",
+            "pic": "/testname/img/08b1ef1677ad37bbbfc75af37577f5ac.png",
             "answers": [
                 {
                     "answer": "Emotionele diepgang",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Hoe zouden je vrienden deze verliefdheid beschrijven?",
-            "pic": "./testname/img/nl_img/fa18d52a3a487ee7e19d81149029c623.png",
+            "pic": "/testname/img/fa18d52a3a487ee7e19d81149029c623.png",
             "answers": [
                 {
                     "answer": "Schattig",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Als jij en je crush samen vastzaten in een lift, wat zou er dan gebeuren?",
-            "pic": "./testname/img/nl_img/bca973edc340c8ea31a77a4dcebc36df.png",
+            "pic": "/testname/img/bca973edc340c8ea31a77a4dcebc36df.png",
             "answers": [
                 {
                     "answer": "Ongemakkelijke stilte maar veel gevoelens",

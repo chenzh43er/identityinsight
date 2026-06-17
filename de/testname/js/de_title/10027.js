@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie selten ist Ihr Geburtstag? Es sagt etwas über Ihre Persönlichkeit aus!",
-    "mainPic": "./testname/img/de_img/1ab2921ba63301397649e9d1d9f9eba2.gif",
+    "mainPic": "/testname/img/1ab2921ba63301397649e9d1d9f9eba2.gif",
     "thems": [
         "Persönlichkeit",
         "Geburtsdatum",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Zu welcher Tageszeit wurden Sie geboren?",
-            "pic": "./testname/img/de_img/61252a1ceb9054f8a21b7f399d9a62bd.jpg",
+            "pic": "/testname/img/61252a1ceb9054f8a21b7f399d9a62bd.jpg",
             "answers": [
                 {
                     "answer": "Morgen",
@@ -91,29 +91,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Ernst",
-                    "aPic": "./testname/img/de_img/659b527fdc3732d5bb5e091846bed704.png",
+                    "aPic": "/testname/img/659b527fdc3732d5bb5e091846bed704.png",
                     "aId": 1
                 },
                 {
                     "answer": "Kreativ",
-                    "aPic": "./testname/img/de_img/7d6e9cc3661c30198c7a0f4f59ef3d6e.png",
+                    "aPic": "/testname/img/7d6e9cc3661c30198c7a0f4f59ef3d6e.png",
                     "aId": 2
                 },
                 {
                     "answer": "Fröhlich",
-                    "aPic": "./testname/img/de_img/eeb84a48a63a2ad1d9da043f6bcce6d9.png",
+                    "aPic": "/testname/img/eeb84a48a63a2ad1d9da043f6bcce6d9.png",
                     "aId": 3
                 },
                 {
                     "answer": "Diszipliniert",
-                    "aPic": "./testname/img/de_img/329d2ed30b402d25baff60e95c186c70.jpg",
+                    "aPic": "/testname/img/329d2ed30b402d25baff60e95c186c70.jpg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Wählen Sie Ihre Lieblingsjahreszeit.",
-            "pic": "./testname/img/de_img/707d5b45db94e4778cee5940cab78ce6.jpg",
+            "pic": "/testname/img/707d5b45db94e4778cee5940cab78ce6.jpg",
             "answers": [
                 {
                     "answer": "1. Sommer",
@@ -143,22 +143,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Hund",
-                    "aPic": "./testname/img/de_img/25968379295799bffc49718e9b16ce7e.png",
+                    "aPic": "/testname/img/25968379295799bffc49718e9b16ce7e.png",
                     "aId": 1
                 },
                 {
                     "answer": "Katze",
-                    "aPic": "./testname/img/de_img/acd732d36ec2c315703ce34b1b0f10c4.png",
+                    "aPic": "/testname/img/acd732d36ec2c315703ce34b1b0f10c4.png",
                     "aId": 2
                 },
                 {
                     "answer": "Meerschweinchen",
-                    "aPic": "./testname/img/de_img/9fe38f3cb9dd4d44a3a9457c372c676f.png",
+                    "aPic": "/testname/img/9fe38f3cb9dd4d44a3a9457c372c676f.png",
                     "aId": 3
                 },
                 {
                     "answer": "Waschbär",
-                    "aPic": "./testname/img/de_img/31ea622ce99ea07c655b1afc94c4a540.png",
+                    "aPic": "/testname/img/31ea622ce99ea07c655b1afc94c4a540.png",
                     "aId": 4
                 }
             ]

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "どのGTA MODライフがあなたに適していますか？",
-    "mainPic": "./testname/img/jp_img/fb152127163e27803da62c65edf79fdc.gif",
+    "mainPic": "/testname/img/fb152127163e27803da62c65edf79fdc.gif",
     "thems": [
         "ゲーム",
         "ビデオゲーム",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "GTAのようなゲームでの優先事項は何ですか？",
-            "pic": "./testname/img/jp_img/5c7d9969809be9c167465e7c7316a977.png",
+            "pic": "/testname/img/5c7d9969809be9c167465e7c7316a977.png",
             "answers": [
                 {
                     "answer": "コントロールの確立",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "自分はどんなタイプのプレイヤーだと思いますか？",
-            "pic": "./testname/img/jp_img/bafc2dff22ececb6963e58c4740e109b.png",
+            "pic": "/testname/img/bafc2dff22ececb6963e58c4740e109b.png",
             "answers": [
                 {
                     "answer": "攻撃的なプレイヤー",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "好きなGTAのロケーションで騒ぎを起こすのはどこですか？",
-            "pic": "./testname/img/jp_img/b38802c924db9db5a002b76bb7c9dbd2.png",
+            "pic": "/testname/img/b38802c924db9db5a002b76bb7c9dbd2.png",
             "answers": [
                 {
                     "answer": "サンタモニカピア",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "スポーンしたときにゲームで最初に何をしますか？",
-            "pic": "./testname/img/jp_img/fdc463100f5c357489cfc3f2e9310a2d.png",
+            "pic": "/testname/img/fdc463100f5c357489cfc3f2e9310a2d.png",
             "answers": [
                 {
                     "answer": "ミッションを探す",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "GTAのようなゲームで一番好きなところは何ですか？",
-            "pic": "./testname/img/jp_img/e6415e7f0d233e68d9d592a39f91537e.png",
+            "pic": "/testname/img/e6415e7f0d233e68d9d592a39f91537e.png",
             "answers": [
                 {
                     "answer": "ミッション",

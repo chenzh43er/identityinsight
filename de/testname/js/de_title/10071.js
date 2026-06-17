@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Bist du der Diamant der Saison oder Lady Whistledowns nächstes Opfer?",
-    "mainPic": "./testname/img/de_img/01_873b4e8b5495423ba5d48b479e2521fd.jpeg",
+    "mainPic": "/testname/img/01_873b4e8b5495423ba5d48b479e2521fd.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Wie würdest du dich bei einem Ball kleiden?",
-    "pic": "./testname/img/de_img/02_2f03198c466841a0956d52195a50600a.jpeg",
+    "pic": "/testname/img/02_2f03198c466841a0956d52195a50600a.jpeg",
     "answers": [
       { "answer": "Ein glänzendes, auffälliges Kleid, das alle Blicke auf mich zieht", "aPic": "", "aId": 1 },
       { "answer": "Ein klassisches, elegantes Kleid in gedeckten Farben", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Deine Freunde beschreiben dich als…",
-    "pic": "./testname/img/de_img/03_e847fb9cb05a488d9ae80236e4e4cad1.jpeg",
+    "pic": "/testname/img/03_e847fb9cb05a488d9ae80236e4e4cad1.jpeg",
     "answers": [
       { "answer": "Selbstbewusst, der Mittelpunkt jeder Feier", "aPic": "", "aId": 1 },
       { "answer": "Ruhig und elegant, immer dezent", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Wie gehst du mit Geheimnissen um?",
-    "pic": "./testname/img/de_img/04_39f7482ca8314112a31dc119306dbaad.jpeg",
+    "pic": "/testname/img/04_39f7482ca8314112a31dc119306dbaad.jpeg",
     "answers": [
       { "answer": "Ich bewahre sie wie ein Schatz und würde niemals etwas verraten", "aPic": "", "aId": 1 },
       { "answer": "Ich teile sie mit wenigen, denen ich vertraue", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Wie reagierst du, wenn du eine Intrige hörst?",
-    "pic": "./testname/img/de_img/05_c8facf12a7ec47b0b29a3ffa4722bf1c.jpeg",
+    "pic": "/testname/img/05_c8facf12a7ec47b0b29a3ffa4722bf1c.jpeg",
     "answers": [
       { "answer": "Ich bin sofort in der Mitte des Geschehens und will wissen, wer dahintersteckt", "aPic": "", "aId": 1 },
       { "answer": "Ich lasse es mich nicht beunruhigen und gehe weiter meinen Weg", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Was würdest du tun, wenn du in eine Sache verwickelt wirst, die deinen Ruf gefährdet?",
-    "pic": "./testname/img/de_img/06_72273208cb3749a0aa259c4e527ff0ce.jpeg",
+    "pic": "/testname/img/06_72273208cb3749a0aa259c4e527ff0ce.jpeg",
     "answers": [
       { "answer": "Ich würde alles tun, um den Ruf zu retten, auch wenn es bedeutet, Geheimnisse zu lüften", "aPic": "", "aId": 1 },
       { "answer": "Ich würde versuchen, die Sache ruhig zu lösen, ohne Aufmerksamkeit zu erregen", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Wie wichtig ist dir der gesellschaftliche Status?",
-    "pic": "./testname/img/de_img/07_9c5a9d4f0f1a4946ba4045ca343ce5a1.jpeg",
+    "pic": "/testname/img/07_9c5a9d4f0f1a4946ba4045ca343ce5a1.jpeg",
     "answers": [
       { "answer": "Es ist alles — ohne einen guten Ruf wird man nie wirklich gesehen", "aPic": "", "aId": 1 },
       { "answer": "Ich halte mich an den Status, aber er ist nicht alles", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Wie gehst du mit einer skandalösen Offenbarung um?",
-    "pic": "./testname/img/de_img/08_8c5abc1d8eea4306b7878791af974ca2.jpeg",
+    "pic": "/testname/img/08_8c5abc1d8eea4306b7878791af974ca2.jpeg",
     "answers": [
       { "answer": "Ich würde alles in meiner Macht stehende tun, um den Skandal zu entschärfen und den Schaden zu minimieren", "aPic": "", "aId": 1 },
       { "answer": "Ich versuche, ruhig zu bleiben und die Wahrheit zu sagen, ohne mich zu verteidigen", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Welchen Song würdest du als Soundtrack zu deinem Leben wählen?",
-    "pic": "./testname/img/de_img/09_d1558b1576e6475fb2280d127056b6b5.jpeg",
+    "pic": "/testname/img/09_d1558b1576e6475fb2280d127056b6b5.jpeg",
     "answers": [
       { "answer": "Ein dramatisches, aufwühlendes Stück, das die Aufregung und das Drama meiner Geschichte widerspiegelt", "aPic": "", "aId": 1 },
       { "answer": "Etwas Elegantes und Ruhiges, das mich als anmutige Figur darstellt", "aPic": "", "aId": 2 },

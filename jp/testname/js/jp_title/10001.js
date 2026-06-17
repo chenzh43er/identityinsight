@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたの呪術廻戦3の彼氏は誰？",
-    "mainPic": "./testname/img/jp_img/4898a8fd657b8a0db2335f9944d053c9.gif",
+    "mainPic": "/testname/img/4898a8fd657b8a0db2335f9944d053c9.gif",
     "thems": [
         "呪術廻戦",
         "ボーイフレンド",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "男性のどのような特質に最も惹かれますか？",
-            "pic": "./testname/img/jp_img/27bfa7d584b4a173bc328593b8f9d338.png",
+            "pic": "/testname/img/27bfa7d584b4a173bc328593b8f9d338.png",
             "answers": [
                 {
                     "answer": "知性と神秘",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "理想的なデートは何ですか？",
-            "pic": "./testname/img/jp_img/6d522a0d8cae03b76b168207bee21cfd.jpeg",
+            "pic": "/testname/img/6d522a0d8cae03b76b168207bee21cfd.jpeg",
             "answers": [
                 {
                     "answer": "静かな書店やカフェ",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "どの色の雰囲気があなたのエネルギーに合っていますか？",
-            "pic": "./testname/img/jp_img/e5931190f038db2c40329d634920aae1.jpeg",
+            "pic": "/testname/img/e5931190f038db2c40329d634920aae1.jpeg",
             "answers": [
                 {
                     "answer": "ブラック／ネイビー",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "友達はあなたをどのように表現しますか？",
-            "pic": "./testname/img/jp_img/e99aad1e23cdc08d2af7baaa778f9ec0.png",
+            "pic": "/testname/img/e99aad1e23cdc08d2af7baaa778f9ec0.png",
             "answers": [
                 {
                     "answer": "落ち着いていて深く考える人",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "あなたの愛の言語は何ですか？",
-            "pic": "./testname/img/jp_img/98f1fa243542f8236820fc3dcd568b18.jpeg",
+            "pic": "/testname/img/98f1fa243542f8236820fc3dcd568b18.jpeg",
             "answers": [
                 {
                     "answer": "質の高い時間",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "あなたのハートを表す言葉はどれですか？",
-            "pic": "./testname/img/jp_img/95540b8e2a37690d15ff5597d37fc055.png",
+            "pic": "/testname/img/95540b8e2a37690d15ff5597d37fc055.png",
             "answers": [
                 {
                     "answer": "野性的",

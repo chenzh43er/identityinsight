@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Preveja Sua Próxima Vida Através da Astrologia!",
-    "mainPic": "./testname/img/pt_img/87192201602c6a8362354e0e3c499c10.gif",
+    "mainPic": "/testname/img/87192201602c6a8362354e0e3c499c10.gif",
     "thems": [
         "Próxima Vida",
         "Previsão",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Qual é a sua energia zodiacal dominante?",
-            "pic": "./testname/img/pt_img/248b8a52b2617bff5f57783a9077f227.jpeg",
+            "pic": "/testname/img/248b8a52b2617bff5f57783a9077f227.jpeg",
             "answers": [
                 {
                     "answer": "Signos de Fogo",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Qual planeta rege o seu humor?",
-            "pic": "./testname/img/pt_img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
+            "pic": "/testname/img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
             "answers": [
                 {
                     "answer": "Vênus",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "O que você sente que nasceu para fazer?",
-            "pic": "./testname/img/pt_img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
+            "pic": "/testname/img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
             "answers": [
                 {
                     "answer": "Inspirar",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Sua lição de alma atual?",
-            "pic": "./testname/img/pt_img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
+            "pic": "/testname/img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
             "answers": [
                 {
                     "answer": "Autoestima",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Que tipo de sonhos você tem?",
-            "pic": "./testname/img/pt_img/dd886417f023c29cd2959c0e414ea97a.jpeg",
+            "pic": "/testname/img/dd886417f023c29cd2959c0e414ea97a.jpeg",
             "answers": [
                 {
                     "answer": "Voando",

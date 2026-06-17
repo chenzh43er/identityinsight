@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat Is Jouw Verborgen Verlangen?",
-    "mainPic": "./testname/img/nl_img/a10e478609b29236f70f7ea83b45d217.gif",
+    "mainPic": "/testname/img/a10e478609b29236f70f7ea83b45d217.gif",
     "thems": [
         "Persoonlijkheid",
         "Verborgen",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Als je hart een waarschuwingsetiket had, zou het zeggen:",
-            "pic": "./testname/img/nl_img/3644c66b0898d9e434138688185f6d65.png",
+            "pic": "/testname/img/3644c66b0898d9e434138688185f6d65.png",
             "answers": [
                 {
                     "answer": "Voorzichtig behandelen",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Kies een soundtrack voor je persoonlijkheid:",
-            "pic": "./testname/img/nl_img/f60baf5f2a7d94e2c33343ac1cc5bc63.png",
+            "pic": "/testname/img/f60baf5f2a7d94e2c33343ac1cc5bc63.png",
             "answers": [
                 {
                     "answer": "Regen + lo-fi",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Welke sfeer zou je kiezen voor je volgende leven?",
-            "pic": "./testname/img/nl_img/b647ff88620feb3877b63e0d66c140ac.png",
+            "pic": "/testname/img/b647ff88620feb3877b63e0d66c140ac.png",
             "answers": [
                 {
                     "answer": "De zachte, mysterieuze waar iedereen voor valt",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welke illegale dingen zou je doen als het niet illegaal was?",
-            "pic": "./testname/img/nl_img/9474ed02f0632ac9dcf1a4f464a1055b.png",
+            "pic": "/testname/img/9474ed02f0632ac9dcf1a4f464a1055b.png",
             "answers": [
                 {
                     "answer": "Gratis naar concerten teleporteren",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Welke soort momenten blijven het langst bij je hangen?",
-            "pic": "./testname/img/nl_img/92e3327a6b7b874a19d3d3cbae053234.png",
+            "pic": "/testname/img/92e3327a6b7b874a19d3d3cbae053234.png",
             "answers": [
                 {
                     "answer": "Stille, troostrijke momenten",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hoe laad je op?",
-            "pic": "./testname/img/nl_img/55aa581109245f2d906271c69a183212.png",
+            "pic": "/testname/img/55aa581109245f2d906271c69a183212.png",
             "answers": [
                 {
                     "answer": "Werken aan je doelen",

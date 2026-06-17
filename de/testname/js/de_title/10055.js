@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches geheime Schulfach wäre dein Spezialgebiet in Hogwarts?",
-    "mainPic": "./testname/img/de_img/14_40347a53-a2ef-4732-a960-6cc5fe059d53.jpeg",
+    "mainPic": "/testname/img/14_40347a53-a2ef-4732-a960-6cc5fe059d53.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
   "question": "Was würdest du lieber erforschen?",
-  "pic": "./testname/img/de_img/15_9d63f88c-529f-4fa6-98a6-3da3c6570d84.jpeg",
+  "pic": "/testname/img/15_9d63f88c-529f-4fa6-98a6-3da3c6570d84.jpeg",
   "answers": [
     {
       "answer": "Alte Flüche",
@@ -40,7 +40,7 @@ let quizData = {
 },
         {
   "question": "Wenn du eine Lektion in Hogwarts verpasst, warum?",
-  "pic": "./testname/img/de_img/16_37e8d376-08b0-4e22-b9ec-0685796399c1.png",
+  "pic": "/testname/img/16_37e8d376-08b0-4e22-b9ec-0685796399c1.png",
   "answers": [
     {
       "answer": "Du hilfst jemandem.",
@@ -66,7 +66,7 @@ let quizData = {
 },
         {
   "question": "Was inspiriert dich?",
-  "pic": "./testname/img/de_img/17_fb9aa30b-5f25-41ab-a011-1e59bdd21fca.png",
+  "pic": "/testname/img/17_fb9aa30b-5f25-41ab-a011-1e59bdd21fca.png",
   "answers": [
     {
       "answer": "Mut",
@@ -92,7 +92,7 @@ let quizData = {
 },
         {
   "question": "Welcher Lehrer würde dich am meisten beeindrucken?",
-  "pic": "./testname/img/de_img/18_fc8e5ab1-9ae5-44c6-8e3b-ec17339b3524.jpeg",
+  "pic": "/testname/img/18_fc8e5ab1-9ae5-44c6-8e3b-ec17339b3524.jpeg",
   "answers": [
     {
       "answer": "Der Gerechte",
@@ -118,7 +118,7 @@ let quizData = {
 },
         {
   "question": "Wenn du eine Zauberprüfung hättest, würdest du…",
-  "pic": "./testname/img/de_img/19_a942b662-87a2-4328-8883-e251aab15bf2.jpeg",
+  "pic": "/testname/img/19_a942b662-87a2-4328-8883-e251aab15bf2.jpeg",
   "answers": [
     {
       "answer": "Dich gründlich vorbereiten.",
@@ -144,7 +144,7 @@ let quizData = {
 },
         {
   "question": "Was ist wichtiger als Noten?",
-  "pic": "./testname/img/de_img/20_61549877-7a80-4884-9546-3f5e41c6d2c7.jpeg",
+  "pic": "/testname/img/20_61549877-7a80-4884-9546-3f5e41c6d2c7.jpeg",
   "answers": [
     {
       "answer": "Ehre",
@@ -170,7 +170,7 @@ let quizData = {
 },
         {
   "question": "Was würdest du in Hogwarts am meisten genießen?",
-  "pic": "./testname/img/de_img/21_3b0f7e39-6e9a-4d4f-8e88-939743c5202a.jpeg",
+  "pic": "/testname/img/21_3b0f7e39-6e9a-4d4f-8e88-939743c5202a.jpeg",
   "answers": [
     {
       "answer": "Die Gemeinschaft",
@@ -196,7 +196,7 @@ let quizData = {
 },
         {
   "question": "Welcher Ort zieht dich magisch an?",
-  "pic": "./testname/img/de_img/22_75fc850b-e45a-4a1f-9eea-c490eb4453f3.jpeg",
+  "pic": "/testname/img/22_75fc850b-e45a-4a1f-9eea-c490eb4453f3.jpeg",
   "answers": [
     {
       "answer": "Der Astronomieturm",

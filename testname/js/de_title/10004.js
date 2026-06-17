@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches Switch-Spiel ist für Sie ein Muss?",
-    "mainPic": "./testname/img/de_img/37a6b6fecadd8df9a7995501573e7ab2.gif",
+    "mainPic": "/testname/img/37a6b6fecadd8df9a7995501573e7ab2.gif",
     "thems": [
         "Gaming",
         "Videospiele",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie würdest du dich als Gamer beschreiben?",
-            "pic": "./testname/img/de_img/50fa259f621b224629889ca4b3c1967e.png",
+            "pic": "/testname/img/50fa259f621b224629889ca4b3c1967e.png",
             "answers": [
                 {
                     "answer": "Stratege",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Welche Art von Charakteren möchten Sie in Spielen sehen?",
-            "pic": "./testname/img/de_img/49b2cc088a1676a5eb9f0e33e5e6479c.png",
+            "pic": "/testname/img/49b2cc088a1676a5eb9f0e33e5e6479c.png",
             "answers": [
                 {
                     "answer": "Menschen",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Welche Art von Kunststil gefällt Ihnen in einem Spiel am meisten?",
-            "pic": "./testname/img/de_img/c22c3482e4212f2ede55cae3d400561b.png",
+            "pic": "/testname/img/c22c3482e4212f2ede55cae3d400561b.png",
             "answers": [
                 {
                     "answer": "Fotorealismus",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Wie wettbewerbsfähig sind Sie bei Videospielen?",
-            "pic": "./testname/img/de_img/d8b0f7ac97327f35291282107d64cd88.png",
+            "pic": "/testname/img/d8b0f7ac97327f35291282107d64cd88.png",
             "answers": [
                 {
                     "answer": "Äußerst wettbewerbsfähig",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Welche Art von Landschaft finden Sie in Spielen am ansprechendsten?",
-            "pic": "./testname/img/de_img/cb82ef13410182fbc0aff9a311c06da7.png",
+            "pic": "/testname/img/cb82ef13410182fbc0aff9a311c06da7.png",
             "answers": [
                 {
                     "answer": "Lebendige Pfade mit Wendungen",

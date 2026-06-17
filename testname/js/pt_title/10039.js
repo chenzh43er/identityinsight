@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual animatrônico de Five Nights At Freddy's você seria no Toca Life?",
-    "mainPic": "./testname/img/pt_img/23c5ae8244c5f838ac6df53605f25c35.gif",
+    "mainPic": "/testname/img/23c5ae8244c5f838ac6df53605f25c35.gif",
     "thems": [
         "FiveNightsAtFreddys",
         "Five Nights At Freddy´s",

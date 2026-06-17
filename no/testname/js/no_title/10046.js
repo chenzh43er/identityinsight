@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hvilken hovedperson i Harry Potter er du?",
-    "mainPic": "./testname/img/fr_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+    "mainPic": "/testname/img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
     "thems": ["Harry Potter", "Harry-Potter-Quiz", "Galtvort", "Magi", "Film", "Harry-Potter-fans", "Magiske verden", "Potterheads"],
     "questions": [
         {
             "question": "Når du først ankommer Galtvort, hva føler du?",
-            "pic": "./testname/img/fr_img/oA1fO1kK0e.jpg",
+            "pic": "/testname/img/oA1fO1kK0e.jpg",
             "answers": [
                 {
                     "answer": "Spenning og undring",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hvilket karaktertrekk definerer deg best?",
-            "pic": "./testname/img/fr_img/pH0hR1eI3a.jpg",
+            "pic": "/testname/img/pH0hR1eI3a.jpg",
             "answers": [
                 {
                     "answer": "Modig",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Når du står overfor urettferdighet, hva gjør du?",
-            "pic": "./testname/img/fr_img/fA3eV5bB2i.jpg",
+            "pic": "/testname/img/fA3eV5bB2i.jpg",
             "answers": [
                 {
                     "answer": "Du står opp og kjemper",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Når du får en kraftig magisk gjenstand, hva gjør du?",
-            "pic": "./testname/img/fr_img/cA2aD3aA0f.jpg",
+            "pic": "/testname/img/cA2aD3aA0f.jpg",
             "answers": [
                 {
                     "answer": "Du bruker den til å forsvare andre",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hvilken forbindelse har du med vennene dine?",
-            "pic": "./testname/img/fr_img/bD2cA2cC0e.jpg",
+            "pic": "/testname/img/bD2cA2cC0e.jpg",
             "answers": [
                 {
                     "answer": "Du er deres naturlige leder",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Ditt ideelle kjente dyr ville være:",
-            "pic": "./testname/img/fr_img/oF5hD0hA8bS.jpg",
+            "pic": "/testname/img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Ugle",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Ditt favorittøyeblikk på slottet ville være:",
-            "pic": "./testname/img/fr_img/dK2eR5aK0h.png",
+            "pic": "/testname/img/dK2eR5aK0h.png",
             "answers": [
                 {
                     "answer": "Quidditch-kampen",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Hvis du måtte velge et magisk motto, hva ville du valgt?",
-            "pic": "./testname/img/fr_img/dC1kB0uF4q.jpg",
+            "pic": "/testname/img/dC1kB0uF4q.jpg",
             "answers": [
                 {
                     "answer": "“Mot fremfor alt”",

@@ -11,7 +11,7 @@ const results = {
             "Harmonie magique\n" +
             "\n" +
             "Ta meilleure compatibilité magique : les âmes rêveuses de Serdaigle (Ravenclaw), qui équilibrent ton énergie ardente.\n",
-        "mainPic": "./testname/img/fr_img/kC3bA3aR4oM5.jpg"
+        "mainPic": "/testname/img/kC3bA3aR4oM5.jpg"
     },
     2: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
@@ -25,7 +25,7 @@ const results = {
             "Harmonie magique\n" +
             "\n" +
             "Ton âme sœur magique : un Gryffondor passionné, prêt à faire vibrer ton monde intérieur.\n",
-        "mainPic": "./testname/img/fr_img/iA0cB0dM0iE3.jpg"
+        "mainPic": "/testname/img/iA0cB0dM0iE3.jpg"
     },
     3: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
@@ -40,7 +40,7 @@ const results = {
             "\n" +
             "Ta compatibilité magique : les âmes libres de Poufsouffle (Hufflepuff), qui adoucissent ton intensité.\n" +
             "\n",
-        "mainPic": "./testname/img/fr_img/hE4aF2pA8aM3.jpg"
+        "mainPic": "/testname/img/hE4aF2pA8aM3.jpg"
     },
     4: {
         "title": "Hvilken Galtvort-student er du forelsket i?",
@@ -55,6 +55,6 @@ const results = {
             "\n" +
             "Ton partenaire idéal : un Serpentard protecteur qui saura apprécier ta douceur et ta lumière.\n" +
             "\n",
-        "mainPic": "./testname/img/fr_img/vJ0nL1eU4cB5.jpg"
+        "mainPic": "/testname/img/vJ0nL1eU4cB5.jpg"
     },
 };

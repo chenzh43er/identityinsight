@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie gut würdest du dich in Hogwarts schlagen?",
-    "mainPic": "./testname/img/de_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
+    "mainPic": "/testname/img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
   "question": "Am ersten Schultag in Hogwarts…",
-  "pic": "./testname/img/de_img/02_c16d9d44-218b-4e5a-842e-8687ff4df380.jpeg",
+  "pic": "/testname/img/02_c16d9d44-218b-4e5a-842e-8687ff4df380.jpeg",
   "answers": [
     {
       "answer": "Du bist aufgeregt und neugierig.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
   "question": "In welchem Fach würdest du glänzen?",
-  "pic": "./testname/img/de_img/03_3c3e6d0f-2db6-4d0b-beb1-35d44e3a72c9.jpeg",
+  "pic": "/testname/img/03_3c3e6d0f-2db6-4d0b-beb1-35d44e3a72c9.jpeg",
   "answers": [
     {
       "answer": "Verteidigung gegen die dunklen Künste.",
@@ -66,7 +66,7 @@ let quizData = {
 },
         {
   "question": "Ein Mitschüler provoziert dich – was tust du?",
-  "pic": "./testname/img/de_img/04_a2e2a8df-8dfb-4a77-96fe-7c047e835a42.jpeg",
+  "pic": "/testname/img/04_a2e2a8df-8dfb-4a77-96fe-7c047e835a42.jpeg",
   "answers": [
     {
       "answer": "Du bleibst ruhig.",
@@ -92,7 +92,7 @@ let quizData = {
 },
         {
   "question": "Welche Art Zauberer wärst du?",
-  "pic": "./testname/img/de_img/05_29731287-2cc4-4221-94c5-cb8b42d712ad.png",
+  "pic": "/testname/img/05_29731287-2cc4-4221-94c5-cb8b42d712ad.png",
   "answers": [
     {
       "answer": "Mutig und gerecht.",
@@ -118,7 +118,7 @@ let quizData = {
 },
         {
   "question": "Wenn ein Verbotenes Buch in deine Hände fällt…",
-  "pic": "./testname/img/de_img/06_1cf5df03-dfaa-47d4-85d9-c44154f827f6.jpeg",
+  "pic": "/testname/img/06_1cf5df03-dfaa-47d4-85d9-c44154f827f6.jpeg",
   "answers": [
     {
       "answer": "Du liest es.",
@@ -144,7 +144,7 @@ let quizData = {
 },
         {
   "question": "Wie würdest du mit Hausaufgaben umgehen?",
-  "pic": "./testname/img/de_img/07_eaee93ff-8bc5-4f15-b92a-fbebd8709f19.png",
+  "pic": "/testname/img/07_eaee93ff-8bc5-4f15-b92a-fbebd8709f19.png",
   "answers": [
     {
       "answer": "Sofort erledigen.",
@@ -170,7 +170,7 @@ let quizData = {
 },
         {
   "question": "Dein Lieblingsplatz in Hogwarts wäre …",
-  "pic": "./testname/img/de_img/08_00c04ad4-8bbb-4141-9a01-7872146911a5.jpeg",
+  "pic": "/testname/img/08_00c04ad4-8bbb-4141-9a01-7872146911a5.jpeg",
   "answers": [
     {
       "answer": "Die Bibliothek.",
@@ -196,7 +196,7 @@ let quizData = {
 },
         {
   "question": "Was wäre dein größter Traum als Zauberer?",
-  "pic": "./testname/img/de_img/09_b415563d-fd72-418b-9aaa-222685495f2f.jpeg",
+  "pic": "/testname/img/09_b415563d-fd72-418b-9aaa-222685495f2f.jpeg",
   "answers": [
     {
       "answer": "Die Welt retten.",

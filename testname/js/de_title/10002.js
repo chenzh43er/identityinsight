@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Seite vom Squid Game gehörst du an?",
-    "mainPic": "./testname/img/de_img/116f2e28b5a03d216f9f3f60daa1ad1c.gif",
+    "mainPic": "/testname/img/116f2e28b5a03d216f9f3f60daa1ad1c.gif",
     "thems": [
         "Squid Game 2",
         "Squidgames",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist der Anfangsbuchstabe Ihres Namens?",
-            "pic": "./testname/img/de_img/3c07a4bafb90ac4a1505b5c8efa97af6.png",
+            "pic": "/testname/img/3c07a4bafb90ac4a1505b5c8efa97af6.png",
             "answers": [
                 {
                     "answer": "A, B, C, D, E, F, G",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Was ist der letzte Buchstabe deines Namens?",
-            "pic": "./testname/img/de_img/c7669f492ad8fbbd442965e36e879171.png",
+            "pic": "/testname/img/c7669f492ad8fbbd442965e36e879171.png",
             "answers": [
                 {
                     "answer": "A, B, C, D, E, F, G",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Wie lang ist Ihr Name?",
-            "pic": "./testname/img/de_img/9a26eb1c1dca0b9c7dae856f3714700a.png",
+            "pic": "/testname/img/9a26eb1c1dca0b9c7dae856f3714700a.png",
             "answers": [
                 {
                     "answer": "Kurz",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Welche dieser körperlichen Fähigkeiten beherrschen Sie am besten?",
-            "pic": "./testname/img/de_img/d3f532412e18fd0710a403554642f7f2.png",
+            "pic": "/testname/img/d3f532412e18fd0710a403554642f7f2.png",
             "answers": [
                 {
                     "answer": "Laufen und Springen",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie eine Form des Dalgona-Kekses aus",
-            "pic": "./testname/img/de_img/9c7637a4e0cc0a933ec8d128a49e6d9a.png",
+            "pic": "/testname/img/9c7637a4e0cc0a933ec8d128a49e6d9a.png",
             "answers": [
                 {
                     "answer": "Stern",

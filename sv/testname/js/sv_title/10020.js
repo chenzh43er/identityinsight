@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken Disney-figur matchar ditt bästa ämne i skolan? 🏰💡",
-    "mainPic": "./testname/img/sv_img/aecf360b21f2df880f3a16b72898104b.gif",
+    "mainPic": "/testname/img/aecf360b21f2df880f3a16b72898104b.gif",
     "thems": [
         "Disney",
         "Disneyfigurer",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad gör du när du måste plugga till en tenta?",
-            "pic": "./testname/img/sv_img/cedf3fa662723d13a292ae3ee8bf2e13.png",
+            "pic": "/testname/img/cedf3fa662723d13a292ae3ee8bf2e13.png",
             "answers": [
                 {
                     "answer": "Jag förbereder en läslista",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Vilken typ av böcker vill du läsa?",
-            "pic": "./testname/img/sv_img/993f3c4f5779ef8123d884323e2b233c.png",
+            "pic": "/testname/img/993f3c4f5779ef8123d884323e2b233c.png",
             "answers": [
                 {
                     "answer": "Berättelser från andra tider",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Din vän har problem med ett svårt ämne, hur hjälper du dem?",
-            "pic": "./testname/img/sv_img/870678cab000ade8493457ac29d21f7b.png",
+            "pic": "/testname/img/870678cab000ade8493457ac29d21f7b.png",
             "answers": [
                 {
                     "answer": "Jag förklarar med historiska exempel",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hur antecknar du i klassen?",
-            "pic": "./testname/img/sv_img/7f0f13ba580b6a86b209323b11c22ef3.png",
+            "pic": "/testname/img/7f0f13ba580b6a86b209323b11c22ef3.png",
             "answers": [
                 {
                     "answer": "Detaljerat och organiserat",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Vad tittar du på en ledig eftermiddag?",
-            "pic": "./testname/img/sv_img/211ff3d6dc3e1981d32c27a933d3d406.png",
+            "pic": "/testname/img/211ff3d6dc3e1981d32c27a933d3d406.png",
             "answers": [
                 {
                     "answer": "Historiska dokumentärer",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Hur beskriver dina vänner dig?",
-            "pic": "./testname/img/sv_img/4e7892a5aab3ddee40f68501d097e681.png",
+            "pic": "/testname/img/4e7892a5aab3ddee40f68501d097e681.png",
             "answers": [
                 {
                     "answer": "Nyfiken och observant",

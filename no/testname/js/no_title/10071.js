@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hva avslører nivået på fødselshoroskopet om deg?",
-    "mainPic": "./testname/img/no_img/d3dce2b2e576761a9a2a52a41391d0e3.gif",
+    "mainPic": "/testname/img/d3dce2b2e576761a9a2a52a41391d0e3.gif",
     "thems": [
         "Personlighet",
         "Fødselshoroskop",

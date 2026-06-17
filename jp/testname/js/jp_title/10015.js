@@ -1,6 +1,6 @@
 let quizData = {
     "title": "どのヴァンパイアハンターDのキャラクターがあなたに最も似ている？",
-    "mainPic": "./testname/img/jp_img/7c2813f835d9ce4fa734f5ac4866b356.gif",
+    "mainPic": "/testname/img/7c2813f835d9ce4fa734f5ac4866b356.gif",
     "thems": [
         "アニメーション",
         "ヴァンパイアハンターD",
@@ -15,29 +15,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "日光",
-                    "aPic": "./testname/img/jp_img/3ad129fa23e0384c5ac3f97fb8dc0a1d.png",
+                    "aPic": "/testname/img/3ad129fa23e0384c5ac3f97fb8dc0a1d.png",
                     "aId": 1
                 },
                 {
                     "answer": "ニンニク",
-                    "aPic": "./testname/img/jp_img/7bb298a44fc19a96900b0ff93d5c2c43.png",
+                    "aPic": "/testname/img/7bb298a44fc19a96900b0ff93d5c2c43.png",
                     "aId": 2
                 },
                 {
                     "answer": "木の杭",
-                    "aPic": "./testname/img/jp_img/f0b8c26ab5aee38a86dc7b4551985b60.png",
+                    "aPic": "/testname/img/f0b8c26ab5aee38a86dc7b4551985b60.png",
                     "aId": 3
                 },
                 {
                     "answer": "銀",
-                    "aPic": "./testname/img/jp_img/1d7c5e1b4a9a553fe0b092ffc36996db.png",
+                    "aPic": "/testname/img/1d7c5e1b4a9a553fe0b092ffc36996db.png",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "あなたは今、吸血鬼に噛まれたばかりです。最初に思ったことは？",
-            "pic": "./testname/img/jp_img/1ca723086fb00d390b3152e6f786abcc.jpg",
+            "pic": "/testname/img/1ca723086fb00d390b3152e6f786abcc.jpg",
             "answers": [
                 {
                     "answer": "力の時間",
@@ -67,19 +67,19 @@ let quizData = {
             "answers": [
                 {
                     "answer": "忠実な馬",
-                    "aPic": "./testname/img/jp_img/3cc5454957c731e2072fc7fb3ff68e16.png",
+                    "aPic": "/testname/img/3cc5454957c731e2072fc7fb3ff68e16.png",
                     "aId": 1
                 },
                 {
                     "answer": "喋る手",
-                    "aPic": "./testname/img/jp_img/935e75c809c5b0b83937602a747fe6da.png",
+                    "aPic": "/testname/img/935e75c809c5b0b83937602a747fe6da.png",
                     "aId": 2
                 }
             ]
         },
         {
             "question": "あなたの最大の弱点は何ですか？",
-            "pic": "./testname/img/jp_img/fd8580a863e79986ab9bb6b136ff38bf.jpg",
+            "pic": "/testname/img/fd8580a863e79986ab9bb6b136ff38bf.jpg",
             "answers": [
                 {
                     "answer": "信頼の問題",
@@ -105,7 +105,7 @@ let quizData = {
         },
         {
             "question": "何を求めますか？",
-            "pic": "./testname/img/jp_img/2f0a557f47946c0f2ec8e23e801a87df.jpg",
+            "pic": "/testname/img/2f0a557f47946c0f2ec8e23e801a87df.jpg",
             "answers": [
                 {
                     "answer": "究極の力",

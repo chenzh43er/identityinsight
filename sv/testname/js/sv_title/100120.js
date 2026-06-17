@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Fatta beslut utifrån ditt stjärntecken och ta reda på vad din själsfrände heter!",
-    "mainPic": "./testname/img/sv_img/13bc72828b062229dd2750e3bafb47c4.gif",
+    "mainPic": "/testname/img/13bc72828b062229dd2750e3bafb47c4.gif",
     "thems": [
         "Horoskop",
         "Födelsediagram",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
   "question": "Vad är ditt stjärntecken?",
-  "pic": "./testname/img/sv_img/01_33d25be3-bcd1-409e-ac46-3476a20c9fee.png",
+  "pic": "/testname/img/01_33d25be3-bcd1-409e-ac46-3476a20c9fee.png",
   "answers": [
     {
       "answer": "Tvillingarna, Vågen, Vattumannen",
@@ -37,7 +37,7 @@ let quizData = {
 }
 ,{
   "question": "Vilket element tillhör ditt stjärntecken?",
-  "pic": "./testname/img/sv_img/02_398fd30b-0005-4354-ac0f-c4e8ca392dbc.png",
+  "pic": "/testname/img/02_398fd30b-0005-4354-ac0f-c4e8ca392dbc.png",
   "answers": [
     {
       "answer": "Luft",
@@ -63,7 +63,7 @@ let quizData = {
 }
 ,{
   "question": "Vilken av dessa planeter påverkar ditt stjärntecken mest?",
-  "pic": "./testname/img/sv_img/03_93071ce2-f40f-4a55-a9e4-1580dbfea637.png",
+  "pic": "/testname/img/03_93071ce2-f40f-4a55-a9e4-1580dbfea637.png",
   "answers": [
     {
       "answer": "Månen eller Solen",
@@ -89,7 +89,7 @@ let quizData = {
 }
 ,{
   "question": "Vad är ditt ascendenttecken?",
-  "pic": "./testname/img/sv_img/04_466b7898-9fe0-492f-93c2-b07fd549ecc3.png",
+  "pic": "/testname/img/04_466b7898-9fe0-492f-93c2-b07fd549ecc3.png",
   "answers": [
     {
       "answer": "Tvillingarna, Vågen, Vattumannen",
@@ -115,7 +115,7 @@ let quizData = {
 }
 ,{
   "question": "Hur mycket tror du på ditt stjärntecken?",
-  "pic": "./testname/img/sv_img/05_9f1e5424-4ab2-47fe-a2e2-a2eff3b34bbd.png",
+  "pic": "/testname/img/05_9f1e5424-4ab2-47fe-a2e2-a2eff3b34bbd.png",
   "answers": [
     {
       "answer": "Helt och hållet, det definierar mig",

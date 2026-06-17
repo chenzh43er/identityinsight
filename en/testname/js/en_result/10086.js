@@ -12,7 +12,7 @@ and the Upside Down heard you loud and clear.
 You didn't even get to see the monster's face
 before you became its midnight snack.
     `,
-    "mainPic": "./testname/img/en_img/09_6cb22ac6be994a79a887e082875d831d.jpeg"
+    "mainPic": "/testname/img/09_6cb22ac6be994a79a887e082875d831d.jpeg"
   },
   "2": {
     "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀",
@@ -28,7 +28,7 @@ but the psychological toll of the vines got to you.
 You’re the character fans feel
 \"kind of sad\" about when you disappear.
     `,
-    "mainPic": "./testname/img/en_img/10_8d84958c5389410d9432767723543b6a.jpeg"
+    "mainPic": "/testname/img/10_8d84958c5389410d9432767723543b6a.jpeg"
   },
   "3": {
     "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀",
@@ -45,7 +45,7 @@ in a heroic blaze of glory.
 
 You’re the Eddie Munson of your friend group.
     `,
-    "mainPic": "./testname/img/en_img/11_fff9b44e5840410580166b9fcc771e2a.jpeg"
+    "mainPic": "/testname/img/11_fff9b44e5840410580166b9fcc771e2a.jpeg"
   },
   "4": {
     "title": "How Many Minutes Would You Actually Last in the Upside Down? 💀",
@@ -61,6 +61,6 @@ grit, and cold-blooded survival skills.
 You’ll be back for Season 5
 with a cool scar and a lot of trauma.
     `,
-    "mainPic": "./testname/img/en_img/12_64c38bb1943d46e5b8b0e69a9c5caa36.jpeg"
+    "mainPic": "/testname/img/12_64c38bb1943d46e5b8b0e69a9c5caa36.jpeg"
   }
 };

@@ -1,15 +1,15 @@
 const dataPage = {
 	"mostPopular":[{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10045",
-		"pic":"./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+		"pic":"/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
 		"title":"¿Cuál es tu nivel de fútbol en VRFS?"
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10046",
-		"pic":"./testname/img/es_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+		"pic":"/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
 		"title":"¿Qué Avatar de Roblox Coincide con tu Vibe?"
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10047",
-		"pic":"./testname/img/es_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+		"pic":"/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
 		"title":"¿Qué Volúmenes De Música De Sprunki Incredibox Reflejan Tu Lado Interior?"
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10000",
@@ -17,19 +17,19 @@ const dataPage = {
 		"title":"Soy Gato VR: Descubre la Verdadera Personalidad de tu Gato con Este Quiz. "
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10045",
-		"pic":"./testname/img/es_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+		"pic":"/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
 		"title":"¿Cuál es tu nivel de fútbol en VRFS?"
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10005",
-		"pic":"./testname/img/es_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
+		"pic":"/testname/img/7493626ca93012f6fbf2a3e2e94b9167.gif",
 		"title":"¿Qué Revela Tu Posición Al Dormir Sobre Tu Vida Amorosa? 💞🌙 "
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10006",
-		"pic":"./testname/img/es_img/735a575acde713df117f43d8defde53b.gif",
+		"pic":"/testname/img/735a575acde713df117f43d8defde53b.gif",
 		"title":"¿Qué princesa de Disney eres? "
 	},{
 		"url":"https://identityinsight.org/es/test-page_es/?utm_content=10008",
-		"pic":"./testname/img/es_img/0d6750b62c056fcc442c95a88e28e316.gif",
+		"pic":"/testname/img/0d6750b62c056fcc442c95a88e28e316.gif",
 		"title":"Mide Tu Estrés Escolar | ¿Qué Tan Estresado Estás?"
 	},{
 		"url": "https://identityinsight.org/es/test-page_es/?utm_content=10009",

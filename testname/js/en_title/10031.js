@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Look A Like Cam: Which Celebrity Do You Look Like?",
-    "mainPic": "./testname/img/en_img/ae65488ddb169cb68cf3b5ea59205b06.jpeg",
+    "mainPic": "/testname/img/ae65488ddb169cb68cf3b5ea59205b06.jpeg",
     "thems": [
         "Personality",
         "Celebs",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "What’s your go-to selfie expression?",
-            "pic": "./testname/img/en_img/a118ba0a3b7a8adf8878713186a26fe0.jpg",
+            "pic": "/testname/img/a118ba0a3b7a8adf8878713186a26fe0.jpg",
             "answers": [
                 {
                     "answer": "Soft smile",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "How would your friends describe your vibe?",
-            "pic": "./testname/img/en_img/d9098d9be3915fa3277d57564e0ae023.jpg",
+            "pic": "/testname/img/d9098d9be3915fa3277d57564e0ae023.jpg",
             "answers": [
                 {
                     "answer": "Cool & chill",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "What's your typical outfit vibe?",
-            "pic": "./testname/img/en_img/179b0b8bfecf01e40f4d49cd5b064700.jpg",
+            "pic": "/testname/img/179b0b8bfecf01e40f4d49cd5b064700.jpg",
             "answers": [
                 {
                     "answer": "Streetwear",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "What’s your hair vibe most of the time?",
-            "pic": "./testname/img/en_img/326b42eaf8bd0961ab2b9b15cc94d3ea.jpg",
+            "pic": "/testname/img/326b42eaf8bd0961ab2b9b15cc94d3ea.jpg",
             "answers": [
                 {
                     "answer": "Sleek straight",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Choose a makeup look (or mood):",
-            "pic": "./testname/img/en_img/e9393fd702ab6c7f9dc0a501efbb10e5.jpg",
+            "pic": "/testname/img/e9393fd702ab6c7f9dc0a501efbb10e5.jpg",
             "answers": [
                 {
                     "answer": "Natural glow",

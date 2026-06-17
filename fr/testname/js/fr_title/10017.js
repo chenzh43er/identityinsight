@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quelle a été la première impression de votre amoureux sur vous par rapport à l'impression actuelle?",
-    "mainPic": "./testname/img/fr_img/3587ec0926c5d2c63bf37e582e73a32d.gif",
+    "mainPic": "/testname/img/3587ec0926c5d2c63bf37e582e73a32d.gif",
     "thems": [
         "Amoureux",
         "Impression",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle est votre activité préférée à présent quand vous êtes ensemble ?",
-            "pic": "./testname/img/fr_img/9c7f0c72261f2e684d72fa513ebf50a1.jpg",
+            "pic": "/testname/img/9c7f0c72261f2e684d72fa513ebf50a1.jpg",
             "answers": [
                 {
                     "answer": "Regarder des films",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Comment passez-vous habituellement vos week-ends maintenant?",
-            "pic": "./testname/img/fr_img/46ea326939736b9f396a18450ecab6dc.jpg",
+            "pic": "/testname/img/46ea326939736b9f396a18450ecab6dc.jpg",
             "answers": [
                 {
                     "answer": "Sortir",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Comment vous êtes-vous habillé pour votre premier rendez-vous ?",
-            "pic": "./testname/img/fr_img/7ce2c4a257998f11de57122cf5f1cd07.jpg",
+            "pic": "/testname/img/7ce2c4a257998f11de57122cf5f1cd07.jpg",
             "answers": [
                 {
                     "answer": "Décontracté",

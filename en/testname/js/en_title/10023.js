@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Spring Break Movie Guy Is Your Soulmate?",
-    "mainPic": "./testname/img/en_img/759f115373891120964d14945775f483.gif",
+    "mainPic": "/testname/img/759f115373891120964d14945775f483.gif",
     "thems": [
         "Movies",
         "Soulmate",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "What would your ideal vacation date be?",
-            "pic": "./testname/img/en_img/05930a5d9dca535f1e9d55c3da2b787e.png",
+            "pic": "/testname/img/05930a5d9dca535f1e9d55c3da2b787e.png",
             "answers": [
                 {
                     "answer": "🍿 Movies and snacks",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "What type of guy are you most into?",
-            "pic": "./testname/img/en_img/d797bab86e70cf6beae686c004e4941a.png",
+            "pic": "/testname/img/d797bab86e70cf6beae686c004e4941a.png",
             "answers": [
                 {
                     "answer": "Extroverted and sweet",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "What’s a must-have in your relationship?",
-            "pic": "./testname/img/en_img/44244f203c9d175ad729fa9e632a27fb.png",
+            "pic": "/testname/img/44244f203c9d175ad729fa9e632a27fb.png",
             "answers": [
                 {
                     "answer": "Romantic gestures",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "What kind of message would you love to get?",
-            "pic": "./testname/img/en_img/d7f80a134aa5c1df5ac934323b55ea7e.jpg",
+            "pic": "/testname/img/d7f80a134aa5c1df5ac934323b55ea7e.jpg",
             "answers": [
                 {
                     "answer": "I miss you already",

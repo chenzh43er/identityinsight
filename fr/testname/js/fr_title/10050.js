@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel animal magique de Harry Potter serait ton compagnon ?",
-    "mainPic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+    "mainPic": "/testname/img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Comment te décrirais-tu ?",
-            "pic": "./testname/img/fr_img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
+            "pic": "/testname/img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
             "answers": [
                 {
                     "answer": "Fier(ère) et indépendant(e).",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Que ferais-tu si tu étais menacé(e) ?",
-            "pic": "./testname/img/fr_img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
+            "pic": "/testname/img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
             "answers": [
                  {
                     "answer": "Me battre jusqu’à la fin.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Quel est ton plus grand rêve ?",
-            "pic": "./testname/img/fr_img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
+            "pic": "/testname/img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
             "answers": [
                  {
                     "answer": "La liberté.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Où aimerais-tu vivre ?",
-            "pic": "./testname/img/fr_img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
+            "pic": "/testname/img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
             "answers": [
                 {
                     "answer": "Dans les forêts de la Forêt Interdite.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Quelle capacité apprécies-tu le plus ?",
-            "pic": "./testname/img/fr_img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
+            "pic": "/testname/img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
             "answers": [
                  {
                     "answer": "La force et le courage.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Comment te comportes-tu avec tes amis ?",
-            "pic": "./testname/img/fr_img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
+            "pic": "/testname/img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
             "answers": [
                   {
                         "answer": "Je les protège de toutes mes forces.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Quel environnement te fascine le plus ?",
-            "pic": "./testname/img/fr_img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
+            "pic": "/testname/img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
             "answers": [
                 {
                     "answer": "Les forêts denses.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Quelle devise te représente le mieux ?",
-            "pic": "./testname/img/fr_img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
+            "pic": "/testname/img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
             "answers": [
                   {
                         "answer": "« La liberté est mon plus grand trésor. »",

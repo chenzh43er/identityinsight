@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué Casa de Hogwarts Te Conviene Más?",
-    "mainPic": "./testname/img/es_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+    "mainPic": "/testname/img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
     "thems": [
         "Harry Potter",
         "Hogwarts",

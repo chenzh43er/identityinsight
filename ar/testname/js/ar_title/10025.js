@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي فستان زفاف ديزني يعكس جوهرك الحقيقي؟ 👰✨",
-    "mainPic": "./testname/img/ar_img/532332b5bd731ee705a821a8270c0ed5.gif",
+    "mainPic": "/testname/img/532332b5bd731ee705a821a8270c0ed5.gif",
     "thems": [
         "فساتين الزفاف",
         "العروسات",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما هو الإكسسوار الذي يجب أن يكون في مظهرك؟",
-            "pic": "./testname/img/ar_img/2c4e73cc3afa3e15837c280abda6a982.jpg",
+            "pic": "/testname/img/2c4e73cc3afa3e15837c280abda6a982.jpg",
             "answers": [
                 {
                     "answer": "مجوهرات بلمسة غريبة",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "ما اللون الذي تُفضلينه لفستان زفافك؟",
-            "pic": "./testname/img/ar_img/d0d9a7a2e47d7215882c94847a8fd7cb.jpg",
+            "pic": "/testname/img/d0d9a7a2e47d7215882c94847a8fd7cb.jpg",
             "answers": [
                 {
                     "answer": "أ. تركواز",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ما هو موضوع حفل زفافك؟",
-            "pic": "./testname/img/ar_img/c89ae9cb0e1e014814b85c71e6680f37.jpg",
+            "pic": "/testname/img/c89ae9cb0e1e014814b85c71e6680f37.jpg",
             "answers": [
                 {
                     "answer": "حكاية خيالية في الصحراء",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "ما هي زهرتك المفضلة للباقه؟",
-            "pic": "./testname/img/ar_img/bba4617af031b319501e5144d1bf3daf.jpg",
+            "pic": "/testname/img/bba4617af031b319501e5144d1bf3daf.jpg",
             "answers": [
                 {
                     "answer": "أ. زنابق غريبة",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "ما نوع كعكة الزفاف التي ستختارها؟",
-            "pic": "./testname/img/ar_img/e5d60d4410fab7cc9f87b9c761d9c4bb.jpg",
+            "pic": "/testname/img/e5d60d4410fab7cc9f87b9c761d9c4bb.jpg",
             "answers": [
                 {
                     "answer": "كعكة بنكهات غريبة",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "كيف تصف شخصيتك؟",
-            "pic": "./testname/img/ar_img/51acd467e79f0a7ede36fdce8ab69857.jpg",
+            "pic": "/testname/img/51acd467e79f0a7ede36fdce8ab69857.jpg",
             "answers": [
                 {
                     "answer": "مغامر وحر",

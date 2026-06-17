@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat is jouw mentale astrologie?",
-    "mainPic": "./testname/img/nl_img/67ab9a66372b41ff80637d2f34775da7.gif",
+    "mainPic": "/testname/img/67ab9a66372b41ff80637d2f34775da7.gif",
     "thems": [
         "Mentaal",
         "Astrologie",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hoe ga je met problemen om?",
-            "pic": "./testname/img/nl_img/feab69941493609eee17e90b0dd388e1.png",
+            "pic": "/testname/img/feab69941493609eee17e90b0dd388e1.png",
             "answers": [
                 {
                     "answer": "Praat met iemand",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Waar dagdroom je over?",
-            "pic": "./testname/img/nl_img/747d8633362bcf7ff468b4310472ab32.png",
+            "pic": "/testname/img/747d8633362bcf7ff468b4310472ab32.png",
             "answers": [
                 {
                     "answer": "Hoe dingen werken",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Beste ruimte om na te denken?",
-            "pic": "./testname/img/nl_img/3325de245b645f2d7726ee757d4b5ffd.png",
+            "pic": "/testname/img/3325de245b645f2d7726ee757d4b5ffd.png",
             "answers": [
                 {
                     "answer": "Warm en sociaal",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Wat motiveert jou het meest?",
-            "pic": "./testname/img/nl_img/00fdb92f82818bd5247f08ebdccb5f2b.jpeg",
+            "pic": "/testname/img/00fdb92f82818bd5247f08ebdccb5f2b.jpeg",
             "answers": [
                 {
                     "answer": "Verbinding",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Wat is je mentale stemming?",
-            "pic": "./testname/img/nl_img/c7baf9d44ae277c9d56851eaf9966d84.png",
+            "pic": "/testname/img/c7baf9d44ae277c9d56851eaf9966d84.png",
             "answers": [
                 {
                     "answer": "Gevoelig",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Hoe leer je het beste?",
-            "pic": "./testname/img/nl_img/01a5e141f549025242218fa0ac7dca54.png",
+            "pic": "/testname/img/01a5e141f549025242218fa0ac7dca54.png",
             "answers": [
                 {
                     "answer": "Met anderen",

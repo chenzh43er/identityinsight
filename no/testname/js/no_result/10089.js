@@ -28,7 +28,7 @@ som gjør at du
 holder ut,
 dag etter dag.
     `,
-    "mainPic": "./testname/img/no_img/77_9657aee6e9d7432aae9783057c4b5909.jpeg"
+    "mainPic": "/testname/img/77_9657aee6e9d7432aae9783057c4b5909.jpeg"
   },
   "2": {
     "title": "Hvor lik er du egentlig Pørni i hverdagen?",
@@ -56,7 +56,7 @@ uten å miste
 deg selv
 helt.
     `,
-    "mainPic": "./testname/img/no_img/78_e8227439bf66412c9eea85959dbbcb45.jpeg"
+    "mainPic": "/testname/img/78_e8227439bf66412c9eea85959dbbcb45.jpeg"
   },
   "3": {
     "title": "Hvor lik er du egentlig Pørni i hverdagen?",
@@ -84,6 +84,6 @@ til å se andre —
 uten å bære
 alt alene.
     `,
-    "mainPic": "./testname/img/no_img/79_c3b8acce470d4f949037b8697067d480.jpeg"
+    "mainPic": "/testname/img/79_c3b8acce470d4f949037b8697067d480.jpeg"
   }
 };

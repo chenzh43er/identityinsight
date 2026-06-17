@@ -21,7 +21,7 @@ det er en livsstil
 som krever litt innsats,
 og du elsker det.
     `,
-    "mainPic": "./testname/img/no_img/21_258611682f91459583e51b2b76f0b971.png"
+    "mainPic": "/testname/img/21_258611682f91459583e51b2b76f0b971.png"
   },
   "2": {
     "title": "Hvilken hytte-type er du egentlig? Finn din perfekte feriestil!",
@@ -44,7 +44,7 @@ på terrassen.
 Du drar ikke på hytta
 for å fryse!
     `,
-    "mainPic": "./testname/img/no_img/22_6e484b97f9244f88aa7db14cc03a9529.jpeg"
+    "mainPic": "/testname/img/22_6e484b97f9244f88aa7db14cc03a9529.jpeg"
   },
   "3": {
     "title": "Hvilken hytte-type er du egentlig? Finn din perfekte feriestil!",
@@ -68,7 +68,7 @@ Din lykke er lyden
 av en sag
 lørdag morgen.
     `,
-    "mainPic": "./testname/img/no_img/23_b1370228b8b64526b98e0d5d64f77e10.jpeg"
+    "mainPic": "/testname/img/23_b1370228b8b64526b98e0d5d64f77e10.jpeg"
   },
   "4": {
     "title": "Hvilken hytte-type er du egentlig? Finn din perfekte feriestil!",
@@ -94,6 +94,6 @@ og lave skuldre.
 Stress er forbudt
 i hyttesonen.
     `,
-    "mainPic": "./testname/img/no_img/24_7f6c657cd6a94557bdc97498f845f18a.jpeg"
+    "mainPic": "/testname/img/24_7f6c657cd6a94557bdc97498f845f18a.jpeg"
   }
 };

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Test din nasjonalitet gjennom håndlesing",
-    "mainPic": "./testname/img/no_img/e03a3428cd3a4556940c594500755100.gif",
+    "mainPic": "/testname/img/e03a3428cd3a4556940c594500755100.gif",
     "thems": [
         "Horoskop",
         "Nasjonalitet",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvordan ser Livslinjen din ut?",
-            "pic": "./testname/img/no_img/0cdf2ce5f62065265279f968e5ee8ab3.jpg",
+            "pic": "/testname/img/0cdf2ce5f62065265279f968e5ee8ab3.jpg",
             "answers": [
                 {
                     "answer": "Lang og dyp",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hvordan er Hjertelinjen din formet?",
-            "pic": "./testname/img/no_img/d174aa56d00efa1f729059001688e42f.jpg",
+            "pic": "/testname/img/d174aa56d00efa1f729059001688e42f.jpg",
             "answers": [
                 {
                     "answer": "1",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hva er den dominerende fjelltoppen på håndflaten din?",
-            "pic": "./testname/img/no_img/db5149ed1e591fe380a7fb1fde32f230.jpg",
+            "pic": "/testname/img/db5149ed1e591fe380a7fb1fde32f230.jpg",
             "answers": [
                 {
                     "answer": "Venus-høyden",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hvor mange klare linjer krysser din Skjebnelinje?",
-            "pic": "./testname/img/no_img/db943f15958ccea168964bda01938c2d.jpg",
+            "pic": "/testname/img/db943f15958ccea168964bda01938c2d.jpg",
             "answers": [
                 {
                     "answer": "Ingen",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Hva viser hodelinjen din?",
-            "pic": "./testname/img/no_img/d8d518741fcb402c6d65be38756e1c64.jpg",
+            "pic": "/testname/img/d8d518741fcb402c6d65be38756e1c64.jpg",
             "answers": [
                 {
                     "answer": "Lang og klar",

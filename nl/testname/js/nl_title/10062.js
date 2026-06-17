@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welke mascotte ben jij in Indigo Park?",
-    "mainPic": "./testname/img/nl_img/2efd6662e6e1ce987e2d68253308670f.gif",
+    "mainPic": "/testname/img/2efd6662e6e1ce987e2d68253308670f.gif",
     "thems": [
         "Gaming",
         "Indigo Park",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat vind je het leukst aan het Indigo Park-spel?",
-            "pic": "./testname/img/nl_img/ba3de0532e04ba60b8e414ba5fffe34f.png",
+            "pic": "/testname/img/ba3de0532e04ba60b8e414ba5fffe34f.png",
             "answers": [
                 {
                     "answer": "De schrikeffecten",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Welke van deze vaardigheden zou je willen hebben?",
-            "pic": "./testname/img/nl_img/0c11572989f3d178a33ce3182b5f5078.png",
+            "pic": "/testname/img/0c11572989f3d178a33ce3182b5f5078.png",
             "answers": [
                 {
                     "answer": "Vliegen",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Kies een willekeurig verzamelobject uit het spel:",
-            "pic": "./testname/img/nl_img/aaef163522f4af3ff0a794bd4206a06c.png",
+            "pic": "/testname/img/aaef163522f4af3ff0a794bd4206a06c.png",
             "answers": [
                 {
                     "answer": "Rambleberry",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Wat is je favoriete locatie in Indigo Park?",
-            "pic": "./testname/img/nl_img/fe87c958bcac096d352c8809d2590743.png",
+            "pic": "/testname/img/fe87c958bcac096d352c8809d2590743.png",
             "answers": [
                 {
                     "answer": "Mollie’s Landing Pad",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Wat zou je doen als iemand zonder jouw toestemming jouw territorium binnendringt?",
-            "pic": "./testname/img/nl_img/e303bf0e6d7f5eed9a8e559f391e1a0a.png",
+            "pic": "/testname/img/e303bf0e6d7f5eed9a8e559f391e1a0a.png",
             "answers": [
                 {
                     "answer": "Ik kijk gewoon naar hen vanuit de schaduwen",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welke kerstbijnaam past bij jouw persoonlijkheid?",
-    "mainPic": "./testname/img/nl_img/7e6724b0371aec70640ebd458521951d.gif",
+    "mainPic": "/testname/img/7e6724b0371aec70640ebd458521951d.gif",
     "thems": [
         "Kerstmis",
         "XmasMagic",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hoe versier je je kerstboom?",
-            "pic": "./testname/img/nl_img/05d8d37bdf984e5be77cf29b11c6a2cb.png",
+            "pic": "/testname/img/05d8d37bdf984e5be77cf29b11c6a2cb.png",
             "answers": [
                 {
                     "answer": "Met klassieke ornamenten en suikerstokken",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Wat is je favoriete vakantieactiviteit?",
-            "pic": "./testname/img/nl_img/5cc13dc568a9c3a47dc441ee63864402.png",
+            "pic": "/testname/img/5cc13dc568a9c3a47dc441ee63864402.png",
             "answers": [
                 {
                     "answer": "Koekjes of lekkernijen bakken",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hoe kleed je je voor feestdagen?",
-            "pic": "./testname/img/nl_img/2ffd2be99037c43bade3fc5c2f30cc4a.png",
+            "pic": "/testname/img/2ffd2be99037c43bade3fc5c2f30cc4a.png",
             "answers": [
                 {
                     "answer": "Gezellig en warm",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welk soort kerstcadeau geef je graag?",
-            "pic": "./testname/img/nl_img/4a1952c14ddc98acf585b7ff54cac2ca.png",
+            "pic": "/testname/img/4a1952c14ddc98acf585b7ff54cac2ca.png",
             "answers": [
                 {
                     "answer": "Handgemaakt",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Welk kerstlied beschrijft jou het beste?",
-            "pic": "./testname/img/nl_img/35664e83e4a65d0c6d77ca231b53ce93.png",
+            "pic": "/testname/img/35664e83e4a65d0c6d77ca231b53ce93.png",
             "answers": [
                 {
                     "answer": "We Wish You a Merry Christmas",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Kies een kersttraktatie",
-            "pic": "./testname/img/nl_img/df857d2314031df03195df4d24e6d19c.png",
+            "pic": "/testname/img/df857d2314031df03195df4d24e6d19c.png",
             "answers": [
                 {
                     "answer": "Gemberkoekjes",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvor heldig vil ditt stjernetegn være i 2025?",
-    "mainPic": "./testname/img/no_img/21b7edff05b8925ce62d27b1335fa608.gif",
+    "mainPic": "/testname/img/21b7edff05b8925ce62d27b1335fa608.gif",
     "thems": [
         "Stjernetegn",
         "Zodiak tegn",

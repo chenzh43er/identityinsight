@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hva er ditt sanne magiske talent på Galtvort?",
-    "mainPic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+    "mainPic": "/testname/img/2025-10-15_204806_876.jpg",
     "thems": ["Harry Potter", "Galtvort", "Film", "Filmer", "Fjernsyn", "Trivia"],
     "questions": [
         {
             "question": "Når du går inn i den forbudte skogen, hva gjør du først?",
-            "pic": "./testname/img/fr_img/m4b0c0o0l2.png",
+            "pic": "/testname/img/m4b0c0o0l2.png",
             "answers": [
                 {
                     "answer": "Jeg går forsiktig frem og skanner skyggene",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Du finner en fortryllet fjær på bakken. Hva gjør du ?",
-            "pic": "./testname/img/fr_img/c0d0y3c6d2.jpg",
+            "pic": "/testname/img/c0d0y3c6d2.jpg",
             "answers": [
                 {
                     "answer": "Jeg tar den og studerer den",
@@ -56,7 +56,7 @@ let quizData = {
         },
         {
             "question": "Hvilket kurs ville du vært mest investert i på Galtvort?",
-            "pic": "./testname/img/fr_img/a3w1o0i5n0.png",
+            "pic": "/testname/img/a3w1o0i5n0.png",
             "answers": [
                 {
                     "answer": "Metamorfose",
@@ -82,7 +82,7 @@ let quizData = {
         },
         {
             "question": "I en konfliktsituasjon er du mer:",
-            "pic": "./testname/img/fr_img/i2h2a0h2f0.jpg",
+            "pic": "/testname/img/i2h2a0h2f0.jpg",
             "answers": [
                 {
                     "answer": "Fredsstifteren som søker en mild løsning",
@@ -108,7 +108,7 @@ let quizData = {
         },
         {
             "question": "Hvilket magisk dyr vil best representere din ånd?",
-            "pic": "./testname/img/fr_img/a0b2d0g0a7.jpg",
+            "pic": "/testname/img/a0b2d0g0a7.jpg",
             "answers": [
                 {
                     "answer": "Phoenix",
@@ -134,7 +134,7 @@ let quizData = {
         },
         {
             "question": "Under et ball på Galtvort er du på dansegulvet: du foretrekker...",
-            "pic": "./testname/img/fr_img/e0i0n1a0f0.jpg",
+            "pic": "/testname/img/e0i0n1a0f0.jpg",
             "answers": [
                 {
                     "answer": "En lett dans under stjernene",
@@ -160,7 +160,7 @@ let quizData = {
         },
         {
             "question": "Hvilken farge på magisk lys appellerer mest til deg?",
-            "pic": "./testname/img/fr_img/j6e0a1u0h1.jpg",
+            "pic": "/testname/img/j6e0a1u0h1.jpg",
             "answers": [
                 {
                     "answer": "varmt gull",
@@ -186,7 +186,7 @@ let quizData = {
         },
         {
             "question": "En profeti utpeker deg til et viktig oppdrag. Hva føler du?",
-            "pic": "./testname/img/fr_img/a2f6a1e2t7.jpg",
+            "pic": "/testname/img/a2f6a1e2t7.jpg",
             "answers": [
                 {
                     "answer": "Ære og nysgjerrighet",
@@ -212,7 +212,7 @@ let quizData = {
         },
         {
             "question": "Når du hører «Prisoner of Azkaban», er ditt første ord...",
-            "pic": "./testname/img/fr_img/e0a2c2i7b1.jpg",
+            "pic": "/testname/img/e0a2c2i7b1.jpg",
             "answers": [
                 {
                     "answer": "Hemmelig",

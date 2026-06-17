@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Si puedes responder estas 10 preguntas, ¡tienes un coeficiente intelectual superior a 160!",
-    "mainPic": "./testname/img/es_img/7a3cd5b4f20e976e6c50e11563f1af9a.gif",
+    "mainPic": "/testname/img/7a3cd5b4f20e976e6c50e11563f1af9a.gif",
     "thems": [
         "IQ",
         "Prueba de IQ",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Si un caracol se mueve 3 cm en un minuto y descansa durante 2 minutos, ¿qué distancia recorrerá en 15 minutos?",
-            "pic": "./testname/img/es_img/5d7fe687abe277f2f4a45208709ff778.png",
+            "pic": "/testname/img/5d7fe687abe277f2f4a45208709ff778.png",
             "answers": [
                 {
                     "answer": "10 cm",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "¿Cuántos agujeros tiene esta camisa?",
-            "pic": "./testname/img/es_img/56bce2ccfce3ede001c025913d484d28.png",
+            "pic": "/testname/img/56bce2ccfce3ede001c025913d484d28.png",
             "answers": [
                 {
                     "answer": "2 agujeros",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Si 6 bolígrafos cuestan 70 dólares, ¿cuánto cuestan 9 bolígrafos?",
-            "pic": "./testname/img/es_img/bcf1cf380570f2161a640d74b2c4763e.png",
+            "pic": "/testname/img/bcf1cf380570f2161a640d74b2c4763e.png",
             "answers": [
                 {
                     "answer": "100 dólares",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "¿Qué número falta en el centro de la pirámide?",
-            "pic": "./testname/img/es_img/2134c8d1282d41ce33978e2c50cb233e.png",
+            "pic": "/testname/img/2134c8d1282d41ce33978e2c50cb233e.png",
             "answers": [
                 {
                     "answer": "3",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es la palabra para referirse a una persona que ama a la humanidad?",
-            "pic": "./testname/img/es_img/2e8b2b59d1812f7eced1d2756bc8186f.png",
+            "pic": "/testname/img/2e8b2b59d1812f7eced1d2756bc8186f.png",
             "answers": [
                 {
                     "answer": "Filántropo",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "¿Cuántos triángulos encuentras en esta imagen?",
-            "pic": "./testname/img/es_img/37218650cb8f7f9527a326735c665895.png",
+            "pic": "/testname/img/37218650cb8f7f9527a326735c665895.png",
             "answers": [
                 {
                     "answer": "10",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "¿Qué letra sigue en esta secuencia: A, C, F, J, _?",
-            "pic": "./testname/img/es_img/8a9bdf51b9bd74e68a9df740a2c85b73.png",
+            "pic": "/testname/img/8a9bdf51b9bd74e68a9df740a2c85b73.png",
             "answers": [
                 {
                     "answer": "K",
@@ -194,7 +194,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es el resultado correcto?",
-            "pic": "./testname/img/es_img/dfaeddc9d7d79b7200e093598b1819a9.png",
+            "pic": "/testname/img/dfaeddc9d7d79b7200e093598b1819a9.png",
             "answers": [
                 {
                     "answer": "6",
@@ -220,7 +220,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es la mitad de un cuarto de 12,000?",
-            "pic": "./testname/img/es_img/508d78d8117fa0be0975942a0dbf99da.png",
+            "pic": "/testname/img/508d78d8117fa0be0975942a0dbf99da.png",
             "answers": [
                 {
                     "answer": "1,500",
@@ -246,7 +246,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál de los siguientes animales no coincide con los demás?",
-            "pic": "./testname/img/es_img/15cdba8493cbc57f10a3665688a74625.png",
+            "pic": "/testname/img/15cdba8493cbc57f10a3665688a74625.png",
             "answers": [
                 {
                     "answer": "Lobo",

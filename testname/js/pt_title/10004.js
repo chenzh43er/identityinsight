@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quantas pessoas estão apaixonadas por você na escola?",
-    "mainPic": "./testname/img/pt_img/904b585caba8ef47d1ea92b039bb8575.gif",
+    "mainPic": "/testname/img/904b585caba8ef47d1ea92b039bb8575.gif",
     "thems": [
         "Amor",
         "Paixão",

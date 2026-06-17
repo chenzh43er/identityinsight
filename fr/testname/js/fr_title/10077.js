@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Votre pierre de naissance révèle votre destin amoureux !",
-    "mainPic": "./testname/img/fr_img/4d97ab7720b56c2156b9ad2115523ba3.gif",
+    "mainPic": "/testname/img/4d97ab7720b56c2156b9ad2115523ba3.gif",
     "thems": [
         "Horoscope",
         "Pierre précieuse",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel est votre mois de naissance?",
-            "pic": "./testname/img/fr_img/feadde12538a88f7c392cdb0d1c3a3d7.png",
+            "pic": "/testname/img/feadde12538a88f7c392cdb0d1c3a3d7.png",
             "answers": [
                 {
                     "answer": "Janvier, Février, Mars",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quelle pierre précieuse est associée à votre mois de naissance?",
-            "pic": "./testname/img/fr_img/c240a2fdfcde5240d165ccbb2a0c50cb.png",
+            "pic": "/testname/img/c240a2fdfcde5240d165ccbb2a0c50cb.png",
             "answers": [
                 {
                     "answer": "Grenat, améthyste ou aigue-marine",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "À quelle date du mois êtes-vous né(e) ?",
-            "pic": "./testname/img/fr_img/d82c5000b391e0a58a3321acbc382570.png",
+            "pic": "/testname/img/d82c5000b391e0a58a3321acbc382570.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre signe du zodiaque et votre élément ?",
-            "pic": "./testname/img/fr_img/247f488aff7ba7b64fe02be5fdf896de.png",
+            "pic": "/testname/img/247f488aff7ba7b64fe02be5fdf896de.png",
             "answers": [
                 {
                     "answer": "Air (Gémeaux, Balance, Verseau)",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Choisissez une autre pierre précieuse qui attire votre attention :",
-            "pic": "./testname/img/fr_img/21b5c641a890080507c258b7ff9993cc.png",
+            "pic": "/testname/img/21b5c641a890080507c258b7ff9993cc.png",
             "answers": [
                 {
                     "answer": "Tourmaline",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "I Am Cat VR：このクイズであなたの本当の猫の性格を見つけましょう。",
-    "mainPic": "./testname/img/jp_img/d2c033f7aefc629af9c027adb29f4535.gif",
+    "mainPic": "/testname/img/d2c033f7aefc629af9c027adb29f4535.gif",
     "thems": [
         "猫",
         "性格",
@@ -15,7 +15,7 @@ let quizData = {
     "questions": [
         {
             "question": "掃除機を見たらどうしますか？",
-            "pic": "./testname/img/jp_img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
+            "pic": "/testname/img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
             "answers": [
                 {
                     "answer": "逃げて隠れる",
@@ -41,7 +41,7 @@ let quizData = {
         },
         {
             "question": "新しい人にどう反応しますか？",
-            "pic": "./testname/img/jp_img/426ef9d186b10e405ea56f1d234a3f95.jpg",
+            "pic": "/testname/img/426ef9d186b10e405ea56f1d234a3f95.jpg",
             "answers": [
                 {
                     "answer": "無視する",
@@ -67,7 +67,7 @@ let quizData = {
         },
         {
             "question": "あなたが眠るのに好きな場所はどこですか?",
-            "pic": "./testname/img/jp_img/c864892eb8634d63559a214bea9be1dd.jpg",
+            "pic": "/testname/img/c864892eb8634d63559a214bea9be1dd.jpg",
             "answers": [
                 {
                     "answer": "日なたで",
@@ -93,7 +93,7 @@ let quizData = {
         },
         {
             "question": "誰かがお腹に触れたらどうしますか？",
-            "pic": "./testname/img/jp_img/7f5440330de62cce9cd7848d7a75ec14.jpg",
+            "pic": "/testname/img/7f5440330de62cce9cd7848d7a75ec14.jpg",
             "answers": [
                 {
                     "answer": "即座に噛む",
@@ -119,7 +119,7 @@ let quizData = {
         },
         {
             "question": "食事が遅れた時の対処法は？",
-            "pic": "./testname/img/jp_img/62695ca489dda1dd4afc99eef23dc395.jpg",
+            "pic": "/testname/img/62695ca489dda1dd4afc99eef23dc395.jpg",
             "answers": [
                 {
                     "answer": "大声で鳴く",
@@ -145,7 +145,7 @@ let quizData = {
         },
         {
             "question": "お気に入りのおもちゃは何ですか？",
-            "pic": "./testname/img/jp_img/98137defcdebf18f0b048058ff72a8c6.jpg",
+            "pic": "/testname/img/98137defcdebf18f0b048058ff72a8c6.jpg",
             "answers": [
                 {
                     "answer": "レーザーポインター",

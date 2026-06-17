@@ -7,7 +7,7 @@ const results = {
 It’s not flashy — but it’s necessary.
 Take the time to lay strong foundations; growth comes from patience and persistence.
     `,
-    "mainPic": "./testname/img/en_img/68_d8c6d8ddecbf41c7b5e675e396cbf6cd.jpeg"
+    "mainPic": "/testname/img/68_d8c6d8ddecbf41c7b5e675e396cbf6cd.jpeg"
   },
 
   "2": {
@@ -18,7 +18,7 @@ Take the time to lay strong foundations; growth comes from patience and persiste
 And that’s okay.
 Experiment, explore, and embrace uncertainty — it’s all part of finding your path.
     `,
-    "mainPic": "./testname/img/en_img/69_5ef46946af2044358afa93c4dc144971.jpeg"
+    "mainPic": "/testname/img/69_5ef46946af2044358afa93c4dc144971.jpeg"
   },
 
   "3": {
@@ -29,7 +29,7 @@ Experiment, explore, and embrace uncertainty — it’s all part of finding your
 Just don’t burn out before the payoff.
 Focus and persistence are your allies — keep moving forward while taking care of yourself.
     `,
-    "mainPic": "./testname/img/en_img/70_6c074d55ca444f6b8cf36b174b3b5430.jpeg"
+    "mainPic": "/testname/img/70_6c074d55ca444f6b8cf36b174b3b5430.jpeg"
   },
 
   "4": {
@@ -40,6 +40,6 @@ Focus and persistence are your allies — keep moving forward while taking care 
 Taking breaks and resetting your energy is essential.
 This era is about self-care, reflection, and preparing for growth.
     `,
-    "mainPic": "./testname/img/en_img/71_170acf29d0d04995b6cc66036ced03fc.jpeg"
+    "mainPic": "/testname/img/71_170acf29d0d04995b6cc66036ced03fc.jpeg"
   }
 };

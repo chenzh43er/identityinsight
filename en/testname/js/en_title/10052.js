@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Does Your Birth Date Say About You?",
-    "mainPic": "./testname/img/en_img/fb8735e8b05c2c908745cfc0007e80b0.gif",
+    "mainPic": "/testname/img/fb8735e8b05c2c908745cfc0007e80b0.gif",
     "thems": [
         "BirthDate",
         "Fun",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Which month's vibe resonates with you the most?",
-            "pic": "./testname/img/en_img/711b90c59b21dc40bda44c34d41c4507.png",
+            "pic": "/testname/img/711b90c59b21dc40bda44c34d41c4507.png",
             "answers": [
                 {
                     "answer": "January - Fresh Start",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "How do you usually celebrate your birthday?",
-            "pic": "./testname/img/en_img/0ff4d54c2c6795e0a7bb326e875719b6.png",
+            "pic": "/testname/img/0ff4d54c2c6795e0a7bb326e875719b6.png",
             "answers": [
                 {
                     "answer": "Throw a big party",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "What is your favorite season?",
-            "pic": "./testname/img/en_img/fc9145819b61b884b6381b3fdf0b468d.png",
+            "pic": "/testname/img/fc9145819b61b884b6381b3fdf0b468d.png",
             "answers": [
                 {
                     "answer": "Winter - Festive and Fun",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Choose your favorite hobby?",
-            "pic": "./testname/img/en_img/7d0ccc7601c156dbbe7777bf6ca26331.png",
+            "pic": "/testname/img/7d0ccc7601c156dbbe7777bf6ca26331.png",
             "answers": [
                 {
                     "answer": "Sports - Active and Energetic",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "In a group project, you prefer to...",
-            "pic": "./testname/img/en_img/80975e1629597975fe8fc7b9be769e02.png",
+            "pic": "/testname/img/80975e1629597975fe8fc7b9be769e02.png",
             "answers": [
                 {
                     "answer": "Take charge and lead",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "How would you describe your sense of humor?",
-            "pic": "./testname/img/en_img/53a527e91fe9f83fa43be5e2ac0ac138.png",
+            "pic": "/testname/img/53a527e91fe9f83fa43be5e2ac0ac138.png",
             "answers": [
                 {
                     "answer": "Witty and Clever",

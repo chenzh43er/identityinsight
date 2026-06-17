@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qui est votre partenaire de vie destiné?",
-    "mainPic": "./testname/img/fr_img/b893322ce802ef9b322e0c5a47fec5e7.gif",
+    "mainPic": "/testname/img/b893322ce802ef9b322e0c5a47fec5e7.gif",
     "thems": [
         "Amour",
         "Partenaire",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle est votre priorité dans une relation à long terme ?",
-            "pic": "./testname/img/fr_img/981a7c198485f48d17e6a5975553ec1a.png",
+            "pic": "/testname/img/981a7c198485f48d17e6a5975553ec1a.png",
             "answers": [
                 {
                     "answer": "S'amuser",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Quelle qualité appréciez-vous le plus chez un partenaire ?",
-            "pic": "./testname/img/fr_img/3e759071edabf1aea14dc5cb5e0ee35e.png",
+            "pic": "/testname/img/3e759071edabf1aea14dc5cb5e0ee35e.png",
             "answers": [
                 {
                     "answer": "Intelligence",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre type de rendez-vous préféré ?",
-            "pic": "./testname/img/fr_img/507d701b9edecdbad6f4f5ef3f84db8e.png",
+            "pic": "/testname/img/507d701b9edecdbad6f4f5ef3f84db8e.png",
             "answers": [
                 {
                     "answer": "Quelque chose de spontané et détendu",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Comment montrez-vous généralement votre amour pour votre partenaire ?",
-            "pic": "./testname/img/fr_img/88df3c1976013603b3665a75721f74e4.png",
+            "pic": "/testname/img/88df3c1976013603b3665a75721f74e4.png",
             "answers": [
                 {
                     "answer": "Câlins et bisous",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Quel adjectif vous décrit dans une relation ?",
-            "pic": "./testname/img/fr_img/2b1892f9dbf5964df7ff2c5324593956.png",
+            "pic": "/testname/img/2b1892f9dbf5964df7ff2c5324593956.png",
             "answers": [
                 {
                     "answer": "Passionné",

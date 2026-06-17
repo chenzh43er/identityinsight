@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Find Out What Your AI Boyfriend Looks Like",
-    "mainPic": "./testname/img/en_img/6febc0f3e64d392a9e59182bff58fc75.gif",
+    "mainPic": "/testname/img/6febc0f3e64d392a9e59182bff58fc75.gif",
     "thems": [
         "Boyfriend",
         "AI",
@@ -13,29 +13,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/en_img/sr_174390449667f1def027a90.jpg",
+                    "aPic": "/testname/img/sr_174390449667f1def027a90.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/en_img/2278d5fba65a54c7595c66dd16901c70.png",
+                    "aPic": "/testname/img/2278d5fba65a54c7595c66dd16901c70.png",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/en_img/a2736008e609d53dde385028edf099ca.png",
+                    "aPic": "/testname/img/a2736008e609d53dde385028edf099ca.png",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/en_img/14dd5b217a6eead25b76e104d4024672.png",
+                    "aPic": "/testname/img/14dd5b217a6eead25b76e104d4024672.png",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "What do you like someone special to do for you?",
-            "pic": "./testname/img/en_img/50aeff69962374f2c75ce9b7fc0ed384.png",
+            "pic": "/testname/img/50aeff69962374f2c75ce9b7fc0ed384.png",
             "answers": [
                 {
                     "answer": "Listen to me well",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "What kind of messages do you prefer?",
-            "pic": "./testname/img/en_img/ba77411910558154d564352744d513ac.jpg",
+            "pic": "/testname/img/ba77411910558154d564352744d513ac.jpg",
             "answers": [
                 {
                     "answer": "Sweet and thoughtful",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "What do you prefer to do with your AI partner?",
-            "pic": "./testname/img/en_img/8a1aa9bd73997a0b7660a403ca3a042a.png",
+            "pic": "/testname/img/8a1aa9bd73997a0b7660a403ca3a042a.png",
             "answers": [
                 {
                     "answer": "Talk about everything",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "What would their style be like?",
-            "pic": "./testname/img/en_img/7c697165530bb7fc6fd1608941b3ad81.png",
+            "pic": "/testname/img/7c697165530bb7fc6fd1608941b3ad81.png",
             "answers": [
                 {
                     "answer": "Comfy and sweet",

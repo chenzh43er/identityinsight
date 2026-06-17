@@ -1,6 +1,6 @@
 let quizData = {
     "title": "L'endroit de votre tache de naissance révélera votre mort dans une vie antérieure !",
-    "mainPic": "./testname/img/fr_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+    "mainPic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
     "thems": [
         "Mort",
         "Tache de naissance",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Où est situé votre grain de beauté ?",
-            "pic": "./testname/img/fr_img/2dd44d549f230bfd92d6dda275306d69.jpg",
+            "pic": "/testname/img/2dd44d549f230bfd92d6dda275306d69.jpg",
             "answers": [
                 {
                     "answer": "Cou",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quelle forme a votre tache de naissance?",
-            "pic": "./testname/img/fr_img/ace14742239cf93a65304a6d16c84e99.jpg",
+            "pic": "/testname/img/ace14742239cf93a65304a6d16c84e99.jpg",
             "answers": [
                 {
                     "answer": "Ronde",

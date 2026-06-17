@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Är jag lojal eller en player? 💔🔒",
-    "mainPic": "./testname/img/sv_img/cc61100b6142456ed68cb2222fcfb8c2.gif",
+    "mainPic": "/testname/img/cc61100b6142456ed68cb2222fcfb8c2.gif",
     "thems": [
         "Romantik",
         "Relationer",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad gör du när du ser din förälskelse prata med någon annan?",
-            "pic": "./testname/img/sv_img/9be29af140fb60bbb83679e26dc5ff68.jpg",
+            "pic": "/testname/img/9be29af140fb60bbb83679e26dc5ff68.jpg",
             "answers": [
                 {
                     "answer": "Inget, jag litar på dem.",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hur ofta kollar du på din crushs stories?",
-            "pic": "./testname/img/sv_img/263f9507e0ae8b1b75e3e45ca5829366.jpg",
+            "pic": "/testname/img/263f9507e0ae8b1b75e3e45ca5829366.jpg",
             "answers": [
                 {
                     "answer": "Alltid, jag vill inte missa något!",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hur reagerar du när du får en komplimang?",
-            "pic": "./testname/img/sv_img/611373775e93b7bc81c849bff92d007e.jpg",
+            "pic": "/testname/img/611373775e93b7bc81c849bff92d007e.jpg",
             "answers": [
                 {
                     "answer": "Jag tackar och ger en tillbaka.",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Om du blir bjuden ut men redan har planer med vänner, vad gör du då?",
-            "pic": "./testname/img/sv_img/c64d6cdc9c7d5837481c4097790b6c85.jpg",
+            "pic": "/testname/img/c64d6cdc9c7d5837481c4097790b6c85.jpg",
             "answers": [
                 {
                     "answer": "Jag förklarar och föreslår ett annat datum.",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "När du gillar någon, hur visar du det?",
-            "pic": "./testname/img/sv_img/24a68dee3e7eacf597db6603f7dabe35.jpg",
+            "pic": "/testname/img/24a68dee3e7eacf597db6603f7dabe35.jpg",
             "answers": [
                 {
                     "answer": "Jag är väldigt uppmärksam och alltid där.",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Hur snabbt svarar du på meddelanden?",
-            "pic": "./testname/img/sv_img/4d2a414f29e01403ff2a50e6a46b6e63.jpg",
+            "pic": "/testname/img/4d2a414f29e01403ff2a50e6a46b6e63.jpg",
             "answers": [
                 {
                     "answer": "Omedelbart, jag kan inte vänta.",

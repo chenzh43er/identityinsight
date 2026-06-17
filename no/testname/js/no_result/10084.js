@@ -24,7 +24,7 @@ men spørsmålet er
 hvor mange kvelder
 til det varer.
     `,
-    "mainPic": "./testname/img/no_img/21_65b461aa7aa84fb697ae8aa5e85f04bf.jpeg"
+    "mainPic": "/testname/img/21_65b461aa7aa84fb697ae8aa5e85f04bf.jpeg"
   },
   "2": {
     "title": "Ville du overlevd en kveld med gjengen fra «Exit»?",
@@ -51,7 +51,7 @@ men at du
 blir en del
 av det.
     `,
-    "mainPic": "./testname/img/no_img/22_6760acb46f2b45298ba4f5f5aafb5009.jpeg"
+    "mainPic": "/testname/img/22_6760acb46f2b45298ba4f5f5aafb5009.jpeg"
   },
   "3": {
     "title": "Ville du overlevd en kveld med gjengen fra «Exit»?",
@@ -74,7 +74,7 @@ fordi du aldri
 gir alt
 av deg selv.
     `,
-    "mainPic": "./testname/img/no_img/23_175885b216a24d1985ab0146eebabe05.jpeg"
+    "mainPic": "/testname/img/23_175885b216a24d1985ab0146eebabe05.jpeg"
   },
   "4": {
     "title": "Ville du overlevd en kveld med gjengen fra «Exit»?",
@@ -97,6 +97,6 @@ ikke bare kvelden —
 du beholder også
 integriteten din.
     `,
-    "mainPic": "./testname/img/no_img/24_ad6e25d95a194814af63389a7e975b1e.jpeg"
+    "mainPic": "/testname/img/24_ad6e25d95a194814af63389a7e975b1e.jpeg"
   }
 };

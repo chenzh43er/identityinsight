@@ -1,6 +1,6 @@
 let quizData = {
     "title": "In welke reïncarnatie bevind je je nu?",
-    "mainPic": "./testname/img/nl_img/fac405620d97740b238099e3c19cd24f.gif",
+    "mainPic": "/testname/img/fac405620d97740b238099e3c19cd24f.gif",
     "thems": [
         "Reïncarnatie",
         "Horoscoop",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Met welk dier voel je je het meest verbonden?",
-            "pic": "./testname/img/nl_img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
+            "pic": "/testname/img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
             "answers": [
                 {
                     "answer": "Uil",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welk element past bij jouw energie?",
-            "pic": "./testname/img/nl_img/4205267fdcef2f1af7a72f331d050e09.png",
+            "pic": "/testname/img/4205267fdcef2f1af7a72f331d050e09.png",
             "answers": [
                 {
                     "answer": "Rook",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Kies een symbool:",
-            "pic": "./testname/img/nl_img/0d2acafe1d6443cc8eba33c4176baf12.png",
+            "pic": "/testname/img/0d2acafe1d6443cc8eba33c4176baf12.png",
             "answers": [
                 {
                     "answer": "Boom",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wat maakt dat je je echt levend voelt?",
-            "pic": "./testname/img/nl_img/0cac79cb42171da77ea175de460e89e1.png",
+            "pic": "/testname/img/0cac79cb42171da77ea175de460e89e1.png",
             "answers": [
                 {
                     "answer": "Het geluid van bladeren die ritselen in de wind",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Wat is jouw relatie met tijd?",
-            "pic": "./testname/img/nl_img/a59cca5c7dcef266d5abbcdf5c35f948.png",
+            "pic": "/testname/img/a59cca5c7dcef266d5abbcdf5c35f948.png",
             "answers": [
                 {
                     "answer": "Het is een puzzel die ik wil oplossen",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Waar verlang je het meest naar?",
-            "pic": "./testname/img/nl_img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
+            "pic": "/testname/img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
             "answers": [
                 {
                     "answer": "Harmonie",

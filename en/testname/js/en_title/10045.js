@@ -1,6 +1,6 @@
 let quizData = {
     "title": "I Am Cat VR: Find Your True Cat's Personality With This Quiz.",
-    "mainPic": "./testname/img/en_img/d2c033f7aefc629af9c027adb29f4535.gif",
+    "mainPic": "/testname/img/d2c033f7aefc629af9c027adb29f4535.gif",
     "thems": [
         "Cat",
         "Personality",
@@ -15,7 +15,7 @@ let quizData = {
     "questions": [
         {
             "question": "What would you do if you saw a vacuum cleaner?",
-            "pic": "./testname/img/en_img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
+            "pic": "/testname/img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
             "answers": [
                 {
                     "answer": "Run and hide",
@@ -41,7 +41,7 @@ let quizData = {
         },
         {
             "question": "How do you react to new people?",
-            "pic": "./testname/img/en_img/426ef9d186b10e405ea56f1d234a3f95.jpg",
+            "pic": "/testname/img/426ef9d186b10e405ea56f1d234a3f95.jpg",
             "answers": [
                 {
                     "answer": "Ignore them",
@@ -67,7 +67,7 @@ let quizData = {
         },
         {
             "question": "What's your favorite place to sleep?",
-            "pic": "./testname/img/en_img/c864892eb8634d63559a214bea9be1dd.jpg",
+            "pic": "/testname/img/c864892eb8634d63559a214bea9be1dd.jpg",
             "answers": [
                 {
                     "answer": "In the sun",
@@ -93,7 +93,7 @@ let quizData = {
         },
         {
             "question": "What would you do if someone touches your belly?",
-            "pic": "./testname/img/en_img/7f5440330de62cce9cd7848d7a75ec14.jpg",
+            "pic": "/testname/img/7f5440330de62cce9cd7848d7a75ec14.jpg",
             "answers": [
                 {
                     "answer": "Bite instantly",
@@ -119,7 +119,7 @@ let quizData = {
         },
         {
             "question": "How do you handle being fed late?",
-            "pic": "./testname/img/en_img/62695ca489dda1dd4afc99eef23dc395.jpg",
+            "pic": "/testname/img/62695ca489dda1dd4afc99eef23dc395.jpg",
             "answers": [
                 {
                     "answer": "Yowl loudly",
@@ -145,7 +145,7 @@ let quizData = {
         },
         {
             "question": "What's your favorite toy?",
-            "pic": "./testname/img/en_img/98137defcdebf18f0b048058ff72a8c6.jpg",
+            "pic": "/testname/img/98137defcdebf18f0b048058ff72a8c6.jpg",
             "answers": [
                 {
                     "answer": "Laser pointer",

@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Test Anime-kunnskapen din og finn ut hvilken Harry Potter-karakter du egentlig er",
-    "mainPic": "./testname/img/fr_img/6b8d7b30c12ec88bf4a563c898243625.jpg",
+    "mainPic": "/testname/img/6b8d7b30c12ec88bf4a563c898243625.jpg",
     "thems": ["Anime", "Harry Potter", "Diverse", "Karakter"],
     "questions": [
         {
             "question": "Ferdig? La oss komme i gang! Hvilken Pokémon lagrer strøm i kinnene?",
-            "pic": "./testname/img/fr_img/2746a6e0ca7a1ff93b6ce08462a5137f.jpg",
+            "pic": "/testname/img/2746a6e0ca7a1ff93b6ce08462a5137f.jpg",
             "answers": [
                 {
                     "answer": "Gengar",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hvor mange Dragon Balls er det?",
-            "pic": "./testname/img/fr_img/10d17c821a2ccc37fd8f15edd36c4354.jpg",
+            "pic": "/testname/img/10d17c821a2ccc37fd8f15edd36c4354.jpg",
             "answers": [
                 {
                     "answer": "8",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvilken Anime-karakter ble solgt til et sirkus?",
-            "pic": "./testname/img/fr_img/78fd650cebab42be1e678f3514a2ee70.jpg",
+            "pic": "/testname/img/78fd650cebab42be1e678f3514a2ee70.jpg",
             "answers": [
                 {
                     "answer": "Sailor Moon",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvilken karakter fikk visse egenskaper etter å ha spist en demonfrukt?",
-            "pic": "./testname/img/fr_img/4d39b61226dbdde683dde3cb8ba4ecad.jpg",
+            "pic": "/testname/img/4d39b61226dbdde683dde3cb8ba4ecad.jpg",
             "answers": [
                 {
                     "answer": "Monkey D. Luffy",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hvem er medlem av en rase av fremmede krigere kalt Saiyans?",
-            "pic": "./testname/img/fr_img/b1ade0970f8f9bb34944743b900ce3fa.jpg",
+            "pic": "/testname/img/b1ade0970f8f9bb34944743b900ce3fa.jpg",
             "answers": [
                 {
                     "answer": "Naruto",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hva heter Speed ​​Racers kjæreste?",
-            "pic": "./testname/img/fr_img/d7493e3bd1a0dedaa905d15b432c5a0a.jpg",
+            "pic": "/testname/img/d7493e3bd1a0dedaa905d15b432c5a0a.jpg",
             "answers": [
                 {
                     "answer": "Nixie",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Hvilket år ble Demon Slayer sendt?",
-            "pic": "./testname/img/fr_img/8fb86eb19101bb517f633fae786d0b16.jpg",
+            "pic": "/testname/img/8fb86eb19101bb517f633fae786d0b16.jpg",
             "answers": [
                 {
                     "answer": "2018",

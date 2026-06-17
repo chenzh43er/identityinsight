@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Disney-Avatar passt zu deiner Stimmung?",
-    "mainPic": "./testname/img/de_img/7fccf4da83d7730cb7ea481aa10eef25.gif",
+    "mainPic": "/testname/img/7fccf4da83d7730cb7ea481aa10eef25.gif",
     "thems": [
         "Disney",
         "Disney-Filme",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welchen dieser Orte bevorzugen Sie?",
-            "pic": "./testname/img/de_img/8a1b796596b13c334ed95505bfa3bd50.png",
+            "pic": "/testname/img/8a1b796596b13c334ed95505bfa3bd50.png",
             "answers": [
                 {
                     "answer": "Eine üppige, lebendige Naturlandschaft",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welcher Kleidungsstil spricht Sie an?",
-            "pic": "./testname/img/de_img/84ad4161d13f243f3365e7a7eca55f58.png",
+            "pic": "/testname/img/84ad4161d13f243f3365e7a7eca55f58.png",
             "answers": [
                 {
                     "answer": "Praktische und bequeme Kleidung",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Welche Eigenschaft schätzen Sie an einem Disney-Protagonisten am meisten?",
-            "pic": "./testname/img/de_img/5a96dbae2a08dd606799e831149918b9.png",
+            "pic": "/testname/img/5a96dbae2a08dd606799e831149918b9.png",
             "answers": [
                 {
                     "answer": "Mut",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wie drücken Sie sich normalerweise aus?",
-            "pic": "./testname/img/de_img/f6d0827bcc99211203ecee9db256dcb5.png",
+            "pic": "/testname/img/f6d0827bcc99211203ecee9db256dcb5.png",
             "answers": [
                 {
                     "answer": "Durch Taten",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Welche Art von Musik genießen Sie am meisten?",
-            "pic": "./testname/img/de_img/b151ca39b180d5cff6788abe8a1b98ad.png",
+            "pic": "/testname/img/b151ca39b180d5cff6788abe8a1b98ad.png",
             "answers": [
                 {
                     "answer": "Einzigartige und ausdrucksstarke Musik",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "O Que a Sua Posição de Dormir Revela Sobre a Sua Vida Amorosa? 💞🌙 ",
-    "mainPic": "./testname/img/pt_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
+    "mainPic": "/testname/img/7493626ca93012f6fbf2a3e2e94b9167.gif",
     "thems": [
         "Posições de Dormir",
         "Maneiras de Dormir",
@@ -14,7 +14,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "Qual é a sua posição favorita quando dorme com o seu parceiro? ",
-        "pic": "./testname/img/pt_img/057e4eb8b059c400dd48eb906ca21575.jpg",
+        "pic": "/testname/img/057e4eb8b059c400dd48eb906ca21575.jpg",
         "answers": [
             {
                 "answer":"De frente para ele/ela, perto",
@@ -36,7 +36,7 @@ let quizData = {
         ]
     },{
         "question": "Quanto o calor do corpo do seu parceiro afeta você enquanto dorme?",
-        "pic": "./testname/img/pt_img/5a6d6c7881a817917a89cd8d73b248b4.jpg",
+        "pic": "/testname/img/5a6d6c7881a817917a89cd8d73b248b4.jpg",
         "answers": [
             {
                 "answer":"Eu adoro, nenhum problema",
@@ -58,7 +58,7 @@ let quizData = {
         ]
     },{
         "question": "O que você faria se seu parceiro se mexesse muito enquanto dorme?",
-        "pic": "./testname/img/pt_img/1c1ecbaa9c339b019c65ea61fe421e60.jpg",
+        "pic": "/testname/img/1c1ecbaa9c339b019c65ea61fe421e60.jpg",
         "answers": [
             {
                 "answer":"Eu os abraçaria para mantê-los imóveis",
@@ -80,7 +80,7 @@ let quizData = {
         ]
     },{
         "question": "Se o seu parceiro precisar de mais espaço, o que você faria?",
-        "pic": "./testname/img/pt_img/23b536df97e0a7cb4389f00c7cc39928.jpg",
+        "pic": "/testname/img/23b536df97e0a7cb4389f00c7cc39928.jpg",
         "answers": [
             {
                 "answer":"Eu me moveria, mas ficaria cara a cara",
@@ -102,7 +102,7 @@ let quizData = {
         ]
     },{
         "question": "Qual dessas descrições melhor descreve a sensação de dormir de conchinha?",
-        "pic": "./testname/img/pt_img/ca7812d89960670877fbb04d8f8b656d.jpg",
+        "pic": "/testname/img/ca7812d89960670877fbb04d8f8b656d.jpg",
         "answers": [
             {
                 "answer":"Muito aconchegante, como um abraço a noite toda",
@@ -124,7 +124,7 @@ let quizData = {
         ]
     },{
         "question": "Para você, dormir juntos como um casal significa...",
-        "pic": "./testname/img/pt_img/483fb0027c9eae3fa5d1216779342dce.jpg",
+        "pic": "/testname/img/483fb0027c9eae3fa5d1216779342dce.jpg",
         "answers": [
             {
                 "answer":"Olhar um para o outro face a face e sentir-se próximo",

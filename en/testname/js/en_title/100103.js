@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What kind of karma do you have?",
-    "mainPic": "./testname/img/de_img/101e6d7b4a8cbe16e020ef4a6103e2b2.jpeg",
+    "mainPic": "/testname/img/101e6d7b4a8cbe16e020ef4a6103e2b2.jpeg",
     "thems": [
         "karma",
         "horoscope",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "You see a homeless person asking for help. What are you doing?",
-            "pic": "./testname/img/de_img/54fa5fcfbe10c575d470166efd09ba7b.png",
+            "pic": "/testname/img/54fa5fcfbe10c575d470166efd09ba7b.png",
             "answers": [
                 {
                     "answer": "Offer money and food",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "A colleague is having difficulty with a deadline and asks for help. You're busy. How do you answer?",
-            "pic": "./testname/img/de_img/29f6e04ebd9ad7a86fd1fb9bf2bb943b.png",
+            "pic": "/testname/img/29f6e04ebd9ad7a86fd1fb9bf2bb943b.png",
             "answers": [
                 {
                     "answer": "Reorganize your tasks to help",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "They find a wallet full of money. What do you do?",
-            "pic": "./testname/img/de_img/aa32d4415920118bdce22ac85b3a3bc5.png",
+            "pic": "/testname/img/aa32d4415920118bdce22ac85b3a3bc5.png",
             "answers": [
                 {
                     "answer": "Return to the owner",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "A friend invites you to a party, but you plan to stay home. What do you do?",
-            "pic": "./testname/img/de_img/33545b0124cf59f68d2d53097f05cc97.png",
+            "pic": "/testname/img/33545b0124cf59f68d2d53097f05cc97.png",
             "answers": [
                 {
                     "answer": "Cancel your plans and leave",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "You have terrible service in a restaurant. How do you deal with it?",
-            "pic": "./testname/img/de_img/cfcfc3ba6a8f10d3b0d0d94da0850208.png",
+            "pic": "/testname/img/cfcfc3ba6a8f10d3b0d0d94da0850208.png",
             "answers": [
                 {
                     "answer": "Be polite and leave an appropriate tip",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "You are in a hurry and someone asks for directions. What do you do?",
-            "pic": "./testname/img/de_img/c977d2a5ef2f441ea8ab019a02a4b417.png",
+            "pic": "/testname/img/c977d2a5ef2f441ea8ab019a02a4b417.png",
             "answers": [
                 {
                     "answer": "Stop and give detailed directions",
@@ -166,7 +166,7 @@ let quizData = {
         },
         {
             "question": "You experience bullying in public. What do you do?",
-            "pic": "./testname/img/de_img/28e64981b666c8cb8ae40fa0a9cf6852.png",
+            "pic": "/testname/img/28e64981b666c8cb8ae40fa0a9cf6852.png",
             "answers": [
                 {
                     "answer": "Intervene and stop",
@@ -192,7 +192,7 @@ let quizData = {
         },
         {
             "question": "In a heated argument, someone insults you. How do you react?",
-            "pic": "./testname/img/de_img/984eca69a7b4314915769312c585c138.png",
+            "pic": "/testname/img/984eca69a7b4314915769312c585c138.png",
             "answers": [
                 {
                     "answer": "Stay calm and solve",

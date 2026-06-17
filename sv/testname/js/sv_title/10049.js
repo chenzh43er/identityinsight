@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Skull of the bemästra ondskans krafter?",
-    "mainPic": "./testname/img/fr_img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
+    "mainPic": "/testname/img/06_70dce5ae-2d78-42c6-93a5-c40fb437400e.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
             "question": "Vad fascinerar dig mest med svart magi?",
-            "pic": "./testname/img/fr_img/05_009c6355-358e-429d-af6d-3f07c0edce4f.jpeg",
+            "pic": "/testname/img/05_009c6355-358e-429d-af6d-3f07c0edce4f.jpeg",
             "answers": [
                 {
                     "answer": "Kraften",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Du upptäcker en förbjuden bok... vad gör du?",
-            "pic": "./testname/img/fr_img/04_b39e4058-118f-47cb-bf56-e7cc92c9cca7.jpeg",
+            "pic": "/testname/img/04_b39e4058-118f-47cb-bf56-e7cc92c9cca7.jpeg",
             "answers": [
                 {
                     "answer": "Du läser den direkt.",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Om någon sviker dig...",
-            "pic": "./testname/img/fr_img/03_3f663c24-6c4e-4910-9693-5ad7b1ac9a52.jpeg",
+            "pic": "/testname/img/03_3f663c24-6c4e-4910-9693-5ad7b1ac9a52.jpeg",
             "answers": [
                  {
                     "answer": "Du bryter all kontakt.",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Om du kunde brygga en trolldryck, skulle det vara...",
-            "pic": "./testname/img/fr_img/02_dbf67d8f-1216-49a5-b861-42ea4ca3a96a.jpeg",
+            "pic": "/testname/img/02_dbf67d8f-1216-49a5-b861-42ea4ca3a96a.jpeg",
             "answers": [
                 {
                     "answer": "En dryck av sanning",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Om någon hotar dig så reagerar du...",
-            "pic": "./testname/img/fr_img/01_5efc3c54-73a5-497f-b195-5f5e5d110d3b.jpeg",
+            "pic": "/testname/img/01_5efc3c54-73a5-497f-b195-5f5e5d110d3b.jpeg",
             "answers": [
                 {
                     "answer": "Med diplomati",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Vilken är din största inre konflikt?",
-            "pic": "./testname/img/fr_img/12_7de194d0-6507-49f5-bee2-94b20c325374.webp",
+            "pic": "/testname/img/12_7de194d0-6507-49f5-bee2-94b20c325374.webp",
             "answers": [
                 {
                     "answer": "Makt eller moral",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Om du hade en obskyr gåva...",
-            "pic": "./testname/img/fr_img/11_b460e1da-7c26-44e4-ae7c-1628150ac32f.jpeg",
+            "pic": "/testname/img/11_b460e1da-7c26-44e4-ae7c-1628150ac32f.jpeg",
             "answers": [
                 {
                     "answer": "skulle dölja det",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Om du var en mörk trollkarl skulle ditt namn vara...",
-            "pic": "./testname/img/fr_img/10_3efb83dc-eab7-4fea-957a-15215ac04e05.jpeg",
+            "pic": "/testname/img/10_3efb83dc-eab7-4fea-957a-15215ac04e05.jpeg",
             "answers": [
                 {
                     "answer": "Skuggan",

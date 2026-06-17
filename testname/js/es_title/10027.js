@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¡Predice con precisión tu vida pasada a través de las huellas dactilares!",
-    "mainPic": "./testname/img/es_img/d7ca775fb3a11ea3143e9fc20abcadb2.gif",
+    "mainPic": "/testname/img/d7ca775fb3a11ea3143e9fc20abcadb2.gif",
     "thems": [
         "VidaPasada",
         "HuellasDactilares",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Qué tipo de huella digital tienes?",
-            "pic": "./testname/img/es_img/7e168dd7e1266bb9ec8025e4d973a312.png",
+            "pic": "/testname/img/7e168dd7e1266bb9ec8025e4d973a312.png",
             "answers": [
                 {
                     "answer": "Espiral",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Compara el patrón de huellas dactilares en todos los dedos, ¿cómo se ve?",
-            "pic": "./testname/img/es_img/c72bfb14c7745a28456e82b8a6375a77.png",
+            "pic": "/testname/img/c72bfb14c7745a28456e82b8a6375a77.png",
             "answers": [
                 {
                     "answer": "Muy similar",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tipo de líneas parecen tener predominantemente tus huellas dactilares?",
-            "pic": "./testname/img/es_img/e65e278c5000d4d4808f1e630a9e294c.png",
+            "pic": "/testname/img/e65e278c5000d4d4808f1e630a9e294c.png",
             "answers": [
                 {
                     "answer": "Principalmente líneas continuas que se curvan suavemente de un lado a otro",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tan visibles son tus huellas dactilares?",
-            "pic": "./testname/img/es_img/a8af2c2094e1545fd293762c86dadcda.png",
+            "pic": "/testname/img/a8af2c2094e1545fd293762c86dadcda.png",
             "answers": [
                 {
                     "answer": "Muy visibles",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "¿Notas algún punto pequeño o líneas muy cortas entre las crestas más largas de tus huellas dactilares?",
-            "pic": "./testname/img/es_img/8c0611ddf64822b1fcc2cabe02e66a70.png",
+            "pic": "/testname/img/8c0611ddf64822b1fcc2cabe02e66a70.png",
             "answers": [
                 {
                     "answer": "No lo creo",

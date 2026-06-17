@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Con qué símbolos de protección te identificas más?",
-    "mainPic": "./testname/img/es_img/07e41d20159406ff2364a92b9125b1e9.jpeg",
+    "mainPic": "/testname/img/07e41d20159406ff2364a92b9125b1e9.jpeg",
     "thems": [
         "Símbolos Antiguos",
         "Símbolos",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Qué valoras más en la vida?",
-            "pic": "./testname/img/es_img/bc12733e315a2d9bc15c6ba08ad917c9.png",
+            "pic": "/testname/img/bc12733e315a2d9bc15c6ba08ad917c9.png",
             "answers": [
                 {
                     "answer": "Fuerza",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tipo de protección sientes que necesitas más?",
-            "pic": "./testname/img/es_img/8195832922cf4a42aa4ffaf363fae4ae.png",
+            "pic": "/testname/img/8195832922cf4a42aa4ffaf363fae4ae.png",
             "answers": [
                 {
                     "answer": "Física",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "¿Qué lugar te fascina más?",
-            "pic": "./testname/img/es_img/59a50a444c548a3560a44e9934ff7d55.png",
+            "pic": "/testname/img/59a50a444c548a3560a44e9934ff7d55.png",
             "answers": [
                 {
                     "answer": "Roma",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Si pudieras llevar un amuleto protector, ¿cuál sería?",
-            "pic": "./testname/img/es_img/6be559288fc5661108568de1a3172fa4.png",
+            "pic": "/testname/img/6be559288fc5661108568de1a3172fa4.png",
             "answers": [
                 {
                     "answer": "Un colgante de escudo",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es tu forma ideal de protegerte de las malas energías?",
-            "pic": "./testname/img/es_img/9352b0f2758303d16f0762d054296b2e.png",
+            "pic": "/testname/img/9352b0f2758303d16f0762d054296b2e.png",
             "answers": [
                 {
                     "answer": "Mantenerse firme",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "¿Qué es lo que más temes perder?",
-            "pic": "./testname/img/es_img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
+            "pic": "/testname/img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
             "answers": [
                 {
                     "answer": "Mi familia",

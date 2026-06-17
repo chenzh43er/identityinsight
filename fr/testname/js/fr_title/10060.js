@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Combien de personnes sont mortes le même jour que vous ?",
-    "mainPic": "./testname/img/fr_img/825852946811c237259322970ca7e8a5.jpeg",
+    "mainPic": "/testname/img/825852946811c237259322970ca7e8a5.jpeg",
     "thems": [
         "Horoscope",
         "Tendance",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Comment vous réveillez-vous généralement ?",
-            "pic": "./testname/img/fr_img/fb537c1195fa2a969df577a3137addab.png",
+            "pic": "/testname/img/fb537c1195fa2a969df577a3137addab.png",
             "answers": [
                 {
                     "answer": "Alarme sonore et panique instantanée",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Quelle est votre réaction aux mauvaises nouvelles ?",
-            "pic": "./testname/img/fr_img/90a6d1eee1d954632cdf8b3ccb97608d.png",
+            "pic": "/testname/img/90a6d1eee1d954632cdf8b3ccb97608d.png",
             "answers": [
                 {
                     "answer": "Crier et appeler quelqu'un",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Où hanteriez-vous si vous deveniez un fantôme ?",
-            "pic": "./testname/img/fr_img/81be4c8c748a0e501aabb27716872615.png",
+            "pic": "/testname/img/81be4c8c748a0e501aabb27716872615.png",
             "answers": [
                 {
                     "answer": "Un parc d'attractions",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Quelle est votre énergie du zodiaque ?",
-            "pic": "./testname/img/fr_img/5ec38622c9b9c44ba6af1d51afd439a3.png",
+            "pic": "/testname/img/5ec38622c9b9c44ba6af1d51afd439a3.png",
             "answers": [
                 {
                     "answer": "Eau",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Si vous étiez un fantôme, quelle serait votre activité principale en tant que fantôme?",
-            "pic": "./testname/img/fr_img/07901d83b9371e72ffc80cff5bd154c1.png",
+            "pic": "/testname/img/07901d83b9371e72ffc80cff5bd154c1.png",
             "answers": [
                 {
                     "answer": "Faire des farces aux vivants",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Quel objet emporteriez-vous avec vous dans l'au-delà ?",
-            "pic": "./testname/img/fr_img/0be424854e4f24aa67561b991b437257.png",
+            "pic": "/testname/img/0be424854e4f24aa67561b991b437257.png",
             "answers": [
                 {
                     "answer": "Mon téléphone—je dois rester connecté",

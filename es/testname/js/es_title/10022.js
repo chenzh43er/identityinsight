@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¡Tu cumpleaños determina tu personalidad oculta!",
-    "mainPic": "./testname/img/es_img/b576911a28e8afca90e64c61da568ffa.gif",
+    "mainPic": "/testname/img/b576911a28e8afca90e64c61da568ffa.gif",
     "thems": [
         "Personalidad",
         "Cumpleaños",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cuál es tu mes de nacimiento?",
-            "pic": "./testname/img/es_img/bc3d6286c0d9c94f1ef43324b0a289b0.png",
+            "pic": "/testname/img/bc3d6286c0d9c94f1ef43324b0a289b0.png",
             "answers": [
                 {
                     "answer": "Enero, Febrero, Marzo",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "¿Qué día naciste?",
-            "pic": "./testname/img/es_img/75f1b4928020d216b6963d41de6cacbf.png",
+            "pic": "/testname/img/75f1b4928020d216b6963d41de6cacbf.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "¿En qué década naciste?",
-            "pic": "./testname/img/es_img/0ae112c788f48307d7042f81983a9022.png",
+            "pic": "/testname/img/0ae112c788f48307d7042f81983a9022.png",
             "answers": [
                 {
                     "answer": "60's o menos",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es el último dígito de tu año de nacimiento?",
-            "pic": "./testname/img/es_img/47eb6e57b3b29e6405e8f19e9a0d0e37.png",
+            "pic": "/testname/img/47eb6e57b3b29e6405e8f19e9a0d0e37.png",
             "answers": [
                 {
                     "answer": "0, 1",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Calcula tu Número de Camino de Vida sumando tu fecha de nacimiento hasta obtener un solo dígito. ¿Qué número obtuviste?",
-            "pic": "./testname/img/es_img/c71d92fb7ac25da7b00d8932c5eef388.png",
+            "pic": "/testname/img/c71d92fb7ac25da7b00d8932c5eef388.png",
             "answers": [
                 {
                     "answer": "1, 2",

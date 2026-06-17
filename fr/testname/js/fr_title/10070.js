@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Dans quelle réincarnation êtes-vous maintenant?",
-    "mainPic": "./testname/img/fr_img/fac405620d97740b238099e3c19cd24f.gif",
+    "mainPic": "/testname/img/fac405620d97740b238099e3c19cd24f.gif",
     "thems": [
         "Réincarnation",
         "Horoscope",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel animal te sens-tu le plus connecté?",
-            "pic": "./testname/img/fr_img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
+            "pic": "/testname/img/f5b42b83fd95a0d20c9ddaa83d6ee3fe.jpeg",
             "answers": [
                 {
                     "answer": "Chouette",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Quel élément correspond à votre énergie ?",
-            "pic": "./testname/img/fr_img/4205267fdcef2f1af7a72f331d050e09.png",
+            "pic": "/testname/img/4205267fdcef2f1af7a72f331d050e09.png",
             "answers": [
                 {
                     "answer": "Fumée",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Choisissez un symbole :",
-            "pic": "./testname/img/fr_img/0d2acafe1d6443cc8eba33c4176baf12.png",
+            "pic": "/testname/img/0d2acafe1d6443cc8eba33c4176baf12.png",
             "answers": [
                 {
                     "answer": "Arbre",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Qu'est-ce qui vous fait vous sentir vraiment vivant?",
-            "pic": "./testname/img/fr_img/0cac79cb42171da77ea175de460e89e1.png",
+            "pic": "/testname/img/0cac79cb42171da77ea175de460e89e1.png",
             "answers": [
                 {
                     "answer": "Le bruit des feuilles bruissant dans le vent",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quelle est votre relation avec le temps ?",
-            "pic": "./testname/img/fr_img/a59cca5c7dcef266d5abbcdf5c35f948.png",
+            "pic": "/testname/img/a59cca5c7dcef266d5abbcdf5c35f948.png",
             "answers": [
                 {
                     "answer": "C'est un puzzle que je veux résoudre",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Qu'est-ce que vous désirez le plus?",
-            "pic": "./testname/img/fr_img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
+            "pic": "/testname/img/72e9c495fb10f05b3edd66ceb5b8ae6e.png",
             "answers": [
                 {
                     "answer": "Harmonie",

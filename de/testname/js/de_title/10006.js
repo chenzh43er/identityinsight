@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie ist Ihr Fußballniveau bei VRFS?",
-    "mainPic": "./testname/img/de_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+    "mainPic": "/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
     "thems": [
         "Spiele",
         "Videospiele",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Zuerst, wie würden Sie Ihre realen Fußballfähigkeiten beschreiben?",
-            "pic": "./testname/img/de_img/23061c322ace880fddb231605535a89e.png",
+            "pic": "/testname/img/23061c322ace880fddb231605535a89e.png",
             "answers": [
                 {
                     "answer": "Super, ich gehöre zu einem Fußballteam",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Was ist Ihrer Meinung nach Ihre beste Fußballqualität?",
-            "pic": "./testname/img/de_img/4711f76df022869e8a89aa518eeaba01.png",
+            "pic": "/testname/img/4711f76df022869e8a89aa518eeaba01.png",
             "answers": [
                 {
                     "answer": "Geschwindigkeit",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Lieblingsposition im Fußball?",
-            "pic": "./testname/img/de_img/93c3214ce89c7a3dbde204e1104447d0.png",
+            "pic": "/testname/img/93c3214ce89c7a3dbde204e1104447d0.png",
             "answers": [
                 {
                     "answer": "Stürmer",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Wie gut sind Sie in VR-Spielen?",
-            "pic": "./testname/img/de_img/f3b54da19743eccaf56c05da9605fc7e.png",
+            "pic": "/testname/img/f3b54da19743eccaf56c05da9605fc7e.png",
             "answers": [
                 {
                     "answer": "Ich bin ein erfahrener Experte",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Wie oft sehen Sie sich Fußballspiele an?",
-            "pic": "./testname/img/de_img/51999435b9fe98644882655a5c4aad68.png",
+            "pic": "/testname/img/51999435b9fe98644882655a5c4aad68.png",
             "answers": [
                 {
                     "answer": "Häufig",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "Wie wettbewerbsfähig halten Sie sich?",
-            "pic": "./testname/img/de_img/f541d1a4931e9e8f3421da32dbbece0c.png",
+            "pic": "/testname/img/f541d1a4931e9e8f3421da32dbbece0c.png",
             "answers": [
                 {
                     "answer": "Äußerst wettbewerbsfähig",

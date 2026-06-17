@@ -1,6 +1,6 @@
 let quizData = {
     "title": "L'Astrologie Prévoit Combien de Fois Vous Devriez Réincarner",
-    "mainPic": "./testname/img/fr_img/45529fb4cae6928bb45836d7f8ed8cfb.gif",
+    "mainPic": "/testname/img/45529fb4cae6928bb45836d7f8ed8cfb.gif",
     "thems": [
         "Réincarner",
         "Zodiaque",
@@ -16,29 +16,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Feu",
-                    "aPic": "./testname/img/fr_img/2e72f6d07188c3e5f9e6541f95bff292.gif",
+                    "aPic": "/testname/img/2e72f6d07188c3e5f9e6541f95bff292.gif",
                     "aId": 1
                 },
                 {
                     "answer": "Eau",
-                    "aPic": "./testname/img/fr_img/f6a3bfc0b452864c4f0dd1b7111814a7.gif",
+                    "aPic": "/testname/img/f6a3bfc0b452864c4f0dd1b7111814a7.gif",
                     "aId": 2
                 },
                 {
                     "answer": "Terre",
-                    "aPic": "./testname/img/fr_img/e8731c4a59b4953016ff3ec93859a892.gif",
+                    "aPic": "/testname/img/e8731c4a59b4953016ff3ec93859a892.gif",
                     "aId": 3
                 },
                 {
                     "answer": "Air",
-                    "aPic": "./testname/img/fr_img/195ffdb507e85ddedb59fd4855eab368.gif",
+                    "aPic": "/testname/img/195ffdb507e85ddedb59fd4855eab368.gif",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Quelle est l'énergie de votre signe solaire ?",
-            "pic": "./testname/img/fr_img/9d2c702a7f788a5ca92ff8ff39f3854a.jpeg",
+            "pic": "/testname/img/9d2c702a7f788a5ca92ff8ff39f3854a.jpeg",
             "answers": [
                 {
                     "answer": "Confiant",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre plus grand karma dans la vie ?",
-            "pic": "./testname/img/fr_img/2b73c9c06d871124ed4040c2fa829946.jpeg",
+            "pic": "/testname/img/2b73c9c06d871124ed4040c2fa829946.jpeg",
             "answers": [
                 {
                     "answer": "Leçons d'amour",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Qu'est-ce que votre âme recherche dans cette vie?",
-            "pic": "./testname/img/fr_img/e8d513a82a36513885f6dc6d55cf49b0.jpeg",
+            "pic": "/testname/img/e8d513a82a36513885f6dc6d55cf49b0.jpeg",
             "answers": [
                 {
                     "answer": "Pouvoir",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre signe du zodiaque?",
-            "pic": "./testname/img/fr_img/3e97a34f633a63fb1de8df9607a1868a.jpeg",
+            "pic": "/testname/img/3e97a34f633a63fb1de8df9607a1868a.jpeg",
             "answers": [
                 {
                     "answer": "Bélier, Lion, Sagittaire",

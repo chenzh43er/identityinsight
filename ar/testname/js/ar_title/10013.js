@@ -1,6 +1,6 @@
 let quizData = {
     "title": "هل يمكنك البقاء على قيد الحياة من غزو منزل بأيدٍ قذرة؟",
-    "mainPic": "./testname/img/ar_img/a4a64b232ad61b056d396b8ee67d91d4.gif",
+    "mainPic": "/testname/img/a4a64b232ad61b056d396b8ee67d91d4.gif",
     "thems": [
         "ألعاب",
         "الأيادي القذرة",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "دخل متسلل للتو إلى منزلك! ما هي خطوتك الأولى؟",
-            "pic": "./testname/img/ar_img/73c95b99af16315739a5822553f2685b.jpg",
+            "pic": "/testname/img/73c95b99af16315739a5822553f2685b.jpg",
             "answers": [
                 {
                     "answer": "مقلاة",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "الدخيل يحاول فتح الخزنة! كيف توقفهم؟",
-            "pic": "./testname/img/ar_img/8e5450d33879b5d5c79d4000b9a81a26.jpg",
+            "pic": "/testname/img/8e5450d33879b5d5c79d4000b9a81a26.jpg",
             "answers": [
                 {
                     "answer": "فخ الدب",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "تسمع خطوات في الطابق العلوي! ما الأداة التي تمسك بها؟",
-            "pic": "./testname/img/ar_img/23a7851fcbfc94200ca29dc2c84975db.jpg",
+            "pic": "/testname/img/23a7851fcbfc94200ca29dc2c84975db.jpg",
             "answers": [
                 {
                     "answer": "صاعق كهربائي",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "المقتحم يحاول الهروب! ما هو أفضل رد لديك؟",
-            "pic": "./testname/img/ar_img/3a71dcd3f3246b6ffb0407d296461130.jpg",
+            "pic": "/testname/img/3a71dcd3f3246b6ffb0407d296461130.jpg",
             "answers": [
                 {
                     "answer": "فخ الحبل",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "المقتحم محاصر! كيف تنهي المهمة؟",
-            "pic": "./testname/img/ar_img/b2d3db3986fc395c99f650b64d272812.jpg",
+            "pic": "/testname/img/b2d3db3986fc395c99f650b64d272812.jpg",
             "answers": [
                 {
                     "answer": "كرة بولينج",

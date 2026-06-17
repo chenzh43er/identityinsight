@@ -1,6 +1,6 @@
 let quizData = {
     "title": "鬼滅の刃:無限城であなたはどのキャラクター？",
-    "mainPic": "./testname/img/jp_img/f8577e95c27a7403c2bdfbb099124426.gif",
+    "mainPic": "/testname/img/f8577e95c27a7403c2bdfbb099124426.gif",
     "thems": [
         "アニメ",
         "鬼滅の刃",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "他人との関係で最も大切にしていることは何ですか？",
-            "pic": "./testname/img/jp_img/561b7784f142d66d73d1ffab9c188777.png",
+            "pic": "/testname/img/561b7784f142d66d73d1ffab9c188777.png",
             "answers": [
                 {
                     "answer": "忠誠心",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "どの「呼吸の型」の哲学があなたに最も響くか？",
-            "pic": "./testname/img/jp_img/8ab676f1e0a0cca97d840f102dbbdff3.png",
+            "pic": "/testname/img/8ab676f1e0a0cca97d840f102dbbdff3.png",
             "answers": [
                 {
                     "answer": "穏やかで多様な流れ",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "あなたが自分と一致すると感じる鬼滅の刃の特徴は？",
-            "pic": "./testname/img/jp_img/5ddae296b60e4a3bb217250c1266339f.png",
+            "pic": "/testname/img/5ddae296b60e4a3bb217250c1266339f.png",
             "answers": [
                 {
                     "answer": "揺るぎない優しさ",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "どの戦闘スタイルを選びたいですか？",
-            "pic": "./testname/img/jp_img/b94660f1c72ae1f83f04c4f6263b0fe2.png",
+            "pic": "/testname/img/b94660f1c72ae1f83f04c4f6263b0fe2.png",
             "answers": [
                 {
                     "answer": "二刀流の攻撃者",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "鬼滅の刃の名言から一つ選んでください",
-            "pic": "./testname/img/jp_img/c4721bfa8859360ac7e3555b537bc94e.png",
+            "pic": "/testname/img/c4721bfa8859360ac7e3555b537bc94e.png",
             "answers": [
                 {
                     "answer": "心を燃やせ、限界を超えろ！",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quem é seu crush masculino de personagem da Marvel?",
-    "mainPic": "./testname/img/pt_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
+    "mainPic": "/testname/img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
     "thems": [
         "Marvel",
         "Personagens",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quem você gostaria que te ajudasse a escapar de uma situação perigosa?",
-            "pic": "./testname/img/pt_img/ad45b8698d5cc08002dc45890990b932.png",
+            "pic": "/testname/img/ad45b8698d5cc08002dc45890990b932.png",
             "answers": [
                 {
                     "answer": "Alguém com tecnologia avançada",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Como você preferiria passar um dia com sua paixão?",
-            "pic": "./testname/img/pt_img/3505670dca9fd354ff9507f4d3a1c25b.png",
+            "pic": "/testname/img/3505670dca9fd354ff9507f4d3a1c25b.png",
             "answers": [
                 {
                     "answer": "Fazendo missões secretas",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Que habilidade você gostaria que sua paixão tivesse?",
-            "pic": "./testname/img/pt_img/5d1f0ddd660e50cce6156c34324993bd.png",
+            "pic": "/testname/img/5d1f0ddd660e50cce6156c34324993bd.png",
             "answers": [
                 {
                     "answer": "Ser um inventor genial",
@@ -93,22 +93,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Viúva Negra",
-                    "aPic": "./testname/img/pt_img/9a8a4cc2c0df8d66b09c036d3268e354.png",
+                    "aPic": "/testname/img/9a8a4cc2c0df8d66b09c036d3268e354.png",
                     "aId": 1
                 },
                 {
                     "answer": "Tempestade",
-                    "aPic": "./testname/img/pt_img/ad1ebd943f369e1617f22acf426720b7.png",
+                    "aPic": "/testname/img/ad1ebd943f369e1617f22acf426720b7.png",
                     "aId": 2
                 },
                 {
                     "answer": "Capitã Marvel",
-                    "aPic": "./testname/img/pt_img/sr_174330480067e8b860ec0cb.jpg",
+                    "aPic": "/testname/img/sr_174330480067e8b860ec0cb.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "Mulher-Aranha",
-                    "aPic": "./testname/img/pt_img/aab583815a14a75b0ebb5bb8a719fb99.png",
+                    "aPic": "/testname/img/aab583815a14a75b0ebb5bb8a719fb99.png",
                     "aId": 4
                 }
             ]

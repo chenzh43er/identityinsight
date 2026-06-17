@@ -21,7 +21,7 @@ når andre gir opp.
 Der har du
 en klar fordel.
     `,
-    "mainPic": "./testname/img/no_img/43_2afeb4a089b44c09be8bfb485d07bd96.webp"
+    "mainPic": "/testname/img/43_2afeb4a089b44c09be8bfb485d07bd96.webp"
   },
   "2": {
     "title": "Har du det som skal til for å vinne «71 grader nord»?",
@@ -44,7 +44,7 @@ I denne konkurransen
 er det en
 avgjørende styrke.
     `,
-    "mainPic": "./testname/img/no_img/44_d62bd6d42c9542b88198ef09c3ae4659.jpeg"
+    "mainPic": "/testname/img/44_d62bd6d42c9542b88198ef09c3ae4659.jpeg"
   },
   "3": {
     "title": "Har du det som skal til for å vinne «71 grader nord»?",
@@ -66,7 +66,7 @@ Når presset er størst,
 er det nettopp deg
 laget trenger.
     `,
-    "mainPic": "./testname/img/no_img/45_d19dfac724dc4073b720495c8636929c.webp"
+    "mainPic": "/testname/img/45_d19dfac724dc4073b720495c8636929c.webp"
   },
   "4": {
     "title": "Har du det som skal til for å vinne «71 grader nord»?",
@@ -90,6 +90,6 @@ så lenge du ikke
 brenner all energi
 for tidlig.
     `,
-    "mainPic": "./testname/img/no_img/46_8f3a2f19387f47a9a8a89d0b5edc033d.jpeg"
+    "mainPic": "/testname/img/46_8f3a2f19387f47a9a8a89d0b5edc033d.jpeg"
   }
 };

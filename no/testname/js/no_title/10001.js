@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Skriv inn bursdagen din for å se hva julenavnet ditt er?",
-    "mainPic": "./testname/img/no_img/7636dd566b050c9098f74055ea4b4364.jpeg",
+    "mainPic": "/testname/img/7636dd566b050c9098f74055ea4b4364.jpeg",
     "thems": [
         "Jul",
         "Bursdag",

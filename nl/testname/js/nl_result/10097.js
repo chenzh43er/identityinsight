@@ -11,7 +11,7 @@ maar mist ervaring of hardheid.
 In deze wereld is twijfel gevaarlijk.
 Met training en voorbereiding zou je het beter doen.
     `,
-    "mainPic": "./testname/img/nl_img/117_4590a2d8dfc34efaabc48f892e29456e.png"
+    "mainPic": "/testname/img/117_4590a2d8dfc34efaabc48f892e29456e.png"
   },
   "2": {
     "title": "Hoe lang zou jij overleven in de wereld van The Last of Us?",
@@ -22,7 +22,7 @@ Je past je aan, maar maakt fouten.
 Je leert snel en vertrouwt op anderen.
 Soms neem je risico’s, maar je overlevingsinstinct helpt je verder dan je denkt.
     `,
-    "mainPic": "./testname/img/nl_img/118_e2e3b28fcde94047bbe587c6978de71f.jpeg"
+    "mainPic": "/testname/img/118_e2e3b28fcde94047bbe587c6978de71f.jpeg"
   },
   "3": {
     "title": "Hoe lang zou jij overleven in de wereld van The Last of Us?",
@@ -35,7 +35,7 @@ Je bouwt relaties op, maar verliest nooit je focus.
 
 Grote kans dat jij het lang volhoudt.
     `,
-    "mainPic": "./testname/img/nl_img/119_68fd25153ff54b67bbce7fb71671b1c1.webp"
+    "mainPic": "/testname/img/119_68fd25153ff54b67bbce7fb71671b1c1.webp"
   },
   "4": {
     "title": "Hoe lang zou jij overleven in de wereld van The Last of Us?",
@@ -48,6 +48,6 @@ en neemt moeilijke beslissingen.
 
 Jij bent degene die anderen volgen.
     `,
-    "mainPic": "./testname/img/nl_img/120_fdf813cad8ff4f2bb10671ff59349bec.jpeg"
+    "mainPic": "/testname/img/120_fdf813cad8ff4f2bb10671ff59349bec.jpeg"
   }
 };

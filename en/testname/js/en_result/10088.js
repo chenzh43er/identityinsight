@@ -13,7 +13,7 @@ People notice, follow, and adapt to your energy.
 Whether you mean to or not,
 you’re the plot driver.
     `,
-    "mainPic": "./testname/img/en_img/09_fadf5931f7874ff9b5cf654ab2d32e30.jpeg"
+    "mainPic": "/testname/img/09_fadf5931f7874ff9b5cf654ab2d32e30.jpeg"
   },
 
   "2": {
@@ -30,7 +30,7 @@ Your presence lingers.
 You choose influence over noise —
 and that’s power most people underestimate.
     `,
-    "mainPic": "./testname/img/en_img/10_237a01e4ca724a878559c6d38da54a76.png"
+    "mainPic": "/testname/img/10_237a01e4ca724a878559c6d38da54a76.png"
   },
 
   "3": {
@@ -48,7 +48,7 @@ even if no one claps.
 Low visibility.
 High utility.
     `,
-    "mainPic": "./testname/img/en_img/11_387d4ede3eba4b46bd8b7a08db26ecbf.jpeg"
+    "mainPic": "/testname/img/11_387d4ede3eba4b46bd8b7a08db26ecbf.jpeg"
   },
 
   "4": {
@@ -66,6 +66,6 @@ unless you choose otherwise.
 The question isn’t if you matter.
 It’s whether you’re ready to be seen.
     `,
-    "mainPic": "./testname/img/en_img/12_3a51bf61e571466383cb640b43e6b507.jpeg"
+    "mainPic": "/testname/img/12_3a51bf61e571466383cb640b43e6b507.jpeg"
   }
 };

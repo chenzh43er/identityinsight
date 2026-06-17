@@ -1,6 +1,6 @@
 let quizData = {
     "title": "À quel professeur de Poudlard ressembles-tu le plus ?",
-    "mainPic": "./testname/img/fr_img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
+    "mainPic": "/testname/img/bb705ba7746583fd7406bbcf2b8d5d6b.gif",
     "thems": [
         "Harry Potter",
         "Professeurs de Poudlard",
@@ -17,7 +17,7 @@ let quizData = {
     "questions": [
         {
             "question": "Si vous recevez une baguette magique, la première chose que vous faites est…",
-            "pic": "./testname/img/fr_img/d1b86b3225f4b092e382287328027703.jpg",
+            "pic": "/testname/img/d1b86b3225f4b092e382287328027703.jpg",
             "answers": [
                 {
                     "answer": "Préparez une potion pour impressionner",
@@ -43,7 +43,7 @@ let quizData = {
         },
         {
             "question": "Quel emoji vous représente le mieux dans le monde des sorciers ?",
-            "pic": "./testname/img/fr_img/78b73f6a54d0015bed411badca29015b.jpg",
+            "pic": "/testname/img/78b73f6a54d0015bed411badca29015b.jpg",
             "answers": [
                 {
                     "answer": "🖤",
@@ -69,7 +69,7 @@ let quizData = {
         },
         {
             "question": "Si vous deviez enseigner un cours à Poudlard, vous choisiriez...",
-            "pic": "./testname/img/fr_img/52920f01e1eb6661be18385e9322dbcc.jpg",
+            "pic": "/testname/img/52920f01e1eb6661be18385e9322dbcc.jpg",
             "answers": [
                 {
                     "answer": "Les potions, évidemment. C'est un art sérieux.",
@@ -95,7 +95,7 @@ let quizData = {
         },
         {
             "question": "Quel endroit de Poudlard serait votre préféré?",
-            "pic": "./testname/img/fr_img/de88a7f8b9341f97cbe9cf9cb71157b9.jpg",
+            "pic": "/testname/img/de88a7f8b9341f97cbe9cf9cb71157b9.jpg",
             "answers": [
                 {
                     "answer": "Les cachots",
@@ -121,7 +121,7 @@ let quizData = {
         },
         {
             "question": "Si vous étiez un sort, vous seriez...",
-            "pic": "./testname/img/fr_img/07a803696629cbd850bce3202aa56140.jpg",
+            "pic": "/testname/img/07a803696629cbd850bce3202aa56140.jpg",
             "answers": [
                 {
                     "answer": "Sectumsempra (impressionnant, mais utile)",
@@ -147,7 +147,7 @@ let quizData = {
         },
         {
             "question": "Quel type d'étudiant étiez-vous (ou seriez-vous) à Poudlard ?",
-            "pic": "./testname/img/fr_img/54e0178cd4cc14aefe4c4d7c53409cd5.jpg",
+            "pic": "/testname/img/54e0178cd4cc14aefe4c4d7c53409cd5.jpg",
             "answers": [
                 {
                     "answer": "Le réservé, mais avec les meilleures notes en potions.",

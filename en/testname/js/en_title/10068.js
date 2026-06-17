@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Where will you celebrate New Year's Eve 2026 at Hogwarts?",
-    "mainPic": "./testname/img/de_img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
+    "mainPic": "/testname/img/14_5a3249fb74564670aa3a664c0a0c14ad.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "What magical cocktail is on your table at midnight?",
-            "pic": "./testname/img/de_img/15_6e0f6b4c91304ce58736dfcb38a344c5.jpeg",
+            "pic": "/testname/img/15_6e0f6b4c91304ce58736dfcb38a344c5.jpeg",
             "answers": [
                 {
                     "answer": "A spicy fire whiskey.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "You find a silver key in your Christmas boot. What happens?",
-            "pic": "./testname/img/de_img/16_2494189a7d2b405480cb54b1aa3929b4.jpeg",
+            "pic": "/testname/img/16_2494189a7d2b405480cb54b1aa3929b4.jpeg",
             "answers": [
                 {
                     "answer": "He suddenly becomes hot in your hand.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Your mood to start the new year?",
-            "pic": "./testname/img/de_img/17_3bf65fa3919c4c2d858689f2d8356f19.jpeg",
+            "pic": "/testname/img/17_3bf65fa3919c4c2d858689f2d8356f19.jpeg",
             "answers": [
                 {
                     "answer": "Determined and combative.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Which Hogwarts spirit would you invite to your table?",
-            "pic": "./testname/img/de_img/18_eb7d7a0e1a7e4a69bfcfc433c2c97fca.jpeg",
+            "pic": "/testname/img/18_eb7d7a0e1a7e4a69bfcfc433c2c97fca.jpeg",
             "answers": [
                 {
                     "answer": "Sir Nicholas – for his courage.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "When you look into the Nerhegeb mirror, what do you see for 2026?",
-            "pic": "./testname/img/de_img/19_e0d69990c60445aa8801f4aa984b4009.jpeg",
+            "pic": "/testname/img/19_e0d69990c60445aa8801f4aa984b4009.jpeg",
             "answers": [
                 {
                     "answer": "Myself, admired by a large crowd.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Which route do you take to leave the celebration?",
-            "pic": "./testname/img/de_img/20_0947bf62131e4b15a730cb59a0044f20.jpeg",
+            "pic": "/testname/img/20_0947bf62131e4b15a730cb59a0044f20.jpeg",
             "answers": [
                 {
                     "answer": "The moving stairs of Hogwarts.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "A magical creature is blocking your path. You...",
-            "pic": "./testname/img/de_img/21_7fd6850b136a4fa1bf6e4225143865a3.jpeg",
+            "pic": "/testname/img/21_7fd6850b136a4fa1bf6e4225143865a3.jpeg",
             "answers": [
                 {
                     "answer": "Draw your magic wand - ready to duel.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "What color is your aura at the start of the new year?",
-            "pic": "./testname/img/de_img/22_a8952b322eba49bab9cc5a7fc75864ec.jpeg",
+            "pic": "/testname/img/22_a8952b322eba49bab9cc5a7fc75864ec.jpeg",
             "answers": [
                 {
                     "answer": "Bright red like an ember.",

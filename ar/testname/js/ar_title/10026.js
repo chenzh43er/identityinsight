@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي شخصية من جرافيتي فولز أنت؟",
-    "mainPic": "./testname/img/ar_img/ba18f9d5b0d8dc32615ef87ec177b0ec.gif",
+    "mainPic": "/testname/img/ba18f9d5b0d8dc32615ef87ec177b0ec.gif",
     "thems": [
         "جرافيتي فولز",
         "ديزني",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel est votre coup de cœur masculin de Marvel ? ",
-    "mainPic": "./testname/img/fr_img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
+    "mainPic": "/testname/img/909887cfd5d9e1ef3648ea7051ada2c0.gif",
     "thems": [
         "Marvel",
         "Personnages",
@@ -10,7 +10,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "Qui aimeriez-vous qu'il vous aide à échapper à une situation dangereuse ?",
-        "pic": "./testname/img/fr_img/ad45b8698d5cc08002dc45890990b932.png",
+        "pic": "/testname/img/ad45b8698d5cc08002dc45890990b932.png",
         "answers": [
             {
                 "answer":"Quelqu'un avec une technologie avancée",
@@ -32,7 +32,7 @@ let quizData = {
         ]
     },{
         "question": "Comment préférez-vous passer une journée avec votre amourette ? ",
-        "pic": "./testname/img/fr_img/3505670dca9fd354ff9507f4d3a1c25b.png",
+        "pic": "/testname/img/3505670dca9fd354ff9507f4d3a1c25b.png",
         "answers": [
             {
                 "answer":"Faire des missions secrètes",
@@ -54,7 +54,7 @@ let quizData = {
         ]
     },{
         "question": "Quelle capacité aimeriez-vous que votre coup de cœur ait?",
-        "pic": "./testname/img/fr_img/5d1f0ddd660e50cce6156c34324993bd.png",
+        "pic": "/testname/img/5d1f0ddd660e50cce6156c34324993bd.png",
         "answers": [
             {
                 "answer":"Être un inventeur de génie",
@@ -80,19 +80,19 @@ let quizData = {
         "answers": [
             {
                 "answer":"Veuve Noire",
-                "aPic":"./testname/img/fr_img/9a8a4cc2c0df8d66b09c036d3268e354.png",
+                "aPic":"/testname/img/9a8a4cc2c0df8d66b09c036d3268e354.png",
                 "aId":1
             },{
                 "answer":"Tornade",
-                "aPic":"./testname/img/fr_img/ad1ebd943f369e1617f22acf426720b7.png",
+                "aPic":"/testname/img/ad1ebd943f369e1617f22acf426720b7.png",
                 "aId":2
             },{
                 "answer":"Captain Marvel",
-                "aPic":"./testname/img/fr_img/sr_174330480067e8b860ec0cb.png",
+                "aPic":"/testname/img/sr_174330480067e8b860ec0cb.png",
                 "aId":3
             },{
                 "answer":"Spider-Woman",
-                "aPic":"./testname/img/fr_img/aab583815a14a75b0ebb5bb8a719fb99.png",
+                "aPic":"/testname/img/aab583815a14a75b0ebb5bb8a719fb99.png",
                 "aId":4
             }
         ]

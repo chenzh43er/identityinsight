@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What do your eyes reveal about your past life?",
-    "mainPic": "./testname/img/de_img/93f935ad434696438bcf8f31987b9c6b.gif",
+    "mainPic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
     "thems": [
         "Eyes",
         "Past life",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Which color best describes your inner eye?",
-            "pic": "./testname/img/de_img/38a6d30ec16dbe2971d59f9b4f514dca.png",
+            "pic": "/testname/img/38a6d30ec16dbe2971d59f9b4f514dca.png",
             "answers": [
                 {
                     "answer": "Emerald green",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Where do you often feel a mysterious attraction?",
-            "pic": "./testname/img/de_img/96a19b4012600147e51275e57d74bd44.png",
+            "pic": "/testname/img/96a19b4012600147e51275e57d74bd44.png",
             "answers": [
                 {
                     "answer": "Mysterious forest",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "A stranger looks you in the eyes and suddenly starts crying. Why?",
-            "pic": "./testname/img/de_img/ed382eff77e42b971a769276b05d6420.png",
+            "pic": "/testname/img/ed382eff77e42b971a769276b05d6420.png",
             "answers": [
                 {
                     "answer": "They remember something they thought was lost",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "In your deepest imagination, where do you live?",
-            "pic": "./testname/img/de_img/63014b84f9fcc69413d1be46712cef1f.png",
+            "pic": "/testname/img/63014b84f9fcc69413d1be46712cef1f.png",
             "answers": [
                 {
                     "answer": "A caravan of colors",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Choose an object from your imagined past life that you would like to carry with you now",
-            "pic": "./testname/img/de_img/f17aea0287e3495fb80efe51d31404bf.png",
+            "pic": "/testname/img/f17aea0287e3495fb80efe51d31404bf.png",
             "answers": [
                 {
                     "answer": "A silver coin",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Which animal eyes do you find most attractive?",
-            "pic": "./testname/img/de_img/65dbfd65506bbd2442b49ff76b63fc34.png",
+            "pic": "/testname/img/65dbfd65506bbd2442b49ff76b63fc34.png",
             "answers": [
                 {
                     "answer": "Owl",

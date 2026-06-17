@@ -14,7 +14,7 @@ but when it stopped being funny.
 People come to you for translations.
 You are the Rosetta Stone of brain rot culture.
     `,
-    "mainPic": "./testname/img/en_img/21_cae01e9e4edb44c18a9bcbc2234e3f3d.jpeg"
+    "mainPic": "/testname/img/21_cae01e9e4edb44c18a9bcbc2234e3f3d.jpeg"
   },
 
   "2": {
@@ -32,7 +32,7 @@ you quietly Google after.
 
 Respectable. Slightly stressed.
     `,
-    "mainPic": "./testname/img/en_img/22_cbf15bca435b455ebe4bd54d42f4c281.jpeg"
+    "mainPic": "/testname/img/22_cbf15bca435b455ebe4bd54d42f4c281.jpeg"
   },
 
   "3": {
@@ -51,7 +51,7 @@ five seconds before being posted.
 You smile. You nod.
 You are deeply confused.
     `,
-    "mainPic": "./testname/img/en_img/23_5d642fac2f434ac2b9a73c17f71fb897.jpeg"
+    "mainPic": "/testname/img/23_5d642fac2f434ac2b9a73c17f71fb897.jpeg"
   },
 
   "4": {
@@ -69,6 +69,6 @@ You are not online.
 You are adjacent to online.
 And honestly? That might be healthier.
     `,
-    "mainPic": "./testname/img/en_img/24_075c340fdbcd482fba986a446e746b71.jpeg"
+    "mainPic": "/testname/img/24_075c340fdbcd482fba986a446e746b71.jpeg"
   }
 };

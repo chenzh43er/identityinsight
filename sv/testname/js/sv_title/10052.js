@@ -1,11 +1,11 @@
 let quizData = {
     "title": "✨ Vilken dolda sida av din magi skulle Hogwarts avslöja?",
-    "mainPic": "./testname/img/fr_img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
+    "mainPic": "/testname/img/06_921e1914-5947-435e-98cc-63c5a3410d36.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
             "question": "När du går in på Hogwarts känner du...",
-            "pic": "./testname/img/fr_img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
+            "pic": "/testname/img/05_8eafa76d-800d-4996-8d95-45f9f159070c.jpeg",
             "answers": [
                 {
                     "answer": "Som hemma",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Vilken kvalitet uppskattar du mest?",
-            "pic": "./testname/img/fr_img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
+            "pic": "/testname/img/04_2005a076-eb42-450b-86ad-19a4a6087202.jpeg",
             "answers": [
                 {
                     "answer": "Mod",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vilket skulle vara ditt favoritställe på Hogwarts?",
-            "pic": "./testname/img/fr_img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
+            "pic": "/testname/img/03_7d34c3ff-6aa9-4633-ab6e-703fbbff29a4.webp",
             "answers": [
                   {
                         "answer": "Gryffindortornet",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hur reagerar du på en utmaning?",
-            "pic": "./testname/img/fr_img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
+            "pic": "/testname/img/02_4161d808-c977-401e-b74f-c93a91bf21b0.jpeg",
             "answers": [
                 {
                     "answer": "Jag möter det utan att tveka",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vilken magisk förmåga skulle du vilja behärska?",
-            "pic": "./testname/img/fr_img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
+            "pic": "/testname/img/01_fd8c9ab6-e150-432f-b20d-28c5ee806fb8.webp",
             "answers": [
                   {
                         "answer": "Disapparat",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Vad driver dig att bli starkare?",
-            "pic": "./testname/img/fr_img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
+            "pic": "/testname/img/26_501b164f-ac1e-491b-aaad-e2c2643faef2.jpeg",
             "answers": [
                 {
                     "answer": "Viljan att skydda",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Vilken skulle vara din största svaghet?",
-            "pic": "./testname/img/fr_img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
+            "pic": "/testname/img/25_37802475-cfda-4909-b6e1-671f02502102.jpeg",
             "answers": [
                  {
     "answer": "Agerar för impulsivt",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "När du begrundar ditt öde ser du...",
-            "pic": "./testname/img/fr_img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
+            "pic": "/testname/img/24_98164a13-6fed-4196-b7db-20601a9f4471.jpeg",
             "answers": [
                   {
                     "answer": "Ljuset",

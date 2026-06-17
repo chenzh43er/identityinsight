@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Style Of Outfit Best Matches Your Zodiac?",
-    "mainPic": "./testname/img/en_img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
+    "mainPic": "/testname/img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
     "thems": [
         "Outfit",
         "Zodiac",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "What is your zodiac sign?",
-            "pic": "./testname/img/en_img/6715595abcda7dd413825ee160faa382.jpg",
+            "pic": "/testname/img/6715595abcda7dd413825ee160faa382.jpg",
             "answers": [
                 {
                     "answer": "Aries, Leo, Sagittarius",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "What is your zodiac element?",
-            "pic": "./testname/img/en_img/21812ddf99663564e7ebf5fc6c35b23f.jpg",
+            "pic": "/testname/img/21812ddf99663564e7ebf5fc6c35b23f.jpg",
             "answers": [
                 {
                     "answer": "Fire",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Which planet influences you most?",
-            "pic": "./testname/img/en_img/7092a47169954413215c1ec4d94ff603.jpg",
+            "pic": "/testname/img/7092a47169954413215c1ec4d94ff603.jpg",
             "answers": [
                 {
                     "answer": "Venus",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "What’s your rising sign energy?",
-            "pic": "./testname/img/en_img/93098745f292d9794dc5c840fffeefb9.jpg",
+            "pic": "/testname/img/93098745f292d9794dc5c840fffeefb9.jpg",
             "answers": [
                 {
                     "answer": "Mysterious",

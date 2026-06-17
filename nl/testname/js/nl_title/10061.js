@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Pols Lijn Lezing: Is Je Leven Voorbestemd Voor Geluk Of Moeilijkheden?",
-    "mainPic": "./testname/img/nl_img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
+    "mainPic": "/testname/img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
     "thems": [
         "Fortuin",
         "Bestemming",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hoeveel verschillende lijnen zie je op je pols?",
-            "pic": "./testname/img/nl_img/2bbd04e39157174e11dc766e0a774728.jpg",
+            "pic": "/testname/img/2bbd04e39157174e11dc766e0a774728.jpg",
             "answers": [
                 {
                     "answer": "1 of minder",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Wat voor vorm hebben je polslijnen voornamelijk?",
-            "pic": "./testname/img/nl_img/abb451b62995f01c8f72bbf9db27e2c4.png",
+            "pic": "/testname/img/abb451b62995f01c8f72bbf9db27e2c4.png",
             "answers": [
                 {
                     "answer": "Recht",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Merk je enige onderbrekingen of breuken op in je polslijnen?",
-            "pic": "./testname/img/nl_img/268276f87ef638090379441774383550.png",
+            "pic": "/testname/img/268276f87ef638090379441774383550.png",
             "answers": [
                 {
                     "answer": "Ja, veel",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welke kleur associeer je met je polslijnen?",
-            "pic": "./testname/img/nl_img/2497daaadb9f5780a00576777754b97a.png",
+            "pic": "/testname/img/2497daaadb9f5780a00576777754b97a.png",
             "answers": [
                 {
                     "answer": "Bleek",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Wat voel je als je je polslijnen onderzoekt?",
-            "pic": "./testname/img/nl_img/a3e2d7795433be4865ad4002d0e65733.png",
+            "pic": "/testname/img/a3e2d7795433be4865ad4002d0e65733.png",
             "answers": [
                 {
                     "answer": "Onverschilligheid",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Hoe vaak denk je na over de richting van je leven?",
-            "pic": "./testname/img/nl_img/2c11100c2023512f5319ba46c7f2d6ba.png",
+            "pic": "/testname/img/2c11100c2023512f5319ba46c7f2d6ba.png",
             "answers": [
                 {
                     "answer": "Zelden",

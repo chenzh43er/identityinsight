@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hvilken Harry Potter-skurk finnes i deg?",
-    "mainPic": "./testname/img/fr_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+    "mainPic": "/testname/img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
     "thems": ["Harry Potter", "Harry-Potter-Quiz", "Galtvort", "Magi", "Film", "Harry-Potter-fans", "Magiske verden", "Potterheads"],
     "questions": [
         {
             "question": "Hvis du hadde en forbudt makt, ville du...",
-            "pic": "./testname/img/fr_img/05_e34aa7bc-a93e-498d-b68b-b58ca9f6e95b.jpeg",
+            "pic": "/testname/img/05_e34aa7bc-a93e-498d-b68b-b58ca9f6e95b.jpeg",
             "answers": [
                 {
                     "answer": "Ville brukt det for godt",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hva synes du om makt?",
-            "pic": "./testname/img/fr_img/04_1fac1903-41a1-4779-a6f5-73bf07b6769a.jpeg",
+            "pic": "/testname/img/04_1fac1903-41a1-4779-a6f5-73bf07b6769a.jpeg",
             "answers": [
                 {
                     "answer": "Nødvendig å beskytte",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvilken følelse veileder deg mest?",
-            "pic": "./testname/img/fr_img/03_376339fd-14c5-486b-91c5-d7b511f710a1.jpeg",
+            "pic": "/testname/img/03_376339fd-14c5-486b-91c5-d7b511f710a1.jpeg",
             "answers": [
                 {
                     "answer": "Sinne",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvis noen forråder deg...",
-            "pic": "./testname/img/fr_img/02_faecacc0-7dd0-43fa-98be-3ec9e227a5aa.jpeg",
+            "pic": "/testname/img/02_faecacc0-7dd0-43fa-98be-3ec9e227a5aa.jpeg",
             "answers": [
                 {
                     "answer": "Du kutter alle bånd",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Ditt ideelle miljø:",
-            "pic": "./testname/img/fr_img/01_402ed890-a0e0-493b-9c8b-b4a4ecb68666.jpeg",
+            "pic": "/testname/img/01_402ed890-a0e0-493b-9c8b-b4a4ecb68666.jpeg",
             "answers": [
                 {
                     "answer": "Et brennende slott",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Ditt magiske favoritttilbehør",
-            "pic": "./testname/img/fr_img/26_b8e9297e-cc94-4469-8b9c-27a10cec113a.jpeg",
+            "pic": "/testname/img/26_b8e9297e-cc94-4469-8b9c-27a10cec113a.jpeg",
             "answers": [
                 {
                     "answer": "En eldgammel tryllestav",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Din største frykt",
-            "pic": "./testname/img/fr_img/25_45356160-ee00-496b-9a6c-8eb84c9c8293.jpeg",
+            "pic": "/testname/img/25_45356160-ee00-496b-9a6c-8eb84c9c8293.jpeg",
             "answers": [
                 {
                     "answer": "Feil",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Hvilken setning representerer deg?",
-            "pic": "./testname/img/fr_img/24_f0405364-48a9-4688-bfc6-fc9d3c710b32.jpeg",
+            "pic": "/testname/img/24_f0405364-48a9-4688-bfc6-fc9d3c710b32.jpeg",
             "answers": [
                 {
                     "answer": "Jeg velger min skjebne.",

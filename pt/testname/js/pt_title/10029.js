@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Com quais símbolos de proteção você mais se identifica?",
-    "mainPic": "./testname/img/pt_img/07e41d20159406ff2364a92b9125b1e9.jpeg",
+    "mainPic": "/testname/img/07e41d20159406ff2364a92b9125b1e9.jpeg",
     "thems": [
         "Símbolos Antigos",
         "Símbolos",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "O que você valoriza mais na vida?",
-            "pic": "./testname/img/pt_img/bc12733e315a2d9bc15c6ba08ad917c9.png",
+            "pic": "/testname/img/bc12733e315a2d9bc15c6ba08ad917c9.png",
             "answers": [
                 {
                     "answer": "Força",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Que tipo de proteção você sente que mais precisa?",
-            "pic": "./testname/img/pt_img/8195832922cf4a42aa4ffaf363fae4ae.png",
+            "pic": "/testname/img/8195832922cf4a42aa4ffaf363fae4ae.png",
             "answers": [
                 {
                     "answer": "Física",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Qual lugar te fascina mais?",
-            "pic": "./testname/img/pt_img/59a50a444c548a3560a44e9934ff7d55.png",
+            "pic": "/testname/img/59a50a444c548a3560a44e9934ff7d55.png",
             "answers": [
                 {
                     "answer": "Roma",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Se você pudesse levar um amuleto protetor, qual seria?",
-            "pic": "./testname/img/pt_img/6be559288fc5661108568de1a3172fa4.png",
+            "pic": "/testname/img/6be559288fc5661108568de1a3172fa4.png",
             "answers": [
                 {
                     "answer": "Um pingente de escudo",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Qual é a sua maneira ideal de se proteger de energias negativas?",
-            "pic": "./testname/img/pt_img/9352b0f2758303d16f0762d054296b2e.png",
+            "pic": "/testname/img/9352b0f2758303d16f0762d054296b2e.png",
             "answers": [
                 {
                     "answer": "Firmar posição",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Do que você tem mais medo de perder?",
-            "pic": "./testname/img/pt_img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
+            "pic": "/testname/img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
             "answers": [
                 {
                     "answer": "Minha família",

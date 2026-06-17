@@ -1,6 +1,6 @@
 let quizData = {
     "title": "🐍 Welcher dunkle Zauberer aus Harry Potter steckt in dir?",
-    "mainPic": "./testname/img/de_img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
+    "mainPic": "/testname/img/06_85cc12b1-1b9c-40d4-8f16-474c55167de5.png",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wenn du eine verbotene Macht hättest, würdest du…",
-            "pic": "./testname/img/de_img/05_e34aa7bc-a93e-498d-b68b-b58ca9f6e95b.jpeg",
+            "pic": "/testname/img/05_e34aa7bc-a93e-498d-b68b-b58ca9f6e95b.jpeg",
             "answers": [
                 {
                     "answer": "sie zum Guten einsetzen.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Was denkst du über Macht?",
-            "pic": "./testname/img/de_img/04_1fac1903-41a1-4779-a6f5-73bf07b6769a.jpeg",
+            "pic": "/testname/img/04_1fac1903-41a1-4779-a6f5-73bf07b6769a.jpeg",
             "answers": [
                 {
                     "answer": "Sie ist notwendig, um zu beschützen.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Welche Emotion leitet dich am meisten?",
-            "pic": "./testname/img/de_img/03_376339fd-14c5-486b-91c5-d7b511f710a1.jpeg",
+            "pic": "/testname/img/03_376339fd-14c5-486b-91c5-d7b511f710a1.jpeg",
             "answers": [
                 {
                     "answer": "Wut",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Wenn dich jemand verrät…",
-            "pic": "./testname/img/de_img/02_faecacc0-7dd0-43fa-98be-3ec9e227a5aa.jpeg",
+            "pic": "/testname/img/02_faecacc0-7dd0-43fa-98be-3ec9e227a5aa.jpeg",
             "answers": [
                 {
                     "answer": "brichst du jeden Kontakt ab.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Deine ideale Umgebung wäre…",
-            "pic": "./testname/img/de_img/01_402ed890-a0e0-493b-9c8b-b4a4ecb68666.jpeg",
+            "pic": "/testname/img/01_402ed890-a0e0-493b-9c8b-b4a4ecb68666.jpeg",
             "answers": [
                 {
                     "answer": "ein brennendes Schloss.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Welches magische Objekt wäre dein Favorit?",
-            "pic": "./testname/img/de_img/26_b8e9297e-cc94-4469-8b9c-27a10cec113a.jpeg",
+            "pic": "/testname/img/26_b8e9297e-cc94-4469-8b9c-27a10cec113a.jpeg",
             "answers": [
                 {
                     "answer": "ein uralter Zauberstab.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Wovor hast du am meisten Angst?",
-            "pic": "./testname/img/de_img/25_45356160-ee00-496b-9a6c-8eb84c9c8293.jpeg",
+            "pic": "/testname/img/25_45356160-ee00-496b-9a6c-8eb84c9c8293.jpeg",
             "answers": [
                 {
                     "answer": "vor dem Scheitern.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Welcher Satz beschreibt dich am besten?",
-            "pic": "./testname/img/de_img/24_f0405364-48a9-4688-bfc6-fc9d3c710b32.jpeg",
+            "pic": "/testname/img/24_f0405364-48a9-4688-bfc6-fc9d3c710b32.jpeg",
             "answers": [
                 {
                     "answer": " „Ich wähle mein eigenes Schicksal.“",

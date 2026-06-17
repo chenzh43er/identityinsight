@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Testa din nationalitet genom handtydning",
-    "mainPic": "./testname/img/sv_img/e03a3428cd3a4556940c594500755100.gif",
+    "mainPic": "/testname/img/e03a3428cd3a4556940c594500755100.gif",
     "thems": [
         "Horoskop",
         "Nationalitet",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur ser din Livslinje ut?",
-            "pic": "./testname/img/sv_img/0cdf2ce5f62065265279f968e5ee8ab3.jpg",
+            "pic": "/testname/img/0cdf2ce5f62065265279f968e5ee8ab3.jpg",
             "answers": [
                 {
                     "answer": "Lång och djup",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hur är din hjärtlinje formad?",
-            "pic": "./testname/img/sv_img/d174aa56d00efa1f729059001688e42f.jpg",
+            "pic": "/testname/img/d174aa56d00efa1f729059001688e42f.jpg",
             "answers": [
                 {
                     "answer": "1",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Vilket berg är det dominerande på din handflata?",
-            "pic": "./testname/img/sv_img/db5149ed1e591fe380a7fb1fde32f230.jpg",
+            "pic": "/testname/img/db5149ed1e591fe380a7fb1fde32f230.jpg",
             "answers": [
                 {
                     "answer": "Venusberget",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hur många tydliga linjer korsar din Ödeslinje?",
-            "pic": "./testname/img/sv_img/db943f15958ccea168964bda01938c2d.jpg",
+            "pic": "/testname/img/db943f15958ccea168964bda01938c2d.jpg",
             "answers": [
                 {
                     "answer": "Ingen",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Vad visar din Huvudlinje?",
-            "pic": "./testname/img/sv_img/d8d518741fcb402c6d65be38756e1c64.jpg",
+            "pic": "/testname/img/d8d518741fcb402c6d65be38756e1c64.jpg",
             "answers": [
                 {
                     "answer": "Lång och klar",

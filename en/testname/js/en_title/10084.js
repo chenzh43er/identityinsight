@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Are You a Lorelai or a Rory?",
-    "mainPic": "./testname/img/en_img/104_e00709cb79e149dab8856fbe62355131.jpeg",
+    "mainPic": "/testname/img/104_e00709cb79e149dab8856fbe62355131.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Your perfect Saturday looks like…",
-    "pic": "./testname/img/en_img/105_a10c65c2a7bf457e95472d89c15ed61c.jpeg",
+    "pic": "/testname/img/105_a10c65c2a7bf457e95472d89c15ed61c.jpeg",
     "answers": [
       { "answer": "Sleeping in, grabbing coffee, and seeing where the day takes me.", "aPic": "", "aId": 1 },
       { "answer": "Waking up early to finish reading or working on a plan.", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "How do you usually make big decisions?",
-    "pic": "./testname/img/en_img/106_d7bba7dd2231426086bcab6de25b7cf9.jpeg",
+    "pic": "/testname/img/106_d7bba7dd2231426086bcab6de25b7cf9.jpeg",
     "answers": [
       { "answer": "I go with my gut.", "aPic": "", "aId": 1 },
       { "answer": "I weigh every option carefully.", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Your relationship with rules is…",
-    "pic": "./testname/img/en_img/107_c911975ee9454a3e8d9b6d0c7cb67794.jpeg",
+    "pic": "/testname/img/107_c911975ee9454a3e8d9b6d0c7cb67794.jpeg",
     "answers": [
       { "answer": "They’re more like suggestions.", "aPic": "", "aId": 1 },
       { "answer": "Necessary for success.", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "When you’re stressed, you…",
-    "pic": "./testname/img/en_img/108_fc687cfd8255463cad41bf49d2b5e5c3.jpeg",
+    "pic": "/testname/img/108_fc687cfd8255463cad41bf49d2b5e5c3.jpeg",
     "answers": [
       { "answer": "Joke about it and keep moving.", "aPic": "", "aId": 1 },
       { "answer": "Retreat and focus harder.", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "People often describe you as…",
-    "pic": "./testname/img/en_img/109_e4359ffafed04b17bbdd8ecb0202d273.jpeg",
+    "pic": "/testname/img/109_e4359ffafed04b17bbdd8ecb0202d273.jpeg",
     "answers": [
       { "answer": "Witty and spontaneous.", "aPic": "", "aId": 1 },
       { "answer": "Intelligent and driven.", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "What matters more to you?",
-    "pic": "./testname/img/en_img/110_593ed4e138be44439637fad0cf260ec8.jpeg",
+    "pic": "/testname/img/110_593ed4e138be44439637fad0cf260ec8.jpeg",
     "answers": [
       { "answer": "Freedom", "aPic": "", "aId": 1 },
       { "answer": "Achievement", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Your biggest fear is…",
-    "pic": "./testname/img/en_img/111_94138f22921b4ac1bffaa41b50a06c36.jpeg",
+    "pic": "/testname/img/111_94138f22921b4ac1bffaa41b50a06c36.jpeg",
     "answers": [
       { "answer": "Losing myself in expectations.", "aPic": "", "aId": 1 },
       { "answer": "Not living up to my potential.", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Which line feels most like you?",
-    "pic": "./testname/img/en_img/112_0f24589bfded4074b32f09a78e7506a4.jpeg",
+    "pic": "/testname/img/112_0f24589bfded4074b32f09a78e7506a4.jpeg",
     "answers": [
       { "answer": "“Life should be fun.”", "aPic": "", "aId": 1 },
       { "answer": "“I want to make something of myself.”", "aPic": "", "aId": 2 },

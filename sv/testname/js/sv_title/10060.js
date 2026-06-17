@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vilken \"Dress To Impress\"-drottning är du egentligen? ",
-    "mainPic": "./testname/img/sv_img/01_10df891c-61bd-4295-8752-e6bc1004979c.jpeg",
+    "mainPic": "/testname/img/01_10df891c-61bd-4295-8752-e6bc1004979c.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
 {
   "question": "När temat är 'Y2K' (2000-tals mode), vad är din första tanke?",
-  "pic": "./testname/img/sv_img/02_64408cf2-1f49-4507-a84d-e2e68aee4210.jpeg",
+  "pic": "/testname/img/02_64408cf2-1f49-4507-a84d-e2e68aee4210.jpeg",
   "answers": [
     {
       "answer": "Springer direkt till VIP-rummet! Där finns de äkta låga jeansen och fluffiga skorna.",
@@ -31,7 +31,7 @@ let quizData = {
 },
       {
   "question": "Innan showen börjar ser du att någon har kopierat din outfit helt och hållet. Vad gör du?",
-  "pic": "./testname/img/sv_img/03_5f4cb783-8db5-43cd-a501-25d0387f6e7f.jpeg",
+  "pic": "/testname/img/03_5f4cb783-8db5-43cd-a501-25d0387f6e7f.jpeg",
   "answers": [
     {
       "answer": "Skriver i chatten: 'Excuse me? Copied much?'",
@@ -57,7 +57,7 @@ let quizData = {
 },
         {
   "question": "Dags att rösta! Hur sätter du dina stjärnor på andra spelare?",
-  "pic": "./testname/img/sv_img/04_d8fd6a7f-d284-4f51-aa99-580a0bce56e9.jpeg",
+  "pic": "/testname/img/04_d8fd6a7f-d284-4f51-aa99-580a0bce56e9.jpeg",
   "answers": [
     {
       "answer": "Bara de som verkligen 'slayar' får 3–5 stjärnor. Resten får 1.",
@@ -83,7 +83,7 @@ let quizData = {
 },
         {
   "question": "Om du är VIP (eller när du har Robux), vad gör du mest?",
-  "pic": "./testname/img/sv_img/05_b2776f6e-4b35-4711-a192-4411256ff4d3.jpeg",
+  "pic": "/testname/img/05_b2776f6e-4b35-4711-a192-4411256ff4d3.jpeg",
   "answers": [
     {
       "answer": "Använder den guldiga namnskylten och VIP-gångstilen direkt. Alla ska veta vem som bestämmer.",
@@ -109,7 +109,7 @@ let quizData = {
 },
 {
   "question": "Vad betyder Lana (nagel-tjejen i lobbyn) för dig?",
-  "pic": "./testname/img/sv_img/06_37def485-29be-450a-b010-64cdbf9a9fab.jpeg",
+  "pic": "/testname/img/06_37def485-29be-450a-b010-64cdbf9a9fab.jpeg",
   "answers": [
     {
       "answer": "Hon är min mode-ikon. Jag kan typ hela hennes 'lore' (bakgrundshistoria).",
@@ -135,7 +135,7 @@ let quizData = {
 },
 {
   "question": "Det är din tur på catwalken! Vilken pose kör du?",
-  "pic": "./testname/img/sv_img/07_0beba2db-558e-4a2a-ac21-8767a91d2658.png",
+  "pic": "/testname/img/07_0beba2db-558e-4a2a-ac21-8767a91d2658.png",
   "answers": [
     {
       "answer": "Pose 28 (bryggan) eller något som visar mina dyra skor.",
@@ -161,7 +161,7 @@ let quizData = {
 },
 {
   "question": "Resultatet kommer... du kom inte topp 3, men vinnaren ser hemsk ut. Din reaktion?",
-  "pic": "./testname/img/sv_img/08_2c04eedd-e6c8-42ef-afeb-e266a5e71c0d.jpeg",
+  "pic": "/testname/img/08_2c04eedd-e6c8-42ef-afeb-e266a5e71c0d.jpeg",
   "answers": [
     {
       "answer": "Skriver \"ROBBED\" i chatten och lämnar servern direkt.",

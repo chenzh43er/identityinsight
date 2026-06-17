@@ -17,7 +17,7 @@ You are the calm presence
 others look for
 when chaos breaks out.
     `,
-    "mainPic": "./testname/img/en_img/100_85deb6941c3c4e07a229dce685e5cf5d.jpeg"
+    "mainPic": "/testname/img/100_85deb6941c3c4e07a229dce685e5cf5d.jpeg"
   },
   "2": {
     "title": "Jedi or Sith: Which Side of the Force Are You On?",
@@ -35,7 +35,7 @@ Your strength lies in insight,
 patience,
 and emotional intelligence.
     `,
-    "mainPic": "./testname/img/en_img/101_d7cee9e3d0fc404885dae2e9d14d0a39.webp"
+    "mainPic": "/testname/img/101_d7cee9e3d0fc404885dae2e9d14d0a39.webp"
   },
   "3": {
     "title": "Jedi or Sith: Which Side of the Force Are You On?",
@@ -51,7 +51,7 @@ While some see you as intense,
 your passion fuels your drive
 to rise above limits.
     `,
-    "mainPic": "./testname/img/en_img/102_434182f445dc463cabb9fbb9fc0017b5.webp"
+    "mainPic": "/testname/img/102_434182f445dc463cabb9fbb9fc0017b5.webp"
   },
   "4": {
     "title": "Jedi or Sith: Which Side of the Force Are You On?",
@@ -69,6 +69,6 @@ Power, to you,
 is something earned —
 and protected.
     `,
-    "mainPic": "./testname/img/en_img/103_c3cf9eddd53f4c8d82b4d923bc6ecdd3.jpeg"
+    "mainPic": "/testname/img/103_c3cf9eddd53f4c8d82b4d923bc6ecdd3.jpeg"
   }
 };

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Testez Vos Connaissances en Anime et Découvrez Quel Personnage de Harry Potter Vous Êtes Vraiment",
-    "mainPic": "./testname/img/fr_img/6b8d7b30c12ec88bf4a563c898243625.jpg",
+    "mainPic": "/testname/img/6b8d7b30c12ec88bf4a563c898243625.jpg",
     "thems": [
         "Anime",
         "Harry Potter",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Prêt? Commençons! Quel Pokémon stocke de l'électricité dans ses joues ?",
-            "pic": "./testname/img/fr_img/2746a6e0ca7a1ff93b6ce08462a5137f.jpg",
+            "pic": "/testname/img/2746a6e0ca7a1ff93b6ce08462a5137f.jpg",
             "answers": [
                 {
                     "answer": "Gengar",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Combien de Dragon Balls existe-t-il ?",
-            "pic": "./testname/img/fr_img/10d17c821a2ccc37fd8f15edd36c4354.jpg",
+            "pic": "/testname/img/10d17c821a2ccc37fd8f15edd36c4354.jpg",
             "answers": [
                 {
                     "answer": "8",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Quel personnage d'Anime fut vendu à un cirque ?",
-            "pic": "./testname/img/fr_img/78fd650cebab42be1e678f3514a2ee70.jpg",
+            "pic": "/testname/img/78fd650cebab42be1e678f3514a2ee70.jpg",
             "answers": [
                 {
                     "answer": "Sailor Moon",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Quel personnage acquit certaines caractéristiques après avoir mangé un fruit démoniaque ?",
-            "pic": "./testname/img/fr_img/4d39b61226dbdde683dde3cb8ba4ecad.jpg",
+            "pic": "/testname/img/4d39b61226dbdde683dde3cb8ba4ecad.jpg",
             "answers": [
                 {
                     "answer": "Monkey D. Luffy",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Qui est membre d'une race de guerriers extraterrestres appelée les Saiyans ?",
-            "pic": "./testname/img/fr_img/b1ade0970f8f9bb34944743b900ce3fa.jpg",
+            "pic": "/testname/img/b1ade0970f8f9bb34944743b900ce3fa.jpg",
             "answers": [
                 {
                     "answer": "Naruto",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Quel est le nom de la petite-amie de Speed Racer ?",
-            "pic": "./testname/img/fr_img/d7493e3bd1a0dedaa905d15b432c5a0a.jpg",
+            "pic": "/testname/img/d7493e3bd1a0dedaa905d15b432c5a0a.jpg",
             "answers": [
                 {
                     "answer": "Nixie",
@@ -166,7 +166,7 @@ let quizData = {
         },
         {
             "question": "En quelle année Demon Slayer a-t-il été diffusé ?",
-            "pic": "./testname/img/fr_img/8fb86eb19101bb517f633fae786d0b16.jpg",
+            "pic": "/testname/img/8fb86eb19101bb517f633fae786d0b16.jpg",
             "answers": [
                 {
                     "answer": "2018",

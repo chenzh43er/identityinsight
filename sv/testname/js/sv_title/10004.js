@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Är du fast i överanalyserande?",
-    "mainPic": "./testname/img/sv_img/8c7cc3e683d37dfbb463592ce5f67770.jpeg",
+    "mainPic": "/testname/img/8c7cc3e683d37dfbb463592ce5f67770.jpeg",
     "thems": [
         "Överanalyserande",
         "Mental hälsa",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur brukar du reagera innan du fattar ett litet beslut?",
-            "pic": "./testname/img/sv_img/0500caa5bd8c07a8b3653ca6233a0884.png",
+            "pic": "/testname/img/0500caa5bd8c07a8b3653ca6233a0884.png",
             "answers": [
                 {
                     "answer": "Väga alla för- och nackdelar",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Vad händer när du minns tidigare misstag?",
-            "pic": "./testname/img/sv_img/b8c13ea86ca45c4f4e8ea0cf97d2f81e.jpeg",
+            "pic": "/testname/img/b8c13ea86ca45c4f4e8ea0cf97d2f81e.jpeg",
             "answers": [
                 {
                     "answer": "Jag spelar upp det i mitt huvud ofta.",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Hur känner du innan du fattar ett viktigt beslut?",
-            "pic": "./testname/img/sv_img/c1cf0278d41a72e69194fec6a15ed402.png",
+            "pic": "/testname/img/c1cf0278d41a72e69194fec6a15ed402.png",
             "answers": [
                 {
                     "answer": "Orolig, jag behöver råd.",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hur känner du inför framtida planer?",
-            "pic": "./testname/img/sv_img/57939d47990bfdb935082b7204843b99.png",
+            "pic": "/testname/img/57939d47990bfdb935082b7204843b99.png",
             "answers": [
                 {
                     "answer": "Orolig för att göra misstag.",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Hur känner du dig när en vän ställer in?",
-            "pic": "./testname/img/sv_img/16035a2bae6578dc73eefec11fe2f782.png",
+            "pic": "/testname/img/16035a2bae6578dc73eefec11fe2f782.png",
             "answers": [
                 {
                     "answer": "De tycker inte om mig",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Vad gör du i pinsamma ögonblick?",
-            "pic": "./testname/img/sv_img/d90c61729cf42066c4c1ada25d7aeb86.jpg",
+            "pic": "/testname/img/d90c61729cf42066c4c1ada25d7aeb86.jpg",
             "answers": [
                 {
                     "answer": "Skäms i veckor",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Sind Sie Rechts- oder Linksgehirnt?",
-    "mainPic": "./testname/img/de_img/899c0b162600ca8a1e7832ccc2664178.gif",
+    "mainPic": "/testname/img/899c0b162600ca8a1e7832ccc2664178.gif",
     "thems": [
         "Persönlichkeit",
         "Linkshirn",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie gehst du an die Lösung eines Problems heran?",
-            "pic": "./testname/img/de_img/c764a555d85b69a958b034702395869a.png",
+            "pic": "/testname/img/c764a555d85b69a958b034702395869a.png",
             "answers": [
                 {
                     "answer": "Ich verlasse mich auf mein Bauchgefühl",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Wie planen Sie normalerweise Ihren Tag?",
-            "pic": "./testname/img/de_img/f9cc80a976cb087fdeae4e7eade4ccb4.png",
+            "pic": "/testname/img/f9cc80a976cb087fdeae4e7eade4ccb4.png",
             "answers": [
                 {
                     "answer": "Ich lasse mich treiben",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Welche Beschreibung passt am besten zu Ihrem Arbeitsplatz?",
-            "pic": "./testname/img/de_img/7f99c010eca1709d38e2450c9a02d3a8.png",
+            "pic": "/testname/img/7f99c010eca1709d38e2450c9a02d3a8.png",
             "answers": [
                 {
                     "answer": "Kreatives Chaos",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Wie treffen Sie Entscheidungen?",
-            "pic": "./testname/img/de_img/650a777107c005382e1dd192c508de7a.png",
+            "pic": "/testname/img/650a777107c005382e1dd192c508de7a.png",
             "answers": [
                 {
                     "answer": "Ich gehe nach dem, was sich richtig anfühlt",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Welche Fächer bevorzugen Sie?",
-            "pic": "./testname/img/de_img/e62399b3f1ca2ebda08bc0fd95966643.png",
+            "pic": "/testname/img/e62399b3f1ca2ebda08bc0fd95966643.png",
             "answers": [
                 {
                     "answer": "Kunst oder Literatur",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "Wie merkst du dir am besten Dinge?",
-            "pic": "./testname/img/de_img/d7cc384cc8673ce60c3c17f487e00d90.png",
+            "pic": "/testname/img/d7cc384cc8673ce60c3c17f487e00d90.png",
             "answers": [
                 {
                     "answer": "Bilder, Geräusche oder Geschichten",

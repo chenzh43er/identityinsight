@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie is het licht in je leven?",
-    "mainPic": "./testname/img/nl_img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
+    "mainPic": "/testname/img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
     "thems": [
         "Liefde",
         "Licht",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is het eerste dat je doet als je een moeilijke uitdaging tegenkomt?",
-            "pic": "./testname/img/nl_img/23ac39fa5ea0870865405c346b42892c.png",
+            "pic": "/testname/img/23ac39fa5ea0870865405c346b42892c.png",
             "answers": [
                 {
                     "answer": "Zoek troost in een knuffel",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Wiens advies zou je het meest vertrouwen?",
-            "pic": "./testname/img/nl_img/4285972412b86e481159aa8f679e2d51.png",
+            "pic": "/testname/img/4285972412b86e481159aa8f679e2d51.png",
             "answers": [
                 {
                     "answer": "Iemand die me echt kent",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Waar voel je je veilig als de wereld je overweldigt?",
-            "pic": "./testname/img/nl_img/a2151b919898f1995cd160e1c47f9b4c.png",
+            "pic": "/testname/img/a2151b919898f1995cd160e1c47f9b4c.png",
             "answers": [
                 {
                     "answer": "In mijn kamer",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wiens mening waardeer je het meest bij het nemen van een grote levensbeslissing?",
-            "pic": "./testname/img/nl_img/23afab38c7566147424f10c89b77340f.png",
+            "pic": "/testname/img/23afab38c7566147424f10c89b77340f.png",
             "answers": [
                 {
                     "answer": "De persoon die mijn langetermijndoelen kent",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Welke van deze landschappen zou je humeur direct verbeteren?",
-            "pic": "./testname/img/nl_img/10eaeadaa78ccaae2531f870be6d1798.png",
+            "pic": "/testname/img/10eaeadaa78ccaae2531f870be6d1798.png",
             "answers": [
                 {
                     "answer": "Een knus huisje in het bos",

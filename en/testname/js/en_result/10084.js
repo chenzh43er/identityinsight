@@ -16,7 +16,7 @@ it’s about enjoying the ride
 and staying true
 to who you are.
     `,
-    "mainPic": "./testname/img/en_img/113_5949d17376b54378b50f19a8c9caf3c8.png"
+    "mainPic": "/testname/img/113_5949d17376b54378b50f19a8c9caf3c8.png"
   },
   "2": {
     "title": "Are You a Lorelai or a Rory?",
@@ -35,7 +35,7 @@ in discipline,
 curiosity,
 and your desire to grow.
     `,
-    "mainPic": "./testname/img/en_img/114_2750ecf5f9de42cbb305a5c0e2b01ee9.jpeg"
+    "mainPic": "/testname/img/114_2750ecf5f9de42cbb305a5c0e2b01ee9.jpeg"
   },
   "3": {
     "title": "Are You a Lorelai or a Rory?",
@@ -54,7 +54,7 @@ it’s about enjoying the ride
 and staying true
 to who you are.
     `,
-    "mainPic": "./testname/img/en_img/113_5949d17376b54378b50f19a8c9caf3c8.png"
+    "mainPic": "/testname/img/113_5949d17376b54378b50f19a8c9caf3c8.png"
   },
   "4": {
     "title": "Are You a Lorelai or a Rory?",
@@ -73,6 +73,6 @@ in discipline,
 curiosity,
 and your desire to grow.
     `,
-    "mainPic": "./testname/img/en_img/114_2750ecf5f9de42cbb305a5c0e2b01ee9.jpeg"
+    "mainPic": "/testname/img/114_2750ecf5f9de42cbb305a5c0e2b01ee9.jpeg"
   }
 };

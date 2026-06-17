@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hva vil skje med deg i 2025?",
-    "mainPic": "./testname/img/no_img/da2b8b02ba8e7cf49aea92283a7eaa24.gif",
+    "mainPic": "/testname/img/da2b8b02ba8e7cf49aea92283a7eaa24.gif",
     "thems": [
         "Forutsigelse",
         "2025",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Velg en tilfeldig gjenstand.",
-            "pic": "./testname/img/no_img/8c14bd97f8760b5f94b2f2104934fc86.jpg",
+            "pic": "/testname/img/8c14bd97f8760b5f94b2f2104934fc86.jpg",
             "answers": [
                 {
                     "answer": "Babysko",

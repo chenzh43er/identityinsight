@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Combien de Slytherin y a-t-il en toi ?",
-    "mainPic": "./testname/img/fr_img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
+    "mainPic": "/testname/img/27_399ac936-0bec-483d-b982-02ab311a075c.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
   "question": "Si quelqu’un vole ton idée…",
-  "pic": "./testname/img/fr_img/28_b7942a37-5757-4d04-a2ee-23d58525f985.jpeg",
+  "pic": "/testname/img/28_b7942a37-5757-4d04-a2ee-23d58525f985.jpeg",
   "answers": [
     {
       "answer": "Rester calme",
@@ -40,7 +40,7 @@ let quizData = {
 },
         {
   "question": "Que signifie le succès pour toi ?",
-  "pic": "./testname/img/fr_img/29_92e5f1ea-a00c-4af9-880c-d9979880f0d9.jpeg",
+  "pic": "/testname/img/29_92e5f1ea-a00c-4af9-880c-d9979880f0d9.jpeg",
   "answers": [
     {
       "answer": "Le pouvoir",
@@ -66,7 +66,7 @@ let quizData = {
 },
         {
   "question": "Comment gères-tu les règles ?",
-  "pic": "./testname/img/fr_img/30_ad062db9-e751-490c-af7f-692432c4916f.jpeg",
+  "pic": "/testname/img/30_ad062db9-e751-490c-af7f-692432c4916f.jpeg",
   "answers": [
     {
       "answer": "Je les contourne",
@@ -92,7 +92,7 @@ let quizData = {
 },
         {
   "question": "Quel animal es-tu ?",
-  "pic": "./testname/img/fr_img/31_1907f12c-3bc9-4534-9146-80dd3c04b339.jpeg",
+  "pic": "/testname/img/31_1907f12c-3bc9-4534-9146-80dd3c04b339.jpeg",
   "answers": [
     {
       "answer": "Serpent",
@@ -118,7 +118,7 @@ let quizData = {
 },
 {
   "question": "Quelle est ta force ?",
-  "pic": "./testname/img/fr_img/32_1698ac5a-e268-4481-a6af-437f9a46eb6f.jpeg",
+  "pic": "/testname/img/32_1698ac5a-e268-4481-a6af-437f9a46eb6f.jpeg",
   "answers": [
     {
       "answer": "La planification",
@@ -144,7 +144,7 @@ let quizData = {
 },
 {
   "question": "Qu’est-ce que l’amitié pour toi ?",
-  "pic": "./testname/img/fr_img/33_13a9244e-dc1c-41b5-a5de-2f73b4d8e6f6.jpeg",
+  "pic": "/testname/img/33_13a9244e-dc1c-41b5-a5de-2f73b4d8e6f6.jpeg",
   "answers": [
     {
       "answer": "La loyauté",
@@ -170,7 +170,7 @@ let quizData = {
 },
         {
   "question": "À Poudlard, tu serais…",
-  "pic": "./testname/img/fr_img/34_fa88b9c7-9f48-4602-8599-2aa179b42a22.jpeg",
+  "pic": "/testname/img/34_fa88b9c7-9f48-4602-8599-2aa179b42a22.jpeg",
   "answers": [
     {
       "answer": "Un(e) leader",
@@ -196,7 +196,7 @@ let quizData = {
 },
 {
   "question": "Comment réagis-tu face au danger ?",
-  "pic": "./testname/img/fr_img/35_356e69c2-92a6-4dce-baae-b5d88d503181.png",
+  "pic": "/testname/img/35_356e69c2-92a6-4dce-baae-b5d88d503181.png",
   "answers": [
     {
       "answer": "Avec réflexion",

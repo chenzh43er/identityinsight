@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Zu welchem Hogwarts-Haus gehörst du wirklich?",
-    "mainPic": "./testname/img/de_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+    "mainPic": "/testname/img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
     "thems": ["Harry Potter", "Galtvort", "Zauberer"],
     "questions": [
         {
             "question": "Welche dieser Eigenschaften halten Sie für Ihre größten Stärken?",
-            "pic": "./testname/img/de_img/7925febfa889e8510c1c5cde34037f59.jpg",
+            "pic": "/testname/img/7925febfa889e8510c1c5cde34037f59.jpg",
             "answers": [
                 {
                     "answer": "Mute og Entschlossenheit",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hva er elementene du identifiserer? Hvis de er identiske?",
-            "pic": "./testname/img/de_img/e9491d103cd0d5f2ca732415f968fc48.jpg",
+            "pic": "/testname/img/e9491d103cd0d5f2ca732415f968fc48.jpg",
             "answers": [
                 {
                     "answer": "Erde",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hva er sannheten i tiden for Gemeinschaftsraum verbringen?",
-            "pic": "./testname/img/de_img/2395681ca6b55d8963f369c62e0649ef.jpg",
+            "pic": "/testname/img/2395681ca6b55d8963f369c62e0649ef.jpg",
             "answers": [
                 {
                     "answer": "Bücher lesen og deine Hauavecgaben machen",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hva om Arten von Magie ville vite mer om det?",
-            "pic": "./testname/img/de_img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
+            "pic": "/testname/img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
             "answers": [
                 {
                     "answer": "Verwandlung",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hvis jeg hadde en oppgave med Galleonen i Winkelgasse, var det det?",
-            "pic": "./testname/img/de_img/a67489b6bfe58e5a198a86c3f52de871.jpg",
+            "pic": "/testname/img/a67489b6bfe58e5a198a86c3f52de871.jpg",
             "answers": [
                 {
                     "answer": "Nehmen Sie es und behalten Sie es, ohne zweimal darüber nachzudenken",

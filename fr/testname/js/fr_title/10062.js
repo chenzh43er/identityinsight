@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quelle Carrière Vous Convient Selon Votre Signe du Zodiaque?",
-    "mainPic": "./testname/img/fr_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+    "mainPic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
     "thems": [
         "Zodiaque",
         "Horoscope",

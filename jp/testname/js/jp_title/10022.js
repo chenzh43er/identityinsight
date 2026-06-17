@@ -1,6 +1,6 @@
 let quizData = {
     "title": "FNF リライト ラウンド2であなたはどの暗黒キャラクターですか？",
-    "mainPic": "./testname/img/jp_img/29f8706244bc5e59eac1927809dcbb35.gif",
+    "mainPic": "/testname/img/29f8706244bc5e59eac1927809dcbb35.gif",
     "thems": [
         "ゲーム",
         "FNF",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "FNF Rewrite Round 2のどの点があなたにとってより魅力的ですか？",
-            "pic": "./testname/img/jp_img/abbc33e53519a23087dc8f58bf617a78.png",
+            "pic": "/testname/img/abbc33e53519a23087dc8f58bf617a78.png",
             "answers": [
                 {
                     "answer": "挑戦的なリズム",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "このモッドのすべてのホラー要素に通常どのように反応しますか？",
-            "pic": "./testname/img/jp_img/3d4e4233b06dd1d3a817acb1c9ce7981.png",
+            "pic": "/testname/img/3d4e4233b06dd1d3a817acb1c9ce7981.png",
             "answers": [
                 {
                     "answer": "恐ろしいけれど魅力的です",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "このモッドで難しい曲に直面したとき、どうしますか？",
-            "pic": "./testname/img/jp_img/e5ed8a0c40a7347b09493f5ae0e14f2c.png",
+            "pic": "/testname/img/e5ed8a0c40a7347b09493f5ae0e14f2c.png",
             "answers": [
                 {
                     "answer": "繰り返し練習します",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "このモッドでどのタイプの音楽バトルをプレイするのが最も魅力的だと思いますか？",
-            "pic": "./testname/img/jp_img/57480f33f20ae893b02ec26c5d5eb6fc.png",
+            "pic": "/testname/img/57480f33f20ae893b02ec26c5d5eb6fc.png",
             "answers": [
                 {
                     "answer": "テンポが速く、攻撃的な曲",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "FNFをプレイしているときの最大の能力は何ですか？",
-            "pic": "./testname/img/jp_img/ef2ab81d2a2784374dbd984e6749ddbc.png",
+            "pic": "/testname/img/ef2ab81d2a2784374dbd984e6749ddbc.png",
             "answers": [
                 {
                     "answer": "生のスピードと反射神経",

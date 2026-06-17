@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hva avslører øynene dine om ditt tidligere liv?",
-    "mainPic": "./testname/img/no_img/93f935ad434696438bcf8f31987b9c6b.gif",
+    "mainPic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
     "thems": [
         "Øyne",
         "Tidligere liv",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvilken farge beskriver best ditt indre øye?",
-            "pic": "./testname/img/no_img/38a6d30ec16dbe2971d59f9b4f514dca.png",
+            "pic": "/testname/img/38a6d30ec16dbe2971d59f9b4f514dca.png",
             "answers": [
                 {
                     "answer": "Smaragdgrønn",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hvor føler du ofte en mystisk tiltrekning?",
-            "pic": "./testname/img/no_img/96a19b4012600147e51275e57d74bd44.png",
+            "pic": "/testname/img/96a19b4012600147e51275e57d74bd44.png",
             "answers": [
                 {
                     "answer": "Mystisk skog",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "En fremmed ser deg i øynene og begynner plutselig å gråte. Hvorfor?",
-            "pic": "./testname/img/no_img/ed382eff77e42b971a769276b05d6420.png",
+            "pic": "/testname/img/ed382eff77e42b971a769276b05d6420.png",
             "answers": [
                 {
                     "answer": "De husker noe de trodde var tapt",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "I din dypeste fantasi, hvor bor du?",
-            "pic": "./testname/img/no_img/63014b84f9fcc69413d1be46712cef1f.png",
+            "pic": "/testname/img/63014b84f9fcc69413d1be46712cef1f.png",
             "answers": [
                 {
                     "answer": "En karavane av farger",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Velg en gjenstand fra ditt forestilte tidligere liv å bære med deg nå",
-            "pic": "./testname/img/no_img/f17aea0287e3495fb80efe51d31404bf.png",
+            "pic": "/testname/img/f17aea0287e3495fb80efe51d31404bf.png",
             "answers": [
                 {
                     "answer": "En sølvmynt",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Hvilke dyreøyne er mest tiltrekkende for deg?",
-            "pic": "./testname/img/no_img/65dbfd65506bbd2442b49ff76b63fc34.png",
+            "pic": "/testname/img/65dbfd65506bbd2442b49ff76b63fc34.png",
             "answers": [
                 {
                     "answer": "Ugle",

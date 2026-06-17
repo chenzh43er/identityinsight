@@ -1,6 +1,6 @@
 let quizData = {
     "title": "鬼滅の刃キャラクターの「キル、マリー、キス」は？",
-    "mainPic": "./testname/img/jp_img/008302f3f23793666eb7adb64ec4b845.gif",
+    "mainPic": "/testname/img/008302f3f23793666eb7adb64ec4b845.gif",
     "thems": [
         "アニメ",
         "鬼滅の刃",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "鬼滅隊士で最も称賛するものは何ですか？",
-            "pic": "./testname/img/jp_img/542d767e37ae9339022cfac4e73aa9b6.png",
+            "pic": "/testname/img/542d767e37ae9339022cfac4e73aa9b6.png",
             "answers": [
                 {
                     "answer": "揺るぎない意志",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "アニメのどの女性キャラクターがあなたの性格に合っていますか？",
-            "pic": "./testname/img/jp_img/5b1014000d0cb377a61de92d53a1a1d4.png",
+            "pic": "/testname/img/5b1014000d0cb377a61de92d53a1a1d4.png",
             "answers": [
                 {
                     "answer": "ねずこ",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "アニメで一番嫌いな悪役は誰ですか？",
-            "pic": "./testname/img/jp_img/578407d88d49b5b7361a2196afcb915c.png",
+            "pic": "/testname/img/578407d88d49b5b7361a2196afcb915c.png",
             "answers": [
                 {
                     "answer": "無惨",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "好きな呼吸法は？",
-            "pic": "./testname/img/jp_img/14d9ca7ea9059d252ac7dc099e7c58a9.png",
+            "pic": "/testname/img/14d9ca7ea9059d252ac7dc099e7c58a9.png",
             "answers": [
                 {
                     "answer": "水の呼吸または風の呼吸",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "鬼滅の刃の世界で何になりたいですか？",
-            "pic": "./testname/img/jp_img/861408ea37bacfdd97fae46c20134804.png",
+            "pic": "/testname/img/861408ea37bacfdd97fae46c20134804.png",
             "answers": [
                 {
                     "answer": "鬼殺隊士",

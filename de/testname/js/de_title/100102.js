@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welche Karriere Passt Zu Ihnen Gemäß Ihrem Sternzeichen?",
-    "mainPic": "./testname/img/de_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+    "mainPic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
     "thems": [
         "Tierkreis",
         "Horoskop",

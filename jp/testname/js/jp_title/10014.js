@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたの内なる子供を映し出すアニメキャラクターは？",
-    "mainPic": "./testname/img/jp_img/f1ee60c7c37a3fbaac6b9ea6cb17380f.gif",
+    "mainPic": "/testname/img/f1ee60c7c37a3fbaac6b9ea6cb17380f.gif",
     "thems": [
         "アニメ",
         "テレビ",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "子供の頃、どの活動が最も幸せでしたか？",
-            "pic": "./testname/img/jp_img/bcd0c2549e26a9c43922fa6454beba77.jpg",
+            "pic": "/testname/img/bcd0c2549e26a9c43922fa6454beba77.jpg",
             "answers": [
                 {
                     "answer": "一日中友達と遊ぶこと。",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "あなたの子供時代に必須だったキャンディーの種類は何ですか？",
-            "pic": "./testname/img/jp_img/a12b03579b54908c32d461a182dbc690.jpg",
+            "pic": "/testname/img/a12b03579b54908c32d461a182dbc690.jpg",
             "answers": [
                 {
                     "answer": "カラフルなアイスクリーム。",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "子供の頃の友達はあなたをどのように表現しますか？",
-            "pic": "./testname/img/jp_img/19193a41c587947fc3bb205706a0096e.jpg",
+            "pic": "/testname/img/19193a41c587947fc3bb205706a0096e.jpg",
             "answers": [
                 {
                     "answer": "陽気でいつも笑顔。",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "お気に入りのおもちゃは何でしたか？",
-            "pic": "./testname/img/jp_img/2850f0dd6588477f2f84388ca7d3e154.jpg",
+            "pic": "/testname/img/2850f0dd6588477f2f84388ca7d3e154.jpg",
             "answers": [
                 {
                     "answer": "シャボン玉やぬいぐるみ。",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "今日、あなたの内なる子供がいたずらをしたら、何をするでしょうか？",
-            "pic": "./testname/img/jp_img/a27f0a0e6a1a7ee5814df3b0e548b3c9.jpg",
+            "pic": "/testname/img/a27f0a0e6a1a7ee5814df3b0e548b3c9.jpg",
             "answers": [
                 {
                     "answer": "すべてを明るい色で塗る。",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "子供の頃の自分がデザインした夢の家はどんな感じですか？",
-            "pic": "./testname/img/jp_img/0838decf090c6628d6d24cdbc2a87366.jpg",
+            "pic": "/testname/img/0838decf090c6628d6d24cdbc2a87366.jpg",
             "answers": [
                 {
                     "answer": "海の下の巨大なパイナップル。",

@@ -26,7 +26,7 @@ blikket ditt
 alltid er rettet
 mot noe større.
     `,
-    "mainPic": "./testname/img/no_img/65_493ca91e9aa841d68b4c6323935ac138.webp"
+    "mainPic": "/testname/img/65_493ca91e9aa841d68b4c6323935ac138.webp"
   },
   "2": {
     "title": "Hvilken norrøn guddom skjuler seg i deg?",
@@ -51,7 +51,7 @@ men rettferdighet
 er alltid kjernen
 i handlingene dine.
     `,
-    "mainPic": "./testname/img/no_img/66_b69437a6fa13456aa4c4a5c94e04fa29.jpeg"
+    "mainPic": "/testname/img/66_b69437a6fa13456aa4c4a5c94e04fa29.jpeg"
   },
   "3": {
     "title": "Hvilken norrøn guddom skjuler seg i deg?",
@@ -75,7 +75,7 @@ og kjemper hardt
 for det som
 betyr noe.
     `,
-    "mainPic": "./testname/img/no_img/67_27192a77ffe3488db537374c94b68c00.jpeg"
+    "mainPic": "/testname/img/67_27192a77ffe3488db537374c94b68c00.jpeg"
   },
   "4": {
     "title": "Hvilken norrøn guddom skjuler seg i deg?",
@@ -100,6 +100,6 @@ Din styrke
 ligger i kreativitet
 og uforutsigbarhet.
     `,
-    "mainPic": "./testname/img/no_img/68_6b26a019b4e747d4988c534b355231a1.png"
+    "mainPic": "/testname/img/68_6b26a019b4e747d4988c534b355231a1.png"
   }
 };

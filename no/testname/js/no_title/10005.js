@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Mysophobia, Ryddighet, Eller Sjekking? Hvilken OCD Har Du?",
-    "mainPic": "./testname/img/no_img/01d2e8d26910b11137a5be94d5661940.gif",
+    "mainPic": "/testname/img/01d2e8d26910b11137a5be94d5661940.gif",
     "thems": [
         "Personlighet",
         "Psykologi",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva tenker du først når du tar i et dørhåndtak i offentligheten?",
-            "pic": "./testname/img/no_img/168bda060a8aa90721039c0901ea0888.jpg",
+            "pic": "/testname/img/168bda060a8aa90721039c0901ea0888.jpg",
             "answers": [
                 {
                     "answer": "Bakterier overalt",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hvordan føler du deg hvis pulten din ikke er perfekt organisert?",
-            "pic": "./testname/img/no_img/ef5774fd8b8382378163a44e86a7f492.jpg",
+            "pic": "/testname/img/ef5774fd8b8382378163a44e86a7f492.jpg",
             "answers": [
                 {
                     "answer": "Kan ikke fokusere",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hva slags vane har du ofte før du legger deg?",
-            "pic": "./testname/img/no_img/89cd8c9da30b181b8dfad35414aa1dc3.jpg",
+            "pic": "/testname/img/89cd8c9da30b181b8dfad35414aa1dc3.jpg",
             "answers": [
                 {
                     "answer": "Sjekker låser",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Du søler litt vann på gulvet. Hva er din reaksjon?",
-            "pic": "./testname/img/no_img/e9419eebbb391df1f4fbbeba09f66ba8.jpg",
+            "pic": "/testname/img/e9419eebbb391df1f4fbbeba09f66ba8.jpg",
             "answers": [
                 {
                     "answer": "Rengjør umiddelbart",

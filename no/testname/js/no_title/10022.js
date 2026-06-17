@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Disney-karakter er du i guttenes øyne?",
-    "mainPic": "./testname/img/no_img/5c25f7396deb466852c2e0938875fa70.gif",
+    "mainPic": "/testname/img/5c25f7396deb466852c2e0938875fa70.gif",
     "thems": [
         "Disney",
         "Gutter",

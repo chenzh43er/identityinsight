@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches Hogwarts-Haus Passt Am Besten Zu Dir?",
-    "mainPic": "./testname/img/de_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+    "mainPic": "/testname/img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
     "thems": [
         "Harry Potter",
         "Hogwarts",

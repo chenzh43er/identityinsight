@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Votre anniversaire détermine votre personnalité cachée !",
-    "mainPic": "./testname/img/fr_img/b576911a28e8afca90e64c61da568ffa.gif",
+    "mainPic": "/testname/img/b576911a28e8afca90e64c61da568ffa.gif",
     "thems": [
         "Personnalité",
         "Anniversaire",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel est votre mois de naissance ?",
-            "pic": "./testname/img/fr_img/bc3d6286c0d9c94f1ef43324b0a289b0.png",
+            "pic": "/testname/img/bc3d6286c0d9c94f1ef43324b0a289b0.png",
             "answers": [
                 {
                     "answer": "Janvier, Février, Mars",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Quel jour êtes-vous né ?",
-            "pic": "./testname/img/fr_img/75f1b4928020d216b6963d41de6cacbf.png",
+            "pic": "/testname/img/75f1b4928020d216b6963d41de6cacbf.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Quelle décennie êtes-vous né?",
-            "pic": "./testname/img/fr_img/0ae112c788f48307d7042f81983a9022.png",
+            "pic": "/testname/img/0ae112c788f48307d7042f81983a9022.png",
             "answers": [
                 {
                     "answer": "Années 60 ou avant",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Quel est le dernier chiffre de votre année de naissance ?",
-            "pic": "./testname/img/fr_img/47eb6e57b3b29e6405e8f19e9a0d0e37.png",
+            "pic": "/testname/img/47eb6e57b3b29e6405e8f19e9a0d0e37.png",
             "answers": [
                 {
                     "answer": "0, 1",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Calculez votre numéro de chemin de vie en ajoutant votre date de naissance jusqu'à obtenir un chiffre unique. Quel numéro avez-vous obtenu?",
-            "pic": "./testname/img/fr_img/c71d92fb7ac25da7b00d8932c5eef388.png",
+            "pic": "/testname/img/c71d92fb7ac25da7b00d8932c5eef388.png",
             "answers": [
                 {
                     "answer": "1, 2",

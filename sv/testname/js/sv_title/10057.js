@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hur navigerar man i Hogwarts-loppet?",
-    "mainPic": "./testname/img/fr_img/40_285b2557-54ce-4e42-b680-59a15e290d72.png",
+    "mainPic": "/testname/img/40_285b2557-54ce-4e42-b680-59a15e290d72.png",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
   "question": "Om du ser en förbjuden korridor...",
-  "pic": "./testname/img/fr_img/41_963d89a0-6a92-44f5-97c7-04a963de116e.png",
+  "pic": "/testname/img/41_963d89a0-6a92-44f5-97c7-04a963de116e.png",
   "answers": [
     {
       "answer": "Där går du – nyfikenhet > rädsla för straff.",
@@ -31,7 +31,7 @@ let quizData = {
 },
         {
   "question": "Under en Quidditch-match, om ditt lag är sent...",
-  "pic": "./testname/img/fr_img/42_b77a63b6-59a9-4c2f-beb9-18c86b671e8b.jpeg",
+  "pic": "/testname/img/42_b77a63b6-59a9-4c2f-beb9-18c86b671e8b.jpeg",
   "answers": [
     {
       "answer": "Du ropar för att motivera laget.",
@@ -57,7 +57,7 @@ let quizData = {
 },
         {
   "question": "Om en lärare felaktigt anklagar dig...",
-  "pic": "./testname/img/fr_img/43_bb0cf5c5-c705-4ffc-abd3-a390eda460f0.jpeg",
+  "pic": "/testname/img/43_bb0cf5c5-c705-4ffc-abd3-a390eda460f0.jpeg",
   "answers": [
     {
       "answer": "Du försvarar omedelbart sanningen.",
@@ -83,7 +83,7 @@ let quizData = {
 },
         {
   "question": "Med en vän i nöd...",
-  "pic": "./testname/img/fr_img/44_9ff2977f-266f-4dbe-80b5-1c2614da13be.jpeg",
+  "pic": "/testname/img/44_9ff2977f-266f-4dbe-80b5-1c2614da13be.jpeg",
   "answers": [
     {
       "answer": "Du hjälper direkt, oavsett vad.",
@@ -109,7 +109,7 @@ let quizData = {
 },
         {
   "question": "Ditt mål för ditt första år på Hogwarts?",
-  "pic": "./testname/img/fr_img/45_4dd67d60-2e70-4252-9f27-6e91cc0c0849.jpeg",
+  "pic": "/testname/img/45_4dd67d60-2e70-4252-9f27-6e91cc0c0849.jpeg",
   "answers": [
     {
       "answer": "Upptäck alla förbjudna platser.",
@@ -135,7 +135,7 @@ let quizData = {
 },
         {
   "question": "Om du upptäcker en magisk hemlighet...",
-  "pic": "./testname/img/fr_img/46_ca24a78d-4758-492a-ba83-9389dd997383.jpeg",
+  "pic": "/testname/img/46_ca24a78d-4758-492a-ba83-9389dd997383.jpeg",
   "answers": [
     {
       "answer": "Du delar det med dina vänner.",
@@ -161,7 +161,7 @@ let quizData = {
 },
         {
   "question": "Jullov på Hogwarts?",
-  "pic": "./testname/img/fr_img/47_814b1b95-8b35-4193-8b09-6379dd44d157.jpeg",
+  "pic": "/testname/img/47_814b1b95-8b35-4193-8b09-6379dd44d157.jpeg",
   "answers": [
     {
       "answer": "Utforska de tomma korridorerna.",
@@ -187,7 +187,7 @@ let quizData = {
 },
         {
   "question": "Den fras som bäst beskriver Hogwarts?",
-  "pic": "./testname/img/fr_img/48_08fe1861-623e-4a76-96b4-9c5bb053ae3b.jpeg",
+  "pic": "/testname/img/48_08fe1861-623e-4a76-96b4-9c5bb053ae3b.jpeg",
   "answers": [
     {
       "answer": "Livet är ett äventyr - njut av det!»",

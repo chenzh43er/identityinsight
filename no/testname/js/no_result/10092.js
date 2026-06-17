@@ -21,7 +21,7 @@ ligger et sterkt ønske
 om å beskytte
 fellesskapet.
     `,
-    "mainPic": "./testname/img/no_img/114_2d50912845c34ba980388ca48750cfa4.jpeg"
+    "mainPic": "/testname/img/114_2d50912845c34ba980388ca48750cfa4.jpeg"
   },
   "2": {
     "title": "Hvilken viking-type er du? Finn din plass på skipet!",
@@ -43,7 +43,7 @@ når det virkelig gjelder,
 både fysisk
 og mentalt.
     `,
-    "mainPic": "./testname/img/no_img/115_2f188110a11f4809a71026e1f504c9c3.jpeg"
+    "mainPic": "/testname/img/115_2f188110a11f4809a71026e1f504c9c3.jpeg"
   },
   "3": {
     "title": "Hvilken viking-type er du? Finn din plass på skipet!",
@@ -65,7 +65,7 @@ ville stemningen
 på skipet raskt
 falle fra hverandre.
     `,
-    "mainPic": "./testname/img/no_img/116_d19a64a317334ca68055320059929959.webp"
+    "mainPic": "/testname/img/116_d19a64a317334ca68055320059929959.webp"
   },
   "4": {
     "title": "Hvilken viking-type er du? Finn din plass på skipet!",
@@ -87,6 +87,6 @@ før problemene oppstår.
 Din ro
 gir trygghet.
     `,
-    "mainPic": "./testname/img/no_img/117_899b69cc41d14694a33ea863151da298.jpeg"
+    "mainPic": "/testname/img/117_899b69cc41d14694a33ea863151da298.jpeg"
   }
 };

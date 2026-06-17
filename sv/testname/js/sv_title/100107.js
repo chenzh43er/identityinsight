@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hur många människor dog samma dag som du?",
-    "mainPic": "./testname/img/sv_img/825852946811c237259322970ca7e8a5.jpeg",
+    "mainPic": "/testname/img/825852946811c237259322970ca7e8a5.jpeg",
     "thems": [
         "Horoskop",
         "Trendande",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur brukar du vakna upp?",
-            "pic": "./testname/img/sv_img/fb537c1195fa2a969df577a3137addab.png",
+            "pic": "/testname/img/fb537c1195fa2a969df577a3137addab.png",
             "answers": [
                 {
                     "answer": "Högt alarm och omedelbar panik",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Vad är din reaktion på dåliga nyheter?",
-            "pic": "./testname/img/sv_img/90a6d1eee1d954632cdf8b3ccb97608d.png",
+            "pic": "/testname/img/90a6d1eee1d954632cdf8b3ccb97608d.png",
             "answers": [
                 {
                     "answer": "Skrika och ringa någon",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Var skulle du hemsöka om du blev ett spöke?",
-            "pic": "./testname/img/sv_img/81be4c8c748a0e501aabb27716872615.png",
+            "pic": "/testname/img/81be4c8c748a0e501aabb27716872615.png",
             "answers": [
                 {
                     "answer": "En nöjespark",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Vad är din zodiakenergi?",
-            "pic": "./testname/img/sv_img/5ec38622c9b9c44ba6af1d51afd439a3.png",
+            "pic": "/testname/img/5ec38622c9b9c44ba6af1d51afd439a3.png",
             "answers": [
                 {
                     "answer": "Vatten",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Om du var ett spöke, vad skulle vara din huvudsakliga spökaktivitet?",
-            "pic": "./testname/img/sv_img/07901d83b9371e72ffc80cff5bd154c1.png",
+            "pic": "/testname/img/07901d83b9371e72ffc80cff5bd154c1.png",
             "answers": [
                 {
                     "answer": "Busar med de levande",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Vilket föremål skulle du ta med dig till efterlivet?",
-            "pic": "./testname/img/sv_img/0be424854e4f24aa67561b991b437257.png",
+            "pic": "/testname/img/0be424854e4f24aa67561b991b437257.png",
             "answers": [
                 {
                     "answer": "Min telefon—måste hålla mig uppkopplad",

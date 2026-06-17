@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Sprunki Incredibox Music Volumes Reflect Your Inner Side?",
-    "mainPic": "./testname/img/en_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+    "mainPic": "/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
     "thems": [
         "Sprunki Incredibox",
         "Music",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Do you prefer the day or night version of Incredibox Sprunk?",
-            "pic": "./testname/img/en_img/ef107a5b69691ed21a226db42b753e22.jpg",
+            "pic": "/testname/img/ef107a5b69691ed21a226db42b753e22.jpg",
             "answers": [
                 {
                     "answer": "Day version",
@@ -25,7 +25,7 @@ let quizData = {
         },
         {
             "question": "Do you prefer experimenting with new sounds or sticking to the old ones?",
-            "pic": "./testname/img/en_img/a84e21536b4f446b6446ed45aa8ec1a8.png",
+            "pic": "/testname/img/a84e21536b4f446b6446ed45aa8ec1a8.png",
             "answers": [
                 {
                     "answer": "New Sounds",
@@ -45,19 +45,19 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Normal",
-                    "aPic": "./testname/img/en_img/sr_17313734246732a970eec50.jpg",
+                    "aPic": "/testname/img/sr_17313734246732a970eec50.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Horror",
-                    "aPic": "./testname/img/en_img/sr_17313734436732a983b15e5.jpg",
+                    "aPic": "/testname/img/sr_17313734436732a983b15e5.jpg",
                     "aId": 2
                 }
             ]
         },
         {
             "question": "Do you share your Sprunki creations or keep them to yourself?",
-            "pic": "./testname/img/en_img/42b86a3b3774c244b07a16337941420a.jpg",
+            "pic": "/testname/img/42b86a3b3774c244b07a16337941420a.jpg",
             "answers": [
                 {
                     "answer": "Share them with everyone",
@@ -87,12 +87,12 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Amazing Digital Circus",
-                    "aPic": "./testname/img/en_img/sr_17313742576732acb1e9cd6.jpg",
+                    "aPic": "/testname/img/sr_17313742576732acb1e9cd6.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Sprunki Incredibox as babies",
-                    "aPic": "./testname/img/en_img/sr_17313742846732accc75bfa.jpg",
+                    "aPic": "/testname/img/sr_17313742846732accc75bfa.jpg",
                     "aId": 2
                 }
             ]

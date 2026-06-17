@@ -1,0 +1,11 @@
+node_modules/
+.git/
+.idea/
+.npm-cache/
+.wrangler/
+.github/
+package.json
+package-lock.json
+wrangler.jsonc
+.assetsignore
+.gitignore

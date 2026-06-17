@@ -1,6 +1,6 @@
 let quizData = {
     "title": "في أي عمر ستتزوج؟",
-    "mainPic": "./testname/img/ar_img/06944b47fba1e1cd3d6dab2e672248f2.gif",
+    "mainPic": "/testname/img/06944b47fba1e1cd3d6dab2e672248f2.gif",
     "thems": [
         "حولك",
         "الشخصية",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما رأيك في الزواج الآن؟",
-            "pic": "./testname/img/ar_img/5fc4dd652559e89a36abc6a288d39bbc.jpg",
+            "pic": "/testname/img/5fc4dd652559e89a36abc6a288d39bbc.jpg",
             "answers": [
                 {
                     "answer": "لا أستطيع الانتظار ، احضره!",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "ما هو طابع حفل زفافك الحلم؟",
-            "pic": "./testname/img/ar_img/af0de9b63006d65b2997d81738d8cd94.jpg",
+            "pic": "/testname/img/af0de9b63006d65b2997d81738d8cd94.jpg",
             "answers": [
                 {
                     "answer": "حدث كبير مع جميع أحبائي",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "كيف تتعامل مع العلاقات طويلة الأمد؟",
-            "pic": "./testname/img/ar_img/5dd3c64ac8f5a4ccc94e5afbc90e7beb.jpg",
+            "pic": "/testname/img/5dd3c64ac8f5a4ccc94e5afbc90e7beb.jpg",
             "answers": [
                 {
                     "answer": "كلياً، أنا مستعد للمسافة الطويلة",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "ما الذي يصف أهدافك المهنية أو الشخصية بشكل أفضل؟",
-            "pic": "./testname/img/ar_img/0862a57cba8f6d4ab8f4ab2c1806a75d.jpg",
+            "pic": "/testname/img/0862a57cba8f6d4ab8f4ab2c1806a75d.jpg",
             "answers": [
                 {
                     "answer": "أولوية أولى لدي هي الاستقرار",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "كيف تتخيل حياتك بعد 10 سنوات؟",
-            "pic": "./testname/img/ar_img/5f02a4eea04ee14ad3cb97575a0cc807.jpg",
+            "pic": "/testname/img/5f02a4eea04ee14ad3cb97575a0cc807.jpg",
             "answers": [
                 {
                     "answer": "متزوج مع أطفال وبيت مريح",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "ما هو أكبر مخاوفك في العلاقات؟",
-            "pic": "./testname/img/ar_img/e61c548fdb9174c0d3688e4232676103.jpg",
+            "pic": "/testname/img/e61c548fdb9174c0d3688e4232676103.jpg",
             "answers": [
                 {
                     "answer": "عدم العثور على الشخص المناسب في الوقت المناسب",

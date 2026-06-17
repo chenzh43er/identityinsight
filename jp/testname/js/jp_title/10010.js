@@ -1,6 +1,6 @@
 let quizData = {
     "title": "どのDAN DA DANがあなたの完璧なソウルメイト？",
-    "mainPic": "./testname/img/jp_img/9354da22ff2aeca7102e93aa4e9fd48c.gif",
+    "mainPic": "/testname/img/9354da22ff2aeca7102e93aa4e9fd48c.gif",
     "thems": [
         "ソウルメイト",
         "アニメ",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "あなたの理想的なデートは…",
-            "pic": "./testname/img/jp_img/7252b60bdd5277cdc5efc7fe1a3880d3.png",
+            "pic": "/testname/img/7252b60bdd5277cdc5efc7fe1a3880d3.png",
             "answers": [
                 {
                     "answer": "ゴーストハンティングの冒険",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "呪われた物体を見つけます。あなたは...",
-            "pic": "./testname/img/jp_img/4d07e3b62b3a7a0a87f3ef7bb34a664d.png",
+            "pic": "/testname/img/4d07e3b62b3a7a0a87f3ef7bb34a664d.png",
             "answers": [
                 {
                     "answer": "エンジンをより大きく回す",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "あなたの愛の言語は...",
-            "pic": "./testname/img/jp_img/ff92728e8e80e9723cb5043b468fb058.png",
+            "pic": "/testname/img/ff92728e8e80e9723cb5043b468fb058.png",
             "answers": [
                 {
                     "answer": "神秘的なささやき",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "幽霊が現れるとき、あなたは何をしますか????",
-            "pic": "./testname/img/jp_img/f75b23075b375550ac44d0143478002b.png",
+            "pic": "/testname/img/f75b23075b375550ac44d0143478002b.png",
             "answers": [
                 {
                     "answer": "逃げます",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "あなたの関係の決め手は何ですか？",
-            "pic": "./testname/img/jp_img/4022d4e577f08557633b2aaab096ac8c.png",
+            "pic": "/testname/img/4022d4e577f08557633b2aaab096ac8c.png",
             "answers": [
                 {
                     "answer": "パーソナルスペースがない",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "あなたが関係を持っている場合、ペットネームは何になるでしょうか？",
-            "pic": "./testname/img/jp_img/a6f8003d74fd593b8ef50cc7d388f663.png",
+            "pic": "/testname/img/a6f8003d74fd593b8ef50cc7d388f663.png",
             "answers": [
                 {
                     "answer": "人間の盾",

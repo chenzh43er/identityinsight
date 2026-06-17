@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Diagnóstico de Pulso da Medicina Chinesa: Teste Quantos Parceiros Você Terá",
-    "mainPic": "./testname/img/pt_img/b7ab8b14dcc4bf523dbbb70505c2f9de.jpeg",
+    "mainPic": "/testname/img/b7ab8b14dcc4bf523dbbb70505c2f9de.jpeg",
     "thems": [
         "Amor",
         "Romântico",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quantas batidas por minuto tem a sua frequência cardíaca?",
-            "pic": "./testname/img/pt_img/d7fb7490980d365b37ff92774c917a1e.jpg",
+            "pic": "/testname/img/d7fb7490980d365b37ff92774c917a1e.jpg",
             "answers": [
                 {
                     "answer": "80+",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Com quantas pessoas você ficou com o coração acelerado?",
-            "pic": "./testname/img/pt_img/4a291fed29f370cfaa8f74eb19bd0d4a.jpg",
+            "pic": "/testname/img/4a291fed29f370cfaa8f74eb19bd0d4a.jpg",
             "answers": [
                 {
                     "answer": "Um",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Qual é o formato da sua palma?",
-            "pic": "./testname/img/pt_img/fa3e5d64d0eff8ddb92204030c2b3cd4.jpg",
+            "pic": "/testname/img/fa3e5d64d0eff8ddb92204030c2b3cd4.jpg",
             "answers": [
                 {
                     "answer": "Quadrado",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Quão profunda é sua linha da vida?",
-            "pic": "./testname/img/pt_img/8eb22add4448db7580ae1d8d2d320150.jpg",
+            "pic": "/testname/img/8eb22add4448db7580ae1d8d2d320150.jpg",
             "answers": [
                 {
                     "answer": "Profunda",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Qual é a forma dos seus dedos?",
-            "pic": "./testname/img/pt_img/b051146e4f0f70be0630983b1eaddcf7.jpg",
+            "pic": "/testname/img/b051146e4f0f70be0630983b1eaddcf7.jpg",
             "answers": [
                 {
                     "answer": "Longos e finos",

@@ -30,7 +30,7 @@ makkelijk,
 wel altijd
 authentiek.
     `,
-    "mainPic": "./testname/img/nl_img/106_f660fa85a26e4a30b0574fc44d87e44a.jpeg"
+    "mainPic": "/testname/img/106_f660fa85a26e4a30b0574fc44d87e44a.jpeg"
   },
   "2": {
     "title": "Ben jij een Sheldon of een Penny?",
@@ -60,7 +60,7 @@ intelligentie
 is je echte
 kracht.
     `,
-    "mainPic": "./testname/img/nl_img/107_1ce30ac88a184bfab394ba3701c53a4b.jpeg"
+    "mainPic": "/testname/img/107_1ce30ac88a184bfab394ba3701c53a4b.jpeg"
   },
   "3": {
     "title": "Ben jij een Sheldon of een Penny?",
@@ -88,6 +88,6 @@ maakt je sterk
 in relaties —
 én beslissingen.
     `,
-    "mainPic": "./testname/img/nl_img/108_285ae498a48046fdac62adba1f741eee.jpeg"
+    "mainPic": "/testname/img/108_285ae498a48046fdac62adba1f741eee.jpeg"
   }
 };

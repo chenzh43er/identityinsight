@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vad är din Patronus? Din reda på det nu!",
-    "mainPic": "./testname/img/fr_img/ace397c48efa2482f39e547105d095f1.jpeg",
+    "mainPic": "/testname/img/ace397c48efa2482f39e547105d095f1.jpeg",
     "thems": ["Patronus", "Harry Potter", "Zodiaken", "Stjärntecken", "Horoskop", "Populär frågesport"],
     "questions": [
         {
             "question": "Vilken miljö får dig att känna dig mest fridfull?",
-            "pic": "./testname/img/fr_img/02b90827ff2fb5611798d21f6921199f.png",
+            "pic": "/testname/img/02b90827ff2fb5611798d21f6921199f.png",
             "answers": [
                 {
                     "answer": "En lugn skog, omgiven av natur",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hur hanterar du utmaningar?",
-            "pic": "./testname/img/fr_img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
+            "pic": "/testname/img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
             "answers": [
                 {
                     "answer": "Håll dig lugn och närma dig med tålamod",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vad beundrar dina vänner mest hos dig?",
-            "pic": "./testname/img/fr_img/06a300d161f778bf13a5930e8df4bf8a.png",
+            "pic": "/testname/img/06a300d161f778bf13a5930e8df4bf8a.png",
             "answers": [
                 {
                     "answer": "Din lojalitet och ditt stöd",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Vilken hobby tilltalar dig mest?",
-            "pic": "./testname/img/fr_img/cee5af3bc3d7f41b1d09239eec6efad1.png",
+            "pic": "/testname/img/cee5af3bc3d7f41b1d09239eec6efad1.png",
             "answers": [
                 {
                     "answer": "Vandring",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hur reagerar ni som grupp?",
-            "pic": "./testname/img/fr_img/0d81cdc25e83a2de49bbddf69bcad834.png",
+            "pic": "/testname/img/0d81cdc25e83a2de49bbddf69bcad834.png",
             "answers": [
                 {
                     "answer": "Du är den pålitliga personen",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Vilket ord beskriver dig bäst?",
-            "pic": "./testname/img/fr_img/0174342c1cb77af3af0fd1103526f278.png",
+            "pic": "/testname/img/0174342c1cb77af3af0fd1103526f278.png",
             "answers": [
                 {
                     "answer": "Omtänksam",

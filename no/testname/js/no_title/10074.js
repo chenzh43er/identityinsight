@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken stil av antrekk passer best til ditt stjernetegn?",
-    "mainPic": "./testname/img/no_img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
+    "mainPic": "/testname/img/0d1fc679b60296307a78f8e0b4aba4c0.gif",
     "thems": [
         "Antrekk",
         "Stjernetegn",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva er stjernetegnet ditt?",
-            "pic": "./testname/img/no_img/6715595abcda7dd413825ee160faa382.jpg",
+            "pic": "/testname/img/6715595abcda7dd413825ee160faa382.jpg",
             "answers": [
                 {
                     "answer": "Væren, Løven, Skytten",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt stjernetegn element?",
-            "pic": "./testname/img/no_img/21812ddf99663564e7ebf5fc6c35b23f.jpg",
+            "pic": "/testname/img/21812ddf99663564e7ebf5fc6c35b23f.jpg",
             "answers": [
                 {
                     "answer": "Ild",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hvilken planet påvirker deg mest?",
-            "pic": "./testname/img/no_img/7092a47169954413215c1ec4d94ff603.jpg",
+            "pic": "/testname/img/7092a47169954413215c1ec4d94ff603.jpg",
             "answers": [
                 {
                     "answer": "Venus",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hva er energien til din stigende tegn?",
-            "pic": "./testname/img/no_img/93098745f292d9794dc5c840fffeefb9.jpg",
+            "pic": "/testname/img/93098745f292d9794dc5c840fffeefb9.jpg",
             "answers": [
                 {
                     "answer": "Mystisk",

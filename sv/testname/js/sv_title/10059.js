@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vilket Hogwarts-ämne skulle vara din favorit?",
-    "mainPic": "./testname/img/fr_img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
+    "mainPic": "/testname/img/66_18bfe837-c2a9-45b9-bbc9-38c520a49510.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
   "question": "Vilken typ av kurs tilltalar dig mest?",
-  "pic": "./testname/img/fr_img/67_70383949-f131-44f1-862e-390550910234.jpeg",
+  "pic": "/testname/img/67_70383949-f131-44f1-862e-390550910234.jpeg",
   "answers": [
     {
       "answer": "Praktiskt och actionfyllt",
@@ -31,7 +31,7 @@ let quizData = {
 },
 {
   "question": "Om du var lärare skulle du...",
-  "pic": "./testname/img/fr_img/68_4fc176dd-8814-4869-aaf2-49bcef4fd5ac.jpeg",
+  "pic": "/testname/img/68_4fc176dd-8814-4869-aaf2-49bcef4fd5ac.jpeg",
   "answers": [
     {
       "answer": "Utmana dina elever",
@@ -57,7 +57,7 @@ let quizData = {
 },
 {
   "question": "Vad fascinerar dig mest med magi?",
-  "pic": "./testname/img/fr_img/69_faaa3bc5-4839-424e-b18a-f7079281236a.jpeg",
+  "pic": "/testname/img/69_faaa3bc5-4839-424e-b18a-f7079281236a.jpeg",
   "answers": [
     {
       "answer": "Hans makt",
@@ -83,7 +83,7 @@ let quizData = {
 },
 {
   "question": "Vilket ämne skulle du vilja lära dig först?",
-  "pic": "./testname/img/fr_img/70_23c80fca-5ad6-4547-bdd1-ff692f3efea6.jpeg",
+  "pic": "/testname/img/70_23c80fca-5ad6-4547-bdd1-ff692f3efea6.jpeg",
   "answers": [
     {
       "answer": "Försvar mot mörka konster",
@@ -109,7 +109,7 @@ let quizData = {
 },
         {
   "question": "Hur reagerar du på ett misstag?",
-  "pic": "./testname/img/fr_img/71_47ccca07-ad53-40d3-8db9-54ad2e0a0c77.png",
+  "pic": "/testname/img/71_47ccca07-ad53-40d3-8db9-54ad2e0a0c77.png",
   "answers": [
     {
       "answer": "Jag rättar till det direkt",
@@ -135,7 +135,7 @@ let quizData = {
 },
 {
   "question": "Vilken miljö inspirerar dig mest?",
-  "pic": "./testname/img/fr_img/72_53ca7b58-a2b2-4d50-a593-d6b7c255207c.jpeg",
+  "pic": "/testname/img/72_53ca7b58-a2b2-4d50-a593-d6b7c255207c.jpeg",
   "answers": [
     {
       "answer": "Ett hemligt rum",
@@ -161,7 +161,7 @@ let quizData = {
 },
 {
   "question": "Vilket ord beskriver dig bäst?",
-  "pic": "./testname/img/fr_img/73_f2d179c4-61ee-491a-b3ba-10d5ed7cd2d9.jpeg",
+  "pic": "/testname/img/73_f2d179c4-61ee-491a-b3ba-10d5ed7cd2d9.jpeg",
   "answers": [
      {
       "answer": "Bestämd",
@@ -187,7 +187,7 @@ let quizData = {
 },
 {
   "question": "Om du var på Hogwarts skulle du vara känd för...",
-  "pic": "./testname/img/fr_img/74_f3259317-d108-460b-a594-8c2433d2f698.jpeg",
+  "pic": "/testname/img/74_f3259317-d108-460b-a594-8c2433d2f698.jpeg",
   "answers": [
     {
       "answer": "Ditt mod",

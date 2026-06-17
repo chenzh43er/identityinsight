@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي تعديل في لعبة سوبر بير أدفينشر يناسب شخصيتك؟",
-    "mainPic": "./testname/img/ar_img/10be3f0585ed1332807a0732b0a36aed.gif",
+    "mainPic": "/testname/img/10be3f0585ed1332807a0732b0a36aed.gif",
     "thems": [
         "الشخصية",
         "Superbear",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما العنصر الذي يجب أن تحصل عليه في مغامرة سوبر بير؟",
-            "pic": "./testname/img/ar_img/d2fe951e0541e014a30ab3d0acd90dbc.jpg",
+            "pic": "/testname/img/d2fe951e0541e014a30ab3d0acd90dbc.jpg",
             "answers": [
                 {
                     "answer": "المفتاح الذهبي",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "أي شخصية تنقذ أولاً في اللعبة؟",
-            "pic": "./testname/img/ar_img/9be13b93c9ebf157e3247a61045eb1c2.jpg",
+            "pic": "/testname/img/9be13b93c9ebf157e3247a61045eb1c2.jpg",
             "answers": [
                 {
                     "answer": "برين",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "ما هو نشاطك المفضل داخل اللعبة؟",
-            "pic": "./testname/img/ar_img/b83cc2bee59979093268d5471def001d.jpg",
+            "pic": "/testname/img/b83cc2bee59979093268d5471def001d.jpg",
             "answers": [
                 {
                     "answer": "جمع الكنوز",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "أي نوع من القبعات تفضل؟",
-            "pic": "./testname/img/ar_img/d6cac267b94656b77bdb4d129fee2743.jpg",
+            "pic": "/testname/img/d6cac267b94656b77bdb4d129fee2743.jpg",
             "answers": [
                 {
                     "answer": "خوذة الفارس",

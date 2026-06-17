@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هي التلميحات التي ستقدمها لإعجابك؟❤️✨",
-    "mainPic": "./testname/img/ar_img/9b938ff5ea9f44451d1600bbbe3a52c9.gif",
+    "mainPic": "/testname/img/9b938ff5ea9f44451d1600bbbe3a52c9.gif",
     "thems": [
         "حب",
         "رومانسية",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "ماذا تفعل عندما يعجبك شخص ما؟",
-            "pic": "./testname/img/ar_img/d121947de941d18195a9c8a142d67da4.jpg",
+            "pic": "/testname/img/d121947de941d18195a9c8a142d67da4.jpg",
             "answers": [
                 {
                     "answer": "أدفع كتفه بلطف أثناء الابتسام.",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "كيف تحيي إعجابك عندما تراهم؟",
-            "pic": "./testname/img/ar_img/92b3c2ecac74c6290f30fdb8216c3cb8.jpg",
+            "pic": "/testname/img/92b3c2ecac74c6290f30fdb8216c3cb8.jpg",
             "answers": [
                 {
                     "answer": "أطرق على ذراعهم بخفة وأقول، مرحباً!",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "أنت في مجموعة مع الشخص الذي تعجبك. كيف تلفت انتباهه؟",
-            "pic": "./testname/img/ar_img/772ca5d7f234293ef1c0a6f62f82bc46.jpg",
+            "pic": "/testname/img/772ca5d7f234293ef1c0a6f62f82bc46.jpg",
             "answers": [
                 {
                     "answer": "ألمسهم بطريقة مرحة عندما أقول شيئًا مضحكًا.",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "إذا كنت تخطط لشيء مميز، كيف ستشملهم؟",
-            "pic": "./testname/img/ar_img/77c20a043b20c3ca0c6cc8cc70e441bb.jpg",
+            "pic": "/testname/img/77c20a043b20c3ca0c6cc8cc70e441bb.jpg",
             "answers": [
                 {
                     "answer": "سأعطي تلميحاً لعباً حول ما أخطط له.",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "كيف تجعلهم يعلمون أنك تفكر فيهم؟",
-            "pic": "./testname/img/ar_img/442e0780ba3d7faea001efe0755202d1.jpg",
+            "pic": "/testname/img/442e0780ba3d7faea001efe0755202d1.jpg",
             "answers": [
                 {
                     "answer": "أربت على كتفهم وأقول، هذا ذكّرني بك.",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "إذا بدت مشاعرك حزينة، ماذا تفعل؟",
-            "pic": "./testname/img/ar_img/3c2230fe7f3009fd7421241172bbd93c.jpg",
+            "pic": "/testname/img/3c2230fe7f3009fd7421241172bbd93c.jpg",
             "answers": [
                 {
                     "answer": "أدفعهم بخفة وأقول شيئًا مثل، هيا، المحارب، ارجع لنفسك!",

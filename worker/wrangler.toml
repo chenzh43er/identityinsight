@@ -1,0 +1,8 @@
+name = "misty-block-488a"
+main = "src/index.js"
+compatibility_date = "2025-11-27"
+account_id = "892acd09257ee1251aca55e5a6f9946e"
+
+[[routes]]
+pattern = "identityinsight.org/*"
+zone_name = "identityinsight.org"

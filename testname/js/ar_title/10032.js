@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي أميرة ديزني أنتِ؟",
-    "mainPic": "./testname/img/ar_img/735a575acde713df117f43d8defde53b.gif",
+    "mainPic": "/testname/img/735a575acde713df117f43d8defde53b.gif",
     "thems": [
         "شخصية ديزني",
         "شخصيات ديزني",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "اختر قميصًا",
-            "pic": "./testname/img/ar_img/6bca1a790a8a0aa366e5faab186b4e2f.jpg",
+            "pic": "/testname/img/6bca1a790a8a0aa366e5faab186b4e2f.jpg",
             "answers": [
                 {
                     "answer": "قميص فاخر",
@@ -47,7 +47,7 @@ let quizData = {
         },
         {
             "question": "اختر السراويل",
-            "pic": "./testname/img/ar_img/f526d675003a125c5af8d2f27ef9b6ee.jpg",
+            "pic": "/testname/img/f526d675003a125c5af8d2f27ef9b6ee.jpg",
             "answers": [
                 {
                     "answer": "جينز ممزق",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "اختر فستانًا",
-            "pic": "./testname/img/ar_img/a57394904d33a6f422f5a5a344cee027.jpg",
+            "pic": "/testname/img/a57394904d33a6f422f5a5a344cee027.jpg",
             "answers": [
                 {
                     "answer": "فستان غير رسمي",
@@ -119,7 +119,7 @@ let quizData = {
         },
         {
             "question": "اختر زوجًا من الأحذية",
-            "pic": "./testname/img/ar_img/dcc17f9f28e41df25fe34875b13b98d6.jpg",
+            "pic": "/testname/img/dcc17f9f28e41df25fe34875b13b98d6.jpg",
             "answers": [
                 {
                     "answer": "كونفيرس",
@@ -155,7 +155,7 @@ let quizData = {
         },
         {
             "question": "اختر ملحق شعر",
-            "pic": "./testname/img/ar_img/ca7e60814d1a2c54f2214adad0b08372.jpg",
+            "pic": "/testname/img/ca7e60814d1a2c54f2214adad0b08372.jpg",
             "answers": [
                 {
                     "answer": "بندانة",
@@ -191,7 +191,7 @@ let quizData = {
         },
         {
             "question": "اختر إكسسواراً",
-            "pic": "./testname/img/ar_img/5721ada95f53e577cd08cba386d4b6a3.jpg",
+            "pic": "/testname/img/5721ada95f53e577cd08cba386d4b6a3.jpg",
             "answers": [
                 {
                     "answer": "قلادة",

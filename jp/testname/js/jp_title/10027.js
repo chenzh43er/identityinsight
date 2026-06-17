@@ -1,6 +1,6 @@
 let quizData = {
     "title": "実際にはどのくらいの年齢に見えますか？",
-    "mainPic": "./testname/img/jp_img/d2b2ac3c45857ef4a3c68b34bcca2958.gif",
+    "mainPic": "/testname/img/d2b2ac3c45857ef4a3c68b34bcca2958.gif",
     "thems": [
         "性格",
         "年老いた",

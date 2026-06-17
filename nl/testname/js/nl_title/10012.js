@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie Is Jouw Perfecte Match op School volgens je Sterrenbeeld? 💫🎒",
-    "mainPic": "./testname/img/nl_img/5733f4c5286c61332b3a744289e4ab79.gif",
+    "mainPic": "/testname/img/5733f4c5286c61332b3a744289e4ab79.gif",
     "thems": [
         "Liefde",
         "Romantiek",
@@ -15,7 +15,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat zou jouw ideale plek zijn om te studeren?",
-            "pic": "./testname/img/nl_img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
+            "pic": "/testname/img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
             "answers": [
                 {
                     "answer": "In het park, genietend van de zon",
@@ -41,7 +41,7 @@ let quizData = {
         },
         {
             "question": "Als je een snack moest kiezen om te studeren, wat zou dat dan zijn?",
-            "pic": "./testname/img/nl_img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
+            "pic": "/testname/img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
             "answers": [
                 {
                     "answer": "Aardappelchips, ik heb energie nodig!",
@@ -67,7 +67,7 @@ let quizData = {
         },
         {
             "question": "Welk soort muziek motiveert jou om te studeren?",
-            "pic": "./testname/img/nl_img/a3d33aac551d8e726e0cbb971694465c.jpg",
+            "pic": "/testname/img/a3d33aac551d8e726e0cbb971694465c.jpg",
             "answers": [
                 {
                     "answer": "Krachtige rock, om energie te krijgen!",
@@ -93,7 +93,7 @@ let quizData = {
         },
         {
             "question": "Wat is je favoriete vak op school?",
-            "pic": "./testname/img/nl_img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
+            "pic": "/testname/img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
             "answers": [
                 {
                     "answer": "Lichamelijke Opvoeding, ik hou van bewegen!",
@@ -119,7 +119,7 @@ let quizData = {
         },
         {
             "question": "Hoe zou je jezelf in één woord omschrijven?",
-            "pic": "./testname/img/nl_img/410039c2dca9caa3663e60daef08aece.jpg",
+            "pic": "/testname/img/410039c2dca9caa3663e60daef08aece.jpg",
             "answers": [
                 {
                     "answer": "Passioneel",
@@ -145,7 +145,7 @@ let quizData = {
         },
         {
             "question": "Wat doe je als je gestrest bent voor een examen?",
-            "pic": "./testname/img/nl_img/f3990bda1122727f78a00d38a71252b6.jpg",
+            "pic": "/testname/img/f3990bda1122727f78a00d38a71252b6.jpg",
             "answers": [
                 {
                     "answer": "Ik sport om energie kwijt te raken",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches magische Talent steckt wirklich in dir in Hogwarts?",
-    "mainPic": "./testname/img/de_img/2025-10-15_204806_876.jpg",
+    "mainPic": "/testname/img/2025-10-15_204806_876.jpg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wenn du den Verbotenen Wald betrittst, was tust du zuerst?",
-            "pic": "./testname/img/de_img/m4b0c0o0l2.png",
+            "pic": "/testname/img/m4b0c0o0l2.png",
             "answers": [
                 {
                     "answer": "Ich gehe vorsichtig weiter und beobachte die Schatten.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Du findest eine verzauberte Feder auf dem Boden. Was machst du?",
-            "pic": "./testname/img/de_img/c0d0y3c6d2.jpg",
+            "pic": "/testname/img/c0d0y3c6d2.jpg",
             "answers": [
                 {
                     "answer": "Ich nehme sie und untersuche sie genau.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "In welchem Unterricht würdest du dich in Hogwarts am meisten engagieren?",
-            "pic": "./testname/img/de_img/a3w1o0i5n0.png",
+            "pic": "/testname/img/a3w1o0i5n0.png",
             "answers": [
                 {
                     "answer": "Verwandlung",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "In einer Konfliktsituation bist du eher…",
-            "pic": "./testname/img/de_img/i2h2a0h2f0.jpg",
+            "pic": "/testname/img/i2h2a0h2f0.jpg",
             "answers": [
                 {
                     "answer": "Der Friedensstifter, der eine sanfte Lösung sucht.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Welches magische Tier würde deinen Geist am besten repräsentieren?",
-            "pic": "./testname/img/de_img/a0b2d0g0a7.jpg",
+            "pic": "/testname/img/a0b2d0g0a7.jpg",
             "answers": [
                 {
                     "answer": "Phönix",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Bei einem Ball in Hogwarts – du bist auf der Tanzfläche. Du bevorzugst…",
-            "pic": "./testname/img/de_img/e0i0n1a0f0.jpg",
+            "pic": "/testname/img/e0i0n1a0f0.jpg",
             "answers": [
                 {
                     "answer": "Einen leichten Tanz unter den Sternen.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Welche Farbe magischen Lichts fasziniert dich am meisten?",
-            "pic": "./testname/img/de_img/j6e0a1u0h1.jpg",
+            "pic": "/testname/img/j6e0a1u0h1.jpg",
             "answers": [
                 {
                     "answer": "Warmes Gold",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Eine Prophezeiung wählt dich für eine wichtige Mission aus. Was fühlst du?",
-            "pic": "./testname/img/de_img/a2f6a1e2t7.jpg",
+            "pic": "/testname/img/a2f6a1e2t7.jpg",
             "answers": [
                 {
                     "answer": "Ehre und Neugier",
@@ -222,7 +222,7 @@ let quizData = {
         },
         {
             "question": "Wenn du „Gefangener von Askaban“ hörst, welches Wort fällt dir zuerst ein?",
-            "pic": "./testname/img/de_img/e0a2c2i7b1.jpg",
+            "pic": "/testname/img/e0a2c2i7b1.jpg",
             "answers": [
                 {
                     "answer": "Geheimnis",

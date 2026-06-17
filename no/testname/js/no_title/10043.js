@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Er du *kvalifisert* for et offisielt Galtvort-sertifikat?",
-    "mainPic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
+    "mainPic": "/testname/img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
     "thems": ["Harry Potter", "Galtvort", "Film", "Filmer", "Fjernsyn", "Trivia"],
     "questions": [
         {
             "question": "Hvor mange hus er Galtvort delt inn i?",
-            "pic": "./testname/img/fr_img/5d335f21574eb95f56a1a6dc639d7ac7.png",
+            "pic": "/testname/img/5d335f21574eb95f56a1a6dc639d7ac7.png",
             "answers": [
                 {
                     "answer": "2 hus",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hva er Galtvorts motto?",
-            "pic": "./testname/img/fr_img/d552940a0bbf9b039104d691016c7914.png",
+            "pic": "/testname/img/d552940a0bbf9b039104d691016c7914.png",
             "answers": [
                 {
                     "answer": "Kunnskap er den største magien av alle.",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvilken av disse er IKKE lærer eller professor ved Galtvort?",
-            "pic": "./testname/img/fr_img/0a07564af0a5ec054cfe9aaebd68b550.png",
+            "pic": "/testname/img/0a07564af0a5ec054cfe9aaebd68b550.png",
             "answers": [
                 {
                     "answer": "Severus Snape",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvilken magisk skapning vokter inngangen til Humlesnurrs kontor?",
-            "pic": "./testname/img/fr_img/7e754dabee546aa20c78ac380f048bdb.png",
+            "pic": "/testname/img/7e754dabee546aa20c78ac380f048bdb.png",
             "answers": [
                 {
                     "answer": "Griffin",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Hva er navnet på det magiske kartet der du kan se hele utformingen av Galtvort slott?",
-            "pic": "./testname/img/fr_img/ce41963f00a6135f174bf1312efad53a.png",
+            "pic": "/testname/img/ce41963f00a6135f174bf1312efad53a.png",
             "answers": [
                 {
                     "answer": "Marauders kart",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hvilken sjarm brukes til å tilkalle gjenstander?",
-            "pic": "./testname/img/fr_img/d1f1ee8a8f05c715d30bf3240b810c82.png",
+            "pic": "/testname/img/d1f1ee8a8f05c715d30bf3240b810c82.png",
             "answers": [
                 {
                     "answer": "Expelliarmus",

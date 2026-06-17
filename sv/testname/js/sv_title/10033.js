@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vilket Hogwarts-hus tillhör du egentligen?",
-    "mainPic": "./testname/img/fr_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+    "mainPic": "/testname/img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
     "thems": ["Harry Potter", "Hogwarts", "Trollkarl"],
     "questions": [
         {
             "question": "Vilken av dessa egenskaper anser du vara dina största styrkor?",
-            "pic": "./testname/img/fr_img/7925febfa889e8510c1c5cde34037f59.jpg",
+            "pic": "/testname/img/7925febfa889e8510c1c5cde34037f59.jpg",
             "answers": [
                 {
                     "answer": "Mod och beslutsamhet",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Vilken av dessa identifierar du dig mest med?",
-            "pic": "./testname/img/fr_img/e9491d103cd0d5f2ca732415f968fc48.jpg",
+            "pic": "/testname/img/e9491d103cd0d5f2ca732415f968fc48.jpg",
             "answers": [
                 {
                     "answer": "Jorden",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hur skulle du spendera det mesta av din tid i allrummet?",
-            "pic": "./testname/img/fr_img/2395681ca6b55d8963f369c62e0649ef.jpg",
+            "pic": "/testname/img/2395681ca6b55d8963f369c62e0649ef.jpg",
             "answers": [
                 {
                     "answer": "Läs böcker och gör dina läxor",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Vilken av dessa typer av magi skulle du fokusera mest på?",
-            "pic": "./testname/img/fr_img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
+            "pic": "/testname/img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
             "answers": [
                 {
                     "answer": "Transfiguration",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Du hittade en påse galjoner borttappad i diagonalgången, vad gör du?",
-            "pic": "./testname/img/fr_img/a67489b6bfe58e5a198a86c3f52de871.jpg",
+            "pic": "/testname/img/a67489b6bfe58e5a198a86c3f52de871.jpg",
             "answers": [
                 {
                     "answer": "Ta det och behåll det för dig själv utan att tänka två gånger",

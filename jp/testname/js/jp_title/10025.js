@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたの美学にマッチするソニック・ザ・ヘッジホッグ 3 のグローアップはどれ？",
-    "mainPic": "./testname/img/jp_img/c209c4c028da74398ce1ea05a1ffca55.gif",
+    "mainPic": "/testname/img/c209c4c028da74398ce1ea05a1ffca55.gif",
     "thems": [
         "美学",
         "グローアップ",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "世界を救うためのあなたの定番スタイルは？",
-            "pic": "./testname/img/jp_img/5576516d249929642ec83e35834ca5e3.jpg",
+            "pic": "/testname/img/5576516d249929642ec83e35834ca5e3.jpg",
             "answers": [
                 {
                     "answer": "ケープがある大胆で派手なスタイル",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "あなたの理想的なスーパーパワーは何ですか？",
-            "pic": "./testname/img/jp_img/73946adf14ff94b297e79973a14b352f.jpg",
+            "pic": "/testname/img/73946adf14ff94b297e79973a14b352f.jpg",
             "answers": [
                 {
                     "answer": "ソニックのような超高速",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "どのアクセサリーがあなたのルックを完成させる？",
-            "pic": "./testname/img/jp_img/01178e58104b5fa00f8c0640b0922f34.jpg",
+            "pic": "/testname/img/01178e58104b5fa00f8c0640b0922f34.jpg",
             "answers": [
                 {
                     "answer": "クールなサングラス",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "週末の過ごし方は？",
-            "pic": "./testname/img/jp_img/0be70a46ac8f25ed55a4179a27212024.jpg",
+            "pic": "/testname/img/0be70a46ac8f25ed55a4179a27212024.jpg",
             "answers": [
                 {
                     "answer": "友達とレース！",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "大きな挑戦にどのように対処しますか？",
-            "pic": "./testname/img/jp_img/50fc5a98112dfb646090eb1900b9227f.jpg",
+            "pic": "/testname/img/50fc5a98112dfb646090eb1900b9227f.jpg",
             "answers": [
                 {
                     "answer": "ソニックのように真正面から立ち向かう",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "あなたの雰囲気に合う色は？",
-            "pic": "./testname/img/jp_img/876f3a4d518ad2322e840da258c254a9.jpg",
+            "pic": "/testname/img/876f3a4d518ad2322e840da258c254a9.jpg",
             "answers": [
                 {
                     "answer": "エレクトリックブルーと明るい赤",

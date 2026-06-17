@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken karriär passar dig enligt ditt stjärntecken?",
-    "mainPic": "./testname/img/sv_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+    "mainPic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
     "thems": [
         "Horoskop",
         "Födelsediagram",

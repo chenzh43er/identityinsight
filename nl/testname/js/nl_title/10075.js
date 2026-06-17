@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat ontbreekt er in je leven?",
-    "mainPic": "./testname/img/nl_img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
+    "mainPic": "/testname/img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
     "thems": [
         "Persoonlijkheid",
         "Leven",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hoe voel je je de laatste tijd?",
-            "pic": "./testname/img/nl_img/6cecf6685bbe63fd312f6a89d19083b3.png",
+            "pic": "/testname/img/6cecf6685bbe63fd312f6a89d19083b3.png",
             "answers": [
                 {
                     "answer": "Energiek en betrokken",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Hoe vaak voel je je echt verfrist als je 's ochtends wakker wordt?",
-            "pic": "./testname/img/nl_img/4b3632c61b0c73d1f0c919f540a8c3c4.png",
+            "pic": "/testname/img/4b3632c61b0c73d1f0c919f540a8c3c4.png",
             "answers": [
                 {
                     "answer": "Bijna nooit",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Welk gevoel overheerst bij het nadenken over jouw toekomst?",
-            "pic": "./testname/img/nl_img/e2bdbed17f5a26047b550bf4b0d2b865.png",
+            "pic": "/testname/img/e2bdbed17f5a26047b550bf4b0d2b865.png",
             "answers": [
                 {
                     "answer": "Stress",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hoe voel je je meestal wanneer je een taak afmaakt?",
-            "pic": "./testname/img/nl_img/5951555c0d438e7dc7ace5b14cd9755c.png",
+            "pic": "/testname/img/5951555c0d438e7dc7ace5b14cd9755c.png",
             "answers": [
                 {
                     "answer": "Moe en uitgeput",

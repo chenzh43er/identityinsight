@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Get Your Cause Of Death In Your Previous Life Through Fingerprints",
-    "mainPic": "./testname/img/en_img/dd1da2d2e2fa64494019288642c7d472.gif",
+    "mainPic": "/testname/img/dd1da2d2e2fa64494019288642c7d472.gif",
     "thems": [
         "Fingerprints",
         "PastLife",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Choose your fingerprint pattern most common in your hands:",
-            "pic": "./testname/img/en_img/fea2485186ab2872a2452abc1867c214.png",
+            "pic": "/testname/img/fea2485186ab2872a2452abc1867c214.png",
             "answers": [
                 {
                     "answer": "Whorl",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Describe the overall shape or flow of the lines on one of your fingers",
-            "pic": "./testname/img/en_img/0f2677f1b689d508bb89a532698f656a.png",
+            "pic": "/testname/img/0f2677f1b689d508bb89a532698f656a.png",
             "answers": [
                 {
                     "answer": "Swirling",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Do the fingerprints on your left hand look exactly the same as the ones on your right hand?",
-            "pic": "./testname/img/en_img/abad14c3a84e83f9f578122170e952b8.png",
+            "pic": "/testname/img/abad14c3a84e83f9f578122170e952b8.png",
             "answers": [
                 {
                     "answer": "No, not exactly",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Do you think your fingerprints are very clear and defined, or more subtle?",
-            "pic": "./testname/img/en_img/2d2b94a8afccdf71de669899230cc7ed.png",
+            "pic": "/testname/img/2d2b94a8afccdf71de669899230cc7ed.png",
             "answers": [
                 {
                     "answer": "Pretty clear",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Does your fingerprint have any of these special details?",
-            "pic": "./testname/img/en_img/38a7546743ee2e8c4afcef0a101d2423.png",
+            "pic": "/testname/img/38a7546743ee2e8c4afcef0a101d2423.png",
             "answers": [
                 {
                     "answer": "Crossover or core",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welche Disney-Prinzessin Bist du im Anziehspiel?",
-    "mainPic": "./testname/img/de_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
+    "mainPic": "/testname/img/b75a84ce45756e0e51d4a3c0aca726af.gif",
     "thems": [
         "Disney",
         "Anziehen",

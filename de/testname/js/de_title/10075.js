@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches Haus würde über Westeros herrschen, wenn DU auf dem Thron säßest?",
-    "mainPic": "./testname/img/de_img/52_5b43c4a69ce04bdb8a58d44791ec693e.jpeg",
+    "mainPic": "/testname/img/52_5b43c4a69ce04bdb8a58d44791ec693e.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Wie würdest du deine Herrschaft führen?",
-    "pic": "./testname/img/de_img/53_69ff8edd28f1406282d7edc10b7a1f84.jpeg",
+    "pic": "/testname/img/53_69ff8edd28f1406282d7edc10b7a1f84.jpeg",
     "answers": [
       { "answer": "Mit Ehre und Gerechtigkeit, das Volk respektierend", "aPic": "", "aId": 1 },
       { "answer": "Mit Stärke und Furcht, um Ordnung zu sichern", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Was ist dir am wichtigsten im Kampf um Macht?",
-    "pic": "./testname/img/de_img/54_2b4c689491db408581705318102b0624.jpeg",
+    "pic": "/testname/img/54_2b4c689491db408581705318102b0624.jpeg",
     "answers": [
       { "answer": "Loyalität und Familie", "aPic": "", "aId": 1 },
       { "answer": "Kontrolle und Einfluss", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Wie reagierst du auf Verrat?",
-    "pic": "./testname/img/de_img/55_30bada16c340436f8f7ae7ce4bbc9917.jpeg",
+    "pic": "/testname/img/55_30bada16c340436f8f7ae7ce4bbc9917.jpeg",
     "answers": [
       { "answer": "Gerecht abwägen und bestrafen, aber fair", "aPic": "", "aId": 1 },
       { "answer": "Härteste Strafe, damit kein Zweifel bleibt", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Dein idealer Berater wäre…",
-    "pic": "./testname/img/de_img/56_ccfe0228144f43efac93f57ea3d03845.jpeg",
+    "pic": "/testname/img/56_ccfe0228144f43efac93f57ea3d03845.jpeg",
     "answers": [
       { "answer": "Treu, ehrlich und pragmatisch", "aPic": "", "aId": 1 },
       { "answer": "Ambitioniert und bereit, alles zu tun", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Dein Herrschaftsgebiet würdest du bevorzugen…",
-    "pic": "./testname/img/de_img/57_12dc3b38be644189bda8c110f2f09642.jpeg",
+    "pic": "/testname/img/57_12dc3b38be644189bda8c110f2f09642.jpeg",
     "answers": [
       { "answer": "Klares Klima, loyaler Norden", "aPic": "", "aId": 1 },
       { "answer": "Reiche Städte, einflussreiche Bevölkerung", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Welche Eigenschaft beschreibt dich am besten?",
-    "pic": "./testname/img/de_img/58_9a58006bea8047439d930d31bcad9b81.jpeg",
+    "pic": "/testname/img/58_9a58006bea8047439d930d31bcad9b81.jpeg",
     "answers": [
       { "answer": "Ehre & Gerechtigkeit", "aPic": "", "aId": 1 },
       { "answer": "Machtbewusst & entschlossen", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Welche Waffe bevorzugst du?",
-    "pic": "./testname/img/de_img/59_f2e15845c95f493a9b8d91d8487bfc9b.jpeg",
+    "pic": "/testname/img/59_f2e15845c95f493a9b8d91d8487bfc9b.jpeg",
     "answers": [
       { "answer": "Schwert – direkt und ehrenvoll", "aPic": "", "aId": 1 },
       { "answer": "Dolch – hinterhältig und effektiv", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Wie würdest du als Herrscher in Erinnerung bleiben?",
-    "pic": "./testname/img/de_img/60_59fbb7abd40b406babd078ed0e0277f2.jpeg",
+    "pic": "/testname/img/60_59fbb7abd40b406babd078ed0e0277f2.jpeg",
     "answers": [
       { "answer": "Als gerechter Herrscher, der sein Volk schützt", "aPic": "", "aId": 1 },
       { "answer": "Als mächtig & gefürchtet, der die Ordnung bewahrte", "aPic": "", "aId": 2 },

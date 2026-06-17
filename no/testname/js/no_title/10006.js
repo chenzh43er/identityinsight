@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvor mange mennesker tenker på deg?",
-    "mainPic": "./testname/img/no_img/ea0668686fa5da1949ebdc9ac391e1c4.jpeg",
+    "mainPic": "/testname/img/ea0668686fa5da1949ebdc9ac391e1c4.jpeg",
     "thems": [
         "Tenker",
         "Personlighet",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Når du våkner opp om morgenen, har telefonen din vanligvis…",
-            "pic": "./testname/img/no_img/3ea5bf64408bd34bcd482e544afd8d85.jpg",
+            "pic": "/testname/img/3ea5bf64408bd34bcd482e544afd8d85.jpg",
             "answers": [
                 {
                     "answer": "Ingen nye meldinger",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Hvor ofte tar du noen i å stirre på deg?",
-            "pic": "./testname/img/no_img/b7296d19bba24ec4483ad11690ceb1b4.jpg",
+            "pic": "/testname/img/b7296d19bba24ec4483ad11690ceb1b4.jpg",
             "answers": [
                 {
                     "answer": "Nesten aldri",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Hvem sendte deg melding i går kveld?",
-            "pic": "./testname/img/no_img/89fcf50ec75134189132ae96668a95e1.jpg",
+            "pic": "/testname/img/89fcf50ec75134189132ae96668a95e1.jpg",
             "answers": [
                 {
                     "answer": "Ingen",

@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hvilket Galtvort-hus tilhører du egentlig?",
-    "mainPic": "./testname/img/fr_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+    "mainPic": "/testname/img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
     "thems": ["Harry Potter", "Galtvort", "Veiviser"],
     "questions": [
         {
             "question": "Hvilke av disse egenskapene anser du som dine største styrker?",
-            "pic": "./testname/img/fr_img/7925febfa889e8510c1c5cde34037f59.jpg",
+            "pic": "/testname/img/7925febfa889e8510c1c5cde34037f59.jpg",
             "answers": [
                 {
                     "answer": "Mot og besluttsomhet",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Hvilken av disse identifiserer du deg mest med?",
-            "pic": "./testname/img/fr_img/e9491d103cd0d5f2ca732415f968fc48.jpg",
+            "pic": "/testname/img/e9491d103cd0d5f2ca732415f968fc48.jpg",
             "answers": [
                 {
                     "answer": "Jord",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Hvordan ville du tilbrakt mesteparten av tiden din i fellesrommet?",
-            "pic": "./testname/img/fr_img/2395681ca6b55d8963f369c62e0649ef.jpg",
+            "pic": "/testname/img/2395681ca6b55d8963f369c62e0649ef.jpg",
             "answers": [
                 {
                     "answer": "Les bøker og gjør leksene dine",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Hvilken av disse typene magi ville du fokusere mest på?",
-            "pic": "./testname/img/fr_img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
+            "pic": "/testname/img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
             "answers": [
                 {
                     "answer": "Transfigurasjon",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Du fant en pose med galleoner tapt i den diagonale midtgangen, hva gjør du?",
-            "pic": "./testname/img/fr_img/a67489b6bfe58e5a198a86c3f52de871.jpg",
+            "pic": "/testname/img/a67489b6bfe58e5a198a86c3f52de871.jpg",
             "answers": [
                 {
                     "answer": "Ta det og hold det for deg selv uten å tenke deg om to ganger",

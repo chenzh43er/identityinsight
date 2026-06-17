@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي شخصية من Roblox تتناسب مع ذوقك؟",
-    "mainPic": "./testname/img/ar_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+    "mainPic": "/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
     "thems": [
         "روبلكس",
         "أفاتار",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما هي نشاطات عطلة نهاية الأسبوع المثالية لك؟",
-            "pic": "./testname/img/ar_img/1485e83eabb791de38c2ff2983845481.png",
+            "pic": "/testname/img/1485e83eabb791de38c2ff2983845481.png",
             "answers": [
                 {
                     "answer": "الذهاب إلى الصالة الرياضية",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "اختر لونك المفضل.",
-            "pic": "./testname/img/ar_img/117bd17f44c1d3504fc11a3345a2c357.png",
+            "pic": "/testname/img/117bd17f44c1d3504fc11a3345a2c357.png",
             "answers": [
                 {
                     "answer": "أحمر",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "كيف يصفك أصدقاؤك؟",
-            "pic": "./testname/img/ar_img/1bb231d392834e95ffb3146c5885dff0.png",
+            "pic": "/testname/img/1bb231d392834e95ffb3146c5885dff0.png",
             "answers": [
                 {
                     "answer": "نشيط",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "أي وجبة خفيفة ستختار أولاً؟",
-            "pic": "./testname/img/ar_img/444dff04c7d21a44dce961e54b36ffc8.png",
+            "pic": "/testname/img/444dff04c7d21a44dce961e54b36ffc8.png",
             "answers": [
                 {
                     "answer": "شريط البروتين",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "ما هي وظيفتك الحلم؟",
-            "pic": "./testname/img/ar_img/b0d51dcce3166e108a6b5982b3e2c792.png",
+            "pic": "/testname/img/b0d51dcce3166e108a6b5982b3e2c792.png",
             "answers": [
                 {
                     "answer": "رياضي",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "اختر هواية.",
-            "pic": "./testname/img/ar_img/c82372b96a77e8a3fa98f938ee81679f.png",
+            "pic": "/testname/img/c82372b96a77e8a3fa98f938ee81679f.png",
             "answers": [
                 {
                     "answer": "التمارين الرياضية",
@@ -193,7 +193,7 @@ let quizData = {
         },
         {
             "question": "تجد ورقة نقدية بقيمة 100 دولار. على ماذا تنفقها؟",
-            "pic": "./testname/img/ar_img/7479bc818acfa775256e80a42f016fe7.png",
+            "pic": "/testname/img/7479bc818acfa775256e80a42f016fe7.png",
             "answers": [
                 {
                     "answer": "معدات التمارين",

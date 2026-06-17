@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هو مستوى كرة القدم الخاص بك في VRFS؟",
-    "mainPic": "./testname/img/ar_img/9512f4c9566e937dc8c4a40eb39b3925.gif",
+    "mainPic": "/testname/img/9512f4c9566e937dc8c4a40eb39b3925.gif",
     "thems": [
         "الألعاب",
         "ألعاب الفيديو",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "أولاً، كيف تصف مهاراتك في كرة القدم في الحياة الواقعية؟",
-            "pic": "./testname/img/ar_img/23061c322ace880fddb231605535a89e.png",
+            "pic": "/testname/img/23061c322ace880fddb231605535a89e.png",
             "answers": [
                 {
                     "answer": "عظيم، أنا أنتمي إلى فريق كرة قدم",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "ما هي بالنسبة لك أفضل مهاراتك في كرة القدم؟",
-            "pic": "./testname/img/ar_img/4711f76df022869e8a89aa518eeaba01.png",
+            "pic": "/testname/img/4711f76df022869e8a89aa518eeaba01.png",
             "answers": [
                 {
                     "answer": "السرعة",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ما هي مركز كرة القدم المفضل لديك للعب؟",
-            "pic": "./testname/img/ar_img/93c3214ce89c7a3dbde204e1104447d0.png",
+            "pic": "/testname/img/93c3214ce89c7a3dbde204e1104447d0.png",
             "answers": [
                 {
                     "answer": "مهاجم",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "ما مدى براعتك في ألعاب الواقع الافتراضي؟",
-            "pic": "./testname/img/ar_img/f3b54da19743eccaf56c05da9605fc7e.png",
+            "pic": "/testname/img/f3b54da19743eccaf56c05da9605fc7e.png",
             "answers": [
                 {
                     "answer": "أنا خبير قديم",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "كم مرة تشاهد مباريات كرة القدم؟",
-            "pic": "./testname/img/ar_img/51999435b9fe98644882655a5c4aad68.png",
+            "pic": "/testname/img/51999435b9fe98644882655a5c4aad68.png",
             "answers": [
                 {
                     "answer": "غالباً",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "ما مدى تنافسيتك برأيك؟",
-            "pic": "./testname/img/ar_img/f541d1a4931e9e8f3421da32dbbece0c.png",
+            "pic": "/testname/img/f541d1a4931e9e8f3421da32dbbece0c.png",
             "answers": [
                 {
                     "answer": "تنافسي للغاية",

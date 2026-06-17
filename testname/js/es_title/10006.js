@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué princesa de Disney eres? ",
-    "mainPic": "./testname/img/es_img/735a575acde713df117f43d8defde53b.gif",
+    "mainPic": "/testname/img/735a575acde713df117f43d8defde53b.gif",
     "thems": [
         "Disney Plus",
         "Disney",
@@ -10,7 +10,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "Escoge un tipo de camiseta",
-        "pic": "./testname/img/es_img/6f809f397f5ec7d17ab94671a8419ea7.webp",
+        "pic": "/testname/img/6f809f397f5ec7d17ab94671a8419ea7.webp",
         "answers": [
             {
                 "answer":"Camiseta elegante",
@@ -40,7 +40,7 @@ let quizData = {
         ]
     },{
         "question": "Escoge algo para la parte de abajo",
-        "pic": "./testname/img/es_img/ca33b85d8c0d0b2d84e1ef4533d84a0c.webp",
+        "pic": "/testname/img/ca33b85d8c0d0b2d84e1ef4533d84a0c.webp",
         "answers": [
             {
                 "answer":"Jeans",
@@ -70,7 +70,7 @@ let quizData = {
         ]
     },{
         "question": "Elige un vestido",
-        "pic": "./testname/img/es_img/3a3513371e04113c4d217de0bb72369e.webp",
+        "pic": "/testname/img/3a3513371e04113c4d217de0bb72369e.webp",
         "answers": [
             {
                 "answer":"Vestido casual",
@@ -100,7 +100,7 @@ let quizData = {
         ]
     },{
         "question": "Elige un par de zapatos",
-        "pic": "./testname/img/es_img/0ed1d112196124739fa190d0d18e833e.webp",
+        "pic": "/testname/img/0ed1d112196124739fa190d0d18e833e.webp",
         "answers": [
             {
                 "answer":"Converse",
@@ -130,7 +130,7 @@ let quizData = {
         ]
     },{
         "question": "Elige algo para el cabello",
-        "pic": "./testname/img/es_img/c931afd07d5b4ef70be539d6463c8558.webp",
+        "pic": "/testname/img/c931afd07d5b4ef70be539d6463c8558.webp",
         "answers": [
             {
                 "answer":"Bandana",
@@ -160,7 +160,7 @@ let quizData = {
         ]
     },{
         "question": "Elige un accesorio",
-        "pic": "./testname/img/es_img/a588e1da951aaa80b93c2f15f891247f.webp",
+        "pic": "/testname/img/a588e1da951aaa80b93c2f15f891247f.webp",
         "answers": [
             {
                 "answer":"Reloj",

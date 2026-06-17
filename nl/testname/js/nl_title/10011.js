@@ -1,6 +1,6 @@
 let quizData = {
     "title": "De Plaats Van Uw Moedervlek Zal Uw Dood In Een Vorig Leven Onthullen!",
-    "mainPic": "./testname/img/nl_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+    "mainPic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
     "thems": [
         "Dood",
         "Moedervlek",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Waar bevindt zich uw moedervlek?",
-            "pic": "./testname/img/nl_img/2dd44d549f230bfd92d6dda275306d69.jpg",
+            "pic": "/testname/img/2dd44d549f230bfd92d6dda275306d69.jpg",
             "answers": [
                 {
                     "answer": "Nek",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welke vorm heeft je moedervlek?",
-            "pic": "./testname/img/nl_img/ace14742239cf93a65304a6d16c84e99.jpg",
+            "pic": "/testname/img/ace14742239cf93a65304a6d16c84e99.jpg",
             "answers": [
                 {
                     "answer": "Rond",

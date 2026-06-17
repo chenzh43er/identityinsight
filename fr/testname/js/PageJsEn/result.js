@@ -175,7 +175,7 @@
 
         deleteCurrentPathCookies();
 
-        document.querySelector('.result-container').innerHTML = `<img src="./testname/img/loading.gif">`
+        document.querySelector('.result-container').innerHTML = `<img src="/testname/img/loading.gif">`
         //console.log(3);
 
         setTimeout(() => {

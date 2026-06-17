@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welche Disney-Prinzessinnen-Magie würde dir helfen, deine Prüfungen zu bestehen? 🏰✏️",
-    "mainPic": "./testname/img/de_img/a09f623108e4d67071c2ec573f6cf567.gif",
+    "mainPic": "/testname/img/a09f623108e4d67071c2ec573f6cf567.gif",
     "thems": [
         "Disney",
         "DisneyCharaktere",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie bereitest du dich auf eine Prüfung vor?",
-            "pic": "./testname/img/de_img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
+            "pic": "/testname/img/2483d92ab4317a18c8f2bae42d4d2bda.jpg",
             "answers": [
                 {
                     "answer": "Ich gehe früh ins Bett und ruhe mich gut aus",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welche Art von Klassenkameraden bevorzugen Sie?",
-            "pic": "./testname/img/de_img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
+            "pic": "/testname/img/9be82d4b0e321005f0366fcf64e5b09c.jpg",
             "answers": [
                 {
                     "answer": "Diejenigen, die ruhig sind und nicht zu viel Drama verursachen",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Was würden Sie tun, wenn Sie während einer Prüfung etwas nicht verstehen?",
-            "pic": "./testname/img/de_img/3030ba9228e90626b27846223b0057ad.jpg",
+            "pic": "/testname/img/3030ba9228e90626b27846223b0057ad.jpg",
             "answers": [
                 {
                     "answer": "Ich konzentriere mich auf mein Wohlbefinden und versuche, ruhig zu bleiben, um mein Bestes zu geben",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wie möchten Sie während einer Prüfung unterstützt werden?",
-            "pic": "./testname/img/de_img/a42f81def46f99e6d30e023381ce181f.jpg",
+            "pic": "/testname/img/a42f81def46f99e6d30e023381ce181f.jpg",
             "answers": [
                 {
                     "answer": "Mit Ruhe und Geduld, ohne Druck",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Was würden Sie tun, wenn Sie vor der Prüfung nicht viel lernen können?",
-            "pic": "./testname/img/de_img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
+            "pic": "/testname/img/c0bb72a88c4072d43bb8cd32b278adac.jpg",
             "answers": [
                 {
                     "answer": "Ich mache mir keine Sorgen, ich vertraue darauf, dass das, was ich weiß, ausreichend ist",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Lernstrategie?",
-            "pic": "./testname/img/de_img/856d58c236fe47e0c4f796be7d1224e9.jpg",
+            "pic": "/testname/img/856d58c236fe47e0c4f796be7d1224e9.jpg",
             "answers": [
                 {
                     "answer": "Lesen und ohne Stress wiederholen, immer ruhig",

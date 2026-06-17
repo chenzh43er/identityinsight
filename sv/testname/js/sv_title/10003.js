@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken ny karaktär är du från Miraculous Ladybug?",
-    "mainPic": "./testname/img/sv_img/91d26215b25f6c2dd65b96f2683a2ea5.gif",
+    "mainPic": "/testname/img/91d26215b25f6c2dd65b96f2683a2ea5.gif",
     "thems": [
         "MiraculousLadybug",
         "Karaktärer",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "När ditt team har problem, vad är det första du gör?",
-            "pic": "./testname/img/sv_img/6b45e5e2d41d19120ebffe35cd948f1d.png",
+            "pic": "/testname/img/6b45e5e2d41d19120ebffe35cd948f1d.png",
             "answers": [
                 {
                     "answer": "Leta efter ledtrådar innan du hoppar in",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hur förtjänar du människors förtroende?",
-            "pic": "./testname/img/sv_img/c6e281d8993629abd6d5cdffa5b31d9a.png",
+            "pic": "/testname/img/c6e281d8993629abd6d5cdffa5b31d9a.png",
             "answers": [
                 {
                     "answer": "Genom att vara lojal oavsett vad",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Vad är din största styrka i en kris?",
-            "pic": "./testname/img/sv_img/884062555c93abf67b06b284f28306b2.png",
+            "pic": "/testname/img/884062555c93abf67b06b284f28306b2.png",
             "answers": [
                 {
                     "answer": "Hålla sig vaken",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Hur reagerar du när någon underskattar dig?",
-            "pic": "./testname/img/sv_img/b8eaf7e2059c67ffa3c3bf3378978816.png",
+            "pic": "/testname/img/b8eaf7e2059c67ffa3c3bf3378978816.png",
             "answers": [
                 {
                     "answer": "Jag bevisar tyst att de har fel genom handling",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Vad betyder \"att vara en hjälte\" för dig?",
-            "pic": "./testname/img/sv_img/b4e9d5e2589a07ca978d5aa39cfcdfe8.png",
+            "pic": "/testname/img/b4e9d5e2589a07ca978d5aa39cfcdfe8.png",
             "answers": [
                 {
                     "answer": "Lojalitet",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Om du kunde ha en speciell förmåga, vilken skulle det vara?",
-            "pic": "./testname/img/sv_img/239fc53c8e8287741a16d810c9509e93.png",
+            "pic": "/testname/img/239fc53c8e8287741a16d810c9509e93.png",
             "answers": [
                 {
                     "answer": "Spårning och förhöjda sinnen",

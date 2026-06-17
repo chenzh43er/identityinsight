@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quel est ton vrai talent magique à Poudlard ?",
-    "mainPic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+    "mainPic": "/testname/img/2025-10-15_204806_876.jpg",
     "thems": [
         "Harry Potter",
         "Poudlard",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quand tu entres dans la Forêt Interdite, que fais-tu en premier ?",
-            "pic": "./testname/img/fr_img/m4b0c0o0l2.png",
+            "pic": "/testname/img/m4b0c0o0l2.png",
             "answers": [
                 {
                     "answer": "J’avance prudemment, scrutant les ombres",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Tu trouves une plume enchantée au sol. Que fais-tu ?",
-            "pic": "./testname/img/fr_img/c0d0y3c6d2.jpg",
+            "pic": "/testname/img/c0d0y3c6d2.jpg",
             "answers": [
                 {
                     "answer": "Je la prends et l’étudie",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "À quel cours tu t’investirais le plus à Poudlard ?",
-            "pic": "./testname/img/fr_img/a3w1o0i5n0.png",
+            "pic": "/testname/img/a3w1o0i5n0.png",
             "answers": [
                 {
                     "answer": "Métamorphose",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Dans une situation de conflit, tu es plutôt :",
-            "pic": "./testname/img/fr_img/i2h2a0h2f0.jpg",
+            "pic": "/testname/img/i2h2a0h2f0.jpg",
             "answers": [
                 {
                     "answer": "Le pacificateur qui cherche une solution douce",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quel animal magique représenterait le mieux ton esprit ?",
-            "pic": "./testname/img/fr_img/a0b2d0g0a7.jpg",
+            "pic": "/testname/img/a0b2d0g0a7.jpg",
             "answers": [
                 {
                     "answer": "Phénix",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Lors d’un bal à Poudlard, tu es sur la piste : tu préfères…",
-            "pic": "./testname/img/fr_img/e0i0n1a0f0.jpg",
+            "pic": "/testname/img/e0i0n1a0f0.jpg",
             "answers": [
                 {
                     "answer": "Une danse légère sous les étoiles",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "Quelle couleur de lumière magique te séduit le plus ?",
-            "pic": "./testname/img/fr_img/j6e0a1u0h1.jpg",
+            "pic": "/testname/img/j6e0a1u0h1.jpg",
             "answers": [
                 {
                     "answer": "Or chaud",
@@ -194,7 +194,7 @@ let quizData = {
         },
         {
             "question": "Une prophétie te désigne pour une mission importante. Que ressens-tu ?",
-            "pic": "./testname/img/fr_img/a2f6a1e2t7.jpg",
+            "pic": "/testname/img/a2f6a1e2t7.jpg",
             "answers": [
                 {
                     "answer": "Honneur et curiosité",
@@ -220,7 +220,7 @@ let quizData = {
         },
         {
             "question": "Quand tu entends “Prisonnier d’Azkaban”, ton premier mot est…",
-            "pic": "./testname/img/fr_img/e0a2c2i7b1.jpg",
+            "pic": "/testname/img/e0a2c2i7b1.jpg",
             "answers": [
                 {
                     "answer": "Secret",

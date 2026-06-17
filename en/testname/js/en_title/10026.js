@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Are My April Surprises?",
-    "mainPic": "./testname/img/en_img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
+    "mainPic": "/testname/img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
     "thems": [
         "April",
         "Surprise",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Your ideal weekend plan?",
-            "pic": "./testname/img/en_img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
+            "pic": "/testname/img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
             "answers": [
                 {
                     "answer": "Lazy Netflix",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Your texting vibe?",
-            "pic": "./testname/img/en_img/46835ed416df5d821f939248b678dafd.jpg",
+            "pic": "/testname/img/46835ed416df5d821f939248b678dafd.jpg",
             "answers": [
                 {
                     "answer": "One-word Queen",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "How do you show love?",
-            "pic": "./testname/img/en_img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
+            "pic": "/testname/img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
             "answers": [
                 {
                     "answer": "Gifts Always",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Your typical outfit?",
-            "pic": "./testname/img/en_img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
+            "pic": "/testname/img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
             "answers": [
                 {
                     "answer": "Street Style",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "How messy is your room?",
-            "pic": "./testname/img/en_img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
+            "pic": "/testname/img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
             "answers": [
                 {
                     "answer": "Total Zen",

@@ -21,7 +21,7 @@ the instructors trust —
 no excuses,
 no drama.
     `,
-    "mainPic": "./testname/img/no_img/102_c8c0ed17d33c41bc97d3be52295da665.jpeg"
+    "mainPic": "/testname/img/102_c8c0ed17d33c41bc97d3be52295da665.jpeg"
   },
   "2": {
     "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?",
@@ -45,7 +45,7 @@ and keep morale up —
 making you an essential part
 of any unit.
     `,
-    "mainPic": "./testname/img/no_img/103_7112a9fec0014fbf8b5f86614d688038.jpeg"
+    "mainPic": "/testname/img/103_7112a9fec0014fbf8b5f86614d688038.jpeg"
   },
   "3": {
     "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?",
@@ -67,7 +67,7 @@ you could surprise
 both yourself
 and everyone else.
     `,
-    "mainPic": "./testname/img/no_img/104_9d217bb18b074c4baa3b2c91561d44af.webp"
+    "mainPic": "/testname/img/104_9d217bb18b074c4baa3b2c91561d44af.webp"
   },
   "4": {
     "title": "Ville du klart de tøffe kravene i «Kompani Lauritzen»?",
@@ -91,6 +91,6 @@ to control them,
 you’d be a force
 to be reckoned with.
     `,
-    "mainPic": "./testname/img/no_img/105_159afb79ac0c4770be4b6b6742731487.webp"
+    "mainPic": "/testname/img/105_159afb79ac0c4770be4b6b6742731487.webp"
   }
 };

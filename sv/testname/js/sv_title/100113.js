@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Beräkna din kompatibilitet med din partner baserat på ditt födelsediagram!",
-    "mainPic": "./testname/img/sv_img/03791f91f1db6ee7cdf86eab64191b9a.gif",
+    "mainPic": "/testname/img/03791f91f1db6ee7cdf86eab64191b9a.gif",
     "thems": [
         "Horoskop",
         "Födelsediagram",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad är ditt födelsedatum?",
-            "pic": "./testname/img/sv_img/ea2c8532bf2c65081353ca2d189847c4.png",
+            "pic": "/testname/img/ea2c8532bf2c65081353ca2d189847c4.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Vilken månad på året är du född i?",
-            "pic": "./testname/img/sv_img/23d47d278fa9708853312cfd2a56223e.png",
+            "pic": "/testname/img/23d47d278fa9708853312cfd2a56223e.png",
             "answers": [
                 {
                     "answer": "Januari, Februari, Mars",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Vilken veckodag föddes du?",
-            "pic": "./testname/img/sv_img/681415f0c2d442c2fbfde7d70f749432.png",
+            "pic": "/testname/img/681415f0c2d442c2fbfde7d70f749432.png",
             "answers": [
                 {
                     "answer": "Måndag eller tisdag",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Vad var din exakta födelse tid?",
-            "pic": "./testname/img/sv_img/db8006cd0c5c8d8724953586e32b919a.png",
+            "pic": "/testname/img/db8006cd0c5c8d8724953586e32b919a.png",
             "answers": [
                 {
                     "answer": "Morgon",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Vad är ditt stjärntecken och element?",
-            "pic": "./testname/img/sv_img/bf80bdd4796df21055a7e705600ddf90.png",
+            "pic": "/testname/img/bf80bdd4796df21055a7e705600ddf90.png",
             "answers": [
                 {
                     "answer": "Luft (Tvillingarna, Vågen, Vattumannen)",

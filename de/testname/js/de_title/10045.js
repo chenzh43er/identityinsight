@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Hogwarts-Schüler bist du in der Liebe?",
-    "mainPic": "./testname/img/de_img/dA4hK0aA4vA0.jpg",
+    "mainPic": "/testname/img/dA4hK0aA4vA0.jpg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wenn du die Große Halle betrittst, was fällt dir zuerst auf?",
-            "pic": "./testname/img/de_img/jH3dR4mJ3eI0.png",
+            "pic": "/testname/img/jH3dR4mJ3eI0.png",
             "answers": [
                 {
                     "answer": "Die Dekoration und die schwebenden Kerzen",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Dein Traumdate in den Korridoren von Hogwarts:",
-            "pic": "./testname/img/de_img/gT2rK7cA1dC5.jpg",
+            "pic": "/testname/img/gT2rK7cA1dC5.jpg",
             "answers": [
                 {
                     "answer": "Ein Spaziergang unter den Sternen am See",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Welches magische Geschenk würdest du deinem Schwarm machen?",
-            "pic": "./testname/img/de_img/aH3hA0iJ3cL6.jpg",
+            "pic": "/testname/img/aH3hA0iJ3cL6.jpg",
             "answers": [
                 {
                     "answer": "Eine verzauberte Feder",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Dein Flirtstil wäre eher:",
-            "pic": "./testname/img/de_img/kZ1aK5iH1hG4.jpg",
+            "pic": "/testname/img/kZ1aK5iH1hG4.jpg",
             "answers": [
                 {
                     "answer": "Poetisch und romantisch",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Wenn du für deine Liebe einem Drachen gegenüberstehen müsstest, was würdest du tun?",
-            "pic": "./testname/img/de_img/vC1bC0qY0kI1.jpg",
+            "pic": "/testname/img/vC1bC0qY0kI1.jpg",
             "answers": [
                 {
                     "answer": "Versuchen, zu verhandeln",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Welcher Ort in Hogwarts wäre euer geheimer Liebestreffpunkt?",
-            "pic": "./testname/img/de_img/bI1pB0iE0cG0.png",
+            "pic": "/testname/img/bI1pB0iE0cG0.png",
             "answers": [
                 {
                     "answer": "Der Raum der Wünsche",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Welche magische Musik würdest du für einen romantischen Tanz wählen?",
-            "pic": "./testname/img/de_img/cI0aA0aK0cS3.jpg",
+            "pic": "/testname/img/cI0aA0aK0cS3.jpg",
             "answers": [
                 {
                     "answer": "Eine Melodie mit verzauberter Harfe",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "In einem Streit bist du eher:",
-            "pic": "./testname/img/de_img/aA0eD0dC0aR0.jpg",
+            "pic": "/testname/img/aA0eD0dC0aR0.jpg",
             "answers": [
                 {
                     "answer": "Ruhig und besänftigend",
@@ -222,7 +222,7 @@ let quizData = {
         },
         {
             "question": "Was würdest du deinem Partner sagen, um deine magischen Gefühle auszudrücken?",
-            "pic": "./testname/img/de_img/aM0dC1pK3lA4.png",
+            "pic": "/testname/img/aM0dC1pK3lA4.png",
             "answers": [
                 {
                     "answer": "„Du erhellst meine Welt.“",

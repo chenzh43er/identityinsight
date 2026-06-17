@@ -1,6 +1,6 @@
 let quizData = {
     "title": "كم ستستمر مرحلة الحديث لديك؟",
-    "mainPic": "./testname/img/ar_img/3ebcf5bad9787cb4e7d15e5df4dda1e3.gif",
+    "mainPic": "/testname/img/3ebcf5bad9787cb4e7d15e5df4dda1e3.gif",
     "thems": [
         "حب",
         "مرحلة الحديث",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "بماذا تتحدث عادة؟",
-            "pic": "./testname/img/ar_img/6df53afea30cfa56e30f74bc1b6dfc49.png",
+            "pic": "/testname/img/6df53afea30cfa56e30f74bc1b6dfc49.png",
             "answers": [
                 {
                     "answer": "خططنا معًا",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "هل التقيتما في موعد شخصي حتى الآن؟",
-            "pic": "./testname/img/ar_img/42350b7a25662ad844d50068f98d6cea.png",
+            "pic": "/testname/img/42350b7a25662ad844d50068f98d6cea.png",
             "answers": [
                 {
                     "answer": "نعم، عدة مرات",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "كم مرة تراسل هذا الشخص طوال اليوم؟",
-            "pic": "./testname/img/ar_img/49eda8b84fdd7dc00c4e468af0b893f6.png",
+            "pic": "/testname/img/49eda8b84fdd7dc00c4e468af0b893f6.png",
             "answers": [
                 {
                     "answer": "كل دقيقة من اليوم!",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "أي من مشاكل مرحلة التحدث هذه واجهتها أنت وهذا الشخص بشكل متكرر؟",
-            "pic": "./testname/img/ar_img/fa000b3ea8d25d80c4ea05c23f74d9c0.png",
+            "pic": "/testname/img/fa000b3ea8d25d80c4ea05c23f74d9c0.png",
             "answers": [
                 {
                     "answer": "لا تسأل عن اهتماماتي",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "كيف تعتقد أن هذا الشخص يشعر عندما يتحدث معك؟",
-            "pic": "./testname/img/ar_img/be1d3f61aadd3cec8630302e8fa70f5b.png",
+            "pic": "/testname/img/be1d3f61aadd3cec8630302e8fa70f5b.png",
             "answers": [
                 {
                     "answer": "مستمتع ومتفاعل",

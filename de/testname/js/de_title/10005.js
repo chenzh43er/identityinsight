@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Roblox-Avatar Passt zu Deinem Vibe?",
-    "mainPic": "./testname/img/de_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+    "mainPic": "/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
     "thems": [
         "Roblox",
         "Avatar",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist Ihre ideale Wochenendaktivität?",
-            "pic": "./testname/img/de_img/1485e83eabb791de38c2ff2983845481.png",
+            "pic": "/testname/img/1485e83eabb791de38c2ff2983845481.png",
             "answers": [
                 {
                     "answer": "Fitnessstudio besuchen",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie Ihre Lieblingsfarbe.",
-            "pic": "./testname/img/de_img/117bd17f44c1d3504fc11a3345a2c357.png",
+            "pic": "/testname/img/117bd17f44c1d3504fc11a3345a2c357.png",
             "answers": [
                 {
                     "answer": "Rot",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Wie beschreiben dich deine Freunde?",
-            "pic": "./testname/img/de_img/1bb231d392834e95ffb3146c5885dff0.png",
+            "pic": "/testname/img/1bb231d392834e95ffb3146c5885dff0.png",
             "answers": [
                 {
                     "answer": "Energisch",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Welchen Snack würdest du zuerst nehmen?",
-            "pic": "./testname/img/de_img/444dff04c7d21a44dce961e54b36ffc8.png",
+            "pic": "/testname/img/444dff04c7d21a44dce961e54b36ffc8.png",
             "answers": [
                 {
                     "answer": "Proteinriegel",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein Traumberuf?",
-            "pic": "./testname/img/de_img/b0d51dcce3166e108a6b5982b3e2c792.png",
+            "pic": "/testname/img/b0d51dcce3166e108a6b5982b3e2c792.png",
             "answers": [
                 {
                     "answer": "Athlet",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie ein Hobby.",
-            "pic": "./testname/img/de_img/c82372b96a77e8a3fa98f938ee81679f.png",
+            "pic": "/testname/img/c82372b96a77e8a3fa98f938ee81679f.png",
             "answers": [
                 {
                     "answer": "Sport treiben",
@@ -193,7 +193,7 @@ let quizData = {
         },
         {
             "question": "Sie finden einen 100-Dollar-Schein. Wofür geben Sie ihn aus?",
-            "pic": "./testname/img/de_img/7479bc818acfa775256e80a42f016fe7.png",
+            "pic": "/testname/img/7479bc818acfa775256e80a42f016fe7.png",
             "answers": [
                 {
                     "answer": "Trainingsausrüstung",

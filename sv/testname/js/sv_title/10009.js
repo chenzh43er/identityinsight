@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken Titan Är Du? Upptäck Din Titan Shifter Form Från Attack On Titan",
-    "mainPic": "./testname/img/sv_img/fce9653564bb39910495a489b892aac6.gif",
+    "mainPic": "/testname/img/fce9653564bb39910495a489b892aac6.gif",
     "thems": [
         "Anime",
         "Attack On Titan",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vilken av dessa icke-titan karaktärer liknar dina ideal och din personlighet?",
-            "pic": "./testname/img/sv_img/e7e9ae3468a5a7a251642772d8273fe7.png",
+            "pic": "/testname/img/e7e9ae3468a5a7a251642772d8273fe7.png",
             "answers": [
                 {
                     "answer": "Mikasa Ackerman",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Vilken plats från Attack on Titan-världen skulle du föredra att bo i?",
-            "pic": "./testname/img/sv_img/1e42956a2bf19fa9f7589f9f3db69a30.png",
+            "pic": "/testname/img/1e42956a2bf19fa9f7589f9f3db69a30.png",
             "answers": [
                 {
                     "answer": "Marley",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Vilket team skulle du alliera dig med?",
-            "pic": "./testname/img/sv_img/8780dcb3d445c7f0a9d2c3c687eb7ab6.png",
+            "pic": "/testname/img/8780dcb3d445c7f0a9d2c3c687eb7ab6.png",
             "answers": [
                 {
                     "answer": "Militärpolis",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle du göra om världen gick under?",
-            "pic": "./testname/img/sv_img/0d6c592ec8f85c6e4f2eeec68c73dadf.png",
+            "pic": "/testname/img/0d6c592ec8f85c6e4f2eeec68c73dadf.png",
             "answers": [
                 {
                     "answer": "Kämpa oavsett vad",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Vad tycker du om krig?",
-            "pic": "./testname/img/sv_img/cbb9ef99f1e6a02672a98ea03d605826.png",
+            "pic": "/testname/img/cbb9ef99f1e6a02672a98ea03d605826.png",
             "answers": [
                 {
                     "answer": "De är alltid nödvändiga",

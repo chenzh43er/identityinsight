@@ -22,7 +22,7 @@ Je inspireert anderen
 door simpelweg
 jezelf te zijn.
     `,
-    "mainPic": "./testname/img/nl_img/46_69c8908bdb3b42ecbd28f10ecf50a075.jpeg"
+    "mainPic": "/testname/img/46_69c8908bdb3b42ecbd28f10ecf50a075.jpeg"
   },
   "2": {
     "title": "In welke afdeling van Zweinstein hoor jij echt thuis?",
@@ -46,7 +46,7 @@ Je kracht zit in inzicht,
 logica
 en creativiteit.
     `,
-    "mainPic": "./testname/img/nl_img/47_0c2db5ac3e7f452a8e6df039cc623bcb.png"
+    "mainPic": "/testname/img/47_0c2db5ac3e7f452a8e6df039cc623bcb.png"
   },
   "3": {
     "title": "In welke afdeling van Zweinstein hoor jij echt thuis?",
@@ -71,7 +71,7 @@ blind op je vertrouwen —
 en dat maakt jou
 onmisbaar.
     `,
-    "mainPic": "./testname/img/nl_img/48_4d0238328fe64d40994debed26e170ed.jpeg"
+    "mainPic": "/testname/img/48_4d0238328fe64d40994debed26e170ed.jpeg"
   },
   "4": {
     "title": "In welke afdeling van Zweinstein hoor jij echt thuis?",
@@ -96,6 +96,6 @@ komt voort uit focus,
 doorzettingsvermogen
 en controle.
     `,
-    "mainPic": "./testname/img/nl_img/49_66052fc86c934283b6adec2460571a8c.jpeg"
+    "mainPic": "/testname/img/49_66052fc86c934283b6adec2460571a8c.jpeg"
   }
 };

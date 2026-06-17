@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilket Hogwarts-hus är bäst för dig?",
-    "mainPic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+    "mainPic": "/testname/img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
     "thems": ["Harry Potter", "Hogwarts", "Hogwarts hus", "Personlighet", "Filmer", "Magi"],
     "questions": [
         {

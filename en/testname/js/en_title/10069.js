@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Patronus will protect your year 2026?",
-    "mainPic": "./testname/img/de_img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
+    "mainPic": "/testname/img/27_77b567917cd24918969e4aac8d55c5c4.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Your happiest memory is about...",
-            "pic": "./testname/img/de_img/28_83adb597aa714365bdbb6d3072a17176.jpeg",
+            "pic": "/testname/img/28_83adb597aa714365bdbb6d3072a17176.jpeg",
             "answers": [
                 {
                     "answer": "A moment of triumphant success.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "What is the weather of your soul as we enter 2026?",
-            "pic": "./testname/img/de_img/29_680843f3bf3240d1a24d1822d8b70bfd.jpeg",
+            "pic": "/testname/img/29_680843f3bf3240d1a24d1822d8b70bfd.jpeg",
             "answers": [
                 {
                     "answer": "An electrical storm full of energy.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "For you, protection means above all...",
-            "pic": "./testname/img/de_img/30_28523490108443e4ba7dc46266991a70.jpeg",
+            "pic": "/testname/img/30_28523490108443e4ba7dc46266991a70.jpeg",
             "answers": [
                 {
                     "answer": "The courage to fight.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Choose a gemstone for your amulet.",
-            "pic": "./testname/img/de_img/31_d6ffe8f209844b9691a6760c14a184fb.jpeg",
+            "pic": "/testname/img/31_d6ffe8f209844b9691a6760c14a184fb.jpeg",
             "answers": [
                 {
                     "answer": "The shining ruby.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "How do you feel in the Forbidden Forest?",
-            "pic": "./testname/img/de_img/32_bc6cf934600e454ab9ac27693e30d275.jpeg",
+            "pic": "/testname/img/32_bc6cf934600e454ab9ac27693e30d275.jpeg",
             "answers": [
                 {
                     "answer": "Ready to face any danger.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Which of your senses is sharpest?",
-            "pic": "./testname/img/de_img/33_7743ae7853244485a019e1034cff5dea.jpeg",
+            "pic": "/testname/img/33_7743ae7853244485a019e1034cff5dea.jpeg",
             "answers": [
                 {
                     "answer": "My survival instinct.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "What are you most afraid of in 2026?",
-            "pic": "./testname/img/de_img/34_76e915166e254f3e81da4ad6d9586237.jpeg",
+            "pic": "/testname/img/34_76e915166e254f3e81da4ad6d9586237.jpeg",
             "answers": [
                 {
                     "answer": "Before standstill or failure.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "What message do you want to give to the world?",
-            "pic": "./testname/img/de_img/35_f689a2901aa74a35b75a01ac4058e440.jpeg",
+            "pic": "/testname/img/35_f689a2901aa74a35b75a01ac4058e440.jpeg",
             "answers": [
                 {
                     "answer": "Strength and honor.",

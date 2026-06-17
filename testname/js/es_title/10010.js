@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué personaje de NANA eres?",
-    "mainPic": "./testname/img/es_img/68539001e80fd90661f6649e204a9469.gif",
+    "mainPic": "/testname/img/68539001e80fd90661f6649e204a9469.gif",
     "thems": [
         "NANA",
         "Anime",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Qué estilo predomina en tus atuendos?",
-            "pic": "./testname/img/es_img/7adbd2eebbfdfed84469e63d1384e824.png",
+            "pic": "/testname/img/7adbd2eebbfdfed84469e63d1384e824.png",
             "answers": [
                 {
                     "answer": "Gótico",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo sueles reaccionar cuando un amigo tuyo está en problemas?",
-            "pic": "./testname/img/es_img/2c8536c558d1bcab11f7a92125d59adf.png",
+            "pic": "/testname/img/2c8536c558d1bcab11f7a92125d59adf.png",
             "answers": [
                 {
                     "answer": "Escucho y ofrezco apoyo",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "¿Cuándo prefieres escuchar música?",
-            "pic": "./testname/img/es_img/35bf075171ece4830dff9367c2cb406a.png",
+            "pic": "/testname/img/35bf075171ece4830dff9367c2cb406a.png",
             "answers": [
                 {
                     "answer": "Cuando estoy solo",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "¿En qué tipo de música estás principalmente interesado?",
-            "pic": "./testname/img/es_img/3113f0dc6eb8fc99357ac188a43cdb26.png",
+            "pic": "/testname/img/3113f0dc6eb8fc99357ac188a43cdb26.png",
             "answers": [
                 {
                     "answer": "Música enérgica y dinámica",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es tu canción favorita del anime NANA?",
-            "pic": "./testname/img/es_img/2be478e2a0417a8252fc9a0416ef2009.png",
+            "pic": "/testname/img/2be478e2a0417a8252fc9a0416ef2009.png",
             "answers": [
                 {
                     "answer": "Opening 1: \"Rose\"",

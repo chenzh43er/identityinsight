@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Make decisions based on your zodiac sign and find out your soulmate's name!",
-    "mainPic": "./testname/img/de_img/13bc72828b062229dd2750e3bafb47c4.gif",
+    "mainPic": "/testname/img/13bc72828b062229dd2750e3bafb47c4.gif",
     "thems": [
         "horoscope",
         "Zodiac sign",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "What is your zodiac sign?",
-            "pic": "./testname/img/de_img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
+            "pic": "/testname/img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
             "answers": [
                 {
                     "answer": "Gemini, Libra, Aquarius",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Which element does your zodiac sign belong to?",
-            "pic": "./testname/img/de_img/b8b8afb12370def491f994c2a7ad93c4.png",
+            "pic": "/testname/img/b8b8afb12370def491f994c2a7ad93c4.png",
             "answers": [
                 {
                     "answer": "Air",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Which of these planets has more influence on your zodiac sign?",
-            "pic": "./testname/img/de_img/ed65d96819faccd9362fb0cfaca1f1d4.png",
+            "pic": "/testname/img/ed65d96819faccd9362fb0cfaca1f1d4.png",
             "answers": [
                 {
                     "answer": "moon or sun",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "What is your ascendant?",
-            "pic": "./testname/img/de_img/435de43e8404ec350d0ffe5fa41839b8.png",
+            "pic": "/testname/img/435de43e8404ec350d0ffe5fa41839b8.png",
             "answers": [
                 {
                     "answer": "Gemini, Libra, Aquarius",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "How much do you believe in your zodiac sign?",
-            "pic": "./testname/img/de_img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
+            "pic": "/testname/img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
             "answers": [
                 {
                     "answer": "Completely, it defines me",

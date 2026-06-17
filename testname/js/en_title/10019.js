@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Protection Symbols Do You Relate To Most?",
-    "mainPic": "./testname/img/en_img/07e41d20159406ff2364a92b9125b1e9.jpeg",
+    "mainPic": "/testname/img/07e41d20159406ff2364a92b9125b1e9.jpeg",
     "thems": [
         "Ancient Symbols",
         "Symbols",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "What do you value most in life?",
-            "pic": "./testname/img/en_img/bc12733e315a2d9bc15c6ba08ad917c9.png",
+            "pic": "/testname/img/bc12733e315a2d9bc15c6ba08ad917c9.png",
             "answers": [
                 {
                     "answer": "Strength",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "What type of protection do you feel you need most?",
-            "pic": "./testname/img/en_img/8195832922cf4a42aa4ffaf363fae4ae.png",
+            "pic": "/testname/img/8195832922cf4a42aa4ffaf363fae4ae.png",
             "answers": [
                 {
                     "answer": "Physical",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Which place fascinates you the most?",
-            "pic": "./testname/img/en_img/59a50a444c548a3560a44e9934ff7d55.png",
+            "pic": "/testname/img/59a50a444c548a3560a44e9934ff7d55.png",
             "answers": [
                 {
                     "answer": "Rome",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "If you could carry a protective charm, what would it be?",
-            "pic": "./testname/img/en_img/6be559288fc5661108568de1a3172fa4.png",
+            "pic": "/testname/img/6be559288fc5661108568de1a3172fa4.png",
             "answers": [
                 {
                     "answer": "A shield pendant",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "What is your ideal way to protect yourself from bad energy?",
-            "pic": "./testname/img/en_img/9352b0f2758303d16f0762d054296b2e.png",
+            "pic": "/testname/img/9352b0f2758303d16f0762d054296b2e.png",
             "answers": [
                 {
                     "answer": "Standing your ground",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "What are you most scared of losing?",
-            "pic": "./testname/img/en_img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
+            "pic": "/testname/img/fd7cd3c1a3384cad5f8ee5153fa5ef13.png",
             "answers": [
                 {
                     "answer": "My family",

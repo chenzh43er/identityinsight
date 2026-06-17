@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Jedi or Sith: Which Side of the Force Are You On?",
-    "mainPic": "./testname/img/en_img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
+    "mainPic": "/testname/img/91_79559ffe07b24c4fbb50f2740f376028.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "When you face a serious conflict, you usually…",
-    "pic": "./testname/img/en_img/92_e76065f301094dc896d1e083257a6efc.jpeg",
+    "pic": "/testname/img/92_e76065f301094dc896d1e083257a6efc.jpeg",
     "answers": [
       { "answer": "Try to stay calm and look for a peaceful solution.", "aPic": "", "aId": 1 },
       { "answer": "Trust your instincts and act fast.", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "How do you feel about power?",
-    "pic": "./testname/img/en_img/93_f4932f69a4cc42e89050daaa1f6315f4.png",
+    "pic": "/testname/img/93_f4932f69a4cc42e89050daaa1f6315f4.png",
     "answers": [
       { "answer": "Power should protect others.", "aPic": "", "aId": 1 },
       { "answer": "Power is a responsibility.", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "What motivates you the most?",
-    "pic": "./testname/img/en_img/94_ca24221260ac47cea202de46db62294b.jpeg",
+    "pic": "/testname/img/94_ca24221260ac47cea202de46db62294b.jpeg",
     "answers": [
       { "answer": "Balance", "aPic": "", "aId": 1 },
       { "answer": "Loyalty", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "If someone betrays you…",
-    "pic": "./testname/img/en_img/95_8607f7dfa97a4977997aa875ce4d6507.webp",
+    "pic": "/testname/img/95_8607f7dfa97a4977997aa875ce4d6507.webp",
     "answers": [
       { "answer": "You seek understanding before judgment.", "aPic": "", "aId": 1 },
       { "answer": "You keep your distance.", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Your ideal environment is…",
-    "pic": "./testname/img/en_img/96_2a984b24d5e14d3bb21e6aaa7170e006.jpeg",
+    "pic": "/testname/img/96_2a984b24d5e14d3bb21e6aaa7170e006.jpeg",
     "answers": [
       { "answer": "A quiet temple.", "aPic": "", "aId": 1 },
       { "answer": "A remote planet.", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Which weapon feels right to you?",
-    "pic": "./testname/img/en_img/97_913807e80b024a53b7c3546cd41d9a51.jpeg",
+    "pic": "/testname/img/97_913807e80b024a53b7c3546cd41d9a51.jpeg",
     "answers": [
       { "answer": "A blue lightsaber.", "aPic": "", "aId": 1 },
       { "answer": "A green lightsaber.", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "What scares you the most?",
-    "pic": "./testname/img/en_img/98_70af99789eb249d99327c9f8ce245c45.jpeg",
+    "pic": "/testname/img/98_70af99789eb249d99327c9f8ce245c45.jpeg",
     "answers": [
       { "answer": "Losing inner peace.", "aPic": "", "aId": 1 },
       { "answer": "Failing others.", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Which line fits you best?",
-    "pic": "./testname/img/en_img/99_9a5b47e8583a4965abfbfb818d7967af.jpeg",
+    "pic": "/testname/img/99_9a5b47e8583a4965abfbfb818d7967af.jpeg",
     "answers": [
       { "answer": "“Balance is everything.”", "aPic": "", "aId": 1 },
       { "answer": "“I follow my own path.”", "aPic": "", "aId": 2 },

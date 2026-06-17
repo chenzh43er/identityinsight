@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vad är ditt namn som jul-emoji?",
-    "mainPic": "./testname/img/sv_img/5f54c23b13c557e2bb81a6a8bcdfd4bb.jpeg",
+    "mainPic": "/testname/img/5f54c23b13c557e2bb81a6a8bcdfd4bb.jpeg",
     "thems": [
         "Jul",
         "Emoji",

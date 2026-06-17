@@ -6,7 +6,7 @@ const results = {
 Deine Stärke liegt in deinem Herzen – Mut ist deine wahre Magie.
 
 `,
-        "mainPic": "./testname/img/de_img/10_338f1239-9e83-48e3-8a2c-4e62bca394ae.jpeg"
+        "mainPic": "/testname/img/10_338f1239-9e83-48e3-8a2c-4e62bca394ae.jpeg"
     },
     2: {
         "title": "Wie gut würdest du dich in Hogwarts schlagen?",
@@ -15,7 +15,7 @@ Deine Stärke liegt in deinem Herzen – Mut ist deine wahre Magie.
 Du würdest jedes Rätsel in Hogwarts knacken – selbst die uralten.
 
 `,
-        "mainPic": "./testname/img/de_img/11_6f7da8f5-88a9-48b6-87c2-50283b9f4eaa.png"
+        "mainPic": "/testname/img/11_6f7da8f5-88a9-48b6-87c2-50283b9f4eaa.png"
     },
     3: {
         "title": "Wie gut würdest du dich in Hogwarts schlagen?",
@@ -24,7 +24,7 @@ Du würdest jedes Rätsel in Hogwarts knacken – selbst die uralten.
 Deine Energie steckt an – du machst Hogwarts lebendig
 
 `,
-        "mainPic": "./testname/img/de_img/12_420b6d6f-c734-4a20-8c42-17c797b198cc.jpeg"
+        "mainPic": "/testname/img/12_420b6d6f-c734-4a20-8c42-17c797b198cc.jpeg"
     },
     4: {
         "title": "Wie gut würdest du dich in Hogwarts schlagen?",
@@ -33,6 +33,6 @@ Deine Energie steckt an – du machst Hogwarts lebendig
 Man sollte dich nie unterschätzen – du weißt immer, was du tust.
 
 `,
-        "mainPic": "./testname/img/de_img/13_73d7e6a3-c4a3-4808-9cdf-5ab497900859.jpeg"
+        "mainPic": "/testname/img/13_73d7e6a3-c4a3-4808-9cdf-5ab497900859.jpeg"
     },
 };

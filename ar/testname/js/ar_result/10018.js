@@ -3,24 +3,24 @@ const results = {
         "title": "ما هو الحرف الأول من اسم حبك؟",
         "resultTitle": "الحرف الأول S",
         "description": "اسم الشخص المعجب به يبدأ بحرف S! ربما يكون شخصًا ذو طاقة فريدة، شديد الجاذبية، ودائمًا ممتع للتواجد حوله. إنه/إنها بالتأكيد يجذب انتباه الجميع! 🌟",
-        "mainPic": "./testname/img/ar_img/b01193840550b485f3098117b6989398.jpg"
+        "mainPic": "/testname/img/b01193840550b485f3098117b6989398.jpg"
     },
     "2": {
         "title": "ما هو الحرف الأول من اسم حبك؟",
         "resultTitle": "الحرف البدائي N",
         "description": "N! محط إعجابك لديه طابع غامض ولكنه جذاب. لديه/لديها دائمًا شيء ممتع ليقوله ويعرف كيف يجعلك تبتسم. 😊",
-        "mainPic": "./testname/img/ar_img/bcd716714cce9d2a1a69ae6b318fed21.jpg"
+        "mainPic": "/testname/img/bcd716714cce9d2a1a69ae6b318fed21.jpg"
     },
     "3": {
         "title": "ما هو الحرف الأول من اسم حبك؟",
         "resultTitle": "البداية م",
         "description": "م؟ يا لحظك! الشخص الذي يعجبك والذي يبدأ اسمه بحرف م هو مبدع، موثوق، ويملأ بالأفكار الرائعة. هو/هي بالتأكيد يجعلك تشعر بأنك مميز بشخصيته/بشخصيتها. 💫",
-        "mainPic": "./testname/img/ar_img/49f1dcd60db9bf3a087b293f410bb88e.jpg"
+        "mainPic": "/testname/img/49f1dcd60db9bf3a087b293f410bb88e.jpg"
     },
     "4": {
         "title": "ما هو الحرف الأول من اسم حبك؟",
         "resultTitle": "الحرف الأول ج",
         "description": "الشخص المعجب به والاسم يبدأ بالحرف ج هو روح الحفلة، دائمًا اجتماعي ولديه ضحكة معدية. لديها/لديه روح الجميع لا يمكن تجاهلها! 🎉",
-        "mainPic": "./testname/img/ar_img/cbe2210d76047e3ae6ab91ea061410ac.jpg"
+        "mainPic": "/testname/img/cbe2210d76047e3ae6ab91ea061410ac.jpg"
     }
 };

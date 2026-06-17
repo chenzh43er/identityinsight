@@ -12,7 +12,7 @@ you show up.
 People trust you because you stay genuine —
 even in awkward moments.
     `,
-    "mainPic": "./testname/img/en_img/48_89949b62b1b540aebadd634bb6929842.jpeg"
+    "mainPic": "/testname/img/48_89949b62b1b540aebadd634bb6929842.jpeg"
   },
   "2": {
     "title": "Who Is Your \"The Office\" Soulmate?",
@@ -30,7 +30,7 @@ you give it everything.
 You’re the kind of person
 people depend on when things get real.
     `,
-    "mainPic": "./testname/img/en_img/49_11164fce2f3549ec8e35b7cd228668d0.jpeg"
+    "mainPic": "/testname/img/49_11164fce2f3549ec8e35b7cd228668d0.jpeg"
   },
   "3": {
     "title": "Who Is Your \"The Office\" Soulmate?",
@@ -48,7 +48,7 @@ Your strength isn’t loud —
 it’s steady,
 and it leaves a lasting impression.
     `,
-    "mainPic": "./testname/img/en_img/50_b22dba25ccb146a8a7ff52107d3bc855.jpeg"
+    "mainPic": "/testname/img/50_b22dba25ccb146a8a7ff52107d3bc855.jpeg"
   },
   "4": {
     "title": "Who Is Your \"The Office\" Soulmate?",
@@ -66,6 +66,6 @@ People may roll their eyes —
 but they know you care,
 and that’s what counts.
     `,
-    "mainPic": "./testname/img/en_img/51_59997233fb0047cc89b10fceecf14e3b.jpeg"
+    "mainPic": "/testname/img/51_59997233fb0047cc89b10fceecf14e3b.jpeg"
   }
 };

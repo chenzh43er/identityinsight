@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたはどのジブリキャラクターですか？",
-    "mainPic": "./testname/img/jp_img/7242dd62fbbbf28d368c853fd94e00e0.jpeg",
+    "mainPic": "/testname/img/7242dd62fbbbf28d368c853fd94e00e0.jpeg",
     "thems": [
         "ジブリ",
         "キャラクター",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "どんな冒険に出る可能性がありますか？",
-            "pic": "./testname/img/jp_img/fda5fe3857af380ba26e8c7d13620b53.jpg",
+            "pic": "/testname/img/fda5fe3857af380ba26e8c7d13620b53.jpg",
             "answers": [
                 {
                     "answer": "隠れた魔法の世界を旅する不思議な旅",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "自分の定番の衣装は何ですか？",
-            "pic": "./testname/img/jp_img/b40bd261878de29698812dad3f1ce6e6.jpg",
+            "pic": "/testname/img/b40bd261878de29698812dad3f1ce6e6.jpg",
             "answers": [
                 {
                     "answer": "ユニークで表現力があり、少し魔法のタッチを加えたもの。",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "お気に入りの一日の過ごし方は何ですか？",
-            "pic": "./testname/img/jp_img/b95a67d954481b449fc7f0713bf63f94.jpeg",
+            "pic": "/testname/img/b95a67d954481b449fc7f0713bf63f94.jpeg",
             "answers": [
                 {
                     "answer": "神秘的な場所を探検し、幻想的な存在と出会う。",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "あなたの最大の長所は何ですか？",
-            "pic": "./testname/img/jp_img/db5a1a5b2e9a7b9e4f0376938eb20136.jpg",
+            "pic": "/testname/img/db5a1a5b2e9a7b9e4f0376938eb20136.jpg",
             "answers": [
                 {
                     "answer": "あなたの無限の好奇心と想像力。",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "どんな種類の動物を伴侶として望みますか？",
-            "pic": "./testname/img/jp_img/4addc3f32423fd6b115c0f751bf93024.jpg",
+            "pic": "/testname/img/4addc3f32423fd6b115c0f751bf93024.jpg",
             "answers": [
                 {
                     "answer": "特別な力を持つ魔法の生き物。",
@@ -140,7 +140,7 @@ let quizData = {
         },
         {
             "question": "不思議なポータルを見つけたらどうしますか？",
-            "pic": "./testname/img/jp_img/039c829b3ef7e296adf4332cd0dd887e.jpg",
+            "pic": "/testname/img/039c829b3ef7e296adf4332cd0dd887e.jpg",
             "answers": [
                 {
                     "answer": "ためらわずにすぐ飛び込む！",
@@ -166,7 +166,7 @@ let quizData = {
         },
         {
             "question": "あなたの性格を最もよく表す言葉を選ぶ",
-            "pic": "./testname/img/jp_img/e46f7f497caac400289db3548be0bf89.jpg",
+            "pic": "/testname/img/e46f7f497caac400289db3548be0bf89.jpg",
             "answers": [
                 {
                     "answer": "夢見がちな",

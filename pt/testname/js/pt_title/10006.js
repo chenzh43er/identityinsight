@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual princesa da Disney é você? ",
-    "mainPic": "./testname/img/pt_img/735a575acde713df117f43d8defde53b.gif",
+    "mainPic": "/testname/img/735a575acde713df117f43d8defde53b.gif",
     "thems": [
         "Personagem da Disney",
         "Personagens da Disney",
@@ -10,7 +10,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "Escolha uma Camiseta",
-        "pic": "./testname/img/pt_img/6bca1a790a8a0aa366e5faab186b4e2f.webp",
+        "pic": "/testname/img/6bca1a790a8a0aa366e5faab186b4e2f.webp",
         "answers": [
             {
                 "answer":"Camiseta Elegante",
@@ -40,7 +40,7 @@ let quizData = {
         ]
     },{
         "question": "Escolha as calças",
-        "pic": "./testname/img/pt_img/f526d675003a125c5af8d2f27ef9b6ee.webp",
+        "pic": "/testname/img/f526d675003a125c5af8d2f27ef9b6ee.webp",
         "answers": [
             {
                 "answer":"Jeans rasgados",
@@ -70,7 +70,7 @@ let quizData = {
         ]
     },{
         "question": "Escolha um vestido",
-        "pic": "./testname/img/pt_img/a57394904d33a6f422f5a5a344cee027.webp",
+        "pic": "/testname/img/a57394904d33a6f422f5a5a344cee027.webp",
         "answers": [
             {
                 "answer":"Vestido casual",
@@ -100,7 +100,7 @@ let quizData = {
         ]
     },{
         "question": "Escolha um par de sapatos",
-        "pic": "./testname/img/pt_img/dcc17f9f28e41df25fe34875b13b98d6.webp",
+        "pic": "/testname/img/dcc17f9f28e41df25fe34875b13b98d6.webp",
         "answers": [
             {
                 "answer":"Converse",
@@ -130,7 +130,7 @@ let quizData = {
         ]
     },{
         "question": "Escolha um acessório de cabelo",
-        "pic": "./testname/img/pt_img/ca7e60814d1a2c54f2214adad0b08372.webp",
+        "pic": "/testname/img/ca7e60814d1a2c54f2214adad0b08372.webp",
         "answers": [
             {
                 "answer":"Bandana",
@@ -160,7 +160,7 @@ let quizData = {
         ]
     },{
         "question": "Escolha um acessório",
-        "pic": "./testname/img/pt_img/5721ada95f53e577cd08cba386d4b6a3.webp",
+        "pic": "/testname/img/5721ada95f53e577cd08cba386d4b6a3.webp",
         "answers": [
             {
                 "answer":"Colar",

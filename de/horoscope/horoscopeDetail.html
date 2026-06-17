@@ -4,9 +4,15 @@
   <base href="/sv/horoscope/">
   <script>
     function getLangFromPath() {
-      const pathSegments = window.location.pathname.split('/');
-      return pathSegments[1]; // 假设语言代码总是在第一个路径段
+    const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    for (const segment of pathSegments) {
+        if (LANG_CODES.includes(segment)) {
+            return segment;
+        }
     }
+    return pathSegments[1] || pathSegments[0] || 'sv';
+}
 
     if(getLangFromPath() == "de"){
       const base = document.querySelector('base');
@@ -506,7 +512,7 @@
               <meta charset="UTF-8">
               <title>Title</title>
               <a href="" id="picForUrlJump">
-                <img src="../testname//img/title.png">
+                <img src="/testname/img/title.png">
               </a>
 
             </div>
@@ -685,12 +691,12 @@
         <div class="new-quizzes" id="this_mt_right">
           <h3 class="new-quizzes-title">
             <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                 src="../testname/img/title_ornament_left.png?w=800&amp;ssl=1"
+                 src="/testname/img/title_ornament_left.png?w=800&amp;ssl=1"
                  alt="">
             <span style="text-align: center; font-size: 18px; font-weight: bold;"
                   id="titleForRecMT">Les plus testés</span>
             <img data-recalc-dims="1" decoding="async" class="title_ornament_right"
-                 src="../testname/img/title_ornament_right.png?w=800&amp;ssl=1"
+                 src="/testname/img/title_ornament_right.png?w=800&amp;ssl=1"
                  alt="">
           </h3>
           <div class="new-quizzes--item-wrap tested">
@@ -886,7 +892,7 @@
   dataDate = dataDate + scriptSrc
 
 
-  document.getElementById('pageLeftImg').innerHTML = `<img src="./img/loading.gif" style="margin-left: 30px!important;">`
+  document.getElementById('pageLeftImg').innerHTML = `<img src="/horoscope/img/loading.gif" style="margin-left: 30px!important;">`
 
   setTimeout(function () {
     loadScript(dataDate, function () {
@@ -1014,7 +1020,7 @@
       cat = capitalize(cat)
 
       document.getElementById("horoPageTitle").innerHTML = `
-  <img class="sign-pic-img" src="${result.image_src.replace("https://www.astrologiez.com/public/static/images/horoscope/","./img/")}" alt="aries">
+  <img class="sign-pic-img" src="${result.image_src.replace("https://www.astrologiez.com/public/static/images/horoscope/","/horoscope/img/")}" alt="aries">
           <div class="horopage-info">
             <h1 class="horopage-tl">${result.section_title}</h1>
           </div>
@@ -1482,9 +1488,15 @@
   }
 
   function getLangFromPath() {
-    const pathSegments = window.location.pathname.split('/');
-    return pathSegments[1]; // 假设语言代码总是在第一个路径段
-  }
+    const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    for (const segment of pathSegments) {
+        if (LANG_CODES.includes(segment)) {
+            return segment;
+        }
+    }
+    return pathSegments[1] || pathSegments[0] || 'sv';
+}
 
   function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);

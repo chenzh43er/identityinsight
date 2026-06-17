@@ -1,6 +1,6 @@
 const quizData = {
     "title": "Je suis un chat VR : Trouvez la vraie personnalité de votre chat avec ce quiz. ",
-    "mainPic": "./testname/img/fr_img/d2c033f7aefc629af9c027adb29f4535.gif",
+    "mainPic": "/testname/img/d2c033f7aefc629af9c027adb29f4535.gif",
     "thems": [
         "Chat",
         "Personnalité",
@@ -14,7 +14,7 @@ const quizData = {
     ],
     "questions": [{
         "question": "Que feriez-vous si vous voyiez un aspirateur ? ",
-        "pic": "./testname/img/fr_img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
+        "pic": "/testname/img/34e8ae2e8aa6a151e28fc9a2ddf8928e.jpg",
         "answers": [
             {
                 "answer":"Courir et se cacher",
@@ -36,7 +36,7 @@ const quizData = {
         ]
     },{
         "question": "Comment réagissez-vous aux nouvelles personnes?",
-        "pic": "./testname/img/fr_img/426ef9d186b10e405ea56f1d234a3f95.jpg",
+        "pic": "/testname/img/426ef9d186b10e405ea56f1d234a3f95.jpg",
         "answers": [
             {
                 "answer":" Les ignorer",
@@ -58,7 +58,7 @@ const quizData = {
         ]
     },{
         "question": "Quel est votre endroit préféré pour dormir? ",
-        "pic": "./testname/img/fr_img/c864892eb8634d63559a214bea9be1dd.jpg",
+        "pic": "/testname/img/c864892eb8634d63559a214bea9be1dd.jpg",
         "answers": [
             {
                 "answer":" Au soleil",
@@ -80,7 +80,7 @@ const quizData = {
         ]
     },{
         "question": "Que feriez-vous si quelqu'un touchait votre ventre? ",
-        "pic": "./testname/img/fr_img/7f5440330de62cce9cd7848d7a75ec14.jpg",
+        "pic": "/testname/img/7f5440330de62cce9cd7848d7a75ec14.jpg",
         "answers": [
             {
                 "answer":"Mordre instantanément",
@@ -102,7 +102,7 @@ const quizData = {
         ]
     },{
         "question": "Comment gérez-vous le fait d'être nourri en retard?",
-        "pic": "./testname/img/fr_img/62695ca489dda1dd4afc99eef23dc395.jpg",
+        "pic": "/testname/img/62695ca489dda1dd4afc99eef23dc395.jpg",
         "answers": [
             {
                 "answer":"Hurler bruyamment",
@@ -124,7 +124,7 @@ const quizData = {
         ]
     },{
         "question": "Quel est ton jouet préféré ? ",
-        "pic": "./testname/img/fr_img/98137defcdebf18f0b048058ff72a8c6.jpg",
+        "pic": "/testname/img/98137defcdebf18f0b048058ff72a8c6.jpg",
         "answers": [
             {
                 "answer":"Pointeur laser",

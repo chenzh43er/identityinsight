@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Cuál es la primera impresión de tu amante sobre ti frente a la impresión actual?",
-    "mainPic": "./testname/img/es_img/3587ec0926c5d2c63bf37e582e73a32d.gif",
+    "mainPic": "/testname/img/3587ec0926c5d2c63bf37e582e73a32d.gif",
     "thems": [
         "Amante",
         "Impresión",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cuál es tu actividad favorita ahora cuando están juntos?",
-            "pic": "./testname/img/es_img/9c7f0c72261f2e684d72fa513ebf50a1.jpg",
+            "pic": "/testname/img/9c7f0c72261f2e684d72fa513ebf50a1.jpg",
             "answers": [
                 {
                     "answer": "Ver películas",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo sueles pasar tus fines de semana ahora?",
-            "pic": "./testname/img/es_img/46ea326939736b9f396a18450ecab6dc.jpg",
+            "pic": "/testname/img/46ea326939736b9f396a18450ecab6dc.jpg",
             "answers": [
                 {
                     "answer": "Salir",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo te vestiste en tu primera cita?",
-            "pic": "./testname/img/es_img/7ce2c4a257998f11de57122cf5f1cd07.jpg",
+            "pic": "/testname/img/7ce2c4a257998f11de57122cf5f1cd07.jpg",
             "answers": [
                 {
                     "answer": "Casual",

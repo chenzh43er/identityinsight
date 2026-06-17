@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wanneer krijg je je eerste relatie?",
-    "mainPic": "./testname/img/nl_img/8ee495f284bc5d68b64825c51774a890.gif",
+    "mainPic": "/testname/img/8ee495f284bc5d68b64825c51774a890.gif",
     "thems": [
         "Liefde",
         "Eerste liefde",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welke eigenschap zoekt u het meest in een partner?",
-            "pic": "./testname/img/nl_img/2c518287dd287329cc985f9eae46474f.png",
+            "pic": "/testname/img/2c518287dd287329cc985f9eae46474f.png",
             "answers": [
                 {
                     "answer": "Spontaniteit",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hoeveel tijd besteed je aan socialiseren op school, werk of andere sociale plekken?",
-            "pic": "./testname/img/nl_img/80f4684e24cfa306c5c230bd1b7968da.png",
+            "pic": "/testname/img/80f4684e24cfa306c5c230bd1b7968da.png",
             "answers": [
                 {
                     "answer": "Heel veel!",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Hoe gedraag je je meestal als je bij iemand bent die je aantrekkelijk vindt?",
-            "pic": "./testname/img/nl_img/10a7ca68bd23b557244a9fb22a1c20d6.png",
+            "pic": "/testname/img/10a7ca68bd23b557244a9fb22a1c20d6.png",
             "answers": [
                 {
                     "answer": "Ik probeer te flirten en complimenten te maken",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welke van deze dingen doe je om liefde in je leven aan te trekken?",
-            "pic": "./testname/img/nl_img/f79982f820392f6ac1111fdd69e08e05.png",
+            "pic": "/testname/img/f79982f820392f6ac1111fdd69e08e05.png",
             "answers": [
                 {
                     "answer": "Mezelf op verschillende manieren verbeteren",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Wat is de beste manier voor een nieuwe romantische relatie om te beginnen?",
-            "pic": "./testname/img/nl_img/b987993d2de642d9cb855781c482253e.png",
+            "pic": "/testname/img/b987993d2de642d9cb855781c482253e.png",
             "answers": [
                 {
                     "answer": "Met wederzijdse interesse",

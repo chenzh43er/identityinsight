@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Cuáles son mis sorpresas de abril?",
-    "mainPic": "./testname/img/es_img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
+    "mainPic": "/testname/img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
     "thems": [
         "Abril",
         "Sorpresa",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Tu plan de fin de semana ideal?",
-            "pic": "./testname/img/es_img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
+            "pic": "/testname/img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
             "answers": [
                 {
                     "answer": "Pereza Netflix",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "¿Tu vibra de mensajería?",
-            "pic": "./testname/img/es_img/46835ed416df5d821f939248b678dafd.jpg",
+            "pic": "/testname/img/46835ed416df5d821f939248b678dafd.jpg",
             "answers": [
                 {
                     "answer": "Reina de una palabra",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo muestras amor?",
-            "pic": "./testname/img/es_img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
+            "pic": "/testname/img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
             "answers": [
                 {
                     "answer": "Regalos Siempre",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "¿Tu atuendo típico?",
-            "pic": "./testname/img/es_img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
+            "pic": "/testname/img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
             "answers": [
                 {
                     "answer": "Estilo callejero",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tan desordenada está tu habitación?",
-            "pic": "./testname/img/es_img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
+            "pic": "/testname/img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
             "answers": [
                 {
                     "answer": "Totalmente Zen",

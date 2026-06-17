@@ -1,0 +1,16 @@
+{
+  "name": "identityinsight",
+  "private": true,
+  "scripts": {
+    "deploy:pages": "wrangler pages deploy . --project-name=identityinsight --commit-dirty=true",
+    "deploy:worker": "wrangler deploy --config worker/wrangler.toml",
+    "dev:worker": "node worker/scripts/local-dev.mjs",
+    "dev:worker:wrangler": "wrangler dev --config worker/wrangler.dev.toml --port 8787",
+    "deploy": "npm run deploy:pages && npm run deploy:worker",
+    "pages:deployments": "wrangler pages deployment list --project-name=identityinsight",
+    "worker:deployments": "wrangler deployments list --name misty-block-488a --config worker/wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "^4.101.0"
+  }
+}

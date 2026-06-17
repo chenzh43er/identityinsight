@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Var är historien om Hogwarts?",
-    "mainPic": "./testname/img/fr_img/2025-10-15_204806_876.jpg",
+    "mainPic": "/testname/img/2025-10-15_204806_876.jpg",
     "thems": ["Harry Potter", "Hogwarts", "Film", "Filmer", "Tv", "Trivia"],
     "questions": [
         {
             "question": "När du går in i den förbjudna skogen, vad gör du först?",
-            "pic": "./testname/img/fr_img/m4b0c0o0l2.png",
+            "pic": "/testname/img/m4b0c0o0l2.png",
             "answers": [
                 {
                     "answer": "Jag går försiktigt fram och avsöker skuggorna",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Du hittar en förtrollad fjäder på marken. Vad gör du ?",
-            "pic": "./testname/img/fr_img/c0d0y3c6d2.jpg",
+            "pic": "/testname/img/c0d0y3c6d2.jpg",
             "answers": [
                 {
                     "answer": "Jag tar det och studerar det",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vilken kurs skulle du investera mest i på Hogwarts?",
-            "pic": "./testname/img/fr_img/a3w1o0i5n0.png",
+            "pic": "/testname/img/a3w1o0i5n0.png",
             "answers": [
                 {
                     "answer": "Metamorfos",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "I en konfliktsituation är du mer:",
-            "pic": "./testname/img/fr_img/i2h2a0h2f0.jpg",
+            "pic": "/testname/img/i2h2a0h2f0.jpg",
             "answers": [
                 {
                     "answer": "Fredsstiftaren som söker en mild lösning",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vilket magiskt djur skulle bäst representera din ande?",
-            "pic": "./testname/img/fr_img/a0b2d0g0a7.jpg",
+            "pic": "/testname/img/a0b2d0g0a7.jpg",
             "answers": [
                 {
                     "answer": "Fågel Fenix",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Under en bal på Hogwarts är du på dansgolvet: du föredrar...",
-            "pic": "./testname/img/fr_img/e0i0n1a0f0.jpg",
+            "pic": "/testname/img/e0i0n1a0f0.jpg",
             "answers": [
                 {
                     "answer": "En lätt dans under stjärnorna",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Vilken färg av magiskt ljus tilltalar dig mest?",
-            "pic": "./testname/img/fr_img/j6e0a1u0h1.jpg",
+            "pic": "/testname/img/j6e0a1u0h1.jpg",
             "answers": [
                 {
                     "answer": "varmt guld",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "En profetia utpekar dig för ett viktigt uppdrag. Vad känner du?",
-            "pic": "./testname/img/fr_img/a2f6a1e2t7.jpg",
+            "pic": "/testname/img/a2f6a1e2t7.jpg",
             "answers": [
                 {
                     "answer": "Heder och nyfikenhet",
@@ -213,7 +213,7 @@ let quizData = {
         },
         {
             "question": "När du hör Fången från Azkaban är ditt första ord...",
-            "pic": "./testname/img/fr_img/e0a2c2i7b1.jpg",
+            "pic": "/testname/img/e0a2c2i7b1.jpg",
             "answers": [
                 {
                     "answer": "Hemlighet",

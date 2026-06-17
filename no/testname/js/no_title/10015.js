@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Apeaktør er du?",
-    "mainPic": "./testname/img/no_img/c13073ece1a638233066d7614f0f15d1.jpeg",
+    "mainPic": "/testname/img/c13073ece1a638233066d7614f0f15d1.jpeg",
     "thems": [
         "Spill",
         "Iammonkey",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "En gruppe besøkende nærmer seg buret ditt — hva er ditt første trekk?",
-            "pic": "./testname/img/no_img/a41fab4ba22ed8d243469fd73ea7e743.jpg",
+            "pic": "/testname/img/a41fab4ba22ed8d243469fd73ea7e743.jpg",
             "answers": [
                 {
                     "answer": "Kaste en banan",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Du finner en harpun og en banan på gulvet — hva plukker du opp først?",
-            "pic": "./testname/img/no_img/a9e49be8fb6d4b180baddceb1e60214f.jpg",
+            "pic": "/testname/img/a9e49be8fb6d4b180baddceb1e60214f.jpg",
             "answers": [
                 {
                     "answer": "Banan",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "En apebaby gråter i hjørnet. Hva gjør du?",
-            "pic": "./testname/img/no_img/1e4b16f3df65e600281edd6da5c6dda2.jpg",
+            "pic": "/testname/img/1e4b16f3df65e600281edd6da5c6dda2.jpg",
             "answers": [
                 {
                     "answer": "Gi den mat",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "En frekk besøker håner deg gjennom gitteret. Hva er ditt svar?",
-            "pic": "./testname/img/no_img/355b31db3c73c2da819d85566fd25237.jpg",
+            "pic": "/testname/img/355b31db3c73c2da819d85566fd25237.jpg",
             "answers": [
                 {
                     "answer": "Kaste en banan",

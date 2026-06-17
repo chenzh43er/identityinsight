@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Look A Like Cam : À quel célébrité ressemblez-vous ?",
-    "mainPic": "./testname/img/fr_img/ae65488ddb169cb68cf3b5ea59205b06.jpeg",
+    "mainPic": "/testname/img/ae65488ddb169cb68cf3b5ea59205b06.jpeg",
     "thems": [
         "Personnalité",
         "Célébrités",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle est votre expression selfie de prédilection?",
-            "pic": "./testname/img/fr_img/a118ba0a3b7a8adf8878713186a26fe0.jpg",
+            "pic": "/testname/img/a118ba0a3b7a8adf8878713186a26fe0.jpg",
             "answers": [
                 {
                     "answer": "Sourire doux",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Comment vos amis décriraient-ils votre ambiance?",
-            "pic": "./testname/img/fr_img/d9098d9be3915fa3277d57564e0ae023.jpg",
+            "pic": "/testname/img/d9098d9be3915fa3277d57564e0ae023.jpg",
             "answers": [
                 {
                     "answer": "Cool et détendu",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre style vestimentaire typique ?",
-            "pic": "./testname/img/fr_img/179b0b8bfecf01e40f4d49cd5b064700.jpg",
+            "pic": "/testname/img/179b0b8bfecf01e40f4d49cd5b064700.jpg",
             "answers": [
                 {
                     "answer": "Streetwear",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre style de cheveux la plupart du temps ?",
-            "pic": "./testname/img/fr_img/326b42eaf8bd0961ab2b9b15cc94d3ea.jpg",
+            "pic": "/testname/img/326b42eaf8bd0961ab2b9b15cc94d3ea.jpg",
             "answers": [
                 {
                     "answer": "Raide lisse",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Choisissez un look de maquillage (ou une humeur) :",
-            "pic": "./testname/img/fr_img/e9393fd702ab6c7f9dc0a501efbb10e5.jpg",
+            "pic": "/testname/img/e9393fd702ab6c7f9dc0a501efbb10e5.jpg",
             "answers": [
                 {
                     "answer": "Éclat naturel",

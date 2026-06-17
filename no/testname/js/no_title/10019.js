@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hva er din Roblox CMON-stil?",
-    "mainPic": "./testname/img/no_img/d906e28a754ba26f7b2cab5458bf0d0b.gif",
+    "mainPic": "/testname/img/d906e28a754ba26f7b2cab5458bf0d0b.gif",
     "thems": [
         "Spill",
         "Roblox",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Prédisez votre prochaine vie grâce à l'astrologie !",
-    "mainPic": "./testname/img/fr_img/87192201602c6a8362354e0e3c499c10.gif",
+    "mainPic": "/testname/img/87192201602c6a8362354e0e3c499c10.gif",
     "thems": [
         "ProchaineVie",
         "Prédiction",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle est votre énergie zodiacale dominante ?",
-            "pic": "./testname/img/fr_img/248b8a52b2617bff5f57783a9077f227.jpeg",
+            "pic": "/testname/img/248b8a52b2617bff5f57783a9077f227.jpeg",
             "answers": [
                 {
                     "answer": "Signes de Feu",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Quelle planète régit votre humeur?",
-            "pic": "./testname/img/fr_img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
+            "pic": "/testname/img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
             "answers": [
                 {
                     "answer": "Vénus",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "À quoi vous sentez-vous né(e) pour faire?",
-            "pic": "./testname/img/fr_img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
+            "pic": "/testname/img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
             "answers": [
                 {
                     "answer": "Inspirer",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Votre leçon d'âme actuelle ?",
-            "pic": "./testname/img/fr_img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
+            "pic": "/testname/img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
             "answers": [
                 {
                     "answer": "Estime de soi",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Quels types de rêves avez-vous?",
-            "pic": "./testname/img/fr_img/dd886417f023c29cd2959c0e414ea97a.jpeg",
+            "pic": "/testname/img/dd886417f023c29cd2959c0e414ea97a.jpeg",
             "answers": [
                 {
                     "answer": "Voler",

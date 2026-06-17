@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Descubra a Causa da Sua Morte em Sua Vida Passada Através de Impressões Digitais",
-    "mainPic": "./testname/img/pt_img/dd1da2d2e2fa64494019288642c7d472.gif",
+    "mainPic": "/testname/img/dd1da2d2e2fa64494019288642c7d472.gif",
     "thems": [
         "Impressões Digitais",
         "Vida Passada",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Escolha o padrão de impressão digital mais comum em suas mãos:",
-            "pic": "./testname/img/pt_img/fea2485186ab2872a2452abc1867c214.png",
+            "pic": "/testname/img/fea2485186ab2872a2452abc1867c214.png",
             "answers": [
                 {
                     "answer": "Redemoinho",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Descreva a forma ou fluxo geral das linhas em um dos seus dedos",
-            "pic": "./testname/img/pt_img/0f2677f1b689d508bb89a532698f656a.png",
+            "pic": "/testname/img/0f2677f1b689d508bb89a532698f656a.png",
             "answers": [
                 {
                     "answer": "Enrolada",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "As impressões digitais da sua mão esquerda parecem exatamente as mesmas que as da sua mão direita?",
-            "pic": "./testname/img/pt_img/abad14c3a84e83f9f578122170e952b8.png",
+            "pic": "/testname/img/abad14c3a84e83f9f578122170e952b8.png",
             "answers": [
                 {
                     "answer": "Não, não exatamente",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Você acha que suas impressões digitais são muito claras e definidas, ou mais sutis?",
-            "pic": "./testname/img/pt_img/2d2b94a8afccdf71de669899230cc7ed.png",
+            "pic": "/testname/img/2d2b94a8afccdf71de669899230cc7ed.png",
             "answers": [
                 {
                     "answer": "Bastante claras",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Sua impressão digital possui algum desses detalhes especiais?",
-            "pic": "./testname/img/pt_img/38a7546743ee2e8c4afcef0a101d2423.png",
+            "pic": "/testname/img/38a7546743ee2e8c4afcef0a101d2423.png",
             "answers": [
                 {
                     "answer": "Cruzamento ou núcleo",

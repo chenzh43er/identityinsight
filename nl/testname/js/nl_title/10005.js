@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welke Carrière Past Bij Jou Volgens Je Sterrenbeeld?",
-    "mainPic": "./testname/img/nl_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+    "mainPic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
     "thems": [
         "Dierenriem",
         "Horoscoop",

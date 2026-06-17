@@ -2,141 +2,141 @@ const dataPage = {
 	"mostPopular": [
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
-			"pic": "./testname/img/nl_img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
+			"pic": "/testname/img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
 			"title": "Pols Lijn Lezing: Is Je Leven Voorbestemd Voor Geluk Of Moeilijkheden?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
-			"pic": "./testname/img/nl_img/2efd6662e6e1ce987e2d68253308670f.gif",
+			"pic": "/testname/img/2efd6662e6e1ce987e2d68253308670f.gif",
 			"title": "Welke mascotte ben jij in Indigo Park?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
-			"pic": "./testname/img/nl_img/ab4ac4fa80513401b1856f0757925ba4.gif",
+			"pic": "/testname/img/ab4ac4fa80513401b1856f0757925ba4.gif",
 			"title": "Ontdek Gods Boodschap Door AI: Wat Zegt Het Tegen Jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
-			"pic": "./testname/img/nl_img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
+			"pic": "/testname/img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
 			"title": "Wie is het licht in je leven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
-			"pic": "./testname/img/nl_img/0187075c11d43390c74be10eb88bfddd.gif",
+			"pic": "/testname/img/0187075c11d43390c74be10eb88bfddd.gif",
 			"title": "Teacher Simulator Quiz: Wat voor soort leraar ben jij?"
 		},
 	],
 	"theLatest": [
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
-			"pic": "./testname/img/nl_img/050d72d03541da9c20a26f8604189359.gif",
+			"pic": "/testname/img/050d72d03541da9c20a26f8604189359.gif",
 			"title": "Baby Yellow VR Quiz: Hoe Lang Zou Jij Overleven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
-			"pic": "./testname/img/nl_img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
+			"pic": "/testname/img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
 			"title": "Disney Character Calculator: Voeg Je Gegevens Toe, Ontvang Je Disney Match"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
-			"pic": "./testname/img/nl_img/9645d9f2c83a97881422cd2352b203d5.gif",
+			"pic": "/testname/img/9645d9f2c83a97881422cd2352b203d5.gif",
 			"title": "Test je Disney-nationaliteit"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
-			"pic": "./testname/img/nl_img/e0e35df07f07cc35431e5c19ab1876a0.gif",
+			"pic": "/testname/img/e0e35df07f07cc35431e5c19ab1876a0.gif",
 			"title": "Wat is de naam van je crush als emoji?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
-			"pic": "./testname/img/nl_img/e2925f61549c6a4e5df99175233f7f68.gif",
+			"pic": "/testname/img/e2925f61549c6a4e5df99175233f7f68.gif",
 			"title": "Welk niveau heb je op een menstruatiepijnschaal?"
 		},
 	],
 	"youMaylike": [
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
-			"pic": "./testname/img/nl_img/48b6dbe0882f7c331e81e7d21e484d45.gif",
+			"pic": "/testname/img/48b6dbe0882f7c331e81e7d21e484d45.gif",
 			"title": "Schizofrenie Quiz | Ontdek of je de symptomen hebt!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10072",
-			"pic": "./testname/img/nl_img/66e8d614cc77e7e370d6499c83f00f63.gif",
+			"pic": "/testname/img/66e8d614cc77e7e370d6499c83f00f63.gif",
 			"title": "Hoe zeldzaam is jouw mannelijke archetype?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10073",
-			"pic": "./testname/img/nl_img/8faf7bdabba6d92c7fbde984286beb20.gif",
+			"pic": "/testname/img/8faf7bdabba6d92c7fbde984286beb20.gif",
 			"title": "Kun je het eindeloze gat overleven? Doe deze quiz."
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10074",
-			"pic": "./testname/img/nl_img/3f5903cf09be7b4d032637b011dba9a3.gif",
+			"pic": "/testname/img/3f5903cf09be7b4d032637b011dba9a3.gif",
 			"title": "Juridische Kennis: Hoeveel Weet Jij Over de Wet?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
-			"pic": "./testname/img/nl_img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
+			"pic": "/testname/img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
 			"title": "Wat ontbreekt er in je leven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
-			"pic": "./testname/img/nl_img/fd3f9bc9507fb6c822f911b286be84c2.gif",
+			"pic": "/testname/img/fd3f9bc9507fb6c822f911b286be84c2.gif",
 			"title": "Wat voor soort speler ben jij in Gym Class VR?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
-			"pic": "./testname/img/nl_img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
+			"pic": "/testname/img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
 			"title": "Hoe Zien Mannen Jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
-			"pic": "./testname/img/nl_img/f604bd6ba834e47d78de61ee15210922.gif",
+			"pic": "/testname/img/f604bd6ba834e47d78de61ee15210922.gif",
 			"title": "Wat voor soort hoofdpijn ervaart u?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
-			"pic": "./testname/img/nl_img/28522b496631010237b20cfbf8d948d6.jpeg",
+			"pic": "/testname/img/28522b496631010237b20cfbf8d948d6.jpeg",
 			"title": "Wat zijn jouw jeugdtrauma's?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
-			"pic": "./testname/img/nl_img/8f4d982a1798ee6538cebb2849f37fb0.gif",
+			"pic": "/testname/img/8f4d982a1798ee6538cebb2849f37fb0.gif",
 			"title": "Wat je liedkeuzes onthullen over je luisterleeftijd!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
-			"pic": "./testname/img/nl_img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
+			"pic": "/testname/img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
 			"title": "Wie is verliefd op jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
-			"pic": "./testname/img/nl_img/a10e478609b29236f70f7ea83b45d217.gif",
+			"pic": "/testname/img/a10e478609b29236f70f7ea83b45d217.gif",
 			"title": "Wat Is Jouw Verborgen Verlangen?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
-			"pic": "./testname/img/nl_img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
+			"pic": "/testname/img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
 			"title": "Hoe snel worden mensen verliefd op jou"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
-			"pic": "./testname/img/nl_img/7e6724b0371aec70640ebd458521951d.gif",
+			"pic": "/testname/img/7e6724b0371aec70640ebd458521951d.gif",
 			"title": "Welke kerstbijnaam past bij jouw persoonlijkheid?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
-			"pic": "./testname/img/nl_img/46dc54fdff0d64cc4b72f1df79929776.gif",
+			"pic": "/testname/img/46dc54fdff0d64cc4b72f1df79929776.gif",
 			"title": "Als je deze 20e-eeuwse kennisquiz kunt beantwoorden, dan ben je misschien een genie!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
-			"pic": "./testname/img/nl_img/8ee495f284bc5d68b64825c51774a890.gif",
+			"pic": "/testname/img/8ee495f284bc5d68b64825c51774a890.gif",
 			"title": "Wanneer krijg je je eerste relatie?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
-			"pic": "./testname/img/nl_img/be52dde9e6b4be6f72838423c1cf4164.gif",
+			"pic": "/testname/img/be52dde9e6b4be6f72838423c1cf4164.gif",
 			"title": "Kun je je de posities van deze voetbalsterren correct herinneren? Test je geheugen!"
 		}
 	],
@@ -146,282 +146,282 @@ const dataPage = {
 	"allRecent":[
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10088",
-			"pic": "./testname/img/nl_img/01_982494effbd54aa5bbf8807bf42fbbf1.jpeg",
+			"pic": "/testname/img/01_982494effbd54aa5bbf8807bf42fbbf1.jpeg",
 			"title": "Wie is de Mol? Test of jij de ultieme Mol bent of een slimme kandidaat!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10089",
-			"pic": "./testname/img/nl_img/13_069acb19f91942fe80a6f3d4a942809c.jpeg",
+			"pic": "/testname/img/13_069acb19f91942fe80a6f3d4a942809c.jpeg",
 			"title": "Ben jij de Diamant van het seizoen of het mikpunt van Lady Whistledown?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10090",
-			"pic": "./testname/img/nl_img/25_1808c817a04e4cff81c0d725b17105a7.jpeg",
+			"pic": "/testname/img/25_1808c817a04e4cff81c0d725b17105a7.jpeg",
 			"title": "Verrader of Getrouwe: Wat zou jouw rol zijn in De Verraders?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10091",
-			"pic": "./testname/img/nl_img/37_b68d7ab1183648078b74eb5d29af6a40.jpeg",
+			"pic": "/testname/img/37_b68d7ab1183648078b74eb5d29af6a40.jpeg",
 			"title": "In welke afdeling van Zweinstein hoor jij echt thuis?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10092",
-			"pic": "./testname/img/nl_img/50_6add7dde793646d8bbbca19a58d541df.jpeg",
+			"pic": "/testname/img/50_6add7dde793646d8bbbca19a58d541df.jpeg",
 			"title": "Ben jij een Ferry Bouman of een undercoveragent? Test je loyaliteit!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10093",
-			"pic": "./testname/img/nl_img/62_6b59d38e566b471b8b94426d742626e4.jpeg",
+			"pic": "/testname/img/62_6b59d38e566b471b8b94426d742626e4.jpeg",
 			"title": "Welk personage uit Friends ben jij gebaseerd op je dagelijkse gewoontes?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10094",
-			"pic": "./testname/img/nl_img/74_60c789e02195412690c5fadf955b0e00.jpeg",
+			"pic": "/testname/img/74_60c789e02195412690c5fadf955b0e00.jpeg",
 			"title": "Welke chirurg van Grey Sloan Memorial is jouw professionele match?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10095",
-			"pic": "./testname/img/nl_img/86_68e42a280fac4b719276589a69daf103.jpeg",
+			"pic": "/testname/img/86_68e42a280fac4b719276589a69daf103.jpeg",
 			"title": "Zou jij overleven in de wereld van Mocro Maffia?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10096",
-			"pic": "./testname/img/nl_img/98_02b28330bb6e4a999bdf24937db7c720.jpeg",
+			"pic": "/testname/img/98_02b28330bb6e4a999bdf24937db7c720.jpeg",
 			"title": "Ben jij een Sheldon of een Penny? Doe de persoonlijkheidstest!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10097",
-			"pic": "./testname/img/nl_img/109_c29204306d694c2bb87d877d280284f0.jpeg",
+			"pic": "/testname/img/109_c29204306d694c2bb87d877d280284f0.jpeg",
 			"title": "Hoe lang zou jij overleven in de wereld van The Last of Us?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10001",
-			"pic": "./testname/img/nl_img/9657f53db40c7b368f76ec5ff0b2075e.gif",
+			"pic": "/testname/img/9657f53db40c7b368f76ec5ff0b2075e.gif",
 			"title": "Wie was jouw minnaar in je vorige leven? Astrologie geeft je het antwoord!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10002",
-			"pic": "./testname/img/nl_img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
+			"pic": "/testname/img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
 			"title": "Zorg voor Gezondheid: Beoordeel Uw Gezondheidsrisico's door Middel van Astrologie"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10003",
-			"pic": "./testname/img/nl_img/67ab9a66372b41ff80637d2f34775da7.gif",
+			"pic": "/testname/img/67ab9a66372b41ff80637d2f34775da7.gif",
 			"title": "Wat is jouw mentale astrologie?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10004",
-			"pic": "./testname/img/nl_img/53df6ab80eebbfec50562157fb1aab58.gif",
+			"pic": "/testname/img/53df6ab80eebbfec50562157fb1aab58.gif",
 			"title": "Maak keuzes gerelateerd aan je sterrenbeeld en krijg een lotvoorspelling!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10005",
-			"pic": "./testname/img/nl_img/972a4b4894d92bfb2801519b9fedc93d.gif",
+			"pic": "/testname/img/972a4b4894d92bfb2801519b9fedc93d.gif",
 			"title": "Welke Carrière Past Bij Jou Volgens Je Sterrenbeeld?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10006",
-			"pic": "./testname/img/nl_img/39b596f2c024869bb393afc04c18e57a.gif",
+			"pic": "/testname/img/39b596f2c024869bb393afc04c18e57a.gif",
 			"title": "Wat zegt je wekelijkse horoscoop over je liefdesleven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10007",
-			"pic": "./testname/img/nl_img/fac405620d97740b238099e3c19cd24f.gif",
+			"pic": "/testname/img/fac405620d97740b238099e3c19cd24f.gif",
 			"title": "In welke reïncarnatie bevind je je nu?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10008",
-			"pic": "./testname/img/nl_img/bae4afa98f637f3006d68f45118399cb.gif",
+			"pic": "/testname/img/bae4afa98f637f3006d68f45118399cb.gif",
 			"title": "We zullen uw leeftijd onthullen op basis van uw vingerafdruk"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10009",
-			"pic": "./testname/img/nl_img/e20fc3b1d587ae4c0369b34f0d245ee5.gif",
+			"pic": "/testname/img/e20fc3b1d587ae4c0369b34f0d245ee5.gif",
 			"title": "Astrologie Openbaart De Oorzaak Van Je Dood In Een Vorig Leven!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10010",
-			"pic": "./testname/img/nl_img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
+			"pic": "/testname/img/9111404cd96fbcbec459ac7a6d7e4bff.gif",
 			"title": "Wat is jouw vrouwelijke archetype? Laten we het uitvinden!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10011",
-			"pic": "./testname/img/nl_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+			"pic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
 			"title": "De Plaats Van Uw Moedervlek Zal Uw Dood In Een Vorig Leven Onthullen!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10012",
-			"pic": "./testname/img/nl_img/5733f4c5286c61332b3a744289e4ab79.gif",
+			"pic": "/testname/img/5733f4c5286c61332b3a744289e4ab79.gif",
 			"title": "Wie Is Jouw Perfecte Match op School volgens je Sterrenbeeld? 💫🎒"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10013",
-			"pic": "./testname/img/nl_img/13bc72828b062229dd2750e3bafb47c4.gif",
+			"pic": "/testname/img/13bc72828b062229dd2750e3bafb47c4.gif",
 			"title": "Maak keuzes gerelateerd aan je sterrenbeeld en ontdek de naam van je soulmate!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10014",
-			"pic": "./testname/img/nl_img/93f935ad434696438bcf8f31987b9c6b.gif",
+			"pic": "/testname/img/93f935ad434696438bcf8f31987b9c6b.gif",
 			"title": "Wat onthullen jouw ogen over je vorige leven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10015",
-			"pic": "./testname/img/nl_img/03bc5b4f002977705d02ea147f92fa1b.gif",
+			"pic": "/testname/img/03bc5b4f002977705d02ea147f92fa1b.gif",
 			"title": "Wat Zegt Je Dierenriem Geboortesteen Over Jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10016",
-			"pic": "./testname/img/nl_img/8d0894da52c5e9b0a421f400d9b836ae.gif",
+			"pic": "/testname/img/8d0894da52c5e9b0a421f400d9b836ae.gif",
 			"title": "Wat is jouw geluksymbool van de dag? Kies op basis van je sterrenbeeld!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10017",
-			"pic": "./testname/img/nl_img/4d97ab7720b56c2156b9ad2115523ba3.gif",
+			"pic": "/testname/img/4d97ab7720b56c2156b9ad2115523ba3.gif",
 			"title": "Je geboortesteen onthult je liefdesbestemming!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10018",
-			"pic": "./testname/img/nl_img/0ad5a8121adf71fdf63568d8759baba5.gif",
+			"pic": "/testname/img/0ad5a8121adf71fdf63568d8759baba5.gif",
 			"title": "Word ik beroemd? Je horoscoop heeft het antwoord"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10019",
-			"pic": "./testname/img/nl_img/5478e1b626df602ce1a61b301d455819.gif",
+			"pic": "/testname/img/5478e1b626df602ce1a61b301d455819.gif",
 			"title": "Jouw sterrenbeeld element onthult je verborgen persoonlijkheid!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10061",
-			"pic": "./testname/img/nl_img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
+			"pic": "/testname/img/14227c7375e7da5e053ffab6bbe5df81.jpeg",
 			"title": "Pols Lijn Lezing: Is Je Leven Voorbestemd Voor Geluk Of Moeilijkheden?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10062",
-			"pic": "./testname/img/nl_img/2efd6662e6e1ce987e2d68253308670f.gif",
+			"pic": "/testname/img/2efd6662e6e1ce987e2d68253308670f.gif",
 			"title": "Welke mascotte ben jij in Indigo Park?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10063",
-			"pic": "./testname/img/nl_img/ab4ac4fa80513401b1856f0757925ba4.gif",
+			"pic": "/testname/img/ab4ac4fa80513401b1856f0757925ba4.gif",
 			"title": "Ontdek Gods Boodschap Door AI: Wat Zegt Het Tegen Jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10064",
-			"pic": "./testname/img/nl_img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
+			"pic": "/testname/img/2e672fbe999e4bd581cd75b0ee4eba5e.gif",
 			"title": "Wie is het licht in je leven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10065",
-			"pic": "./testname/img/nl_img/0187075c11d43390c74be10eb88bfddd.gif",
+			"pic": "/testname/img/0187075c11d43390c74be10eb88bfddd.gif",
 			"title": "Teacher Simulator Quiz: Wat voor soort leraar ben jij?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10066",
-			"pic": "./testname/img/nl_img/050d72d03541da9c20a26f8604189359.gif",
+			"pic": "/testname/img/050d72d03541da9c20a26f8604189359.gif",
 			"title": "Baby Yellow VR Quiz: Hoe Lang Zou Jij Overleven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10067",
-			"pic": "./testname/img/nl_img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
+			"pic": "/testname/img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
 			"title": "Disney Character Calculator: Voeg Je Gegevens Toe, Ontvang Je Disney Match"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10068",
-			"pic": "./testname/img/nl_img/9645d9f2c83a97881422cd2352b203d5.gif",
+			"pic": "/testname/img/9645d9f2c83a97881422cd2352b203d5.gif",
 			"title": "Test je Disney-nationaliteit"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10069",
-			"pic": "./testname/img/nl_img/e0e35df07f07cc35431e5c19ab1876a0.gif",
+			"pic": "/testname/img/e0e35df07f07cc35431e5c19ab1876a0.gif",
 			"title": "Wat is de naam van je crush als emoji?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10070",
-			"pic": "./testname/img/nl_img/e2925f61549c6a4e5df99175233f7f68.gif",
+			"pic": "/testname/img/e2925f61549c6a4e5df99175233f7f68.gif",
 			"title": "Welk niveau heb je op een menstruatiepijnschaal?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10071",
-			"pic": "./testname/img/nl_img/48b6dbe0882f7c331e81e7d21e484d45.gif",
+			"pic": "/testname/img/48b6dbe0882f7c331e81e7d21e484d45.gif",
 			"title": "Schizofrenie Quiz | Ontdek of je de symptomen hebt!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10072",
-			"pic": "./testname/img/nl_img/66e8d614cc77e7e370d6499c83f00f63.gif",
+			"pic": "/testname/img/66e8d614cc77e7e370d6499c83f00f63.gif",
 			"title": "Hoe zeldzaam is jouw mannelijke archetype?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10073",
-			"pic": "./testname/img/nl_img/8faf7bdabba6d92c7fbde984286beb20.gif",
+			"pic": "/testname/img/8faf7bdabba6d92c7fbde984286beb20.gif",
 			"title": "Kun je het eindeloze gat overleven? Doe deze quiz."
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10074",
-			"pic": "./testname/img/nl_img/3f5903cf09be7b4d032637b011dba9a3.gif",
+			"pic": "/testname/img/3f5903cf09be7b4d032637b011dba9a3.gif",
 			"title": "Juridische Kennis: Hoeveel Weet Jij Over de Wet?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10075",
-			"pic": "./testname/img/nl_img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
+			"pic": "/testname/img/5b74ac1f62a6db2e2d90bec1e2401924.gif",
 			"title": "Wat ontbreekt er in je leven?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10076",
-			"pic": "./testname/img/nl_img/fd3f9bc9507fb6c822f911b286be84c2.gif",
+			"pic": "/testname/img/fd3f9bc9507fb6c822f911b286be84c2.gif",
 			"title": "Wat voor soort speler ben jij in Gym Class VR?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10077",
-			"pic": "./testname/img/nl_img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
+			"pic": "/testname/img/22dbdbdc1e73d0f11c6ff3d013d950fe.gif",
 			"title": "Hoe Zien Mannen Jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10078",
-			"pic": "./testname/img/nl_img/f604bd6ba834e47d78de61ee15210922.gif",
+			"pic": "/testname/img/f604bd6ba834e47d78de61ee15210922.gif",
 			"title": "Wat voor soort hoofdpijn ervaart u?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10079",
-			"pic": "./testname/img/nl_img/28522b496631010237b20cfbf8d948d6.jpeg",
+			"pic": "/testname/img/28522b496631010237b20cfbf8d948d6.jpeg",
 			"title": "Wat zijn jouw jeugdtrauma's?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10080",
-			"pic": "./testname/img/nl_img/8f4d982a1798ee6538cebb2849f37fb0.gif",
+			"pic": "/testname/img/8f4d982a1798ee6538cebb2849f37fb0.gif",
 			"title": "Wat je liedkeuzes onthullen over je luisterleeftijd!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10081",
-			"pic": "./testname/img/nl_img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
+			"pic": "/testname/img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
 			"title": "Wie is verliefd op jou?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10082",
-			"pic": "./testname/img/nl_img/a10e478609b29236f70f7ea83b45d217.gif",
+			"pic": "/testname/img/a10e478609b29236f70f7ea83b45d217.gif",
 			"title": "Wat Is Jouw Verborgen Verlangen?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10083",
-			"pic": "./testname/img/nl_img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
+			"pic": "/testname/img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
 			"title": "Hoe snel worden mensen verliefd op jou"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10084",
-			"pic": "./testname/img/nl_img/7e6724b0371aec70640ebd458521951d.gif",
+			"pic": "/testname/img/7e6724b0371aec70640ebd458521951d.gif",
 			"title": "Welke kerstbijnaam past bij jouw persoonlijkheid?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10085",
-			"pic": "./testname/img/nl_img/46dc54fdff0d64cc4b72f1df79929776.gif",
+			"pic": "/testname/img/46dc54fdff0d64cc4b72f1df79929776.gif",
 			"title": "Als je deze 20e-eeuwse kennisquiz kunt beantwoorden, dan ben je misschien een genie!"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10086",
-			"pic": "./testname/img/nl_img/8ee495f284bc5d68b64825c51774a890.gif",
+			"pic": "/testname/img/8ee495f284bc5d68b64825c51774a890.gif",
 			"title": "Wanneer krijg je je eerste relatie?"
 		},
 		{
 			"url": "https://identityinsight.org/fr/test-page_fr/?utm_content=10087",
-			"pic": "./testname/img/nl_img/be52dde9e6b4be6f72838423c1cf4164.gif",
+			"pic": "/testname/img/be52dde9e6b4be6f72838423c1cf4164.gif",
 			"title": "Kun je je de posities van deze voetbalsterren correct herinneren? Test je geheugen!"
 		}
 	]

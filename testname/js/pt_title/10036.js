@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quais São Minhas Surpresas de Abril?",
-    "mainPic": "./testname/img/pt_img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
+    "mainPic": "/testname/img/9a0b4668d81f6a3c12e9be0622d67646.jpeg",
     "thems": [
         "Abril",
         "Surpresa",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Qual é o seu plano de fim de semana ideal?",
-            "pic": "./testname/img/pt_img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
+            "pic": "/testname/img/1a418b4654a2d0ba672aaf5b30dc2c43.jpg",
             "answers": [
                 {
                     "answer": "Netflix preguiçoso",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Qual é sua vibe com mensagens?",
-            "pic": "./testname/img/pt_img/46835ed416df5d821f939248b678dafd.jpg",
+            "pic": "/testname/img/46835ed416df5d821f939248b678dafd.jpg",
             "answers": [
                 {
                     "answer": "Rainha de uma palavra",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Como você demonstra amor?",
-            "pic": "./testname/img/pt_img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
+            "pic": "/testname/img/5bbff1ce85f8bf481de54df9bd53be0f.jpg",
             "answers": [
                 {
                     "answer": "Sempre Presentes",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Seu traje típico?",
-            "pic": "./testname/img/pt_img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
+            "pic": "/testname/img/b3e51a27c4aadd3d05ba7af4cefda6cf.jpg",
             "answers": [
                 {
                     "answer": "Estilo de Rua",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Quão bagunçado está o seu quarto?",
-            "pic": "./testname/img/pt_img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
+            "pic": "/testname/img/b82de9465d5d8d1d41f628fadeebbd0a.jpg",
             "answers": [
                 {
                     "answer": "Total Zen",

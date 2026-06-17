@@ -17,7 +17,7 @@ It’s precision.
 And the scariest part?
 You’re calm now.
     `,
-    "mainPic": "./testname/img/en_img/46_803058fd4af54e7a99764fa36421a0cb.jpeg"
+    "mainPic": "/testname/img/46_803058fd4af54e7a99764fa36421a0cb.jpeg"
   },
 
   "2": {
@@ -36,7 +36,7 @@ No one feels attacked.
 No one sees the strings.
 And that’s exactly how you like it.
     `,
-    "mainPic": "./testname/img/en_img/47_62271ec6ed0c4def882f7274a20ddb58.jpeg"
+    "mainPic": "/testname/img/47_62271ec6ed0c4def882f7274a20ddb58.jpeg"
   },
 
   "3": {
@@ -55,7 +55,7 @@ just to see what grows back.
 People call you unpredictable.
 You call it freedom.
     `,
-    "mainPic": "./testname/img/en_img/48_8aed8346c5d24202bf530a8cb266e10e.jpeg"
+    "mainPic": "/testname/img/48_8aed8346c5d24202bf530a8cb266e10e.jpeg"
   },
 
   "4": {
@@ -75,6 +75,6 @@ It’s quiet, final, and terrifyingly controlled.
 You’re not angry anymore —
 you’re done.
     `,
-    "mainPic": "./testname/img/en_img/49_cold_detachment_placeholder.jpeg"
+    "mainPic": "/testname/img/49_cold_detachment_placeholder.jpeg"
   }
 };

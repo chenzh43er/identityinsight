@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken typ av butiksägare är du i Scan Or Scam VR?",
-    "mainPic": "./testname/img/sv_img/b8c09584176f4a2c7952f18f20a965c2.gif",
+    "mainPic": "/testname/img/b8c09584176f4a2c7952f18f20a965c2.gif",
     "thems": [
         "Spel",
         "Scan Or Scam",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "En kund tar med sig en udda enhet och frågar om att köpa den — vad gör du?",
-            "pic": "./testname/img/sv_img/0289e1db5897d0514db6669bf57c6caf.jpg",
+            "pic": "/testname/img/0289e1db5897d0514db6669bf57c6caf.jpg",
             "answers": [
                 {
                     "answer": "Skanna den",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "En påse med produkter väger mer än vad som visas – du märker att vikten är förhöjd. Ditt drag:",
-            "pic": "./testname/img/sv_img/3f1778edeaaf3c0711f96e919bfdba07.jpg",
+            "pic": "/testname/img/3f1778edeaaf3c0711f96e919bfdba07.jpg",
             "answers": [
                 {
                     "answer": "Korrigera vikt",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "En polis kommer oväntat in i din butik och iakttar dig. Du:",
-            "pic": "./testname/img/sv_img/5a4062322ef2da98eaab8a5f6d49bb9e.jpg",
+            "pic": "/testname/img/5a4062322ef2da98eaab8a5f6d49bb9e.jpg",
             "answers": [
                 {
                     "answer": "Håll dig lugn",

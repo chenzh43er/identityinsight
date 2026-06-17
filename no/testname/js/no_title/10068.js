@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Fødselsmerket ditt viser hvor du døde i et tidligere liv!",
-    "mainPic": "./testname/img/no_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+    "mainPic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
     "thems": [
         "Død",
         "Fødselsmerke",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvor er fødselsmerket ditt plassert?",
-            "pic": "./testname/img/no_img/2dd44d549f230bfd92d6dda275306d69.jpg",
+            "pic": "/testname/img/2dd44d549f230bfd92d6dda275306d69.jpg",
             "answers": [
                 {
                     "answer": "Nakke",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hva slags form har fødselsmerket ditt?",
-            "pic": "./testname/img/no_img/ace14742239cf93a65304a6d16c84e99.jpg",
+            "pic": "/testname/img/ace14742239cf93a65304a6d16c84e99.jpg",
             "answers": [
                 {
                     "answer": "Rund",

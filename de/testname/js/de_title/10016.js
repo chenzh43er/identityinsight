@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Was ist mein ADHS?",
-    "mainPic": "./testname/img/de_img/add806a5391ae099a61cad44c9f69186.jpeg",
+    "mainPic": "/testname/img/add806a5391ae099a61cad44c9f69186.jpeg",
     "thems": [
         "ADHS",
         "Kinder",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie fühlen Sie sich normalerweise, wenn Sie ein neues Projekt starten?",
-            "pic": "./testname/img/de_img/69692ac6b3269023d065949694a810c2.jpg",
+            "pic": "/testname/img/69692ac6b3269023d065949694a810c2.jpg",
             "answers": [
                 {
                     "answer": "Begeistert und bereit, einzutauchen!",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Was passiert im Unterricht, wenn dich eine Lektion nicht interessiert?",
-            "pic": "./testname/img/de_img/98e8f91f87c976b99389ac591adcbf00.jpg",
+            "pic": "/testname/img/98e8f91f87c976b99389ac591adcbf00.jpg",
             "answers": [
                 {
                     "answer": "Ich träume und denke an lustige Dinge.",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Wie behältst du den Überblick über deine Hausaufgaben?",
-            "pic": "./testname/img/de_img/dc24d4acdd0da24c16ab02e502616fd3.jpg",
+            "pic": "/testname/img/dc24d4acdd0da24c16ab02e502616fd3.jpg",
             "answers": [
                 {
                     "answer": "Ich schreibe alles in einen bunten Planer.",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Wie sieht dein Traumurlaub aus?",
-            "pic": "./testname/img/de_img/97fb0ecc6b3b4115803f3b9a9734c4bb.jpg",
+            "pic": "/testname/img/97fb0ecc6b3b4115803f3b9a9734c4bb.jpg",
             "answers": [
                 {
                     "answer": "Ein Abenteuer voller Vergnügungsparkbesuche!",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Wie reagierst du, wenn du in einem Gespräch bist?",
-            "pic": "./testname/img/de_img/15c2204b9300fb012b84a017eb6bbdb5.jpg",
+            "pic": "/testname/img/15c2204b9300fb012b84a017eb6bbdb5.jpg",
             "answers": [
                 {
                     "answer": "Ich springe mit meinen Gedanken und Geschichten ein!",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Wie fühlen Sie sich bei den meisten Schulprojekten?",
-            "pic": "./testname/img/de_img/6e459a74ae8735a7912399f2d469ec0f.jpg",
+            "pic": "/testname/img/6e459a74ae8735a7912399f2d469ec0f.jpg",
             "answers": [
                 {
                     "answer": "Sie sind spannend und ich kann es kaum erwarten zu beginnen!",

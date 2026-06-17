@@ -21,7 +21,7 @@ maar zonder jou
 zou alles
 uit elkaar vallen.
     `,
-    "mainPic": "./testname/img/nl_img/70_f09cf12cb1d64818992f41cb96cb705f.jpeg"
+    "mainPic": "/testname/img/70_f09cf12cb1d64818992f41cb96cb705f.jpeg"
   },
   "2": {
     "title": "Welk personage uit Friends ben jij gebaseerd op je dagelijkse gewoontes?",
@@ -45,7 +45,7 @@ en precies dat
 maakt jou
 zo inspirerend.
     `,
-    "mainPic": "./testname/img/nl_img/71_bfd90edcfa1c4dce8f93df043e4af9e0.jpeg"
+    "mainPic": "/testname/img/71_bfd90edcfa1c4dce8f93df043e4af9e0.jpeg"
   },
   "3": {
     "title": "Welk personage uit Friends ben jij gebaseerd op je dagelijkse gewoontes?",
@@ -68,7 +68,7 @@ en staat
 steeds sterker —
 op eigen benen.
     `,
-    "mainPic": "./testname/img/nl_img/72_3e1ee418d0de46cc99e87b969340db42.jpeg"
+    "mainPic": "/testname/img/72_3e1ee418d0de46cc99e87b969340db42.jpeg"
   },
   "4": {
     "title": "Welk personage uit Friends ben jij gebaseerd op je dagelijkse gewoontes?",
@@ -89,6 +89,6 @@ op hun gemak bij jou —
 zelfs als het
 ongemakkelijk wordt.
     `,
-    "mainPic": "./testname/img/nl_img/73_6b102b0e11c7434fa638ac582af42a66.jpeg"
+    "mainPic": "/testname/img/73_6b102b0e11c7434fa638ac582af42a66.jpeg"
   }
 };

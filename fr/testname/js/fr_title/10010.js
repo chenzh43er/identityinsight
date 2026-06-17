@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Dans quelle époque êtes-vous",
-    "mainPic": "./testname/img/fr_img/922749b64cef31e7d1f8a4789e423e19.gif",
+    "mainPic": "/testname/img/922749b64cef31e7d1f8a4789e423e19.gif",
     "thems": [
         "Personnalité",
         "Époques",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quelle est votre plus grande motivation ces jours-ci ?",
-            "pic": "./testname/img/fr_img/4ea28766dd5b6e7e311c9bab4e5580d4.png",
+            "pic": "/testname/img/4ea28766dd5b6e7e311c9bab4e5580d4.png",
             "answers": [
                 {
                     "answer": "Obtenir de la reconnaissance",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Comment pensez-vous que vos amis vous décriraient ?",
-            "pic": "./testname/img/fr_img/8c7e4aa8121b90b569ecfbfeb75c78dc.png",
+            "pic": "/testname/img/8c7e4aa8121b90b569ecfbfeb75c78dc.png",
             "answers": [
                 {
                     "answer": "Déterminé",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Quelle est votre vision générale de la vie ces derniers temps?",
-            "pic": "./testname/img/fr_img/35c64676ecc1fe9f7c5c2d7a38f6c4e3.png",
+            "pic": "/testname/img/35c64676ecc1fe9f7c5c2d7a38f6c4e3.png",
             "answers": [
                 {
                     "answer": "Optimiste",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Comment vous comportez-vous généralement en société ?",
-            "pic": "./testname/img/fr_img/b0cac13b5d2930515c8d9af03e318f8e.png",
+            "pic": "/testname/img/b0cac13b5d2930515c8d9af03e318f8e.png",
             "answers": [
                 {
                     "answer": "Comme l'âme de la fête",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "Quel est votre humeur la plus courante?",
-            "pic": "./testname/img/fr_img/8e64f60aa199b10d78edb67eca2481cb.png",
+            "pic": "/testname/img/8e64f60aa199b10d78edb67eca2481cb.png",
             "answers": [
                 {
                     "answer": "Assuré et concentré",

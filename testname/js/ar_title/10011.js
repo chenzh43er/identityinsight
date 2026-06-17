@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما سبب وفاتك في حياتك السابقة؟",
-    "mainPic": "./testname/img/ar_img/0c489b861c1db124dfb92ea8bfe12735.gif",
+    "mainPic": "/testname/img/0c489b861c1db124dfb92ea8bfe12735.gif",
     "thems": [
         "روحانية",
         "حياة سابقة",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "أي من هذه البيئات تشعر بأنك متصل بها أكثر؟",
-            "pic": "./testname/img/ar_img/6b172fc3d6958279cd3bd46a8513db89.png",
+            "pic": "/testname/img/6b172fc3d6958279cd3bd46a8513db89.png",
             "answers": [
                 {
                     "answer": "المناظر الطبيعية",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "ما مدى روحانيتك؟",
-            "pic": "./testname/img/ar_img/1288b5a4451138f14dd68efd34eac6e9.png",
+            "pic": "/testname/img/1288b5a4451138f14dd68efd34eac6e9.png",
             "answers": [
                 {
                     "answer": "روحي جدًا",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "ما هو دورك في مجموعة من الأصدقاء؟",
-            "pic": "./testname/img/ar_img/3b82b3aa2fe16c6b2229e1b5fdf981ba.png",
+            "pic": "/testname/img/3b82b3aa2fe16c6b2229e1b5fdf981ba.png",
             "answers": [
                 {
                     "answer": "المستكشف",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "أي حقبة تاريخية تجدها أكثر إثارة للاهتمام؟",
-            "pic": "./testname/img/ar_img/e0aa284aa3495a57950efbf9d25c1fb6.png",
+            "pic": "/testname/img/e0aa284aa3495a57950efbf9d25c1fb6.png",
             "answers": [
                 {
                     "answer": "الحضارات القديمة",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "ما هو الأهم بالنسبة لك في حياتك الحالية؟",
-            "pic": "./testname/img/ar_img/e932b22e4228523f10b5a3066cefda6d.png",
+            "pic": "/testname/img/e932b22e4228523f10b5a3066cefda6d.png",
             "answers": [
                 {
                     "answer": "الحرية",

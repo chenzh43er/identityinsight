@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qual música do Beat Saber mostra sua vibração?",
-    "mainPic": "./testname/img/pt_img/e0d1db9d3708f648d36306b668df9d86.gif",
+    "mainPic": "/testname/img/e0d1db9d3708f648d36306b668df9d86.gif",
     "thems": [
         "Beat Saber",
         "Músicas",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Qual parte do Beat Saber você mais gosta?",
-            "pic": "./testname/img/pt_img/9de942fcea9f5f5a89a4d0fd371a9fb5.png",
+            "pic": "/testname/img/9de942fcea9f5f5a89a4d0fd371a9fb5.png",
             "answers": [
                 {
                     "answer": "Ritmo e luzes",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Que tipo de músicas você prefere no jogo?",
-            "pic": "./testname/img/pt_img/c2836c82d7224f2e7abf05f688e8c31a.jpg",
+            "pic": "/testname/img/c2836c82d7224f2e7abf05f688e8c31a.jpg",
             "answers": [
                 {
                     "answer": "Eletrônica estranha",
@@ -66,29 +66,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/pt_img/12dc9de0817bf5d68ea9ef508fa5bffb.png",
+                    "aPic": "/testname/img/12dc9de0817bf5d68ea9ef508fa5bffb.png",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/pt_img/01eb8dff7f7775aba341df3fd3180018.png",
+                    "aPic": "/testname/img/01eb8dff7f7775aba341df3fd3180018.png",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/pt_img/sr_174416499667f5d8849ab6e.jpg",
+                    "aPic": "/testname/img/sr_174416499667f5d8849ab6e.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/pt_img/5a6392368576293ca1675cfc89721c26.png",
+                    "aPic": "/testname/img/5a6392368576293ca1675cfc89721c26.png",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Como é a sua sessão ideal?",
-            "pic": "./testname/img/pt_img/64258c8dfa3aac645f76a8b2424b5410.png",
+            "pic": "/testname/img/64258c8dfa3aac645f76a8b2424b5410.png",
             "answers": [
                 {
                     "answer": "Desafiadora e mental",

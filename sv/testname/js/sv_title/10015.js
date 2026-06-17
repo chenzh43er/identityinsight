@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Clash Royale: Skulle P.E.K.K.A leda dig till seger eller nederlag?",
-    "mainPic": "./testname/img/sv_img/4aede605cb776100b91df0a9a41becb6.gif",
+    "mainPic": "/testname/img/4aede605cb776100b91df0a9a41becb6.gif",
     "thems": [
         "Spel",
         "Clashroyale",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur brukar du placera ut P.E.K.K.A?",
-            "pic": "./testname/img/sv_img/41c2c270911c16f7b6516e87bc1b427d.jpg",
+            "pic": "/testname/img/41c2c270911c16f7b6516e87bc1b427d.jpg",
             "answers": [
                 {
                     "answer": "Bakre linjen",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Din motståndare släpper en Jätte. Vad är ditt drag med P.E.K.K.A?",
-            "pic": "./testname/img/sv_img/a4d4b83b0820989730dc2b6f7aa424d6.jpg",
+            "pic": "/testname/img/a4d4b83b0820989730dc2b6f7aa424d6.jpg",
             "answers": [
                 {
                     "answer": "Motverka Jätten",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Vilket stöd kort föredrar du med P.E.K.K.A?",
-            "pic": "./testname/img/sv_img/61b894285a742baaae4860e940868403.jpg",
+            "pic": "/testname/img/61b894285a742baaae4860e940868403.jpg",
             "answers": [
                 {
                     "answer": "Trollkarl",

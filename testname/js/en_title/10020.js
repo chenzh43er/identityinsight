@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Vegetable Are You Based On Your Fingerprint?",
-    "mainPic": "./testname/img/en_img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
+    "mainPic": "/testname/img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
     "thems": [
         "Personality",
         "Vegetables",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "How do you usually handle stressful situations?",
-            "pic": "./testname/img/en_img/36b0411f77ebae0ccbf493ffb9a06e39.png",
+            "pic": "/testname/img/36b0411f77ebae0ccbf493ffb9a06e39.png",
             "answers": [
                 {
                     "answer": "Face it head-on",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "How would your friends describe your energy?",
-            "pic": "./testname/img/en_img/1055807375a20c2f878060cdac44b537.png",
+            "pic": "/testname/img/1055807375a20c2f878060cdac44b537.png",
             "answers": [
                 {
                     "answer": "Warm and inviting",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "How do you approach new challenges?",
-            "pic": "./testname/img/en_img/d772522b50a7860478989bc3513a53c7.png",
+            "pic": "/testname/img/d772522b50a7860478989bc3513a53c7.png",
             "answers": [
                 {
                     "answer": "Jump in, ready to give it my all",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "What kind of music do you prefer?",
-            "pic": "./testname/img/en_img/a7249e490de6bd012bb09dbdbcb728e8.png",
+            "pic": "/testname/img/a7249e490de6bd012bb09dbdbcb728e8.png",
             "answers": [
                 {
                     "answer": "High-energy beats",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Which word best describes your style?",
-            "pic": "./testname/img/en_img/c5b711ed523222a1f74280f4b54deefe.png",
+            "pic": "/testname/img/c5b711ed523222a1f74280f4b54deefe.png",
             "answers": [
                 {
                     "answer": "Bold and confident",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "How do you deal with change?",
-            "pic": "./testname/img/en_img/0debce6975c8fc8f24fa1f61de808b6b.png",
+            "pic": "/testname/img/0debce6975c8fc8f24fa1f61de808b6b.png",
             "answers": [
                 {
                     "answer": "Embrace it head-on",

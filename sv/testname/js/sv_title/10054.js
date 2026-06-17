@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Hur bra skulle du gora på Hogwarts?",
-    "mainPic": "./testname/img/fr_img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
+    "mainPic": "/testname/img/01_1d858780-3825-477f-9a5e-7f8a6fc3d36f.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
   "question": "Första dagen på Hogwarts...",
-  "pic": "./testname/img/fr_img/02_c16d9d44-218b-4e5a-842e-8687ff4df380.jpeg",
+  "pic": "/testname/img/02_c16d9d44-218b-4e5a-842e-8687ff4df380.jpeg",
   "answers": [
     {
       "answer": "Du är upprymd och nyfiken.",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
   "question": "Vilket material skulle du glänsa i?",
-  "pic": "./testname/img/fr_img/03_3c3e6d0f-2db6-4d0b-beb1-35d44e3a72c9.jpeg",
+  "pic": "/testname/img/03_3c3e6d0f-2db6-4d0b-beb1-35d44e3a72c9.jpeg",
   "answers": [
      {
       "answer": "Försvar mot ondskans krafter.",
@@ -57,7 +57,7 @@ let quizData = {
 },
         {
   "question": "En vän provocerar dig – vad gör du?",
-  "pic": "./testname/img/fr_img/04_a2e2a8df-8dfb-4a77-96fe-7c047e835a42.jpeg",
+  "pic": "/testname/img/04_a2e2a8df-8dfb-4a77-96fe-7c047e835a42.jpeg",
   "answers": [
     {
       "answer": "Du håller dig lugn.",
@@ -83,7 +83,7 @@ let quizData = {
 },
         {
   "question": "Vilken typ av trollkarl skulle du vara?",
-  "pic": "./testname/img/fr_img/05_29731287-2cc4-4221-94c5-cb8b42d712ad.png",
+  "pic": "/testname/img/05_29731287-2cc4-4221-94c5-cb8b42d712ad.png",
   "answers": [
     {
       "answer": "Modig och rättvis.",
@@ -109,7 +109,7 @@ let quizData = {
 },
         {
   "question": "Om en förbjuden bok faller i dina händer...",
-  "pic": "./testname/img/fr_img/06_1cf5df03-dfaa-47d4-85d9-c44154f827f6.jpeg",
+  "pic": "/testname/img/06_1cf5df03-dfaa-47d4-85d9-c44154f827f6.jpeg",
   "answers": [
     {
       "answer": "Du läser den.",
@@ -135,7 +135,7 @@ let quizData = {
 },
         {
   "question": "Hur skulle du hantera läxor?",
-  "pic": "./testname/img/fr_img/07_eaee93ff-8bc5-4f15-b92a-fbebd8709f19.png",
+  "pic": "/testname/img/07_eaee93ff-8bc5-4f15-b92a-fbebd8709f19.png",
   "answers": [
     {
       "answer": "Du gör dem direkt.",
@@ -161,7 +161,7 @@ let quizData = {
 },
         {
   "question": "Din favoritplats på Hogwarts skulle vara...",
-  "pic": "./testname/img/fr_img/08_00c04ad4-8bbb-4141-9a01-7872146911a5.jpeg",
+  "pic": "/testname/img/08_00c04ad4-8bbb-4141-9a01-7872146911a5.jpeg",
   "answers": [
     {
       "answer": "Biblioteket.",
@@ -187,7 +187,7 @@ let quizData = {
 },
         {
   "question": "Vad skulle vara din största dröm som trollkarl?",
-  "pic": "./testname/img/fr_img/09_b415563d-fd72-418b-9aaa-222685495f2f.jpeg",
+  "pic": "/testname/img/09_b415563d-fd72-418b-9aaa-222685495f2f.jpeg",
   "answers": [
     {
       "answer": "Rädda världen.",

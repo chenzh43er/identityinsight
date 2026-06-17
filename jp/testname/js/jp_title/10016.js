@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたはどのマーベルライバルヒーローですか？",
-    "mainPic": "./testname/img/jp_img/7e577b2fce96000b0e2b6c714ff65207.gif",
+    "mainPic": "/testname/img/7e577b2fce96000b0e2b6c714ff65207.gif",
     "thems": [
         "キャラクター",
         "性格",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "目を覚ますと、自分に超能力があることに気づきます。最初にすることは何ですか？",
-            "pic": "./testname/img/jp_img/58fa7a33530fe99b985cffcd7b8ab70a.jpg",
+            "pic": "/testname/img/58fa7a33530fe99b985cffcd7b8ab70a.jpg",
             "answers": [
                 {
                     "answer": "すぐに自撮りをしてオンラインに投稿する。",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "悪役があなたに戦いを挑んできた！あなたの戦略は？",
-            "pic": "./testname/img/jp_img/12ace8ebe3d415ad5001d328cd8137ac.jpg",
+            "pic": "/testname/img/12ace8ebe3d415ad5001d328cd8137ac.jpg",
             "answers": [
                 {
                     "answer": "話し合って解決する。友達になれるかも？",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "あなたの最大の弱点は何ですか？",
-            "pic": "./testname/img/jp_img/e01eda0bc387ed24ce5af300d88e76b5.jpg",
+            "pic": "/testname/img/e01eda0bc387ed24ce5af300d88e76b5.jpg",
             "answers": [
                 {
                     "answer": "自信過剰ですね…明らかに。",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "あなたのスーパーヒーローのコスチュームは…",
-            "pic": "./testname/img/jp_img/98d6686fdb7b6e5f0cd7eacd375cee58.jpg",
+            "pic": "/testname/img/98d6686fdb7b6e5f0cd7eacd375cee58.jpg",
             "answers": [
                 {
                     "answer": "派手で、劇的で、絶対にケープにふさわしいもの。",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "一日を救う時の決め台詞は何ですか？",
-            "pic": "./testname/img/jp_img/7d05882ea2c58cc5284361a8044a0345.jpg",
+            "pic": "/testname/img/7d05882ea2c58cc5284361a8044a0345.jpg",
             "answers": [
                 {
                     "answer": "「任せて！ ...たぶん。」",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "あなたのチームが計画を立てているが、あなたは…",
-            "pic": "./testname/img/jp_img/b1ea22995e014583a2ca5cff9ca14e70.jpg",
+            "pic": "/testname/img/b1ea22995e014583a2ca5cff9ca14e70.jpg",
             "answers": [
                 {
                     "answer": "極端にリスキーな提案をする。",

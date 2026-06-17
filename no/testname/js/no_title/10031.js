@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilket Galtvort-hus passer best for deg?",
-    "mainPic": "./testname/img/fr_img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
+    "mainPic": "/testname/img/ac9db7dc2c44cba4d55016a1a313afb5.gif",
     "thems": ["Harry Potter", "Galtvort", "Galtvorts hus", "Personlighet", "Filmer", "Magi"],
     "questions": [
         {

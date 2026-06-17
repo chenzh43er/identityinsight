@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Kind of Nostalgic Soul Are You?",
-    "mainPic": "./testname/img/en_img/40_6e31e4bbf09c44d2aed5e69a06e3b623.png",
+    "mainPic": "/testname/img/40_6e31e4bbf09c44d2aed5e69a06e3b623.png",
     "thems": [
         "Throwback",
         "Throwback Thursday / TBT",
@@ -14,7 +14,7 @@ let quizData = {
     "questions":[
   {
     "question": "Which moment feels the most comforting?",
-    "pic": "./testname/img/en_img/41_3c7f84aca9cf4b9dbc1a33db926b0fa6.jpeg",
+    "pic": "/testname/img/41_3c7f84aca9cf4b9dbc1a33db926b0fa6.jpeg",
     "answers": [
       { "answer": "Sitting alone in your childhood bedroom", "aPic": "", "aId": 1 },
       { "answer": "Laughing with friends you don’t see anymore", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Pick a sound that brings you back instantly.",
-    "pic": "./testname/img/en_img/42_bc7338a903344fa4a1d18771a312884a.png",
+    "pic": "/testname/img/42_bc7338a903344fa4a1d18771a312884a.png",
     "answers": [
       { "answer": "Rain hitting a window", "aPic": "", "aId": 1 },
       { "answer": "A song from your teenage years", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "How do you usually feel about the past?",
-    "pic": "./testname/img/en_img/43_674a3bdd14d14f2097bc29a73135496c.jpeg",
+    "pic": "/testname/img/43_674a3bdd14d14f2097bc29a73135496c.jpeg",
     "answers": [
       { "answer": "It feels safer than the present", "aPic": "", "aId": 1 },
       { "answer": "It makes me smile, even if it hurts a little", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Choose a place you’re drawn to.",
-    "pic": "./testname/img/en_img/44_9ce59a292a47436b90a9684671a6ed7b.jpeg",
+    "pic": "/testname/img/44_9ce59a292a47436b90a9684671a6ed7b.jpeg",
     "answers": [
       { "answer": "An empty classroom", "aPic": "", "aId": 1 },
       { "answer": "A late-night diner", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Pick an object that feels nostalgic to you.",
-    "pic": "./testname/img/en_img/45_9c36c560b4884ac59abd765edfede306.jpeg",
+    "pic": "/testname/img/45_9c36c560b4884ac59abd765edfede306.jpeg",
     "answers": [
       { "answer": "A handwritten note", "aPic": "", "aId": 1 },
       { "answer": "An old playlist", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "When you feel nostalgic, you usually…",
-    "pic": "./testname/img/en_img/46_9cf46c4e2ea64f17bbb14e49fb182e3f.jpeg",
+    "pic": "/testname/img/46_9cf46c4e2ea64f17bbb14e49fb182e3f.jpeg",
     "answers": [
       { "answer": "Think quietly and drift into memories", "aPic": "", "aId": 1 },
       { "answer": "Text someone from the past", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Which quote feels most like you?",
-    "pic": "./testname/img/en_img/47_463f56c972dd4f569bc9b974798e05c3.jpeg",
+    "pic": "/testname/img/47_463f56c972dd4f569bc9b974798e05c3.jpeg",
     "answers": [
       { "answer": "“Some moments never really leave us.”", "aPic": "", "aId": 1 },
       { "answer": "“I miss how things felt, not how they were.”", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "How do you handle nostalgia?",
-    "pic": "./testname/img/en_img/48_8b25a0efb6544be1a78facefc4960547.jpeg",
+    "pic": "/testname/img/48_8b25a0efb6544be1a78facefc4960547.jpeg",
     "answers": [
       { "answer": "I sit with it quietly", "aPic": "", "aId": 1 },
       { "answer": "I share it with others", "aPic": "", "aId": 2 },

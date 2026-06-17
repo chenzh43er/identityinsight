@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vad är *valideringen* för det officiella Hogwarts-certifikatet?",
-    "mainPic": "./testname/img/fr_img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
+    "mainPic": "/testname/img/ce3d6f280cd66bb4810738b07f2cf8e6.gif",
     "thems": ["Harry Potter", "Hogwarts", "Film", "Filmer", "Tv", "Trivia"],
     "questions": [
         {
             "question": "Hur många hus är Hogwarts indelat i?",
-            "pic": "./testname/img/fr_img/5d335f21574eb95f56a1a6dc639d7ac7.png",
+            "pic": "/testname/img/5d335f21574eb95f56a1a6dc639d7ac7.png",
             "answers": [
                 {
                     "answer": "2 hus",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Vad är Hogwarts motto?",
-            "pic": "./testname/img/fr_img/d552940a0bbf9b039104d691016c7914.png",
+            "pic": "/testname/img/d552940a0bbf9b039104d691016c7914.png",
             "answers": [
                 {
                     "answer": "Kunskap är den största magin av alla.",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vilken av dessa är INTE lärare eller professor på Hogwarts?",
-            "pic": "./testname/img/fr_img/0a07564af0a5ec054cfe9aaebd68b550.png",
+            "pic": "/testname/img/0a07564af0a5ec054cfe9aaebd68b550.png",
             "answers": [
                 {
                     "answer": "Severus Snape",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Vilken magisk varelse vaktar ingången till Dumbledores kontor?",
-            "pic": "./testname/img/fr_img/7e754dabee546aa20c78ac380f048bdb.png",
+            "pic": "/testname/img/7e754dabee546aa20c78ac380f048bdb.png",
             "answers": [
                 {
                     "answer": "Grip",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vad heter den magiska kartan där du kan se hela utformningen av Hogwarts slott?",
-            "pic": "./testname/img/fr_img/ce41963f00a6135f174bf1312efad53a.png",
+            "pic": "/testname/img/ce41963f00a6135f174bf1312efad53a.png",
             "answers": [
                 {
                     "answer": "Marodörens karta",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Vilken charm används för att kalla fram föremål?",
-            "pic": "./testname/img/fr_img/d1f1ee8a8f05c715d30bf3240b810c82.png",
+            "pic": "/testname/img/d1f1ee8a8f05c715d30bf3240b810c82.png",
             "answers": [
                 {
                     "answer": "Expelliarmus",

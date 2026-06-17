@@ -10,7 +10,7 @@ const results = {
             "Dein Herz brennt aufrichtig. Du inspirierst andere, an die wahre Liebe zu glauben.\n" +
             "Magische Harmonie\n" +
             "Deine beste magische Verbindung: die verträumten Seelen der Ravenclaws, die dein Feuer mit Ruhe ausgleichen.\n",
-        "mainPic": "./testname/img/de_img/kC3bA3aR4oM5.jpg"
+        "mainPic": "/testname/img/kC3bA3aR4oM5.jpg"
     },
     2: {
         "title": "Welcher Hogwarts-Schüler bist du in der Liebe?",
@@ -24,7 +24,7 @@ Deine emotionale Intelligenz und Intuition – du liest Herzen wie alte Zauberb�
 Magische Harmonie
 Deine Seelenverwandte: ein leidenschaftlicher Gryffindor, der deine stille Welt in Schwingung bringt.
 `,
-        "mainPic": "./testname/img/de_img/iA0cB0dM0iE3.jpg"
+        "mainPic": "/testname/img/iA0cB0dM0iE3.jpg"
     },
     3: {
         "title": "Welcher Hogwarts-Schüler bist du in der Liebe?",
@@ -37,7 +37,7 @@ Deine Seelenverwandte: ein leidenschaftlicher Gryffindor, der deine stille Welt 
             "Deine absolute Hingabe, sobald du Vertrauen schenkst. Du liebst nicht halb – du liebst für immer.\n" +
             "Magische Harmonie\n" +
             "Deine perfekte magische Verbindung: die freien, warmherzigen Seelen der Hufflepuffs, die deine Intensität besänftigen.\n",
-        "mainPic": "./testname/img/de_img/hE4aF2pA8aM3.jpg"
+        "mainPic": "/testname/img/hE4aF2pA8aM3.jpg"
     },
     4: {
         "title": "Welcher Hogwarts-Schüler bist du in der Liebe?",
@@ -51,6 +51,6 @@ Deine Treue und dein Optimismus. Du lässt deinen Partner spüren, dass er bei d
 Magische Harmonie
 Dein idealer Partner: ein beschützender Slytherin, der deine Sanftheit und dein Licht zu schätzen weiß.
 `,
-        "mainPic": "./testname/img/de_img/vJ0nL1eU4cB5.jpg"
+        "mainPic": "/testname/img/vJ0nL1eU4cB5.jpg"
     },
 };

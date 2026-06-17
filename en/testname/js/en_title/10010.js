@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Super Bear Adventure Mod Matches Your Personality? ",
-    "mainPic": "./testname/img/en_img/10be3f0585ed1332807a0732b0a36aed.gif",
+    "mainPic": "/testname/img/10be3f0585ed1332807a0732b0a36aed.gif",
     "thems": [
         "Personality",
         "Superbear",
@@ -12,7 +12,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "Which Super Bear Adventure item is a must-have for you?",
-        "pic": "./testname/img/en_img/d2fe951e0541e014a30ab3d0acd90dbc.jpg",
+        "pic": "/testname/img/d2fe951e0541e014a30ab3d0acd90dbc.jpg",
         "answers": [
             {
                 "answer":"Golden Key",
@@ -34,7 +34,7 @@ let quizData = {
         ]
     },{
         "question": "Which character would you rescue first in the game?",
-        "pic": "./testname/img/en_img/9be13b93c9ebf157e3247a61045eb1c2.jpg",
+        "pic": "/testname/img/9be13b93c9ebf157e3247a61045eb1c2.jpg",
         "answers": [
             {
                 "answer":"Baaren",
@@ -56,7 +56,7 @@ let quizData = {
         ]
     },{
         "question": "What's your favorite in-game activity?",
-        "pic": "./testname/img/en_img/b83cc2bee59979093268d5471def001d.jpg",
+        "pic": "/testname/img/b83cc2bee59979093268d5471def001d.jpg",
         "answers": [
             {
                 "answer":"Collecting treasures",
@@ -78,7 +78,7 @@ let quizData = {
         ]
     },{
         "question": "Which headgear would you prefer?",
-        "pic": "./testname/img/en_img/d6cac267b94656b77bdb4d129fee2743.jpg",
+        "pic": "/testname/img/d6cac267b94656b77bdb4d129fee2743.jpg",
         "answers": [
             {
                 "answer":"Knight Helmet",
@@ -100,7 +100,7 @@ let quizData = {
         ]
     },{
         "question": "What would be your special power?",
-        "pic": "./testname/img/en_img/d6cac267b94656b77bdb4d129fee2743.jpg",
+        "pic": "/testname/img/d6cac267b94656b77bdb4d129fee2743.jpg",
         "answers": [
             {
                 "answer":"Flying Glider",

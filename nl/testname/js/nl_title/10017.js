@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Je geboortesteen onthult je liefdesbestemming!",
-    "mainPic": "./testname/img/nl_img/4d97ab7720b56c2156b9ad2115523ba3.gif",
+    "mainPic": "/testname/img/4d97ab7720b56c2156b9ad2115523ba3.gif",
     "thems": [
         "Horoscoop",
         "Edelsteen",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is je geboortemaand?",
-            "pic": "./testname/img/nl_img/feadde12538a88f7c392cdb0d1c3a3d7.png",
+            "pic": "/testname/img/feadde12538a88f7c392cdb0d1c3a3d7.png",
             "answers": [
                 {
                     "answer": "Januari, Februari, Maart",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welke edelsteen is geassocieerd met jouw geboortemaand?",
-            "pic": "./testname/img/nl_img/c240a2fdfcde5240d165ccbb2a0c50cb.png",
+            "pic": "/testname/img/c240a2fdfcde5240d165ccbb2a0c50cb.png",
             "answers": [
                 {
                     "answer": "Granaat, amethist of aquamarijn",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Op welke datum van de maand bent u geboren?",
-            "pic": "./testname/img/nl_img/d82c5000b391e0a58a3321acbc382570.png",
+            "pic": "/testname/img/d82c5000b391e0a58a3321acbc382570.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Wat is jouw sterrenbeeld en element?",
-            "pic": "./testname/img/nl_img/247f488aff7ba7b64fe02be5fdf896de.png",
+            "pic": "/testname/img/247f488aff7ba7b64fe02be5fdf896de.png",
             "answers": [
                 {
                     "answer": "Lucht (Tweelingen, Weegschaal, Waterman)",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Kies een andere edelsteen die je aandacht trekt:",
-            "pic": "./testname/img/nl_img/21b5c641a890080507c258b7ff9993cc.png",
+            "pic": "/testname/img/21b5c641a890080507c258b7ff9993cc.png",
             "answers": [
                 {
                     "answer": "Toermalijn",

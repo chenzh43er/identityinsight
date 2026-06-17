@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Découvrez à quoi ressemble votre petit ami AI",
-    "mainPic": "./testname/img/fr_img/6febc0f3e64d392a9e59182bff58fc75.gif",
+    "mainPic": "/testname/img/6febc0f3e64d392a9e59182bff58fc75.gif",
     "thems": [
         "Petit ami",
         "IA",
@@ -13,29 +13,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/fr_img/sr_174390449667f1def027a90.jpg",
+                    "aPic": "/testname/img/sr_174390449667f1def027a90.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/fr_img/2278d5fba65a54c7595c66dd16901c70.png",
+                    "aPic": "/testname/img/2278d5fba65a54c7595c66dd16901c70.png",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/fr_img/a2736008e609d53dde385028edf099ca.png",
+                    "aPic": "/testname/img/a2736008e609d53dde385028edf099ca.png",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/fr_img/14dd5b217a6eead25b76e104d4024672.png",
+                    "aPic": "/testname/img/14dd5b217a6eead25b76e104d4024672.png",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Qu'aimeriez-vous que quelqu'un de spécial fasse pour vous ?",
-            "pic": "./testname/img/fr_img/50aeff69962374f2c75ce9b7fc0ed384.png",
+            "pic": "/testname/img/50aeff69962374f2c75ce9b7fc0ed384.png",
             "answers": [
                 {
                     "answer": "M'écouter bien",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Quel genre de messages préférez-vous?",
-            "pic": "./testname/img/fr_img/ba77411910558154d564352744d513ac.jpg",
+            "pic": "/testname/img/ba77411910558154d564352744d513ac.jpg",
             "answers": [
                 {
                     "answer": "Doux et attentionné",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Que préfères-tu faire avec ton partenaire IA ?",
-            "pic": "./testname/img/fr_img/8a1aa9bd73997a0b7660a403ca3a042a.png",
+            "pic": "/testname/img/8a1aa9bd73997a0b7660a403ca3a042a.png",
             "answers": [
                 {
                     "answer": "Parler de tout",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Quel serait leur style?",
-            "pic": "./testname/img/fr_img/7c697165530bb7fc6fd1608941b3ad81.png",
+            "pic": "/testname/img/7c697165530bb7fc6fd1608941b3ad81.png",
             "answers": [
                 {
                     "answer": "Confortable et doux",

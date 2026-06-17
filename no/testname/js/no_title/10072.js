@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Beregn din kompatibilitet med partneren din basert på fødselshoroskopet ditt!",
-    "mainPic": "./testname/img/no_img/03791f91f1db6ee7cdf86eab64191b9a.gif",
+    "mainPic": "/testname/img/03791f91f1db6ee7cdf86eab64191b9a.gif",
     "thems": [
         "Horoskop",
         "Fødselshoroskop",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva er din fødselsdato?",
-            "pic": "./testname/img/no_img/ea2c8532bf2c65081353ca2d189847c4.png",
+            "pic": "/testname/img/ea2c8532bf2c65081353ca2d189847c4.png",
             "answers": [
                 {
                     "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "I hvilken måned i året ble du født?",
-            "pic": "./testname/img/no_img/23d47d278fa9708853312cfd2a56223e.png",
+            "pic": "/testname/img/23d47d278fa9708853312cfd2a56223e.png",
             "answers": [
                 {
                     "answer": "Januar, Februar, Mars",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Hvilken ukedag ble du født?",
-            "pic": "./testname/img/no_img/681415f0c2d442c2fbfde7d70f749432.png",
+            "pic": "/testname/img/681415f0c2d442c2fbfde7d70f749432.png",
             "answers": [
                 {
                     "answer": "Mandag eller tirsdag",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Hva var ditt eksakte fødselstidspunkt?",
-            "pic": "./testname/img/no_img/db8006cd0c5c8d8724953586e32b919a.png",
+            "pic": "/testname/img/db8006cd0c5c8d8724953586e32b919a.png",
             "answers": [
                 {
                     "answer": "Morgen",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt stjernetegn og element?",
-            "pic": "./testname/img/no_img/bf80bdd4796df21055a7e705600ddf90.png",
+            "pic": "/testname/img/bf80bdd4796df21055a7e705600ddf90.png",
             "answers": [
                 {
                     "answer": "Luft (Tvillingene, Vekten, Vannmannen)",

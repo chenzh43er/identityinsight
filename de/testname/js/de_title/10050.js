@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches magische Tier aus Harry Potter wäre dein Begleiter?",
-    "mainPic": "./testname/img/de_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+    "mainPic": "/testname/img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie würdest du dich selbst beschreiben?",
-            "pic": "./testname/img/de_img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
+            "pic": "/testname/img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
             "answers": [
                 {
                     "answer": "Stolz und unabhängig.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Was würdest du tun, wenn du bedroht wirst?",
-            "pic": "./testname/img/de_img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
+            "pic": "/testname/img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
             "answers": [
                 {
                     "answer": "Kämpfen bis zum Ende.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein größter Traum? ",
-            "pic": "./testname/img/de_img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
+            "pic": "/testname/img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
             "answers": [
                   {
                         "answer": "Freiheit.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Wo würdest du leben wollen?",
-            "pic": "./testname/img/de_img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
+            "pic": "/testname/img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
             "answers": [
                 {
                     "answer": "In den Wäldern von Verbotenem Wald.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Welche Fähigkeit würdest du am meisten schätzen?",
-            "pic": "./testname/img/de_img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
+            "pic": "/testname/img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
             "answers": [
                  {
                     "answer": "Stärke und Mut",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Wie gehst du mit Freunden um?",
-            "pic": "./testname/img/de_img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
+            "pic": "/testname/img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
             "answers": [
                   {
                     "answer": "Ich schütze sie mit aller Kraft",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Welche Umgebung fasziniert dich am meisten?",
-            "pic": "./testname/img/de_img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
+            "pic": "/testname/img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
             "answers": [
                 {
                     "answer": "Dichte Wälder",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Welches Motto beschreibt dich am besten?",
-            "pic": "./testname/img/de_img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
+            "pic": "/testname/img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
             "answers": [
                   {
                         "answer": "Freiheit ist mein größter Schatz.",

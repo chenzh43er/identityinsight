@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Når vil du gifte deg ifølge astrologi?",
-    "mainPic": "./testname/img/no_img/ba172e27c7b6813f18385194af06fcd4.gif",
+    "mainPic": "/testname/img/ba172e27c7b6813f18385194af06fcd4.gif",
     "thems": [
         "Ekteskap",
         "Datoer",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva slags bryllup drømmer du om?",
-            "pic": "./testname/img/no_img/79facc50921a4a456f74f6d515b3f3cb.png",
+            "pic": "/testname/img/79facc50921a4a456f74f6d515b3f3cb.png",
             "answers": [
                 {
                     "answer": "Intimt og spontant",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Hvilken årstid føles mest romantisk for deg?",
-            "pic": "./testname/img/no_img/2bdfc8e958f3a80e1c10827efe8372d8.png",
+            "pic": "/testname/img/2bdfc8e958f3a80e1c10827efe8372d8.png",
             "answers": [
                 {
                     "answer": "Sommer",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Din ideelle bryllupsreise-stemning?",
-            "pic": "./testname/img/no_img/37c17eb2b941e4b81a25bd8d906702dc.png",
+            "pic": "/testname/img/37c17eb2b941e4b81a25bd8d906702dc.png",
             "answers": [
                 {
                     "answer": "En avslappende, åndelig retrett",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Hva er ditt forhold til tradisjoner?",
-            "pic": "./testname/img/no_img/6b32dee84f4c5dafba19ccfe861f71e8.jpeg",
+            "pic": "/testname/img/6b32dee84f4c5dafba19ccfe861f71e8.jpeg",
             "answers": [
                 {
                     "answer": "Jeg respekterer og følger dem",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Hvilken fargepalett for bryllup ville du valgt?",
-            "pic": "./testname/img/no_img/bd39a74702b71b9c99102cb11fb6c5b4.png",
+            "pic": "/testname/img/bd39a74702b71b9c99102cb11fb6c5b4.png",
             "answers": [
                 {
                     "answer": "Gull og maroon",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "Din dyrekrets tegnenergi føles nærmest:",
-            "pic": "./testname/img/no_img/ec1537c2a863c8d6138d49721523a46a.jpeg",
+            "pic": "/testname/img/ec1537c2a863c8d6138d49721523a46a.jpeg",
             "answers": [
                 {
                     "answer": "Tyren, Krepsen, Jomfruen",

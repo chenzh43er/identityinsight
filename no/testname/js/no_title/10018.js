@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Disney-prinsesse er du i påkledningsspill?",
-    "mainPic": "./testname/img/no_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
+    "mainPic": "/testname/img/b75a84ce45756e0e51d4a3c0aca726af.gif",
     "thems": [
         "Disney",
         "Påkledning",

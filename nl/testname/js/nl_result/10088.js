@@ -20,7 +20,7 @@ goed onder controle houdt
 en nooit zomaar
 iets weggeeft.
     `,
-    "mainPic": "./testname/img/nl_img/09_081f0955b3234a2cb8d8df8b4ac5841d.jpeg"
+    "mainPic": "/testname/img/09_081f0955b3234a2cb8d8df8b4ac5841d.jpeg"
   },
   "2": {
     "title": "Wie is de Mol? Test of jij de ultieme Mol bent of een slimme kandidaat!",
@@ -42,7 +42,7 @@ Mensen onderschatten je —
 en dat kan
 in jouw voordeel werken.
     `,
-    "mainPic": "./testname/img/nl_img/10_399d430b09894d12b6c364701bc9b433.jpeg"
+    "mainPic": "/testname/img/10_399d430b09894d12b6c364701bc9b433.jpeg"
   },
   "3": {
     "title": "Wie is de Mol? Test of jij de ultieme Mol bent of een slimme kandidaat!",
@@ -64,7 +64,7 @@ kan jij degene zijn
 die de Mol
 als eerste doorheeft.
     `,
-    "mainPic": "./testname/img/nl_img/11_80e4ece6bd0a4d1dbbefb388db000a79.jpeg"
+    "mainPic": "/testname/img/11_80e4ece6bd0a4d1dbbefb388db000a79.jpeg"
   },
   "4": {
     "title": "Wie is de Mol? Test of jij de ultieme Mol bent of een slimme kandidaat!",
@@ -89,6 +89,6 @@ en dodelijk effectief
 zonder ooit
 verdacht te lijken.
     `,
-    "mainPic": "./testname/img/nl_img/12_f916267a94294f8b8eae2831f518e2f8.jpeg"
+    "mainPic": "/testname/img/12_f916267a94294f8b8eae2831f518e2f8.jpeg"
   }
 };

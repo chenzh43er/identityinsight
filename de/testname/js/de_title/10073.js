@@ -1,6 +1,6 @@
 let quizData = {
     "title": "In welcher Tatort-Stadt wärst du der perfekte Ermittler?",
-    "mainPic": "./testname/img/de_img/26_57b27542fa8246f682992c5d7bd262b7.jpeg",
+    "mainPic": "/testname/img/26_57b27542fa8246f682992c5d7bd262b7.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Wie gehst du an einen neuen Fall heran?",
-    "pic": "./testname/img/de_img/27_021af0f800c0427987cb1454bac7f9aa.jpeg",
+    "pic": "/testname/img/27_021af0f800c0427987cb1454bac7f9aa.jpeg",
     "answers": [
       { "answer": "Ich analysiere zuerst alle Fakten", "aPic": "", "aId": 1 },
       { "answer": "Ich höre auf mein Bauchgefühl", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Was ist dir als Ermittler am wichtigsten?",
-    "pic": "./testname/img/de_img/28_d7e69992a166453da17ee28a677475d2.jpeg",
+    "pic": "/testname/img/28_d7e69992a166453da17ee28a677475d2.jpeg",
     "answers": [
       { "answer": "Präzision und Ordnung", "aPic": "", "aId": 1 },
       { "answer": "Menschliche Motive verstehen", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Wie arbeitest du im Team?",
-    "pic": "./testname/img/de_img/29_030e6bf14bf94687bfe329a284ec11a3.jpeg",
+    "pic": "/testname/img/29_030e6bf14bf94687bfe329a284ec11a3.jpeg",
     "answers": [
       { "answer": "Strukturiert und sachlich", "aPic": "", "aId": 1 },
       { "answer": "Emotional, aber loyal", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Wie reagierst du unter Druck?",
-    "pic": "./testname/img/de_img/30_ff75dfaa688c44a983748ee4ee0afb43.jpeg",
+    "pic": "/testname/img/30_ff75dfaa688c44a983748ee4ee0afb43.jpeg",
     "answers": [
       { "answer": "Ruhig bleiben und fokussieren", "aPic": "", "aId": 1 },
       { "answer": "Gefühle zulassen, aber weitermachen", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Welche Umgebung liegt dir am meisten?",
-    "pic": "./testname/img/de_img/31_037b8b233ff947d385e9823c3c6a3ecd.jpeg",
+    "pic": "/testname/img/31_037b8b233ff947d385e9823c3c6a3ecd.jpeg",
     "answers": [
       { "answer": "Wohlgeordnet und traditionsbewusst", "aPic": "", "aId": 1 },
       { "answer": "Offen, herzlich und lebendig", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Wie gehst du mit Verdächtigen um?",
-    "pic": "./testname/img/de_img/32_f6c0ba31832e4935abae79a49fa363e3.jpeg",
+    "pic": "/testname/img/32_f6c0ba31832e4935abae79a49fa363e3.jpeg",
     "answers": [
       { "answer": "Sachlich und distanziert", "aPic": "", "aId": 1 },
       { "answer": "Einfühlsam und direkt", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Was treibt dich wirklich an?",
-    "pic": "./testname/img/de_img/33_f87a981e88184cc49331c833464f637a.jpeg",
+    "pic": "/testname/img/33_f87a981e88184cc49331c833464f637a.jpeg",
     "answers": [
       { "answer": "Verantwortung", "aPic": "", "aId": 1 },
       { "answer": "Gerechtigkeit", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Wie würdest du dich selbst beschreiben?",
-    "pic": "./testname/img/de_img/34_eb8f18edaa4b495289fe1e0fb90613ef.jpeg",
+    "pic": "/testname/img/34_eb8f18edaa4b495289fe1e0fb90613ef.jpeg",
     "answers": [
       { "answer": "Diszipliniert und zuverlässig", "aPic": "", "aId": 1 },
       { "answer": "Empathisch und bodenständig", "aPic": "", "aId": 2 },

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie viele Menschen sind am selben Tag gestorben wie Sie?",
-    "mainPic": "./testname/img/de_img/825852946811c237259322970ca7e8a5.jpeg",
+    "mainPic": "/testname/img/825852946811c237259322970ca7e8a5.jpeg",
     "thems": [
         "Horoskop",
         "Trendig",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie wachst du normalerweise auf?",
-            "pic": "./testname/img/de_img/fb537c1195fa2a969df577a3137addab.png",
+            "pic": "/testname/img/fb537c1195fa2a969df577a3137addab.png",
             "answers": [
                 {
                     "answer": "Lauter Wecker und sofortige Panik",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wie reagieren Sie auf schlechte Nachrichten?",
-            "pic": "./testname/img/de_img/90a6d1eee1d954632cdf8b3ccb97608d.png",
+            "pic": "/testname/img/90a6d1eee1d954632cdf8b3ccb97608d.png",
             "answers": [
                 {
                     "answer": "Schreien und jemanden anrufen",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Wo würdest du spuken, wenn du ein Geist wärst?",
-            "pic": "./testname/img/de_img/81be4c8c748a0e501aabb27716872615.png",
+            "pic": "/testname/img/81be4c8c748a0e501aabb27716872615.png",
             "answers": [
                 {
                     "answer": "Ein Vergnügungspark",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Sternzeichen-Energie?",
-            "pic": "./testname/img/de_img/5ec38622c9b9c44ba6af1d51afd439a3.png",
+            "pic": "/testname/img/5ec38622c9b9c44ba6af1d51afd439a3.png",
             "answers": [
                 {
                     "answer": "Wasser",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Wenn du ein Geist wärst, was wäre deine Hauptaktivität als Geist?",
-            "pic": "./testname/img/de_img/07901d83b9371e72ffc80cff5bd154c1.png",
+            "pic": "/testname/img/07901d83b9371e72ffc80cff5bd154c1.png",
             "answers": [
                 {
                     "answer": "Streiche spielen mit den Lebenden",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Welchen Gegenstand würdest du mit ins Jenseits nehmen?",
-            "pic": "./testname/img/de_img/0be424854e4f24aa67561b991b437257.png",
+            "pic": "/testname/img/0be424854e4f24aa67561b991b437257.png",
             "answers": [
                 {
                     "answer": "Mein Handy – muss verbunden bleiben",

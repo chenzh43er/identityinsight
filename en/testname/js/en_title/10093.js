@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What Era of Your Life Are You Secretly In Right Now?",
-    "mainPic": "./testname/img/en_img/61_08ef1629bb304d6e9f0e7b807404ecae.jpeg",
+    "mainPic": "/testname/img/61_08ef1629bb304d6e9f0e7b807404ecae.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
   {
     "question": "Your mornings usually start with…",
-    "pic": "./testname/img/en_img/62_2a33f2642d5e4ae8add2670924a65fbf.jpeg",
+    "pic": "/testname/img/62_2a33f2642d5e4ae8add2670924a65fbf.jpeg",
     "answers": [
       { "answer": "Planning", "aPic": "", "aId": 1 },
       { "answer": "Scrolling", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Your social battery lately feels…",
-    "pic": "./testname/img/en_img/63_fb3342c484b946ca81fd5698a1c81627.jpeg",
+    "pic": "/testname/img/63_fb3342c484b946ca81fd5698a1c81627.jpeg",
     "answers": [
       { "answer": "Low but stable", "aPic": "", "aId": 1 },
       { "answer": "Random", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "How do you feel about your future?",
-    "pic": "./testname/img/en_img/64_a3748628b49b453e97adb6fd1da07555.jpeg",
+    "pic": "/testname/img/64_a3748628b49b453e97adb6fd1da07555.jpeg",
     "answers": [
       { "answer": "Calculated", "aPic": "", "aId": 1 },
       { "answer": "Curious", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Your relationship with your past?",
-    "pic": "./testname/img/en_img/65_410dc86f626e45398c48490e99e23d8d.jpeg",
+    "pic": "/testname/img/65_410dc86f626e45398c48490e99e23d8d.jpeg",
     "answers": [
       { "answer": "Learned from it", "aPic": "", "aId": 1 },
       { "answer": "Laugh at it", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Your current coping mechanism?",
-    "pic": "./testname/img/en_img/66_b466a6210b23439eae8d2e64c4dcf3ed.jpeg",
+    "pic": "/testname/img/66_b466a6210b23439eae8d2e64c4dcf3ed.jpeg",
     "answers": [
       { "answer": "Structure", "aPic": "", "aId": 1 },
       { "answer": "Distraction", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "What do you crave most right now?",
-    "pic": "./testname/img/en_img/67_b008b3c3d97d4d14bb435f2fd872dcdb.webp",
+    "pic": "/testname/img/67_b008b3c3d97d4d14bb435f2fd872dcdb.webp",
     "answers": [
       { "answer": "Stability", "aPic": "", "aId": 1 },
       { "answer": "Freedom", "aPic": "", "aId": 2 },

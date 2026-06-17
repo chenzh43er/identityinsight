@@ -1,7 +1,7 @@
 const dataM = {
     "tested":[{
         "url":"https://identityinsight.org/en/test-page_en/?utm_content=10002",
-        "pic":"./testname/img/en_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+        "pic":"/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
         "title":"Which Roblox Avatar Matches Your Vibe? "
     },{
         "url": "https://identityinsight.org/en/test-page_en/?utm_content=10018",

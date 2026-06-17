@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Kun je het eindeloze gat overleven? Doe deze quiz.",
-    "mainPic": "./testname/img/nl_img/8faf7bdabba6d92c7fbde984286beb20.gif",
+    "mainPic": "/testname/img/8faf7bdabba6d92c7fbde984286beb20.gif",
     "thems": [
         "Eindeloos",
         "VR-spel",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat doe je als eerste ondergronds?",
-            "pic": "./testname/img/nl_img/d5a0007ef539d9e182b55e7d6be1070b.jpg",
+            "pic": "/testname/img/d5a0007ef539d9e182b55e7d6be1070b.jpg",
             "answers": [
                 {
                     "answer": "Licht aanzetten",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Je ziet glanzende stenen — je:",
-            "pic": "./testname/img/nl_img/00da9c5868f8da29adf6daa21d5d306a.jpg",
+            "pic": "/testname/img/00da9c5868f8da29adf6daa21d5d306a.jpg",
             "answers": [
                 {
                     "answer": "Grijp ze",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Er beweegt iets in het donker — jij:",
-            "pic": "./testname/img/nl_img/b06bbba9e50326aadc5aa22cda8a936c.jpg",
+            "pic": "/testname/img/b06bbba9e50326aadc5aa22cda8a936c.jpg",
             "answers": [
                 {
                     "answer": "Licht schijnen",

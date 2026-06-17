@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Disney Character Calculator: Voeg Je Gegevens Toe, Ontvang Je Disney Match",
-    "mainPic": "./testname/img/nl_img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
+    "mainPic": "/testname/img/a1af9e01bdc8c62cc03a8c4cc77e6b7f.jpeg",
     "thems": [
         "Disney",
         "Persoonlijkheid",

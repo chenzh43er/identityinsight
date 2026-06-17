@@ -13,7 +13,7 @@ but undeniable.
 You inspire respect
 and admiration wherever you go.
     `,
-    "mainPic": "./testname/img/en_img/87_795ca2466a9747f99104d96c1dfada01.jpeg"
+    "mainPic": "/testname/img/87_795ca2466a9747f99104d96c1dfada01.jpeg"
   },
   "2": {
     "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed.",
@@ -29,7 +29,7 @@ you’re unforgettable.
 Your audacity turns heads,
 and your passion fuels stories.
     `,
-    "mainPic": "./testname/img/en_img/88_300f77fdba7f4109969fd8163ed6272f.jpeg"
+    "mainPic": "/testname/img/88_300f77fdba7f4109969fd8163ed6272f.jpeg"
   },
   "3": {
     "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed.",
@@ -47,7 +47,7 @@ your full story,
 but your presence
 influences everything.
     `,
-    "mainPic": "./testname/img/en_img/89_7b671b3ec60c45b29f21976b8cb4afe3.jpeg"
+    "mainPic": "/testname/img/89_7b671b3ec60c45b29f21976b8cb4afe3.jpeg"
   },
   "4": {
     "title": "Are You a Diamond or a Scandal? Your Bridgerton Season 4 Persona Revealed.",
@@ -64,6 +64,6 @@ You balance fun and elegance
 effortlessly,
 making connections easy.
     `,
-    "mainPic": "./testname/img/en_img/90_3b5fb337b9404dd091acdc4ed3310237.jpeg"
+    "mainPic": "/testname/img/90_3b5fb337b9404dd091acdc4ed3310237.jpeg"
   }
 };

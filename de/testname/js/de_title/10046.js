@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Hauptcharakter aus Harry Potter bist du?",
-    "mainPic": "./testname/img/de_img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
+    "mainPic": "/testname/img/935b51532edd5d9ab67b4c97b6e6e9a9.gif",
     "thems": [
         "Harry Potter",
         "Harry-Potter-Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wenn du zum ersten Mal in Hogwarts ankommst, was fühlst du?",
-            "pic": "./testname/img/de_img/oA1fO1kK0e.jpg",
+            "pic": "/testname/img/oA1fO1kK0e.jpg",
             "answers": [
                 {
                     "answer": "Aufregung und Staunen",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Welche Charaktereigenschaft beschreibt dich am besten?",
-            "pic": "./testname/img/de_img/pH0hR1eI3a.jpg",
+            "pic": "/testname/img/pH0hR1eI3a.jpg",
             "answers": [
                 {
                     "answer": "Mutig",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Wie reagierst du auf eine Ungerechtigkeit?",
-            "pic": "./testname/img/de_img/fA3eV5bB2i.jpg",
+            "pic": "/testname/img/fA3eV5bB2i.jpg",
             "answers": [
                 {
                     "answer": "Du stellst dich dagegen und kämpfst",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Wenn man dir einen mächtigen magischen Gegenstand gibt, was tust du?",
-            "pic": "./testname/img/de_img/cA2aD3aA0f.jpg",
+            "pic": "/testname/img/cA2aD3aA0f.jpg",
             "answers": [
                 {
                     "answer": "Du nutzt ihn, um andere zu verteidigen",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Welche Beziehung hast du zu deinen Freunden?",
-            "pic": "./testname/img/de_img/bD2cA2cC0e.jpg",
+            "pic": "/testname/img/bD2cA2cC0e.jpg",
             "answers": [
                 {
                     "answer": "Du bist der natürliche Anführer",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Welches wäre dein ideales Tier als Begleiter?",
-            "pic": "./testname/img/de_img/oF5hD0hA8bS.jpg",
+            "pic": "/testname/img/oF5hD0hA8bS.jpg",
             "answers": [
                 {
                     "answer": "Eine Eule",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Welcher Moment im Schloss wäre dein Lieblingsmoment?",
-            "pic": "./testname/img/de_img/dK2eR5aK0h.png",
+            "pic": "/testname/img/dK2eR5aK0h.png",
             "answers": [
                 {
                     "answer": "Das Quidditch-Spiel",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Si tu devais choisir une devise magique, que choisiras-tu ?",
-            "pic": "./testname/img/de_img/dC1kB0uF4q.jpg",
+            "pic": "/testname/img/dC1kB0uF4q.jpg",
             "answers": [
                 {
                     "answer": "« Le courage avant tout »",

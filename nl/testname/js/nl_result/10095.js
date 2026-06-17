@@ -20,7 +20,7 @@ Dat maakt je
 gevaarlijk —
 en waardevol.
     `,
-    "mainPic": "./testname/img/nl_img/94_3b71d272011a48b09fc1e69783694062.jpeg"
+    "mainPic": "/testname/img/94_3b71d272011a48b09fc1e69783694062.jpeg"
   },
   "2": {
     "title": "Zou jij overleven in de wereld van Mocro Maffia?",
@@ -44,7 +44,7 @@ stoppen
 voordat het
 te laat is.
     `,
-    "mainPic": "./testname/img/nl_img/95_a0033c8f68d949649bc1321e4eb90492.jpeg"
+    "mainPic": "/testname/img/95_a0033c8f68d949649bc1321e4eb90492.jpeg"
   },
   "3": {
     "title": "Zou jij overleven in de wereld van Mocro Maffia?",
@@ -68,7 +68,7 @@ voor jou vooral:
 op tijd
 uitstappen.
     `,
-    "mainPic": "./testname/img/nl_img/96_99738e8bc2d444aca891d3aa80cf4a1f.jpeg"
+    "mainPic": "/testname/img/96_99738e8bc2d444aca891d3aa80cf4a1f.jpeg"
   },
   "4": {
     "title": "Zou jij overleven in de wereld van Mocro Maffia?",
@@ -92,6 +92,6 @@ om één ding:
 wie je
 vertrouwt.
     `,
-    "mainPic": "./testname/img/nl_img/97_b201d0e72a034c4a9c0bbcdba1d05ec1.jpeg"
+    "mainPic": "/testname/img/97_b201d0e72a034c4a9c0bbcdba1d05ec1.jpeg"
   }
 };

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué secretos tiene tu pareja?",
-    "mainPic": "./testname/img/es_img/d01dcdb021164e37c92a39b93deeaacf.gif",
+    "mainPic": "/testname/img/d01dcdb021164e37c92a39b93deeaacf.gif",
     "thems": [
         "Secretos",
         "Misterio",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cuál es la reacción típica de tu pareja ante conversaciones serias?",
-            "pic": "./testname/img/es_img/a69d65515bfe71544086b7ae2f5fea40.jpg",
+            "pic": "/testname/img/a69d65515bfe71544086b7ae2f5fea40.jpg",
             "answers": [
                 {
                     "answer": "Silencioso",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "¿Qué hacen cuando reciben una llamada y estás cerca?",
-            "pic": "./testname/img/es_img/cde229d6e5613a3125e1f95c4931b269.jpg",
+            "pic": "/testname/img/cde229d6e5613a3125e1f95c4931b269.jpg",
             "answers": [
                 {
                     "answer": "Salir",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo actúan cuando mencionas a tu ex?",
-            "pic": "./testname/img/es_img/9be5e5bd59ea6c3edc592f8cdf7fb026.jpg",
+            "pic": "/testname/img/9be5e5bd59ea6c3edc592f8cdf7fb026.jpg",
             "answers": [
                 {
                     "answer": "Tranquilo",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "¿Con qué frecuencia sacan el pasado a relucir?",
-            "pic": "./testname/img/es_img/f2feddfc420949e5e9f8fdbfaf4cea94.jpg",
+            "pic": "/testname/img/f2feddfc420949e5e9f8fdbfaf4cea94.jpg",
             "answers": [
                 {
                     "answer": "Nunca",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "¿Qué suelen hacer en su teléfono?",
-            "pic": "./testname/img/es_img/53cca60c6e8e00247ec84fcb4fb4a86a.jpg",
+            "pic": "/testname/img/53cca60c6e8e00247ec84fcb4fb4a86a.jpg",
             "answers": [
                 {
                     "answer": "Desplazar",

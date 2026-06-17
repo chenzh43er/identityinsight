@@ -1,6 +1,6 @@
 let quizData = {
     "title": "The location of your birthmark will reveal your death in a past life!",
-    "mainPic": "./testname/img/de_img/0a7c50e316332bbd262fa5ec89d8b258.gif",
+    "mainPic": "/testname/img/0a7c50e316332bbd262fa5ec89d8b258.gif",
     "thems": [
         "Death",
         "birthmark",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Where is your birthmark?",
-            "pic": "./testname/img/de_img/2dd44d549f230bfd92d6dda275306d69.jpg",
+            "pic": "/testname/img/2dd44d549f230bfd92d6dda275306d69.jpg",
             "answers": [
                 {
                     "answer": "Neck",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "What shape is your birthmark?",
-            "pic": "./testname/img/de_img/ace14742239cf93a65304a6d16c84e99.jpg",
+            "pic": "/testname/img/ace14742239cf93a65304a6d16c84e99.jpg",
             "answers": [
                 {
                     "answer": "Around",

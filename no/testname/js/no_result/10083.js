@@ -28,7 +28,7 @@ og støtter deg
 når verden
 føles ustabil.
     `,
-    "mainPic": "./testname/img/no_img/10_0e0dfd8bf4f8439eab988a61cf30e7ca.png"
+    "mainPic": "/testname/img/10_0e0dfd8bf4f8439eab988a61cf30e7ca.png"
   },
   "2": {
     "title": "Hvilken karakter fra «SKAM» er din sjelevenn?",
@@ -58,7 +58,7 @@ den er rå,
 sann
 og ekte.
     `,
-    "mainPic": "./testname/img/no_img/11_57d3c23b512d4ee5b2890021ed4a7626.webp"
+    "mainPic": "/testname/img/11_57d3c23b512d4ee5b2890021ed4a7626.webp"
   },
   "3": {
     "title": "Hvilken karakter fra «SKAM» er din sjelevenn?",
@@ -87,7 +87,7 @@ stabilitet
 og følelsen
 av å høre til.
     `,
-    "mainPic": "./testname/img/no_img/12_2520402adc294185a71eebf490390c7e.jpeg"
+    "mainPic": "/testname/img/12_2520402adc294185a71eebf490390c7e.jpeg"
   },
   "4": {
     "title": "Hvilken karakter fra «SKAM» er din sjelevenn?",
@@ -119,6 +119,6 @@ skape en forbindelse
 som føles større
 enn hverdagen.
     `,
-    "mainPic": "./testname/img/no_img/13_8c318dab8ce549e19ae2003dab41589b.jpeg"
+    "mainPic": "/testname/img/13_8c318dab8ce549e19ae2003dab41589b.jpeg"
   }
 };

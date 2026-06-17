@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Quién es tu alma gemela? ¡Descubra la Inicial del Nombre, el Signo del Zodíaco, el Color del Cabello y de los Ojos!",
-    "mainPic": "./testname/img/es_img/218fda43b8516700d8e65f4d4424f708.gif",
+    "mainPic": "/testname/img/218fda43b8516700d8e65f4d4424f708.gif",
     "thems": [
         "Alma Gemela",
         "Amor",

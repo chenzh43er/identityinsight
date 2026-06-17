@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué Verdura Eres Según Tu Huella Dactilar?",
-    "mainPic": "./testname/img/es_img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
+    "mainPic": "/testname/img/a62cdf66859f02543bc5c2f8bdd4e741.gif",
     "thems": [
         "Personalidad",
         "Verduras",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cómo manejas normalmente las situaciones estresantes?",
-            "pic": "./testname/img/es_img/36b0411f77ebae0ccbf493ffb9a06e39.png",
+            "pic": "/testname/img/36b0411f77ebae0ccbf493ffb9a06e39.png",
             "answers": [
                 {
                     "answer": "Enfrentarlo de frente",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo describirían tus amigos tu energía?",
-            "pic": "./testname/img/es_img/1055807375a20c2f878060cdac44b537.png",
+            "pic": "/testname/img/1055807375a20c2f878060cdac44b537.png",
             "answers": [
                 {
                     "answer": "Cálida y acogedora",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo afrontas los nuevos desafíos?",
-            "pic": "./testname/img/es_img/d772522b50a7860478989bc3513a53c7.png",
+            "pic": "/testname/img/d772522b50a7860478989bc3513a53c7.png",
             "answers": [
                 {
                     "answer": "Me zambullo, listo para darlo todo",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tipo de música prefieres?",
-            "pic": "./testname/img/es_img/a7249e490de6bd012bb09dbdbcb728e8.png",
+            "pic": "/testname/img/a7249e490de6bd012bb09dbdbcb728e8.png",
             "answers": [
                 {
                     "answer": "Ritmos con mucha energía",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "¿Qué palabra describe mejor tu estilo?",
-            "pic": "./testname/img/es_img/c5b711ed523222a1f74280f4b54deefe.png",
+            "pic": "/testname/img/c5b711ed523222a1f74280f4b54deefe.png",
             "answers": [
                 {
                     "answer": "Audaz y confiado",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo lidias con el cambio?",
-            "pic": "./testname/img/es_img/0debce6975c8fc8f24fa1f61de808b6b.png",
+            "pic": "/testname/img/0debce6975c8fc8f24fa1f61de808b6b.png",
             "answers": [
                 {
                     "answer": "Lo enfrento de frente",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هو الحرف الأول من اسم حبك؟",
-    "mainPic": "./testname/img/ar_img/590b599488fbd216084fed55fd4a66f3.gif",
+    "mainPic": "/testname/img/590b599488fbd216084fed55fd4a66f3.gif",
     "thems": [
         " حب",
         "الأول",
@@ -15,29 +15,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "نقود",
-                    "aPic": "./testname/img/ar_img/sr_173560983567734debc9211.jpg",
+                    "aPic": "/testname/img/sr_173560983567734debc9211.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "زهور",
-                    "aPic": "./testname/img/ar_img/sr_173560987267734e10197c4.jpg",
+                    "aPic": "/testname/img/sr_173560987267734e10197c4.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "شوكولاتة",
-                    "aPic": "./testname/img/ar_img/sr_173560989867734e2af2f88.jpg",
+                    "aPic": "/testname/img/sr_173560989867734e2af2f88.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "خاتم",
-                    "aPic": "./testname/img/ar_img/sr_173560993867734e526147a.jpg",
+                    "aPic": "/testname/img/sr_173560993867734e526147a.jpg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "هل تعتقد أنَّ الشخص الذي تحبه يبادلك الشعور؟",
-            "pic": "./testname/img/ar_img/535b71f0282e1fe70a97e92f644db420.png",
+            "pic": "/testname/img/535b71f0282e1fe70a97e92f644db420.png",
             "answers": [
                 {
                     "answer": "نعم، أنا متأكد",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "كيف تصف إعجابك؟",
-            "pic": "./testname/img/ar_img/7425f6229722dacc2f58ef4d58c31efa.jpg",
+            "pic": "/testname/img/7425f6229722dacc2f58ef4d58c31efa.jpg",
             "answers": [
                 {
                     "answer": "لطيف وطيب",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "ما الذي يعجبك أكثر في معجبك؟",
-            "pic": "./testname/img/ar_img/830ad6d4abc8c56ec2c9c064db8618fc.png",
+            "pic": "/testname/img/830ad6d4abc8c56ec2c9c064db8618fc.png",
             "answers": [
                 {
                     "answer": "ابتسامته",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "هل تحدث إليك من تشعر بالإعجاب تجاهه مؤخرًا؟",
-            "pic": "./testname/img/ar_img/968a6c864d9e0f6361ff42cb341616fb.png",
+            "pic": "/testname/img/968a6c864d9e0f6361ff42cb341616fb.png",
             "answers": [
                 {
                     "answer": "نعم، نتحدث طوال الوقت",

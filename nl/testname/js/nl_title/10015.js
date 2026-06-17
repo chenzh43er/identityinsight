@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wat Zegt Je Dierenriem Geboortesteen Over Jou?",
-    "mainPic": "./testname/img/nl_img/03bc5b4f002977705d02ea147f92fa1b.gif",
+    "mainPic": "/testname/img/03bc5b4f002977705d02ea147f92fa1b.gif",
     "thems": [
         "Geboortestenen",
         "Horoscoop",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is jouw sterrenbeeld?",
-            "pic": "./testname/img/nl_img/6352a2a556f4166eb7c659433a336d2c.png",
+            "pic": "/testname/img/6352a2a556f4166eb7c659433a336d2c.png",
             "answers": [
                 {
                     "answer": "Ram, Leeuw, Boogschutter",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Met welk element voel je je het meest verbonden?",
-            "pic": "./testname/img/nl_img/a4aa30aafb9ff2ab744ce49061d0d481.png",
+            "pic": "/testname/img/a4aa30aafb9ff2ab744ce49061d0d481.png",
             "answers": [
                 {
                     "answer": "Vuur",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Hoe zouden je vrienden jou beschrijven?",
-            "pic": "./testname/img/nl_img/1d3619d2b9c494f728f5181366a6d742.png",
+            "pic": "/testname/img/1d3619d2b9c494f728f5181366a6d742.png",
             "answers": [
                 {
                     "answer": "Energiek en gepassioneerd",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Als je een dier moest kiezen om je te vertegenwoordigen, welke zou je dan kiezen?",
-            "pic": "./testname/img/nl_img/3fc08c2f3aa875c010819c6655e06fe2.png",
+            "pic": "/testname/img/3fc08c2f3aa875c010819c6655e06fe2.png",
             "answers": [
                 {
                     "answer": "Leeuw",
@@ -117,22 +117,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "De zon",
-                    "aPic": "./testname/img/nl_img/987454df3e2eb7e2e6c18019cca31162.png",
+                    "aPic": "/testname/img/987454df3e2eb7e2e6c18019cca31162.png",
                     "aId": 1
                 },
                 {
                     "answer": "De maan",
-                    "aPic": "./testname/img/nl_img/6f0fdc779e89ea0c7e3d9087116e3cc9.png",
+                    "aPic": "/testname/img/6f0fdc779e89ea0c7e3d9087116e3cc9.png",
                     "aId": 2
                 },
                 {
                     "answer": "De Strijdwagen",
-                    "aPic": "./testname/img/nl_img/e8b17c388847a722b0e8bbf2ef2e1451.png",
+                    "aPic": "/testname/img/e8b17c388847a722b0e8bbf2ef2e1451.png",
                     "aId": 3
                 },
                 {
                     "answer": "De Ster",
-                    "aPic": "./testname/img/nl_img/61f548257b6436c47469da6f8768e3b8.png",
+                    "aPic": "/testname/img/61f548257b6436c47469da6f8768e3b8.png",
                     "aId": 4
                 }
             ]

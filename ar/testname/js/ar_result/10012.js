@@ -3,24 +3,24 @@ const results = {
         "title": "هل أنا مخلص أم لاعب؟ 💔🔒",
         "resultTitle": "وفي 💖",
         "description": "أنت مثال الوفاء! عندما تلتزم، تعطي كل ما لديك. تقدر الصدق والاحترام في العلاقة، ودائمًا تكون هناك لدعم شريكك في السراء والضراء.",
-        "mainPic": "./testname/img/ar_img/8af61f764e156dd12ba42acb841b99c5.jpeg"
+        "mainPic": "/testname/img/8af61f764e156dd12ba42acb841b99c5.jpeg"
     },
     "2": {
         "title": "هل أنا مخلص أم لاعب؟ 💔🔒",
         "resultTitle": "لاعب 🎭",
         "description": "أنت لا تبحث عن شيء جاد وتفضل إبقاء الأمور خفيفة وممتعة. تحب المغازلة والعيش في اللحظة دون أي التزامات. بالنسبة لك، الحب هو مغامرة بدون تعهدات!",
-        "mainPic": "./testname/img/ar_img/cbf7148d66b421d994b1b0e7426c1cdc.jpeg"
+        "mainPic": "/testname/img/cbf7148d66b421d994b1b0e7426c1cdc.jpeg"
     },
     "3": {
         "title": "هل أنا مخلص أم لاعب؟ 💔🔒",
         "resultTitle": "مخلص 💖",
         "description": "الإخلاص هو اسمك الأوسط. تؤمن ببناء علاقة متينة تقوم على الثقة والحب الصادق. بالنسبة لك، أهم شيء هو التواجد دائمًا من أجل الشخص الذي تحبه.",
-        "mainPic": "./testname/img/ar_img/da2c51adeaa4ab360d4fa8ba119745c0.jpeg"
+        "mainPic": "/testname/img/da2c51adeaa4ab360d4fa8ba119745c0.jpeg"
     },
     "4": {
         "title": "هل أنا مخلص أم لاعب؟ 💔🔒",
         "resultTitle": "لاعب 🎭",
         "description": "الحياة قصيرة جدًا لنأخذها على محمل الجد! تفضل الاستمتاع بالعلاقات المؤقتة والحصول على أكبر قدر ممكن من المتعة دون تعقيدات. كل يوم هو فرصة جديدة للاستكشاف ولقاء أشخاص جدد بدون أي روابط.",
-        "mainPic": "./testname/img/ar_img/d3fb75c9a755dc5d289278bde7c07a7d.jpeg"
+        "mainPic": "/testname/img/d3fb75c9a755dc5d289278bde7c07a7d.jpeg"
     }
 };

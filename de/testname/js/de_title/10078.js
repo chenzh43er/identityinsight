@@ -1,6 +1,6 @@
 let quizData = {
     "title": "\"Friends\"-Quiz: Welcher der sechs Freunde bist du in deiner Clique",
-    "mainPic": "./testname/img/de_img/91_6faf33e7684644c5be6181cf40690f94.jpeg",
+    "mainPic": "/testname/img/91_6faf33e7684644c5be6181cf40690f94.jpeg",
     "thems": [
         "movie",
         "motion picture",
@@ -14,7 +14,7 @@ let quizData = {
     "questions":[
   {
     "question": "Deine Freunde planen einen Abend. Was machst du?",
-    "pic": "./testname/img/de_img/92_2ff9212327054dbeb17fefd061e54988.jpeg",
+    "pic": "/testname/img/92_2ff9212327054dbeb17fefd061e54988.jpeg",
     "answers": [
       { "answer": "Vorschläge machen und alles organisieren", "aPic": "", "aId": 1 },
       { "answer": "Witze reißen, alle zum Lachen bringen", "aPic": "", "aId": 2 },
@@ -24,7 +24,7 @@ let quizData = {
   },
   {
     "question": "Wie gehst du mit Konflikten um?",
-    "pic": "./testname/img/de_img/93_c19172098d954f539a454c7e9f3fa2fd.png",
+    "pic": "/testname/img/93_c19172098d954f539a454c7e9f3fa2fd.png",
     "answers": [
       { "answer": "Strukturiert und lösungsorientiert", "aPic": "", "aId": 1 },
       { "answer": "Humorvoll, versuche zu entspannen", "aPic": "", "aId": 2 },
@@ -34,7 +34,7 @@ let quizData = {
   },
   {
     "question": "Dein Lieblingsessen ist…",
-    "pic": "./testname/img/de_img/94_dc4baec0a7ce422e971d8e1b5d72024a.jpeg",
+    "pic": "/testname/img/94_dc4baec0a7ce422e971d8e1b5d72024a.jpeg",
     "answers": [
       { "answer": "Perfekt zubereitete Mahlzeit", "aPic": "", "aId": 1 },
       { "answer": "Alles, solange es lustig ist zu essen", "aPic": "", "aId": 2 },
@@ -44,7 +44,7 @@ let quizData = {
   },
   {
     "question": "Dein Stil in der Clique?",
-    "pic": "./testname/img/de_img/95_fa528ff6dc90469d8c67c02769118fda.jpeg",
+    "pic": "/testname/img/95_fa528ff6dc90469d8c67c02769118fda.jpeg",
     "answers": [
       { "answer": "Perfektionist & organisiert", "aPic": "", "aId": 1 },
       { "answer": "Lustig & sarkastisch", "aPic": "", "aId": 2 },
@@ -54,7 +54,7 @@ let quizData = {
   },
   {
     "question": "Dein Motto?",
-    "pic": "./testname/img/de_img/96_1d0f71bc7a2848a8b494995f96149dc5.webp",
+    "pic": "/testname/img/96_1d0f71bc7a2848a8b494995f96149dc5.webp",
     "answers": [
       { "answer": "„Alles muss perfekt sein.“", "aPic": "", "aId": 1 },
       { "answer": "„Lachen ist die beste Medizin.“", "aPic": "", "aId": 2 },
@@ -64,7 +64,7 @@ let quizData = {
   },
   {
     "question": "Wie reagierst du auf neue Leute?",
-    "pic": "./testname/img/de_img/97_6780ec919d6c4228ab82cdd59ab415db.jpeg",
+    "pic": "/testname/img/97_6780ec919d6c4228ab82cdd59ab415db.jpeg",
     "answers": [
       { "answer": "Freundlich & hilfsbereit", "aPic": "", "aId": 1 },
       { "answer": "Witzig & locker", "aPic": "", "aId": 2 },
@@ -74,7 +74,7 @@ let quizData = {
   },
   {
     "question": "Dein Traumdate?",
-    "pic": "./testname/img/de_img/98_7db939ffd02645e8b135b469a5f606d1.jpeg",
+    "pic": "/testname/img/98_7db939ffd02645e8b135b469a5f606d1.jpeg",
     "answers": [
       { "answer": "Organisierte Abendessen & perfekte Pläne", "aPic": "", "aId": 1 },
       { "answer": "Spaßiges Abenteuer, lachen ohne Ende", "aPic": "", "aId": 2 },
@@ -84,7 +84,7 @@ let quizData = {
   },
   {
     "question": "Wie würdest du die Clique beschreiben?",
-    "pic": "./testname/img/de_img/99_a4f983fdd4a94ce0ba66eb81e8ab0ef8.jpeg",
+    "pic": "/testname/img/99_a4f983fdd4a94ce0ba66eb81e8ab0ef8.jpeg",
     "answers": [
       { "answer": "Geordnet & zuverlässig", "aPic": "", "aId": 1 },
       { "answer": "Lustig & chaotisch", "aPic": "", "aId": 2 },

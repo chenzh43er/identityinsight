@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Diagnostic du pouls en médecine chinoise : testez combien de partenaires vous aurez",
-    "mainPic": "./testname/img/fr_img/b7ab8b14dcc4bf523dbbb70505c2f9de.jpeg",
+    "mainPic": "/testname/img/b7ab8b14dcc4bf523dbbb70505c2f9de.jpeg",
     "thems": [
         "Amour",
         "Romantique",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "Combien de battements par minute mesure votre pouls ?",
-            "pic": "./testname/img/fr_img/d7fb7490980d365b37ff92774c917a1e.jpg",
+            "pic": "/testname/img/d7fb7490980d365b37ff92774c917a1e.jpg",
             "answers": [
                 {
                     "answer": "80+",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Combien de personnes vous ont fait battre le cœur ?",
-            "pic": "./testname/img/fr_img/4a291fed29f370cfaa8f74eb19bd0d4a.jpg",
+            "pic": "/testname/img/4a291fed29f370cfaa8f74eb19bd0d4a.jpg",
             "answers": [
                 {
                     "answer": "Une",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Quelle est la forme de votre paume?",
-            "pic": "./testname/img/fr_img/fa3e5d64d0eff8ddb92204030c2b3cd4.jpg",
+            "pic": "/testname/img/fa3e5d64d0eff8ddb92204030c2b3cd4.jpg",
             "answers": [
                 {
                     "answer": "Carrée",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Quelle est la profondeur de votre ligne de vie?",
-            "pic": "./testname/img/fr_img/8eb22add4448db7580ae1d8d2d320150.jpg",
+            "pic": "/testname/img/8eb22add4448db7580ae1d8d2d320150.jpg",
             "answers": [
                 {
                     "answer": "Profonde",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Quelle est la forme de vos doigts ?",
-            "pic": "./testname/img/fr_img/b051146e4f0f70be0630983b1eaddcf7.jpg",
+            "pic": "/testname/img/b051146e4f0f70be0630983b1eaddcf7.jpg",
             "answers": [
                 {
                     "answer": "Longs et fins",

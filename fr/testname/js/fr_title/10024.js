@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Quels Volumes de Musique Sprunki Incredibox Révèlent Votre Côté Intérieur ?",
-    "mainPic": "./testname/img/fr_img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
+    "mainPic": "/testname/img/cc6709eadd1cb8705db69a773c8f6f5e.gif",
     "thems": [
         "Sprunki Incredibox",
         "Musique",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Préférez-vous la version jour ou nuit de Incredibox Sprunk ?",
-            "pic": "./testname/img/fr_img/ef107a5b69691ed21a226db42b753e22.jpg",
+            "pic": "/testname/img/ef107a5b69691ed21a226db42b753e22.jpg",
             "answers": [
                 {
                     "answer": "Version jour",
@@ -45,12 +45,12 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Normal",
-                    "aPic": "./testname/img/fr_img/sr_17313734246732a970eec50.jpg",
+                    "aPic": "/testname/img/sr_17313734246732a970eec50.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Horreur",
-                    "aPic": "./testname/img/fr_img/sr_17313734436732a983b15e5.jpg",
+                    "aPic": "/testname/img/sr_17313734436732a983b15e5.jpg",
                     "aId": 2
                 }
             ]
@@ -87,12 +87,12 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Cirque Numérique Étonnant",
-                    "aPic": "./testname/img/fr_img/sr_17313742576732acb1e9cd6.jpg",
+                    "aPic": "/testname/img/sr_17313742576732acb1e9cd6.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Sprunki Incredibox en bébés",
-                    "aPic": "./testname/img/fr_img/sr_17313742846732accc75bfa.jpg",
+                    "aPic": "/testname/img/sr_17313742846732accc75bfa.jpg",
                     "aId": 2
                 }
             ]

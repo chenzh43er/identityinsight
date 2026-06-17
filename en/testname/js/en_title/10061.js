@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What magic will define your year 2026?",
-    "mainPic": "./testname/img/de_img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
+    "mainPic": "/testname/img/14_245532ad72fa48c0bf3b6d328f69a48b.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "If you could cast a spell at midnight it would be...",
-            "pic": "./testname/img/de_img/15_2d36fc56d4e14bb0854f9154ea390755.jpeg",
+            "pic": "/testname/img/15_2d36fc56d4e14bb0854f9154ea390755.jpeg",
             "answers": [
                 {
                     "answer": "Lumos Maxima – for clarity",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "What do you most want to achieve in 2026?",
-            "pic": "./testname/img/de_img/16_389f12f981034e7aae6505a4608a48b9.jpeg",
+            "pic": "/testname/img/16_389f12f981034e7aae6505a4608a48b9.jpeg",
             "answers": [
                 {
                     "answer": "More courage",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Where would you celebrate New Year at Hogwarts?",
-            "pic": "./testname/img/de_img/17_299dc176b57248d683ae22a1c90b9995.jpeg",
+            "pic": "/testname/img/17_299dc176b57248d683ae22a1c90b9995.jpeg",
             "answers": [
                 {
                     "answer": "In the Great Hall",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "Your drink that night would be...",
-            "pic": "./testname/img/de_img/18_415f01ce4e2840e48ae9e994b2225ee8.jpeg",
+            "pic": "/testname/img/18_415f01ce4e2840e48ae9e994b2225ee8.jpeg",
             "answers": [
                 {
                     "answer": "Butterbeer",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "How do you deal with setbacks?",
-            "pic": "./testname/img/de_img/19_a7aee291b6ff425083af2d4c8e2bdc0d.jpeg",
+            "pic": "/testname/img/19_a7aee291b6ff425083af2d4c8e2bdc0d.jpeg",
             "answers": [
                 {
                     "answer": "I'm fighting.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "What would you like from Spiegel Nerhegeb?",
-            "pic": "./testname/img/de_img/20_795d30b23f924ed59112f1a9d411e915.jpeg",
+            "pic": "/testname/img/20_795d30b23f924ed59112f1a9d411e915.jpeg",
             "answers": [
                 {
                     "answer": "Success",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "What color is your New Year's magic light?",
-            "pic": "./testname/img/de_img/21_825e77d3f0824054bbda1db11074e92a.jpeg",
+            "pic": "/testname/img/21_825e77d3f0824054bbda1db11074e92a.jpeg",
             "answers": [
                 {
                     "answer": "Gold",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "What is your motto for 2026?",
-            "pic": "./testname/img/de_img/22_d6e0a67de04044f2a1543923f4b0013b.jpeg",
+            "pic": "/testname/img/22_d6e0a67de04044f2a1543923f4b0013b.jpeg",
             "answers": [
                 {
                     "answer": "\"Everything is possible.\"",

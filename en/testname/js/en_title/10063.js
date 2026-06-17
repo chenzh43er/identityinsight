@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which spell opens your 2026 year at Hogwarts?",
-    "mainPic": "./testname/img/de_img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
+    "mainPic": "/testname/img/40_2817880ffe1f440db2286ab3aa6f4185.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "If you could start the new year with one magic spell, it would be...",
-            "pic": "./testname/img/de_img/41_8076de088d7348f09c619d0f63aebef1.jpeg",
+            "pic": "/testname/img/41_8076de088d7348f09c619d0f63aebef1.jpeg",
             "answers": [
                 {
                     "answer": "Lumos – I want light and clarity.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "What do you really want to leave behind in 2026?",
-            "pic": "./testname/img/de_img/42_c5ffcc32a6c24037a87082438c983224.jpeg",
+            "pic": "/testname/img/42_c5ffcc32a6c24037a87082438c983224.jpeg",
             "answers": [
                 {
                     "answer": "Doubt.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "Where would you spend the first day of the year?",
-            "pic": "./testname/img/de_img/43_612ca47b54044939ba03f5d9e9727dad.jpeg",
+            "pic": "/testname/img/43_612ca47b54044939ba03f5d9e9727dad.jpeg",
             "answers": [
                 {
                     "answer": "In the Great Hall with Butterbeer and candlelight.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "What motivates you in the new year?",
-            "pic": "./testname/img/de_img/44_abe126316b33470bb068b03ba3b5f1c3.jpeg",
+            "pic": "/testname/img/44_abe126316b33470bb068b03ba3b5f1c3.jpeg",
             "answers": [
                 {
                     "answer": "Courage.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Your biggest wish for 2026?",
-            "pic": "./testname/img/de_img/45_8f9fdfdb2b3d4157904be5ffe0b65fe5.jpeg",
+            "pic": "/testname/img/45_8f9fdfdb2b3d4157904be5ffe0b65fe5.jpeg",
             "answers": [
                 {
                     "answer": "Dare to do something new.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Your patronus this year would be...",
-            "pic": "./testname/img/de_img/46_d027d4f273004b52931b9149beb15143.jpeg",
+            "pic": "/testname/img/46_d027d4f273004b52931b9149beb15143.jpeg",
             "answers": [
                 {
                     "answer": "A lion.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "If you could re-enroll at Hogwarts, would you...",
-            "pic": "./testname/img/de_img/47_d06d75c398214b8faea32f2d0ded2b73.jpeg",
+            "pic": "/testname/img/47_d06d75c398214b8faea32f2d0ded2b73.jpeg",
             "answers": [
                 {
                     "answer": "Risk everything to make a difference.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "Which annual energy describes you?",
-            "pic": "./testname/img/de_img/48_87e99c00b12d4660ab4fbb61fe35ea53.jpeg",
+            "pic": "/testname/img/48_87e99c00b12d4660ab4fbb61fe35ea53.jpeg",
             "answers": [
                 {
                     "answer": "Fire – passion.",

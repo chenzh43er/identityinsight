@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Ontdek Gods Boodschap Door AI: Wat Zegt Het Tegen Jou?",
-    "mainPic": "./testname/img/nl_img/ab4ac4fa80513401b1856f0757925ba4.gif",
+    "mainPic": "/testname/img/ab4ac4fa80513401b1856f0757925ba4.gif",
     "thems": [
         "God",
         "Jezus",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Met welke Bijbelse figuur identificeer je je het meest?",
-            "pic": "./testname/img/nl_img/b63ff8252c011f21cf99f874cea7410d.jpg",
+            "pic": "/testname/img/b63ff8252c011f21cf99f874cea7410d.jpg",
             "answers": [
                 {
                     "answer": "David",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Hoe ga je om met een slechte dag?",
-            "pic": "./testname/img/nl_img/7deb20f93be172b6375ce9c1560f8201.png",
+            "pic": "/testname/img/7deb20f93be172b6375ce9c1560f8201.png",
             "answers": [
                 {
                     "answer": "Ik houd stand",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Wat waardeer je het meest aan een vriendschap?",
-            "pic": "./testname/img/nl_img/92900003697b42fd586d6c4e1f0198f3.png",
+            "pic": "/testname/img/92900003697b42fd586d6c4e1f0198f3.png",
             "answers": [
                 {
                     "answer": "Echte loyaliteit",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Welke van deze adviezen zou je opvolgen?",
-            "pic": "./testname/img/nl_img/16dfcc3f1645228c7859e36d6b14a948.jpg",
+            "pic": "/testname/img/16dfcc3f1645228c7859e36d6b14a948.jpg",
             "answers": [
                 {
                     "answer": "Geef niet op",
@@ -119,22 +119,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/nl_img/sr_174395111567f2950b09a92.jpg",
+                    "aPic": "/testname/img/sr_174395111567f2950b09a92.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/nl_img/sr_174395115767f29535f2f23.jpg",
+                    "aPic": "/testname/img/sr_174395115767f29535f2f23.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/nl_img/sr_174395120767f2956799dac.jpg",
+                    "aPic": "/testname/img/sr_174395120767f2956799dac.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/nl_img/sr_174395130467f295c8db56e.jpg",
+                    "aPic": "/testname/img/sr_174395130467f295c8db56e.jpg",
                     "aId": 4
                 }
             ]

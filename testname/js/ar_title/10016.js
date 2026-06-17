@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي عملاق أنت؟ اكتشف شكل العملاق المتحول الخاص بك من هجوم العمالقة",
-    "mainPic": "./testname/img/ar_img/fce9653564bb39910495a489b892aac6.gif",
+    "mainPic": "/testname/img/fce9653564bb39910495a489b892aac6.gif",
     "thems": [
         "أنمي",
         "هجوم العمالقة",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "أي من هذه الشخصيات الغير تيتانية تشبه مثالك الشخصي وشخصيتك؟",
-            "pic": "./testname/img/ar_img/e7e9ae3468a5a7a251642772d8273fe7.png",
+            "pic": "/testname/img/e7e9ae3468a5a7a251642772d8273fe7.png",
             "answers": [
                 {
                     "answer": "ميكاسا أكرمان",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "أي موقع من عالم هجوم العمالقة تفضل العيش فيه؟",
-            "pic": "./testname/img/ar_img/1e42956a2bf19fa9f7589f9f3db69a30.png",
+            "pic": "/testname/img/1e42956a2bf19fa9f7589f9f3db69a30.png",
             "answers": [
                 {
                     "answer": "مارلي",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "إلى أي فريق ستتحالف؟",
-            "pic": "./testname/img/ar_img/8780dcb3d445c7f0a9d2c3c687eb7ab6.png",
+            "pic": "/testname/img/8780dcb3d445c7f0a9d2c3c687eb7ab6.png",
             "answers": [
                 {
                     "answer": "الشرطة العسكرية",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "ماذا ستفعل إذا كانت نهاية العالم قادمة؟",
-            "pic": "./testname/img/ar_img/0d6c592ec8f85c6e4f2eeec68c73dadf.png",
+            "pic": "/testname/img/0d6c592ec8f85c6e4f2eeec68c73dadf.png",
             "answers": [
                 {
                     "answer": "القتال مهما كان الثمن",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "ما رأيك في الحروب؟",
-            "pic": "./testname/img/ar_img/cbb9ef99f1e6a02672a98ea03d605826.png",
+            "pic": "/testname/img/cbb9ef99f1e6a02672a98ea03d605826.png",
             "answers": [
                 {
                     "answer": "هي دائماً ضرورية",

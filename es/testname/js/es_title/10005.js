@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué Revela Tu Posición Al Dormir Sobre Tu Vida Amorosa? 💞🌙 ",
-    "mainPic": "./testname/img/es_img/7493626ca93012f6fbf2a3e2e94b9167.gif",
+    "mainPic": "/testname/img/7493626ca93012f6fbf2a3e2e94b9167.gif",
     "thems": [
         "Formas De Dormir",
         "Maneras De Dormir",
@@ -15,7 +15,7 @@ let quizData = {
     ],
     "questions": [{
         "question": "¿Cuál es tu postura preferida cuando duermes con tu pareja?",
-        "pic": "./testname/img/es_img/057e4eb8b059c400dd48eb906ca21575.jpg",
+        "pic": "/testname/img/057e4eb8b059c400dd48eb906ca21575.jpg",
         "answers": [
             {
                 "answer":"Cara a cara, cerca de él/ella",
@@ -37,7 +37,7 @@ let quizData = {
         ]
     },{
         "question": " ¿Qué tanto te afecta el calor de tu pareja al dormir?",
-            "pic": "./testname/img/es_img/5a6d6c7881a817917a89cd8d73b248b4.jpg",
+            "pic": "/testname/img/5a6d6c7881a817917a89cd8d73b248b4.jpg",
             "answers": [
             {
                 "answer":"Me encanta, no tengo problemas",
@@ -59,7 +59,7 @@ let quizData = {
         ]
     },{
         "question": "¿Cuál sería tu reacción si tu pareja se mueve mucho mientras duermen?",
-        "pic": "./testname/img/es_img/1c1ecbaa9c339b019c65ea61fe421e60.jpg",
+        "pic": "/testname/img/1c1ecbaa9c339b019c65ea61fe421e60.jpg",
         "answers": [
             {
                 "answer":"Lo/la abrazaría para que se quede quieto/a",
@@ -81,7 +81,7 @@ let quizData = {
         ]
     },{
         "question": "Si tu pareja necesita más espacio, ¿qué harías?",
-        "pic": "./testname/img/es_img/23b536df97e0a7cb4389f00c7cc39928.jpg",
+        "pic": "/testname/img/23b536df97e0a7cb4389f00c7cc39928.jpg",
         "answers": [
             {
                 "answer":"Me haría a un lado, pero seguiría cara a cara",
@@ -103,7 +103,7 @@ let quizData = {
         ]
     },{
         "question": " ¿Cuál de estos describe mejor la sensación de dormir en cucharita?",
-        "pic": "./testname/img/es_img/ca7812d89960670877fbb04d8f8b656d.jpg",
+        "pic": "/testname/img/ca7812d89960670877fbb04d8f8b656d.jpg",
         "answers": [
             {
                 "answer":"Muy acogedora, como un abrazo toda la noche",
@@ -125,7 +125,7 @@ let quizData = {
         ]
     },{
         "question": " Para ti, dormir juntos en pareja significa…",
-        "pic": "./testname/img/es_img/483fb0027c9eae3fa5d1216779342dce.jpg",
+        "pic": "/testname/img/483fb0027c9eae3fa5d1216779342dce.jpg",
         "answers": [
             {
                 "answer":"Mirarnos cara a cara y sentirnos cerca",

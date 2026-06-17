@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Was ist Ihre mentale Astrologie?",
-    "mainPic": "./testname/img/de_img/67ab9a66372b41ff80637d2f34775da7.gif",
+    "mainPic": "/testname/img/67ab9a66372b41ff80637d2f34775da7.gif",
     "thems": [
         "Mental",
         "Astrologie",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wie gehst du mit Problemen um?",
-            "pic": "./testname/img/de_img/feab69941493609eee17e90b0dd388e1.png",
+            "pic": "/testname/img/feab69941493609eee17e90b0dd388e1.png",
             "answers": [
                 {
                     "answer": "Mit jemandem sprechen",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Wovon träumen Sie tagsüber?",
-            "pic": "./testname/img/de_img/747d8633362bcf7ff468b4310472ab32.png",
+            "pic": "/testname/img/747d8633362bcf7ff468b4310472ab32.png",
             "answers": [
                 {
                     "answer": "Wie Dinge funktionieren",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Bester Ort zum Nachdenken?",
-            "pic": "./testname/img/de_img/3325de245b645f2d7726ee757d4b5ffd.png",
+            "pic": "/testname/img/3325de245b645f2d7726ee757d4b5ffd.png",
             "answers": [
                 {
                     "answer": "Warm und gesellig",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Was motiviert Sie am meisten?",
-            "pic": "./testname/img/de_img/00fdb92f82818bd5247f08ebdccb5f2b.jpeg",
+            "pic": "/testname/img/00fdb92f82818bd5247f08ebdccb5f2b.jpeg",
             "answers": [
                 {
                     "answer": "Verbindung",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine mentale Stimmung?",
-            "pic": "./testname/img/de_img/c7baf9d44ae277c9d56851eaf9966d84.png",
+            "pic": "/testname/img/c7baf9d44ae277c9d56851eaf9966d84.png",
             "answers": [
                 {
                     "answer": "Sensibel",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Wie lernst du am besten?",
-            "pic": "./testname/img/de_img/01a5e141f549025242218fa0ac7dca54.png",
+            "pic": "/testname/img/01a5e141f549025242218fa0ac7dca54.png",
             "answers": [
                 {
                     "answer": "Mit anderen",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Lüften Sie Ihr lebenslanges Gesundheits-Schicksal durch Astrologie!",
-    "mainPic": "./testname/img/de_img/2dba8ea723b9a6b7a815b64a712c74ea.gif",
+    "mainPic": "/testname/img/2dba8ea723b9a6b7a815b64a712c74ea.gif",
     "thems": [
         "Horoskop",
         "Tierkreis",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist dein Sternzeichen?",
-            "pic": "./testname/img/de_img/29efffc74ce642a3aa07c51aea209f83.png",
+            "pic": "/testname/img/29efffc74ce642a3aa07c51aea209f83.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Welchem Element entspricht Ihr Sternzeichen?",
-            "pic": "./testname/img/de_img/834ac8fce2ba954d3b18ce6dd3a32647.png",
+            "pic": "/testname/img/834ac8fce2ba954d3b18ce6dd3a32647.png",
             "answers": [
                 {
                     "answer": "Luft",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Was ist das größte Merkmal Ihres Sternzeichens?",
-            "pic": "./testname/img/de_img/2c1a7d93dd9fcf40f6e4d256b1e86527.png",
+            "pic": "/testname/img/2c1a7d93dd9fcf40f6e4d256b1e86527.png",
             "answers": [
                 {
                     "answer": "Launisch",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Welches Element des Weltraums zieht Sie am meisten an?",
-            "pic": "./testname/img/de_img/c04ebef9eb8ce6ae0f1b9ba1874a2cda.png",
+            "pic": "/testname/img/c04ebef9eb8ce6ae0f1b9ba1874a2cda.png",
             "answers": [
                 {
                     "answer": "Sterne",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Lieblingstarotkarte?",
-            "pic": "./testname/img/de_img/439a366b5ba3d297dd9e4ca7f44211bc.png",
+            "pic": "/testname/img/439a366b5ba3d297dd9e4ca7f44211bc.png",
             "answers": [
                 {
                     "answer": "Die Sonne",

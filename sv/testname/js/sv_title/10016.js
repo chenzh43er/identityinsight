@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vilken Disneyprinsessa är du i klä ut dig spel?",
-    "mainPic": "./testname/img/sv_img/b75a84ce45756e0e51d4a3c0aca726af.gif",
+    "mainPic": "/testname/img/b75a84ce45756e0e51d4a3c0aca726af.gif",
     "thems": [
         "Disney",
         "Klä ut sig",

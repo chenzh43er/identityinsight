@@ -1,6 +1,6 @@
 let quizData = {
     "title": "What secret gift will be revealed to you at Hogwarts on New Year's Day?",
-    "mainPic": "./testname/img/de_img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
+    "mainPic": "/testname/img/66_3e2285640e964da1b899d22244fc20d5.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "When the castle shakes at midnight, you react...",
-            "pic": "./testname/img/de_img/67_c1e27b35d14343038e8097fc805e9336.jpeg",
+            "pic": "/testname/img/67_c1e27b35d14343038e8097fc805e9336.jpeg",
             "answers": [
                 {
                     "answer": "I grab my wand - ready to defend myself.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "Which subject do you do best?",
-            "pic": "./testname/img/de_img/68_2f7f33a7036a4a7ba6b7118f98bfa2de.jpeg",
+            "pic": "/testname/img/68_2f7f33a7036a4a7ba6b7118f98bfa2de.jpeg",
             "answers": [
                 {
                     "answer": "Defense Against the Dark Arts",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "When you meet a ghost...",
-            "pic": "./testname/img/de_img/69_a7338a4cab174363a1dae631bcca7c8c.jpeg",
+            "pic": "/testname/img/69_a7338a4cab174363a1dae631bcca7c8c.jpeg",
             "answers": [
                 {
                     "answer": "I'm fighting.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "What is your greatest strength?",
-            "pic": "./testname/img/de_img/70_40aa786408f548f9b4e8560ea7b42f05.jpeg",
+            "pic": "/testname/img/70_40aa786408f548f9b4e8560ea7b42f05.jpeg",
             "answers": [
                 {
                     "answer": "courage",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "What color shines above you as the magic shows itself?",
-            "pic": "./testname/img/de_img/71_af13881cdaf14277ba09d52752d479de.jpeg",
+            "pic": "/testname/img/71_af13881cdaf14277ba09d52752d479de.jpeg",
             "answers": [
                 {
                     "answer": "Gold",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "Who is with you in your vision?",
-            "pic": "./testname/img/de_img/72_65af7a41b0a9496fa776912e1ab53f74.jpeg",
+            "pic": "/testname/img/72_65af7a41b0a9496fa776912e1ab53f74.jpeg",
             "answers": [
                 {
                     "answer": "Harry",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "What would you do with your new gift?",
-            "pic": "./testname/img/de_img/73_96c65edacfea4c30bd7af3b76e75ac0a.jpeg",
+            "pic": "/testname/img/73_96c65edacfea4c30bd7af3b76e75ac0a.jpeg",
             "answers": [
                 {
                     "answer": "Use them to help.",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "When you wake up, you're left with...",
-            "pic": "./testname/img/de_img/74_6f3374b894d54c5c87efd23ad27f70dc.jpeg",
+            "pic": "/testname/img/74_6f3374b894d54c5c87efd23ad27f70dc.jpeg",
             "answers": [
                 {
                     "answer": "A flame in hand.",

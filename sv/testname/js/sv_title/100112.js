@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vad är din själsfrändes element? Upptäck det nu!",
-    "mainPic": "./testname/img/sv_img/68ccf7ef8a5158b47ceaf5b512cb9989.gif",
+    "mainPic": "/testname/img/68ccf7ef8a5158b47ceaf5b512cb9989.gif",
     "thems": [
         "Själsfränder",
         "RolgTest",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hur spenderar du helst en helg?",
-            "pic": "./testname/img/sv_img/6731980171f591bdacb22133c756774f.jpg",
+            "pic": "/testname/img/6731980171f591bdacb22133c756774f.jpg",
             "answers": [
                 {
                     "answer": "Vandra i naturen",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Hur hanterar du stress vanligtvis?",
-            "pic": "./testname/img/sv_img/9209b63e6b05247002856fdb24b6158a.png",
+            "pic": "/testname/img/9209b63e6b05247002856fdb24b6158a.png",
             "answers": [
                 {
                     "answer": "Mediterar utomhus",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Vilka av dessa egenskaper värderar du mest i en partner?",
-            "pic": "./testname/img/sv_img/fdab42e3386f8a26b382557ee2a63fa6.png",
+            "pic": "/testname/img/fdab42e3386f8a26b382557ee2a63fa6.png",
             "answers": [
                 {
                     "answer": "Lojalitet och stabilitet",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Hur skulle vänner beskriva din personlighet?",
-            "pic": "./testname/img/sv_img/3154e1520647c9e9229721f7bd1f7bce.jpg",
+            "pic": "/testname/img/3154e1520647c9e9229721f7bd1f7bce.jpg",
             "answers": [
                 {
                     "answer": "Pålitlig och jordnära",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Vad motiverar dig mest?",
-            "pic": "./testname/img/sv_img/7d351adfb8553ee04af00bb407192804.jpg",
+            "pic": "/testname/img/7d351adfb8553ee04af00bb407192804.jpg",
             "answers": [
                 {
                     "answer": "Bygga något bestående",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Om du kunde ha en superkraft, vad skulle det vara?",
-            "pic": "./testname/img/sv_img/1f9b961584362376bfc0f9853adbb269.jpg",
+            "pic": "/testname/img/1f9b961584362376bfc0f9853adbb269.jpg",
             "answers": [
                 {
                     "answer": "Telekinesi (flytta föremål)",
@@ -168,7 +168,7 @@ let quizData = {
         },
         {
             "question": "Vilken miljö tycker du är mest tilltalande?",
-            "pic": "./testname/img/sv_img/8c86db7e67e7c2fa7f1ba9bd3832b118.png",
+            "pic": "/testname/img/8c86db7e67e7c2fa7f1ba9bd3832b118.png",
             "answers": [
                 {
                     "answer": "En fridfull skog",
@@ -194,7 +194,7 @@ let quizData = {
         },
         {
             "question": "Vad är din tröstmatsfavorit?",
-            "pic": "./testname/img/sv_img/bbd5795530ad9fb90389d71e40e1d0f0.jpg",
+            "pic": "/testname/img/bbd5795530ad9fb90389d71e40e1d0f0.jpg",
             "answers": [
                 {
                     "answer": "Mustig gryta",

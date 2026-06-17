@@ -8,7 +8,7 @@ const results = {
             "•  Défense contre les forces du Mal\n" +
             "Profil de personnalité\n" +
             "Curieux, intelligent, ambitieux — tu n’as pas peur de repousser les limites de la magie.\n",
-        "mainPic": "./testname/img/fr_img/b2b0a0g1c0.jpg"
+        "mainPic": "/testname/img/b2b0a0g1c0.jpg"
     },
     "2": {
         "title": "Hva med talentet ditt i Galtvort?",
@@ -19,7 +19,7 @@ const results = {
             "•  Botanique\n" +
             "Profil de personnalité\n" +
             "Bienveillant, loyal et compatissant — tu es celui vers qui tout le monde se tourne pour trouver du réconfort.\n",
-        "mainPic": "./testname/img/fr_img/i4s1b1i0h5.png"
+        "mainPic": "/testname/img/i4s1b1i0h5.png"
     },
     "3": {
         "title": "Hva med talentet ditt i Galtvort?",
@@ -31,7 +31,7 @@ const results = {
             "Profil de personnalité\n" +
             "Charismatique, passionné, parfois impulsif — tu fais vibrer la magie autour de toi.\n" +
             "\n",
-        "mainPic": "./testname/img/fr_img/g2m4o4a5t0.png"
+        "mainPic": "/testname/img/g2m4o4a5t0.png"
     },
     "4": {
         "title": "Hva med talentet ditt i Galtvort?",
@@ -42,6 +42,6 @@ const results = {
             "•  Astronomie\n" +
             "Profil de personnalité\n" +
             "Mystérieux, intuitif et calme — tu vois des vérités que les autres ignorent.\n",
-        "mainPic": "./testname/img/fr_img/d3u5a0b0e2.jpg"
+        "mainPic": "/testname/img/d3u5a0b0e2.jpg"
     }
 };

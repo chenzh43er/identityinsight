@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Zu welchem Hogwarts-Haus gehörst du wirklich?",
-    "mainPic": "./testname/img/de_img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
+    "mainPic": "/testname/img/ce833ce4bb4e9334a19fcbab159d02a5.jpg",
     "thems": [
         "Harry Potter",
         "Hogwarts",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welche dieser Eigenschaften halten Sie für Ihre größten Stärken?",
-            "pic": "./testname/img/de_img/7925febfa889e8510c1c5cde34037f59.jpg",
+            "pic": "/testname/img/7925febfa889e8510c1c5cde34037f59.jpg",
             "answers": [
                 {
                     "answer": "Mut und Entschlossenheit",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Mit welchem dieser Elemente identifizieren Sie sich am meisten?",
-            "pic": "./testname/img/de_img/e9491d103cd0d5f2ca732415f968fc48.jpg",
+            "pic": "/testname/img/e9491d103cd0d5f2ca732415f968fc48.jpg",
             "answers": [
                 {
                     "answer": "Erde",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Wie würdest du die meiste Zeit im Gemeinschaftsraum verbringen?",
-            "pic": "./testname/img/de_img/2395681ca6b55d8963f369c62e0649ef.jpg",
+            "pic": "/testname/img/2395681ca6b55d8963f369c62e0649ef.jpg",
             "answers": [
                 {
                     "answer": "Bücher lesen und deine Hausaufgaben machen",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Auf welche dieser Arten von Magie würdest du dich mehr konzentrieren?",
-            "pic": "./testname/img/de_img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
+            "pic": "/testname/img/1431c882cf2ffaab5fc7cd98888eeee3.jpg",
             "answers": [
                 {
                     "answer": "Verwandlung",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Sie haben eine Tasche mit Galleonen in der Winkelgasse gefunden, was tun Sie?",
-            "pic": "./testname/img/de_img/a67489b6bfe58e5a198a86c3f52de871.jpg",
+            "pic": "/testname/img/a67489b6bfe58e5a198a86c3f52de871.jpg",
             "answers": [
                 {
                     "answer": "Nehmen Sie es und behalten Sie es, ohne zweimal darüber nachzudenken",

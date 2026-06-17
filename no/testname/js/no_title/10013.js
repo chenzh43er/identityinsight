@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Clash Royale: Vil P.E.K.K.A lede deg til seier eller nederlag?",
-    "mainPic": "./testname/img/no_img/4aede605cb776100b91df0a9a41becb6.gif",
+    "mainPic": "/testname/img/4aede605cb776100b91df0a9a41becb6.gif",
     "thems": [
         "Spill",
         "Clashroyale",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvordan plasserer du vanligvis P.E.K.K.A?",
-            "pic": "./testname/img/no_img/41c2c270911c16f7b6516e87bc1b427d.jpg",
+            "pic": "/testname/img/41c2c270911c16f7b6516e87bc1b427d.jpg",
             "answers": [
                 {
                     "answer": "Bakerste linje",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Motstanderen din slipper en Giant. Hva er ditt trekk med P.E.K.K.A?",
-            "pic": "./testname/img/no_img/a4d4b83b0820989730dc2b6f7aa424d6.jpg",
+            "pic": "/testname/img/a4d4b83b0820989730dc2b6f7aa424d6.jpg",
             "answers": [
                 {
                     "answer": "Motgi Giant",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "Hvilket støtte-kort foretrekker du med P.E.K.K.A?",
-            "pic": "./testname/img/no_img/61b894285a742baaae4860e940868403.jpg",
+            "pic": "/testname/img/61b894285a742baaae4860e940868403.jpg",
             "answers": [
                 {
                     "answer": "Trollmann",

@@ -10,7 +10,7 @@ Erweiterung
 Du würdest Voldemort ohne Zögern gegenübertreten. Deine Entscheidungen inspirieren andere.
 Aber vergiss nicht: Du musst nicht immer alles allein tragen.
 `,
-        "mainPic": "./testname/img/de_img/eK0hE3mQ7d.jpg"
+        "mainPic": "/testname/img/eK0hE3mQ7d.jpg"
     },
     2: {
         "title": "Welcher Hauptcharakter aus Harry Potter bist du?",
@@ -23,7 +23,7 @@ Erweiterung
 Du bist das Fundament, auf das sich andere verlassen.
 Unterschätze niemals die Macht deines Wissens.
 `,
-        "mainPic": "./testname/img/de_img/fD1cA4fX6d.jpg"
+        "mainPic": "/testname/img/fD1cA4fX6d.jpg"
     },
     3: {
         "title": "Welcher Hauptcharakter aus Harry Potter bist du?",
@@ -36,7 +36,7 @@ Erweiterung
 Manchmal zweifelst du an dir selbst, aber deine Stärke liegt in deiner Beständigkeit.
 Du bist die unerkannte Stütze deiner Freunde.
 `,
-        "mainPic": "./testname/img/de_img/eZ1aC4nD1f.jpg"
+        "mainPic": "/testname/img/eZ1aC4nD1f.jpg"
     },
     4: {
         "title": "Welcher Hauptcharakter aus Harry Potter bist du?",
@@ -50,6 +50,6 @@ Dein Geist geht über die Grenzen des Gewöhnlichen hinaus.
 Du findest Schönheit dort, wo andere nichts sehen.
 
 `,
-        "mainPic": "./testname/img/de_img/eC0dD0aI0y.jpg"
+        "mainPic": "/testname/img/eC0dD0aI0y.jpg"
     },
 };

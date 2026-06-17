@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hoe snel worden mensen verliefd op jou",
-    "mainPic": "./testname/img/nl_img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
+    "mainPic": "/testname/img/8e6bb103d72f54bcde480ff8d83adb4e.jpeg",
     "thems": [
         "Liefde",
         "Persoonlijkheid",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Wat is jouw favoriete manier om het ijs te breken?",
-            "pic": "./testname/img/nl_img/c837e1b1989630fb982f3800495783bf.png",
+            "pic": "/testname/img/c837e1b1989630fb982f3800495783bf.png",
             "answers": [
                 {
                     "answer": "Vertel een grappige mop",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Hoe druk je meestal je gevoelens uit?",
-            "pic": "./testname/img/nl_img/277865429aff695a253a9600b959a9a5.png",
+            "pic": "/testname/img/277865429aff695a253a9600b959a9a5.png",
             "answers": [
                 {
                     "answer": "Met humor en luchtigheid",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Wat doe je het liefst tijdens een afspraakje?",
-            "pic": "./testname/img/nl_img/90d878de6a070ac4396e26e9110fcff2.png",
+            "pic": "/testname/img/90d878de6a070ac4396e26e9110fcff2.png",
             "answers": [
                 {
                     "answer": "Naar een comedyshow gaan",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Wat is jouw ideale cadeau om aan iemand te geven om wie je geeft?",
-            "pic": "./testname/img/nl_img/2b4414bad7bd31479fe0b06dc651c25c.png",
+            "pic": "/testname/img/2b4414bad7bd31479fe0b06dc651c25c.png",
             "answers": [
                 {
                     "answer": "Een grappig boek of film",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Hoe voel je je meestal in de buurt van iemand die je leuk vindt?",
-            "pic": "./testname/img/nl_img/1674d25bd047e1c6e825e8c7f052c9b7.png",
+            "pic": "/testname/img/1674d25bd047e1c6e825e8c7f052c9b7.png",
             "answers": [
                 {
                     "answer": "Ik laat ze altijd lachen",
@@ -143,7 +143,7 @@ let quizData = {
         },
         {
             "question": "Als iemand een moeilijke tijd doormaakt, zou je:",
-            "pic": "./testname/img/nl_img/73d2a96dffdda907084d524632964af9.png",
+            "pic": "/testname/img/73d2a96dffdda907084d524632964af9.png",
             "answers": [
                 {
                     "answer": "Ze laten lachen om ze op te vrolijken",

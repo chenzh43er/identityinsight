@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Er du en vakt eller en fange i Roblox Prison Life?",
-    "mainPic": "./testname/img/no_img/f1c262270db4e7814fb4120263981a1f.gif",
+    "mainPic": "/testname/img/f1c262270db4e7814fb4120263981a1f.gif",
     "thems": [
         "Spill",
         "Roblox",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Du har nettopp dukket opp i fengselsgården. Hva er det første du gjør?",
-            "pic": "./testname/img/no_img/e8a8e17f94edb10ec9410d2700013f3d.jpg",
+            "pic": "/testname/img/e8a8e17f94edb10ec9410d2700013f3d.jpg",
             "answers": [
                 {
                     "answer": "Patruljere området",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Et slagsmål bryter ut i kantinen. Hva gjør du?",
-            "pic": "./testname/img/no_img/c10f6d6a7f1ee1516294b9ac2091e44d.jpg",
+            "pic": "/testname/img/c10f6d6a7f1ee1516294b9ac2091e44d.jpg",
             "answers": [
                 {
                     "answer": "Bruk elektrosjokkvåpen",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Du finner et adgangskort liggende på bakken. Hva er din reaksjon?",
-            "pic": "./testname/img/no_img/29f8ca9bdb2c4ae799e014c3adec8775.jpg",
+            "pic": "/testname/img/29f8ca9bdb2c4ae799e014c3adec8775.jpg",
             "answers": [
                 {
                     "answer": "Returner det",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Utenfor fengselet ser du en rømt spiller. Hva gjør du?",
-            "pic": "./testname/img/no_img/754d00d106f8e581b6d13106ca2b42e5.jpg",
+            "pic": "/testname/img/754d00d106f8e581b6d13106ca2b42e5.jpg",
             "answers": [
                 {
                     "answer": "Arrester dem",

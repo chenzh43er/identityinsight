@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¡Predice tu próxima vida a través de la astrología!",
-    "mainPic": "./testname/img/es_img/87192201602c6a8362354e0e3c499c10.gif",
+    "mainPic": "/testname/img/87192201602c6a8362354e0e3c499c10.gif",
     "thems": [
         "PróximaVida",
         "Predicción",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cuál es tu energía zodiacal dominante?",
-            "pic": "./testname/img/es_img/248b8a52b2617bff5f57783a9077f227.jpeg",
+            "pic": "/testname/img/248b8a52b2617bff5f57783a9077f227.jpeg",
             "answers": [
                 {
                     "answer": "Signos de Fuego",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "¿Qué planeta gobierna tu estado de ánimo?",
-            "pic": "./testname/img/es_img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
+            "pic": "/testname/img/e0db66c6e502139ce2f3f454fdca1ac1.jpeg",
             "answers": [
                 {
                     "answer": "Venus",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "¿Para qué sientes que naciste?",
-            "pic": "./testname/img/es_img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
+            "pic": "/testname/img/da3467cff1e3150f5220f7ae17ef466f.jpeg",
             "answers": [
                 {
                     "answer": "Inspirar",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "¿Tu lección de alma actual?",
-            "pic": "./testname/img/es_img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
+            "pic": "/testname/img/9629fe41bbcc9bf4472095a7ba25f8a8.jpeg",
             "answers": [
                 {
                     "answer": "Autoestima",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "¿Qué tipo de sueños tienes?",
-            "pic": "./testname/img/es_img/dd886417f023c29cd2959c0e414ea97a.jpeg",
+            "pic": "/testname/img/dd886417f023c29cd2959c0e414ea97a.jpeg",
             "answers": [
                 {
                     "answer": "Volar",

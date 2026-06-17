@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Which Hogwarts house reflects your 2026?",
-    "mainPic": "./testname/img/de_img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
+    "mainPic": "/testname/img/53_abdf902eea9f48cf937a985e4e65b1d5.jpeg",
     "thems": [
         "Harry Potter",
         "Harry Potter Quiz",
@@ -14,7 +14,7 @@ let quizData = {
     "questions": [
         {
             "question": "When you look back on the past year, you feel...",
-            "pic": "./testname/img/de_img/54_07f8d0c332cb4233a940c36c18ebd26b.jpeg",
+            "pic": "/testname/img/54_07f8d0c332cb4233a940c36c18ebd26b.jpeg",
             "answers": [
                 {
                     "answer": "Proud of what you've accomplished.",
@@ -40,7 +40,7 @@ let quizData = {
         },
         {
             "question": "What do you want to achieve in the new year?",
-            "pic": "./testname/img/de_img/55_a6556a207bec4c5bbaa84b278460c66b.jpeg",
+            "pic": "/testname/img/55_a6556a207bec4c5bbaa84b278460c66b.jpeg",
             "answers": [
                 {
                     "answer": "Show courage.",
@@ -66,7 +66,7 @@ let quizData = {
         },
         {
             "question": "If you had a magical symbol for 2026...",
-            "pic": "./testname/img/de_img/56_b982fb5d7c8d4799bb604c8826f6a742.jpeg",
+            "pic": "/testname/img/56_b982fb5d7c8d4799bb604c8826f6a742.jpeg",
             "answers": [
                 {
                     "answer": "A sword.",
@@ -92,7 +92,7 @@ let quizData = {
         },
         {
             "question": "What quality describes you on New Year's Eve?",
-            "pic": "./testname/img/de_img/57_cb6bce3fef2c407796dc5077cc15ecd0.jpeg",
+            "pic": "/testname/img/57_cb6bce3fef2c407796dc5077cc15ecd0.jpeg",
             "answers": [
                 {
                     "answer": "Loud and lively.",
@@ -118,7 +118,7 @@ let quizData = {
         },
         {
             "question": "Where are you spending midnight?",
-            "pic": "./testname/img/de_img/58_70cde785ba824ea192ff0e5910c801ab.jpeg",
+            "pic": "/testname/img/58_70cde785ba824ea192ff0e5910c801ab.jpeg",
             "answers": [
                 {
                     "answer": "Outside, with fireworks.",
@@ -144,7 +144,7 @@ let quizData = {
         },
         {
             "question": "What brings you luck in the new year?",
-            "pic": "./testname/img/de_img/59_6ea7e9420f334c46b59b4f5f3e0aa4e0.jpeg",
+            "pic": "/testname/img/59_6ea7e9420f334c46b59b4f5f3e0aa4e0.jpeg",
             "answers": [
                 {
                     "answer": "A courageous decision.",
@@ -170,7 +170,7 @@ let quizData = {
         },
         {
             "question": "Your spell of the year is...",
-            "pic": "./testname/img/de_img/60_ffb1a265d2a5413c8db72070745ce522.jpeg",
+            "pic": "/testname/img/60_ffb1a265d2a5413c8db72070745ce522.jpeg",
             "answers": [
                 {
                     "answer": "Courageous!",
@@ -196,7 +196,7 @@ let quizData = {
         },
         {
             "question": "If you're organizing a Hogwarts party, your style is...",
-            "pic": "./testname/img/de_img/61_f0690714b0324a81a1f0c4312278aef9.jpeg",
+            "pic": "/testname/img/61_f0690714b0324a81a1f0c4312278aef9.jpeg",
             "answers": [
                 {
                     "answer": "Loud and fiery.",

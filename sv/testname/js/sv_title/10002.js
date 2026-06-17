@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Vad är din juldekorstil?",
-    "mainPic": "./testname/img/sv_img/a762e35f4b358224669604aa310802f5.jpeg",
+    "mainPic": "/testname/img/a762e35f4b358224669604aa310802f5.jpeg",
     "thems": [
         "Jul",
         "Dekorstil",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Vad är din juldekorstil?",
-            "pic": "./testname/img/sv_img/6df0cda886dac089eba92fb54a47d31b.png",
+            "pic": "/testname/img/6df0cda886dac089eba92fb54a47d31b.png",
             "answers": [
                 {
                     "answer": "En glittrande rosa eller guldig gran",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Vad toppar din julgran?",
-            "pic": "./testname/img/sv_img/ef09cc035dd48f786082568594b4838f.png",
+            "pic": "/testname/img/ef09cc035dd48f786082568594b4838f.png",
             "answers": [
                 {
                     "answer": "En glittrig rosett eller tiara topp",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Välj dina julbelysningar.",
-            "pic": "./testname/img/sv_img/eeffa01d5a923e5eb5ae618c422bb958.png",
+            "pic": "/testname/img/eeffa01d5a923e5eb5ae618c422bb958.png",
             "answers": [
                 {
                     "answer": "Färgskiftande neonljus",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Vad är din favoritsnacks under helgerna?",
-            "pic": "./testname/img/sv_img/961c3c5d40d9ffc27a65fbea04ac24ff.png",
+            "pic": "/testname/img/961c3c5d40d9ffc27a65fbea04ac24ff.png",
             "answers": [
                 {
                     "answer": "Pepparmintbark",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Hur ser dina prydnader ut?",
-            "pic": "./testname/img/sv_img/59ce7dcc732290af9a3b1cb91405ce40.png",
+            "pic": "/testname/img/59ce7dcc732290af9a3b1cb91405ce40.png",
             "answers": [
                 {
                     "answer": "Glittriga, glittertäckta dekorationer",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Din favoritaktivitet under julen?",
-            "pic": "./testname/img/sv_img/f94cb5a03283cb33d0b7fc959f947dea.png",
+            "pic": "/testname/img/f94cb5a03283cb33d0b7fc959f947dea.png",
             "answers": [
                 {
                     "answer": "Ta festliga selfies i varje hörn",

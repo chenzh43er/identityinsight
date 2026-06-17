@@ -12,7 +12,7 @@ and inspire those around you.
 You thrive when protecting
 and guiding your friends.
     `,
-    "mainPic": "./testname/img/en_img/61_85fec79b93674d90bd623f1b4c76564c.jpeg"
+    "mainPic": "/testname/img/61_85fec79b93674d90bd623f1b4c76564c.jpeg"
   },
   "2": {
     "title": "Which Marvel Avenger Is Actually Your Personality Twin?",
@@ -26,7 +26,7 @@ your intellect and creativity define you.
 You face challenges with style
 and inspire awe.
     `,
-    "mainPic": "./testname/img/en_img/62_f9456f53fb4147f189ef252e2add8dc5.jpeg"
+    "mainPic": "/testname/img/62_f9456f53fb4147f189ef252e2add8dc5.jpeg"
   },
   "3": {
     "title": "Which Marvel Avenger Is Actually Your Personality Twin?",
@@ -41,7 +41,7 @@ but your actions speak volumes.
 You excel in protecting others
 while staying adaptable.
     `,
-    "mainPic": "./testname/img/en_img/63_80371d2f6f9f4244a994f3e32e3351b5.jpeg"
+    "mainPic": "/testname/img/63_80371d2f6f9f4244a994f3e32e3351b5.jpeg"
   },
   "4": {
     "title": "Which Marvel Avenger Is Actually Your Personality Twin?",
@@ -55,6 +55,6 @@ you channel raw energy and courage.
 Life for you is a thrilling journey,
 and you face it head-on.
     `,
-    "mainPic": "./testname/img/en_img/64_b31386f298db46e8a990738ced3dd738.jpeg"
+    "mainPic": "/testname/img/64_b31386f298db46e8a990738ced3dd738.jpeg"
   }
 };

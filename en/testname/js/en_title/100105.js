@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Unravel your lifelong health destiny through astrology!",
-    "mainPic": "./testname/img/de_img/2dba8ea723b9a6b7a815b64a712c74ea.gif",
+    "mainPic": "/testname/img/2dba8ea723b9a6b7a815b64a712c74ea.gif",
     "thems": [
         "horoscope",
         "Zodiac",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "What is your zodiac sign?",
-            "pic": "./testname/img/de_img/29efffc74ce642a3aa07c51aea209f83.png",
+            "pic": "/testname/img/29efffc74ce642a3aa07c51aea209f83.png",
             "answers": [
                 {
                     "answer": "Gemini, Libra, Aquarius",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Which element does your zodiac sign correspond to?",
-            "pic": "./testname/img/de_img/834ac8fce2ba954d3b18ce6dd3a32647.png",
+            "pic": "/testname/img/834ac8fce2ba954d3b18ce6dd3a32647.png",
             "answers": [
                 {
                     "answer": "Air",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "What is the greatest characteristic of your zodiac sign?",
-            "pic": "./testname/img/de_img/2c1a7d93dd9fcf40f6e4d256b1e86527.png",
+            "pic": "/testname/img/2c1a7d93dd9fcf40f6e4d256b1e86527.png",
             "answers": [
                 {
                     "answer": "Moody",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "What element of space attracts you most?",
-            "pic": "./testname/img/de_img/c04ebef9eb8ce6ae0f1b9ba1874a2cda.png",
+            "pic": "/testname/img/c04ebef9eb8ce6ae0f1b9ba1874a2cda.png",
             "answers": [
                 {
                     "answer": "Stars",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "What is your favorite tarot card?",
-            "pic": "./testname/img/de_img/439a366b5ba3d297dd9e4ca7f44211bc.png",
+            "pic": "/testname/img/439a366b5ba3d297dd9e4ca7f44211bc.png",
             "answers": [
                 {
                     "answer": "The sun",

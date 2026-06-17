@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Zorg voor Gezondheid: Beoordeel Uw Gezondheidsrisico's door Middel van Astrologie",
-    "mainPic": "./testname/img/nl_img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
+    "mainPic": "/testname/img/0d14e389cee2714b9cca7c8f95f8ec97.gif",
     "thems": [
         "Horoscoop",
         "Dierenriem",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Selecteer je astrologische teken",
-            "pic": "./testname/img/nl_img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
+            "pic": "/testname/img/1e0eaf179de82c3ad8dcb7878ccd1db9.png",
             "answers": [
                 {
                     "answer": "Tweelingen, Weegschaal, Waterman",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Onder welk element valt jouw sterrenbeeld?",
-            "pic": "./testname/img/nl_img/6e8149aae60d71c17b411867d54e5f77.png",
+            "pic": "/testname/img/6e8149aae60d71c17b411867d54e5f77.png",
             "answers": [
                 {
                     "answer": "Lucht",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wat is je rijzende teken?",
-            "pic": "./testname/img/nl_img/ded07406345df47d69fe38ebca7c6a93.png",
+            "pic": "/testname/img/ded07406345df47d69fe38ebca7c6a93.png",
             "answers": [
                 {
                     "answer": "Tweelingen, Weegschaal, Waterman",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Welke planeet regeert jouw astrologisch teken?",
-            "pic": "./testname/img/nl_img/8863733fdf9873417bc91371f38fca82.png",
+            "pic": "/testname/img/8863733fdf9873417bc91371f38fca82.png",
             "answers": [
                 {
                     "answer": "Mars",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Ten slotte, kies je maanteken",
-            "pic": "./testname/img/nl_img/a88a842d26f473da71b432733b80036c.png",
+            "pic": "/testname/img/a88a842d26f473da71b432733b80036c.png",
             "answers": [
                 {
                     "answer": "Tweelingen, Weegschaal, Waterman",

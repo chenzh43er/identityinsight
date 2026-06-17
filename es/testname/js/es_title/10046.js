@@ -1,6 +1,6 @@
 let quizData = {
     "title": "¿Qué Avatar de Roblox Coincide con tu Vibe?",
-    "mainPic": "./testname/img/es_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+    "mainPic": "/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
     "thems": [
         "Roblox",
         "Avatar",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "¿Cuál es tu actividad de fin de semana ideal?",
-            "pic": "./testname/img/es_img/1485e83eabb791de38c2ff2983845481.png",
+            "pic": "/testname/img/1485e83eabb791de38c2ff2983845481.png",
             "answers": [
                 {
                     "answer": "Ir al gimnasio",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Elige tu color favorito.",
-            "pic": "./testname/img/es_img/117bd17f44c1d3504fc11a3345a2c357.png",
+            "pic": "/testname/img/117bd17f44c1d3504fc11a3345a2c357.png",
             "answers": [
                 {
                     "answer": "Rojo",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "¿Cómo te describen tus amigos?",
-            "pic": "./testname/img/es_img/1bb231d392834e95ffb3146c5885dff0.png",
+            "pic": "/testname/img/1bb231d392834e95ffb3146c5885dff0.png",
             "answers": [
                 {
                     "answer": "Energético",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "¿Qué refrigerio tomarías primero?",
-            "pic": "./testname/img/es_img/444dff04c7d21a44dce961e54b36ffc8.png",
+            "pic": "/testname/img/444dff04c7d21a44dce961e54b36ffc8.png",
             "answers": [
                 {
                     "answer": "Barra de proteína",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "¿Cuál es tu trabajo soñado?",
-            "pic": "./testname/img/es_img/b0d51dcce3166e108a6b5982b3e2c792.png",
+            "pic": "/testname/img/b0d51dcce3166e108a6b5982b3e2c792.png",
             "answers": [
                 {
                     "answer": "Atleta",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Elige un pasatiempo.",
-            "pic": "./testname/img/es_img/c82372b96a77e8a3fa98f938ee81679f.png",
+            "pic": "/testname/img/c82372b96a77e8a3fa98f938ee81679f.png",
             "answers": [
                 {
                     "answer": "Hacer ejercicio",
@@ -193,7 +193,7 @@ let quizData = {
         },
         {
             "question": "Encuentras un billete de 100 dólares. ¿En qué lo gastas?",
-            "pic": "./testname/img/es_img/7479bc818acfa775256e80a42f016fe7.png",
+            "pic": "/testname/img/7479bc818acfa775256e80a42f016fe7.png",
             "answers": [
                 {
                     "answer": "Equipo de entrenamiento",

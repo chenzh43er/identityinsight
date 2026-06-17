@@ -1,6 +1,6 @@
 let quizData = {
     "title": "قاتل الشياطين: هل تستطيع الهروب من قلعة اللانهاية؟",
-    "mainPic": "./testname/img/ar_img/218387c6f9aea09748aca95046de7e72.gif",
+    "mainPic": "/testname/img/218387c6f9aea09748aca95046de7e72.gif",
     "thems": [
         "أنمي",
         "كيميتسو نو يايبا",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "أي نمط تنفس ترغب في الحصول عليه؟",
-            "pic": "./testname/img/ar_img/b39fbd467608059a26210f45ac9e9906.png",
+            "pic": "/testname/img/b39fbd467608059a26210f45ac9e9906.png",
             "answers": [
                 {
                     "answer": "تنفس الماء",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "ما هو نوع السلاح المفضل لديك؟",
-            "pic": "./testname/img/ar_img/49ec98ec3c76df5f0792e394eecd9c24.png",
+            "pic": "/testname/img/49ec98ec3c76df5f0792e394eecd9c24.png",
             "answers": [
                 {
                     "answer": "سيوف",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "أي شخصية ستختار كزميل لدخول قلعة إنفينيتي؟",
-            "pic": "./testname/img/ar_img/d32a4b76b7ebe89617750929bec091fd.png",
+            "pic": "/testname/img/d32a4b76b7ebe89617750929bec091fd.png",
             "answers": [
                 {
                     "answer": "شينوبو كوتشو",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "ما هي المهارة التي تعتبر نفسك الأفضل فيها؟",
-            "pic": "./testname/img/ar_img/ca624ea56ed19987bb221ff69dfd3406.png",
+            "pic": "/testname/img/ca624ea56ed19987bb221ff69dfd3406.png",
             "answers": [
                 {
                     "answer": "التحمل والقدرة على التحمل",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "كيف ستتعامل مع الخوف داخل قلعة اللانهاية؟",
-            "pic": "./testname/img/ar_img/494490e5749f560126076aeb697018b4.png",
+            "pic": "/testname/img/494490e5749f560126076aeb697018b4.png",
             "answers": [
                 {
                     "answer": "مواجهته وجهاً لوجه",

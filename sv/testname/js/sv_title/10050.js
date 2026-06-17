@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Vad är magin med Harry Potters skalle?",
-    "mainPic": "./testname/img/fr_img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
+    "mainPic": "/testname/img/06_08d508af-86c4-4d6e-91c9-8035c0b4df56.jpeg",
     "thems": ["Harry Potter", "Harry-Potter-quiz", "Hogwarts", "Magi", "Filma", "Harry-Potter-fans", "Magiska världen", "Potterheads"],
     "questions": [
         {
             "question": "Hur skulle du beskriva dig själv?",
-            "pic": "./testname/img/fr_img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
+            "pic": "/testname/img/05_6637ac86-76ae-4140-a453-7587360b22eb.jpeg",
             "answers": [
                 {
                     "answer": "Stolt och självständig.",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Vad skulle du göra om du blev hotad?",
-            "pic": "./testname/img/fr_img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
+            "pic": "/testname/img/04_58ff436c-980b-4240-893d-d353a1d6789d.png",
             "answers": [
                  {
                     "answer": "Kämpa till slutet.",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Vilken är din största dröm?",
-            "pic": "./testname/img/fr_img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
+            "pic": "/testname/img/03_cf20bc6b-b7f7-4836-9428-72a034c9b3de.jpeg",
             "answers": [
                  {
                     "answer": "Frihet.",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Var skulle du vilja bo?",
-            "pic": "./testname/img/fr_img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
+            "pic": "/testname/img/02_32883393-ba7e-4571-ad5a-ea6cbf5c90f8.jpeg",
             "answers": [
                 {
                     "answer": "I skogarna i den Förbjudna Skogen.",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vilken förmåga värdesätter du högst?",
-            "pic": "./testname/img/fr_img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
+            "pic": "/testname/img/01_5127d63c-79ff-40d8-b559-a5a44f3ba4bf.jpeg",
             "answers": [
                  {
                     "answer": "Styrka och mod.",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Hur beter du dig med dina vänner?",
-            "pic": "./testname/img/fr_img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
+            "pic": "/testname/img/26_38685a25-0a50-4c2a-b225-70199946dfe2.jpeg",
             "answers": [
                   {
                         "answer": "Jag skyddar dem med all min styrka.",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Vilken miljö fascinerar dig mest?",
-            "pic": "./testname/img/fr_img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
+            "pic": "/testname/img/25_710ee92b-1d49-42aa-86ac-6d96300ab994.jpeg",
             "answers": [
                 {
                     "answer": "Täta skogar.",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Vilket motto representerar dig bäst?",
-            "pic": "./testname/img/fr_img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
+            "pic": "/testname/img/24_53221d12-fca4-485c-bad2-b596f9e91bec.jpeg",
             "answers": [
                   {
                         "answer": "Frihet är min största skatt.",

@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches Kpop Dämonenjäger-Paar seid ihr und euer Partner?",
-    "mainPic": "./testname/img/de_img/77bea6780f5a611285936e2a31040efb.gif",
+    "mainPic": "/testname/img/77bea6780f5a611285936e2a31040efb.gif",
     "thems": [
         "KPop Dämonenjäger",
         "KPop",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Welche Art von Stimmung hat Ihre Beziehung?",
-            "pic": "./testname/img/de_img/8fe9eef022c9cbfb0a3b0345f550b930.png",
+            "pic": "/testname/img/8fe9eef022c9cbfb0a3b0345f550b930.png",
             "answers": [
                 {
                     "answer": "Elektrisch",
@@ -33,7 +33,7 @@ let quizData = {
         },
         {
             "question": "Wer übernimmt in Ihrer Dynamik die Führung?",
-            "pic": "./testname/img/de_img/5a8c1d264c99c3efab5d1cd9129b4743.png",
+            "pic": "/testname/img/5a8c1d264c99c3efab5d1cd9129b4743.png",
             "answers": [
                 {
                     "answer": "Ich",
@@ -54,7 +54,7 @@ let quizData = {
         },
         {
             "question": "Welche Farbe repräsentiert Ihre Paarästhetik?",
-            "pic": "./testname/img/de_img/a3a2b55a57e20c0cf8d4c33e2510b032.png",
+            "pic": "/testname/img/a3a2b55a57e20c0cf8d4c33e2510b032.png",
             "answers": [
                 {
                     "answer": "Schwarz und Rot",
@@ -75,7 +75,7 @@ let quizData = {
         },
         {
             "question": "Was ist eure größte Stärke als Duo?",
-            "pic": "./testname/img/de_img/fdf9f85611e527db8a0a575c171a6057.png",
+            "pic": "/testname/img/fdf9f85611e527db8a0a575c171a6057.png",
             "answers": [
                 {
                     "answer": "Intensität",
@@ -96,7 +96,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie ein K-Pop-Konzept, das zu Ihnen beiden passt",
-            "pic": "./testname/img/de_img/2d36e4ec673aa014f1787b6b9eeb4424.png",
+            "pic": "/testname/img/2d36e4ec673aa014f1787b6b9eeb4424.png",
             "answers": [
                 {
                     "answer": "Retro/Y2K",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein Kampf-Slogan?",
-            "pic": "./testname/img/de_img/026b8cfef6ef55f15201cbd36aeb9f83.png",
+            "pic": "/testname/img/026b8cfef6ef55f15201cbd36aeb9f83.png",
             "answers": [
                 {
                     "answer": "„Mach dich bereit zu brennen.“",

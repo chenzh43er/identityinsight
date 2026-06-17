@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Wie is verliefd op jou?",
-    "mainPic": "./testname/img/nl_img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
+    "mainPic": "/testname/img/c9e7d207deea3d83b44c471f15f6644b.jpeg",
     "thems": [
         "Persoonlijkheid",
         "Verliefdheid",

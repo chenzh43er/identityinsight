@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما هي شخصيتك في تنكّر ZEPETO؟",
-    "mainPic": "./testname/img/ar_img/1606dce13c620aee59e608cfcf18ed6a.gif",
+    "mainPic": "/testname/img/1606dce13c620aee59e608cfcf18ed6a.gif",
     "thems": [
         "زيبيتو",
         "تنكر",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "كيف تختار ملابس ZEPETO الخاصة بك؟",
-            "pic": "./testname/img/ar_img/4910bfa78ddbe8e1f65df2871a9de33e.jpeg",
+            "pic": "/testname/img/4910bfa78ddbe8e1f65df2871a9de33e.jpeg",
             "answers": [
                 {
                     "answer": "بناءً على الأحداث",
@@ -42,7 +42,7 @@ let quizData = {
         },
         {
             "question": "ما هو تصفيفة شعرك المفضلة في ZEPETO؟",
-            "pic": "./testname/img/ar_img/9e4bf5cc3b92e5ed204a55fbee058d28.jpeg",
+            "pic": "/testname/img/9e4bf5cc3b92e5ed204a55fbee058d28.jpeg",
             "answers": [
                 {
                     "answer": "ذيل حصان أنيق",
@@ -68,7 +68,7 @@ let quizData = {
         },
         {
             "question": "ما هو ملحق ZEPETO المفضل لديك؟",
-            "pic": "./testname/img/ar_img/d6bfaff961f7b5fbae2cbb90592c3859.jpeg",
+            "pic": "/testname/img/d6bfaff961f7b5fbae2cbb90592c3859.jpeg",
             "answers": [
                 {
                     "answer": "قبعة فاخرة",
@@ -94,7 +94,7 @@ let quizData = {
         },
         {
             "question": "أين تتخيل شخصية ZEPETO الخاصة بك؟",
-            "pic": "./testname/img/ar_img/4456f5e8c4b7e4611f73ea563768e393.jpeg",
+            "pic": "/testname/img/4456f5e8c4b7e4611f73ea563768e393.jpeg",
             "answers": [
                 {
                     "answer": "اجتماع عمل",
@@ -120,7 +120,7 @@ let quizData = {
         },
         {
             "question": "ما هو خلفية ZEPETO المثالية بالنسبة لك؟",
-            "pic": "./testname/img/ar_img/83a5ef3baab7f043bc36a170551b9411.jpeg",
+            "pic": "/testname/img/83a5ef3baab7f043bc36a170551b9411.jpeg",
             "answers": [
                 {
                     "answer": "مكتب عصري",
@@ -146,7 +146,7 @@ let quizData = {
         },
         {
             "question": "ما هي وضعية ZEPETO المفضلة لديك؟",
-            "pic": "./testname/img/ar_img/cac6a77270faa31f4fa321097e13093a.jpeg",
+            "pic": "/testname/img/cac6a77270faa31f4fa321097e13093a.jpeg",
             "answers": [
                 {
                     "answer": "تحية رسمية",

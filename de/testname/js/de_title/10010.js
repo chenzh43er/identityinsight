@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welcher Marvel-Bösewicht bist du am ähnlichsten?",
-    "mainPic": "./testname/img/de_img/3e32f087376c2ec3080b814ae5d4d504.jpeg",
+    "mainPic": "/testname/img/3e32f087376c2ec3080b814ae5d4d504.jpeg",
     "thems": [
         "Filme",
         "Marvel",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist deine ideale Superkraft?",
-            "pic": "./testname/img/de_img/2a7ba409ab592679a9949767b51cb403.jpg",
+            "pic": "/testname/img/2a7ba409ab592679a9949767b51cb403.jpg",
             "answers": [
                 {
                     "answer": "Übermenschliche Stärke",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Lieblingsfarbe?",
-            "pic": "./testname/img/de_img/3c37f47f84c199205922708ac5caae7c.jpg",
+            "pic": "/testname/img/3c37f47f84c199205922708ac5caae7c.jpg",
             "answers": [
                 {
                     "answer": "Grün",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wenn Sie ein geheimes Versteck hätten, wo wäre es?",
-            "pic": "./testname/img/de_img/4e504da550fe09eea8a86d0f250487b3.jpg",
+            "pic": "/testname/img/4e504da550fe09eea8a86d0f250487b3.jpg",
             "answers": [
                 {
                     "answer": "Eine versteckte Insel",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein ultimatives Ziel?",
-            "pic": "./testname/img/de_img/fbdf51bc37886e7da00c16ed3cd3aa82.jpg",
+            "pic": "/testname/img/fbdf51bc37886e7da00c16ed3cd3aa82.jpg",
             "answers": [
                 {
                     "answer": "Weltherrschaft",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Welches dieser Waffen ist dein Favorit?",
-            "pic": "./testname/img/de_img/95364dc6d3d286b988cd61711b0b34bb.jpg",
+            "pic": "/testname/img/95364dc6d3d286b988cd61711b0b34bb.jpg",
             "answers": [
                 {
                     "answer": "Ein mächtiger Handschuh",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Wie gehen Sie mit denen um, die sich Ihnen widersetzen?",
-            "pic": "./testname/img/de_img/32fec12478563fb97ccf6e9c4f30e3b2.jpg",
+            "pic": "/testname/img/32fec12478563fb97ccf6e9c4f30e3b2.jpg",
             "answers": [
                 {
                     "answer": "Zerschmettern Sie sie mit roher Gewalt",

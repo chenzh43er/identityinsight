@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Quel Élève de Poudlard Es-tu en Amour ?",
-    "mainPic": "./testname/img/fr_img/dA4hK0aA4vA0.jpg",
+    "mainPic": "/testname/img/dA4hK0aA4vA0.jpg",
     "thems": ["Harry Potter", "Galtvort", "Film", "Filmer", "Fjernsyn", "Trivia"],
     "questions": [
         {
             "question": "Lorsque tu entres dans la Grande Salle, que remarques-tu en premier ?",
-            "pic": "./testname/img/fr_img/jH3dR4mJ3eI0.png",
+            "pic": "/testname/img/jH3dR4mJ3eI0.png",
             "answers": [
                 {
                     "answer": "La décoration, les chandeliers",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Ton rendez-vous rêvé dans les couloirs de Poudlard :",
-            "pic": "./testname/img/fr_img/gT2rK7cA1dC5.jpg",
+            "pic": "/testname/img/gT2rK7cA1dC5.jpg",
             "answers": [
                 {
                     "answer": "Une balade sous les étoiles près du lac",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Qu’est-ce que tu offres comme cadeau magique à ton “crush” ?",
-            "pic": "./testname/img/fr_img/aH3hA0iJ3cL6.jpg",
+            "pic": "/testname/img/aH3hA0iJ3cL6.jpg",
             "answers": [
                 {
                     "answer": "Une plume ensorcelée",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Ton style de drague magique serait plutôt :",
-            "pic": "./testname/img/fr_img/kZ1aK5iH1hG4.jpg",
+            "pic": "/testname/img/kZ1aK5iH1hG4.jpg",
             "answers": [
                 {
                     "answer": "Poétique et romantique",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Si tu devais affronter un dragon pour ton amoureux(se), tu ferais quoi ?",
-            "pic": "./testname/img/fr_img/vC1bC0qY0kI1.jpg",
+            "pic": "/testname/img/vC1bC0qY0kI1.jpg",
             "answers": [
                 {
                     "answer": "Prøv å forhandle",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Quel endroit à Poudlard serait ton lieu de secret amoureux ?",
-            "pic": "./testname/img/fr_img/bI1pB0iE0cG0.png",
+            "pic": "/testname/img/bI1pB0iE0cG0.png",
             "answers": [
                 {
                     "answer": "Rom for forespørsel",
@@ -161,7 +161,7 @@ let quizData = {
         },
         {
             "question": "Quelle musique magique choisirais-tu pour un slow romantique ?",
-            "pic": "./testname/img/fr_img/cI0aA0aK0cS3.jpg",
+            "pic": "/testname/img/cI0aA0aK0cS3.jpg",
             "answers": [
                 {
                     "answer": "Fortryllet harpemelodi",
@@ -187,7 +187,7 @@ let quizData = {
         },
         {
             "question": "Dans une dispute, tu es plutôt :",
-            "pic": "./testname/img/fr_img/aA0eD0dC0aR0.jpg",
+            "pic": "/testname/img/aA0eD0dC0aR0.jpg",
             "answers": [
                 {
                     "answer": "Jeg roer ting forsiktig ned",
@@ -213,7 +213,7 @@ let quizData = {
         },
         {
             "question": "Que dirais-tu à ton partenaire pour exprimer tes sentiments magiques ?",
-            "pic": "./testname/img/fr_img/aM0dC1pK3lA4.png",
+            "pic": "/testname/img/aM0dC1pK3lA4.png",
             "answers": [
                 {
                     "answer": "Du lyser opp min verden",

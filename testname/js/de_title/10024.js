@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Welches Mitglied der Saja Boys ist Ihr idealer Partner?",
-    "mainPic": "./testname/img/de_img/f8bffc8bddd8f58e246eafa5126387ca.gif",
+    "mainPic": "/testname/img/f8bffc8bddd8f58e246eafa5126387ca.gif",
     "thems": [
         "K-pop",
         "Kpop-Dämonenjäger",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist dein Traum-Date-Abend?",
-            "pic": "./testname/img/de_img/6ea54d2dd7da965d6ccd1e56c4cdcc7e.png",
+            "pic": "/testname/img/6ea54d2dd7da965d6ccd1e56c4cdcc7e.png",
             "answers": [
                 {
                     "answer": "Ein gemütliches Café, stundenlang reden",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "Welchen Textstil magst du?",
-            "pic": "./testname/img/de_img/1bf293981a3fe37eee4ec8bfc524ea6a.png",
+            "pic": "/testname/img/1bf293981a3fe37eee4ec8bfc524ea6a.png",
             "answers": [
                 {
                     "answer": "Nachdenklich und poetisch",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "Wählen Sie eine Stimmung für Ihren zukünftigen Freund",
-            "pic": "./testname/img/de_img/ca80c8d5cc9f737270f10f2b6f141204.png",
+            "pic": "/testname/img/ca80c8d5cc9f737270f10f2b6f141204.png",
             "answers": [
                 {
                     "answer": "Sanft gesprochen",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "Was ist deine Liebessprache?",
-            "pic": "./testname/img/de_img/503aa10a6521bcdf67b358cc6b67f89a.png",
+            "pic": "/testname/img/503aa10a6521bcdf67b358cc6b67f89a.png",
             "answers": [
                 {
                     "answer": "Worte der Bestätigung",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "Was lässt dein Herz am meisten rasen?",
-            "pic": "./testname/img/de_img/48f504e0ccc3483c7faf8c9807effcb2.png",
+            "pic": "/testname/img/48f504e0ccc3483c7faf8c9807effcb2.png",
             "answers": [
                 {
                     "answer": "Ein sanfter Blick, der zu lange verweilt",
@@ -142,7 +142,7 @@ let quizData = {
         },
         {
             "question": "Welcher K-Pop-Idol ist dein ultimativer Favorit?",
-            "pic": "./testname/img/de_img/a02dc0ee4473c865aea163f03528ad43.png",
+            "pic": "/testname/img/a02dc0ee4473c865aea163f03528ad43.png",
             "answers": [
                 {
                     "answer": "Jimin",

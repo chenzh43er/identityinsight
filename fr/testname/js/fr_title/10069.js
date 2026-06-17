@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Nous révélerons votre âge en fonction de votre empreinte digitale",
-    "mainPic": "./testname/img/fr_img/bae4afa98f637f3006d68f45118399cb.gif",
+    "mainPic": "/testname/img/bae4afa98f637f3006d68f45118399cb.gif",
     "thems": [
         "Âge",
         "Horoscope",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel motif remarquez-vous dans votre empreinte digitale?",
-            "pic": "./testname/img/fr_img/2760055d3d3c682c515edc27639a337b.jpg",
+            "pic": "/testname/img/2760055d3d3c682c515edc27639a337b.jpg",
             "answers": [
                 {
                     "answer": "Boucle",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Quelle est la profondeur de vos crêtes de empreintes digitales ?",
-            "pic": "./testname/img/fr_img/1804d2ad3c88eb40079f2055830786c9.jpg",
+            "pic": "/testname/img/1804d2ad3c88eb40079f2055830786c9.jpg",
             "answers": [
                 {
                     "answer": "Léger",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Quelle est la largeur des espaces entre les lignes ?",
-            "pic": "./testname/img/fr_img/c401a26455c2e88e1a4f857c19f0dc58.jpg",
+            "pic": "/testname/img/c401a26455c2e88e1a4f857c19f0dc58.jpg",
             "answers": [
                 {
                     "answer": "Étroit",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Comment se sent la peau de vos bouts de doigts ?",
-            "pic": "./testname/img/fr_img/d76473ed6525cba58bc3275d67c79147.jpg",
+            "pic": "/testname/img/d76473ed6525cba58bc3275d67c79147.jpg",
             "answers": [
                 {
                     "answer": "Lisse",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "À quelle vitesse vos doigts transpirent-ils ?",
-            "pic": "./testname/img/fr_img/1caf7794f67156b7ae67f7a19de7acbc.jpg",
+            "pic": "/testname/img/1caf7794f67156b7ae67f7a19de7acbc.jpg",
             "answers": [
                 {
                     "answer": "Jamais",

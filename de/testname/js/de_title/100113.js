@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Treffen Sie Entscheidungen basierend auf Ihrem Sternzeichen und finden Sie den Namen Ihres Seelenverwandten heraus!",
-    "mainPic": "./testname/img/de_img/13bc72828b062229dd2750e3bafb47c4.gif",
+    "mainPic": "/testname/img/13bc72828b062229dd2750e3bafb47c4.gif",
     "thems": [
         "Horoskop",
         "Sternzeichen",
@@ -13,7 +13,7 @@ let quizData = {
     "questions": [
         {
             "question": "Was ist dein Sternzeichen?",
-            "pic": "./testname/img/de_img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
+            "pic": "/testname/img/8882abb64b0a00aa0f1d4334ee8a2a9f.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",
@@ -39,7 +39,7 @@ let quizData = {
         },
         {
             "question": "Welchem Element gehört Ihr Sternzeichen an?",
-            "pic": "./testname/img/de_img/b8b8afb12370def491f994c2a7ad93c4.png",
+            "pic": "/testname/img/b8b8afb12370def491f994c2a7ad93c4.png",
             "answers": [
                 {
                     "answer": "Luft",
@@ -65,7 +65,7 @@ let quizData = {
         },
         {
             "question": "Welcher dieser Planeten hat mehr Einfluss auf Ihr Sternzeichen?",
-            "pic": "./testname/img/de_img/ed65d96819faccd9362fb0cfaca1f1d4.png",
+            "pic": "/testname/img/ed65d96819faccd9362fb0cfaca1f1d4.png",
             "answers": [
                 {
                     "answer": "Mond oder Sonne",
@@ -91,7 +91,7 @@ let quizData = {
         },
         {
             "question": "Was ist dein Aszendent?",
-            "pic": "./testname/img/de_img/435de43e8404ec350d0ffe5fa41839b8.png",
+            "pic": "/testname/img/435de43e8404ec350d0ffe5fa41839b8.png",
             "answers": [
                 {
                     "answer": "Zwillinge, Waage, Wassermann",
@@ -117,7 +117,7 @@ let quizData = {
         },
         {
             "question": "Wie sehr glauben Sie an Ihr Sternzeichen?",
-            "pic": "./testname/img/de_img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
+            "pic": "/testname/img/32af7ee3c63ba4ceca3f66d9975bdc7b.png",
             "answers": [
                 {
                     "answer": "Vollständig, es definiert mich",

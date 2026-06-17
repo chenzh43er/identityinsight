@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Que dit votre horoscope hebdomadaire sur votre vie amoureuse?",
-    "mainPic": "./testname/img/fr_img/39b596f2c024869bb393afc04c18e57a.gif",
+    "mainPic": "/testname/img/39b596f2c024869bb393afc04c18e57a.gif",
     "thems": [
         "Horoscope",
         "Vie amoureuse",
@@ -9,7 +9,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel est votre signe?",
-            "pic": "./testname/img/fr_img/93efd214cf5e7e42a4d46fc2bff1699a.png",
+            "pic": "/testname/img/93efd214cf5e7e42a4d46fc2bff1699a.png",
             "answers": [
                 {
                     "answer": "♈ Bélier / ♌ Lion / ♐ Sagittaire",
@@ -35,7 +35,7 @@ let quizData = {
         },
         {
             "question": "Comment Décririez-vous Votre Manière d'Aimer?",
-            "pic": "./testname/img/fr_img/143d9cab9cbf079ffc93096e50b994e3.png",
+            "pic": "/testname/img/143d9cab9cbf079ffc93096e50b994e3.png",
             "answers": [
                 {
                     "answer": "Romantique et attentionné",
@@ -61,7 +61,7 @@ let quizData = {
         },
         {
             "question": "Si votre vie amoureuse avait un emoji cette semaine, lequel serait-ce ?",
-            "pic": "./testname/img/fr_img/0bfc257e9f9022380e922c30956150cf.jpeg",
+            "pic": "/testname/img/0bfc257e9f9022380e922c30956150cf.jpeg",
             "answers": [
                 {
                     "answer": "❤️",
@@ -87,7 +87,7 @@ let quizData = {
         },
         {
             "question": "Que feriez-vous si vous receviez un message de votre béguin cette semaine ?",
-            "pic": "./testname/img/fr_img/b7c579a6271e99d53754b82415b3a6b3.jpg",
+            "pic": "/testname/img/b7c579a6271e99d53754b82415b3a6b3.jpg",
             "answers": [
                 {
                     "answer": "Répondre immédiatement",
@@ -113,7 +113,7 @@ let quizData = {
         },
         {
             "question": "Quelle planète correspond à votre énergie cette semaine ?",
-            "pic": "./testname/img/fr_img/4ad93aa4655e06748f658f788738d19d.jpg",
+            "pic": "/testname/img/4ad93aa4655e06748f658f788738d19d.jpg",
             "answers": [
                 {
                     "answer": "Vénus",

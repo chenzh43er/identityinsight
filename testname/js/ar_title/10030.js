@@ -1,6 +1,6 @@
 let quizData = {
     "title": "ما نوع الغوريلا الذي ستكونه في لعبة Gtag؟",
-    "mainPic": "./testname/img/ar_img/aec9465b7bf0b32862c2a35ca915ee5d.gif",
+    "mainPic": "/testname/img/aec9465b7bf0b32862c2a35ca915ee5d.gif",
     "thems": [
         "Gorilla Tag",
         "Gtag",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "ما هي المهارات التي تجيدها في اللعبة؟",
-            "pic": "./testname/img/ar_img/8f09b3d6b98150b8b1868d1a466d2bc2.png",
+            "pic": "/testname/img/8f09b3d6b98150b8b1868d1a466d2bc2.png",
             "answers": [
                 {
                     "answer": "الجري",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "كيف تصف شخصيتك؟",
-            "pic": "./testname/img/ar_img/5bae394ac4b1cf44dfe3992f0fd8dbd1.png",
+            "pic": "/testname/img/5bae394ac4b1cf44dfe3992f0fd8dbd1.png",
             "answers": [
                 {
                     "answer": "خيالي",
@@ -62,7 +62,7 @@ let quizData = {
         },
         {
             "question": "اختر قبعة من اللعبة:",
-            "pic": "./testname/img/ar_img/850537613eb75cccb338e94cf72a96e1.png",
+            "pic": "/testname/img/850537613eb75cccb338e94cf72a96e1.png",
             "answers": [
                 {
                     "answer": "قبعة الموز",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "ما هو أسلوب لعبك في هذه اللعبة؟",
-            "pic": "./testname/img/ar_img/4008ecd0129b22adbd2a95eb1c901c60.png",
+            "pic": "/testname/img/4008ecd0129b22adbd2a95eb1c901c60.png",
             "answers": [
                 {
                     "answer": "إعطاء الأولوية للسرعة والرشاقة",
@@ -114,7 +114,7 @@ let quizData = {
         },
         {
             "question": "ما مدى جودتك في هذا اللعبة؟",
-            "pic": "./testname/img/ar_img/1424e3259a5504ffd4a1b19e4d22412d.png",
+            "pic": "/testname/img/1424e3259a5504ffd4a1b19e4d22412d.png",
             "answers": [
                 {
                     "answer": "أنا الأفضل!",

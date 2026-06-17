@@ -9,7 +9,7 @@ Courage, loyauté, sens du sacrifice
 Extension / plus
 Tu ferais face à Voldemort sans hésiter, tu inspires les autres par tes choix. Attention toutefois à ne pas tout porter seul(e).
 `,
-        "mainPic": "./testname/img/fr_img/eK0hE3mQ7d.jpg"
+        "mainPic": "/testname/img/eK0hE3mQ7d.jpg"
     },
     2: {
         "title": "Quel personnage principal de Harry Potter êtes-vous ?",
@@ -21,7 +21,7 @@ Intelligence, curiosité, rigueur
 Extension / plus
 Tu es le pilier sur qui les autres s’appuient. Ne sous-estime jamais le pouvoir de ta connaissance.
 `,
-        "mainPic": "./testname/img/fr_img/fD1cA4fX6d.jpg"
+        "mainPic": "/testname/img/fD1cA4fX6d.jpg"
     },
     3: {
         "title": "Quel personnage principal de Harry Potter êtes-vous ?",
@@ -33,7 +33,7 @@ Loyalité, humour, courage discret
 Extension / plus
 Tu manques peut-être de confiance parfois, mais ton soutien est inébranlable. Tu es un pilier dans l’ombre.
 `,
-        "mainPic": "./testname/img/fr_img/eZ1aC4nD1f.jpg"
+        "mainPic": "/testname/img/eZ1aC4nD1f.jpg"
     },
     4: {
         "title": "Quel personnage principal de Harry Potter êtes-vous ?",
@@ -45,6 +45,6 @@ Originalité, intuition, liberté
 Extension / plus
 Ton esprit voyage au-delà des conventions. Tu trouves la beauté là où d’autres voient le banal.
 `,
-        "mainPic": "./testname/img/fr_img/eC0dD0aI0y.jpg"
+        "mainPic": "/testname/img/eC0dD0aI0y.jpg"
     },
 };

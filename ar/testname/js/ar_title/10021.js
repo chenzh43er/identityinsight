@@ -1,6 +1,6 @@
 let quizData = {
     "title": "أي شخصية من شخصيات ديزني تناسب ذوقك؟",
-    "mainPic": "./testname/img/ar_img/7fccf4da83d7730cb7ea481aa10eef25.gif",
+    "mainPic": "/testname/img/7fccf4da83d7730cb7ea481aa10eef25.gif",
     "thems": [
         "ديزني",
         "أفلام ديزني",
@@ -12,7 +12,7 @@ let quizData = {
     "questions": [
         {
             "question": "أي من هذه الأماكن تفضل؟",
-            "pic": "./testname/img/ar_img/8a1b796596b13c334ed95505bfa3bd50.png",
+            "pic": "/testname/img/8a1b796596b13c334ed95505bfa3bd50.png",
             "answers": [
                 {
                     "answer": "منظر طبيعي خصب وحيوي",
@@ -38,7 +38,7 @@ let quizData = {
         },
         {
             "question": "أي نمط من الملابس يتناغم معك؟",
-            "pic": "./testname/img/ar_img/84ad4161d13f243f3365e7a7eca55f58.png",
+            "pic": "/testname/img/84ad4161d13f243f3365e7a7eca55f58.png",
             "answers": [
                 {
                     "answer": "ملابس عملية ومريحة",
@@ -64,7 +64,7 @@ let quizData = {
         },
         {
             "question": "ما هي الصفة التي تقدرها أكثر في بطل ديزني؟",
-            "pic": "./testname/img/ar_img/5a96dbae2a08dd606799e831149918b9.png",
+            "pic": "/testname/img/5a96dbae2a08dd606799e831149918b9.png",
             "answers": [
                 {
                     "answer": "شجاعة",
@@ -90,7 +90,7 @@ let quizData = {
         },
         {
             "question": "كيف تعبر عن نفسك عادةً؟",
-            "pic": "./testname/img/ar_img/f6d0827bcc99211203ecee9db256dcb5.png",
+            "pic": "/testname/img/f6d0827bcc99211203ecee9db256dcb5.png",
             "answers": [
                 {
                     "answer": "من خلال الأفعال",
@@ -116,7 +116,7 @@ let quizData = {
         },
         {
             "question": "ما هو نوع الموسيقى الذي تستمتع به أكثر؟",
-            "pic": "./testname/img/ar_img/b151ca39b180d5cff6788abe8a1b98ad.png",
+            "pic": "/testname/img/b151ca39b180d5cff6788abe8a1b98ad.png",
             "answers": [
                 {
                     "answer": "موسيقى فريدة ومعبرة",

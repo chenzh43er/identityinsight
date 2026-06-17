@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Pixar-karakter er du?",
-    "mainPic": "./testname/img/no_img/ce89c2cc63a37c727cf1090ab388195f.gif",
+    "mainPic": "/testname/img/ce89c2cc63a37c727cf1090ab388195f.gif",
     "thems": [
         "Pixar",
         "Figurer",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hvilken superkraft ville du helst ha?",
-            "pic": "./testname/img/no_img/8442cb86505fa5b79e04177ea8358c1e.png",
+            "pic": "/testname/img/8442cb86505fa5b79e04177ea8358c1e.png",
             "answers": [
                 {
                     "answer": "Kontrollere andres følelser",
@@ -46,22 +46,22 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/no_img/sr_1720146109668758bdb7f53.jpg",
+                    "aPic": "/testname/img/sr_1720146109668758bdb7f53.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/no_img/sr_1720146143668758df73aa1.jpg",
+                    "aPic": "/testname/img/sr_1720146143668758df73aa1.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/no_img/sr_17201460106687585ac9284.jpg",
+                    "aPic": "/testname/img/sr_17201460106687585ac9284.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/no_img/sr_17201459406687581452758.jpg",
+                    "aPic": "/testname/img/sr_17201459406687581452758.jpg",
                     "aId": 4
                 }
             ]
@@ -72,29 +72,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "1",
-                    "aPic": "./testname/img/no_img/sr_172014653466875a66bb858.jpg",
+                    "aPic": "/testname/img/sr_172014653466875a66bb858.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "2",
-                    "aPic": "./testname/img/no_img/sr_172014656066875a80b347d.jpg",
+                    "aPic": "/testname/img/sr_172014656066875a80b347d.jpg",
                     "aId": 2
                 },
                 {
                     "answer": "3",
-                    "aPic": "./testname/img/no_img/sr_172014660166875aa989f1a.jpg",
+                    "aPic": "/testname/img/sr_172014660166875aa989f1a.jpg",
                     "aId": 3
                 },
                 {
                     "answer": "4",
-                    "aPic": "./testname/img/no_img/sr_172014661666875ab889599.jpg",
+                    "aPic": "/testname/img/sr_172014661666875ab889599.jpg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Hvilket ord beskriver deg best?",
-            "pic": "./testname/img/no_img/f84a5ff2118b5e3095283fe5aa5bcef2.jpg",
+            "pic": "/testname/img/f84a5ff2118b5e3095283fe5aa5bcef2.jpg",
             "answers": [
                 {
                     "answer": "Konkurransedyktig",
@@ -124,12 +124,12 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Alma Madrigal fra Encanto",
-                    "aPic": "./testname/img/no_img/sr_172014691266875be02b5a9.jpg",
+                    "aPic": "/testname/img/sr_172014691266875be02b5a9.jpg",
                     "aId": 1
                 },
                 {
                     "answer": "Nostalgia fra Innsiden ut 2",
-                    "aPic": "./testname/img/no_img/sr_172014688366875bc3786d2.jpg",
+                    "aPic": "/testname/img/sr_172014688366875bc3786d2.jpg",
                     "aId": 2
                 }
             ]

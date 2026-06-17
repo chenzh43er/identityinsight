@@ -1,6 +1,6 @@
 let quizData = {
     "title": "あなたはどの斉木楠雄のΨ難のキャラクター？",
-    "mainPic": "./testname/img/jp_img/7a0ea7fac3add6f4576223912c481587.gif",
+    "mainPic": "/testname/img/7a0ea7fac3add6f4576223912c481587.gif",
     "thems": [
         "斉木楠雄",
         "アニメ",

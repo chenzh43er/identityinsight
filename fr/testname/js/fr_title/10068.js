@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Qui est votre partenaire parfait astrologique à l'école ? 💫🎒",
-    "mainPic": "./testname/img/fr_img/5733f4c5286c61332b3a744289e4ab79.gif",
+    "mainPic": "/testname/img/5733f4c5286c61332b3a744289e4ab79.gif",
     "thems": [
         "Amour",
         "Romance",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "Quel serait votre endroit idéal pour étudier ?",
-            "pic": "./testname/img/fr_img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
+            "pic": "/testname/img/dacc9bb6b2bda9eee0877568c39cfe26.jpg",
             "answers": [
                 {
                     "answer": "Dans le parc, en profitant du soleil",
@@ -42,7 +42,7 @@ let quizData = {
         },
         {
             "question": "Si vous deviez choisir un snack pour étudier, lequel serait-ce ?",
-            "pic": "./testname/img/fr_img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
+            "pic": "/testname/img/1a25691c22bb0d9909feb4c85f7d7f10.jpg",
             "answers": [
                 {
                     "answer": "Chips, j'ai besoin d'énergie !",
@@ -68,7 +68,7 @@ let quizData = {
         },
         {
             "question": "Quel type de musique vous motive à étudier?",
-            "pic": "./testname/img/fr_img/a3d33aac551d8e726e0cbb971694465c.jpg",
+            "pic": "/testname/img/a3d33aac551d8e726e0cbb971694465c.jpg",
             "answers": [
                 {
                     "answer": "Rock puissant, pour avoir de l'énergie!",
@@ -94,7 +94,7 @@ let quizData = {
         },
         {
             "question": "Quelle est ta matière préférée à l'école?",
-            "pic": "./testname/img/fr_img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
+            "pic": "/testname/img/8ada62e38b92cbd2e10e7f6d6331b39a.jpg",
             "answers": [
                 {
                     "answer": "Éducation Physique, j'adore bouger!",
@@ -120,7 +120,7 @@ let quizData = {
         },
         {
             "question": "Comment vous décririez-vous en un mot?",
-            "pic": "./testname/img/fr_img/410039c2dca9caa3663e60daef08aece.jpg",
+            "pic": "/testname/img/410039c2dca9caa3663e60daef08aece.jpg",
             "answers": [
                 {
                     "answer": "Passionné",
@@ -146,7 +146,7 @@ let quizData = {
         },
         {
             "question": "Que faites-vous lorsque vous êtes stressé avant un examen ?",
-            "pic": "./testname/img/fr_img/f3990bda1122727f78a00d38a71252b6.jpg",
+            "pic": "/testname/img/f3990bda1122727f78a00d38a71252b6.jpg",
             "answers": [
                 {
                     "answer": "Je fais de l'exercice pour libérer de l'énergie",

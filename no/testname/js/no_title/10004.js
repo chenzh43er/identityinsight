@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Har du tvangslidelse? Mild, alvorlig eller ekstrem?",
-    "mainPic": "./testname/img/no_img/dcbabb0a59fad1622d3184c948bd7789.gif",
+    "mainPic": "/testname/img/dcbabb0a59fad1622d3184c948bd7789.gif",
     "thems": [
         "PSYtest",
         "OCD",
@@ -10,7 +10,7 @@ let quizData = {
     "questions": [
         {
             "question": "Når noen forteller en vits, hvordan reagerer du vanligvis?",
-            "pic": "./testname/img/no_img/2566f635fbca5c863e0c13a69a369a48.jpg",
+            "pic": "/testname/img/2566f635fbca5c863e0c13a69a369a48.jpg",
             "answers": [
                 {
                     "answer": "Ler med en gang",
@@ -36,7 +36,7 @@ let quizData = {
         },
         {
             "question": "Hvordan føler du deg på steder som er overfylte eller støyende?",
-            "pic": "./testname/img/no_img/0b4f03ad444ae9ea5231cb3b084d7723.jpg",
+            "pic": "/testname/img/0b4f03ad444ae9ea5231cb3b084d7723.jpg",
             "answers": [
                 {
                     "answer": "Helt greit",
@@ -88,7 +88,7 @@ let quizData = {
         },
         {
             "question": "Hvordan håndterer du samtaler med fremmede?",
-            "pic": "./testname/img/no_img/b80b7134a018f8b564a44379369ae977.jpg",
+            "pic": "/testname/img/b80b7134a018f8b564a44379369ae977.jpg",
             "answers": [
                 {
                     "answer": "Lett og gøy",

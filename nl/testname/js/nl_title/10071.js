@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Schizofrenie Quiz | Ontdek of je de symptomen hebt!",
-    "mainPic": "./testname/img/nl_img/48b6dbe0882f7c331e81e7d21e484d45.gif",
+    "mainPic": "/testname/img/48b6dbe0882f7c331e81e7d21e484d45.gif",
     "thems": [
         "Schizofrenie",
         "Gezondheid",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "Andere mensen kunnen niet horen of dingen die ik kan.",
-            "pic": "./testname/img/nl_img/79fb41b7b633bf31d7d508884e779714.jpg",
+            "pic": "/testname/img/79fb41b7b633bf31d7d508884e779714.jpg",
             "answers": [
                 {
                     "answer": "De hele tijd",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "Kun je soms niet spreken?",
-            "pic": "./testname/img/nl_img/849d927583bd6beedb51f051dffc3969.jpg",
+            "pic": "/testname/img/849d927583bd6beedb51f051dffc3969.jpg",
             "answers": [
                 {
                     "answer": "Best vaak",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "Voelt het ooit alsof iemand anders je gedachten beheerst?",
-            "pic": "./testname/img/nl_img/5ce0dd72098dcbc0cfe7ef2cb0ae8dcd.jpg",
+            "pic": "/testname/img/5ce0dd72098dcbc0cfe7ef2cb0ae8dcd.jpg",
             "answers": [
                 {
                     "answer": "Nooit",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "Heb je een diagnose gekregen voor een aandoening die sommige van je ervaringen zou kunnen verklaren?",
-            "pic": "./testname/img/nl_img/aad9ece3262d6339efaa1e5138f149e7.jpg",
+            "pic": "/testname/img/aad9ece3262d6339efaa1e5138f149e7.jpg",
             "answers": [
                 {
                     "answer": "Ja, ik heb de diagnose van een andere aandoening gekregen",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "Kunnen voorgeschreven medicijnen, alcohol of drugs enigszins uw ervaringen verklaren?",
-            "pic": "./testname/img/nl_img/5ae8630b021c86e118e853eb14d97b4b.jpg",
+            "pic": "/testname/img/5ae8630b021c86e118e853eb14d97b4b.jpg",
             "answers": [
                 {
                     "answer": "Ik gebruik zelden een van deze middelen",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "Heb je soms moeite om te bepalen of wat je denkt echt is?",
-            "pic": "./testname/img/nl_img/ebc96fd14ecfa60f45f46bce0ea08897.jpg",
+            "pic": "/testname/img/ebc96fd14ecfa60f45f46bce0ea08897.jpg",
             "answers": [
                 {
                     "answer": "Vrij vaak",

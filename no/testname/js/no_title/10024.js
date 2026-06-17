@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvilken Disney-karakter er din sjelevenn?",
-    "mainPic": "./testname/img/no_img/57428bee3ace62b9e9e01a54c3e48090.gif",
+    "mainPic": "/testname/img/57428bee3ace62b9e9e01a54c3e48090.gif",
     "thems": [
         "Disney",
         "Disney-karakterer",

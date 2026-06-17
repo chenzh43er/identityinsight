@@ -1,11 +1,11 @@
 let quizData = {
     "title": "Var det dein Patronus? Finde es jetzt heraus!",
-    "mainPic": "./testname/img/de_img/ace397c48efa2482f39e547105d095f1.jpeg",
+    "mainPic": "/testname/img/ace397c48efa2482f39e547105d095f1.jpeg",
     "thems": ["Patronus", "Harry Potter", "Tierkreis", "Sternzeichen", "Horoskop", "Trosquiz"],
     "questions": [
         {
             "question": "Welche Umgebung lässt dich am meisten in Frieden fühlen?",
-            "pic": "./testname/img/de_img/02b90827ff2fb5611798d21f6921199f.png",
+            "pic": "/testname/img/02b90827ff2fb5611798d21f6921199f.png",
             "answers": [
                 {
                     "answer": "Ein ruhiger Wald, umgeben von Natur",
@@ -31,7 +31,7 @@ let quizData = {
         },
         {
             "question": "Tänk om det hände samtidigt?",
-            "pic": "./testname/img/de_img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
+            "pic": "/testname/img/ecf5c4a0e999e76c244b6f42d1d9da5d.png",
             "answers": [
                 {
                     "answer": "Bleiben Sie ruhig und gehen Sie geduldig vor",
@@ -57,7 +57,7 @@ let quizData = {
         },
         {
             "question": "Var det här en av mina vänner på egen hand?",
-            "pic": "./testname/img/de_img/06a300d161f778bf13a5930e8df4bf8a.png",
+            "pic": "/testname/img/06a300d161f778bf13a5930e8df4bf8a.png",
             "answers": [
                 {
                     "answer": "Deine Loyalität och Unterstützung",
@@ -83,7 +83,7 @@ let quizData = {
         },
         {
             "question": "Welches Hobby spricht dich am meisten an?",
-            "pic": "./testname/img/de_img/cee5af3bc3d7f41b1d09239eec6efad1.png",
+            "pic": "/testname/img/cee5af3bc3d7f41b1d09239eec6efad1.png",
             "answers": [
                 {
                     "answer": "Vandra",
@@ -109,7 +109,7 @@ let quizData = {
         },
         {
             "question": "Vilka reaktioner finns i en gruppsituation?",
-            "pic": "./testname/img/de_img/0d81cdc25e83a2de49bbddf69bcad834.png",
+            "pic": "/testname/img/0d81cdc25e83a2de49bbddf69bcad834.png",
             "answers": [
                 {
                     "answer": "Från bisten av Verlässliche",
@@ -135,7 +135,7 @@ let quizData = {
         },
         {
             "question": "Welches Wort beschreibt dich am besten?",
-            "pic": "./testname/img/de_img/0174342c1cb77af3af0fd1103526f278.png",
+            "pic": "/testname/img/0174342c1cb77af3af0fd1103526f278.png",
             "answers": [
                 {
                     "answer": "Fursorglich",

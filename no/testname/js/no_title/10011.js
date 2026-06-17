@@ -1,6 +1,6 @@
 let quizData = {
     "title": "Hvordan ser din perfekte AI-kjæreste ut? 🤖💘",
-    "mainPic": "./testname/img/no_img/24430468371adeffa194449d08be3485.gif",
+    "mainPic": "/testname/img/24430468371adeffa194449d08be3485.gif",
     "thems": [
         "Kjærlighet",
         "Romantikk",
@@ -16,7 +16,7 @@ let quizData = {
     "questions": [
         {
             "question": "Hva gjør at du først faller for noen?",
-            "pic": "./testname/img/no_img/53512a0b45de6dbfc31433c8d28c617e.jpg",
+            "pic": "/testname/img/53512a0b45de6dbfc31433c8d28c617e.jpg",
             "answers": [
                 {
                     "answer": "Hans sødme og godhet",
@@ -42,7 +42,7 @@ let quizData = {
         },
         {
             "question": "Hvilken fysisk egenskap fanger din oppmerksomhet?",
-            "pic": "./testname/img/no_img/627da427ffb512cc7b9da9114b43fd7e.jpg",
+            "pic": "/testname/img/627da427ffb512cc7b9da9114b43fd7e.jpg",
             "answers": [
                 {
                     "answer": "Et ungdommelig og vennlig ansikt",
@@ -72,29 +72,29 @@ let quizData = {
             "answers": [
                 {
                     "answer": "Kaffe mens vi leser en god bok sammen",
-                    "aPic": "./testname/img/no_img/37cc441d127694f7e0e23fbdde1243b7.jpeg",
+                    "aPic": "/testname/img/37cc441d127694f7e0e23fbdde1243b7.jpeg",
                     "aId": 1
                 },
                 {
                     "answer": "En tur i parken etter treningen hans",
-                    "aPic": "./testname/img/no_img/8002594c336ce44dfb3d0b2c8013972c.jpeg",
+                    "aPic": "/testname/img/8002594c336ce44dfb3d0b2c8013972c.jpeg",
                     "aId": 2
                 },
                 {
                     "answer": "En hjemmelaget middag mens han deler sine drømmer og planer",
-                    "aPic": "./testname/img/no_img/658f8d4e5669ed6123a421f8391ddba5.jpeg",
+                    "aPic": "/testname/img/658f8d4e5669ed6123a421f8391ddba5.jpeg",
                     "aId": 3
                 },
                 {
                     "answer": "En film- og pizzakveld",
-                    "aPic": "./testname/img/no_img/78df646ea1a74f5da500d21d31f8bb71.jpeg",
+                    "aPic": "/testname/img/78df646ea1a74f5da500d21d31f8bb71.jpeg",
                     "aId": 4
                 }
             ]
         },
         {
             "question": "Hvordan bør stilen deres være?",
-            "pic": "./testname/img/no_img/d4985df7bb008455f23ea355362f59f1.jpg",
+            "pic": "/testname/img/d4985df7bb008455f23ea355362f59f1.jpg",
             "answers": [
                 {
                     "answer": "Casual og komfortabel, med et ungdommelig preg",
@@ -120,7 +120,7 @@ let quizData = {
         },
         {
             "question": "Hvilken egenskap tiltrekker deg mest hos noen?",
-            "pic": "./testname/img/no_img/845c5b96ca56ec2940233f40fff872e2.jpg",
+            "pic": "/testname/img/845c5b96ca56ec2940233f40fff872e2.jpg",
             "answers": [
                 {
                     "answer": "At han alltid er søt og oppmerksom",
@@ -146,7 +146,7 @@ let quizData = {
         },
         {
             "question": "Hva er det største 'røde flagget' for deg?",
-            "pic": "./testname/img/no_img/8db4c8ccde91934c39ae032217cda81f.jpg",
+            "pic": "/testname/img/8db4c8ccde91934c39ae032217cda81f.jpg",
             "answers": [
                 {
                     "answer": "Å være uoppmerksom og kald",

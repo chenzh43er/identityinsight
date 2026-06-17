@@ -1,6 +1,6 @@
 let quizData = {
     "title": "どのRobloxアバターがあなたの雰囲気に合う？",
-    "mainPic": "./testname/img/jp_img/02a34a87a28eda0a9c75823456eb6e3c.gif",
+    "mainPic": "/testname/img/02a34a87a28eda0a9c75823456eb6e3c.gif",
     "thems": [
         "Roblox",
         "アバター",
@@ -11,7 +11,7 @@ let quizData = {
     "questions": [
         {
             "question": "理想的な週末のアクティビティは何ですか？",
-            "pic": "./testname/img/jp_img/1485e83eabb791de38c2ff2983845481.png",
+            "pic": "/testname/img/1485e83eabb791de38c2ff2983845481.png",
             "answers": [
                 {
                     "answer": "ジムに行く",
@@ -37,7 +37,7 @@ let quizData = {
         },
         {
             "question": "好きな色を選んでください。",
-            "pic": "./testname/img/jp_img/117bd17f44c1d3504fc11a3345a2c357.png",
+            "pic": "/testname/img/117bd17f44c1d3504fc11a3345a2c357.png",
             "answers": [
                 {
                     "answer": "赤",
@@ -63,7 +63,7 @@ let quizData = {
         },
         {
             "question": "友達はあなたをどう表現しますか？",
-            "pic": "./testname/img/jp_img/1bb231d392834e95ffb3146c5885dff0.png",
+            "pic": "/testname/img/1bb231d392834e95ffb3146c5885dff0.png",
             "answers": [
                 {
                     "answer": "エネルギッシュ",
@@ -89,7 +89,7 @@ let quizData = {
         },
         {
             "question": "最初に手に取るのはどのスナック？",
-            "pic": "./testname/img/jp_img/444dff04c7d21a44dce961e54b36ffc8.png",
+            "pic": "/testname/img/444dff04c7d21a44dce961e54b36ffc8.png",
             "answers": [
                 {
                     "answer": "プロテインバー",
@@ -115,7 +115,7 @@ let quizData = {
         },
         {
             "question": "あなたの夢の仕事は何ですか？",
-            "pic": "./testname/img/jp_img/b0d51dcce3166e108a6b5982b3e2c792.png",
+            "pic": "/testname/img/b0d51dcce3166e108a6b5982b3e2c792.png",
             "answers": [
                 {
                     "answer": "アスリート",
@@ -141,7 +141,7 @@ let quizData = {
         },
         {
             "question": "趣味を選んでください。",
-            "pic": "./testname/img/jp_img/c82372b96a77e8a3fa98f938ee81679f.png",
+            "pic": "/testname/img/c82372b96a77e8a3fa98f938ee81679f.png",
             "answers": [
                 {
                     "answer": "運動",
@@ -193,7 +193,7 @@ let quizData = {
         },
         {
             "question": "100ドル札を見つけたら何に使いますか？",
-            "pic": "./testname/img/jp_img/7479bc818acfa775256e80a42f016fe7.png",
+            "pic": "/testname/img/7479bc818acfa775256e80a42f016fe7.png",
             "answers": [
                 {
                     "answer": "トレーニングギア",
