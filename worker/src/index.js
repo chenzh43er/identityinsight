@@ -1,5 +1,13 @@
 ﻿const ORIGIN = "https://identityinsight.org";
 
+// Known cloud/hosting ASNs — mirrors WAF Rule 1 (Block datacenter traffic)
+const CLOUD_ASNS = new Set([
+  16509, 14618, 15169, 396982, 8075, 8068, 8069, 14061, 16276, 24940,
+  20473, 63949, 31898, 12876, 45102, 37963, 132203, 45090, 20940, 54600,
+  47583, 51167, 62240, 46606, 36351, 35916, 36352, 60781, 29802, 60068,
+  51177, 9009, 2635, 14117, 4134,
+]);
+
 const LANGS = new Set(["en", "de", "fr", "es", "pt", "ar", "no", "jp", "sv", "nl"]);
 const CATEGORIES = new Set([
   "daily", "weekly", "monthly", "yearly", "love", "health", "career", "sex", "zodiac-love",
@@ -96,6 +104,19 @@ async function serveLocalAssets(request, env, url) {
   return response;
 }
 
+function isVerifiedBot(request) {
+  const cf = request.cf;
+  if (!cf) return false;
+  return Boolean(cf.botManagement?.verifiedBot || cf.verifiedBotCategory);
+}
+
+function shouldBlockDatacenter(request, env, url) {
+  if (isLocalDev(request, env, url)) return false;
+  if (isVerifiedBot(request)) return false;
+  const asn = request.cf?.asn;
+  return typeof asn === "number" && CLOUD_ASNS.has(asn);
+}
+
 function passThrough(request, env, url) {
   if (isLocalDev(request, env, url) && env.ASSETS) {
     return serveLocalAssets(request, env, url);
@@ -107,6 +128,11 @@ function passThrough(request, env, url) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+
+    if (shouldBlockDatacenter(request, env, url)) {
+      return new Response("Forbidden", { status: 403 });
+    }
+
     return passThrough(request, env, url);
   },
 };

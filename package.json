@@ -11,6 +11,7 @@
     "restore:horoscope-detail": "node scripts/restore-horoscope-detail.js",
     "generate:horoscope": "node scripts/generate-monthly-horoscope.js",
     "deploy:pages": "wrangler pages deploy . --project-name=identityinsight --commit-dirty=true",
+    "deploy:waf-rules": "node scripts/deploy-waf-traffic-rules.mjs",
     "deploy:worker": "wrangler deploy --config worker/wrangler.toml",
     "dev:worker": "node worker/scripts/local-dev.mjs",
     "dev:worker:wrangler": "wrangler dev --config worker/wrangler.dev.toml --port 8787",
