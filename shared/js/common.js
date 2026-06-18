@@ -1,3 +1,11 @@
+function normalizePicUrl(pic) {
+    if (!pic) return pic;
+    return pic
+        .replace('gif', 'png')
+        .replace(/https:\/\/identityinsight\.org\/testCommon\d+/g, '/testname')
+        .replace(/(?:\.\.\/|\.\/|\/)?testname\/img\/[a-z]{2}_img\//g, '/testname/img/');
+}
+
 function getLangFromPath() {
     const LANG_CODES = ['fr', 'es', 'pt', 'en', 'de', 'ar', 'jp', 'no', 'sv', 'nl'];
     const pathSegments = window.location.pathname.split('/').filter(Boolean);

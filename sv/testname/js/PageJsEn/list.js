@@ -27,14 +27,7 @@
 
         if(index == 0 && !isNull(testData) && isM == 0){
 
-        testData.pic = testData.pic
-        .replace("gif","png").replace("https://identityinsight.org/testCommon4","./testname")
-        .replace("https://identityinsight.org/testCommon4","./testname")
-        .replace("https://identityinsight.org/testCommon5","./testname")
-        .replace("https://identityinsight.org/testCommon6","./testname")
-        .replace("https://identityinsight.org/testCommon7","./testname")
-        .replace("https://identityinsight.org/testCommon8","./testname")
-        .replace("https://identityinsight.org/testCommon9","./testname")
+        testData.pic = normalizePicUrl(testData.pic)
 
         let contentIndex0Html = `
                 <a href="${testData.url}" class="container-list-item common_list_a">
@@ -82,13 +75,7 @@
         item.url = item.url + "&utm_campaign=" + utm_campaign
     }
 
-        item.pic = item.pic.replace("gif","png")
-        .replace("https://identityinsight.org/testCommon4","./testname")
-        .replace("https://identityinsight.org/testCommon5","./testname")
-        .replace("https://identityinsight.org/testCommon6","./testname")
-        .replace("https://identityinsight.org/testCommon7","./testname")
-        .replace("https://identityinsight.org/testCommon8","./testname")
-        .replace("https://identityinsight.org/testCommon9","./testname")
+        item.pic = normalizePicUrl(item.pic)
 
         let contentOtherHtml = ``;
 
