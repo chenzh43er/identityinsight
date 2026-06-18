@@ -37,8 +37,8 @@
 
         // 设置主图
 
-        quizData.mainPic = quizData.mainPic
-        .replace("https://identityinsight.org/testCommon4", "./testname")
+        quizData.mainPic = normalizePicUrl(quizData.mainPic)
+
 
         document.getElementById('mainPic').src = quizData.mainPic;
         document.getElementById('mainPic').alt = quizData.title;
@@ -71,8 +71,7 @@
         function renderQuestions() {
         const questionsHtml = quizData.questions.map((q, index) => {
 
-        q.pic = q.pic.replace("gif", "png")
-        .replace("https://identityinsight.org/testCommon4", "./testname")
+        q.pic = normalizePicUrl(q.pic)
 
         let questionHTML = `
           <div class="newSelectTest-choiceType-pa-gonggong newSelectTest-choiceType-pa video_shot ${index === 0 ? 'chooseingItem' : 'nochooseItem'}">
@@ -93,7 +92,7 @@
             ${answer.aPic ? `
               <div class="newSelectTest-choiceType imgchoiceItem" data-question="${answer.answer}"
                      data-answer="${answer.aId}">
-                <img src="${answer.aPic.replace("https://identityinsight.org/testCommon4", "./testname")}" loading="lazy"/>
+                <img src="${normalizePicUrl(answer.aPic)}" loading="lazy"/>
                 <p>${answer.answer}</p>
                 </div>
             ` : `
@@ -366,8 +365,8 @@
     }
 
         item.url = item.url.replace("titleid","utm_content")
-        item.pic = item.pic
-        .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
+        item.pic = normalizePicUrl(item.pic)
+.replace("gif","png")
 
         let moHtml = `
                 <a href="${item.url}" class="container-list-item common_list_a">
@@ -575,8 +574,8 @@
 
 
                 item.url = item.url.replace("titleid","utm_content")
-                item.pic = item.pic
-                    .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
+                item.pic = normalizePicUrl(item.pic)
+.replace("gif","png")
 
                 let recHtml = `
                 <a href="${item.url}" class="container-list-item common_list_a">

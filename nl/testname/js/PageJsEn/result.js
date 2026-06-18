@@ -131,7 +131,7 @@
         document.getElementById('test-title').textContent = result.title;
         document.getElementById('resultTitle').textContent = result.resultTitle;
         document.getElementById('resultDescription').textContent = result.description;
-        document.getElementById('resultMainPic').src=result.mainPic.replace("https://identityinsight.org/testCommon4","./testname");
+        document.getElementById('resultMainPic').src=normalizePicUrl(result.mainPic);
     });
 
         // loadScript("https://identityinsight.org/testCommon4/js/fr_result/" + titelId + ".js", function () {
@@ -264,8 +264,8 @@
     }
 
         item.url = item.url.replace("titleid","utm_content")
-        item.pic = item.pic
-        .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
+        item.pic = normalizePicUrl(item.pic)
+.replace("gif","png")
 
         let moHtml = `
                 <a href="${item.url}" class="container-list-item common_list_a">
@@ -473,8 +473,8 @@
 
 
                 item.url = item.url.replace("titleid","utm_content")
-                item.pic = item.pic
-                    .replace("https://identityinsight.org/testCommon4","./testname").replace("gif","png")
+                item.pic = normalizePicUrl(item.pic)
+.replace("gif","png")
 
                 let recHtml = `
                 <a href="${item.url}" class="container-list-item common_list_a">
