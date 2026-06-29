@@ -1,4 +1,5 @@
 ﻿const ORIGIN = "https://identityinsight.org";
+const PAGES_ORIGIN = "https://identityinsight.pages.dev";
 
 // Known cloud/hosting ASNs — mirrors WAF Rule 1 (Block datacenter traffic)
 const CLOUD_ASNS = new Set([
@@ -61,25 +62,44 @@ function mapHoroscopeRoute(pathname) {
   return pathname;
 }
 
+function buildUpstreamHeaders(request) {
+  return {
+    Accept: request.headers.get("Accept") ?? "*/*",
+    "Accept-Encoding": request.headers.get("Accept-Encoding") ?? "gzip, deflate, br",
+    "Accept-Language": request.headers.get("Accept-Language") ?? "en",
+  };
+}
+
 function fetchFromOrigin(request, env, url, target) {
   const targetUrl = target ?? new URL(url.pathname + url.search, ORIGIN).toString();
-  if (isLocalDev(request, env, url)) {
-    return fetch(targetUrl, {
-      method: request.method,
-      headers: {
-        Accept: request.headers.get("Accept") ?? "*/*",
-        "Accept-Encoding": request.headers.get("Accept-Encoding") ?? "gzip, deflate, br",
-        "Accept-Language": request.headers.get("Accept-Language") ?? "en",
-      },
-      body: request.method !== "GET" && request.method !== "HEAD" ? request.body : undefined,
-      redirect: "follow",
-    });
-  }
   return fetch(targetUrl, {
     method: request.method,
-    headers: request.headers,
+    headers: buildUpstreamHeaders(request),
     body: request.method !== "GET" && request.method !== "HEAD" ? request.body : undefined,
+    redirect: "follow",
   });
+}
+
+async function fetchFromPages(request, url, mappedPath) {
+  const fetchInit = {
+    method: request.method,
+    headers: buildUpstreamHeaders(request),
+    redirect: "follow",
+  };
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    fetchInit.body = request.body;
+  }
+
+  let response = await fetch(new URL(mappedPath + url.search, PAGES_ORIGIN).toString(), fetchInit);
+
+  if (response.status === 404 && !mappedPath.endsWith(".html")) {
+    const htmlPath = mappedPath.endsWith("/")
+      ? `${mappedPath}index.html`
+      : `${mappedPath}.html`;
+    response = await fetch(new URL(htmlPath + url.search, PAGES_ORIGIN).toString(), fetchInit);
+  }
+
+  return response;
 }
 
 async function serveLocalAssets(request, env, url) {
@@ -117,22 +137,40 @@ function shouldBlockDatacenter(request, env, url) {
   return typeof asn === "number" && CLOUD_ASNS.has(asn);
 }
 
-function passThrough(request, env, url) {
+async function passThrough(request, env, url) {
   if (isLocalDev(request, env, url) && env.ASSETS) {
     return serveLocalAssets(request, env, url);
   }
-  if (isLocalDev(request, env, url)) return fetchFromOrigin(request, env, url);
-  return fetch(request);
+  if (isLocalDev(request, env, url)) {
+    return fetchFromOrigin(request, env, url);
+  }
+
+  const mappedPath = mapHoroscopeRoute(url.pathname);
+  if (shouldProxyToOrigin(url.pathname)) {
+    return fetchFromOrigin(
+      request,
+      env,
+      url,
+      new URL(url.pathname + url.search, PAGES_ORIGIN).toString(),
+    );
+  }
+
+  // Avoid fetch(request) on the same hostname — it can recurse through this Worker route.
+  return fetchFromPages(request, url, mappedPath);
 }
 
 export default {
   async fetch(request, env) {
-    const url = new URL(request.url);
+    try {
+      const url = new URL(request.url);
 
-    if (shouldBlockDatacenter(request, env, url)) {
-      return new Response("Forbidden", { status: 403 });
+      if (shouldBlockDatacenter(request, env, url)) {
+        return new Response("Forbidden", { status: 403 });
+      }
+
+      return await passThrough(request, env, url);
+    } catch (error) {
+      return new Response(`Worker error: ${error?.message ?? error}`, { status: 502 });
     }
-
-    return passThrough(request, env, url);
   },
 };
